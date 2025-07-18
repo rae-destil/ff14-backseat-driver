@@ -1,1 +1,10576 @@
-{"id" : 0, "dps" : "do dmg", "healer" : "-keep tank alive\n-don't die", "tank" : "-use stance\n-use mitigations"}
+{
+  "1": {
+    "en": null,
+    "maps": {
+      "1": {
+        "en": "Eorzea",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "2": {
+    "en": null,
+    "maps": {}
+  },
+  "3": {
+    "en": null,
+    "maps": {}
+  },
+  "4": {
+    "en": null,
+    "maps": {}
+  },
+  "5": {
+    "en": null,
+    "maps": {}
+  },
+  "6": {
+    "en": null,
+    "maps": {}
+  },
+  "7": {
+    "en": null,
+    "maps": {}
+  },
+  "8": {
+    "en": null,
+    "maps": {}
+  },
+  "9": {
+    "en": null,
+    "maps": {}
+  },
+  "10": {
+    "en": null,
+    "maps": {}
+  },
+  "11": {
+    "en": null,
+    "maps": {}
+  },
+  "12": {
+    "en": null,
+    "maps": {}
+  },
+  "13": {
+    "en": null,
+    "maps": {}
+  },
+  "14": {
+    "en": null,
+    "maps": {}
+  },
+  "15": {
+    "en": null,
+    "maps": {}
+  },
+  "16": {
+    "en": null,
+    "maps": {}
+  },
+  "17": {
+    "en": null,
+    "maps": {}
+  },
+  "18": {
+    "en": null,
+    "maps": {}
+  },
+  "19": {
+    "en": null,
+    "maps": {}
+  },
+  "20": {
+    "en": null,
+    "maps": {}
+  },
+  "21": {
+    "en": null,
+    "maps": {}
+  },
+  "22": {
+    "en": null,
+    "maps": {
+      "29": {
+        "en": null,
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "24": {
+    "en": null,
+    "maps": {}
+  },
+  "25": {
+    "en": null,
+    "maps": {}
+  },
+  "26": {
+    "en": null,
+    "maps": {}
+  },
+  "27": {
+    "en": null,
+    "maps": {}
+  },
+  "28": {
+    "en": null,
+    "maps": {}
+  },
+  "29": {
+    "en": null,
+    "maps": {}
+  },
+  "30": {
+    "en": null,
+    "maps": {}
+  },
+  "31": {
+    "en": null,
+    "maps": {}
+  },
+  "128": {
+    "en": "Limsa Lominsa Upper Decks",
+    "maps": {
+      "11": {
+        "en": "Limsa Lominsa Upper Decks",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "74": {
+        "en": "Limsa Lominsa Upper Decks",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "129": {
+    "en": "Limsa Lominsa Lower Decks",
+    "maps": {
+      "12": {
+        "en": "Limsa Lominsa Lower Decks",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "548": {
+        "en": "Dutiful Sisters of the Edelweiss",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "130": {
+    "en": "Ul'dah - Steps of Nald",
+    "maps": {
+      "13": {
+        "en": "Ul'dah - Steps of Nald",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "70": {
+        "en": "Ul'dah - Steps of Nald",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "131": {
+    "en": "Ul'dah - Steps of Thal",
+    "maps": {
+      "14": {
+        "en": "Ul'dah - Steps of Thal",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "73": {
+        "en": "Ul'dah - Steps of Thal",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "132": {
+    "en": "New Gridania",
+    "maps": {
+      "2": {
+        "en": "New Gridania",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "133": {
+    "en": "Old Gridania",
+    "maps": {
+      "3": {
+        "en": "Old Gridania",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "134": {
+    "en": "Middle La Noscea",
+    "maps": {
+      "15": {
+        "en": "Middle La Noscea",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "135": {
+    "en": "Lower La Noscea",
+    "maps": {
+      "16": {
+        "en": "Lower La Noscea",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "136": {
+    "en": "Mist",
+    "maps": {}
+  },
+  "137": {
+    "en": "Eastern La Noscea",
+    "maps": {
+      "17": {
+        "en": "Eastern La Noscea",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "181": {
+        "en": "South Shroud",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "549": {
+        "en": "Dock Storehouse",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "138": {
+    "en": "Western La Noscea",
+    "maps": {
+      "18": {
+        "en": "Western La Noscea",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "139": {
+    "en": "Upper La Noscea",
+    "maps": {
+      "19": {
+        "en": "Upper La Noscea",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "140": {
+    "en": "Western Thanalan",
+    "maps": {
+      "20": {
+        "en": "Western Thanalan",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "141": {
+    "en": "Central Thanalan",
+    "maps": {
+      "21": {
+        "en": "Central Thanalan",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "142": {
+    "en": "Halatali",
+    "maps": {
+      "195": {
+        "en": "Halatali",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "143": {
+    "en": null,
+    "maps": {}
+  },
+  "144": {
+    "en": "The Gold Saucer",
+    "maps": {
+      "196": {
+        "en": "The Gold Saucer",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "145": {
+    "en": "Eastern Thanalan",
+    "maps": {
+      "22": {
+        "en": "Eastern Thanalan",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "146": {
+    "en": "Southern Thanalan",
+    "maps": {
+      "23": {
+        "en": "Southern Thanalan",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "93": {
+        "en": "Southern Thanalan",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "147": {
+    "en": "Northern Thanalan",
+    "maps": {
+      "24": {
+        "en": "Northern Thanalan",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "148": {
+    "en": "Central Shroud",
+    "maps": {
+      "4": {
+        "en": "Central Shroud",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "149": {
+    "en": "The Feasting Grounds",
+    "maps": {}
+  },
+  "150": {
+    "en": null,
+    "maps": {}
+  },
+  "151": {
+    "en": "The World of Darkness",
+    "maps": {
+      "184": {
+        "en": "The World of Darkness",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "185": {
+        "en": "The Belly of the Beast",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "152": {
+    "en": "East Shroud",
+    "maps": {
+      "5": {
+        "en": "East Shroud",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "180": {
+        "en": "East Shroud",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "209": {
+        "en": "Sanctum of the Twelve",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "153": {
+    "en": "South Shroud",
+    "maps": {
+      "6": {
+        "en": "South Shroud",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "154": {
+    "en": "North Shroud",
+    "maps": {
+      "7": {
+        "en": "North Shroud",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "155": {
+    "en": "Coerthas Central Highlands",
+    "maps": {
+      "53": {
+        "en": "Coerthas Central Highlands",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "156": {
+    "en": "Mor Dhona",
+    "maps": {
+      "25": {
+        "en": "Mor Dhona",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "105": {
+        "en": "Mor Dhona",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "157": {
+    "en": null,
+    "maps": {}
+  },
+  "158": {
+    "en": null,
+    "maps": {}
+  },
+  "159": {
+    "en": "The Wanderer's Palace",
+    "maps": {
+      "32": {
+        "en": "The Wanderer's Palace",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "160": {
+    "en": "Pharos Sirius",
+    "maps": {
+      "108": {
+        "en": "Pharos Sirius",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "130": {
+        "en": "Pharos Sirius",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "131": {
+        "en": "Pharos Sirius",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "132": {
+        "en": "Pharos Sirius",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "133": {
+        "en": "Pharos Sirius",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "134": {
+        "en": "Pharos Sirius",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "161": {
+    "en": null,
+    "maps": {}
+  },
+  "162": {
+    "en": "Halatali",
+    "maps": {
+      "46": {
+        "en": "Halatali",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "163": {
+    "en": "The Sunken Temple of Qarn",
+    "maps": {
+      "42": {
+        "en": "The Sunken Temple of Qarn",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "43": {
+        "en": "The Sunken Temple of Qarn",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "44": {
+        "en": "The Sunken Temple of Qarn",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "164": {
+    "en": null,
+    "maps": {}
+  },
+  "166": {
+    "en": null,
+    "maps": {}
+  },
+  "167": {
+    "en": "Amdapor Keep",
+    "maps": {
+      "49": {
+        "en": "Amdapor Keep",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "84": {
+        "en": "Amdapor Keep",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "85": {
+        "en": "Amdapor Keep",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "210": {
+        "en": "Amdapor Keep",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "168": {
+    "en": null,
+    "maps": {}
+  },
+  "169": {
+    "en": null,
+    "maps": {}
+  },
+  "170": {
+    "en": "Cutter's Cry",
+    "maps": {
+      "52": {
+        "en": "Cutter's Cry",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "96": {
+        "en": "Cutter's Cry",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "97": {
+        "en": "Cutter's Cry",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "171": {
+    "en": "Dzemael Darkhold",
+    "maps": {
+      "50": {
+        "en": "Dzemael Darkhold",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "86": {
+        "en": "Dzemael Darkhold",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "172": {
+    "en": "Aurum Vale",
+    "maps": {
+      "38": {
+        "en": "Aurum Vale",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "174": {
+    "en": "Labyrinth of the Ancients",
+    "maps": {
+      "71": {
+        "en": "Labyrinth of the Ancients",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "135": {
+        "en": "Labyrinth of the Ancients",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "175": {
+    "en": null,
+    "maps": {
+      "81": {
+        "en": "The Fold",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "176": {
+    "en": "Mordion Gaol",
+    "maps": {}
+  },
+  "177": {
+    "en": "Mizzenmast Inn",
+    "maps": {
+      "26": {
+        "en": "Mizzenmast Inn",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "178": {
+    "en": "The Hourglass",
+    "maps": {
+      "27": {
+        "en": "The Hourglass",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "179": {
+    "en": "The Roost",
+    "maps": {
+      "28": {
+        "en": "The Roost",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "180": {
+    "en": "Outer La Noscea",
+    "maps": {
+      "30": {
+        "en": "Outer La Noscea",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "181": {
+    "en": "Limsa Lominsa",
+    "maps": {}
+  },
+  "182": {
+    "en": "Ul'dah - Steps of Nald",
+    "maps": {}
+  },
+  "183": {
+    "en": "New Gridania",
+    "maps": {}
+  },
+  "184": {
+    "en": null,
+    "maps": {}
+  },
+  "185": {
+    "en": null,
+    "maps": {}
+  },
+  "186": {
+    "en": null,
+    "maps": {}
+  },
+  "187": {
+    "en": null,
+    "maps": {}
+  },
+  "188": {
+    "en": "The Wanderer's Palace",
+    "maps": {
+      "188": {
+        "en": "The Wanderer's Palace (Hard)",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "189": {
+    "en": "Amdapor Keep",
+    "maps": {
+      "189": {
+        "en": "Amdapor Keep (Hard)",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "190": {
+        "en": "Amdapor Keep (Hard)",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "191": {
+        "en": "Amdapor Keep (Hard)",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "190": {
+    "en": "Central Shroud",
+    "maps": {}
+  },
+  "191": {
+    "en": "East Shroud",
+    "maps": {}
+  },
+  "192": {
+    "en": "South Shroud",
+    "maps": {}
+  },
+  "193": {
+    "en": "IC-06 Central Decks",
+    "maps": {
+      "175": {
+        "en": "IC-06 Central Decks",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "194": {
+    "en": "IC-06 Regeneration Grid",
+    "maps": {
+      "176": {
+        "en": "IC-06 Regeneration Grid",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "195": {
+    "en": "IC-06 Main Bridge",
+    "maps": {
+      "177": {
+        "en": "IC-06 Main Bridge",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "196": {
+    "en": "The Burning Heart",
+    "maps": {
+      "178": {
+        "en": "The Burning Heart",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "197": {
+    "en": null,
+    "maps": {}
+  },
+  "198": {
+    "en": "Command Room",
+    "maps": {
+      "75": {
+        "en": "Command Room",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "199": {
+    "en": null,
+    "maps": {}
+  },
+  "200": {
+    "en": null,
+    "maps": {}
+  },
+  "201": {
+    "en": null,
+    "maps": {}
+  },
+  "202": {
+    "en": null,
+    "maps": {}
+  },
+  "203": {
+    "en": null,
+    "maps": {}
+  },
+  "204": {
+    "en": "Seat of the First Bow",
+    "maps": {
+      "68": {
+        "en": "Seat of the First Bow",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "205": {
+    "en": "Lotus Stand",
+    "maps": {
+      "69": {
+        "en": "Lotus Stand",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "206": {
+    "en": null,
+    "maps": {}
+  },
+  "207": {
+    "en": null,
+    "maps": {}
+  },
+  "208": {
+    "en": null,
+    "maps": {}
+  },
+  "209": {
+    "en": null,
+    "maps": {}
+  },
+  "210": {
+    "en": "Heart of the Sworn",
+    "maps": {
+      "78": {
+        "en": "Heart of the Sworn",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "211": {
+    "en": null,
+    "maps": {}
+  },
+  "212": {
+    "en": "The Waking Sands",
+    "maps": {
+      "80": {
+        "en": "The Waking Sands",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "94": {
+        "en": "The Waking Sands",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "107": {
+        "en": "The Waking Sands",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "213": {
+    "en": null,
+    "maps": {}
+  },
+  "214": {
+    "en": "Middle La Noscea",
+    "maps": {}
+  },
+  "215": {
+    "en": "Western Thanalan",
+    "maps": {}
+  },
+  "216": {
+    "en": "Central Thanalan",
+    "maps": {}
+  },
+  "217": {
+    "en": null,
+    "maps": {}
+  },
+  "218": {
+    "en": null,
+    "maps": {}
+  },
+  "219": {
+    "en": "Central Shroud",
+    "maps": {}
+  },
+  "220": {
+    "en": "South Shroud",
+    "maps": {}
+  },
+  "221": {
+    "en": "Upper La Noscea",
+    "maps": {}
+  },
+  "222": {
+    "en": "Lower La Noscea",
+    "maps": {}
+  },
+  "223": {
+    "en": "Coerthas Central Highlands",
+    "maps": {}
+  },
+  "224": {
+    "en": null,
+    "maps": {}
+  },
+  "225": {
+    "en": "Central Shroud",
+    "maps": {}
+  },
+  "226": {
+    "en": "Central Shroud",
+    "maps": {}
+  },
+  "227": {
+    "en": "Central Shroud",
+    "maps": {}
+  },
+  "228": {
+    "en": "North Shroud",
+    "maps": {}
+  },
+  "229": {
+    "en": "South Shroud",
+    "maps": {}
+  },
+  "230": {
+    "en": "Central Shroud",
+    "maps": {}
+  },
+  "231": {
+    "en": "South Shroud",
+    "maps": {}
+  },
+  "232": {
+    "en": "South Shroud",
+    "maps": {}
+  },
+  "233": {
+    "en": "Central Shroud",
+    "maps": {}
+  },
+  "234": {
+    "en": "East Shroud",
+    "maps": {}
+  },
+  "235": {
+    "en": "South Shroud",
+    "maps": {}
+  },
+  "236": {
+    "en": "South Shroud",
+    "maps": {}
+  },
+  "237": {
+    "en": "Central Shroud",
+    "maps": {}
+  },
+  "238": {
+    "en": "Old Gridania",
+    "maps": {}
+  },
+  "239": {
+    "en": "Central Shroud",
+    "maps": {}
+  },
+  "240": {
+    "en": "North Shroud",
+    "maps": {}
+  },
+  "241": {
+    "en": "Upper Aetheroacoustic Exploratory Site",
+    "maps": {
+      "57": {
+        "en": "Upper Aetheroacoustic Exploratory Site",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "242": {
+    "en": "Lower Aetheroacoustic Exploratory Site",
+    "maps": {
+      "58": {
+        "en": "Lower Aetheroacoustic Exploratory Site",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "243": {
+    "en": "The Ragnarok",
+    "maps": {
+      "62": {
+        "en": "The Ragnarok",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "63": {
+        "en": "The Ragnarok",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "64": {
+        "en": "The Ragnarok",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "244": {
+    "en": "Ragnarok Drive Cylinder",
+    "maps": {
+      "59": {
+        "en": "Ragnarok Drive Cylinder",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "245": {
+    "en": "Ragnarok Central Core",
+    "maps": {
+      "60": {
+        "en": "Ragnarok Central Core",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "246": {
+    "en": "IC-04 Main Bridge",
+    "maps": {}
+  },
+  "247": {
+    "en": "Ragnarok Main Bridge",
+    "maps": {
+      "61": {
+        "en": "Ragnarok Main Bridge",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "248": {
+    "en": "Central Thanalan",
+    "maps": {}
+  },
+  "249": {
+    "en": "Lower La Noscea",
+    "maps": {}
+  },
+  "250": {
+    "en": "Wolves' Den Pier",
+    "maps": {
+      "51": {
+        "en": "Wolves' Den Pier",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "251": {
+    "en": "Ul'dah - Steps of Nald",
+    "maps": {}
+  },
+  "252": {
+    "en": "Middle La Noscea",
+    "maps": {}
+  },
+  "253": {
+    "en": "Central Thanalan",
+    "maps": {}
+  },
+  "254": {
+    "en": "Ul'dah - Steps of Nald",
+    "maps": {}
+  },
+  "255": {
+    "en": "Western Thanalan",
+    "maps": {}
+  },
+  "256": {
+    "en": "Eastern Thanalan",
+    "maps": {}
+  },
+  "257": {
+    "en": "Eastern Thanalan",
+    "maps": {}
+  },
+  "258": {
+    "en": "Central Thanalan",
+    "maps": {}
+  },
+  "259": {
+    "en": "Ul'dah - Steps of Nald",
+    "maps": {}
+  },
+  "260": {
+    "en": "Southern Thanalan",
+    "maps": {}
+  },
+  "261": {
+    "en": "Southern Thanalan",
+    "maps": {}
+  },
+  "262": {
+    "en": "Lower La Noscea",
+    "maps": {}
+  },
+  "263": {
+    "en": "Western La Noscea",
+    "maps": {}
+  },
+  "264": {
+    "en": "Lower La Noscea",
+    "maps": {}
+  },
+  "265": {
+    "en": "Lower La Noscea",
+    "maps": {}
+  },
+  "266": {
+    "en": "Eastern Thanalan",
+    "maps": {}
+  },
+  "267": {
+    "en": "Western Thanalan",
+    "maps": {}
+  },
+  "268": {
+    "en": "Eastern Thanalan",
+    "maps": {}
+  },
+  "269": {
+    "en": "Western Thanalan",
+    "maps": {}
+  },
+  "270": {
+    "en": "Central Thanalan",
+    "maps": {}
+  },
+  "271": {
+    "en": "Central Thanalan",
+    "maps": {}
+  },
+  "272": {
+    "en": "Middle La Noscea",
+    "maps": {}
+  },
+  "273": {
+    "en": "Western Thanalan",
+    "maps": {}
+  },
+  "274": {
+    "en": "Ul'dah - Steps of Nald",
+    "maps": {}
+  },
+  "275": {
+    "en": "Eastern Thanalan",
+    "maps": {}
+  },
+  "276": {
+    "en": "Hall of Summoning",
+    "maps": {}
+  },
+  "277": {
+    "en": "East Shroud",
+    "maps": {}
+  },
+  "278": {
+    "en": "Western Thanalan",
+    "maps": {}
+  },
+  "279": {
+    "en": "Lower La Noscea",
+    "maps": {}
+  },
+  "280": {
+    "en": "Western La Noscea",
+    "maps": {}
+  },
+  "281": {
+    "en": "The Whorleater",
+    "maps": {
+      "147": {
+        "en": "The Whorleater",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "282": {
+    "en": "Private Cottage - Mist",
+    "maps": {
+      "109": {
+        "en": "Private Cottage - Mist",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "153": {
+        "en": "Private Cottage - Mist",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "283": {
+    "en": "Private House - Mist",
+    "maps": {
+      "110": {
+        "en": "Private House - Mist",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "111": {
+        "en": "Private House - Mist",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "112": {
+        "en": "Private House - Mist",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "284": {
+    "en": "Private Mansion - Mist",
+    "maps": {
+      "113": {
+        "en": "Private Mansion - Mist",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "114": {
+        "en": "Private Mansion - Mist",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "115": {
+        "en": "Private Mansion - Mist",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "285": {
+    "en": "Middle La Noscea",
+    "maps": {}
+  },
+  "286": {
+    "en": "Rhotano Sea",
+    "maps": {}
+  },
+  "287": {
+    "en": "Lower La Noscea",
+    "maps": {}
+  },
+  "288": {
+    "en": "Rhotano Sea",
+    "maps": {}
+  },
+  "289": {
+    "en": "East Shroud",
+    "maps": {}
+  },
+  "290": {
+    "en": "East Shroud",
+    "maps": {}
+  },
+  "291": {
+    "en": "South Shroud",
+    "maps": {}
+  },
+  "292": {
+    "en": "Bowl of Embers",
+    "maps": {
+      "401": {
+        "en": "Bowl of Embers",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "293": {
+    "en": "The Navel",
+    "maps": {
+      "403": {
+        "en": "The Navel",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "294": {
+    "en": "The Howling Eye",
+    "maps": {
+      "402": {
+        "en": "The Howling Eye",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "295": {
+    "en": "Bowl of Embers",
+    "maps": {}
+  },
+  "296": {
+    "en": "The Navel",
+    "maps": {}
+  },
+  "297": {
+    "en": "The Howling Eye",
+    "maps": {}
+  },
+  "298": {
+    "en": "Coerthas Central Highlands",
+    "maps": {}
+  },
+  "299": {
+    "en": "Mor Dhona",
+    "maps": {}
+  },
+  "300": {
+    "en": "Mor Dhona",
+    "maps": {}
+  },
+  "301": {
+    "en": "Coerthas Central Highlands",
+    "maps": {}
+  },
+  "302": {
+    "en": "Coerthas Central Highlands",
+    "maps": {}
+  },
+  "303": {
+    "en": "East Shroud",
+    "maps": {}
+  },
+  "304": {
+    "en": "Coerthas Central Highlands",
+    "maps": {}
+  },
+  "305": {
+    "en": "Mor Dhona",
+    "maps": {}
+  },
+  "306": {
+    "en": "Southern Thanalan",
+    "maps": {}
+  },
+  "307": {
+    "en": "Lower La Noscea",
+    "maps": {}
+  },
+  "308": {
+    "en": "Mor Dhona",
+    "maps": {}
+  },
+  "309": {
+    "en": "Mor Dhona",
+    "maps": {}
+  },
+  "310": {
+    "en": "Eastern La Noscea",
+    "maps": {}
+  },
+  "311": {
+    "en": "Eastern La Noscea",
+    "maps": {}
+  },
+  "312": {
+    "en": "Southern Thanalan",
+    "maps": {}
+  },
+  "313": {
+    "en": "Coerthas Central Highlands",
+    "maps": {}
+  },
+  "314": {
+    "en": "Central Thanalan",
+    "maps": {}
+  },
+  "315": {
+    "en": "Mor Dhona",
+    "maps": {}
+  },
+  "316": {
+    "en": "Coerthas Central Highlands",
+    "maps": {}
+  },
+  "317": {
+    "en": "South Shroud",
+    "maps": {}
+  },
+  "318": {
+    "en": "Southern Thanalan",
+    "maps": {}
+  },
+  "319": {
+    "en": "Central Shroud",
+    "maps": {}
+  },
+  "320": {
+    "en": "Central Shroud",
+    "maps": {}
+  },
+  "321": {
+    "en": "North Shroud",
+    "maps": {}
+  },
+  "322": {
+    "en": "Coerthas Central Highlands",
+    "maps": {}
+  },
+  "323": {
+    "en": "Southern Thanalan",
+    "maps": {}
+  },
+  "324": {
+    "en": "North Shroud",
+    "maps": {}
+  },
+  "325": {
+    "en": "Outer La Noscea",
+    "maps": {}
+  },
+  "326": {
+    "en": "Mor Dhona",
+    "maps": {}
+  },
+  "327": {
+    "en": "Eastern La Noscea",
+    "maps": {}
+  },
+  "328": {
+    "en": "Upper La Noscea",
+    "maps": {}
+  },
+  "329": {
+    "en": "The Wanderer's Palace",
+    "maps": {}
+  },
+  "330": {
+    "en": "Western La Noscea",
+    "maps": {}
+  },
+  "331": {
+    "en": "The Howling Eye",
+    "maps": {
+      "98": {
+        "en": "The Howling Eye",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "332": {
+    "en": null,
+    "maps": {}
+  },
+  "333": {
+    "en": null,
+    "maps": {}
+  },
+  "334": {
+    "en": null,
+    "maps": {}
+  },
+  "335": {
+    "en": "Mor Dhona",
+    "maps": {}
+  },
+  "336": {
+    "en": null,
+    "maps": {}
+  },
+  "337": {
+    "en": null,
+    "maps": {}
+  },
+  "338": {
+    "en": "Eorzean Subterrane",
+    "maps": {
+      "106": {
+        "en": "Eorzean Subterrane",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "339": {
+    "en": "Mist",
+    "maps": {
+      "72": {
+        "en": "Mist",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "192": {
+        "en": "Mist",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "340": {
+    "en": "The Lavender Beds",
+    "maps": {
+      "82": {
+        "en": "The Lavender Beds",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "193": {
+        "en": "The Lavender Beds",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "341": {
+    "en": "The Goblet",
+    "maps": {
+      "83": {
+        "en": "The Goblet",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "194": {
+        "en": "The Goblet",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "342": {
+    "en": "Private Cottage - The Lavender Beds",
+    "maps": {
+      "116": {
+        "en": "Private Cottage - The Lavender Beds",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "154": {
+        "en": "Private Cottage - The Lavender Beds",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "343": {
+    "en": "Private House - The Lavender Beds",
+    "maps": {
+      "117": {
+        "en": "Private House - The Lavender Beds",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "118": {
+        "en": "Private House - The Lavender Beds",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "119": {
+        "en": "Private House - The Lavender Beds",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "344": {
+    "en": "Private Mansion - The Lavender Beds",
+    "maps": {
+      "120": {
+        "en": "Private Mansion - The Lavender Beds",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "121": {
+        "en": "Private Mansion - The Lavender Beds",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "122": {
+        "en": "Private Mansion - The Lavender Beds",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "345": {
+    "en": "Private Cottage - The Goblet",
+    "maps": {
+      "123": {
+        "en": "Private Cottage - The Goblet",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "155": {
+        "en": "Private Cottage - The Goblet",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "346": {
+    "en": "Private House - The Goblet",
+    "maps": {
+      "124": {
+        "en": "Private House - The Goblet",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "125": {
+        "en": "Private House - The Goblet",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "126": {
+        "en": "Private House - The Goblet",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "347": {
+    "en": "Private Mansion - The Goblet",
+    "maps": {
+      "127": {
+        "en": "Private Mansion - The Goblet",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "128": {
+        "en": "Private Mansion - The Goblet",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "129": {
+        "en": "Private Mansion - The Goblet",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "348": {
+    "en": "Porta Decumana",
+    "maps": {
+      "143": {
+        "en": "Porta Decumana",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "349": {
+    "en": "Copperbell Mines",
+    "maps": {
+      "140": {
+        "en": "Copperbell Mines (Hard)",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "141": {
+        "en": "Copperbell Mines (Hard)",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "142": {
+        "en": "Copperbell Mines (Hard)",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "350": {
+    "en": "Haukke Manor",
+    "maps": {
+      "137": {
+        "en": "Haukke Manor (Hard)",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "138": {
+        "en": "Haukke Manor (Hard)",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "139": {
+        "en": "Haukke Manor (Hard)",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "351": {
+    "en": "The Rising Stones",
+    "maps": {
+      "136": {
+        "en": "The Rising Stones",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "619": {
+        "en": "The Rising Stones",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "352": {
+    "en": null,
+    "maps": {}
+  },
+  "353": {
+    "en": "Kugane Ohashi",
+    "maps": {
+      "316": {
+        "en": "Last Remnant",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "354": {
+    "en": "The Dancing Plague",
+    "maps": {}
+  },
+  "355": {
+    "en": "Dalamud's Shadow",
+    "maps": {
+      "148": {
+        "en": "Dalamud's Shadow",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "356": {
+    "en": "The Outer Coil",
+    "maps": {
+      "149": {
+        "en": "The Outer Coil",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "156": {
+        "en": "The Outer Coil",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "357": {
+    "en": "Central Decks",
+    "maps": {
+      "65": {
+        "en": "Central Decks",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "66": {
+        "en": "Central Decks",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "67": {
+        "en": "Central Decks",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "358": {
+    "en": "The Holocharts",
+    "maps": {
+      "150": {
+        "en": "The Holocharts",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "359": {
+    "en": "The Whorleater",
+    "maps": {}
+  },
+  "360": {
+    "en": "Halatali",
+    "maps": {
+      "145": {
+        "en": "Halatali (Hard)",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "361": {
+    "en": "Hullbreaker Isle",
+    "maps": {
+      "168": {
+        "en": "Hullbreaker Isle",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "362": {
+    "en": "Brayflox's Longstop",
+    "maps": {
+      "146": {
+        "en": "Brayflox's Longstop (Hard)",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "363": {
+    "en": "The Lost City of Amdapor",
+    "maps": {
+      "151": {
+        "en": "The Lost City of Amdapor",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "152": {
+        "en": "The Lost City of Amdapor",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "364": {
+    "en": "Thornmarch",
+    "maps": {}
+  },
+  "365": {
+    "en": "Stone Vigil",
+    "maps": {
+      "157": {
+        "en": "The Stone Vigil (Hard)",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "366": {
+    "en": "Griffin Crossing",
+    "maps": {
+      "144": {
+        "en": "Griffin Crossing",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "367": {
+    "en": "The Sunken Temple of Qarn",
+    "maps": {
+      "182": {
+        "en": "The Sunken Temple of Qarn (Hard)",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "183": {
+        "en": "The Sunken Temple of Qarn (Hard)",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "368": {
+    "en": "The Weeping Saint",
+    "maps": {}
+  },
+  "369": {
+    "en": "Hall of the Bestiarii",
+    "maps": {}
+  },
+  "370": {
+    "en": "Main Bridge",
+    "maps": {}
+  },
+  "371": {
+    "en": null,
+    "maps": {}
+  },
+  "372": {
+    "en": "Syrcus Tower",
+    "maps": {
+      "158": {
+        "en": "Syrcus Tower",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "159": {
+        "en": "Syrcus Tower",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "160": {
+        "en": "Syrcus Tower",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "161": {
+        "en": "Syrcus Tower",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "162": {
+        "en": "Syrcus Tower",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "163": {
+        "en": "Syrcus Tower",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "164": {
+        "en": "Syrcus Tower",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "373": {
+    "en": "The Tam-Tara Deepcroft",
+    "maps": {
+      "165": {
+        "en": "The Tam-Tara Deepcroft (Hard)",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "374": {
+    "en": "The Striking Tree",
+    "maps": {
+      "166": {
+        "en": "The Striking Tree",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "375": {
+    "en": "The Striking Tree",
+    "maps": {}
+  },
+  "376": {
+    "en": "Carteneau Flats: Borderland Ruins",
+    "maps": {
+      "167": {
+        "en": "Carteneau Flats: Borderland Ruins",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "377": {
+    "en": "Akh Afah Amphitheatre",
+    "maps": {
+      "173": {
+        "en": "Akh Afah Amphitheatre",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "378": {
+    "en": "Akh Afah Amphitheatre",
+    "maps": {}
+  },
+  "379": {
+    "en": "Mor Dhona",
+    "maps": {}
+  },
+  "380": {
+    "en": "Dalamud's Shadow",
+    "maps": {}
+  },
+  "381": {
+    "en": "The Outer Coil",
+    "maps": {}
+  },
+  "382": {
+    "en": "Central Decks",
+    "maps": {}
+  },
+  "383": {
+    "en": "The Holocharts",
+    "maps": {}
+  },
+  "384": {
+    "en": "Private Chambers - Mist",
+    "maps": {
+      "170": {
+        "en": "Private Chambers - Mist",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "385": {
+    "en": "Private Chambers - The Lavender Beds",
+    "maps": {
+      "171": {
+        "en": "Private Chambers - The Lavender Beds",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "386": {
+    "en": "Private Chambers - The Goblet",
+    "maps": {
+      "172": {
+        "en": "Private Chambers - The Goblet",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "387": {
+    "en": "Sastasha",
+    "maps": {
+      "169": {
+        "en": "Sastasha (Hard)",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "388": {
+    "en": "Chocobo Square",
+    "maps": {
+      "197": {
+        "en": "The Gold Saucer",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "389": {
+    "en": "Chocobo Square",
+    "maps": {
+      "198": {
+        "en": "Chocobo Square",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "390": {
+    "en": "Chocobo Square",
+    "maps": {
+      "199": {
+        "en": "Chocobo Square",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "391": {
+    "en": "Chocobo Square",
+    "maps": {
+      "200": {
+        "en": "Chocobo Square",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "392": {
+    "en": "Sanctum of the Twelve",
+    "maps": {}
+  },
+  "393": {
+    "en": "Sanctum of the Twelve",
+    "maps": {}
+  },
+  "394": {
+    "en": "South Shroud",
+    "maps": {
+      "187": {
+        "en": "South Shroud",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "395": {
+    "en": "Intercessory",
+    "maps": {
+      "179": {
+        "en": "Intercessory",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "396": {
+    "en": "Amdapor Keep",
+    "maps": {}
+  },
+  "397": {
+    "en": "Coerthas Western Highlands",
+    "maps": {
+      "211": {
+        "en": "Coerthas Western Highlands",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "398": {
+    "en": "The Dravanian Forelands",
+    "maps": {
+      "212": {
+        "en": "The Dravanian Forelands",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "399": {
+    "en": "The Dravanian Hinterlands",
+    "maps": {
+      "213": {
+        "en": "The Dravanian Hinterlands",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "400": {
+    "en": "The Churning Mists",
+    "maps": {
+      "214": {
+        "en": "The Churning Mists",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "401": {
+    "en": "The Sea of Clouds",
+    "maps": {
+      "215": {
+        "en": "The Sea of Clouds",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "402": {
+    "en": "Azys Lla",
+    "maps": {
+      "216": {
+        "en": "Azys Lla",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "403": {
+    "en": "Ala Mhigo",
+    "maps": {}
+  },
+  "404": {
+    "en": "Limsa Lominsa Lower Decks",
+    "maps": {}
+  },
+  "405": {
+    "en": "Western La Noscea",
+    "maps": {}
+  },
+  "406": {
+    "en": "Western La Noscea",
+    "maps": {}
+  },
+  "407": {
+    "en": "Rhotano Sea",
+    "maps": {}
+  },
+  "408": {
+    "en": "Eastern La Noscea",
+    "maps": {}
+  },
+  "409": {
+    "en": "Limsa Lominsa Upper Decks",
+    "maps": {}
+  },
+  "410": {
+    "en": "Northern Thanalan",
+    "maps": {}
+  },
+  "411": {
+    "en": "Eastern La Noscea",
+    "maps": {}
+  },
+  "412": {
+    "en": "Upper La Noscea",
+    "maps": {}
+  },
+  "413": {
+    "en": "Western La Noscea",
+    "maps": {}
+  },
+  "414": {
+    "en": "Eastern La Noscea",
+    "maps": {}
+  },
+  "415": {
+    "en": "Lower La Noscea",
+    "maps": {}
+  },
+  "416": {
+    "en": null,
+    "maps": {}
+  },
+  "417": {
+    "en": "Chocobo Square",
+    "maps": {
+      "217": {
+        "en": "Chocobo Square",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "418": {
+    "en": "Foundation",
+    "maps": {
+      "218": {
+        "en": "Foundation",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "419": {
+    "en": "The Pillars",
+    "maps": {
+      "219": {
+        "en": "The Pillars",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "420": {
+    "en": "Neverreap",
+    "maps": {
+      "230": {
+        "en": "Neverreap",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "421": {
+    "en": null,
+    "maps": {}
+  },
+  "422": {
+    "en": null,
+    "maps": {}
+  },
+  "423": {
+    "en": "Company Workshop - Mist",
+    "maps": {
+      "204": {
+        "en": "Company Workshop - Mist",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "424": {
+    "en": "Company Workshop - The Goblet",
+    "maps": {
+      "205": {
+        "en": "Company Workshop - The Goblet",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "425": {
+    "en": "Company Workshop - The Lavender Beds",
+    "maps": {
+      "206": {
+        "en": "Company Workshop - The Lavender Beds",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "426": {
+    "en": "The Chrysalis",
+    "maps": {
+      "207": {
+        "en": "The Chrysalis",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "208": {
+        "en": "The Chrysalis",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "427": {
+    "en": "Saint Endalim's Scholasticate",
+    "maps": {
+      "220": {
+        "en": "Saint Endalim's Scholasticate",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "428": {
+    "en": "Seat of the Lord Commander",
+    "maps": {
+      "221": {
+        "en": "Seat of the Lord Commander",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "429": {
+    "en": "Cloud Nine",
+    "maps": {
+      "223": {
+        "en": "Cloud Nine",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "430": {
+    "en": "The Fractal Continuum",
+    "maps": {
+      "244": {
+        "en": "The Fractal Continuum",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "245": {
+        "en": "The Fractal Continuum",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "246": {
+        "en": "The Fractal Continuum",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "247": {
+        "en": "The Fractal Continuum",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "431": {
+    "en": "Seal Rock",
+    "maps": {
+      "242": {
+        "en": "Seal Rock",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "432": {
+    "en": "Thok ast Thok",
+    "maps": {
+      "256": {
+        "en": "Thok ast Thok",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "433": {
+    "en": "Fortemps Manor",
+    "maps": {
+      "222": {
+        "en": "Fortemps Manor",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "434": {
+    "en": "Dusk Vigil",
+    "maps": {
+      "243": {
+        "en": "Dusk Vigil",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "435": {
+    "en": null,
+    "maps": {}
+  },
+  "436": {
+    "en": "The Limitless Blue",
+    "maps": {
+      "235": {
+        "en": "The Limitless Blue",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "437": {
+    "en": "Singularity Reactor",
+    "maps": {
+      "236": {
+        "en": "Singularity Reactor",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "438": {
+    "en": null,
+    "maps": {}
+  },
+  "439": {
+    "en": "The Lightfeather Proving Grounds",
+    "maps": {
+      "224": {
+        "en": "The Lightfeather Proving Grounds",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "440": {
+    "en": "Ruling Chamber",
+    "maps": {
+      "225": {
+        "en": "Ruling Chamber",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "441": {
+    "en": null,
+    "maps": {}
+  },
+  "442": {
+    "en": "The Fist of the Father",
+    "maps": {
+      "237": {
+        "en": "The Fist of the Father",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "443": {
+    "en": "The Cuff of the Father",
+    "maps": {
+      "238": {
+        "en": "The Cuff of the Father",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "255": {
+        "en": "The Cuff of the Father",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "444": {
+    "en": "The Arm of the Father",
+    "maps": {
+      "239": {
+        "en": "The Arm of the Father",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "445": {
+    "en": "The Burden of the Father",
+    "maps": {
+      "240": {
+        "en": "The Burden of the Father",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "446": {
+    "en": "Thok ast Thok",
+    "maps": {
+      "404": {
+        "en": "Thok ast Thok",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "447": {
+    "en": "The Limitless Blue",
+    "maps": {
+      "407": {
+        "en": "The Limitless Blue",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "448": {
+    "en": "Singularity Reactor",
+    "maps": {}
+  },
+  "449": {
+    "en": "The Fist of the Father",
+    "maps": {}
+  },
+  "450": {
+    "en": "The Cuff of the Father",
+    "maps": {}
+  },
+  "451": {
+    "en": "The Arm of the Father",
+    "maps": {}
+  },
+  "452": {
+    "en": "The Burden of the Father",
+    "maps": {}
+  },
+  "453": {
+    "en": "Western La Noscea",
+    "maps": {}
+  },
+  "454": {
+    "en": "Upper La Noscea",
+    "maps": {}
+  },
+  "455": {
+    "en": "The Sea of Clouds",
+    "maps": {}
+  },
+  "456": {
+    "en": "Ruling Chamber",
+    "maps": {}
+  },
+  "457": {
+    "en": "Akh Afah Amphitheatre",
+    "maps": {}
+  },
+  "458": {
+    "en": "Foundation",
+    "maps": {}
+  },
+  "459": {
+    "en": "Azys Lla",
+    "maps": {}
+  },
+  "460": {
+    "en": "Halatali",
+    "maps": {}
+  },
+  "461": {
+    "en": "The Sea of Clouds",
+    "maps": {}
+  },
+  "462": {
+    "en": "Sacrificial Chamber",
+    "maps": {
+      "226": {
+        "en": "Sacrificial Chamber",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "463": {
+    "en": "Matoya's Cave",
+    "maps": {
+      "253": {
+        "en": "Matoya's Cave",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "464": {
+    "en": "The Dravanian Forelands",
+    "maps": {}
+  },
+  "465": {
+    "en": "Eastern Thanalan",
+    "maps": {}
+  },
+  "466": {
+    "en": "Upper La Noscea",
+    "maps": {}
+  },
+  "467": {
+    "en": "Coerthas Western Highlands",
+    "maps": {}
+  },
+  "468": {
+    "en": "Coerthas Central Highlands",
+    "maps": {}
+  },
+  "469": {
+    "en": "Coerthas Central Highlands",
+    "maps": {}
+  },
+  "470": {
+    "en": "Coerthas Western Highlands",
+    "maps": {}
+  },
+  "471": {
+    "en": "Eastern La Noscea",
+    "maps": {}
+  },
+  "472": {
+    "en": "Coerthas Western Highlands",
+    "maps": {}
+  },
+  "473": {
+    "en": "South Shroud",
+    "maps": {}
+  },
+  "474": {
+    "en": "Limsa Lominsa Upper Decks",
+    "maps": {}
+  },
+  "475": {
+    "en": "Coerthas Central Highlands",
+    "maps": {}
+  },
+  "476": {
+    "en": "The Dravanian Hinterlands",
+    "maps": {}
+  },
+  "477": {
+    "en": "Coerthas Western Highlands",
+    "maps": {}
+  },
+  "478": {
+    "en": "Idyllshire",
+    "maps": {
+      "257": {
+        "en": "Idyllshire",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "479": {
+    "en": "Coerthas Western Highlands",
+    "maps": {}
+  },
+  "480": {
+    "en": "Mor Dhona",
+    "maps": {}
+  },
+  "481": {
+    "en": "The Dravanian Forelands",
+    "maps": {}
+  },
+  "482": {
+    "en": "The Dravanian Forelands",
+    "maps": {}
+  },
+  "483": {
+    "en": "Northern Thanalan",
+    "maps": {}
+  },
+  "484": {
+    "en": "Lower La Noscea",
+    "maps": {}
+  },
+  "485": {
+    "en": "The Dravanian Hinterlands",
+    "maps": {}
+  },
+  "486": {
+    "en": "Outer La Noscea",
+    "maps": {}
+  },
+  "487": {
+    "en": "Coerthas Central Highlands",
+    "maps": {}
+  },
+  "488": {
+    "en": "Coerthas Central Highlands",
+    "maps": {}
+  },
+  "489": {
+    "en": "Coerthas Western Highlands",
+    "maps": {}
+  },
+  "490": {
+    "en": "Hullbreaker Isle",
+    "maps": {}
+  },
+  "491": {
+    "en": "Southern Thanalan",
+    "maps": {}
+  },
+  "492": {
+    "en": "The Sea of Clouds",
+    "maps": {}
+  },
+  "493": {
+    "en": "Coerthas Western Highlands",
+    "maps": {}
+  },
+  "494": {
+    "en": "Eastern Thanalan",
+    "maps": {}
+  },
+  "495": {
+    "en": "Lower La Noscea",
+    "maps": {}
+  },
+  "496": {
+    "en": "Coerthas Central Highlands",
+    "maps": {}
+  },
+  "497": {
+    "en": "Coerthas Western Highlands",
+    "maps": {}
+  },
+  "498": {
+    "en": "Coerthas Western Highlands",
+    "maps": {}
+  },
+  "499": {
+    "en": "The Pillars",
+    "maps": {}
+  },
+  "500": {
+    "en": "Coerthas Central Highlands",
+    "maps": {}
+  },
+  "501": {
+    "en": "The Churning Mists",
+    "maps": {}
+  },
+  "502": {
+    "en": "Carteneau Flats: Borderland Ruins",
+    "maps": {}
+  },
+  "503": {
+    "en": "The Dravanian Hinterlands",
+    "maps": {}
+  },
+  "504": {
+    "en": "The Eighteenth Floor",
+    "maps": {
+      "267": {
+        "en": "The Eighteenth Floor",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "505": {
+    "en": "Alexander",
+    "maps": {
+      "260": {
+        "en": "The Gordian Knot",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "291": {
+        "en": "The Midan Knot",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "506": {
+    "en": "Chocobo Square",
+    "maps": {}
+  },
+  "507": {
+    "en": "Central Azys Lla",
+    "maps": {
+      "261": {
+        "en": "Central Azys Lla",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "508": {
+    "en": "Void Ark",
+    "maps": {
+      "269": {
+        "en": "Void Ark",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "270": {
+        "en": "Void Ark",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "271": {
+        "en": "Void Ark",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "272": {
+        "en": "Void Ark",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "509": {
+    "en": "The Gilded Araya",
+    "maps": {}
+  },
+  "510": {
+    "en": "Pharos Sirius",
+    "maps": {
+      "262": {
+        "en": "Pharos Sirius (Hard)",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "263": {
+        "en": "Pharos Sirius (Hard)",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "264": {
+        "en": "Pharos Sirius (Hard)",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "265": {
+        "en": "Pharos Sirius (Hard)",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "266": {
+        "en": "Pharos Sirius (Hard)",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "511": {
+    "en": "Saint Mocianne's Arboretum",
+    "maps": {
+      "268": {
+        "en": "Saint Mocianne's Arboretum",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "273": {
+        "en": "Saint Mocianne's Arboretum",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "512": {
+    "en": "The Diadem",
+    "maps": {
+      "276": {
+        "en": null,
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "513": {
+    "en": "The Vault",
+    "maps": {}
+  },
+  "514": {
+    "en": "The Diadem",
+    "maps": {
+      "275": {
+        "en": null,
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "515": {
+    "en": "The Diadem",
+    "maps": {
+      "274": {
+        "en": null,
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "516": {
+    "en": null,
+    "maps": {}
+  },
+  "517": {
+    "en": "Containment Bay S1T7",
+    "maps": {
+      "283": {
+        "en": "Containment Bay S1T7",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "518": {
+    "en": null,
+    "maps": {
+      "284": {
+        "en": "The Feasting Grounds",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "285": {
+        "en": "The Feasting Grounds",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "519": {
+    "en": "The Lost City of Amdapor",
+    "maps": {
+      "280": {
+        "en": "The Lost City of Amdapor (Hard)",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "281": {
+        "en": "The Lost City of Amdapor (Hard)",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "282": {
+        "en": "The Lost City of Amdapor (Hard)",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "520": {
+    "en": "The Fist of the Son",
+    "maps": {
+      "286": {
+        "en": "The Fist of the Son",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "521": {
+    "en": "The Cuff of the Son",
+    "maps": {
+      "287": {
+        "en": "The Cuff of the Son",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "288": {
+        "en": "The Cuff of the Son",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "522": {
+    "en": "The Arm of the Son",
+    "maps": {
+      "289": {
+        "en": "The Arm of the Son",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "523": {
+    "en": "The Burden of the Son",
+    "maps": {
+      "290": {
+        "en": "The Burden of the Son",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "524": {
+    "en": "Containment Bay S1T7",
+    "maps": {}
+  },
+  "525": {
+    "en": null,
+    "maps": {}
+  },
+  "526": {
+    "en": null,
+    "maps": {}
+  },
+  "527": {
+    "en": null,
+    "maps": {}
+  },
+  "528": {
+    "en": null,
+    "maps": {}
+  },
+  "529": {
+    "en": "The Fist of the Son",
+    "maps": {}
+  },
+  "530": {
+    "en": "The Cuff of the Son",
+    "maps": {}
+  },
+  "531": {
+    "en": "The Arm of the Son",
+    "maps": {}
+  },
+  "532": {
+    "en": "The Burden of the Son",
+    "maps": {}
+  },
+  "533": {
+    "en": "Coerthas Central Highlands",
+    "maps": {}
+  },
+  "534": {
+    "en": "Twin Adder Barracks",
+    "maps": {
+      "308": {
+        "en": "Twin Adder Barracks",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "535": {
+    "en": "Flame Barracks",
+    "maps": {
+      "309": {
+        "en": "Flame Barracks",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "536": {
+    "en": "Maelstrom Barracks",
+    "maps": {
+      "310": {
+        "en": "Maelstrom Barracks",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "537": {
+    "en": "The Fold",
+    "maps": {}
+  },
+  "538": {
+    "en": "The Fold",
+    "maps": {}
+  },
+  "539": {
+    "en": "The Fold",
+    "maps": {}
+  },
+  "540": {
+    "en": "The Fold",
+    "maps": {}
+  },
+  "541": {
+    "en": "The Fold",
+    "maps": {}
+  },
+  "542": {
+    "en": "The Fold",
+    "maps": {}
+  },
+  "543": {
+    "en": "The Fold",
+    "maps": {}
+  },
+  "544": {
+    "en": "The Fold",
+    "maps": {}
+  },
+  "545": {
+    "en": "The Fold",
+    "maps": {}
+  },
+  "546": {
+    "en": "The Fold",
+    "maps": {}
+  },
+  "547": {
+    "en": "The Fold",
+    "maps": {}
+  },
+  "548": {
+    "en": "The Fold",
+    "maps": {}
+  },
+  "549": {
+    "en": "The Fold",
+    "maps": {}
+  },
+  "550": {
+    "en": "The Fold",
+    "maps": {}
+  },
+  "551": {
+    "en": "The Fold",
+    "maps": {}
+  },
+  "552": {
+    "en": "Western La Noscea",
+    "maps": {}
+  },
+  "553": {
+    "en": "Alexander",
+    "maps": {}
+  },
+  "554": {
+    "en": "The Fields of Glory",
+    "maps": {
+      "296": {
+        "en": "The Fields of Glory",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "555": {
+    "en": null,
+    "maps": {}
+  },
+  "556": {
+    "en": "The Weeping City of Mhach",
+    "maps": {
+      "298": {
+        "en": "The Weeping City of Mhach",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "299": {
+        "en": "The Weeping City of Mhach",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "300": {
+        "en": "The Weeping City of Mhach",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "301": {
+        "en": "The Weeping City of Mhach",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "302": {
+        "en": null,
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "303": {
+        "en": "The Weeping City of Mhach",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "557": {
+    "en": "Hullbreaker Isle",
+    "maps": {
+      "297": {
+        "en": "Hullbreaker Isle (Hard)",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "558": {
+    "en": "The Aquapolis",
+    "maps": {
+      "315": {
+        "en": "The Aquapolis",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "559": {
+    "en": "Steps of Faith",
+    "maps": {
+      "304": {
+        "en": "Steps of Faith",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "560": {
+    "en": "Aetherochemical Research Facility",
+    "maps": {}
+  },
+  "561": {
+    "en": "The Palace of the Dead",
+    "maps": {}
+  },
+  "562": {
+    "en": "The Palace of the Dead",
+    "maps": {}
+  },
+  "563": {
+    "en": "The Palace of the Dead",
+    "maps": {}
+  },
+  "564": {
+    "en": "The Palace of the Dead",
+    "maps": {}
+  },
+  "565": {
+    "en": "The Palace of the Dead",
+    "maps": {}
+  },
+  "566": {
+    "en": "Steps of Faith",
+    "maps": {}
+  },
+  "567": {
+    "en": "The Parrock",
+    "maps": {
+      "305": {
+        "en": "The Parrock",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "568": {
+    "en": "Leofard's Chambers",
+    "maps": {
+      "306": {
+        "en": "Leofard's Chambers",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "569": {
+    "en": "Steps of Faith",
+    "maps": {
+      "307": {
+        "en": "Steps of Faith",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "570": {
+    "en": "The Palace of the Dead",
+    "maps": {
+      "314": {
+        "en": "The Palace of the Dead",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "571": {
+    "en": "Haunted Manor",
+    "maps": {
+      "317": {
+        "en": "Haunted Manor",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "318": {
+        "en": "Haunted Manor",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "319": {
+        "en": "Haunted Manor",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "572": {
+    "en": null,
+    "maps": {}
+  },
+  "573": {
+    "en": "Topmast Apartment Lobby",
+    "maps": {
+      "320": {
+        "en": "Topmast Apartment Lobby",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "574": {
+    "en": "Lily Hills Apartment Lobby",
+    "maps": {
+      "321": {
+        "en": "Lily Hills Apartment Lobby",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "575": {
+    "en": "Sultana's Breath Apartment Lobby",
+    "maps": {
+      "322": {
+        "en": "Sultana's Breath Apartment Lobby",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "576": {
+    "en": "Containment Bay P1T6",
+    "maps": {
+      "334": {
+        "en": "Containment Bay P1T6",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "577": {
+    "en": "Containment Bay P1T6",
+    "maps": {}
+  },
+  "578": {
+    "en": "The Great Gubal Library",
+    "maps": {
+      "311": {
+        "en": "The Great Gubal Library (Hard)",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "312": {
+        "en": "The Great Gubal Library (Hard)",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "579": {
+    "en": "The Battlehall",
+    "maps": {
+      "295": {
+        "en": "The Battlehall",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "580": {
+    "en": "Eyes of the Creator",
+    "maps": {
+      "326": {
+        "en": "Eyes of the Creator",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "327": {
+        "en": "Eyes of the Creator",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "581": {
+    "en": "Breath of the Creator",
+    "maps": {
+      "328": {
+        "en": "Breath of the Creator",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "329": {
+        "en": "Breath of the Creator",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "582": {
+    "en": "Heart of the Creator",
+    "maps": {
+      "330": {
+        "en": "Heart of the Creator",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "331": {
+        "en": "Heart of the Creator",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "583": {
+    "en": "Soul of the Creator",
+    "maps": {
+      "332": {
+        "en": "Soul of the Creator",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "333": {
+        "en": "Soul of the Creator",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "584": {
+    "en": "Eyes of the Creator",
+    "maps": {}
+  },
+  "585": {
+    "en": "Breath of the Creator",
+    "maps": {}
+  },
+  "586": {
+    "en": "Heart of the Creator",
+    "maps": {}
+  },
+  "587": {
+    "en": "Soul of the Creator",
+    "maps": {}
+  },
+  "588": {
+    "en": "Heart of the Creator",
+    "maps": {
+      "341": {
+        "en": "Heart of the Creator",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "342": {
+        "en": "Heart of the Creator",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "589": {
+    "en": "Chocobo Square",
+    "maps": {}
+  },
+  "590": {
+    "en": "Chocobo Square",
+    "maps": {}
+  },
+  "591": {
+    "en": "Chocobo Square",
+    "maps": {}
+  },
+  "592": {
+    "en": "Bowl of Embers",
+    "maps": {}
+  },
+  "593": {
+    "en": "The Palace of the Dead",
+    "maps": {}
+  },
+  "594": {
+    "en": "The Palace of the Dead",
+    "maps": {}
+  },
+  "595": {
+    "en": "The Palace of the Dead",
+    "maps": {}
+  },
+  "596": {
+    "en": "The Palace of the Dead",
+    "maps": {}
+  },
+  "597": {
+    "en": "The Palace of the Dead",
+    "maps": {}
+  },
+  "598": {
+    "en": "The Palace of the Dead",
+    "maps": {}
+  },
+  "599": {
+    "en": "The Palace of the Dead",
+    "maps": {}
+  },
+  "600": {
+    "en": "The Palace of the Dead",
+    "maps": {}
+  },
+  "601": {
+    "en": "The Palace of the Dead",
+    "maps": {}
+  },
+  "602": {
+    "en": "The Palace of the Dead",
+    "maps": {}
+  },
+  "603": {
+    "en": "The Palace of the Dead",
+    "maps": {}
+  },
+  "604": {
+    "en": "The Palace of the Dead",
+    "maps": {}
+  },
+  "605": {
+    "en": "The Palace of the Dead",
+    "maps": {}
+  },
+  "606": {
+    "en": "The Palace of the Dead",
+    "maps": {}
+  },
+  "607": {
+    "en": "The Palace of the Dead",
+    "maps": {}
+  },
+  "608": {
+    "en": "Topmast Apartment",
+    "maps": {
+      "323": {
+        "en": "Topmast Apartment",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "609": {
+    "en": "Lily Hills Apartment",
+    "maps": {
+      "324": {
+        "en": "Lily Hills Apartment",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "610": {
+    "en": "Sultana's Breath Apartment",
+    "maps": {
+      "325": {
+        "en": "Sultana's Breath Apartment",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "611": {
+    "en": "Frondale's Home for Friendless Foundlings",
+    "maps": {
+      "335": {
+        "en": "Frondale's Home for Friendless Foundlings",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "612": {
+    "en": "The Fringes",
+    "maps": {
+      "367": {
+        "en": "The Fringes",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "613": {
+    "en": "The Ruby Sea",
+    "maps": {
+      "371": {
+        "en": "The Ruby Sea",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "614": {
+    "en": "Yanxia",
+    "maps": {
+      "354": {
+        "en": "Yanxia",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "615": {
+    "en": null,
+    "maps": {}
+  },
+  "616": {
+    "en": "Shisui of the Violet Tides",
+    "maps": {
+      "336": {
+        "en": "Shisui of the Violet Tides",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "617": {
+    "en": "Sohm Al",
+    "maps": {
+      "350": {
+        "en": "Sohm Al (Hard)",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "351": {
+        "en": "Sohm Al (Hard)",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "352": {
+        "en": "Sohm Al (Hard)",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "618": {
+    "en": null,
+    "maps": {}
+  },
+  "619": {
+    "en": null,
+    "maps": {}
+  },
+  "620": {
+    "en": "The Peaks",
+    "maps": {
+      "368": {
+        "en": "The Peaks",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "621": {
+    "en": "The Lochs",
+    "maps": {
+      "369": {
+        "en": "The Lochs",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "622": {
+    "en": "The Azim Steppe",
+    "maps": {
+      "372": {
+        "en": "The Azim Steppe",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "623": {
+    "en": "Bardam's Mettle",
+    "maps": {}
+  },
+  "624": {
+    "en": "The Diadem",
+    "maps": {}
+  },
+  "625": {
+    "en": "The Diadem",
+    "maps": {}
+  },
+  "626": {
+    "en": "The Sirensong Sea",
+    "maps": {}
+  },
+  "627": {
+    "en": "Dun Scaith",
+    "maps": {
+      "343": {
+        "en": "Dun Scaith",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "344": {
+        "en": "Dun Scaith",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "345": {
+        "en": "Dun Scaith",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "346": {
+        "en": null,
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "347": {
+        "en": null,
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "628": {
+    "en": "Kugane",
+    "maps": {
+      "370": {
+        "en": "Kugane",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "629": {
+    "en": "Bokairo Inn",
+    "maps": {
+      "380": {
+        "en": "Bokairo Inn",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "630": {
+    "en": null,
+    "maps": {}
+  },
+  "631": {
+    "en": null,
+    "maps": {
+      "348": {
+        "en": "Lichenweed",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "632": {
+    "en": null,
+    "maps": {
+      "349": {
+        "en": "Lichenweed",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "633": {
+    "en": "Carteneau Flats: Borderland Ruins",
+    "maps": {
+      "357": {
+        "en": "Carteneau Flats: Borderland Ruins",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "634": {
+    "en": "Yanxia",
+    "maps": {}
+  },
+  "635": {
+    "en": "Rhalgr's Reach",
+    "maps": {
+      "366": {
+        "en": "Rhalgr's Reach",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "636": {
+    "en": "Omega Control",
+    "maps": {
+      "355": {
+        "en": "Omega Control",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "637": {
+    "en": "Containment Bay Z1T9",
+    "maps": {
+      "353": {
+        "en": "Containment Bay Z1T9",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "638": {
+    "en": "Containment Bay Z1T9",
+    "maps": {}
+  },
+  "639": {
+    "en": "Ruby Bazaar Offices",
+    "maps": {
+      "377": {
+        "en": "Ruby Bazaar Offices",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "640": {
+    "en": "The Fringes",
+    "maps": {}
+  },
+  "641": {
+    "en": "Shirogane",
+    "maps": {
+      "364": {
+        "en": "Shirogane",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "365": {
+        "en": "Shirogane",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "642": {
+    "en": null,
+    "maps": {}
+  },
+  "643": {
+    "en": null,
+    "maps": {}
+  },
+  "644": {
+    "en": null,
+    "maps": {}
+  },
+  "645": {
+    "en": null,
+    "maps": {}
+  },
+  "646": {
+    "en": null,
+    "maps": {}
+  },
+  "647": {
+    "en": "The Fringes",
+    "maps": {}
+  },
+  "648": {
+    "en": "The Fringes",
+    "maps": {}
+  },
+  "649": {
+    "en": "Private Cottage - Shirogane",
+    "maps": {
+      "425": {
+        "en": "Private Cottage - Shirogane",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "426": {
+        "en": "Private Cottage - Shirogane",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "650": {
+    "en": "Private House - Shirogane",
+    "maps": {
+      "427": {
+        "en": "Private House - Shirogane",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "428": {
+        "en": "Private House - Shirogane",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "429": {
+        "en": "Private House - Shirogane",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "651": {
+    "en": "Private Mansion - Shirogane",
+    "maps": {
+      "430": {
+        "en": "Private Mansion - Shirogane",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "431": {
+        "en": "Private Mansion - Shirogane",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "432": {
+        "en": "Private Mansion - Shirogane",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "652": {
+    "en": "Private Chambers - Shirogane",
+    "maps": {
+      "433": {
+        "en": "Company Workshop - Shirogane",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "653": {
+    "en": "Company Workshop - Shirogane",
+    "maps": {
+      "434": {
+        "en": "Private Chambers - Shirogane",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "654": {
+    "en": "Kobai Goten Apartment Lobby",
+    "maps": {
+      "388": {
+        "en": "Kobai Goten Apartment Lobby",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "655": {
+    "en": "Kobai Goten Apartment",
+    "maps": {
+      "438": {
+        "en": "Kobai Goten Apartment",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "656": {
+    "en": "The Diadem",
+    "maps": {
+      "356": {
+        "en": null,
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "358": {
+        "en": "The Diadem",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "657": {
+    "en": "The Ruby Sea",
+    "maps": {}
+  },
+  "658": {
+    "en": "The Interdimensional Rift",
+    "maps": {
+      "445": {
+        "en": "The Interdimensional Rift",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "659": {
+    "en": "Rhalgr's Reach",
+    "maps": {
+      "410": {
+        "en": "Rhalgr's Reach",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "660": {
+    "en": "Doma Castle",
+    "maps": {}
+  },
+  "661": {
+    "en": "Castrum Abania",
+    "maps": {}
+  },
+  "662": {
+    "en": "Kugane Castle",
+    "maps": {
+      "360": {
+        "en": "Kugane Castle",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "361": {
+        "en": "Kugane Castle",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "663": {
+    "en": "The Temple of the Fist",
+    "maps": {
+      "362": {
+        "en": "The Temple of the Fist",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "363": {
+        "en": "The Temple of the Fist",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "664": {
+    "en": "Kugane",
+    "maps": {}
+  },
+  "665": {
+    "en": "Kugane",
+    "maps": {
+      "411": {
+        "en": "Kugane",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "666": {
+    "en": "Ul'dah - Steps of Thal",
+    "maps": {}
+  },
+  "667": {
+    "en": "Kugane",
+    "maps": {}
+  },
+  "668": {
+    "en": "Eastern Thanalan",
+    "maps": {}
+  },
+  "669": {
+    "en": "Southern Thanalan",
+    "maps": {}
+  },
+  "670": {
+    "en": "The Fringes",
+    "maps": {}
+  },
+  "671": {
+    "en": "The Fringes",
+    "maps": {}
+  },
+  "672": {
+    "en": "Mor Dhona",
+    "maps": {}
+  },
+  "673": {
+    "en": "Sohm Al",
+    "maps": {}
+  },
+  "674": {
+    "en": "The Blessed Treasury",
+    "maps": {
+      "400": {
+        "en": "The Blessed Treasury",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "675": {
+    "en": "Western La Noscea",
+    "maps": {}
+  },
+  "676": {
+    "en": "The Great Gubal Library",
+    "maps": {}
+  },
+  "677": {
+    "en": "The Blessed Treasury",
+    "maps": {}
+  },
+  "678": {
+    "en": "The Fringes",
+    "maps": {}
+  },
+  "679": {
+    "en": "The Royal Airship Landing",
+    "maps": {
+      "405": {
+        "en": "The Royal Airship Landing",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "406": {
+        "en": "Transparency",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "680": {
+    "en": "The Misery",
+    "maps": {
+      "376": {
+        "en": "The Misery",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "681": {
+    "en": "The House of the Fierce",
+    "maps": {
+      "378": {
+        "en": "The House of the Fierce",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "682": {
+    "en": "The Doman Enclave",
+    "maps": {
+      "379": {
+        "en": "The Doman Enclave",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "683": {
+    "en": "The First Altar of Djanan Qhat",
+    "maps": {
+      "381": {
+        "en": "The First Altar of Djanan Qhat",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "684": {
+    "en": "The Lochs",
+    "maps": {
+      "382": {
+        "en": "The Resonatorium",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "685": {
+    "en": "Yanxia",
+    "maps": {}
+  },
+  "686": {
+    "en": "The Lochs",
+    "maps": {}
+  },
+  "687": {
+    "en": "The Lochs",
+    "maps": {}
+  },
+  "688": {
+    "en": "The Azim Steppe",
+    "maps": {}
+  },
+  "689": {
+    "en": "Ala Mhigo",
+    "maps": {}
+  },
+  "690": {
+    "en": "The Interdimensional Rift",
+    "maps": {
+      "389": {
+        "en": "The Interdimensional Rift",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "691": {
+    "en": "Deltascape V1.0",
+    "maps": {
+      "390": {
+        "en": "Deltascape V1.0",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "692": {
+    "en": "Deltascape V2.0",
+    "maps": {
+      "391": {
+        "en": "Deltascape V2.0",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "693": {
+    "en": "Deltascape V3.0",
+    "maps": {
+      "392": {
+        "en": "Deltascape V3.0",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "393": {
+        "en": "Deltascape V3.0",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "694": {
+    "en": "Deltascape V4.0",
+    "maps": {
+      "394": {
+        "en": "Deltascape V4.0",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "695": {
+    "en": "Deltascape V1.0",
+    "maps": {}
+  },
+  "696": {
+    "en": "Deltascape V2.0",
+    "maps": {}
+  },
+  "697": {
+    "en": "Deltascape V3.0",
+    "maps": {}
+  },
+  "698": {
+    "en": "Deltascape V4.0",
+    "maps": {}
+  },
+  "699": {
+    "en": "Coerthas Central Highlands",
+    "maps": {}
+  },
+  "700": {
+    "en": "Foundation",
+    "maps": {}
+  },
+  "701": {
+    "en": "Seal Rock",
+    "maps": {}
+  },
+  "702": {
+    "en": "Aetherochemical Research Facility",
+    "maps": {}
+  },
+  "703": {
+    "en": "The Fringes",
+    "maps": {}
+  },
+  "704": {
+    "en": "Dalamud's Shadow",
+    "maps": {}
+  },
+  "705": {
+    "en": "Ul'dah - Steps of Thal",
+    "maps": {}
+  },
+  "706": {
+    "en": "Ul'dah - Steps of Thal",
+    "maps": {}
+  },
+  "707": {
+    "en": "The Weeping City of Mhach",
+    "maps": {}
+  },
+  "708": {
+    "en": "Rhotano Sea",
+    "maps": {}
+  },
+  "709": {
+    "en": "Coerthas Western Highlands",
+    "maps": {}
+  },
+  "710": {
+    "en": "Kugane",
+    "maps": {}
+  },
+  "711": {
+    "en": "The Ruby Sea",
+    "maps": {}
+  },
+  "712": {
+    "en": "The Lost Canals of Uznair",
+    "maps": {
+      "408": {
+        "en": "The Lost Canals of Uznair",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "713": {
+    "en": "The Azim Steppe",
+    "maps": {}
+  },
+  "714": {
+    "en": "Bardam's Mettle",
+    "maps": {}
+  },
+  "715": {
+    "en": "The Churning Mists",
+    "maps": {}
+  },
+  "716": {
+    "en": "The Peaks",
+    "maps": {}
+  },
+  "717": {
+    "en": "Wolves' Den Pier",
+    "maps": {}
+  },
+  "718": {
+    "en": "The Azim Steppe",
+    "maps": {}
+  },
+  "719": {
+    "en": "Emanation",
+    "maps": {
+      "399": {
+        "en": "Emanation",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "720": {
+    "en": "Emanation",
+    "maps": {}
+  },
+  "721": {
+    "en": "Amdapor Keep",
+    "maps": {}
+  },
+  "722": {
+    "en": "The Lost City of Amdapor",
+    "maps": {}
+  },
+  "723": {
+    "en": "The Azim Steppe",
+    "maps": {}
+  },
+  "724": {
+    "en": "The Interdimensional Rift",
+    "maps": {
+      "395": {
+        "en": "The Interdimensional Rift",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "398": {
+        "en": "The Interdimensional Rift",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "725": {
+    "en": "The Lost Canals of Uznair",
+    "maps": {
+      "409": {
+        "en": "The Lost Canals of Uznair",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "726": {
+    "en": "The Ruby Sea",
+    "maps": {}
+  },
+  "727": {
+    "en": "The Royal Menagerie",
+    "maps": {
+      "383": {
+        "en": "The Royal Menagerie",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "728": {
+    "en": "Mordion Gaol",
+    "maps": {
+      "10": {
+        "en": "Mordion Gaol",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "729": {
+    "en": "Astragalos",
+    "maps": {
+      "412": {
+        "en": "Astragalos",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "730": {
+    "en": "Transparency",
+    "maps": {
+      "435": {
+        "en": "Transparency",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "436": {
+        "en": "Myth",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "731": {
+    "en": "The Drowned City of Skalla",
+    "maps": {}
+  },
+  "732": {
+    "en": "Eureka Anemos",
+    "maps": {
+      "414": {
+        "en": "Eureka Anemos",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "733": {
+    "en": "The Binding Coil of Bahamut",
+    "maps": {
+      "416": {
+        "en": "The Binding Coil of Bahamut",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "734": {
+    "en": "The Royal City of Rabanastre",
+    "maps": {
+      "422": {
+        "en": "The Royal City of Rabanastre",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "423": {
+        "en": "The Royal City of Rabanastre",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "424": {
+        "en": "The Royal City of Rabanastre",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "735": {
+    "en": "The Prima Vista Tiring Room",
+    "maps": {
+      "420": {
+        "en": "The Prima Vista Tiring Room",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "736": {
+    "en": "The Prima Vista Bridge",
+    "maps": {
+      "421": {
+        "en": "The Prima Vista Bridge",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "737": {
+    "en": "Royal Palace",
+    "maps": {
+      "417": {
+        "en": "The Hall of the Griffin",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "738": {
+    "en": "The Resonatorium",
+    "maps": {
+      "419": {
+        "en": "The Resonatorium",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "739": {
+    "en": "The Doman Enclave",
+    "maps": {
+      "437": {
+        "en": "The Doman Enclave",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "740": {
+    "en": "The Royal Menagerie",
+    "maps": {}
+  },
+  "741": {
+    "en": "Sanctum of the Twelve",
+    "maps": {
+      "451": {
+        "en": "Valentione's Ceremony",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "742": {
+    "en": "Hells' Lid",
+    "maps": {
+      "439": {
+        "en": "Hells' Lid",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "743": {
+    "en": "The Fractal Continuum",
+    "maps": {
+      "441": {
+        "en": "The Fractal Continuum (Hard)",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "442": {
+        "en": "The Fractal Continuum (Hard)",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "443": {
+        "en": "The Fractal Continuum (Hard)",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "744": {
+    "en": "Kienkan",
+    "maps": {
+      "461": {
+        "en": "Kienkan",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "745": {
+    "en": null,
+    "maps": {
+      "440": {
+        "en": "Crystal Tower Training Grounds",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "746": {
+    "en": "The Jade Stoa",
+    "maps": {
+      "450": {
+        "en": "The Jade Stoa",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "747": {
+    "en": null,
+    "maps": {}
+  },
+  "748": {
+    "en": "Sigmascape V1.0",
+    "maps": {
+      "446": {
+        "en": "Sigmascape V1.0",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "452": {
+        "en": "Sigmascape V1.0",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "453": {
+        "en": "Sigmascape V1.0",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "454": {
+        "en": "Sigmascape V1.0",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "455": {
+        "en": "Sigmascape V1.0",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "456": {
+        "en": "Sigmascape V1.0",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "457": {
+        "en": "Sigmascape V1.0",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "458": {
+        "en": "Sigmascape V1.0",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "459": {
+        "en": "Sigmascape V1.0",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "460": {
+        "en": "Sigmascape V1.0",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "749": {
+    "en": "Sigmascape V2.0",
+    "maps": {
+      "447": {
+        "en": "Sigmascape V2.0",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "750": {
+    "en": "Sigmascape V3.0",
+    "maps": {
+      "448": {
+        "en": "Sigmascape V3.0",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "751": {
+    "en": "Sigmascape V4.0",
+    "maps": {
+      "449": {
+        "en": "Sigmascape V4.0",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "752": {
+    "en": "Sigmascape V1.0",
+    "maps": {}
+  },
+  "753": {
+    "en": "Sigmascape V2.0",
+    "maps": {}
+  },
+  "754": {
+    "en": "Sigmascape V3.0",
+    "maps": {}
+  },
+  "755": {
+    "en": "Sigmascape V4.0",
+    "maps": {}
+  },
+  "756": {
+    "en": "The Interdimensional Rift",
+    "maps": {
+      "444": {
+        "en": "The Interdimensional Rift",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "757": {
+    "en": "The Ruby Sea",
+    "maps": {}
+  },
+  "758": {
+    "en": "The Jade Stoa",
+    "maps": {}
+  },
+  "759": {
+    "en": "The Doman Enclave",
+    "maps": {
+      "463": {
+        "en": "The Doman Enclave",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "760": {
+    "en": "The Fringes",
+    "maps": {}
+  },
+  "761": {
+    "en": "The Great Hunt",
+    "maps": {
+      "468": {
+        "en": "The Great Hunt",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "762": {
+    "en": "The Great Hunt",
+    "maps": {}
+  },
+  "763": {
+    "en": "Eureka Pagos",
+    "maps": {
+      "467": {
+        "en": "Eureka Pagos",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "764": {
+    "en": "Reisen Temple",
+    "maps": {
+      "462": {
+        "en": "Reisen Temple",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "765": {
+    "en": null,
+    "maps": {}
+  },
+  "766": {
+    "en": null,
+    "maps": {}
+  },
+  "767": {
+    "en": null,
+    "maps": {}
+  },
+  "768": {
+    "en": "The Swallow's Compass",
+    "maps": {
+      "464": {
+        "en": "The Swallow's Compass",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "465": {
+        "en": "The Swallow's Compass",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "466": {
+        "en": "The Swallow's Compass",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "769": {
+    "en": "The Burn",
+    "maps": {
+      "478": {
+        "en": "The Burn",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "770": {
+    "en": "Heaven-on-High",
+    "maps": {}
+  },
+  "771": {
+    "en": "Heaven-on-High",
+    "maps": {}
+  },
+  "772": {
+    "en": "Heaven-on-High",
+    "maps": {}
+  },
+  "773": {
+    "en": "Heaven-on-High",
+    "maps": {}
+  },
+  "774": {
+    "en": "Heaven-on-High",
+    "maps": {}
+  },
+  "775": {
+    "en": "Heaven-on-High",
+    "maps": {}
+  },
+  "776": {
+    "en": "The Ridorana Lighthouse",
+    "maps": {
+      "470": {
+        "en": "The Ridorana Lighthouse",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "471": {
+        "en": "The Ridorana Lighthouse",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "472": {
+        "en": "The Ridorana Lighthouse",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "473": {
+        "en": "The Ridorana Lighthouse",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "474": {
+        "en": "The Ridorana Lighthouse",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "777": {
+    "en": "Ultimacy",
+    "maps": {
+      "475": {
+        "en": "Ultimacy",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "778": {
+    "en": "Castrum Fluminis",
+    "maps": {
+      "476": {
+        "en": "Castrum Fluminis",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "779": {
+    "en": "Castrum Fluminis",
+    "maps": {}
+  },
+  "780": {
+    "en": "Heaven-on-High",
+    "maps": {
+      "477": {
+        "en": "Heaven-on-High",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "781": {
+    "en": "Reisen Temple Road",
+    "maps": {
+      "469": {
+        "en": "Reisen Temple Road",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "782": {
+    "en": "Heaven-on-High",
+    "maps": {}
+  },
+  "783": {
+    "en": "Heaven-on-High",
+    "maps": {}
+  },
+  "784": {
+    "en": "Heaven-on-High",
+    "maps": {}
+  },
+  "785": {
+    "en": "Heaven-on-High",
+    "maps": {}
+  },
+  "786": {
+    "en": "Castrum Fluminis",
+    "maps": {
+      "479": {
+        "en": "Castrum Fluminis",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "787": {
+    "en": "The Ridorana Cataract",
+    "maps": {
+      "483": {
+        "en": "The Ridorana Cataract",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "788": {
+    "en": "Saint Mocianne's Arboretum",
+    "maps": {
+      "481": {
+        "en": "Saint Mocianne's Arboretum (Hard)",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "482": {
+        "en": "Saint Mocianne's Arboretum (Hard)",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "789": {
+    "en": "The Burn",
+    "maps": {}
+  },
+  "790": {
+    "en": "Ul'dah - Steps of Nald",
+    "maps": {
+      "487": {
+        "en": "Ul'dah - Steps of Nald",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "791": {
+    "en": "Hidden Gorge",
+    "maps": {
+      "488": {
+        "en": "Hidden Gorge",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "792": {
+    "en": "The Fall of Belah'dia",
+    "maps": {
+      "507": {
+        "en": "The Fall of Belah'dia",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "793": {
+    "en": "The Ghimlyt Dark",
+    "maps": {}
+  },
+  "794": {
+    "en": "The Shifting Altars of Uznair",
+    "maps": {
+      "499": {
+        "en": "The Shifting Altars of Uznair",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "795": {
+    "en": "Eureka Pyros",
+    "maps": {
+      "484": {
+        "en": "Eureka Pyros",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "796": {
+    "en": "Blue Sky",
+    "maps": {
+      "490": {
+        "en": "Blue Sky",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "797": {
+    "en": "The Azim Steppe",
+    "maps": {}
+  },
+  "798": {
+    "en": "Psiscape V1.0",
+    "maps": {
+      "485": {
+        "en": "Psiscape V1.0",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "799": {
+    "en": "Psiscape V2.0",
+    "maps": {
+      "501": {
+        "en": "Psiscape V2.0",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "800": {
+    "en": "The Interdimensional Rift",
+    "maps": {
+      "486": {
+        "en": "The Interdimensional Rift",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "801": {
+    "en": "The Interdimensional Rift",
+    "maps": {
+      "502": {
+        "en": "The Interdimensional Rift",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "802": {
+    "en": "Psiscape V1.0",
+    "maps": {}
+  },
+  "803": {
+    "en": "Psiscape V2.0",
+    "maps": {}
+  },
+  "804": {
+    "en": "The Interdimensional Rift",
+    "maps": {}
+  },
+  "805": {
+    "en": "The Interdimensional Rift",
+    "maps": {}
+  },
+  "806": {
+    "en": "Kugane Ohashi",
+    "maps": {
+      "489": {
+        "en": "Kugane Ohashi",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "807": {
+    "en": "The Interdimensional Rift",
+    "maps": {
+      "508": {
+        "en": "The Interdimensional Rift",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "808": {
+    "en": "The Interdimensional Rift",
+    "maps": {
+      "509": {
+        "en": "The Interdimensional Rift",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "809": {
+    "en": "Haunted Manor",
+    "maps": {
+      "504": {
+        "en": "The Haunted Manor",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "505": {
+        "en": "The Haunted Manor",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "506": {
+        "en": "The Haunted Manor",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "810": {
+    "en": "Hells' Kier",
+    "maps": {
+      "503": {
+        "en": "Hells' Kier",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "811": {
+    "en": "Hells' Kier",
+    "maps": {}
+  },
+  "812": {
+    "en": "The Interdimensional Rift",
+    "maps": {}
+  },
+  "813": {
+    "en": "Lakeland",
+    "maps": {
+      "491": {
+        "en": "Lakeland",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "814": {
+    "en": "Kholusia",
+    "maps": {
+      "492": {
+        "en": "Kholusia",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "815": {
+    "en": "Amh Araeng",
+    "maps": {
+      "493": {
+        "en": "Amh Araeng",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "550": {
+        "en": "The Nabaath Mines",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "816": {
+    "en": "Il Mheg",
+    "maps": {
+      "494": {
+        "en": "Il Mheg",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "817": {
+    "en": "The Rak'tika Greatwood",
+    "maps": {
+      "495": {
+        "en": "The Rak'tika Greatwood",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "551": {
+        "en": "Ronkan Reflections",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "818": {
+    "en": "The Tempest",
+    "maps": {
+      "496": {
+        "en": "The Tempest",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "819": {
+    "en": "The Crystarium",
+    "maps": {
+      "497": {
+        "en": "The Crystarium",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "820": {
+    "en": "Eulmore",
+    "maps": {
+      "498": {
+        "en": "Eulmore",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "554": {
+        "en": "Eulmore",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "555": {
+        "en": "Eulmore",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "821": {
+    "en": "Dohn Mheg",
+    "maps": {
+      "528": {
+        "en": "Dohn Mheg",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "529": {
+        "en": "Dohn Mheg",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "822": {
+    "en": "Mt. Gulg",
+    "maps": {
+      "536": {
+        "en": "Mt. Gulg",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "537": {
+        "en": "Mt. Gulg",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "823": {
+    "en": "The Qitana Ravel",
+    "maps": {
+      "510": {
+        "en": "The Qitana Ravel",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "511": {
+        "en": "The Qitana Ravel",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "824": {
+    "en": "The Wreath of Snakes",
+    "maps": {
+      "516": {
+        "en": "The Wreath of Snakes",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "825": {
+    "en": "The Wreath of Snakes",
+    "maps": {}
+  },
+  "826": {
+    "en": "The Orbonne Monastery",
+    "maps": {
+      "512": {
+        "en": "The Orbonne Monastery",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "513": {
+        "en": "The Orbonne Monastery",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "514": {
+        "en": "The Orbonne Monastery",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "519": {
+        "en": "The Orbonne Monastery",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "522": {
+        "en": "The Orbonne Monastery",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "523": {
+        "en": "The Orbonne Monastery",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "827": {
+    "en": "Eureka Hydatos",
+    "maps": {
+      "515": {
+        "en": "Eureka Hydatos",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "520": {
+        "en": "Eureka Hydatos",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "521": {
+        "en": "Eureka Hydatos",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "524": {
+        "en": "Eureka Hydatos",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "525": {
+        "en": "Eureka Hydatos",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "526": {
+        "en": "Eureka Hydatos",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "527": {
+        "en": "Eureka Hydatos",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "828": {
+    "en": "The Prima Vista Tiring Room",
+    "maps": {}
+  },
+  "829": {
+    "en": "Eorzean Alliance Headquarters",
+    "maps": {
+      "517": {
+        "en": "Garlean Legion Tents",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "518": {
+        "en": "Eorzean Alliance Headquarters",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "830": {
+    "en": "The Ghimlyt Dark",
+    "maps": {}
+  },
+  "831": {
+    "en": "The Manderville Tables",
+    "maps": {}
+  },
+  "832": {
+    "en": "The Gold Saucer",
+    "maps": {}
+  },
+  "833": {
+    "en": "The Howling Eye",
+    "maps": {}
+  },
+  "834": {
+    "en": "The Howling Eye",
+    "maps": {}
+  },
+  "835": {
+    "en": null,
+    "maps": {}
+  },
+  "836": {
+    "en": "Malikah's Well",
+    "maps": {
+      "540": {
+        "en": "Malikah's Well",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "541": {
+        "en": "Malikah's Well",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "542": {
+        "en": "Malikah's Well",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "837": {
+    "en": "Holminster Switch",
+    "maps": {
+      "544": {
+        "en": "Holminster Switch",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "838": {
+    "en": "Amaurot",
+    "maps": {
+      "532": {
+        "en": "Amaurot",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "533": {
+        "en": "Amaurot",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "839": {
+    "en": "East Shroud",
+    "maps": {}
+  },
+  "840": {
+    "en": "The Twinning",
+    "maps": {
+      "530": {
+        "en": "The Twinning",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "531": {
+        "en": "The Twinning",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "841": {
+    "en": "Akadaemia Anyder",
+    "maps": {
+      "538": {
+        "en": "Akadaemia Anyder",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "539": {
+        "en": "Akadaemia Anyder",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "842": {
+    "en": "The Syrcus Trench",
+    "maps": {
+      "545": {
+        "en": "The Syrcus Trench",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "843": {
+    "en": "The Pendants Personal Suite",
+    "maps": {
+      "546": {
+        "en": "The Pendants Personal Suite",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "844": {
+    "en": "The Ocular",
+    "maps": {
+      "547": {
+        "en": "The Ocular",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "845": {
+    "en": "The Dancing Plague",
+    "maps": {
+      "556": {
+        "en": "The Dancing Plague",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "846": {
+    "en": "The Crown of the Immaculate",
+    "maps": {
+      "557": {
+        "en": "The Crown of the Immaculate",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "847": {
+    "en": "The Dying Gasp",
+    "maps": {
+      "558": {
+        "en": "The Dying Gasp",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "848": {
+    "en": "The Crown of the Immaculate",
+    "maps": {}
+  },
+  "849": {
+    "en": "The Core",
+    "maps": {
+      "559": {
+        "en": "The Core",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "850": {
+    "en": "The Halo",
+    "maps": {
+      "560": {
+        "en": "The Halo",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "851": {
+    "en": "The Nereus Trench",
+    "maps": {
+      "561": {
+        "en": "The Nereus Trench",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "852": {
+    "en": "Atlas Peak",
+    "maps": {
+      "562": {
+        "en": "Atlas Peak",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "853": {
+    "en": "The Core",
+    "maps": {}
+  },
+  "854": {
+    "en": "The Halo",
+    "maps": {}
+  },
+  "855": {
+    "en": "The Nereus Trench",
+    "maps": {}
+  },
+  "856": {
+    "en": "Atlas Peak",
+    "maps": {}
+  },
+  "857": {
+    "en": "The Core",
+    "maps": {
+      "564": {
+        "en": "The Core",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "858": {
+    "en": "The Dancing Plague",
+    "maps": {}
+  },
+  "859": {
+    "en": "The Confessional of Toupasa the Elder",
+    "maps": {
+      "553": {
+        "en": "The Confessional of Toupasa the Elder",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "860": {
+    "en": "Amh Araeng",
+    "maps": {}
+  },
+  "861": {
+    "en": "Lakeland",
+    "maps": {}
+  },
+  "862": {
+    "en": "Lakeland",
+    "maps": {}
+  },
+  "863": {
+    "en": "Eulmore",
+    "maps": {}
+  },
+  "864": {
+    "en": "Kholusia",
+    "maps": {}
+  },
+  "865": {
+    "en": "Old Gridania",
+    "maps": {}
+  },
+  "866": {
+    "en": "Coerthas Western Highlands",
+    "maps": {}
+  },
+  "867": {
+    "en": "Eastern La Noscea",
+    "maps": {}
+  },
+  "868": {
+    "en": "The Peaks",
+    "maps": {}
+  },
+  "869": {
+    "en": "Il Mheg",
+    "maps": {}
+  },
+  "870": {
+    "en": "Kholusia",
+    "maps": {}
+  },
+  "871": {
+    "en": "The Rak'tika Greatwood",
+    "maps": {}
+  },
+  "872": {
+    "en": "Amh Araeng",
+    "maps": {}
+  },
+  "873": {
+    "en": "The Dancing Plague",
+    "maps": {}
+  },
+  "874": {
+    "en": "The Rak'tika Greatwood",
+    "maps": {}
+  },
+  "875": {
+    "en": "The Rak'tika Greatwood",
+    "maps": {}
+  },
+  "876": {
+    "en": "The Nabaath Mines",
+    "maps": {}
+  },
+  "877": {
+    "en": "Lakeland",
+    "maps": {}
+  },
+  "878": {
+    "en": "The Empty",
+    "maps": {
+      "565": {
+        "en": "The Empty",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "879": {
+    "en": "The Dungeons of Lyhe Ghiah",
+    "maps": {
+      "563": {
+        "en": "The Dungeons of Lyhe Ghiah",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "880": {
+    "en": "The Crown of the Immaculate",
+    "maps": {
+      "552": {
+        "en": "The Crown of the Immaculate",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "881": {
+    "en": "The Dying Gasp",
+    "maps": {}
+  },
+  "882": {
+    "en": "The Copied Factory",
+    "maps": {
+      "569": {
+        "en": "The Copied Factory",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "570": {
+        "en": "The Copied Factory",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "571": {
+        "en": "The Copied Factory",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "572": {
+        "en": "The Copied Factory",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "883": {
+    "en": null,
+    "maps": {}
+  },
+  "884": {
+    "en": "The Grand Cosmos",
+    "maps": {
+      "567": {
+        "en": "The Grand Cosmos",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "885": {
+    "en": "The Dying Gasp",
+    "maps": {
+      "566": {
+        "en": "The Dying Gasp",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "886": {
+    "en": "The Firmament",
+    "maps": {
+      "574": {
+        "en": "The Firmament",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "587": {
+        "en": "The Firmament",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "588": {
+        "en": "The Firmament",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "596": {
+        "en": "The Firmament",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "597": {
+        "en": "The Firmament",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "605": {
+        "en": "The Firmament",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "615": {
+        "en": "The Firmament",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "620": {
+        "en": "The Firmament",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "621": {
+        "en": "The Firmament",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "622": {
+        "en": "The Firmament",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "648": {
+        "en": "The Firmament",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "649": {
+        "en": "The Firmament",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "650": {
+        "en": "The Firmament",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "651": {
+        "en": "The Firmament",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "652": {
+        "en": "The Firmament",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "653": {
+        "en": "The Firmament",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "654": {
+        "en": "The Firmament",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "887": {
+    "en": "Liminal Space",
+    "maps": {
+      "573": {
+        "en": "Liminal Space",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "888": {
+    "en": "Onsal Hakair",
+    "maps": {
+      "568": {
+        "en": "Onsal Hakair",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "889": {
+    "en": "Lyhe Mheg",
+    "maps": {
+      "576": {
+        "en": "Lyhe Mheg",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "890": {
+    "en": "Lyhe Mheg",
+    "maps": {}
+  },
+  "891": {
+    "en": "Lyhe Mheg",
+    "maps": {}
+  },
+  "892": {
+    "en": "Lyhe Mheg",
+    "maps": {
+      "582": {
+        "en": "Lyhe Mheg",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "893": {
+    "en": "The Imperial Palace",
+    "maps": {
+      "577": {
+        "en": "The Imperial Palace",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "894": {
+    "en": "Lyhe Mheg",
+    "maps": {}
+  },
+  "895": {
+    "en": "Excavation Tunnels",
+    "maps": {
+      "575": {
+        "en": "Excavation Tunnels",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "614": {
+        "en": "Anogg's Lair",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "896": {
+    "en": "The Copied Factory",
+    "maps": {
+      "578": {
+        "en": "The Copied Factory",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "579": {
+        "en": "The Copied Factory",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "580": {
+        "en": "The Copied Factory",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "581": {
+        "en": "The Copied Factory",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "897": {
+    "en": "Cinder Drift",
+    "maps": {
+      "583": {
+        "en": "Cinder Drift",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "898": {
+    "en": "Anamnesis Anyder",
+    "maps": {
+      "585": {
+        "en": "Anamnesis Anyder",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "586": {
+        "en": "Anamnesis Anyder",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "595": {
+        "en": "Anamnesis Anyder",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "899": {
+    "en": "The Falling City of Nym",
+    "maps": {
+      "601": {
+        "en": "The Falling City of Nym",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "900": {
+    "en": "The Endeavor",
+    "maps": {
+      "604": {
+        "en": "The Endeavor",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "901": {
+    "en": "The Diadem",
+    "maps": {
+      "584": {
+        "en": "The Diadem",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "902": {
+    "en": "The Gandof Thunder Plains",
+    "maps": {
+      "589": {
+        "en": "The Gandof Thunder Plains",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "903": {
+    "en": "Ashfall",
+    "maps": {
+      "590": {
+        "en": "Ashfall",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "904": {
+    "en": "The Halo",
+    "maps": {
+      "591": {
+        "en": "The Halo",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "905": {
+    "en": "Great Glacier",
+    "maps": {
+      "599": {
+        "en": "Great Glacier",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "602": {
+        "en": "Frozen Reflections",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "906": {
+    "en": "The Gandof Thunder Plains",
+    "maps": {}
+  },
+  "907": {
+    "en": "Ashfall",
+    "maps": {}
+  },
+  "908": {
+    "en": "The Halo",
+    "maps": {}
+  },
+  "909": {
+    "en": "Great Glacier",
+    "maps": {}
+  },
+  "910": {
+    "en": null,
+    "maps": {}
+  },
+  "911": {
+    "en": "Cid's Memory",
+    "maps": {
+      "600": {
+        "en": "Cid's Memory",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "912": {
+    "en": "Cinder Drift",
+    "maps": {}
+  },
+  "913": {
+    "en": "Transmission Control",
+    "maps": {
+      "607": {
+        "en": "Transmission Control",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "914": {
+    "en": "Trial's Threshold",
+    "maps": {
+      "598": {
+        "en": "Trial's Threshold",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "915": {
+    "en": "Gangos",
+    "maps": {
+      "603": {
+        "en": "Gangos",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "916": {
+    "en": "The Heroes' Gauntlet",
+    "maps": {
+      "592": {
+        "en": "The Heroes' Gauntlet",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "593": {
+        "en": "The Heroes' Gauntlet",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "594": {
+        "en": "The Heroes' Gauntlet",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "917": {
+    "en": "The Puppets' Bunker",
+    "maps": {
+      "608": {
+        "en": "The Puppets' Bunker",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "609": {
+        "en": "The Puppets' Bunker",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "610": {
+        "en": "The Puppets' Bunker",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "611": {
+        "en": "The Puppets' Bunker",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "918": {
+    "en": "Anamnesis Anyder",
+    "maps": {}
+  },
+  "919": {
+    "en": "Terncliff",
+    "maps": {
+      "617": {
+        "en": "Terncliff",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "920": {
+    "en": "Bozjan Southern Front",
+    "maps": {
+      "606": {
+        "en": "Bozjan Southern Front",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "616": {
+        "en": "Castrum Lacus Litore",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "921": {
+    "en": "Frondale's Home for Friendless Foundlings",
+    "maps": {}
+  },
+  "922": {
+    "en": "The Seat of Sacrifice",
+    "maps": {
+      "612": {
+        "en": "The Seat of Sacrifice",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "613": {
+        "en": "The Rift",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "923": {
+    "en": "The Seat of Sacrifice",
+    "maps": {}
+  },
+  "924": {
+    "en": "The Shifting Oubliettes of Lyhe Ghiah",
+    "maps": {
+      "640": {
+        "en": "The Shifting Oubliettes of Lyhe Ghiah",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "925": {
+    "en": "Terncliff Bay",
+    "maps": {}
+  },
+  "926": {
+    "en": "Terncliff Bay",
+    "maps": {
+      "618": {
+        "en": "Terncliff Bay",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "927": {
+    "en": null,
+    "maps": {}
+  },
+  "928": {
+    "en": "The Puppets' Bunker",
+    "maps": {
+      "623": {
+        "en": "The Puppets' Bunker",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "624": {
+        "en": "The Puppets' Bunker",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "625": {
+        "en": "The Puppets' Bunker",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "626": {
+        "en": "The Puppets' Bunker",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "929": {
+    "en": "The Diadem",
+    "maps": {}
+  },
+  "930": {
+    "en": null,
+    "maps": {}
+  },
+  "931": {
+    "en": "The Seat of Sacrifice",
+    "maps": {}
+  },
+  "932": {
+    "en": "The Tempest",
+    "maps": {}
+  },
+  "933": {
+    "en": "Matoya's Relict",
+    "maps": {
+      "627": {
+        "en": "Matoya's Relict",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "628": {
+        "en": "Matoya's Relict",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "629": {
+        "en": "Matoya's Relict",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "630": {
+        "en": "Matoya's Relict",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "639": {
+        "en": "Matoya's Relict",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "934": {
+    "en": "Castrum Marinum Drydocks",
+    "maps": {
+      "638": {
+        "en": "Castrum Marinum Drydocks",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "935": {
+    "en": "Castrum Marinum Drydocks",
+    "maps": {}
+  },
+  "936": {
+    "en": "Delubrum Reginae",
+    "maps": {
+      "641": {
+        "en": "Delubrum Reginae",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "642": {
+        "en": "Delubrum Reginae",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "643": {
+        "en": "Delubrum Reginae",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "644": {
+        "en": "Delubrum Reginae",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "645": {
+        "en": "Delubrum Reginae",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "646": {
+        "en": "Delubrum Reginae",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "647": {
+        "en": "Delubrum Reginae",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "937": {
+    "en": "Delubrum Reginae",
+    "maps": {}
+  },
+  "938": {
+    "en": "Paglth'an",
+    "maps": {
+      "666": {
+        "en": "Paglth'an",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "667": {
+        "en": "Paglth'an",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "939": {
+    "en": "The Diadem",
+    "maps": {}
+  },
+  "940": {
+    "en": "The Battlehall",
+    "maps": {}
+  },
+  "941": {
+    "en": "The Battlehall",
+    "maps": {}
+  },
+  "942": {
+    "en": "Sphere of Naught",
+    "maps": {
+      "631": {
+        "en": "Sphere of Naught",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "943": {
+    "en": "Laxan Loft",
+    "maps": {
+      "637": {
+        "en": "Laxan Loft",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "944": {
+    "en": "Bygone Gaol",
+    "maps": {
+      "656": {
+        "en": "Bygone Gaol",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "945": {
+    "en": "The Garden of Nowhere",
+    "maps": {
+      "632": {
+        "en": "The Garden of Nowhere",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "633": {
+        "en": "The Garden of Nowhere",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "634": {
+        "en": "The Garden of Nowhere",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "635": {
+        "en": "The Garden of Nowhere",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "636": {
+        "en": "The Garden of Nowhere",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "946": {
+    "en": "Sphere of Naught",
+    "maps": {}
+  },
+  "947": {
+    "en": "Laxan Loft",
+    "maps": {}
+  },
+  "948": {
+    "en": "Bygone Gaol",
+    "maps": {}
+  },
+  "949": {
+    "en": "The Garden of Nowhere",
+    "maps": {}
+  },
+  "950": {
+    "en": "G-Savior Deck",
+    "maps": {
+      "670": {
+        "en": "G-Savior Deck",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "951": {
+    "en": "G-Savior Deck",
+    "maps": {}
+  },
+  "952": {
+    "en": "The Tower of Zot",
+    "maps": {
+      "701": {
+        "en": "The Tower of Zot",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "702": {
+        "en": "The Tower of Zot",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "703": {
+        "en": "The Tower of Zot",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "953": {
+    "en": null,
+    "maps": {}
+  },
+  "954": {
+    "en": "The Navel",
+    "maps": {}
+  },
+  "955": {
+    "en": "The Last Trace",
+    "maps": {}
+  },
+  "956": {
+    "en": "Labyrinthos",
+    "maps": {
+      "695": {
+        "en": "Labyrinthos",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "957": {
+    "en": "Thavnair",
+    "maps": {
+      "696": {
+        "en": "Thavnair",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "958": {
+    "en": "Garlemald",
+    "maps": {
+      "697": {
+        "en": "Garlemald",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "750": {
+        "en": "Garlemald",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "959": {
+    "en": "Mare Lamentorum",
+    "maps": {
+      "698": {
+        "en": "Mare Lamentorum",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "960": {
+    "en": "Ultima Thule",
+    "maps": {
+      "699": {
+        "en": "Ultima Thule",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "961": {
+    "en": "Elpis",
+    "maps": {
+      "700": {
+        "en": "Elpis",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "962": {
+    "en": "Old Sharlayan",
+    "maps": {
+      "693": {
+        "en": "Old Sharlayan",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "963": {
+    "en": "Radz-at-Han",
+    "maps": {
+      "694": {
+        "en": "Radz-at-Han",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "964": {
+    "en": "The Last Trace",
+    "maps": {
+      "655": {
+        "en": "The Last Trace",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "965": {
+    "en": "The Empty",
+    "maps": {
+      "658": {
+        "en": "The Empty",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "966": {
+    "en": "The Tower at Paradigm's Breach",
+    "maps": {
+      "659": {
+        "en": "The Tower at Paradigm's Breach",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "660": {
+        "en": "The Tower at Paradigm's Breach",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "661": {
+        "en": "The Tower at Paradigm's Breach",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "662": {
+        "en": "The Tower at Paradigm's Breach",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "663": {
+        "en": "The Tower at Paradigm's Breach",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "664": {
+        "en": "The Tower at Paradigm's Breach",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "668": {
+        "en": "The Tower at Paradigm's Breach",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "669": {
+        "en": "The Tower at Paradigm's Breach",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "967": {
+    "en": "Castrum Marinum Drydocks",
+    "maps": {
+      "657": {
+        "en": "Castrum Marinum Drydocks",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "968": {
+    "en": "Medias Res",
+    "maps": {
+      "758": {
+        "en": "Medias Res",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "765": {
+        "en": "Medias Res",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "969": {
+    "en": "The Tower of Babil",
+    "maps": {
+      "723": {
+        "en": "The Tower of Babil",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "724": {
+        "en": "The Tower of Babil",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "725": {
+        "en": "The Tower of Babil",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "726": {
+        "en": "The Tower of Babil",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "727": {
+        "en": "The Tower of Babil",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "728": {
+        "en": "The Tower of Babil",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "970": {
+    "en": "Vanaspati",
+    "maps": {
+      "739": {
+        "en": "Vanaspati",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "740": {
+        "en": "Vanaspati",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "971": {
+    "en": "Lemures Headquarters",
+    "maps": {
+      "741": {
+        "en": "Lemures Headquarters",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "972": {
+    "en": null,
+    "maps": {}
+  },
+  "973": {
+    "en": "The Dead Ends",
+    "maps": {
+      "736": {
+        "en": "The Dead Ends",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "737": {
+        "en": "The Dead Ends",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "738": {
+        "en": "The Dead Ends",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "974": {
+    "en": "Ktisis Hyperboreia",
+    "maps": {
+      "710": {
+        "en": "Ktisis Hyperboreia",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "711": {
+        "en": "Ktisis Hyperboreia",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "712": {
+        "en": "Ktisis Hyperboreia",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "713": {
+        "en": "Ktisis Hyperboreia",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "714": {
+        "en": "Ktisis Hyperboreia",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "715": {
+        "en": "Ktisis Hyperboreia",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "975": {
+    "en": "Zadnor",
+    "maps": {
+      "665": {
+        "en": "Zadnor",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "672": {
+        "en": "Zadnor",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "673": {
+        "en": "The Dalriada",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "674": {
+        "en": "The Dalriada",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "675": {
+        "en": "The Dalriada",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "976": {
+    "en": "Smileton",
+    "maps": {
+      "706": {
+        "en": "Smileton",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "707": {
+        "en": "Smileton",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "708": {
+        "en": "Smileton",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "977": {
+    "en": "Carteneau Flats: Borderland Ruins",
+    "maps": {}
+  },
+  "978": {
+    "en": "The Aitiascope",
+    "maps": {
+      "719": {
+        "en": "The Aitiascope",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "720": {
+        "en": "The Aitiascope",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "721": {
+        "en": "The Aitiascope",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "979": {
+    "en": "Empyreum",
+    "maps": {
+      "679": {
+        "en": "Empyreum",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "680": {
+        "en": "Empyreum",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "980": {
+    "en": "Private Cottage - Empyreum",
+    "maps": {
+      "682": {
+        "en": "Private Cottage - Empyreum",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "683": {
+        "en": "Private Cottage - Empyreum",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "981": {
+    "en": "Private House - Empyreum",
+    "maps": {
+      "684": {
+        "en": "Private House - Empyreum",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "685": {
+        "en": "Private House - Empyreum",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "686": {
+        "en": "Private House - Empyreum",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "982": {
+    "en": "Private Mansion - Empyreum",
+    "maps": {
+      "687": {
+        "en": "Private Mansion - Empyreum",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "688": {
+        "en": "Private Mansion - Empyreum",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "689": {
+        "en": "Private Mansion - Empyreum",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "983": {
+    "en": "Private Chambers - Empyreum",
+    "maps": {
+      "691": {
+        "en": "Private Chambers - Empyreum",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "984": {
+    "en": "Company Workshop - Empyreum",
+    "maps": {
+      "690": {
+        "en": "Company Workshop - Empyreum",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "985": {
+    "en": "Ingleside Apartment Lobby",
+    "maps": {
+      "681": {
+        "en": "Ingleside Apartment Lobby",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "986": {
+    "en": "The Stigma Dreamscape",
+    "maps": {
+      "716": {
+        "en": "The Stigma Dreamscape",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "717": {
+        "en": "The Stigma Dreamscape",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "718": {
+        "en": "The Stigma Dreamscape",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "987": {
+    "en": "Main Hall",
+    "maps": {
+      "742": {
+        "en": "Main Hall",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "988": {
+    "en": null,
+    "maps": {}
+  },
+  "989": {
+    "en": null,
+    "maps": {}
+  },
+  "990": {
+    "en": "Andron",
+    "maps": {
+      "743": {
+        "en": "Andron",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "991": {
+    "en": "G-Savior Deck",
+    "maps": {
+      "671": {
+        "en": "G-Savior Deck",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "992": {
+    "en": "The Dark Inside",
+    "maps": {
+      "676": {
+        "en": "The Dark Inside",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "993": {
+    "en": "The Dark Inside",
+    "maps": {}
+  },
+  "994": {
+    "en": "The Phantoms' Feast",
+    "maps": {
+      "704": {
+        "en": "The Phantoms' Feast",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "705": {
+        "en": "The Phantoms' Feast",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "995": {
+    "en": "The Mothercrystal",
+    "maps": {
+      "677": {
+        "en": "The Mothercrystal",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "996": {
+    "en": "The Mothercrystal",
+    "maps": {}
+  },
+  "997": {
+    "en": "The Final Day",
+    "maps": {
+      "678": {
+        "en": "The Final Day",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "998": {
+    "en": "The Final Day",
+    "maps": {}
+  },
+  "999": {
+    "en": "Ingleside Apartment",
+    "maps": {
+      "692": {
+        "en": "Ingleside Apartment",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "1000": {
+    "en": "The Excitatron 6000",
+    "maps": {
+      "729": {
+        "en": "The Excitatron 6000",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "1001": {
+    "en": "Strategy Room",
+    "maps": {
+      "744": {
+        "en": "Strategy Room",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "1002": {
+    "en": "The Gates of Pand\u00e6monium",
+    "maps": {
+      "709": {
+        "en": "The Gates of Pand\u00e6monium",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "1003": {
+    "en": "The Gates of Pand\u00e6monium",
+    "maps": {}
+  },
+  "1004": {
+    "en": "The Stagnant Limbo",
+    "maps": {
+      "730": {
+        "en": "The Stagnant Limbo",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "1005": {
+    "en": "The Stagnant Limbo",
+    "maps": {}
+  },
+  "1006": {
+    "en": "The Fervid Limbo",
+    "maps": {
+      "722": {
+        "en": "The Fervid Limbo",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "1007": {
+    "en": "The Fervid Limbo",
+    "maps": {}
+  },
+  "1008": {
+    "en": "The Sanguine Limbo",
+    "maps": {
+      "731": {
+        "en": "The Sanguine Limbo",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "1009": {
+    "en": "The Sanguine Limbo",
+    "maps": {}
+  },
+  "1010": {
+    "en": "Magna Glacies",
+    "maps": {
+      "745": {
+        "en": "Magna Glacies",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "1011": {
+    "en": "Garlemald",
+    "maps": {}
+  },
+  "1012": {
+    "en": "Magna Glacies",
+    "maps": {}
+  },
+  "1013": {
+    "en": "Beyond the Stars",
+    "maps": {}
+  },
+  "1014": {
+    "en": "Elpis",
+    "maps": {}
+  },
+  "1015": {
+    "en": "Central Shroud",
+    "maps": {}
+  },
+  "1016": {
+    "en": "Sastasha",
+    "maps": {}
+  },
+  "1017": {
+    "en": "The Swallow's Compass",
+    "maps": {}
+  },
+  "1018": {
+    "en": "The Vault",
+    "maps": {}
+  },
+  "1019": {
+    "en": "The Peaks",
+    "maps": {}
+  },
+  "1020": {
+    "en": "Cutter's Cry",
+    "maps": {}
+  },
+  "1021": {
+    "en": "Dusk Vigil",
+    "maps": {}
+  },
+  "1022": {
+    "en": "Saint Mocianne's Arboretum",
+    "maps": {}
+  },
+  "1023": {
+    "en": "The Dravanian Forelands",
+    "maps": {}
+  },
+  "1024": {
+    "en": "The Nethergate",
+    "maps": {
+      "747": {
+        "en": "The Nethergate",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "1025": {
+    "en": "The Gates of Pand\u00e6monium",
+    "maps": {
+      "748": {
+        "en": "The Gates of Pand\u00e6monium",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "1026": {
+    "en": "Beyond the Stars",
+    "maps": {
+      "746": {
+        "en": "Beyond the Stars",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "1027": {
+    "en": "Ultima Thule",
+    "maps": {
+      "751": {
+        "en": "Ultima Thule",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "1028": {
+    "en": "The Dark Inside",
+    "maps": {}
+  },
+  "1029": {
+    "en": "The Final Day",
+    "maps": {}
+  },
+  "1030": {
+    "en": "The Mothercrystal",
+    "maps": {}
+  },
+  "1031": {
+    "en": "Propylaion",
+    "maps": {
+      "749": {
+        "en": "Propylaion",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "1032": {
+    "en": "The Palaistra",
+    "maps": {
+      "759": {
+        "en": "The Palaistra",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "1033": {
+    "en": "The Volcanic Heart",
+    "maps": {
+      "760": {
+        "en": "The Volcanic Heart",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "1034": {
+    "en": "Cloud Nine",
+    "maps": {
+      "761": {
+        "en": "Cloud Nine",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "1035": {
+    "en": null,
+    "maps": {}
+  },
+  "1036": {
+    "en": "Sastasha",
+    "maps": {
+      "31": {
+        "en": "Sastasha",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "1037": {
+    "en": "The Tam-Tara Deepcroft",
+    "maps": {
+      "8": {
+        "en": "The Tam-Tara Deepcroft",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "1038": {
+    "en": "Copperbell Mines",
+    "maps": {
+      "34": {
+        "en": "Copperbell Mines",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "40": {
+        "en": "Copperbell Mines",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "41": {
+        "en": "Copperbell Mines",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "1039": {
+    "en": "The Thousand Maws of Toto-Rak",
+    "maps": {
+      "9": {
+        "en": "The Thousand Maws of Toto-Rak",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "1040": {
+    "en": "Haukke Manor",
+    "maps": {
+      "48": {
+        "en": "Haukke Manor",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "54": {
+        "en": "Haukke Manor",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "55": {
+        "en": "Haukke Manor",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "1041": {
+    "en": "Brayflox's Longstop",
+    "maps": {
+      "45": {
+        "en": "Brayflox's Longstop",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "1042": {
+    "en": "Stone Vigil",
+    "maps": {
+      "37": {
+        "en": "Stone Vigil",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "1043": {
+    "en": "Castrum Meridianum",
+    "maps": {
+      "47": {
+        "en": "Castrum Meridianum",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "1044": {
+    "en": "The Praetorium",
+    "maps": {
+      "56": {
+        "en": "The Praetorium",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "99": {
+        "en": "The Praetorium",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "100": {
+        "en": "The Praetorium",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "101": {
+        "en": "The Praetorium",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "102": {
+        "en": "The Praetorium",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "103": {
+        "en": "The Praetorium",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "104": {
+        "en": "The Praetorium",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "1045": {
+    "en": "Bowl of Embers",
+    "maps": {
+      "35": {
+        "en": "Bowl of Embers",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "1046": {
+    "en": "The Navel",
+    "maps": {
+      "33": {
+        "en": "The Navel",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "1047": {
+    "en": "The Howling Eye",
+    "maps": {
+      "39": {
+        "en": "The Howling Eye",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "1048": {
+    "en": "Porta Decumana",
+    "maps": {
+      "763": {
+        "en": "Porta Decumana",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "764": {
+        "en": "The Porta Decumana",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "1049": {
+    "en": "Western Thanalan",
+    "maps": {}
+  },
+  "1050": {
+    "en": "Alzadaal's Legacy",
+    "maps": {
+      "752": {
+        "en": "Alzadaal's Legacy",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "753": {
+        "en": "Alzadaal's Legacy",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "754": {
+        "en": "Alzadaal's Legacy",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "1051": {
+    "en": "The Tower of Babil",
+    "maps": {}
+  },
+  "1052": {
+    "en": "The Porta Decumana",
+    "maps": {}
+  },
+  "1053": {
+    "en": "The Porta Decumana",
+    "maps": {}
+  },
+  "1054": {
+    "en": "Aglaia",
+    "maps": {
+      "755": {
+        "en": "Aglaia",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "756": {
+        "en": "Aglaia",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "757": {
+        "en": "Aglaia",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "1055": {
+    "en": "Unnamed Island",
+    "maps": {
+      "772": {
+        "en": "Unnamed Island",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "773": {
+        "en": "Unnamed Island",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "774": {
+        "en": "Unnamed Island",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "775": {
+        "en": "Unnamed Island",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "776": {
+        "en": "Unnamed Island",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "777": {
+        "en": "Unnamed Island",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "778": {
+        "en": "Unnamed Island",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "779": {
+        "en": "Unnamed Island",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "780": {
+        "en": "Unnamed Island",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "781": {
+        "en": "Unnamed Island",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "793": {
+        "en": "Unnamed Island",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "794": {
+        "en": "Unnamed Island",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "866": {
+        "en": "Unnamed Island",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "1056": {
+    "en": "Alzadaal's Legacy",
+    "maps": {
+      "785": {
+        "en": "Alzadaal's Legacy",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "1057": {
+    "en": "Restricted Archives",
+    "maps": {
+      "767": {
+        "en": "Restricted Archives",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "1058": {
+    "en": "The Palaistra",
+    "maps": {}
+  },
+  "1059": {
+    "en": "The Volcanic Heart",
+    "maps": {}
+  },
+  "1060": {
+    "en": "Cloud Nine",
+    "maps": {}
+  },
+  "1061": {
+    "en": "The Omphalos",
+    "maps": {
+      "766": {
+        "en": "The Omphalos",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "1062": {
+    "en": "Snowcloak",
+    "maps": {
+      "174": {
+        "en": "Snowcloak",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "1063": {
+    "en": "The Keeper of the Lake",
+    "maps": {
+      "201": {
+        "en": "The Keeper of the Lake",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "202": {
+        "en": "The Keeper of the Lake",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "203": {
+        "en": "The Keeper of the Lake",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "1064": {
+    "en": "Sohm Al",
+    "maps": {
+      "227": {
+        "en": "Sohm Al Foothills",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "228": {
+        "en": "Sohm Al Foothills",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "229": {
+        "en": "Sohm Al Foothills",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "1065": {
+    "en": "The Aery",
+    "maps": {
+      "252": {
+        "en": "The Aery",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "1066": {
+    "en": "The Vault",
+    "maps": {
+      "248": {
+        "en": "The Vault",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "249": {
+        "en": "The Vault",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "250": {
+        "en": "The Vault",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "251": {
+        "en": "The Vault",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "1067": {
+    "en": "Thornmarch",
+    "maps": {
+      "36": {
+        "en": "Thornmarch",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "1068": {
+    "en": "Steps of Faith",
+    "maps": {
+      "186": {
+        "en": "Steps of Faith",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "1069": {
+    "en": "The Sil'dihn Subterrane",
+    "maps": {
+      "803": {
+        "en": "The Sil'dihn Subterrane",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "1070": {
+    "en": "The Fell Court of Troia",
+    "maps": {
+      "768": {
+        "en": "The Fell Court of Troia",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "769": {
+        "en": "The Fell Court of Troia",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "770": {
+        "en": "The Fell Court of Troia",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "1071": {
+    "en": "Storm's Crown",
+    "maps": {
+      "802": {
+        "en": "Storm's Crown",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "1072": {
+    "en": "Storm's Crown",
+    "maps": {}
+  },
+  "1073": {
+    "en": "Elysion",
+    "maps": {
+      "795": {
+        "en": "Elysion",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "796": {
+        "en": "Elysion",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "797": {
+        "en": "Elysion",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "798": {
+        "en": "Elysion",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "799": {
+        "en": "Elysion",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "800": {
+        "en": "Elysion",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "801": {
+        "en": "Elysion",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "1074": {
+    "en": null,
+    "maps": {}
+  },
+  "1075": {
+    "en": "Another Sil'dihn Subterrane",
+    "maps": {
+      "804": {
+        "en": "Another Sil'dihn Subterrane",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "805": {
+        "en": "Another Sil'dihn Subterrane",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "806": {
+        "en": "Another Sil'dihn Subterrane",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "1076": {
+    "en": "Another Sil'dihn Subterrane",
+    "maps": {}
+  },
+  "1077": {
+    "en": "Zero's Domain",
+    "maps": {
+      "786": {
+        "en": "Zero's Domain",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "1078": {
+    "en": "Meghaduta Guest Chambers",
+    "maps": {
+      "787": {
+        "en": "Meghaduta Guest Chambers",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "1079": {
+    "en": "The Aitiascope",
+    "maps": {
+      "788": {
+        "en": "The Aitiascope",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "1080": {
+    "en": null,
+    "maps": {}
+  },
+  "1081": {
+    "en": "The Caustic Purgatory",
+    "maps": {
+      "807": {
+        "en": "The Caustic Purgatory",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "1082": {
+    "en": "The Caustic Purgatory",
+    "maps": {}
+  },
+  "1083": {
+    "en": "The Pestilent Purgatory",
+    "maps": {
+      "771": {
+        "en": "The Pestilent Purgatory",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "1084": {
+    "en": "The Pestilent Purgatory",
+    "maps": {}
+  },
+  "1085": {
+    "en": "The Hollow Purgatory",
+    "maps": {
+      "792": {
+        "en": "The Hollow Purgatory",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "810": {
+        "en": "The Hollow Purgatory",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "1086": {
+    "en": "The Hollow Purgatory",
+    "maps": {}
+  },
+  "1087": {
+    "en": "Stygian Insenescence Cells",
+    "maps": {
+      "808": {
+        "en": "Stygian Insenescence Cells",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "1088": {
+    "en": "Stygian Insenescence Cells",
+    "maps": {}
+  },
+  "1089": {
+    "en": "The Fell Court of Troia",
+    "maps": {
+      "782": {
+        "en": "The Fell Court of Troia",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "783": {
+        "en": "The Fell Court of Troia",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "784": {
+        "en": "The Fell Court of Troia",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "1090": {
+    "en": null,
+    "maps": {}
+  },
+  "1091": {
+    "en": "The Fell Court of Troia",
+    "maps": {}
+  },
+  "1092": {
+    "en": "Storm's Crown",
+    "maps": {
+      "790": {
+        "en": "Storm's Crown",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "1093": {
+    "en": "Stygian Insenescence Cells",
+    "maps": {
+      "809": {
+        "en": "Stygian Insenescence Cells",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "1094": {
+    "en": "Sneaky Hollow",
+    "maps": {
+      "789": {
+        "en": "Sneaky Hollow",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "1095": {
+    "en": "Mount Ordeals",
+    "maps": {
+      "823": {
+        "en": "Mount Ordeals",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "1096": {
+    "en": "Mount Ordeals",
+    "maps": {}
+  },
+  "1097": {
+    "en": "Lapis Manalis",
+    "maps": {
+      "815": {
+        "en": "Lapis Manalis",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "816": {
+        "en": "Lapis Manalis",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "817": {
+        "en": "Lapis Manalis",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "824": {
+        "en": "Lapis Manalis",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "1098": {
+    "en": "Sylphstep",
+    "maps": {
+      "819": {
+        "en": "Sylphstep",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "1099": {
+    "en": "Eureka Orthos",
+    "maps": {}
+  },
+  "1100": {
+    "en": "Eureka Orthos",
+    "maps": {}
+  },
+  "1101": {
+    "en": "Eureka Orthos",
+    "maps": {}
+  },
+  "1102": {
+    "en": "Eureka Orthos",
+    "maps": {}
+  },
+  "1103": {
+    "en": "Eureka Orthos",
+    "maps": {}
+  },
+  "1104": {
+    "en": "Eureka Orthos",
+    "maps": {}
+  },
+  "1105": {
+    "en": "Eureka Orthos",
+    "maps": {}
+  },
+  "1106": {
+    "en": "Eureka Orthos",
+    "maps": {}
+  },
+  "1107": {
+    "en": "Eureka Orthos",
+    "maps": {}
+  },
+  "1108": {
+    "en": "Eureka Orthos",
+    "maps": {}
+  },
+  "1109": {
+    "en": "The Great Gubal Library",
+    "maps": {
+      "241": {
+        "en": "The Great Gubal Library",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "1110": {
+    "en": "Aetherochemical Research Facility",
+    "maps": {
+      "231": {
+        "en": "Aetherochemical Research Facility",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "232": {
+        "en": "Aetherochemical Research Facility",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "233": {
+        "en": "Aetherochemical Research Facility",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "234": {
+        "en": "Aetherochemical Research Facility",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "254": {
+        "en": "Aetherochemical Research Facility",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "1111": {
+    "en": "The Antitower",
+    "maps": {
+      "277": {
+        "en": "The Antitower",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "278": {
+        "en": "The Antitower",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "279": {
+        "en": "The Antitower",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "1112": {
+    "en": "Sohr Khai",
+    "maps": {
+      "292": {
+        "en": "Sohr Khai",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "293": {
+        "en": "Sohr Khai",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "294": {
+        "en": "Sohr Khai",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "1113": {
+    "en": "Xelphatol",
+    "maps": {
+      "313": {
+        "en": "Xelphatol",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "1114": {
+    "en": "Baelsar's Wall",
+    "maps": {
+      "337": {
+        "en": "Baelsar's Wall",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "338": {
+        "en": "Baelsar's Wall",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "339": {
+        "en": "Baelsar's Wall",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "340": {
+        "en": "Baelsar's Wall",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "1115": {
+    "en": "The Tower of Babil",
+    "maps": {}
+  },
+  "1116": {
+    "en": "The Clockwork Castletown",
+    "maps": {
+      "822": {
+        "en": "The Clockwork Castletown",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "1117": {
+    "en": "The Clockwork Castletown",
+    "maps": {}
+  },
+  "1118": {
+    "en": "Euphrosyne",
+    "maps": {
+      "811": {
+        "en": "Euphrosyne",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "812": {
+        "en": "Euphrosyne",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "813": {
+        "en": "Euphrosyne",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "814": {
+        "en": "Euphrosyne",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "1119": {
+    "en": "Lapis Manalis",
+    "maps": {
+      "826": {
+        "en": "Lapis Manalis",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "827": {
+        "en": "Lapis Manalis",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "828": {
+        "en": "Lapis Manalis",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "829": {
+        "en": "Lapis Manalis",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "1120": {
+    "en": "Garlemald",
+    "maps": {}
+  },
+  "1121": {
+    "en": null,
+    "maps": {}
+  },
+  "1122": {
+    "en": "The Interdimensional Rift",
+    "maps": {
+      "821": {
+        "en": "The Interdimensional Rift",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "1123": {
+    "en": "The Shifting Gymnasion Agonon",
+    "maps": {
+      "818": {
+        "en": "The Shifting Gymnasion Agonon",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "1124": {
+    "en": "Eureka Orthos",
+    "maps": {
+      "820": {
+        "en": "Eureka Orthos",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "1125": {
+    "en": "Khadga",
+    "maps": {
+      "825": {
+        "en": "Khadga",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "1126": {
+    "en": "The Aetherfont",
+    "maps": {
+      "831": {
+        "en": "The Aetherfont",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "832": {
+        "en": "The Aetherfont",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "833": {
+        "en": "The Aetherfont",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "1127": {
+    "en": null,
+    "maps": {}
+  },
+  "1128": {
+    "en": null,
+    "maps": {}
+  },
+  "1129": {
+    "en": null,
+    "maps": {}
+  },
+  "1130": {
+    "en": null,
+    "maps": {}
+  },
+  "1131": {
+    "en": null,
+    "maps": {}
+  },
+  "1132": {
+    "en": null,
+    "maps": {}
+  },
+  "1133": {
+    "en": null,
+    "maps": {}
+  },
+  "1134": {
+    "en": null,
+    "maps": {}
+  },
+  "1135": {
+    "en": null,
+    "maps": {}
+  },
+  "1136": {
+    "en": "The Gilded Araya",
+    "maps": {
+      "838": {
+        "en": "The Gilded Araya",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "1137": {
+    "en": "Mount Rokkon",
+    "maps": {
+      "843": {
+        "en": "Mount Rokkon",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "844": {
+        "en": "Mount Rokkon",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "845": {
+        "en": "Mount Rokkon",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "846": {
+        "en": "Mount Rokkon",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "847": {
+        "en": "Mount Rokkon",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "848": {
+        "en": "Mount Rokkon",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "849": {
+        "en": "Mount Rokkon",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "850": {
+        "en": "Mount Rokkon",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "1138": {
+    "en": "The Red Sands",
+    "maps": {
+      "854": {
+        "en": "The Red Sands",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "1139": {
+    "en": "The Red Sands",
+    "maps": {}
+  },
+  "1140": {
+    "en": "The Voidcast Dais",
+    "maps": {
+      "830": {
+        "en": "The Voidcast Dais",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "1141": {
+    "en": "The Voidcast Dais",
+    "maps": {}
+  },
+  "1142": {
+    "en": "The Sirensong Sea",
+    "maps": {
+      "359": {
+        "en": "The Sirensong Sea",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "1143": {
+    "en": "Bardam's Mettle",
+    "maps": {
+      "375": {
+        "en": "Bardam's Mettle",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "1144": {
+    "en": "Doma Castle",
+    "maps": {
+      "396": {
+        "en": "Doma Castle",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "1145": {
+    "en": "Castrum Abania",
+    "maps": {
+      "397": {
+        "en": "Castrum Abania",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "1146": {
+    "en": "Ala Mhigo",
+    "maps": {
+      "373": {
+        "en": "Ala Mhigo",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "374": {
+        "en": "Ala Mhigo",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "1147": {
+    "en": "The Aetherial Slough",
+    "maps": {
+      "837": {
+        "en": "The Aetherial Slough",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "1148": {
+    "en": "The Aetherial Slough",
+    "maps": {}
+  },
+  "1149": {
+    "en": "The D\u00e6mons' Nest",
+    "maps": {
+      "834": {
+        "en": "The D\u00e6mons' Nest",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "1150": {
+    "en": "The D\u00e6mons' Nest",
+    "maps": {}
+  },
+  "1151": {
+    "en": "The Chamber of Fourteen",
+    "maps": {
+      "839": {
+        "en": "The Chamber of Fourteen",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "1152": {
+    "en": "The Chamber of Fourteen",
+    "maps": {}
+  },
+  "1153": {
+    "en": "Ascension",
+    "maps": {
+      "835": {
+        "en": "Ascension",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "1154": {
+    "en": "Ascension",
+    "maps": {
+      "836": {
+        "en": "Apex of Creation",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "1155": {
+    "en": "Another Mount Rokkon",
+    "maps": {
+      "851": {
+        "en": "Another Mount Rokkon",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "852": {
+        "en": "Another Mount Rokkon",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "853": {
+        "en": "Another Mount Rokkon",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "1156": {
+    "en": "Another Mount Rokkon",
+    "maps": {}
+  },
+  "1157": {
+    "en": null,
+    "maps": {}
+  },
+  "1158": {
+    "en": "The D\u00e6mons' Nest",
+    "maps": {}
+  },
+  "1159": {
+    "en": "The Voidcast Dais",
+    "maps": {}
+  },
+  "1160": {
+    "en": "Senatus",
+    "maps": {
+      "841": {
+        "en": "Senatus",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "1161": {
+    "en": "Estinien's Chambers",
+    "maps": {
+      "840": {
+        "en": "Estinien's Chambers",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "1162": {
+    "en": "The Red Moon",
+    "maps": {
+      "842": {
+        "en": "The Red Moon",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "1163": {
+    "en": "The Endeavor",
+    "maps": {}
+  },
+  "1164": {
+    "en": "The Lunar Subterrane",
+    "maps": {
+      "864": {
+        "en": "The Lunar Subterrane",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "865": {
+        "en": "The Lunar Subterrane",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "1165": {
+    "en": "Blunderville",
+    "maps": {
+      "878": {
+        "en": "Blunderville",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "879": {
+        "en": "Blunderville",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "880": {
+        "en": "Blunderville",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "881": {
+        "en": "Blunderville",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "882": {
+        "en": "Blunderville",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "883": {
+        "en": "Blunderville",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "1166": {
+    "en": "The Memory of Embers",
+    "maps": {
+      "76": {
+        "en": "The Memory of Embers",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "1167": {
+    "en": "Ihuykatumu",
+    "maps": {
+      "897": {
+        "en": "Ihuykatumu",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "898": {
+        "en": "Ihuykatumu",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "1168": {
+    "en": "The Abyssal Fracture",
+    "maps": {
+      "894": {
+        "en": "The Abyssal Fracture",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "1169": {
+    "en": "The Abyssal Fracture",
+    "maps": {}
+  },
+  "1170": {
+    "en": "Sunperch",
+    "maps": {
+      "931": {
+        "en": "Sunperch",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "1171": {
+    "en": "Earthen Sky Hideout",
+    "maps": {
+      "932": {
+        "en": "Earthen Sky Hideout",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "1172": {
+    "en": "The Drowned City of Skalla",
+    "maps": {
+      "413": {
+        "en": "The Drowned City of Skalla",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "415": {
+        "en": "The Drowned City of Skalla",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "1173": {
+    "en": "The Burn",
+    "maps": {
+      "480": {
+        "en": "The Burn",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "1174": {
+    "en": "The Ghimlyt Dark",
+    "maps": {
+      "500": {
+        "en": "The Ghimlyt Dark",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "1175": {
+    "en": null,
+    "maps": {}
+  },
+  "1176": {
+    "en": "Aloalo Island",
+    "maps": {
+      "867": {
+        "en": "Aloalo Island",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "868": {
+        "en": "Aloalo Island",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "869": {
+        "en": "Aloalo Island",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "870": {
+        "en": "Aloalo Island",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "871": {
+        "en": "Aloalo Island",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "872": {
+        "en": "Aloalo Island",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "873": {
+        "en": "Aloalo Island",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "874": {
+        "en": "Aloalo Island",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "892": {
+        "en": "Aloalo Island",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "893": {
+        "en": "Aloalo Island",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "895": {
+        "en": "Aloalo Island",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "1177": {
+    "en": "The Aetherfont",
+    "maps": {
+      "863": {
+        "en": "The Aetherfont",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "1178": {
+    "en": "Thaleia",
+    "maps": {
+      "884": {
+        "en": "Thaleia",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "885": {
+        "en": "Thaleia",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "886": {
+        "en": "Thaleia",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "887": {
+        "en": "Thaleia",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "888": {
+        "en": "Thaleia",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "889": {
+        "en": "Thaleia",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "890": {
+        "en": "Thaleia",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "1179": {
+    "en": "Another Aloalo Island",
+    "maps": {
+      "875": {
+        "en": "Another Aloalo Island",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "876": {
+        "en": "Another Aloalo Island",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "877": {
+        "en": "Another Aloalo Island",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "1180": {
+    "en": "Another Aloalo Island",
+    "maps": {}
+  },
+  "1181": {
+    "en": "The Abyssal Fracture",
+    "maps": {}
+  },
+  "1182": {
+    "en": "Thaleia",
+    "maps": {}
+  },
+  "1183": {
+    "en": "The Gilded Araya",
+    "maps": {}
+  },
+  "1184": {
+    "en": "The Lunar Subterrane",
+    "maps": {}
+  },
+  "1185": {
+    "en": "Tuliyollal",
+    "maps": {
+      "855": {
+        "en": "Tuliyollal",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "1186": {
+    "en": "Solution Nine",
+    "maps": {
+      "856": {
+        "en": "Solution Nine",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "1187": {
+    "en": "Urqopacha",
+    "maps": {
+      "857": {
+        "en": "Urqopacha",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "1188": {
+    "en": "Kozama'uka",
+    "maps": {
+      "858": {
+        "en": "Kozama'uka",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "1189": {
+    "en": "Yak T'el",
+    "maps": {
+      "859": {
+        "en": "Yak T'el",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "1190": {
+    "en": "Shaaloani",
+    "maps": {
+      "860": {
+        "en": "Shaaloani",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "1191": {
+    "en": "Heritage Found",
+    "maps": {
+      "861": {
+        "en": "Heritage Found",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "1192": {
+    "en": "Living Memory",
+    "maps": {
+      "862": {
+        "en": "Living Memory",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "1193": {
+    "en": "Worqor Zormor",
+    "maps": {
+      "902": {
+        "en": "Worqor Zormor",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "903": {
+        "en": "Worqor Zormor",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "904": {
+        "en": "Worqor Zormor",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "1194": {
+    "en": "The Skydeep Cenote",
+    "maps": {
+      "915": {
+        "en": "The Skydeep Cenote",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "916": {
+        "en": "The Skydeep Cenote",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "1195": {
+    "en": "Worqor Lar Dor",
+    "maps": {
+      "925": {
+        "en": "Worqor Lar Dor",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "1196": {
+    "en": "Worqor Lar Dor",
+    "maps": {}
+  },
+  "1197": {
+    "en": "Blunderville Square",
+    "maps": {
+      "891": {
+        "en": "Blunderville Square",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "1198": {
+    "en": "Vanguard",
+    "maps": {
+      "899": {
+        "en": "Vanguard",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "1199": {
+    "en": "Alexandria",
+    "maps": {
+      "910": {
+        "en": "Alexandria",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "911": {
+        "en": "Alexandria",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "912": {
+        "en": "Alexandria",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "913": {
+        "en": "Alexandria",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "914": {
+        "en": "Alexandria",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "1200": {
+    "en": "Summit of Everkeep",
+    "maps": {
+      "929": {
+        "en": "Summit of Everkeep",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "1201": {
+    "en": "Summit of Everkeep",
+    "maps": {}
+  },
+  "1202": {
+    "en": "Interphos",
+    "maps": {
+      "928": {
+        "en": "Interphos",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "1203": {
+    "en": "Tender Valley",
+    "maps": {
+      "900": {
+        "en": "Tender Valley",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "901": {
+        "en": "Tender Valley",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "1204": {
+    "en": "Strayborough",
+    "maps": {
+      "917": {
+        "en": "Strayborough",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "930": {
+        "en": "Strayborough",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "1205": {
+    "en": "The For'ard Cabins",
+    "maps": {
+      "939": {
+        "en": "The For'ard Cabins",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "1206": {
+    "en": "Main Deck",
+    "maps": {
+      "933": {
+        "en": "Main Deck",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "1207": {
+    "en": "The Backroom",
+    "maps": {
+      "934": {
+        "en": "The Backroom",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "1208": {
+    "en": "Origenics",
+    "maps": {
+      "905": {
+        "en": "Origenics",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "906": {
+        "en": "Origenics",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "907": {
+        "en": "Origenics",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "908": {
+        "en": "Origenics",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      },
+      "909": {
+        "en": "Origenics",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "1209": {
+    "en": "Cenote Ja Ja Gural",
+    "maps": {
+      "896": {
+        "en": "Cenote Ja Ja Gural",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "1210": {
+    "en": "Sunperch",
+    "maps": {}
+  },
+  "1211": {
+    "en": "Yak T'el",
+    "maps": {}
+  },
+  "1212": {
+    "en": "Yak T'el",
+    "maps": {}
+  },
+  "1213": {
+    "en": "Solution Nine",
+    "maps": {}
+  },
+  "1214": {
+    "en": "The Sea of Clouds",
+    "maps": {}
+  },
+  "1215": {
+    "en": "Brayflox's Longstop",
+    "maps": {}
+  },
+  "1216": {
+    "en": "Bardam's Mettle",
+    "maps": {}
+  },
+  "1217": {
+    "en": "Ala Mhigo",
+    "maps": {}
+  },
+  "1218": {
+    "en": "Khadga",
+    "maps": {}
+  },
+  "1219": {
+    "en": "Vanguard",
+    "maps": {
+      "935": {
+        "en": "Vanguard",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "1220": {
+    "en": "Summit of Everkeep",
+    "maps": {}
+  },
+  "1221": {
+    "en": "Interphos",
+    "maps": {}
+  },
+  "1222": {
+    "en": "Skydeep Cenote Inner Chamber",
+    "maps": {
+      "936": {
+        "en": "Skydeep Cenote Inner Chamber",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "1223": {
+    "en": "Tritails Training",
+    "maps": {
+      "937": {
+        "en": "Tritails Training",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "1224": {
+    "en": "Greenroom",
+    "maps": {
+      "938": {
+        "en": "Greenroom",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "1225": {
+    "en": "Scratching Ring",
+    "maps": {
+      "927": {
+        "en": "Scratching Ring",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "1226": {
+    "en": "Scratching Ring",
+    "maps": {}
+  },
+  "1227": {
+    "en": "Lovely Lovering",
+    "maps": {
+      "923": {
+        "en": "Lovely Lovering",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "1228": {
+    "en": "Lovely Lovering",
+    "maps": {}
+  },
+  "1229": {
+    "en": "Blasting Ring",
+    "maps": {
+      "926": {
+        "en": "Blasting Ring",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "1230": {
+    "en": "Blasting Ring",
+    "maps": {}
+  },
+  "1231": {
+    "en": "The Thundering",
+    "maps": {
+      "924": {
+        "en": "The Thundering",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "1232": {
+    "en": "The Thundering",
+    "maps": {}
+  },
+  "1233": {
+    "en": "Manor Basement",
+    "maps": {
+      "940": {
+        "en": "Manor Basement",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "1234": {
+    "en": "Dreamlike Palace",
+    "maps": {
+      "941": {
+        "en": "Dreamlike Palace",
+        "d": "...",
+        "h": "...",
+        "t": "..."
+      }
+    }
+  },
+  "1235": {
+    "en": "Central Thanalan",
+    "maps": {}
+  },
+  "1236": {
+    "en": "Southern Thanalan",
+    "maps": {}
+  },
+  "1237": {
+    "en": null,
+    "maps": {}
+  },
+  "1238": {
+    "en": null,
+    "maps": {}
+  },
+  "1239": {
+    "en": null,
+    "maps": {}
+  },
+  "1240": {
+    "en": null,
+    "maps": {}
+  },
+  "1241": {
+    "en": null,
+    "maps": {}
+  }
+}
