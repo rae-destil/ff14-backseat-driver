@@ -2,3 +2,4 @@
 obj/
 bin/
 *.user
+/Data/instances_data.json.gz
