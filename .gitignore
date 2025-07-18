@@ -3,3 +3,4 @@ obj/
 bin/
 *.user
 /Data/instances_data.json.gz
+/SamplePlugin/Data/instances_data.json.gz
