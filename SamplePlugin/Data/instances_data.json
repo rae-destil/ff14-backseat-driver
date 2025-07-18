@@ -8289,46 +8289,53 @@
     "en": "The Praetorium",
     "maps": {
       "56": {
-        "en": "The Praetorium",
-        "d": "...",
-        "h": "...",
-        "t": "..."
+        "en": "Command Chamber → Magitek Colossus",
+        "g": "-Escort through mobs, using Magitek transporter to transition.\n-Avoid marked AoEs from the Colossus (conal cleave, circle lasers).",
+        "d": "-Use AoE skills during escort pulls.\n-Dodge Prototype Laser markers quickly.",
+        "h": "-Spot‐heal the tank during pulls before engaging boss.\n-Keep raid topped before Colossus adds/shockwaves.",
+        "t": "-Pull groups tightly for efficient escort.\n-Keep boss faced away and use cooldowns on colossus cleaves."
       },
       "99": {
-        "en": "The Praetorium",
-        "d": "...",
-        "h": "...",
-        "t": "..."
+        "en": "Command Chamber → Magitek Colossus",
+        "g": "-Escort through mobs, using Magitek transporter to transition.\n-Avoid marked AoEs from the Colossus (conal cleave, circle lasers).",
+        "d": "-Use AoE skills during escort pulls.\n-Dodge Prototype Laser markers quickly.",
+        "h": "-Spot‐heal the tank during pulls before engaging boss.\n-Keep raid topped before Colossus adds/shockwaves.",
+        "t": "-Pull groups tightly for efficient escort.\n-Keep boss faced away and use cooldowns on colossus cleaves."
       },
       "100": {
-        "en": "The Praetorium",
-        "d": "...",
-        "h": "...",
-        "t": "..."
+        "en": "Command Chamber → Magitek Colossus",
+        "g": "-Escort through mobs, using Magitek transporter to transition.\n-Avoid marked AoEs from the Colossus (conal cleave, circle lasers).",
+        "d": "-Use AoE skills during escort pulls.\n-Dodge Prototype Laser markers quickly.",
+        "h": "-Spot‐heal the tank during pulls before engaging boss.\n-Keep raid topped before Colossus adds/shockwaves.",
+        "t": "-Pull groups tightly for efficient escort.\n-Keep boss faced away and use cooldowns on colossus cleaves."
       },
       "101": {
-        "en": "The Praetorium",
-        "d": "...",
-        "h": "...",
-        "t": "..."
+        "en": "Command Chamber → Magitek Colossus",
+        "g": "-Escort through mobs, using Magitek transporter to transition.\n-Avoid marked AoEs from the Colossus (conal cleave, circle lasers).",
+        "d": "-Use AoE skills during escort pulls.\n-Dodge Prototype Laser markers quickly.",
+        "h": "-Spot‐heal the tank during pulls before engaging boss.\n-Keep raid topped before Colossus adds/shockwaves.",
+        "t": "-Pull groups tightly for efficient escort.\n-Keep boss faced away and use cooldowns on colossus cleaves."
       },
       "102": {
-        "en": "The Praetorium",
-        "d": "...",
-        "h": "...",
-        "t": "..."
+        "en": "Laboratorium Primum → Nero tol Scaeva",
+        "g": "-Electrified arena edges punish knockbacks.\n-Dealing with Spine Shatter, AoE stack, cone, knockbacks.",
+        "d": "-Stack in Augmented Shatter circle quickly.\n-Avoid arena edge when knocked back from AoEs.",
+        "h": "-Pre‑heal before Ferro‑AoEs (Augmented Suffering).\n-Use regen/shield pre‑emptively on spike/heavy burns.",
+        "t": "-Main tank: Face Nero inward; use cooldowns on Spine Shatter."
       },
       "103": {
-        "en": "The Praetorium",
-        "d": "...",
-        "h": "...",
-        "t": "..."
+        "en": "The Echelon → Gaius van Baelsar",
+        "g": "-Patterns: X‑lines (Terminus Est), stacks (Festina Lente), line AoEs (Ductus), phantoms → blade energy spike.",
+        "d": "-Stand between X markers on Terminus Est.\n-Kill Phantom Gaiuses fast to reduce Veni Vidi Vici damage.",
+        "h": "-Stack quickly on Festina; raid heal after.\n-Heavy heal/tank cooldowns ready for final burst.",
+        "t": "-Main tank: Keep aggro, use defence cooldowns on Innocence."
       },
       "104": {
-        "en": "The Praetorium",
-        "d": "...",
-        "h": "...",
-        "t": "..."
+        "en": "The Echelon → Gaius van Baelsar",
+        "g": "-Patterns: X‑lines (Terminus Est), stacks (Festina Lente), line AoEs (Ductus), phantoms → blade energy spike.",
+        "d": "-Stand between X markers on Terminus Est.\n-Kill Phantom Gaiuses fast to reduce Veni Vidi Vici damage.",
+        "h": "-Stack quickly on Festina; raid heal after.\n-Heavy heal/tank cooldowns ready for final burst.",
+        "t": "-Main tank: Keep aggro, use defence cooldowns on Innocence."
       }
     }
   },

@@ -24,6 +24,9 @@ public class MapRoleHints
     [JsonPropertyName("en")]
     public string en_name { get; set; } = "";
 
+    [JsonPropertyName("g")]
+    public string general { get; set; } = "";
+
     [JsonPropertyName("d")]
     public string dps { get; set; } = "";
 
@@ -58,6 +61,7 @@ public sealed class Plugin : IDalamudPlugin
     [PluginService] internal static IClientState ClientState { get; private set; } = null!;
     [PluginService] internal static IDataManager DataManager { get; private set; } = null!;
     [PluginService] internal static IPluginLog Log { get; private set; } = null!;
+    [PluginService] internal static IChatGui ChatGui { get; set; } = null!;
 
     private Dictionary<string, TerritoryRoleHints>? instances_data;
 
@@ -191,7 +195,8 @@ public sealed class Plugin : IDalamudPlugin
             _ => ""
         };
 
-        Log.Info($"Hints for {jobStr} ({job_role}) in {hint.en_name} (territory {territoryId} map {mapId}): {job_hint}");
+        //ChatGui.Print($"Hints for {jobStr} ({job_role}) in {hint.en_name} (territory {territoryId} map {mapId}): {job_hint}");
+        ChatGui.Print($"Hints for {jobStr} ({job_role}) in {hint.en_name}: \n{hint.general}\n{job_hint}");
     }
 
     private void DrawUI() => WindowSystem.Draw();
