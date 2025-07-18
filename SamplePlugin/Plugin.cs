@@ -1,10 +1,14 @@
+using BSDriverPlugin.Windows;
 using Dalamud.Game.Command;
+using Dalamud.Interface.Windowing;
 using Dalamud.IoC;
 using Dalamud.Plugin;
-using System.IO;
-using Dalamud.Interface.Windowing;
 using Dalamud.Plugin.Services;
-using BSDriverPlugin.Windows;
+using System.IO;
+using System.IO.Compression;
+using System.Reflection;
+using System.Text;
+using static FFXIVClientStructs.FFXIV.Client.System.Scheduler.Resource.SchedulerResource;
 
 namespace BSDriverPlugin;
 
@@ -17,7 +21,8 @@ public sealed class Plugin : IDalamudPlugin
     [PluginService] internal static IDataManager DataManager { get; private set; } = null!;
     [PluginService] internal static IPluginLog Log { get; private set; } = null!;
 
-    private const string CommandName = "/pmycommand";
+    private const string CommandName = "/pbsdriver";
+    private string? instances_data;
 
     public Configuration Configuration { get; init; }
 
@@ -25,22 +30,35 @@ public sealed class Plugin : IDalamudPlugin
     private ConfigWindow ConfigWindow { get; init; }
     private MainWindow MainWindow { get; init; }
 
+    private bool load_instances_data()
+    {
+        var assembly = Assembly.GetExecutingAssembly();
+        using var stream = assembly.GetManifestResourceStream("instances_data.json.gz") ??
+            throw new FileNotFoundException($"Resource not found: {"instances_data.json.gz"}");
+        using var gzip = new GZipStream(stream, CompressionMode.Decompress);
+        using var reader = new StreamReader(gzip, Encoding.UTF8);
+        this.instances_data = reader.ReadToEnd();
+
+        return true;
+    }
+
     public Plugin()
     {
         Configuration = PluginInterface.GetPluginConfig() as Configuration ?? new Configuration();
 
         // you might normally want to embed resources and load them from the manifest stream
-        var goatImagePath = Path.Combine(PluginInterface.AssemblyLocation.Directory?.FullName!, "goat.png");
+        //var instances_data_path = Path.Combine(PluginInterface.AssemblyLocation.Directory?.FullName!, "instances_data.json.gz");
+        this.load_instances_data(); 
 
         ConfigWindow = new ConfigWindow(this);
-        MainWindow = new MainWindow(this, goatImagePath);
+        MainWindow = new MainWindow(this);
 
         WindowSystem.AddWindow(ConfigWindow);
         WindowSystem.AddWindow(MainWindow);
 
         CommandManager.AddHandler(CommandName, new CommandInfo(OnCommand)
         {
-            HelpMessage = "A useful message to display in /xlhelp"
+            HelpMessage = "Type /pbsdriver for settings."
         });
 
         PluginInterface.UiBuilder.Draw += DrawUI;
