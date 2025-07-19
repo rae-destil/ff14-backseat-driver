@@ -8,6 +8,9 @@
     <IsPackable>false</IsPackable>
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="Data\instances_data.json" />
+  </ItemGroup>
+  <ItemGroup>
     <EmbeddedResource Include="Data\instances_data.json.gz" />
   </ItemGroup>
 </Project>
