@@ -637,22 +637,25 @@
     "en": "Cutter's Cry",
     "maps": {
       "52": {
-        "en": "Cutter's Cry",
-        "d": "...",
-        "h": "...",
-        "t": "..."
+        "en": "Myrmidon Princess",
+        "g": "-Frontal cone AoE (Sandstorm) and line AoE (Tailswipe).\n-Occasionally uses a sand trap to snare players.",
+        "d": "-Avoid front and rear; bait AoEs outward.\n-Free snared players quickly.",
+        "h": "-Sand trap snares can delay healing—watch for sudden drops.\n-Moderate damage overall.",
+        "t": "-Keep boss turned from party.\n-Drag away from sand traps to maintain safe positioning."
       },
       "96": {
-        "en": "Cutter's Cry",
-        "d": "...",
-        "h": "...",
-        "t": "..."
+        "en": "Giant Tunnel Worm",
+        "g": "-Periodically burrows and reemerges with AoE.\n-Adds (Tunnel Worms) spawn and must be killed.",
+        "d": "-Watch ground for burrow tremors; move away.\n-Swap to adds quickly.",
+        "h": "-Healing spikes on reemerge AoE and if adds ignored.\n-Avoid standing near burrow exit point.",
+        "t": "-Pull boss away from adds to avoid cleave overlap.\n-Grab aggro on adds to prevent DPS deaths."
       },
       "97": {
-        "en": "Cutter's Cry",
-        "d": "...",
-        "h": "...",
-        "t": "..."
+        "en": "Chimera",
+        "g": "-Uses two gaze-based attacks: Dragon’s Voice (move away) and Ram’s Voice (move in).\n-Ice and lightning AoEs target random players.\n-Gaze attack (Eyes on Me) requires looking away.",
+        "d": "-React correctly to voice tells or risk heavy damage.\n-Turn from Eyes on Me to avoid stun and damage.",
+        "h": "-High punishment if players fail voice or gaze mechanics.\n-Save healing tools for post-mechanic recoveries.",
+        "t": "-Position boss center for consistent movement.\n-Maintain uptime while moving in/out of AoEs safely."
       }
     }
   },
@@ -2656,6 +2659,7 @@
     "en": "Dusk Vigil",
     "maps": {
       "243": {
+        "en" : "Dusk Vigil",
         "st": [
             {
               "en": "Towering Oliphant",

@@ -90,7 +90,8 @@ public sealed class Plugin : IDalamudPlugin
     [PluginService] internal static IChatGui ChatGui { get; set; } = null!;
 
     private Dictionary<string, TerritoryRoleHints>? instances_data;
-    private TerritoryRoleHints? current_map_hint;
+    private TerritoryRoleHints? current_territory_hint;
+    private MapRoleHints? current_map_hint;
     private bool showHintPopup = false;
 
     private static readonly Dictionary<uint, Role> classjob_to_role = new()
@@ -158,6 +159,11 @@ public sealed class Plugin : IDalamudPlugin
 
         CommandManager.AddHandler("/pbsdriver-hint", new CommandInfo(OnHintCmd)
         {
+            HelpMessage = "Show all hints for the current instance."
+        });
+
+        CommandManager.AddHandler("/pbsdriver-now", new CommandInfo(OnImmediateHintCmd)
+        {
             HelpMessage = "Print hints for your job in the current instance."
         });
 
@@ -187,14 +193,11 @@ public sealed class Plugin : IDalamudPlugin
         CommandManager.RemoveHandler("/pbsdriver");
     }
 
-    private void OnMainSettingsCmd(string command, string args)
+    private void _loadCurrentMapHints()
     {
-        // in response to the slash command, just toggle the display status of our main ui
-        ToggleMainUI();
-    }
-    private void OnHintCmd(string command, string args)
-    {
-        // in response to the slash command, just toggle the display status of our main ui
+        this.current_territory_hint = null;
+        this.current_map_hint = null;
+
         var localPlayer = Plugin.ClientState.LocalPlayer;
         if (localPlayer == null || !localPlayer.ClassJob.IsValid)
         {
@@ -205,14 +208,15 @@ public sealed class Plugin : IDalamudPlugin
         var mapId = Plugin.ClientState.MapId;
         var jobId = localPlayer.ClassJob.RowId;
         var jobStr = localPlayer.ClassJob.Value.Abbreviation.ExtractText();
-        
-        Log.Info($"Player {localPlayer.Name} JobID={jobId} ({jobStr}) is in territory {territoryId} map {mapId}");
+
+        //Log.Info($"Player {localPlayer.Name} JobID={jobId} ({jobStr}) is in territory {territoryId} map {mapId}");
 
         var territory_hint = this.instances_data?.GetValueOrDefault(territoryId.ToString());
         if (territory_hint == null)
         {
             return;
         }
+
 
         var hint = territory_hint.maps.GetValueOrDefault(mapId.ToString());
         if (hint == null)
@@ -226,43 +230,70 @@ public sealed class Plugin : IDalamudPlugin
             return;
         }
 
-        Role job_role = classjob_to_role.GetValueOrDefault(jobId, Role.Unknown);
-        string job_hint = job_role switch
-        {
-            Role.Tank => hint.tank,
-            Role.Healer => hint.healer,
-            Role.DPS => hint.dps,
-            _ => ""
-        };
-
-        this.current_map_hint = territory_hint;
-        this.showHintPopup = !this.showHintPopup;
-
-        //ChatGui.Print($"Hints for {jobStr} ({job_role}) in {hint.en_name} (territory {territoryId} map {mapId}): {job_hint}");
-        // ChatGui.Print($"General advice for {hint.en_name}: \n{hint.general}\n\nSpecifically for {jobStr} ({job_role}):\n{job_hint}");
-
-        //if (hint.general != "" && hint.general != "...")
-        //{
-        //    ChatGui.Print($"General advice for {hint.en_name}: \n{hint.general}");
-        //}
-
-        //if (job_hint != "" && job_hint != "...")
-        //{
-        //    ChatGui.Print($"Specifically for {jobStr} ({job_role}):\n{job_hint}");
-        //}
+        this.current_territory_hint = territory_hint;
+        this.current_map_hint = hint;
     }
 
+    private void OnMainSettingsCmd(string command, string args)
+    {
+        // in response to the slash command, just toggle the display status of our main ui
+        ToggleMainUI();
+    }
+    private void OnHintCmd(string command, string args)
+    {
+        _loadCurrentMapHints();
+        this.showHintPopup = !this.showHintPopup;
+    }
+
+    private void _renderHintSection(RoleHints stage, string mapId)
+    {
+        if (!string.IsNullOrWhiteSpace(stage.general) && stage.general != "...")
+        {
+            if (ImGui.Button($"General##{mapId}-{stage.stage_name}"))
+            {
+                ChatGui.Print($"General advice for {stage.stage_name}: \n{stage.general}");
+                showHintPopup = false;
+            }
+        }
+        ImGui.SameLine();
+        if (!string.IsNullOrWhiteSpace(stage.dps) && stage.dps != "...")
+        {
+            if (ImGui.Button($"DPS##{mapId}-{stage.stage_name}"))
+            {
+                ChatGui.Print($"DPS advice for {stage.stage_name}: \n{stage.dps}");
+                showHintPopup = false;
+            }
+        }
+        ImGui.SameLine();
+        if (!string.IsNullOrWhiteSpace(stage.healer) && stage.healer != "...")
+        {
+            if (ImGui.Button($"Healer##{mapId}-{stage.stage_name}"))
+            {
+                ChatGui.Print($"Healer advice for {stage.stage_name}: \n{stage.healer}");
+                showHintPopup = false;
+            }
+        }
+        ImGui.SameLine();
+        if (!string.IsNullOrWhiteSpace(stage.tank) && stage.tank != "...")
+        {
+            if (ImGui.Button($"Tank##{mapId}-{stage.stage_name}"))
+            {
+                ChatGui.Print($"Tank advice for {stage.stage_name}: \n{stage.tank}");
+                showHintPopup = false;
+            }
+        }
+    }
     private void DrawHintUI()
     {
-        if (!showHintPopup || current_map_hint == null) return;
+        if (!showHintPopup || current_territory_hint == null) return;
 
         ImGui.OpenPopup("Backseat Driver");
         if (ImGui.BeginPopupModal("Backseat Driver", ref showHintPopup, ImGuiWindowFlags.AlwaysAutoResize))
         {
-            ImGui.TextUnformatted("Select advice to send:");
-            ImGui.Separator();
+            ImGui.TextUnformatted("What hints are you interested in?");
+            //ImGui.Separator();
 
-            foreach (var mapPair in current_map_hint.maps)
+            foreach (var mapPair in current_territory_hint.maps)
             {
                 var mapId = mapPair.Key;
                 var mapHint = mapPair.Value;
@@ -272,57 +303,40 @@ public sealed class Plugin : IDalamudPlugin
                 var stages = mapHint.stages;
                 if (stages.Count == 0)
                 {
-                    stages = new List<RoleHints>();
-                    stages.Add(new RoleHints()
+                    stages = new List<RoleHints>
                     {
-                        general = mapHint.general,
-                        dps = mapHint.dps,
-                        healer = mapHint.healer,
-                        tank = mapHint.tank
-                    });
+                        new RoleHints()
+                        {
+                            stage_name = mapHint.en_name,
+                            general = mapHint.general,
+                            dps = mapHint.dps,
+                            healer = mapHint.healer,
+                            tank = mapHint.tank
+                        }
+                    };
                 }
 
-                foreach (var stage in stages)
+                bool tabsNeeded = stages.Count > 1;
+
+                if (stages.Count == 1)
                 {
-                    ImGui.TextUnformatted($"  {stage.stage_name}");
-
-                    if (!string.IsNullOrWhiteSpace(stage.general) && stage.general != "...")
+                    _renderHintSection(stages[0], mapId);
+                }
+                else
+                {
+                    if (ImGui.BeginTabBar($"##StagesTabBar_{mapId}"))
                     {
-                        if (ImGui.Button($"General##{mapId}-{stage.stage_name}"))
+                        foreach (var stage in stages)
                         {
-                            ChatGui.Print($"General advice for {stage.stage_name}: \n{stage.general}");
-                            showHintPopup = false;
+                            var tabLabel = string.IsNullOrWhiteSpace(stage.stage_name) ? "Stage" : stage.stage_name;
+                            if (ImGui.BeginTabItem($"{tabLabel}##{mapId}-{tabLabel}"))
+                            {
+                                _renderHintSection(stage, mapId);
+                                ImGui.EndTabItem();
+                            }
                         }
+                        ImGui.EndTabBar();
                     }
-                    ImGui.SameLine();
-                    if (!string.IsNullOrWhiteSpace(stage.dps) && stage.dps != "...")
-                    {
-                        if (ImGui.Button($"DPS##{mapId}-{stage.stage_name}"))
-                        {
-                            ChatGui.Print($"DPS advice for {stage.stage_name}: \n{stage.dps}");
-                            showHintPopup = false;
-                        }
-                    }
-                    ImGui.SameLine();
-                    if (!string.IsNullOrWhiteSpace(stage.healer) && stage.healer != "...")
-                    {
-                        if (ImGui.Button($"Healer##{mapId}-{stage.stage_name}"))
-                        {
-                            ChatGui.Print($"Healer advice for {stage.stage_name}: \n{stage.healer}");
-                            showHintPopup = false;
-                        }
-                    }
-                    ImGui.SameLine();
-                    if (!string.IsNullOrWhiteSpace(stage.tank) && stage.tank != "...")
-                    {
-                        if (ImGui.Button($"Tank##{mapId}-{stage.stage_name}"))
-                        {
-                            ChatGui.Print($"Tank advice for {stage.stage_name}: \n{stage.tank}");
-                            showHintPopup = false;
-                        }
-                    }
-
-                    ImGui.NewLine();
                 }
             }
 
@@ -332,6 +346,42 @@ public sealed class Plugin : IDalamudPlugin
             }
 
             ImGui.EndPopup();
+        }
+    }
+
+    private void OnImmediateHintCmd(string command, string args)
+    {
+        _loadCurrentMapHints();
+        //ChatGui.Print($"Created hints for {jobStr} ({job_role}) in {hint.en_name} (territory {territoryId} map {mapId})");
+        //ChatGui.Print($"Hints for {jobStr} ({job_role}) in {hint.en_name} (territory {territoryId} map {mapId}): {job_hint}");
+        // ChatGui.Print($"General advice for {hint.en_name}: \n{hint.general}\n\nSpecifically for {jobStr} ({job_role}):\n{job_hint}");
+        var hint = this.current_map_hint;
+
+        if (Plugin.ClientState.LocalPlayer == null || hint == null)
+        {
+            return;
+        }
+
+        uint jobId = Plugin.ClientState.LocalPlayer.ClassJob.RowId;
+        var jobStr = Plugin.ClientState.LocalPlayer.ClassJob.Value.Abbreviation.ExtractText();
+
+        Role job_role = classjob_to_role.GetValueOrDefault(jobId, Role.Unknown);
+        string job_hint = job_role switch
+        {
+            Role.Tank => hint.tank,
+            Role.Healer => hint.healer,
+            Role.DPS => hint.dps,
+            _ => ""
+        };
+
+        if (hint.general != "" && hint.general != "...")
+        {
+            ChatGui.Print($"General advice for {hint.en_name}: \n{hint.general}");
+        }
+
+        if (job_hint != "" && job_hint != "...")
+        {
+            ChatGui.Print($"Specifically for {jobStr} ({job_role}):\n{job_hint}");
         }
     }
 
