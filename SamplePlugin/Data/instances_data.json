@@ -554,37 +554,60 @@
     "en": null,
     "maps": {}
   },
-  "162": {
+  "1245": {
     "en": "Halatali",
     "maps": {
-      "46": {
-        "en": "Halatali",
-        "d": "...",
-        "h": "...",
-        "t": "..."
-      }
+        "46": {
+            "en": "Halatali",
+            "st": [
+            {
+                "en": "Firemane",
+                "g": "-Uses arena-wide fire wave attacks after reaching HP thresholds.\n-Can only be damaged after fire wall is lowered.",
+                "d": "-Burn boss quickly during downtime.\n-Avoid standing near walls to reduce AoE overlap.",
+                "h": "-Firewaves deal heavy group damage—prep AoE healing.\n-Minimal healing needed outside thresholds.",
+                "t": "-Position boss center to avoid firewalls blocking LOS.\n-Watch for spikes during firewaves."
+            },
+            {
+                "en": "Thunderclap Guivre",
+                "g": "-Straightforward boss with cleaves and charges.\n-Adds may appear if fight drags on.",
+                "d": "-Avoid frontal cone attacks.\n-Burn boss before adds become overwhelming.",
+                "h": "-Spikes on charge attacks.\n-Be ready to heal multiple targets if adds appear.",
+                "t": "-Face boss away from group.\n-Handle any adds that show up promptly."
+            },
+            {
+                "en": "Tangata",
+                "g": "-Becomes invulnerable at intervals while channeling.\n-Summons waves of adds that must be cleared.",
+                "d": "-Switch to adds immediately.\n-Save cooldowns for DPS window after invuln ends.",
+                "h": "-Heavy group damage during add waves.\n-Burst heals may be required after boss returns.",
+                "t": "-Pick up adds fast to protect party.\n-Keep boss positioned away from adds when vulnerable."
+            }
+            ]
+        }
     }
   },
-  "163": {
+  "1267": {
     "en": "The Sunken Temple of Qarn",
     "maps": {
       "42": {
-        "en": "The Sunken Temple of Qarn",
-        "d": "...",
-        "h": "...",
-        "t": "..."
+        "en": "Teratotaur",
+        "g": "-Uses Doom debuff triggered by lingering in gaze attack.\n-Stacks of poison from AoEs and adds.\n-Pressure increases if adds are ignored.",
+        "d": "-Turn away from boss during gaze cast (Eye of the Beholder).\n-Burn adds quickly to reduce poison buildup.",
+        "h": "-Cleanse Doom with glowing pad if needed.\n-Watch for poison stacks and heal accordingly.",
+        "t": "-Face boss away from group to protect against gaze.\n-Grab adds fast to limit party pressure."
       },
       "43": {
-        "en": "The Sunken Temple of Qarn",
-        "d": "...",
-        "h": "...",
-        "t": "..."
+        "en": "Temple Guardian",
+        "g": "-Large golem with predictable AoEs.\n-Watch for collapsing floor tiles that create hazards.",
+        "d": "-Avoid tile traps—falling will delay contribution.\n-Stay spread for line AoEs.",
+        "h": "-Damage is steady with few bursts.\n-Be aware of split party if someone falls through tiles.",
+        "t": "-Hold boss steady near safe tiles.\n-Avoid triggering tiles while repositioning."
       },
       "44": {
-        "en": "The Sunken Temple of Qarn",
-        "d": "...",
-        "h": "...",
-        "t": "..."
+        "en": "Adjudicator",
+        "g": "-Spawns statues that must be destroyed or avoided during their activation.\n-Lingering near active statues causes heavy damage.",
+        "d": "-Destroy statues immediately if marked.\n-Stay mobile to avoid statue beams.",
+        "h": "-Expect bursts when statues activate.\n-Keep party spread to reduce overlapping statue effects.",
+        "t": "-Keep boss away from statue line-of-fire.\n-Move boss carefully to maintain safe zones."
       }
     }
   },
@@ -8201,43 +8224,86 @@
     "maps": {
       "31": {
         "en": "Sastasha",
-        "d": "...",
-        "h": "...",
-        "t": "..."
+        "st": [
+        {
+            "en": "Chopper",
+            "g": "-Frontal cleave (Sweeping Gouge) and random player charges (Bloody Charge).\n-Adds spawn if fight drags on.",
+            "d": "-Avoid standing in front of boss.\n-Burn boss quickly to prevent adds.",
+            "h": "-Watch for tank damage spikes from cleave.\n-Adds can split healing focus.",
+            "t": "-Keep boss faced away from group.\n-Hold aggro on potential adds if fight runs long."
+        },
+        {
+            "en": "Captain Madison (First Encounter)",
+            "g": "-Summons adds periodically.\n-Madison flees after taking enough damage.",
+            "d": "-Focus Madison; ignore adds unless overwhelming.",
+            "h": "-Healing load increases with active adds.",
+            "t": "-Control adds to reduce pressure on group."
+        },
+        {
+            "en": "Captain Madison (Second Encounter)",
+            "g": "-Now uses bombs and adds again.\n-Bombs detonate with large AoEs; avoid them.",
+            "d": "-Prioritize boss but move out from bombs fast.\n-Use AoE if adds pile up.",
+            "h": "-Be ready for burst damage when bombs explode.\n-Heal through potential group-wide AoE if bombs go off.",
+            "t": "-Position boss away from bombs.\n-Quickly regain control after add spawns."
+        },
+        {
+            "en": "Denn the Orcatoothed",
+            "g": "-Spawns bubbles that trap players.\n-Bubbles must be destroyed to free trapped allies.",
+            "d": "-Target and destroy bubbles quickly.\n-Position carefully to avoid unnecessary bubble spawns.",
+            "h": "-Trapped players take damage over time.\n-Stay mobile to avoid being bubbled yourself.",
+            "t": "-Maintain aggro while helping break bubbles.\n-Position boss away from bubble spawns to reduce clutter."
+        }
+        ]
       }
     }
   },
   "1037": {
-    "en": "The Tam-Tara Deepcroft",
+   "en": "The Tam-Tara Deepcroft",
     "maps": {
       "8": {
         "en": "The Tam-Tara Deepcroft",
-        "d": "...",
-        "h": "...",
-        "t": "..."
+        "st": [
+        {
+            "en": "Galvanth the Dominator",
+            "g": "-Boss becomes invulnerable periodically while cultists channel dark energy.\n-If cultists are not interrupted quickly, boss is empowered and deals more damage.",
+            "d": "-Focus down cultists as soon as they spawn.\n-Burn boss during vulnerable windows.",
+            "h": "-Damage spikes if cultists are ignored.\n-Watch for AoE bursts after boss is empowered.",
+            "t": "-Pull adds toward boss for cleave/AoE efficiency.\n-Interrupt cultists to prevent empowerment."
+        },
+        {
+            "en": "Cultist Orbs (Intermissions)",
+            "g": "-Throughout the dungeon, players must disable cultist orbs to unlock Galvanth’s chamber.\n-Orbs are guarded and will summon waves of enemies.",
+            "d": "-Prioritize orb-guarding enemies.\n-Save AoE for waves of adds if they spawn.",
+            "h": "-Prepare for moderate damage during add waves.\n-Use cooldowns if overwhelmed.",
+            "t": "-Hold aggro on all spawned adds.\n-Keep mobs away from orb activators where possible."
+        }
+        ]
       }
     }
   },
   "1038": {
-    "en": "Copperbell Mines",
+     "en": "Copperbell Mines",
     "maps": {
       "34": {
-        "en": "Copperbell Mines",
-        "d": "...",
-        "h": "...",
-        "t": "..."
+        "en": "Kottos",
+        "g": "-Boss is passive until activated by blasting device.\n-Uses point-blank AoEs and cleaves.\n-Adds may spawn from surrounding tunnels.",
+        "d": "-Avoid close-range AoEs.\n-Quickly clear any adds that emerge from tunnels.",
+        "h": "-Prepare for moderate AoE damage bursts.\n-Watch for stray adds attacking party.",
+        "t": "-Face boss away from group.\n-Hold aggro on both boss and spawned adds."
       },
       "40": {
-        "en": "Copperbell Mines",
-        "d": "...",
-        "h": "...",
-        "t": "..."
+        "en": "Ichorous Ire",
+        "g": "-Slime boss splits into smaller slimes when damaged.\n-Slimes move to fuse if not killed quickly.",
+        "d": "-Focus slimes down fast before they can merge.\n-Use AoE abilities after first split.",
+        "h": "-Damage increases if slimes merge—watch for unexpected spikes.\n-Stay mobile to avoid being cornered by slimes.",
+        "t": "-Pull slimes together for AoE.\n-Prevent merges by keeping slimes controlled and grouped."
       },
       "41": {
-        "en": "Copperbell Mines",
-        "d": "...",
-        "h": "...",
-        "t": "..."
+        "en": "Gyges the Great",
+        "g": "-Boss uses AoE swings and targeted attacks.\n-Spawns adds and uses bombs that must be avoided.",
+        "d": "-Focus boss while avoiding bomb AoEs.\n-Use AoE if overrun by adds.",
+        "h": "-Watch for high burst damage if bombs or adds aren't handled.\n-Stay at range to avoid frontal swings.",
+        "t": "-Keep boss away from bombs and group.\n-Grab aggro on spawned adds quickly."
       }
     }
   },
@@ -8246,9 +8312,29 @@
     "maps": {
       "9": {
         "en": "The Thousand Maws of Toto-Rak",
-        "d": "...",
-        "h": "...",
-        "t": "..."
+        "st": [
+        {
+            "en": "Coeurl O' Nine Tails",
+            "g": "-Uses large frontal AoEs and rear cleaves.\n-Poisons players periodically.",
+            "d": "-Avoid standing in front or behind boss.\n-Cleanse poison puddles only if safe to do so.",
+            "h": "-Watch for poison debuffs and cleanse quickly.\n-Prepare for spike damage after AoEs.",
+            "t": "-Keep boss facing away from party.\n-Position to minimize cleave hazard zones."
+        },
+        {
+            "en": "Graffias",
+            "g": "-Becomes invulnerable while cocooned and summons adds.\n-Large AoEs and poison zones fill the arena over time.",
+            "d": "-Kill cocoon and adds quickly to resume damage on boss.\n-Move early to avoid creeping poison zones.",
+            "h": "-Heavy damage during add waves and poison phase.\n-Maintain mobility to avoid overlapping AoEs.",
+            "t": "-Tank adds away from party.\n-Reposition boss to clear zones as space shrinks."
+        },
+        {
+            "en": "Slime Puddles / Intermissions",
+            "g": "-Slimes and traps appear throughout the dungeon.\n-Slime puddles explode if left unchecked.",
+            "d": "-Kill slimes before they detonate.\n-Avoid stepping in trap circles.",
+            "h": "-Damage spikes if slime explodes.\n-Minor healing otherwise.",
+            "t": "-Pull slimes into safe zones.\n-Keep aggro on surprise spawns near traps."
+        }
+        ]
       }
     }
   },
@@ -8256,35 +8342,60 @@
     "en": "Haukke Manor",
     "maps": {
       "48": {
-        "en": "Haukke Manor",
-        "d": "...",
-        "h": "...",
-        "t": "..."
+        "en": "Manor Claviger",
+        "g": "-Uses large frontal cleaves and cone AoEs.\n-Summons adds during the fight.",
+        "d": "-Avoid cleaves by staying behind the boss.\n-Swap to adds quickly when they spawn.",
+        "h": "-Spikes possible during cleaves or if adds ignored.\n-Keep party spread to avoid overlapping AoEs.",
+        "t": "-Face boss away from group.\n-Grab adds immediately to prevent chaos."
       },
       "54": {
-        "en": "Haukke Manor",
-        "d": "...",
-        "h": "...",
-        "t": "..."
+        "en": "Manor Jester and Manor Steward",
+        "g": "-Two mini-bosses fought simultaneously.\n-Jester uses magic AoEs; Steward uses physical cleaves.",
+        "d": "-Focus one target to reduce incoming damage.\n-Avoid standing between both bosses.",
+        "h": "-Unpredictable damage from two sources.\n-Avoid stacking near AoEs to preserve space.",
+        "t": "-Hold both bosses’ aggro and face them apart.\n-Keep them from overlapping to prevent AoE chaos."
       },
       "55": {
-        "en": "Haukke Manor",
-        "d": "...",
-        "h": "...",
-        "t": "..."
+        "en": "Lady Amandine",
+        "g": "-Casts line AoEs, summons adds, and activates wall turrets.\n-Becomes untargetable while turrets are active.",
+        "d": "-Burn turrets and adds to resume damage on boss.\n-Dodge line AoEs from boss and walls.",
+        "h": "-High AoE pressure during turret and add phases.\n-Position to avoid wall lasers while healing.",
+        "t": "-Gather adds quickly to avoid party disruption.\n-Keep boss centered to control turret line-of-fire."
       }
     }
   },
   "1041": {
     "en": "Brayflox's Longstop",
-    "maps": {
-      "45": {
-        "en": "Brayflox's Longstop",
-        "d": "...",
-        "h": "...",
-        "t": "..."
-      }
-    }
+      "st": [
+        {
+          "en": "Great Yellow Pelican",
+          "g": "-Uses frontal cleave and summons adds mid-fight.\n-Moderate AoE pressure if adds ignored.",
+          "d": "-Stay behind boss and burn adds quickly.\n-Save AoE cooldowns for waves if needed.",
+          "h": "-Adds can pressure multiple party members.\n-Watch for burst damage if cleave and adds overlap.",
+          "t": "-Face boss away from group.\n-Pick up adds quickly before they target DPS/healer."
+        },
+        {
+          "en": "Inferno Drake",
+          "g": "-Uses wide cleaves and fire breath.\n-Brayflox NPC assists in the fight but can be downed.",
+          "d": "-Avoid standing in front of boss.\n-Protect Brayflox if targeted by stray AoEs.",
+          "h": "-Be aware of damage Brayflox may take.\n-Expect burst after cleaves if stacked.",
+          "t": "-Keep boss faced away from Brayflox and party.\n-Control positioning to prevent NPC from taking damage."
+        },
+        {
+          "en": "Hellbender",
+          "g": "-Casts Sticky Tongue to trap players in bubbles.\n-Bubbles must be burst to free trapped players.",
+          "d": "-Prioritize freeing trapped allies.\n-Avoid standing near walls to prevent awkward pulls.",
+          "h": "-Bubbled players take ticking damage.\n-Stay mobile to avoid being trapped yourself.",
+          "t": "-Keep boss centered and away from walls.\n-Break bubbles if DPS are slow to react."
+        },
+        {
+          "en": "Aiatar",
+          "g": "-Casts large poison cone and leaves poison puddles.\n-Poisons stack over time if poorly positioned.",
+          "d": "-Avoid cone breath and reposition out of puddles.\n-Use mitigation if forced to cross poison zones.",
+          "h": "-Poison DoTs can stack and overwhelm.\n-AoE cleanse and healing needed after puddle phases.",
+          "t": "-Drag boss out of puddles quickly.\n-Face away from group to avoid breath cone hits."
+        }
+      ]
   },
   "1042": {
     "en": "Stone Vigil",

@@ -8181,9 +8181,36 @@
     "maps": {
       "31": {
         "en": "Sastasha",
-        "d": "...",
-        "h": "...",
-        "t": "..."
+        "st": [
+        {
+            "en": "Chopper",
+            "g": "-Frontal cleave (Sweeping Gouge) and random player charges (Bloody Charge).\n-Adds spawn if fight drags on.",
+            "d": "-Avoid standing in front of boss.\n-Burn boss quickly to prevent adds.",
+            "h": "-Watch for tank damage spikes from cleave.\n-Adds can split healing focus.",
+            "t": "-Keep boss faced away from group.\n-Hold aggro on potential adds if fight runs long."
+        },
+        {
+            "en": "Captain Madison (First Encounter)",
+            "g": "-Summons adds periodically.\n-Madison flees after taking enough damage.",
+            "d": "-Focus Madison; ignore adds unless overwhelming.",
+            "h": "-Healing load increases with active adds.",
+            "t": "-Control adds to reduce pressure on group."
+        },
+        {
+            "en": "Captain Madison (Second Encounter)",
+            "g": "-Now uses bombs and adds again.\n-Bombs detonate with large AoEs; avoid them.",
+            "d": "-Prioritize boss but move out from bombs fast.\n-Use AoE if adds pile up.",
+            "h": "-Be ready for burst damage when bombs explode.\n-Heal through potential group-wide AoE if bombs go off.",
+            "t": "-Position boss away from bombs.\n-Quickly regain control after add spawns."
+        },
+        {
+            "en": "Denn the Orcatoothed",
+            "g": "-Spawns bubbles that trap players.\n-Bubbles must be destroyed to free trapped allies.",
+            "d": "-Target and destroy bubbles quickly.\n-Position carefully to avoid unnecessary bubble spawns.",
+            "h": "-Trapped players take damage over time.\n-Stay mobile to avoid being bubbled yourself.",
+            "t": "-Maintain aggro while helping break bubbles.\n-Position boss away from bubble spawns to reduce clutter."
+        }
+        ]
       }
     }
   },
@@ -8192,9 +8219,22 @@
     "maps": {
       "8": {
         "en": "The Tam-Tara Deepcroft",
-        "d": "...",
-        "h": "...",
-        "t": "..."
+        "st": [
+        {
+            "en": "Galvanth the Dominator",
+            "g": "-Boss becomes invulnerable periodically while cultists channel dark energy.\n-If cultists are not interrupted quickly, boss is empowered and deals more damage.",
+            "d": "-Focus down cultists as soon as they spawn.\n-Burn boss during vulnerable windows.",
+            "h": "-Damage spikes if cultists are ignored.\n-Watch for AoE bursts after boss is empowered.",
+            "t": "-Pull adds toward boss for cleave/AoE efficiency.\n-Interrupt cultists to prevent empowerment."
+        },
+        {
+            "en": "Cultist Orbs (Intermissions)",
+            "g": "-Throughout the dungeon, players must disable cultist orbs to unlock Galvanth’s chamber.\n-Orbs are guarded and will summon waves of enemies.",
+            "d": "-Prioritize orb-guarding enemies.\n-Save AoE for waves of adds if they spawn.",
+            "h": "-Prepare for moderate damage during add waves.\n-Use cooldowns if overwhelmed.",
+            "t": "-Hold aggro on all spawned adds.\n-Keep mobs away from orb activators where possible."
+        }
+        ]
       }
     }
   },
@@ -8202,22 +8242,25 @@
     "en": "Copperbell Mines",
     "maps": {
       "34": {
-        "en": "Copperbell Mines",
-        "d": "...",
-        "h": "...",
-        "t": "..."
+        "en": "Kottos",
+        "g": "-Boss is passive until activated by blasting device.\n-Uses point-blank AoEs and cleaves.\n-Adds may spawn from surrounding tunnels.",
+        "d": "-Avoid close-range AoEs.\n-Quickly clear any adds that emerge from tunnels.",
+        "h": "-Prepare for moderate AoE damage bursts.\n-Watch for stray adds attacking party.",
+        "t": "-Face boss away from group.\n-Hold aggro on both boss and spawned adds."
       },
       "40": {
-        "en": "Copperbell Mines",
-        "d": "...",
-        "h": "...",
-        "t": "..."
+        "en": "Ichorous Ire",
+        "g": "-Slime boss splits into smaller slimes when damaged.\n-Slimes move to fuse if not killed quickly.",
+        "d": "-Focus slimes down fast before they can merge.\n-Use AoE abilities after first split.",
+        "h": "-Damage increases if slimes merge—watch for unexpected spikes.\n-Stay mobile to avoid being cornered by slimes.",
+        "t": "-Pull slimes together for AoE.\n-Prevent merges by keeping slimes controlled and grouped."
       },
       "41": {
-        "en": "Copperbell Mines",
-        "d": "...",
-        "h": "...",
-        "t": "..."
+        "en": "Gyges the Great",
+        "g": "-Boss uses AoE swings and targeted attacks.\n-Spawns adds and uses bombs that must be avoided.",
+        "d": "-Focus boss while avoiding bomb AoEs.\n-Use AoE if overrun by adds.",
+        "h": "-Watch for high burst damage if bombs or adds aren't handled.\n-Stay at range to avoid frontal swings.",
+        "t": "-Keep boss away from bombs and group.\n-Grab aggro on spawned adds quickly."
       }
     }
   },

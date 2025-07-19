@@ -7,6 +7,7 @@ using Dalamud.IoC;
 using Dalamud.Plugin;
 using Dalamud.Plugin.Services;
 using FFXIVClientStructs.FFXIV.Common.Lua;
+using FFXIVClientStructs.FFXIV.Component.GUI;
 using ImGuiNET;
 using System;
 using System.Collections.Generic;
@@ -79,6 +80,21 @@ public enum Role
     Unknown
 }
 
+public enum EnixTextColor
+{
+    White = 0,
+    BluePale = 33,
+    BlueLight = 58,
+    BlueTank = 37,
+    YellowBright = 44,
+    YellowOrange = 45,
+    GreenBright = 60,
+    RedBright = 68,
+    RedDPS = 545,
+    GreenSoft = 71,
+    GreenHealer = 504,
+}
+
 public sealed class Plugin : IDalamudPlugin
 {
     [PluginService] internal static IDalamudPluginInterface PluginInterface { get; private set; } = null!;
@@ -94,7 +110,7 @@ public sealed class Plugin : IDalamudPlugin
     private MapRoleHints? current_map_hint;
     private bool showHintPopup = false;
 
-    private static readonly Dictionary<uint, Role> classjob_to_role = new()
+    private static readonly Dictionary<uint, Role> ClassJob_To_Role = new()
     {
         { 19, Role.Tank }, // Paladin
         { 21, Role.Tank }, // Warrior
@@ -118,6 +134,14 @@ public sealed class Plugin : IDalamudPlugin
         { 27, Role.DPS }, // Summoner
         { 35, Role.DPS }, // Red Mage
         { 36, Role.DPS }, // Blue Mage (limited)
+    };
+
+    private static readonly Dictionary<Role, EnixTextColor> RoleToColor = new()
+    {
+        { Role.Tank, EnixTextColor.BlueTank },
+        { Role.Healer, EnixTextColor.GreenHealer },
+        { Role.DPS, EnixTextColor.RedDPS },
+        { Role.Unknown, EnixTextColor.White }
     };
 
     public Configuration Configuration { get; init; }
@@ -193,6 +217,12 @@ public sealed class Plugin : IDalamudPlugin
         CommandManager.RemoveHandler("/pbsdriver");
     }
 
+    private void _printTitle(string text, EnixTextColor color)
+    {
+        var title = new SeStringBuilder().AddUiForeground((ushort)color).AddText(text).AddUiForegroundOff().BuiltString;
+        ChatGui.Print(title);
+    }
+
     private void _loadCurrentMapHints()
     {
         this.current_territory_hint = null;
@@ -210,17 +240,19 @@ public sealed class Plugin : IDalamudPlugin
         var jobStr = localPlayer.ClassJob.Value.Abbreviation.ExtractText();
 
         //Log.Info($"Player {localPlayer.Name} JobID={jobId} ({jobStr}) is in territory {territoryId} map {mapId}");
-
+        ChatGui.Print($"Player {localPlayer.Name} JobID={jobId} ({jobStr}) is in territory {territoryId} map {mapId}");
+        
         var territory_hint = this.instances_data?.GetValueOrDefault(territoryId.ToString());
         if (territory_hint == null)
         {
+            ChatGui.Print($"No hints to display for {territoryId}.");
             return;
         }
-
 
         var hint = territory_hint.maps.GetValueOrDefault(mapId.ToString());
         if (hint == null)
         {
+            ChatGui.Print($"No hints to display for {territoryId} {mapId}.");
             return;
         }
 
@@ -352,9 +384,7 @@ public sealed class Plugin : IDalamudPlugin
     private void OnImmediateHintCmd(string command, string args)
     {
         _loadCurrentMapHints();
-        //ChatGui.Print($"Created hints for {jobStr} ({job_role}) in {hint.en_name} (territory {territoryId} map {mapId})");
-        //ChatGui.Print($"Hints for {jobStr} ({job_role}) in {hint.en_name} (territory {territoryId} map {mapId}): {job_hint}");
-        // ChatGui.Print($"General advice for {hint.en_name}: \n{hint.general}\n\nSpecifically for {jobStr} ({job_role}):\n{job_hint}");
+
         var hint = this.current_map_hint;
 
         if (Plugin.ClientState.LocalPlayer == null || hint == null)
@@ -365,23 +395,60 @@ public sealed class Plugin : IDalamudPlugin
         uint jobId = Plugin.ClientState.LocalPlayer.ClassJob.RowId;
         var jobStr = Plugin.ClientState.LocalPlayer.ClassJob.Value.Abbreviation.ExtractText();
 
-        Role job_role = classjob_to_role.GetValueOrDefault(jobId, Role.Unknown);
-        string job_hint = job_role switch
-        {
-            Role.Tank => hint.tank,
-            Role.Healer => hint.healer,
-            Role.DPS => hint.dps,
-            _ => ""
-        };
+        Role job_role = ClassJob_To_Role.GetValueOrDefault(jobId, Role.Unknown);
 
-        if (hint.general != "" && hint.general != "...")
+        //ChatGui.Print($"Created hints for {jobStr} ({job_role}) in {hint.en_name} (territory {territoryId} map {mapId})");
+        //ChatGui.Print($"Hints for {jobStr} ({job_role}) in {hint.en_name} (territory {territoryId} map {mapId}): {job_hint}");
+        // ChatGui.Print($"General advice for {hint.en_name}: \n{hint.general}\n\nSpecifically for {jobStr} ({job_role}):\n{job_hint}");
+
+        if (hint.stages.Count > 0)
         {
-            ChatGui.Print($"General advice for {hint.en_name}: \n{hint.general}");
+            foreach (var stage in hint.stages)
+            {
+                _printTitle(stage.stage_name, EnixTextColor.BlueLight);
+
+                if (stage.general != "" && stage.general != "...")
+                {
+                    ChatGui.Print($"{stage.general}");
+                }
+
+                string job_hint = job_role switch
+                {
+                    Role.Tank => stage.tank,
+                    Role.Healer => stage.healer,
+                    Role.DPS => stage.dps,
+                    _ => ""
+                };
+
+                if (job_hint != "" && job_hint != "...")
+                {
+                    _printTitle($"Specifically for {jobStr} ({job_role}):", RoleToColor[job_role]);
+                    ChatGui.Print($"{job_hint}");
+                }
+            }
         }
-
-        if (job_hint != "" && job_hint != "...")
+        else
         {
-            ChatGui.Print($"Specifically for {jobStr} ({job_role}):\n{job_hint}");
+            string job_hint = job_role switch
+            {
+                Role.Tank => hint.tank,
+                Role.Healer => hint.healer,
+                Role.DPS => hint.dps,
+                _ => ""
+            };
+            
+            _printTitle(hint.en_name, EnixTextColor.BlueLight);
+
+            if (hint.general != "" && hint.general != "...")
+            {
+                ChatGui.Print($"{hint.general}");
+            }
+
+            if (job_hint != "" && job_hint != "...")
+            {
+                _printTitle($"Specifically for {jobStr} ({job_role})", RoleToColor[job_role]);
+                ChatGui.Print($"{job_hint}");
+            }
         }
     }
 
