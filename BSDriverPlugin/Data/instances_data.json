@@ -902,9 +902,29 @@
     "maps": {
       "188": {
         "en": "The Wanderer's Palace (Hard)",
-        "d": "...",
-        "h": "...",
-        "t": "..."
+        "st": [
+        {
+          "en": "Frumious Koheel Ja",
+          "g": "-Throws Fire Angon spears that apply stacking Burn if left on ground.\n-Kill spears quickly or party-wide Burn stacks wipe the group.",
+          "d": "-Target and destroy spears immediately before focusing boss.\n-Maintain DPS uptime between spear phases.",
+          "h": "-Burn stacks surge if spears linger—heal through dot ticks.\n-Raid heals needed during boss plus spear overlap.",
+          "t": "-Face boss away from party.\n-Intercept spears to prevent mid‑group placement."
+        },
+        {
+          "en": "Slithy Zolool Ja",
+          "g": "-Summons colored totems; effects are unknown until first cleanse—can buff, debuff, toad, etc.\n-He casts fire AoEs and Toad on random players.",
+          "d": "-Purify one totem at first spawn to identify effect; pick attack buff color afterward.\n-Avoid totem-related damage gaps, maintain steady uptime.",
+          "h": "-Clear toads with that totem—time heal removal precisely.\n-Manage Fire resist stacks to avoid fatal AoEs.",
+          "t": "-Position boss clear of totem area so purifiers can safely step in.\n-Keep boss mobile to prevent standing in damaging zones."
+        },
+        {
+          "en": "Manxome Molaa Ja Ja",
+          "g": "-Uses Tyrannic Blare frontal cone; applies Rotting Lung with linked gas circles.\n-Drops Sacred Standards buffing boss—tank must kite to avoid standing in them.\n-Random Doom on players, removed by full heal.",
+          "d": "-Stay behind boss to dodge Blare; spread during gas phase.\n-Move off infected player to avoid shared damage zone.",
+          "h": "-Top off Lung victims and manage AoE gas overlap heals.\n-Be ready for Doom removals when cast triggers.",
+          "t": "-Kite boss continuously to avoid standing in Standards.\n-Face boss to prevent cones; lead group around gas circles."
+        }
+      ]
       }
     }
   },
@@ -1948,22 +1968,25 @@
     "en": "Copperbell Mines",
     "maps": {
       "140": {
-        "en": "Copperbell Mines (Hard)",
-        "d": "...",
-        "h": "...",
-        "t": "..."
+        "en": "Ouranos",
+        "g": "-Summons bombs and adds periodically.\n-Bombs explode in large AoEs after a delay.",
+        "d": "-Burn down bombs before they explode.\n-Switch to adds immediately when they spawn.",
+        "h": "-High party-wide damage if bombs detonate.\n-Stay mobile to avoid overlapping AoEs.",
+        "t": "-Face boss away from group.\n-Gather adds near boss but away from bombs."
       },
       "141": {
-        "en": "Copperbell Mines (Hard)",
-        "d": "...",
-        "h": "...",
-        "t": "..."
+        "en": "Gogmagolem",
+        "g": "-Gimmick fight: use lit powder kegs to damage the boss.\n-Gogmagolem takes almost no damage otherwise.",
+        "d": "-Ignore boss and focus on positioning kegs near it.\n-Burn adds that threaten the kegs.",
+        "h": "-Minimal direct boss damage—only watch party HP during add waves.\n-Keep safe distance from kegs to avoid blast.",
+        "t": "-Drag boss near kegs just before they explode.\n-Pick up any adds that spawn and keep them off keg handlers."
       },
       "142": {
-        "en": "Copperbell Mines (Hard)",
-        "d": "...",
-        "h": "...",
-        "t": "..."
+        "en": "Gyges the Great",
+        "g": "-Uses AoEs and targeted attacks.\n-Summons adds and uses bombs similar to normal mode.",
+        "d": "-Avoid bomb zones and prioritize AoE when adds spawn.\n-Use movement abilities to reposition quickly.",
+        "h": "-Burst healing may be needed during add phases or failed bomb mechanics.\n-Avoid standing near bombs.",
+        "t": "-Position boss away from bombs.\n-Take control of adds fast to prevent party pressure."
       }
     }
   },
@@ -1971,22 +1994,25 @@
     "en": "Haukke Manor",
     "maps": {
       "137": {
-        "en": "Haukke Manor (Hard)",
-        "d": "...",
-        "h": "...",
-        "t": "..."
+        "en": "Cercy",
+        "g": "-Casts large AoEs and summons multiple adds.\n-During add phase, boss becomes untargetable.",
+        "d": "-Focus adds during untargetable phase.\n-Avoid AoEs and reposition frequently.",
+        "h": "-High group damage during add phase.\n-Heal proactively during boss transitions.",
+        "t": "-Pick up adds immediately when they spawn.\n-Keep boss centered pre-phase to control space."
       },
       "138": {
-        "en": "Haukke Manor (Hard)",
-        "d": "...",
-        "h": "...",
-        "t": "..."
+        "en": "Manor Butlers and Maids",
+        "g": "-Dual mini-boss fight with shared mechanics.\n-Coordinated attacks, including AoEs and debuffs.",
+        "d": "-Focus one target to reduce threat faster.\n-Spread out to avoid overlapping AoEs.",
+        "h": "-Monitor split damage from two bosses.\n-Watch for debuffs requiring cleanses.",
+        "t": "-Hold both bosses’ aggro and keep them apart.\n-Avoid overlapping AoEs by controlling positioning."
       },
       "139": {
-        "en": "Haukke Manor (Hard)",
-        "d": "...",
-        "h": "...",
-        "t": "..."
+        "en": "Ash",
+        "g": "-Casts large cleaves, line AoEs, and tether mechanics.\n-Can summon dolls that fixate on players and explode.",
+        "d": "-Break tethers by kiting.\n-Kill dolls quickly before they explode.",
+        "h": "-Exploding dolls cause unpredictable burst damage.\n-Save cooldowns for tethered party members.",
+        "t": "-Keep boss faced away from party.\n-Pull exploding dolls away from group when possible."
       }
     }
   },
@@ -2097,9 +2123,29 @@
     "maps": {
       "145": {
         "en": "Halatali (Hard)",
-        "d": "...",
-        "h": "...",
-        "t": "..."
+        "st": [
+        {
+          "en": "Pyracmon",
+          "g": "-Avoid Eye of the Beholder lasers; dodge telegraphed cleave/two‑hand attacks.\n-Use Manawall buff from the mechanical Mammet by activating lever just before 1,000‑Tonze Swing.",
+          "d": "-Stand in Manawall bubble during Swing to avoid lethal damage.\n-Keep uptime high between Swing windows.",
+          "h": "-Coordinate leap into Manawall zone; sudden Swing hits will one‑shot non‑buffed players.\n-Minimal healing needed outside Swing windows.",
+          "t": "-Pull boss near lever and time Swing before Mammet reaches it.\n-Rotate boss to keep arena open while Mammet circles."
+        },
+        {
+          "en": "Catoblepas",
+          "g": "-During Demonic Eye, four players must each activate a Tainted Eye lever to gain Gloam buff.\n-Dodge large cone AoEs and manage eye-target DPS phases to prevent stacking damage debuffs.",
+          "d": "-Respond quickly to Gloam lever prompts to dodge Demonic Eye.\n-DPS the eye gauge phase fast to prevent red stacking, reduce raid damage.",
+          "h": "-Missed pedestals = heavy damage.\n-Burst heal after eye cast if someone fails or is hit.",
+          "t": "-Position boss center to give even access to all 4 levers.\n-Move off to dodge cones while maintaining aggro."
+        },
+        {
+          "en": "Final Test: Gladiators → Mumuepo & Narasimha",
+          "g": "-Phase 1: fight four gladiators—kill in order healer → ranged → melee → tank.\n-Phase 2: Mumuepo chains players, must free via Scepter before cast completes; Narasimha tail swipes and AoEs.",
+          "d": "-In phase 1, burn healer first to reduce raid pressure.\n-In phase 2, kill Mumuepo quickly to stop chains, DPS boss when free.",
+          "h": "-Phase 1: expect mixed damage—stay topped.\n-Phase 2: heal chain victims and free members fast; use raid cooldowns on Narasimha bursts.",
+          "t": "-Phase 1: tank gladiators strategically to avoid splits; kite lancer if needed.\n-Phase 2: pick up both Mumuepo and Narasimha, tank both away from group; face Narasimha away to avoid tail AoE."
+        }
+      ]
       }
     }
   },
@@ -2108,9 +2154,29 @@
     "maps": {
       "168": {
         "en": "Hullbreaker Isle",
-        "d": "...",
-        "h": "...",
-        "t": "..."
+        "st": [
+        {
+            "en": "Sasquatch",
+            "g": "-Classic tank‑and‑spank with cleaves and knockback stomp.\n-Avoid red/blue platform geysers during platform crossings between room areas.",
+            "d": "-Stay behind boss to dodge cleave and maintain DPS uptime.\n-Don’t get knocked into geysers—be ready to reposition.",
+            "h": "-Knockback stomp can scatter party—heal through and reposition fast.\n-Geyser knockback may cause unexpected movement; heal proactively.",
+            "t": "-Face boss away from group before stomps.\n-Kite boss around geysers to keep party safe."
+        },
+        {
+            "en": "Sjoorm",
+            "g": "-Uses large AoE cleaves, ice floor puddles, and breath cone.\n-Half‑room Ice Phase requires ice pool awareness.",
+            "d": "-Avoid ice patches and breath cone while maintaining uptime.\n-Stack behind boss after breath ends.",
+            "h": "-Ice patches reduce movement—avoid standing in them.\n-Expect breath cone spikes; heal burst after phase.",
+            "t": "-Pull boss to clear spaces free of ice.\n-Stop boss before moving into bad tiles."
+        },
+        {
+            "en": "Kraken",
+            "g": "-Tentacles spawn; kill 4 per platform to drop arms.\n-Player get knocked between platforms by gush AOEs.\n-Only attack arms when on correct island after tentacle clear.",
+            "d": "-Focus tentacles first; ignore arms till all tentacles down.\n-Move with group to prevent being knocked off platforms.",
+            "h": "-Gush AoEs may move players—heal through movement.\n-Spike when arms activate—time AoE heals accordingly.",
+            "t": "-Tank tentacles near boss for cleave.\n-Keep Kraken centered; avoid pulling players during gush transitions."
+        }
+        ]
       }
     }
   },
@@ -2119,9 +2185,29 @@
     "maps": {
       "146": {
         "en": "Brayflox's Longstop (Hard)",
-        "d": "...",
-        "h": "...",
-        "t": "..."
+        "st": [
+        {
+            "en": "Illuminati Commander",
+            "g": "-Boss sends vertical/horizontal line AoEs in expanding grid and spawns fixated sniper adds.\n-Dodge grid quickly; kill snipers before they wreck HP.",
+            "d": "-Stay mobile to dodge grid patterns.\n-Burst down snipers to stop their fixate damage.",
+            "h": "-Grid AoEs cause incidental damage—heal steadily.\n-Sniper fixates may bleed down a player—prep single-target heals.",
+            "t": "-Face boss to minimize raid exposure to lines.\n-Pick up snipers quickly before they fixate hard-targets."
+        },
+        {
+            "en": "Magitek Vangob G‑III",
+            "g": "-Leaks ceruleum pools that later ignite in large AoEs.\n-Summons adds and drops bomb clusters during invulnerable phase.",
+            "d": "-Kite boss to limit ceruleum coverage.\n-Destroy adds and bombs before detonation triggers arena-wide damage.",
+            "h": "-Expect high raid-wide damage when pools ignite.\n-Use AoE heals and cooldowns during ignition.",
+            "t": "-Tank boss along wall, dragging spread pools with him.\n-Pick up adds fast and help knock bombs away from arena center."
+        },
+        {
+            "en": "Gobmachine G‑VI",
+            "g": "-Unpredictable AoE patterns from crosshatch grid.\n-Summons tethered glider adds—tethers may deal snag damage or interrupt.",
+            "d": "-Dodge crosshatch quickly.\n-Burn gliders before tether damage ramps.",
+            "h": "-Grid damage is low; treat as minor movement damage.\n-Tethered adds can interrupt casts—prep burst heals after detach.",
+            "t": "-Face boss to minimize party exposure.\n-Pick tethered gliders fast and break tethers to stop group disruption."
+        }
+        ]
       }
     }
   },
@@ -2129,13 +2215,27 @@
     "en": "The Lost City of Amdapor",
     "maps": {
       "151": {
-        "en": "The Lost City of Amdapor",
-        "d": "...",
-        "h": "...",
-        "t": "..."
+        "en": "Halcyon Court, Tower of White",
+        "st" : [
+        {
+          "en": "Decaying Gourmand",
+          "g": "-Casts frontal cleaves and drops poison puddles.\n-Spawns green slimes that must be killed before reaching boss.",
+          "d": "-Kill green slimes quickly to prevent boss from healing.\n-Avoid poison puddles while maintaining uptime.",
+          "h": "-Slimes reaching boss trigger healing and AoE damage.\n-Prepare for spikes during add phases and puddle overlap.",
+          "t": "-Face boss away from party.\n-Position boss away from puddles to maintain safe zones."
+        },
+        {
+          "en": "Arioch",
+          "g": "-Initially untargetable; fight adds until exposed.\n-Gains stackable damage buff if players are paralyzed by Mist Clouds.",
+          "d": "-Avoid Mist Clouds to prevent paralysis.\n-When exposed, burn boss quickly before stacks grow.",
+          "h": "-Paralyzed players take more damage; stay mobile.\n-Heal through high-damage bursts if debuffs stack.",
+          "t": "-Tank adds cleanly during first phase.\n-Pull boss quickly once exposed and control positioning."
+        }
+        ]
       },
       "152": {
-        "en": "The Lost City of Amdapor",
+        "en": "Diabolos",
+        "g": "-Two doors with the same symbol need to be memorized when the fight starts.\n-The doors should be opened just before Omen finishes casting.\n-The party's invulnerable while traveling between the doors, keeping you safe from Omen.\n-When marked, move away from the party.",
         "d": "...",
         "h": "...",
         "t": "..."
@@ -2151,9 +2251,29 @@
     "maps": {
       "157": {
         "en": "The Stone Vigil (Hard)",
-        "d": "...",
-        "h": "...",
-        "t": "..."
+        "st": [
+        {
+            "en": "Gorynich",
+            "g": "-Uses Swinge and Rake (cone cleave), plus Lion’s Breath frontal AoEs.\n-Spawns Vigil Heirs that explode on death and buff boss if too close.",
+            "d": "-Kite adds away from boss before killing; DPS drag them to opposite side.\n-Avoid boss’s cleaves by staying at flank/rear and maintain uptime.",
+            "h": "-Healer should stack off to let DPS clear adds safely; avoid healer-focused add explosion AoEs.\n-Expect spike when adds die near boss—heal accordingly.",
+            "t": "-Corner-tank boss and face away to redirect cleaves.\n-Do not pick up adds—let DPS handle, tank boss only."
+        },
+        {
+            "en": "Cuca Fera",
+            "g": "-Party uses corner cannons to damage boss and adds.\n-Boss turtling (Diamondback) reflects cannon shots; Hard Stomp must be interrupted with stun shot.",
+            "d": "-Use Iron Kiss normally; switch to cannon stun (Spindly Finger) during Hard Stomp.\n-Help clean adds once turtling ends.",
+            "h": "-Rotate two stunners to safely interrupt Hard Stomp.\n-Keep NPCs healed—if all die, boss performs uninterruptible wipe Stomp.",
+            "t": "-Stay close to cannon platform; face boss so party can aim lines safely.\n-Keep DPS on boss once Stomp interrupted and adds are handled."
+        },
+        {
+            "en": "Giruveganaus",
+            "g": "-Random combo of shoulder tackle, tail swipe, claw swipe; applies Infirmity debuff.\n-At 60%, a clone spawns and adds fireball and breath.",
+            "d": "-Stay at flank to dodge cleaves and tail swings.\n-During phase 2, kill original boss first, then burn clone.",
+            "h": "-Anticipate cleave spikes and Infirmity reducing heal efficiency.\n-Heal burst after Fireball/Breath; reposition quickly.",
+            "t": "-Maintain flank positioning; kite boss to keep safe zone.\n-Keep aggro on original during second phase until dead."
+        }
+        ]
       }
     }
   },
@@ -2173,15 +2293,41 @@
     "maps": {
       "182": {
         "en": "The Sunken Temple of Qarn (Hard)",
-        "d": "...",
-        "h": "...",
-        "t": "..."
+        "st" : [
+        {
+            "en" : "Entry",
+            "g" : "Pick up the sun sphere, put it in the door.",
+            "d": "...",
+            "h" :"...",
+            "t": "..."
+        },
+        {
+            "en": "Sabotender Emperatriz",
+            "g": "-Clears waves of Sabotenders; a Guardia add shields the boss and must be killed immediately.\n-Interrupt the boss’s 100,000 Needles by dealing burst damage after Guardia dies.\n-Deal with moderate AoEs (3,000 Needles) along the way.",
+            "d": "-Kill Guardia on spawn before continuing to boss.\n-Burst DPS at the start of Needles cast to interrupt.",
+            "h": "-Shield/damage-mitigate when 3,000 Needles hits party.\n-Focus burst healing around the interrupt window.",
+            "t": "-Pull adds around the boss but keep them off DPS while focusing the boss.\n-Ensure Guardia is tanked immediately for swift takedown."
+        },
+        {
+            "en": "Vicegerent to the Warden",
+            "g": "-Mummies spawn, applying Curse of the Mummy; avoid being hit to prevent stacking to 4 stacks (auto-mummification).\n-Boss uses Light of Anathema (random line) and Flurry of Rage (cleave), both giving Curse stacks if hit.\n-Boss tethers a player—tethered player accumulates Curse stacks unless boss is stunned or distances.\n-Avoid mummy lines crossing edges.",
+            "d": "-Move out of boss’s line-of-sight when casting Light of Anathema.\n-Stun boss on tether cast to prevent tether stacking into mummification.",
+            "h": "-Dispel mummy curse before reaching 4 stacks to avoid mummification.\n-Heal quickly when players are hit by mummy lines or boss cleaves.",
+            "t": "-Face boss away from party for Flurry of Rage.\n-Stun boss when tethering initiates, or kite tethered player away to cut stacking."
+        }
+        ]
       },
       "183": {
         "en": "The Sunken Temple of Qarn (Hard)",
-        "d": "...",
-        "h": "...",
-        "t": "..."
+        "st": [
+        {
+            "en": "Damaged Adjudicator",
+            "g": "-Target the glowing red core on its limbs — disabling each spawns adds, then repeat until boss is vulnerable.\n-Avoid Shifting Sands whirlpools that drag you under (instant death).\n-Move out of sand spheres dropped on marked players (Dust to Dust).",
+            "d": "-Focus the orb-carrying limb immediately to progress phases.\n-Dodge sands quickly to maintain uptime.",
+            "h": "-Provide raid-wide healing during add phases when limbs break.\n-Keep players topped and mobile to survive sinking and sphere hits.",
+            "t": "-Hold adds away from the boss when they spawn.\n-Position boss so party has clear space to avoid whirlpools."
+        }
+        ]
       }
     }
   },
@@ -2252,10 +2398,30 @@
     "en": "The Tam-Tara Deepcroft",
     "maps": {
       "165": {
-        "en": "The Tam-Tara Deepcroft (Hard)",
-        "d": "...",
-        "h": "...",
-        "t": "..."
+        "en": "The Tam‑Tara Deepcroft (Hard)",
+        "st": [
+        {
+            "en": "Liavinne",
+            "g": "-Boss summons zombies that chase a marked player; boss becomes invulnerable if adds are killed by DPS.\n-Player marked with orange arrow must kite zombies into boss’s AoE to save the party.",
+            "d": "-Stack on boss and burn during downtime; don’t AoE zombies or you’ll incur heavy debuff.\n-Mark target should kite zombies in loops to ensure they’re cleared by boss.",
+            "h": "-Orange‑marked player lures zombies—heal them if tanking adds near death.\n-Stack centrally so kited zombies reach boss AoE safely.",
+            "t": "-Hold boss marking on tank; boss is pure tank & spank.\n-Face boss toward space where zombies will be kited to avoid group interference."
+        },
+        {
+            "en": "Spare Body",
+            "g": "-Protect the NPC in center—if he’s damaged boss grows and will wipe party on death.\n-Orbs float from portals and must be prematurely detonated by players.",
+            "d": "-DPS should intercept orbs before they reach center; skip boss burn until orbs are handled.\n-Focus adds only after orbs are managed.",
+            "h": "-Ensure NPC stays unharmed—heal if he’s targeted by AoEs or orbs.\n-Position between NPC and orb paths to block them.",
+            "t": "-Kite boss away from orb routes and NPC to prevent overlapping damage.\n-Prioritize controlling boss presence so party can intercept orbs safely."
+        },
+        {
+            "en": "Avere Bravearm",
+            "g": "-Edda stands at center causing bleed aura; boss summons zombie adds that must be killed or they activate glyphs. More glyphs = stronger 'Red Wedding' AoE at end.",
+            "d": "-Burn zombies aggressively to prevent glyph buildup; use Cleric Stance if DPS role.\n-Keep DPS on boss after adds are cleared.",
+            "h": "-Expect heavy raid‑wide damage at end depending on glyphs—heal proactively during add waves.\n-Assist in add DPS if safe to reduce glyphs.",
+            "t": "-Tank boss centrally but adjust to allow adds to be handled quickly.\n-Move boss off center if necessary to give space for add cleansing lanes."
+        }
+        ]
       }
     }
   },
@@ -2358,9 +2524,29 @@
     "maps": {
       "169": {
         "en": "Sastasha (Hard)",
-        "d": "...",
-        "h": "...",
-        "t": "..."
+        "st": [
+        {
+            "en": "Karlabos",
+            "g": "-Drops Aqua Balls applying Slime DoT; Tail Screw reduces target to 1 HP; Prey tethers and stuns tank.\n-Cleansing Slime is critical before Tail Screw or it'll be fatal.",
+            "d": "-Avoid standing close to others to reduce multiple Slime stacks on Tail Screw targets.\n-If Prey targets tank, a DPS can take it to stun Tail Screw faster.",
+            "h": "-Remove Slime ASAP—priority before Tail Screw.\n-Be ready to top off players hit by Tail Screw (to ~2 HP).",
+            "t": "-Face boss away from the group and hold add spawns.\n-If Prey hits you, tank it or pass to DPS and stun Tail Screw."
+        },
+        {
+            "en": "Captain Madison",
+            "g": "-Summons Slaves (stun), Leeches (heal), Boy/Guard adds; uses Musket marking players requiring damage to end it.",
+            "d": "-Burn Slaves and Leeches first to prevent stuns/healing.\n-When Musket hits, switch to boss DPS until attack ends.",
+            "h": "-Keep Slave-stunned players healed until free; use shields for the Musket target.\n-Apply Adlo or Stoneskin to Musket target to help survive.",
+            "t": "-Hold boss and adds together; tank slaves to protect DPS/healer.\n-If Musket hits tank, get covered or pass it to PLD."
+        },
+        {
+            "en": "Kraken",
+            "g": "-Spawns tentacles (stun) and Arms; killing all Arms briefly stuns Kraken and prevents fatal World’s End.\n-Ink Jet blind is unavoidable but cleansable.",
+            "d": "-Ignore tentacles first; burn Arms quickly to stun Kraken.\n-Attack boss once Arms are down to delay World’s End.",
+            "h": "-Remove Blind from Ink Jet promptly to resume healing.\n-Heal through Arms phase; expect damage spikes.",
+            "t": "-Tank tentacles and boss; don't pick up Arms until DPS is ready to burn.\n-Move Kraken to safe spot away from tentacle area between phases."
+        }
+        ]
       }
     }
   },
@@ -3637,9 +3823,29 @@
     "maps": {
       "297": {
         "en": "Hullbreaker Isle (Hard)",
-        "d": "...",
-        "h": "...",
-        "t": "..."
+        "st": [
+        {
+            "en": "Sanguine Sirens / Battle Coeurl",
+            "g": "-Waves of pirates interspersed with cannon fire and tethered Coeurl adds.\n-Dodge line AoEs and kill the Coeurl quickly to avoid healer bleed debuffs.",
+            "d": "-Maintain movement to dodge line attacks and cannon circles.\n-Priority-target tethered Coeurl to remove bleed/healer debuff.",
+            "h": "-Raid takes incidental damage from AoEs—heal steadily.\n-Quick single-target heals when Coeurl applies bleed fixate.",
+            "t": "-Face mobs to direct AoEs safely.\n-Grip and tank Coeurl adds quickly to protect party."
+        },
+        {
+            "en": "Ymir",
+            "g": "-Alternates between lightning tethers, freezing markers, and slime pools.\n-Use lightning mechanics wisely: break tethers or soak lightning in slime, group freezing circles close for safety.",
+            "d": "-When tethered by lightning, separate to drop tether.\n-When targeted for lightning, move into slime to become fettered and avoid damage.",
+            "h": "-Prepare burst AoE heals during freezing explosions.\n-Monitor players in slime pools and mana-costly heals from tether failings.",
+            "t": "-Keep boss positioned away from mechanics.\n-Call out tether and freezing so tanks can reposition adds/platform."
+        },
+        {
+            "en": "Grand Storm Marshal Slafyrsyn & Mistbeard",
+            "g": "-Two phases: first melee with cone/tankbuster AoEs; second includes chests with antidotes, heavy marked target AoEs, and keg bombs.",
+            "d": "-Phase 1: dodge melee cleaves.\nPhase 2: kill chest mobs for antidote, dodge keg explosives, and burst boss post-AoE.",
+            "h": "-Make sure each player gets to a chest with a potion to remove the poison.\n-Heal marked players and prep cooldowns during keg explosions and tank busters.",
+            "t": "-Phase 1: face boss away from party.\nPhase 2: tank boss to allow chest access, then reposition to avoid keg blasts and heavy-marked attacks."
+        }
+        ]
       }
     }
   },
@@ -8634,15 +8840,36 @@
     "maps": {
       "763": {
         "en": "Porta Decumana",
-        "d": "...",
-        "h": "...",
-        "t": "..."
+        "st": [
+        {
+          "en": "Phase 1: Titan",
+          "g": "-Tank keeps Ultima Weapon near wall; Titan emerges to cast Earthen Fury, Geocrush, Landslide and Weight of the Land—avoid zone markers.\n-Players get trapped in Granite Gaol then freed before Earthen Eternity.",
+          "d": "-DST your positioning to dodge proximity and line AoEs; high uptime between mechanics.\n-Burn boss in safe windows with adds down.",
+          "h": "-Expect big raidwide spikes from Earthen Fury/Landslide; use AoE heals accordingly.\n-Minimal healing during safe windows.",
+          "t": "-Hold boss at wall; rotate to steer AoEs away from group.\n-Lead party to safe zones on Geocrush markers."
+        },
+        {
+          "en": "Phase 2: Garuda",
+          "g": "-Ultima channels Garuda: Aerial Blast, Eye of the Storm (donut), followed by Mistral Shriek at edge.\n-Block Vortex Barrier, then interrupted by Hydaelyn.",
+          "d": "-Stay middle then shift to edge markers; dodge Mistral Shriek.\n-Focus boss in open windows.",
+          "h": "-Heal through Aerial Blast and edge donut damage; burst when safe.\n-Quick recovery after Shriek.",
+          "t": "-Facilitate party movement from center to edge; face boss to minimize splash.\n-Pivot boss as arena shifts."
+        },
+        {
+          "en": "Phase 3: Ifrit",
+          "g": "-Ultima channels Ifrit: Hellfire, Radiant Plume circles, Vulcan Burst knockback then edge Radiant Plume.\n-End with Radiant Blaze interrupted.",
+          "d": "-Move off knockback then return to center quickly.\n-React early to Radiant Plume markers.",
+          "h": "-Heavy AoE demand; use cooldowns post-Hellfire and after Plumes.\n-Top off between mechanics.",
+          "t": "-Maintain center aggro; move boss to keep group together.\n-Ensure tank avoids knockback pitfalls."
+        }
+        ]
       },
       "764": {
-        "en": "The Porta Decumana",
-        "d": "...",
-        "h": "...",
-        "t": "..."
+        "en": "Phase 4: Ultima Weapon",
+        "g": "-Final phase with homing lasers on MT, Magitek Ray lines, Homing Ray circles, Tank Purge, Aetheric Boom knockback, orb tethers, Citadel Buster, Magitek Bits & airship Explosions, ends with enrage Ultima cast—LB3 required.",
+        "d": "-MT bait homing laser; dodge lines and circles promptly.\n-Clean orb tethers early; burst hardest before final Ultima cast and use LB3.",
+        "h": "-Steady heals through tank laser, Purge, orbs; AoE heals for group-wide markers.\n-Prep large heals pre-ultima cast and support LB3 window.",
+        "t": "-Tank faces boss to shield party from line attacks.\n-Position for tether orb soak and kite to center during explosions; MVP timing on LB3."
       }
     }
   },
@@ -8841,9 +9068,29 @@
     "maps": {
       "174": {
         "en": "Snowcloak",
-        "d": "...",
-        "h": "...",
-        "t": "..."
+        "st": [
+        {
+          "en": "Great Bear",
+          "g": "-Performs Icehatch puddles and cone cleaves; occasional body slam knockback.\n-Adds (snow wolves) spawn and chase players.",
+          "d": "-Avoid standing in Icehatch puddles and dodge cone cleaves.\n-Burst down wolves quickly to reduce raid damage.",
+          "h": "-Knockback can displace party—heal and reposition post-slam.\n-Be ready for spike wounds from wolf damage if ignored.",
+          "t": "-Face boss away from group to manage cleaves.\n-Pull wolves away from puddles and group for clean cleave."
+        },
+        {
+          "en": "Snow Lion",
+          "g": "-Casts line AoEs (Frost Howl) and rotating circle AoEs.\n-Targets random players with Deep Freeze ice traps.",
+          "d": "-Rotate position promptly to avoid circle markers.\n-Destroy ice traps before they freeze players.",
+          "h": "-Deep Freeze traps can immobilize—pre-heal if needed.\n-Heal through burst after AoE rotations.",
+          "t": "-Keep boss centered to give space for trap placement.\n-Pull boss out of trap zones if sticky."
+        },
+        {
+          "en": "Cold Fang",
+          "g": "-Heavy melee flurry followed by a Ring of Thorns AoE.\n-Sometimes casts Blizzard Breath cone.",
+          "d": "-Stay behind boss during flurry; avoid breath cone.\n-Move out of ring AoE quickly.",
+          "h": "-Burst heals needed after Flurry due to cleave hits.\n-Watch for players caught in ring AoE and adjust positioning.",
+          "t": "-Rotate boss between stacks/cleave windows.\n-Face boss away and reposition to avoid ring damage overlapping party."
+        }
+      ]
       }
     }
   },
@@ -8851,22 +9098,25 @@
     "en": "The Keeper of the Lake",
     "maps": {
       "201": {
-        "en": "The Keeper of the Lake",
-        "d": "...",
-        "h": "...",
-        "t": "..."
+        "en": "Einhander",
+        "g": "-Drops ceruleum tanks via Resounding Screech; tank explosions are unavoidable but clear aux tanks quickly.\n-Casts Heavy Swing (tankbuster) and line AoEs from Mark XLT cannon.",
+        "d": "-Move aux tanks away before tankbuster lands to save party HP.\n-Dodge line AoEs by moving to the cleared sides of the room.",
+        "h": "-Heal through unavoidable tankbuster but avoid standing near exploding aux tanks.\n-Keep party spread to dodge the line cannon cleaves.",
+        "t": "-Pick up boss and face away from party and aux tanks.\n-Move aux tanks as far from group as possible to reduce explosion damage."
       },
       "202": {
-        "en": "The Keeper of the Lake",
-        "d": "...",
-        "h": "...",
-        "t": "..."
+        "en": "Magitek Gunship",
+        "g": "-Fires Flame Thrower cones and Carpet Bomb AoEs; summons adds periodically.",
+        "d": "-Leave flame cone early and continue DPS once clear.\n-Priority-target adds as soon as they spawn.",
+        "h": "-Ranged flame causes steady but dodgeable damage; heal accordingly.\n-Expect spike healing when adds overlap with AoEs.",
+        "t": "-Face boss to direct flame away from party.\n-Aggro adds quickly so DPS/healer aren’t overwhelmed."
       },
       "203": {
-        "en": "The Keeper of the Lake",
-        "d": "...",
-        "h": "...",
-        "t": "..."
+        "en": "Midgardsormr",
+        "g": "-Multi-phase with inner/outer donuts, line cleaves, chiron dragon adds tethered to positioning.\n-Utilize safe zones: center/donut edge shifts; tank positions dragons for tethered cleave debuffs.",
+        "d": "-Stand in middle ring, then edge as Antipathy expands.\n-Kill Mirage Dragons quickly to reduce Animadversion damage.",
+        "h": "-Use AoE heals on donut and line phases.\n-Stack on tank for Akh Morn targets and line cleave bursts.",
+        "t": "-Tank tethered dragons at correct distance (first far, second close) to avoid their defensive buffs."
       }
     }
   },
