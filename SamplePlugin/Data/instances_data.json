@@ -2656,10 +2656,29 @@
     "en": "Dusk Vigil",
     "maps": {
       "243": {
-        "en": "Dusk Vigil",
-        "d": "...",
-        "h": "...",
-        "t": "..."
+        "st": [
+            {
+              "en": "Towering Oliphant",
+              "g": "-Avoid circle AoEs and frontal cones (Wooly Inspiration).\n-Share damage from Rout by standing between boss and target.",
+              "d": "-Preposition between boss and target to help share Rout.\n-Stay mobile for fast AoE patterns.",
+              "h": "-Rout can catch players out of position—watch for sudden spikes.\n-Minimal raid-wide damage otherwise.",
+              "t": "-Face away from group to avoid clipping them with cones.\n-Stand near Rout target to share damage safely."
+            },
+            {
+              "en": "Ser Yuhelmeric",
+              "g": "-Spawns adds at 90% and 60% via Brain Drain.\n-Separate boss and adds to avoid buffs; avoid Death Spiral donut AoE and knockbacks.",
+              "d": "-Switch to adds immediately when they spawn.\n-Stay center during Death Spiral to avoid donut damage.",
+              "h": "-Heal tank heavily during add phases; boss buffs can spike damage.\n-Watch positioning for knockbacks and AoEs.",
+              "t": "-Drag boss away from adds during spawn to prevent buffing.\n-Interrupt Brain Drain if possible to delay adds."
+            },
+            {
+              "en": "Opinicus",
+              "g": "-Hide behind rubble for Whirling Gaol push.\n-Dodge Alpine Draft and Freefall jumps.",
+              "d": "-Stand near rubble before Whirling Gaol.\n-Use sprint to reposition after Freefall jumps.",
+              "h": "-Whirling Gaol push can scatter party—be ready to reposition.\n-AoE spikes after jumps may require burst healing.",
+              "t": "-Position boss near rubble preemptively.\n-Prepare to quickly regain aggro after forced movement."
+            }
+          ]
       }
     }
   },
