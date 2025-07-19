@@ -503,9 +503,29 @@
     "maps": {
       "32": {
         "en": "The Wanderer's Palace",
-        "d": "...",
-        "h": "...",
-        "t": "..."
+        "st": [
+        {
+            "en": "Keeper of Halidom",
+            "g": "-Uses slow-moving frontal AoEs and summons Tonberries.\n-Slow debuff can make AoEs harder to dodge.",
+            "d": "-Avoid frontal cleaves and prioritize killing adds.\n-Keep moving to avoid being slowed and clipped.",
+            "h": "-Manage healing while avoiding AoEs under slow debuff.\n-Expect damage spikes if adds live too long.",
+            "t": "-Keep boss turned from group.\n-Pick up Tonberries quickly to protect party."
+        },
+        {
+            "en": "Tonberry Slasher (Mini-boss)",
+            "g": "-Stealthes and targets random players with lethal attack.\n-Can be interrupted or stunned.",
+            "d": "-Stay alert for Slasher and use stuns if available.\n-Do not stray far from the group.",
+            "h": "-Watch for targeted players taking heavy damage.\n-Keep party topped in case of sudden strikes.",
+            "t": "-Grab threat fast once Slasher appears.\n-Interrupt or stun to stop cleave combo."
+        },
+        {
+            "en": "Tonberry King",
+            "g": "-Summons multiple Tonberry adds (Chef, Steward, etc.).\n-Uses Everybody’s Grudge for massive AoE based on how many Tonberries have died.",
+            "d": "-Avoid killing unnecessary adds.\n-Focus boss; AoE only when needed.",
+            "h": "-Prepare for heavy AoE from Everybody’s Grudge.\n-Save cooldowns for large bursts if many adds die.",
+            "t": "-Keep adds off the group but don’t kill them all.\n-Position boss center for better control."
+        }
+        ]
       }
     }
   },
@@ -513,16 +533,30 @@
     "en": "Pharos Sirius",
     "maps": {
       "108": {
-        "en": "Pharos Sirius",
+        "en": "The Aether Pump",
+        "g": "Just clear the mobs, nothing special.",
         "d": "...",
         "h": "...",
         "t": "..."
       },
       "130": {
-        "en": "Pharos Sirius",
-        "d": "...",
-        "h": "...",
-        "t": "..."
+        "en": "The Fuel Chamber",
+        "st" : [
+        {
+          "en": "Symond the Unsinkable",
+          "g": "-Casts frontal cleave (Dark Mist) and spawns adds.\n-Uses AoEs and damage spikes tied to add mechanics.",
+          "d": "-Focus adds quickly before they overwhelm.\n-Avoid frontal cleaves and AoEs from boss.",
+          "h": "-Healing spikes when adds accumulate or players fail AoEs.\n-Use cooldowns if group is spread during add phases.",
+          "t": "-Keep boss faced away from party.\n-Pull adds to boss for cleave/AoE handling."
+        },
+        {
+          "en": "The Fuel Chamber",
+          "g": "-Avoid the falling aethercrystals, they explode.\nZombies will wake up after you pass over them.",
+          "d": "...",
+          "h": "...",
+          "t": "..."
+        }
+        ]
       },
       "131": {
         "en": "Pharos Sirius",
@@ -531,22 +565,37 @@
         "t": "..."
       },
       "132": {
-        "en": "Pharos Sirius",
-        "d": "...",
-        "h": "...",
-        "t": "..."
+        "en": "Zu",
+        "g": "-Will periodically fly off and summon eggs that hatch into adds.\n-If eggs are not destroyed, adds overwhelm party.",
+        "d": "-Prioritize killing eggs before they hatch.\n-Use AoEs once hatchlings appear.",
+        "h": "-Prepare for damage spikes during add waves.\n-Position to avoid being cornered by adds.",
+        "t": "-Tank boss away from eggs.\n-Grab aggro on hatchlings quickly before they reach healer."
       },
       "133": {
-        "en": "Pharos Sirius",
-        "d": "...",
-        "h": "...",
-        "t": "..."
+        "en": "The Aether Compressor",
+        "st" : [
+        {
+            "en" : "The Aether Compressor",
+            "g" : "-Close aether vents/\n-Avoid aether farts AoEs.",
+            "d" : "...",
+            "h" : "...",
+            "t" : "..."
+        },
+        {
+          "en": "Tyrant",
+          "g": "-Heavy use of unavoidable raid-wide AoE.\n-Fight is a DPS check with minimal mechanics.",
+          "d": "-Maximize uptime; little movement required.\n-Use personal mitigation if healer is strained.",
+          "h": "-Expect repeated, strong AoE pulses.\n-Use AoE heals and mitigation tools proactively.",
+          "t": "-Little tank-specific threat; hold position.\n-Focus on cooldown usage during AoE chains."
+        }
+        ]
       },
       "134": {
-        "en": "Pharos Sirius",
-        "d": "...",
-        "h": "...",
-        "t": "..."
+        "en": "Siren",
+        "g": "-Charms players with Screech; summons adds repeatedly.\n-Uses large AoEs, knockbacks, and targets random players with line attacks.",
+        "d": "-Interrupt Screech if possible.\n-Burn adds quickly to reduce pressure on healer.",
+        "h": "-Charm mechanics can isolate players—be prepared for split healing.\n-Save AoE tools for add phases and Screech recovery.",
+        "t": "-Position boss away from party to reduce cleave/line AoE overlap.\n-Control adds promptly and watch for knockbacks."
       }
     }
   },
@@ -686,16 +735,30 @@
     "en": "Dzemael Darkhold",
     "maps": {
       "50": {
-        "en": "Dzemael Darkhold",
-        "d": "...",
-        "h": "...",
-        "t": "..."
+        "en": "All-seeing Eye",
+        "g": "-Constant raid-wide aura damage unless players are inside crystal lights.\n-Adds spawn periodically and must be killed inside lights.",
+        "d": "-Fight from within crystal light zones.\n-Kill adds while keeping them inside the light.",
+        "h": "-Aura damage is constant—expect sustained AoE healing.\n-Move with light zones to avoid ramping damage.",
+        "t": "-Position boss in or near crystal zones.\n-Tank adds inside lights to enable DPS kills."
       },
       "86": {
         "en": "Dzemael Darkhold",
-        "d": "...",
-        "h": "...",
-        "t": "..."
+        "st": [
+        {
+          "en": "Taulurd",
+          "g": "-Uses large frontal cleaves and AoE slams.\n-Spawns adds at intervals.",
+          "d": "-Stay behind boss and burn adds quickly.\n-Use AoE if multiple adds stack up.",
+          "h": "-Healing spikes when adds or AoEs overlap.\n-Stay mobile to dodge repeated slams.",
+          "t": "-Keep boss turned from group.\n-Pick up adds fast to avoid chaos."
+        },
+        {
+          "en": "Batraal",
+          "g": "-Teleports between platforms and slams pillars to collapse parts of the arena.\n-Lingering void zones and frontal cleaves add pressure.",
+          "d": "-Move fast between platforms when boss teleports.\n-Avoid void zones and pillar collapse areas.",
+          "h": "-High raid-wide pressure after pillar slams.\n-Move with group between platforms while healing.",
+          "t": "-Chase boss quickly to maintain threat.\n-Position away from collapsing platforms and AoE zones."
+        }
+      ]
       }
     }
   },
@@ -703,10 +766,30 @@
     "en": "Aurum Vale",
     "maps": {
       "38": {
-        "en": "Aurum Vale",
-        "d": "...",
-        "h": "...",
-        "t": "..."
+        "en": "The Aurum Vale",
+        "st": [
+        {
+            "en": "Locksmith",
+            "g": "-Casts Golden Tongue, a large frontal AoE.\n-Acid Slime adds spawn periodically and should be killed quickly.",
+            "d": "-Avoid Golden Tongue by staying behind boss.\n-Burn Slime adds fast to reduce raid pressure.",
+            "h": "-High tank damage during AoE phases.\n-Cleanse poison if party steps into nectar pools.",
+            "t": "-Face boss away from group.\n-Pull adds close for cleave/AoE synergy."
+        },
+        {
+            "en": "Coincounter",
+            "g": "-Uses 100-Tonze Swipe (frontal) and 100-Tonze Swing (point-blank AoE).\n-No cast bars—watch animations to dodge.",
+            "d": "-Stay at max melee range to avoid sudden Swing.\n-Watch for boss raising arms to signal Swipe.",
+            "h": "-Can cause surprise burst damage if attacks not dodged.\n-Position to avoid AoEs while healing.",
+            "t": "-Keep boss away from group.\n-Adjust quickly if boss shifts or charges."
+        },
+        {
+            "en": "Miser's Mistress",
+            "g": "-Poison stacks build over time due to Morbol Fruits.\n-Fruits must be consumed to reset stacks, but deal damage when eaten.",
+            "d": "-Eat a Morbol Fruit when poison stacks are high.\n-Time usage during low boss activity.",
+            "h": "-Poison stacks cause heavy ticking damage—prepare group-wide healing.\n-Use AoE cleanses and heals after fruit consumption.",
+            "t": "-Watch own stacks and eat fruit as needed.\n-Keep boss away from fruit spawn zones to allow safe access."
+        }
+        ]
       }
     }
   },
@@ -8401,10 +8484,30 @@
     "en": "Stone Vigil",
     "maps": {
       "37": {
-        "en": "Stone Vigil",
-        "d": "...",
-        "h": "...",
-        "t": "..."
+       "en": "The Stone Vigil",
+        "st": [
+        {
+            "en": "Chudo-Yudo",
+            "g": "-Uses frontal AoEs and summons adds during the fight.\n-Ice puddles may appear and linger.",
+            "d": "-Avoid front of boss and clear adds quickly.\n-Don't stand in lingering ice puddles.",
+            "h": "-Ice puddles can stack damage unexpectedly.\n-Monitor party for pressure during add phases.",
+            "t": "-Face boss away from party.\n-Pick up adds fast to reduce healer stress."
+        },
+        {
+            "en": "Koshchei",
+            "g": "-Targets players with charge attacks and narrow line AoEs.\n-May leap to random players.",
+            "d": "-Stay spread to avoid overlapping AoEs.\n-Burn boss quickly to reduce leaps.",
+            "h": "-Charge/leap patterns can cause spike damage.\n-Use oGCDs to top off after unexpected hits.",
+            "t": "-Keep boss under control and away from party.\n-Watch for repositioning after charges."
+        },
+        {
+            "en": "Isgebind",
+            "g": "-Heavy ice-themed mechanics with line AoEs and frozen ground.\n-Flight phase includes targeted ice breath and sweeping AoEs.",
+            "d": "-Avoid frozen ground and move early for breath markers.\n-Spread out during aerial phase to limit AoE overlap.",
+            "h": "-Intense damage during flight and breath phases.\n-Keep party topped off between AoEs.",
+            "t": "-Position boss center pre-flight for consistency.\n-Move quickly after flight to regain control."
+        }
+        ]
       }
     }
   },
@@ -8413,9 +8516,29 @@
     "maps": {
       "47": {
         "en": "Castrum Meridianum",
-        "d": "...",
-        "h": "...",
-        "t": "..."
+        "st": [
+        {
+            "en": "Black Eft",
+            "g": "-Avoid its frontal Magitek Ray; move to flank or rear.\n-Periodically casts Incendiary Support and summons adds with Request Assistance.",
+            "d": "-Stay behind or to the sides and circle to avoid random cannon AoEs.\n-Save AoE bursts for waves of adds.",
+            "h": "-Prepare for periodic raid-wide damage (Incendiary Support).\n-Watch position to avoid stray cannon circles on PCs.",
+            "t": "-Face boss away from party.\n-Pick up adds promptly when summoned."
+        },
+        {
+            "en": "Magitek Vanguard F‑1",
+            "g": "-Casts Thermobaric Strike with corner markers; Hypercharge with safe ring; Overcharge frontal cone; Cermet Drill single-target; Targeted Support circle AoEs.",
+            "d": "-Move early to safe corner and ring for impenetrable Hypercharge.\n-Avoid cone telegraph; DPS add if needed.",
+            "h": "-Burst heals after Thermobaric and Hypercharge phases.\n-Be ready for Spike damage from Overcharge and Drill.",
+            "t": "-Position boss centrally and rotate to avoid corner hits.\n-Use cooldowns before Drill and Overcharge."
+        },
+        {
+            "en": "Livia sas Junius",
+            "g": "-Alternates between raid-wide Plasmas, Roundhouse plus Discharge, Infinite Reach with Discharges, Angry Salamander, Thermobaric + Stunning Sweep combos.\n-Watch telegraphs and safe point timings for Roundhouse/Discharge interplay.",
+            "d": "-Dodge by timing entry/exit around inner and outer circle markers.\n-Move through Discharge patterns during Infinite Reach phases.",
+            "h": "-Stack AoE heals at Plasmas and after sweeping combos.\n-Follow movement cues to keep party in safe zones.",
+            "t": "-Face boss to minimize party exposure during Roundhouse.\n-Shift positioning quickly after teleport or aoe patterns."
+        }
+        ]
       }
     }
   },

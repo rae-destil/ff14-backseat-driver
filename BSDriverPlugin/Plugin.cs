@@ -283,7 +283,8 @@ public sealed class Plugin : IDalamudPlugin
         {
             if (ImGui.Button($"General##{mapId}-{stage.stage_name}"))
             {
-                ChatGui.Print($"General advice for {stage.stage_name}: \n{stage.general}");
+                _printTitle($"General advice for {stage.stage_name}:", EnixTextColor.BlueLight);
+                ChatGui.Print($"{stage.general}");
                 showHintPopup = false;
             }
         }
@@ -292,7 +293,8 @@ public sealed class Plugin : IDalamudPlugin
         {
             if (ImGui.Button($"DPS##{mapId}-{stage.stage_name}"))
             {
-                ChatGui.Print($"DPS advice for {stage.stage_name}: \n{stage.dps}");
+                _printTitle($"DPS advice for {stage.stage_name}:", EnixTextColor.RedDPS);
+                ChatGui.Print($"{stage.dps}");
                 showHintPopup = false;
             }
         }
@@ -301,7 +303,8 @@ public sealed class Plugin : IDalamudPlugin
         {
             if (ImGui.Button($"Healer##{mapId}-{stage.stage_name}"))
             {
-                ChatGui.Print($"Healer advice for {stage.stage_name}: \n{stage.healer}");
+                _printTitle($"Healer advice for {stage.stage_name}:", EnixTextColor.GreenHealer);
+                ChatGui.Print($"{stage.healer}");
                 showHintPopup = false;
             }
         }
@@ -310,7 +313,8 @@ public sealed class Plugin : IDalamudPlugin
         {
             if (ImGui.Button($"Tank##{mapId}-{stage.stage_name}"))
             {
-                ChatGui.Print($"Tank advice for {stage.stage_name}: \n{stage.tank}");
+                _printTitle($"Tank advice for {stage.stage_name}:", EnixTextColor.BlueTank);
+                ChatGui.Print($"{stage.tank}");
                 showHintPopup = false;
             }
         }
