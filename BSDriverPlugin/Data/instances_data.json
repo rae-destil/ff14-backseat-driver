@@ -405,12 +405,61 @@
     "maps": {
       "184": {
         "en": "The World of Darkness",
-        "d": "...",
-        "h": "...",
-        "t": "..."
+        "st": [
+        {
+          "en": "The Eye (trash pool)",
+          "g": "-Fight three Garms with cleaves and burns, then waves of ninjas, kunoichi, and a two‑headed dragon.\n-Large persistent floor AoEs force spread and repositioning.",
+          "d": "-Help interrupt Ram’s Voice and Dragon’s Voice on Chimera adds.\n-AoE burn waves once tank positions them safely.",
+          "h": "-Stay clear of Garm cleaves and burns to minimize cleansing or heavy healing.\n-Move with group to avoid lingering floor hazards.",
+          "t": "-Group all Garms tightly and face away from raid.\n-Interrupt casts and kite the two-headed dragon cleanly."
+        },
+        {
+          "en": "Angra Mainyu",
+          "g": "-Alternating red/white floor AoEs grant stacking debuffs—swap colors to reset stacks.\n-Mortal Gaze applies Doom if looked at—turn away or stand on safe pads.\n-Final Hourglasses spawn quadrants; destroy them and avoid the resultant marker.\n-Level 100 Flare and 150 Death tether mechanics require dodging based on tether count.",
+          "d": "-Swap floor colors cleanly with each Double Vision.\n-Destroy hourglasses quickly to avoid quadrant wipes.",
+          "h": "-Turn away for gaze or pre‑position on pads if unable.\n-Be ready for tethered damage numbers and raid-wide spikes.",
+          "t": "-Face boss away from party always.\n-Interrupt or tank Daewa adds post‑hourglass."
+        },
+        {
+          "en": "The Nape (Scylla miniboss)",
+          "g": "-Queen Scylla uses Ancient Flare—interruptable.\n-Forbidden Gates spawn and must be destroyed, or they become adds.\n-Xande’s Clone after clearing gates also uses Ancient Quaga.",
+          "d": "-Help interrupt flare casts and burn gates promptly.\n-Upkeep DPS for clones after first kill.",
+          "h": "-Bring AoE shields/heals during flare and gate waves.\n-React quickly when clone appears.",
+          "t": "-Interrupt Ancient Flare consistently.\n-Prioritize gating adds to prevent overload."
+        },
+        {
+          "en": "Five‑headed Dragon",
+          "g": "-White Breath cleaves best avoided at arena edge.\n-Poison puddles spawn poison slimes—one player should stand to prevent Toxic Slime.\n-Discordance requires destroying extra heads quickly.\n-Rainbow tethers transfer between players to avoid lethal tether counts.",
+          "d": "-Tank dragon to edge and stay coordinated for breath.\n-Handle slimes and tether swaps fast.",
+          "h": "-Heal through breath and poison phases evenly.\n-AoE when Discordance triggers.",
+          "t": "-Face boss away from group.\n-Prioritize slimes and transfer tethers quickly."
+        },
+        {
+          "en": "The Jaws (Atomos platforms)",
+          "g": "-Each alliance fights one Atomos type and platforms must maintain at least one player.\n-Marked player gets Devour—jump off then use pad to return; others avoid center.\n-Shockwave can knock players off edges—stay under boss or use surecast.",
+          "d": "-Follow Devour mechanic: marked player jumps off, others avoid spread.\n-Destroy soldiers and dodge AoEs to manage quadrant control.",
+          "h": "-Coordinate devour jumpers with heals and position awareness.\n-Stack appropriately and reposition after knockbacks.",
+          "t": "-Face boss and absorb Shockwave hits.\n-Ensure platform occupancy and pull adds off edge."
+        },
+        {
+          "en": "Cerberus",
+          "g": "-Tail Swipe and cleaves apply stacking vulnerability.\n-Minimize-phase: stand in Gastric Juice, then in Wolfsbane puddles to be eaten.\n-Inside stomach, destroy stomach walls; then apply Magicked Fetters or boss breaks free full buff.",
+          "d": "-Follow Minimize staging and help inside stomach destroy walls fast.\n-Kill Wolfsbane adds when outside.\n-Don't stand behind Cerberus, tail swipes will get you.",
+          "h": "-Don't stand behind Cerberus, tail swipes will get you.",
+          "t": "-Face boss away from raid.\n-Move through phase transitions smoothly and tank outside adds."
+        },
+        {
+          "en": "Cloud of Darkness",
+          "g": "-Main mechanics: laser following a player, don't let the Cloud consume the small clouds, split into groups for hypercharged clouds.",
+          "d": "...",
+          "h": "...",
+          "t": "..."
+        }
+      ]
       },
       "185": {
         "en": "The Belly of the Beast",
+        "g": "Kill everything until Cerberus pukes you out.",
         "d": "...",
         "h": "...",
         "t": "..."
@@ -798,15 +847,50 @@
     "maps": {
       "71": {
         "en": "Labyrinth of the Ancients",
-        "d": "...",
-        "h": "...",
-        "t": "..."
+        "st": [
+        {
+            "en": "Pools of Folly / Demise / Oblivion",
+            "g": "-Platforms rise and poison fills the floor – stay on safe platforms.\n-Enemy waves include Valefors, Homunculi, Greater Demons, Valar, Dira, Cursed Eyes.",
+            "d": "-Stay on raised platforms to avoid ground damage and cleave AoEs.\n-Save AoE cooldowns for add waves attacking platforms.",
+            "h": "-Expect steady platform-based damage—heal accordingly.\n-Watch for knockbacks—rescue or position heal through group movement.",
+            "t": "-Tank mobs onto safe platforms away from group.\n-Face enemies outward to protect platform DPS/healers."
+        },
+        {
+            "en": "Bone Dragon",
+            "g": "-Fought three times; platforms stay safe from poison.\n-Spawns skeletons that must be killed before reaching dead dragon, or they wipe raid.",
+            "d": "-Burn skeletons quickly after each dragon kill; positioning varies by server strategy. :contentReference[oaicite:2]{index=2}",
+            "h": "-Heal through skeleton splash damage if any slip through.\n-Position healers on platforms for space if skeletons clump.",
+            "t": "-Tank dragon near chosen arena edge/platform to optimize add handling. :contentReference[oaicite:3]{index=3}"
+        },
+        {
+            "en": "Walk of Lament",
+            "g": "-Split into parties A/B/C to activate platforms and expose Atomos.\n-Must station 4 players per platform before barrier activates to avoid Iron Giants.",
+            "d": "-Go to your assigned platform and avoid crossing prematurely.\n-Burst Atomos after platform activation.",
+            "h": "-Pre-heal platform teams in case of accidental AoEs or delays.\n-Use Rescue on late members if needed.",
+            "t": "-Lead adds into platform DPS safe zones.\n-Avoid pulling boss or adds onto platforms."
+        },
+        {
+            "en": "Thanatos",
+            "g": "-Three Magic Pots must be protected; only players with Astral Realignment buff can damage boss.\n-Adds charge pots—kill adds tethered to slow chain effect and protect pots.",
+            "d": "-Those with buff DPS Thanatos; others kill adds tethered to pots.\n-Switch when buffs rotate.",
+            "h": "-Keep pots healed and alive – their death ends damage phase.\n-Stay mobile to heal through AoEs from adds.",
+            "t": "-Tank Thanatos once buffed and face outward.\n-Pull add threats off pots promptly."
+        },
+        {
+            "en": "King Behemoth",
+            "g": "-Spawns Iron Giants, Puroboros, and meteor markers on players.\n-Marked players must drop comet models and hide behind them during Ecliptic Meteor, or die.",
+            "d": "-Drop comets outside boss hitbox, then stack behind during cast.\n-Burst ADDs only after comets are secure.",
+            "h": "-Tanks take leap damage from comets – use cooldowns.\n-Heal quickly after Meteor.",
+            "t": "-Four tanks must manage Electrocution towers; rotate responsibility.\n-Kill giants and Puroboros while protecting comets. :contentReference[oaicite:4]{index=4}"
+        }
+        ]
       },
       "135": {
-        "en": "Labyrinth of the Ancients",
-        "d": "...",
-        "h": "...",
-        "t": "..."
+        "en": "Phlegethon",
+        "g": "-Avoid frontal cleaves and AoEs, regularly moving around lava ring.\n-At ~60% and ~30%, boss casts Ancient Flare requiring entire alliance on outer platforms to activate shield.",
+        "d": "-Stay spread and dodge AoEs between barrier mechanics.\n-Rush to platform during Ancient Flare cast and stay until it completes. :contentReference[oaicite:5]{index=5}",
+        "h": "-Maintain raid spacing to dodge AoEs effectively.\n-Burst heal after Flare and subsequent Iron Giant spawns.",
+        "t": "-Tank Phlegethon centrally, face away from group.\n-Kill Iron Claws and Giants that spawn on platforms quickly. :contentReference[oaicite:6]{index=6}"
       }
     }
   },
@@ -1245,10 +1329,23 @@
     "en": "Lower Aetheroacoustic Exploratory Site",
     "maps": {
       "58": {
-        "en": "Lower Aetheroacoustic Exploratory Site",
-        "d": "...",
-        "h": "...",
-        "t": "..."
+        "en": "The Binding Coil of Bahamut – Turn 2",
+        "st": [
+        {
+            "en": "Node encounters (Sectors I–VI)",
+            "g": "-Each node grants a mechanic to the final boss if left alive.\n-You must defeat six nodes within a time limit; enrages if time expires.",
+            "d": "-Follow the party’s chosen route and burst each node quickly.\n-Use cooldowns to shorten time between nodes and conserve for ADS.",
+            "h": "-Heal through AoEs like Repelling Cannon and node-specific effects.\n-Watch for mechanics like Allagan Rot if Quarantine Node is left alive.",
+            "t": "-Swap tanks to manage Vulnerability stacks from cleaves.\n-Position nodes safely away from party and handle line AoEs carefully."
+        },
+        {
+            "en": "ADS",
+            "g": "-ADS gains abilities based on which nodes were skipped.\n-Includes cleaves, High Voltage (stun if not silenced), Allagan Rot, Gravity Field, Ballast, and Repelling Cannon.",
+            "d": "-Execute Allagan Rot pass cleanly—use pre-assigned order.\n-Dodge AoEs and be ready for movement during Gravity Field and Ballast.",
+            "h": "-Keep players topped off between Rot passes and AoE bursts.\n-Coordinate healing cooldowns for Gravity Field and Ballast overlap.",
+            "t": "-Swap tanks on Vulnerability stacks.\n-Face ADS away from group and bait Repelling Cannon to safe areas."
+        }
+        ]
       }
     }
   },
@@ -1455,10 +1552,11 @@
     "en": "The Whorleater",
     "maps": {
       "147": {
-        "en": "The Whorleater",
-        "d": "...",
-        "h": "...",
-        "t": "..."
+        "en": "Leviathan",
+        "g": "-Fight takes place on a ship with two sides (port/starboard); Leviathan alternates sides for body slams and tail swipes.\n-When you see a waterspout, go stand in the opposite side of the platform. Control the Magitek Field to block Tidal Wave or party wipes.",
+        "d": "-Stand on correct side to avoid body slam or tail swipe.\n-Burst down adds quickly and help interact with shield when prompted.",
+        "h": "-Tidal Roar and Tidal Wave deal heavy raid damage—prepare big heals.\n-Watch for player displacement from board tilt and heal repositioning delays.",
+        "t": "-Pick up adds (Wavespine Sahagin) and tank them away from party."
       }
     }
   },
@@ -1554,36 +1652,39 @@
     "maps": {}
   },
   "292": {
-    "en": "Bowl of Embers",
+    "en": "Bowl of Embers (Hard)",
     "maps": {
       "401": {
-        "en": "Bowl of Embers",
-        "d": "...",
-        "h": "...",
-        "t": "..."
+        "en": "Ifrit",
+        "g": "-Ifrit uses stronger versions of Eruption (targeted AoE), Radiant Plume (inner or outer AoE), and charges.\n-Nail phase occurs multiple times; failing to destroy all nails results in lethal Hellfire.\n-Uses Crimson Cyclone (dash) and builds toward Enrage.",
+        "d": "-Avoid Eruption and Radiant Plume by watching cast indicators.\n-Focus all nails during nail phases—missing even one is fatal.",
+        "h": "-Prepare strong AoE healing after Hellfire and Crimson Cyclone.\n-Watch for tank damage spikes during cleaves and Hellfire.",
+        "t": "-Keep Ifrit centered and faced away from party.\n-Pop cooldowns for heavy hits like Infernal Surge and Hellfire."
       }
     }
   },
   "293": {
-    "en": "The Navel",
+    "en": "The Navel (Hard)",
     "maps": {
       "403": {
-        "en": "The Navel",
-        "d": "...",
-        "h": "...",
-        "t": "..."
+        "en": "Titan",
+        "g": "-Titan uses Landslide (line knockback), Weight of the Land (stacking AoEs), and Tumult (multi-hit raid-wide AoE).\n-Geocrush jump returns and deals proximity damage. Multiple heart phases require burning Titan’s Heart before Earthen Fury to avoid wipe.\n-Plumes fall from above in final phase and arena has no edge.",
+        "d": "-Dodge Landslide and stay spread for Weight of the Land.\n-Focus and burn the Heart during heart phase to prevent wipe.",
+        "h": "-Prepare burst AoE healing for Tumult and after Geocrush.\n-Heal tanks through Mountain Buster and be ready for back-to-back AoEs.",
+        "t": "-Tank near center for predictable AoEs.\n-Mitigate Mountain Buster and keep Titan faced away from party."
       }
     }
   },
   "294": {
-    "en": "The Howling Eye",
+    "en": "The Howling Eye (Hard)",
     "maps": {
-      "402": {
-        "en": "The Howling Eye",
-        "d": "...",
-        "h": "...",
-        "t": "..."
-      }
+      "39": {
+        "en": "Garuda",
+        "g": "-Fight consists of three phases: initial, sisters phase, and final.\n-Garuda uses Slipstream (frontal cone stun), Friction (targeted AoE), Mistral Song (tankbuster), and Eye of the Storm (donut AoE).\n-Summons Suparna and Chirada during second phase—must be separated.\n-Uses Wicked Wheel (point-blank AoE) and Mistral Shriek (raid-wide AoE).",
+        "d": "-Stay behind Garuda to avoid Slipstream and Wicked Wheel.\n-Focus Suparna first when sisters appear, then switch to Chirada.",
+        "h": "-Prepare burst heals after Mistral Shriek.\n-Watch for simultaneous tank damage from Garuda and Suparna.",
+        "t": "-Tank Garuda facing away from the group.\n-During sister phase, split tanks: one on Suparna, one on Garuda. Keep them separated to avoid buffs."
+    }
     }
   },
   "295": {
@@ -2281,10 +2382,23 @@
     "en": "Griffin Crossing",
     "maps": {
       "144": {
-        "en": "Griffin Crossing",
-        "d": "...",
-        "h": "...",
-        "t": "..."
+        "en": "Battle on the Big Bridge",
+        "st": [
+        {
+            "en": "Gilgamesh (Phase 1)",
+            "g": "-Uses frontal cleaves, line AoEs, and jumps between platforms.\n-Occasionally casts Missile, reducing a player’s HP to 1; also uses Tiny Song to shrink players.",
+            "d": "-Avoid cleaves and line AoEs; reposition quickly after jump.\n-Save burst for when boss is stationary.",
+            "h": "-Top off players hit by Missile immediately.\n-Heal through incidental AoE and shrink debuffs.",
+            "t": "-Hold boss mid-arena to control AoE direction.\n-Chase boss after jump to re-establish aggro."
+        },
+        {
+            "en": "Gilgamesh & Enkidu (Phase 2)",
+            "g": "-Gilgamesh gains new AoEs, adds Enkidu (casts Silence and Healing Magic).\n-Uses debuff gimmicks like Chicken and Frog—players must avoid or cleanse quickly.\n-Wipe if not interrupted or cleansed during Enkidu support casts.",
+            "d": "-Focus Enkidu to interrupt heals; dodge Chicken debuffs and Frog puddles.\n-Use limit break on Gilgamesh if needed late in fight.",
+            "h": "-Cleanse Chicken and Frog as priority; use Esuna or similar.\n-Save healing cooldowns for combo AoEs with Enkidu active.",
+            "t": "-Tank Gilgamesh away from Enkidu to reduce overlap.\n-Interrupt Enkidu’s casts if DPS miss them."
+        }
+        ]
       }
     }
   },
@@ -2351,46 +2465,53 @@
     "en": "Syrcus Tower",
     "maps": {
       "158": {
-        "en": "Syrcus Tower",
-        "d": "...",
-        "h": "...",
-        "t": "..."
+        "en": "The Ladder of Ascension",
+        "g": "-Trash pull through packs of enemies; no major mechanics.\n-Group pulls for AoE are ideal.",
+        "d": "-Stay stacked with AoE group to burst quickly.\n-Help stun occasional adds to speed clear.",
+        "h": "-Heal through steady minor damage; no burst phases.\n-Stay mobile as party moves between pulls.",
+        "t": "-Pull tightly and position packs centrally.\n-Keep aggro on all mobs for AoE uptime."
       },
       "159": {
-        "en": "Syrcus Tower",
-        "d": "...",
-        "h": "...",
-        "t": "..."
+        "en": "Scylla",
+        "g": "-Blue (ice), red (fire), and purple (lightning) orbs tether random players to pillars.\n-Use interplay of orbs and water pools to mitigate Ancient Flare.",
+        "d": "-Avoid frontal cleaves and kite orb appropriately: lightning to pillars, fire to thaw ice.",
+        "h": "-Watch frozen players and regen/shield them pre-thaw.\n-Keep party topped for Ancient Flare, stand in puddle if available.",
+        "t": "-Tank centrally or north for space.\n-Face Scylla away from group and manage add cleaves."
       },
       "160": {
-        "en": "Syrcus Tower",
-        "d": "...",
-        "h": "...",
-        "t": "..."
+        "en": "The Braid",
+        "g": "-Trash-heavy with a Green Dragon divebomb that poisons and spawns clones.",
+        "d": "-Stun Doga/Unei clones with AoE stuns to reduce pressure.\n-Kill clones quickly to prevent poison buildup.",
+        "h": "-Provide healing for poison DoTs from dragon.\n-Watch for clone auto-attacks and use shields.",
+        "t": "-Hold clones and burn evenly; kite dragon knockback safely."
       },
-      "161": {
-        "en": "Syrcus Tower",
-        "d": "...",
-        "h": "...",
-        "t": "..."
+      "161":{
+        "en": "Glasya Labolas",
+        "g": "-Spawned Clockwork Wright adds connect to boss with energy beams; block connections to prevent buffs.\n-Intermission launches teams to outer platforms to clear adds.",
+        "d": "-Avoid electrical fields next to Wrights.\n-Stack on platforms, burn adds, and return via jump pads.",
+        "h": "-Heal through add damage and AoE bursts on platforms.\n-Be ready for electrified ground and intermission transitions.",
+        "t": "-Tank boss centrally; do not pull Wrights.\n-Move to platforms after jump and hold adds."
       },
-      "162": {
-        "en": "Syrcus Tower",
-        "d": "...",
-        "h": "...",
-        "t": "..."
+      "162":{
+        "en": "The Golden Sacristy",
+        "g": "-Red Dragon divebombs players marked with green marker; otherwise straightforward.",
+        "d": "-Move out from divebomb target marker promptly.\n-Maintain uptime outside divebomb windows.",
+        "h": "-Heal divebomb damage and spread for cleave phases.\n-Top up party immediately afterward.",
+        "t": "-Tank cleanses front/back; kite dragon away from group.\n-Lead dragon away from active bomb zones."
       },
-      "163": {
-        "en": "Syrcus Tower",
-        "d": "...",
-        "h": "...",
-        "t": "..."
+      "163":{
+        "en": "Amon",
+        "g": "-Spawns Experiment adds; some tethered orbs that shrink Kum Kum when grouped.\n-Curtain Call: hide behind ice-blocked players.",
+        "d": "-Stun Experiment adds then burn quickly.\n-Kite purple orb into Kum Kum add to shrink it.",
+        "h": "-Esuna bomb debuffs and heal toads/Others.\n-Keep non-frog players healed and positioned for Curtain Call.",
+        "t": "-Tank boss centrally; pick up adds safely.\n-Face away and hold adds during orb phases."
       },
       "164": {
-        "en": "Syrcus Tower",
-        "d": "...",
-        "h": "...",
-        "t": "..."
+        "en": "Xande",
+        "g": "-Yellow circle Aspects must be occupied; Aetherochemical Explosion orbs need soaking.\n-Ancient Quaga: levitation pads spawn from stack markers; hide on pads.",
+        "d": "-Stand in yellow circles and soak explosion orbs early.\n-Stack with party for Quaga pads and use LB if available.",
+        "h": "-Manage raid spread and AoE heals through circle mechanics.\n-Support levitation stack phase and burst heal between bursts.",
+        "t": "-Tank at center, bait cleaves into empty space.\n-Face boss away, position orbs for soaks, and guide party to pads."
       }
     }
   },
@@ -2429,10 +2550,11 @@
     "en": "The Striking Tree",
     "maps": {
       "166": {
-        "en": "The Striking Tree",
-        "d": "...",
-        "h": "...",
-        "t": "..."
+        "en": "Ramuh",
+        "g": "-Ramuh uses Thunderstorm (AoE with orbs), Judgment Bolt (lethal if orbs not absorbed), and Chaotic Strike (tethers two players who must move apart).\n-Lightning orbs must be absorbed by players before Judgment Bolt or the party will wipe.",
+        "d": "-Soak one lightning orb each—do not double soak or you’ll die.\n-Move away from your tethered partner during Chaotic Strike.",
+        "h": "-Top off players who absorb orbs—they take heavy damage.\n-Heal through frequent AoEs, especially Thunderstorm and post-Judgment Bolt.",
+        "t": "-Tank Ramuh near arena center.\n-Face him away from the party and watch for tankbusters like Shock Strike."
       }
     }
   },
@@ -2455,10 +2577,11 @@
     "en": "Akh Afah Amphitheatre",
     "maps": {
       "173": {
-        "en": "Akh Afah Amphitheatre",
-        "d": "...",
-        "h": "...",
-        "t": "..."
+        "en": "Shiva",
+        "g": "-Shiva alternates between two stances: sword (cleaves) and staff (AoEs).\n-Uses Icebrand (frontal cleave), Glacier Bash (tankbuster), Hailstorm (targeted AoEs), and Icebow (line AoEs). Ice puddles form that must be avoided.\n-Casts Heavenly Strike knockback and Diamond Dust (large AoE with freeze).",
+        "d": "-Avoid Icebow and Hailstorm markers by spreading and repositioning quickly.\n-Move out of puddles immediately and resume DPS after Diamond Dust freeze ends.",
+        "h": "-Prepare group healing for Hailstorm and Diamond Dust.\n-Watch for tank damage spikes during Glacier Bash and Icebrand cleaves.",
+        "t": "-Tank Shiva near center, adjusting for stance.\n-Face her away from group in sword stance and mitigate Glacier Bash."
       }
     }
   },
@@ -2603,13 +2726,14 @@
     "maps": {}
   },
   "394": {
-    "en": "South Shroud",
+    "en": "Urth's Fount",
     "maps": {
       "187": {
-        "en": "South Shroud",
-        "d": "...",
-        "h": "...",
-        "t": "..."
+        "en": "Odin",
+        "g": "-Odin uses cleaves, frontal cones, and circle AoEs frequently. At intervals, he vanishes and returns with Sanngetall (massive line AoEs), and summons spectral adds.\n-Final phase includes Zantetsuken, a room-wide instant-kill if not interrupted with sufficient damage.",
+        "d": "-Avoid all AoEs and burn spectral adds quickly when they appear.\n-Save burst for Zantetsuken cast—failure to interrupt leads to wipe.",
+        "h": "-Prepare group healing for Sanngetall AoEs and spectral adds.\n-Top off party before Zantetsuken and mitigate incoming damage.",
+        "t": "-Tank Odin center and face him away from the group.\n-Grab spectral adds immediately and use mitigation during Zantetsuken window."
       }
     }
   },
@@ -2838,17 +2962,18 @@
   "426": {
     "en": "The Chrysalis",
     "maps": {
-      "207": {
-        "en": "The Chrysalis",
-        "d": "...",
-        "h": "...",
-        "t": "..."
+      "207":{
+        "en": "Ascian Prime (Nabriales)",
+        "g": "-Two-phase fight. Phase 1 features AoEs like Black Fire (stack), Shadow Flare (persistent AoE), and teleportation strikes.\n-At 50%, Nabriales pulls players into a void zone where they must destroy tethered orbs while dodging AoEs. Failing orb mechanic causes wipe.\n-Final phase includes large AoEs and line attacks.",
+        "d": "-Stack for Black Fire, then spread out to avoid overlap.\n-In void phase, destroy tethered orbs quickly and dodge floor AoEs.",
+        "h": "-AoE damage throughout—save healing cooldowns for void zone and post-orb explosion.\n-Be ready for spike damage if orbs are missed.",
+        "t": "-Tank boss center in phase 1 for predictable AoEs.\n."
       },
       "208": {
-        "en": "The Chrysalis",
+        "en": "The Chrysalis - Void Zone",
         "d": "...",
         "h": "...",
-        "t": "..."
+        "t": "-In void, stand in circles with dropping rock and tank the damage. Not tanking these will cause a wipe."
       }
     }
   },
@@ -8806,21 +8931,23 @@
     "en": "Bowl of Embers",
     "maps": {
       "35": {
-        "en": "Bowl of Embers",
-        "d": "...",
-        "h": "...",
-        "t": "..."
+        "en": "Ifrit",
+        "g": "-Casts Eruption (targeted AoEs), Vulcan Burst (knockback), Radiant Plume (outer or inner AoE), and Hellfire (raid-wide damage).\n-Nails spawn before Hellfire—must be destroyed to prevent wipe.",
+        "d": "-Move out of Eruption and Radiant Plume zones quickly.\n-Focus Nails as soon as they appear to prevent Hellfire wipe.",
+        "h": "-Top party after Vulcan Burst and prep big heals before Hellfire.\n-Watch for random target damage from Eruption and Nail explosions.",
+        "t": "-Keep Ifrit faced away from party to avoid cleave damage.\n-Tank swap not needed; just hold boss and position near center."
       }
     }
   },
   "1046": {
     "en": "The Navel",
     "maps": {
-      "33": {
-        "en": "The Navel",
-        "d": "...",
-        "h": "...",
-        "t": "..."
+      "33":  {
+        "en": "Titan",
+        "g": "-Arena is small but has a safe edge; Titan uses Landslide (line knockback), Weight of the Land (AoE circles), and Geocrush (proximity AoE).\n-At 50%, Titan summons his Heart—must be destroyed before he casts Earthen Fury or the party wipes.",
+        "d": "-Dodge Landslide by sidestepping immediately.\n-Focus Titan’s Heart when it appears to prevent a wipe.",
+        "h": "-Top up party before Geocrush and post-Earthen Fury.\n-AoE heal after Weight of the Land if multiple players are hit.",
+        "t": "-Tank Titan near center to keep AoEs manageable.\n-Face him away from the group to avoid cleaves."
       }
     }
   },
@@ -8828,10 +8955,11 @@
     "en": "The Howling Eye",
     "maps": {
       "39": {
-        "en": "The Howling Eye",
-        "d": "...",
-        "h": "...",
-        "t": "..."
+        "en": "Garuda",
+        "g": "-Uses Friction (line AoE), Slipstream (frontal cone stun), and Mistral Song (tankbuster).\n-Spawns razor plumes and satin plumes—satin must be killed to interrupt Mistral Shriek.\nPhase transition splits arena with stone pillars and adds.",
+        "d": "-Kill satin plume immediately to prevent raid-wide Shriek.\nAvoid line AoEs and stay mobile during phase shifts.",
+        "h": "-Heavy damage if satin plume lives—prep big heals for Shriek.\nWatch for split damage during add phase and line AoEs.",
+        "t": "-Tank Garuda near arena center, away from plumes.\nInterrupt Slipstream when possible and mitigate Mistral Song."
       }
     }
   },
@@ -9187,10 +9315,11 @@
     "en": "Thornmarch",
     "maps": {
       "36": {
-        "en": "Thornmarch",
-        "d": "...",
-        "h": "...",
-        "t": "..."
+        "en": "Good King Moggle Mog XII and Mogglesguard",
+        "g": "-Fight features 7 moogle adds with different roles. All must be killed close together or they will revive.\n-Each moogle has unique mechanics (e.g. AoEs, tankbusters, heals, knockbacks). Phase 2 begins after first full wipe of moogles, followed by King Moggle Mog joining with enhanced attacks.\n-Wipe if mechanics are ignored or DPS isn’t synchronized.",
+        "d": "-Follow assigned kill order and synchronize killing blows to prevent revives.\n-Dodge persistent AoEs like Pom Holy and spinning attacks from Whiskerwall.",
+        "h": "-Heal through frequent raid-wide damage and moogle AoE overlap.\n-Cleanse debuffs like Disease and prep for burst healing after synchronized kills.",
+        "t": "-Pick up assigned tank moogles (usually Whiskerwall and Ruffletuft).\n-During final phase, tank swap as needed and keep King Moggle Mog away from healers."
       }
     }
   },
