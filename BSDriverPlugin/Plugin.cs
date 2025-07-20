@@ -6,6 +6,7 @@ using Dalamud.Interface.Windowing;
 using Dalamud.IoC;
 using Dalamud.Plugin;
 using Dalamud.Plugin.Services;
+using FFXIVClientStructs.FFXIV.Client.System.Framework;
 using FFXIVClientStructs.FFXIV.Common.Lua;
 using FFXIVClientStructs.FFXIV.Component.GUI;
 using ImGuiNET;
@@ -104,11 +105,12 @@ public sealed class Plugin : IDalamudPlugin
     [PluginService] internal static IDataManager DataManager { get; private set; } = null!;
     [PluginService] internal static IPluginLog Log { get; private set; } = null!;
     [PluginService] internal static IChatGui ChatGui { get; set; } = null!;
+    [PluginService] internal static IFramework Framework { get; private set; } = null!;
 
     private Dictionary<string, TerritoryRoleHints>? instances_data;
-    private TerritoryRoleHints? current_territory_hint;
-    private MapRoleHints? current_map_hint;
-    private bool showHintPopup = false;
+    public TerritoryRoleHints? current_territory_hint { get; set; }
+    public MapRoleHints? current_map_hint { get; set; }
+    private bool waitingForPlayer = false;
 
     private static readonly Dictionary<uint, Role> ClassJob_To_Role = new()
     {
@@ -148,7 +150,7 @@ public sealed class Plugin : IDalamudPlugin
 
     public readonly WindowSystem WindowSystem = new("BSDriverPlugin");
     private ConfigWindow ConfigWindow { get; init; }
-    private MainWindow MainWindow { get; init; }
+    private DriverWindow DriverWindow { get; init; }
 
     private bool load_instances_data()
     {
@@ -171,40 +173,33 @@ public sealed class Plugin : IDalamudPlugin
         this.load_instances_data(); 
 
         ConfigWindow = new ConfigWindow(this);
-        MainWindow = new MainWindow(this);
+        DriverWindow = new DriverWindow(this, Configuration);
 
         WindowSystem.AddWindow(ConfigWindow);
-        WindowSystem.AddWindow(MainWindow);
+        WindowSystem.AddWindow(DriverWindow);
 
-        CommandManager.AddHandler("/pbsdriver", new CommandInfo(OnMainSettingsCmd)
+        CommandManager.AddHandler("/pbsdriver", new CommandInfo(OnDriverCmd)
         {
-            HelpMessage = "Display main setting menu."
+            HelpMessage = "Show all hints for the current duty."
         });
 
-        CommandManager.AddHandler("/pbsdriver-hint", new CommandInfo(OnHintCmd)
+        CommandManager.AddHandler("/pbsdriver-quick", new CommandInfo(OnImmediateHintCmd)
         {
-            HelpMessage = "Show all hints for the current instance."
-        });
-
-        CommandManager.AddHandler("/pbsdriver-now", new CommandInfo(OnImmediateHintCmd)
-        {
-            HelpMessage = "Print hints for your job in the current instance."
+            HelpMessage = "Print hints for your job for all encounters in the current duty."
         });
 
         PluginInterface.UiBuilder.Draw += DrawUI;
-        PluginInterface.UiBuilder.Draw += DrawHintUI;
 
         // This adds a button to the plugin installer entry of this plugin which allows
         // to toggle the display status of the configuration ui
         PluginInterface.UiBuilder.OpenConfigUi += ToggleConfigUI;
 
         // Adds another button that is doing the same but for the main ui of the plugin
-        PluginInterface.UiBuilder.OpenMainUi += ToggleMainUI;
+        PluginInterface.UiBuilder.OpenMainUi += ToggleDriverUI;
 
-        // Add a simple message to the log with level set to information
-        // Use /xllog to open the log window in-game
-        // Example Output: 00:57:54.959 | INF | [SamplePlugin] ===A cool log message from Sample Plugin===
-        Log.Information($"===A cool log message from {PluginInterface.Manifest.Name}===");
+        ClientState.TerritoryChanged += OnTerritoryChanged;
+
+        Framework.Update += OnFrameworkUpdate;
     }
 
     public void Dispose()
@@ -212,12 +207,26 @@ public sealed class Plugin : IDalamudPlugin
         WindowSystem.RemoveAllWindows();
 
         ConfigWindow.Dispose();
-        MainWindow.Dispose();
 
         CommandManager.RemoveHandler("/pbsdriver");
     }
 
-    private void _printTitle(string text, EnixTextColor color)
+    private void OnFrameworkUpdate(IFramework _)
+    {
+        if (waitingForPlayer && ClientState.LocalPlayer is not null)
+        {
+            waitingForPlayer = false;
+
+            _loadCurrentMapHints();
+        }
+    }
+
+    private void OnTerritoryChanged(ushort newTerritoryId)
+    {
+        waitingForPlayer = true;
+    }
+
+    public void printTitle(string text, EnixTextColor color)
     {
         var title = new SeStringBuilder().AddUiForeground((ushort)color).AddText(text).AddUiForegroundOff().BuiltString;
         ChatGui.Print(title);
@@ -231,6 +240,7 @@ public sealed class Plugin : IDalamudPlugin
         var localPlayer = Plugin.ClientState.LocalPlayer;
         if (localPlayer == null || !localPlayer.ClassJob.IsValid)
         {
+            Log.Info("No local player or invalid class job. Cannot load hints.");
             return;
         }
 
@@ -239,150 +249,28 @@ public sealed class Plugin : IDalamudPlugin
         var jobId = localPlayer.ClassJob.RowId;
         var jobStr = localPlayer.ClassJob.Value.Abbreviation.ExtractText();
 
-        //Log.Info($"Player {localPlayer.Name} JobID={jobId} ({jobStr}) is in territory {territoryId} map {mapId}");
-        ChatGui.Print($"Player {localPlayer.Name} JobID={jobId} ({jobStr}) is in territory {territoryId} map {mapId}");
-        
+        Log.Information($"Loading hints for territory {territoryId} (map {mapId}) for job {jobStr} ({jobId}).");
+
         var territory_hint = this.instances_data?.GetValueOrDefault(territoryId.ToString());
         if (territory_hint == null)
         {
-            ChatGui.Print($"No hints to display for {territoryId}.");
             return;
         }
 
         var hint = territory_hint.maps.GetValueOrDefault(mapId.ToString());
         if (hint == null)
         {
-            ChatGui.Print($"No hints to display for {territoryId} {mapId}.");
             return;
         }
 
         if (hint.stages.Count == 0 && (hint.general == "..." || hint.general == ""))
         {
-            ChatGui.Print($"No hints to display for {hint.en_name}.");
             return;
         }
 
+        Log.Information($"Loaded hints for {territory_hint.en_name} ({territoryId}) - {hint.en_name} ({mapId}) for job {jobStr} ({jobId}).");
         this.current_territory_hint = territory_hint;
         this.current_map_hint = hint;
-    }
-
-    private void OnMainSettingsCmd(string command, string args)
-    {
-        // in response to the slash command, just toggle the display status of our main ui
-        ToggleMainUI();
-    }
-    private void OnHintCmd(string command, string args)
-    {
-        _loadCurrentMapHints();
-        this.showHintPopup = !this.showHintPopup;
-    }
-
-    private void _renderHintSection(RoleHints stage, string mapId)
-    {
-        if (!string.IsNullOrWhiteSpace(stage.general) && stage.general != "...")
-        {
-            if (ImGui.Button($"General##{mapId}-{stage.stage_name}"))
-            {
-                _printTitle($"General advice for {stage.stage_name}:", EnixTextColor.BlueLight);
-                ChatGui.Print($"{stage.general}");
-                showHintPopup = false;
-            }
-        }
-        ImGui.SameLine();
-        if (!string.IsNullOrWhiteSpace(stage.dps) && stage.dps != "...")
-        {
-            if (ImGui.Button($"DPS##{mapId}-{stage.stage_name}"))
-            {
-                _printTitle($"DPS advice for {stage.stage_name}:", EnixTextColor.RedDPS);
-                ChatGui.Print($"{stage.dps}");
-                showHintPopup = false;
-            }
-        }
-        ImGui.SameLine();
-        if (!string.IsNullOrWhiteSpace(stage.healer) && stage.healer != "...")
-        {
-            if (ImGui.Button($"Healer##{mapId}-{stage.stage_name}"))
-            {
-                _printTitle($"Healer advice for {stage.stage_name}:", EnixTextColor.GreenHealer);
-                ChatGui.Print($"{stage.healer}");
-                showHintPopup = false;
-            }
-        }
-        ImGui.SameLine();
-        if (!string.IsNullOrWhiteSpace(stage.tank) && stage.tank != "...")
-        {
-            if (ImGui.Button($"Tank##{mapId}-{stage.stage_name}"))
-            {
-                _printTitle($"Tank advice for {stage.stage_name}:", EnixTextColor.BlueTank);
-                ChatGui.Print($"{stage.tank}");
-                showHintPopup = false;
-            }
-        }
-    }
-    private void DrawHintUI()
-    {
-        if (!showHintPopup || current_territory_hint == null) return;
-
-        ImGui.OpenPopup("Backseat Driver");
-        if (ImGui.BeginPopupModal("Backseat Driver", ref showHintPopup, ImGuiWindowFlags.AlwaysAutoResize))
-        {
-            ImGui.TextUnformatted("What hints are you interested in?");
-            //ImGui.Separator();
-
-            foreach (var mapPair in current_territory_hint.maps)
-            {
-                var mapId = mapPair.Key;
-                var mapHint = mapPair.Value;
-
-                ImGui.TextUnformatted($"{mapHint.en_name}");
-
-                var stages = mapHint.stages;
-                if (stages.Count == 0)
-                {
-                    stages = new List<RoleHints>
-                    {
-                        new RoleHints()
-                        {
-                            stage_name = mapHint.en_name,
-                            general = mapHint.general,
-                            dps = mapHint.dps,
-                            healer = mapHint.healer,
-                            tank = mapHint.tank
-                        }
-                    };
-                }
-
-                bool tabsNeeded = stages.Count > 1;
-
-                if (stages.Count == 1)
-                {
-                    _renderHintSection(stages[0], mapId);
-                }
-                else
-                {
-                    if (ImGui.BeginTabBar($"##StagesTabBar_{mapId}"))
-                    {
-                        foreach (var stage in stages)
-                        {
-                            var tabLabel = string.IsNullOrWhiteSpace(stage.stage_name) ? "Stage" : stage.stage_name;
-                            if (ImGui.BeginTabItem($"{tabLabel}##{mapId}-{tabLabel}"))
-                            {
-                                _renderHintSection(stage, mapId);
-                                ImGui.EndTabItem();
-                            }
-                        }
-                        ImGui.EndTabBar();
-                    }
-                }
-            }
-
-            if (ImGui.Button("Close"))
-            {
-                showHintPopup = false;
-            }
-
-            ImGui.EndPopup();
-        }
     }
 
     private void OnImmediateHintCmd(string command, string args)
@@ -393,6 +281,7 @@ public sealed class Plugin : IDalamudPlugin
 
         if (Plugin.ClientState.LocalPlayer == null || hint == null)
         {
+            ChatGui.PrintError("No hints available in here.");
             return;
         }
 
@@ -401,15 +290,12 @@ public sealed class Plugin : IDalamudPlugin
 
         Role job_role = ClassJob_To_Role.GetValueOrDefault(jobId, Role.Unknown);
 
-        //ChatGui.Print($"Created hints for {jobStr} ({job_role}) in {hint.en_name} (territory {territoryId} map {mapId})");
-        //ChatGui.Print($"Hints for {jobStr} ({job_role}) in {hint.en_name} (territory {territoryId} map {mapId}): {job_hint}");
-        // ChatGui.Print($"General advice for {hint.en_name}: \n{hint.general}\n\nSpecifically for {jobStr} ({job_role}):\n{job_hint}");
 
         if (hint.stages.Count > 0)
         {
             foreach (var stage in hint.stages)
             {
-                _printTitle(stage.stage_name, EnixTextColor.BlueLight);
+                printTitle(stage.stage_name, EnixTextColor.BlueLight);
 
                 if (stage.general != "" && stage.general != "...")
                 {
@@ -426,7 +312,7 @@ public sealed class Plugin : IDalamudPlugin
 
                 if (job_hint != "" && job_hint != "...")
                 {
-                    _printTitle($"Specifically for {jobStr} ({job_role}):", RoleToColor[job_role]);
+                    printTitle($"Specifically for {jobStr} ({job_role}):", RoleToColor[job_role]);
                     ChatGui.Print($"{job_hint}");
                 }
             }
@@ -441,7 +327,7 @@ public sealed class Plugin : IDalamudPlugin
                 _ => ""
             };
             
-            _printTitle(hint.en_name, EnixTextColor.BlueLight);
+            printTitle(hint.en_name, EnixTextColor.BlueLight);
 
             if (hint.general != "" && hint.general != "...")
             {
@@ -450,14 +336,19 @@ public sealed class Plugin : IDalamudPlugin
 
             if (job_hint != "" && job_hint != "...")
             {
-                _printTitle($"Specifically for {jobStr} ({job_role})", RoleToColor[job_role]);
+                printTitle($"Specifically for {jobStr} ({job_role})", RoleToColor[job_role]);
                 ChatGui.Print($"{job_hint}");
             }
         }
+    }
+    private void OnDriverCmd(string command, string args)
+    {
+        _loadCurrentMapHints();
+        ToggleDriverUI();
     }
 
     private void DrawUI() => WindowSystem.Draw();
 
     public void ToggleConfigUI() => ConfigWindow.Toggle();
-    public void ToggleMainUI() => MainWindow.Toggle();
+    public void ToggleDriverUI() => DriverWindow.Toggle();
 }
