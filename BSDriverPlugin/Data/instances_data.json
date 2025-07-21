@@ -568,6 +568,13 @@
             "t": "-Grab threat fast once Slasher appears.\n-Interrupt or stun to stop cleave combo."
         },
         {
+            "en": "Giant Bavarois",
+            "g": "-Splits into multiple colored slimes when damaged—each slime has a small AoE.\n-Kill all slimes quickly to avoid party overwhelm.",
+            "d": "-Use AoEs to burst slimes after split.\n-Avoid stacking near others to reduce AoE overlap.",
+            "h": "-Heals become spread-heavy after slime split.\n-Precast AoEs to stabilize after bursts.",
+            "t": "-Hold aggro on all slime adds post-split.\n-Group them for AoE but avoid facing them toward the group."
+        },
+        {
             "en": "Tonberry King",
             "g": "-Summons multiple Tonberry adds (Chef, Steward, etc.).\n-Uses Everybody’s Grudge for massive AoE based on how many Tonberries have died.",
             "d": "-Avoid killing unnecessary adds.\n-Focus boss; AoE only when needed.",
@@ -858,9 +865,9 @@
         {
             "en": "Bone Dragon",
             "g": "-Fought three times; platforms stay safe from poison.\n-Spawns skeletons that must be killed before reaching dead dragon, or they wipe raid.",
-            "d": "-Burn skeletons quickly after each dragon kill; positioning varies by server strategy. :contentReference[oaicite:2]{index=2}",
+            "d": "-Burn skeletons quickly after each dragon kill; positioning varies by server strategy.",
             "h": "-Heal through skeleton splash damage if any slip through.\n-Position healers on platforms for space if skeletons clump.",
-            "t": "-Tank dragon near chosen arena edge/platform to optimize add handling. :contentReference[oaicite:3]{index=3}"
+            "t": "-Tank dragon near chosen arena edge/platform to optimize add handling."
         },
         {
             "en": "Walk of Lament",
@@ -881,16 +888,16 @@
             "g": "-Spawns Iron Giants, Puroboros, and meteor markers on players.\n-Marked players must drop comet models and hide behind them during Ecliptic Meteor, or die.",
             "d": "-Drop comets outside boss hitbox, then stack behind during cast.\n-Burst ADDs only after comets are secure.",
             "h": "-Tanks take leap damage from comets – use cooldowns.\n-Heal quickly after Meteor.",
-            "t": "-Four tanks must manage Electrocution towers; rotate responsibility.\n-Kill giants and Puroboros while protecting comets. :contentReference[oaicite:4]{index=4}"
+            "t": "-Four tanks must manage Electrocution towers; rotate responsibility.\n-Kill giants and Puroboros while protecting comets."
         }
         ]
       },
       "135": {
         "en": "Phlegethon",
         "g": "-Avoid frontal cleaves and AoEs, regularly moving around lava ring.\n-At ~60% and ~30%, boss casts Ancient Flare requiring entire alliance on outer platforms to activate shield.",
-        "d": "-Stay spread and dodge AoEs between barrier mechanics.\n-Rush to platform during Ancient Flare cast and stay until it completes. :contentReference[oaicite:5]{index=5}",
+        "d": "-Stay spread and dodge AoEs between barrier mechanics.\n-Rush to platform during Ancient Flare cast and stay until it completes.",
         "h": "-Maintain raid spacing to dodge AoEs effectively.\n-Burst heal after Flare and subsequent Iron Giant spawns.",
-        "t": "-Tank Phlegethon centrally, face away from group.\n-Kill Iron Claws and Giants that spawn on platforms quickly. :contentReference[oaicite:6]{index=6}"
+        "t": "-Tank Phlegethon centrally, face away from group.\n-Kill Iron Claws and Giants that spawn on platforms quickly."
       }
     }
   },
@@ -3164,9 +3171,22 @@
     "maps": {
       "237": {
         "en": "The Fist of the Father",
-        "d": "...",
-        "h": "...",
-        "t": "..."
+        "st": [
+        {
+          "en": "Faust",
+          "g": "-Mini-boss that spawns Sturm Doll adds stacking boss damage.\n-Off-tank should pick up dolls; boss is the primary focus.",
+          "d": "-Stack for AoE to burst boss quickly, ignoring dolls.\n-Avoid adds but help stun if extra survive.",
+          "h": "-Minor raid-wide damage; heal through steady cleaves.\n-Stay mobile during movement-heavy steam room pulls.",
+          "t": "-Primary tank holds boss; off-tank grabs dolls and keeps them off raid."
+        },
+        {
+          "en": "Oppressor",
+          "g": "-Phase 1: Oppressor spawns Alarum adds that leave Minimize puddles when killed under laser beams.\n-Phase 2: Second copy (Oppressor 0.5) joins; both must die simultaneously or remaining one self-destructs.",
+          "d": "-Phase 1: Kill Alarums away from melee and under laser to reduce damage.\n-Phase 2: Split DPS evenly and burn both bosses together.",
+          "h": "-Phase 1: Heal through Hydrothermal Missile and raid-wide AoEs.\n-Phase 2: Prep cooldowns for 3000‑Onze Missile and tank cleaves.",
+          "t": "-Phase 1: MT holds Oppressor south, OT kites Alarums.\n-Phase 2: OT picks up the second boss north; tanks separate bosses to prevent buffing, then stack them for burn."
+        }
+      ]
       }
     }
   },
@@ -3174,16 +3194,18 @@
     "en": "The Cuff of the Father",
     "maps": {
       "238": {
-        "en": "The Cuff of the Father",
+        "en": "Outside Alexander",
+        "g": "...",
         "d": "...",
         "h": "...",
         "t": "..."
       },
       "255": {
-        "en": "The Cuff of the Father",
-        "d": "...",
-        "h": "...",
-        "t": "..."
+        "en": "Enemy Waves & Gobwalkers",
+        "g": "-Eight waves of Gordian enemies advance; bombs begin dropping from wave 4 onward.\n-Party can pilot Magitek Gobwalkers to drag bombs and apply Vulnerability to enemies.",
+        "d": "-Use Gobwalker to pull bombs away from party corner; DPS inside to maintain uptime.\n-Prioritize kill order: Magitek Gobwalkers → Jagd Dolls → Hardhelms/Hardminds → Soldiers/Snipers → Gobwidow.",
+        "h": "-Steady AoE healing during waves; watch for bombs’ splash damage stacks.\n-Help heal Gobwalker users and bomb-affected players.",
+        "t": "-Split tank sides; main tank holds spam on one side, off-tank on other.\n-Pick up Gobwidows separately to control AoE and vulnerability stack."
       }
     }
   },
@@ -3192,9 +3214,36 @@
     "maps": {
       "239": {
         "en": "The Arm of the Father",
-        "d": "...",
-        "h": "...",
-        "t": "..."
+        "st": [
+        {
+          "en": "Living Liquid (Human)",
+          "g": "-Uses Protean Wave (knockback cones), Sluice (marked players with AoEs), and Splash (raid-wide hits).\n-Keep boss centered and faced away from the party to avoid electric floor stun/DoT.",
+          "d": "-Sidestep Protean Wave and spread for Sluice markers to avoid hitting others.\n-Maintain DPS uptime between Splash casts.",
+          "h": "-Pre‑heal marked players before Sluice and manage raid-wide healing through Splash.\n-Stay mobile to avoid being knocked into the electric border.",
+          "t": "-Tank in center, face away and rotate to avoid knocking others into the edge.\n-Monitor electric border to keep party safe."
+        },
+        {
+          "en": "Living Liquid (Hand)",
+          "g": "-Casts heavy cleaves and Wash Away knockbacks; splits to spawn Liquid Limb adds picked up by OT. Cleaves apply stacking blunt vulnerability.",
+          "d": "-Avoid standing in front for cleaves; be ready to soak shared stacks.\n-Keep DPS on boss; off-tank handles second hand.",
+          "h": "-Use raid cooldowns through overlapping cleave and knockback hits.\n-Watch OT for secondary hand positioning and cleave stacking.",
+          "t": "-MT holds boss, OT picks up limb and faces them ~90° apart.\n-Tank‐swap every ~4‑5 cleaves to relieve blunt stacks."
+        },
+        {
+          "en": "Living Liquid (Tornado)",
+          "g": "-Boss becomes untargetable and spawns Gear and Piston Lubricants; creates donut water puddle. Adds must be killed before reaching arena edge. Features one drainage tether and +/- charge mechanic.",
+          "d": "-Burst down adds quickly, prioritize Piston Lubricants.\n-Keep tethered +/- pairs positioned correctly: same stack, opposite spread.",
+          "h": "-Be ready for tether explosion—tanks should soak it.\n-Heal through add damage and possible pool contact.",
+          "t": "-Tank must intercept drainage tether and kite it away.\n-Manually manage charge markers and rebait boss position."
+        },
+        {
+          "en": "Living Liquid (Final)",
+          "g": "-Combines all previous mechanics with added Cascade (three water puddles) and persistent cleaves with blunt stacks. Requires full rotation through all phases.",
+          "d": "-Continue previous rotation; dodge puddles and pooling AoEs.\n-Maintain DPS through mechanic overlap and charge/tether checks.",
+          "h": "-Coordinate raid cooldowns around Cascade and cleave transitions.\n-Use AoE heals and top off tanks between mechanic bursts.",
+          "t": "-Rotate boss to lead puddles into safe areas.\n-Continue timely tank swaps and maintain clean positioning."
+        }
+      ]
       }
     }
   },
@@ -3203,9 +3252,29 @@
     "maps": {
       "240": {
         "en": "The Burden of the Father",
-        "d": "...",
-        "h": "...",
-        "t": "..."
+        "st": [
+        {
+          "en": "Phase 1: Leg #1",
+          "g": "-Two forelegs must be destroyed sequentially (one regenerates when the other dies).\n-Orbs spawn targeting random players and must be soaked by others to prevent their death.",
+          "d": "-Stand in to soak orbs away from marked player; save burst for when the leg is vulnerable.",
+          "h": "-Heal marked players and orb-soakers promptly; prep party health for the burst window post-leg kill.",
+          "t": "-Face leg toward safe zone; MT takes most orbs, OT can assist when MT is low."
+        },
+        {
+          "en": "Phase 2: Leg #2",
+          "g": "-Adds spawn: laser bits tether and deal splash damage; Jagd Dolls apply lethal stacks if not killed and separated.\n-Mechanics layer atop Phase 1’s orbs and panzer quarantine.",
+          "d": "-Intercept tethered laser bits to relieve marked players.\n-Assign DPS to grab and burn Jagd Dolls separately to avoid multiple stacks.",
+          "h": "-Heal orb interceptors and tether interceptors; tag and heal Jagd Doll handlers.",
+          "t": "-MT handles leg and orbs; OT picks up Jagd Dolls and positions them apart."
+        },
+        {
+          "en": "Phase 3: Fourth Leg → Core",
+          "g": "-All prior mechanics return: orbs, laser bits, Jagd Dolls, plus Quarantine adds and healer DoT (Judgement Nisi).\n-Core vulnerable briefly after fourth leg; then uses Royal Pentacle and heavy AoEs.",
+          "d": "-Burn fourth leg quickly to avoid dual-Nisi deaths; follow Nisi debuff pass order during Pentacles.\n-Dodge AoEs and soak Orbs/Bits.",
+          "h": "-Healer separation is essential for Nisi spread; provide cooldowns during Quarantine, Bits, and AoE bursts.",
+          "t": "-Maintain leg tanking until fourth leg falls; face core properly and bait AoEs away from party."
+        }
+      ]
       }
     }
   },
@@ -3700,10 +3769,11 @@
     "en": "The Fist of the Son",
     "maps": {
       "286": {
-        "en": "The Fist of the Son",
-        "d": "...",
-        "h": "...",
-        "t": "..."
+        "en": "Ratfinx Twinkledinks",
+        "g": "-Ratfinx changes size and uses different mechanics depending on his form.\n-Giant form uses Boost (buff) followed by Bombs Away (slams based on player position); small form summons adds and uses AoEs.\n-Players can transform into creatures using syringes on the sides to interact with bombs or avoid mechanics.",
+        "d": "-Use red syringe to become a gorilla and push bombs away before Bombs Away.\n-Burn adds quickly in small form to avoid being overwhelmed.",
+        "h": "-Watch for tank damage spikes during Boost and Bombs Away.\n-AoE heal during add phases and after large AoEs like Missile.",
+        "t": "-Swap at 4 stacks of Headache debuff in giant form.\n-Pick up adds in small form and position boss for safe bomb handling."
       }
     }
   },
@@ -3711,16 +3781,18 @@
     "en": "The Cuff of the Son",
     "maps": {
       "287": {
-        "en": "The Cuff of the Son",
+        "en": "Trash Mobs",
+        "g" : "-Clear the trash mobs.",
         "d": "...",
         "h": "...",
-        "t": "..."
+        "t": "-Collect the mobs then drop through the chute for the next batch all at once."
       },
       "288": {
-        "en": "The Cuff of the Son",
-        "d": "...",
-        "h": "...",
-        "t": "..."
+        "en": "Enemy Waves",
+        "g": "-Three waves of Gordian enemies: Gobwalkers, then soldier/sniper adds, then bomb-dropping goblights.\n-Party can pilot Gobwalkers to absorb bombs and tank enemies. Timing of board entry is key.",
+        "d": "-Use the Gobwalker to pull bombs into safe zones away from the party.\n-Prioritize destroy enemy snipers and goblights to reduce raid pressure.",
+        "h": "-Provide consistent AoE heals during waves; bombs hit hard in splash.\n-Heal Gobwalker pilots and bomb hit targets quickly.",
+        "t": "-Main tank holds initial wave of soldiers on one side; off-tank grabs secondary wave on the other.\n-Keep Gobwalker and adds separated to prevent overlapping cleaves and bombs."
       }
     }
   },
@@ -3728,10 +3800,11 @@
     "en": "The Arm of the Son",
     "maps": {
       "289": {
-        "en": "The Arm of the Son",
-        "d": "...",
-        "h": "...",
-        "t": "..."
+        "en": "Ratfinx Twinkledinks",
+        "g": "-Ratfinx switches between giant and small forms with unique mechanics.\n-Giant form builds Headache stacks leading to Concussion and a tankbuster.\n-Small form summons Faust adds and uses bomb-based mechanics.\n-Use red syringe to become Harambe and push bombs away.",
+        "d": "-Use red syringe (gorilla) to push bombs away before Bombs Away.\n-Focus Faust adds during small form to prevent overwhelm.",
+        "h": "-Pre-heal tanks before Concussion and be ready for raid-wide damage from bombs.\n-AoE heal during small form add phases.",
+        "t": "-Main tank holds boss during giant form; off-tank provokes at 4 stacks of Headache.\n-Off-tank picks up Faust adds in small form to protect backline."
       }
     }
   },
@@ -3740,9 +3813,36 @@
     "maps": {
       "290": {
         "en": "The Burden of the Son",
-        "d": "...",
-        "h": "...",
-        "t": "..."
+        "st": [
+        {
+          "en": "Onslaughter",
+          "g": "-Boss casts Perpetual Ray (tankbuster) and Mega Beam (line AoE); periodically summons Steam Regulators that explode if not killed.\n-Discoid: dangerous orbs spawn—intercept them or players die instantly.",
+          "d": "-Burst Regulators quickly to prevent Vulnerability Up/Down on raid.\n-Intercept Discoid orbs to save tethered players.",
+          "h": "-Stack AoE heals for beam overlaps and explosion splash.\n-Quickly top off players getting hit by Discoid if intercept fails.",
+          "t": "-Tank swap after Perpetual Ray to avoid stack buildup.\n-Face boss away from raid for Mega Beam and group Discoid pathing."
+        },
+        {
+          "en": "Brawler & Vortexer",
+          "g": "-Two bosses appear on opposite sides: Brawler uses tankbusters (single/double), Vortexer uses Ice Missile (aoe pool), Fire Pool, and Super Cyclone.",
+          "d": "-Stay behind Brawler for shared busters; dodge Vortexer pools promptly.\n-Kill the priority boss as assigned, switch when done.",
+          "h": "-Stack and mitigate double buster AoE; heal through Fire/Ice pool overlap.\n-Prioritize heals when Super Cyclone and tank busters coincide.",
+          "t": "-Each tank holds a boss on assigned side.\n-Maintain separation to avoid cleave overlap."
+        },
+        {
+          "en": "Blaster & Swindler",
+          "g": "-Blaster summons clones (Mirage) and Mines; Swindler casts Height and Enumeration mechanics requiring positional response.",
+          "d": "-Avoid clone lines; dodge mines promptly.\n-React to Height debuffs by standing on correct floor; match Enumeration numbers.",
+          "h": "-Heal through mine splash and misplacement damage.\n-Reduce vulnerability from Height/Enumeration overlaps.",
+          "t": "-Pull and face bosses separately on opposite sides.\n-Avoid overlapping mechanics between the two bosses."
+        },
+        {
+          "en": "Brute Justice",
+          "g": "-Final form combining all previous bosses abilities: tankbuster, line AoEs, stack markers, jumps, beams.\n-Enrage begins 10 s after complete cycle.",
+          "d": "-Dodge all recycled AoEs and stack for Long Needle properly.\n-Handle Super Jump and Apocalyptic Ray by positioning.",
+          "h": "-Use raid cooldowns on Double Rocket Punch and Mega Beam phases.\n-Heal through overlapping mechanics after combining all previous mechanics.",
+          "t": "-Swap at Double Rocket Punch; face boss away and position to dodge AoEs and lasers."
+        }
+      ]
       }
     }
   },
@@ -4175,16 +4275,18 @@
     "en": "Eyes of the Creator",
     "maps": {
       "326": {
-        "en": "Eyes of the Creator",
-        "d": "...",
-        "h": "...",
-        "t": "..."
+        "en": "Faust Z (Trash)",
+        "g": "-Single-target tankbuster cleaves that can be shared between tanks.\n-Minor raid AoE from Panzerschreck but no major mechanics.",
+        "d": "-Stay stacked behind boss to maximize uptime and cleave efficiency.\n-Help stun adds when they spawn to support clear speed.",
+        "h": "-Heal consistently through raid-wide Panzerschreck.\n-Be prepared for incidental damage between pulls.",
+        "t": "-Stack both tanks for the tankbuster and face boss away.\n-Manage enmity cleanly; no swaps needed until taunt cooldown."
       },
       "327": {
-        "en": "Eyes of the Creator",
-        "d": "...",
-        "h": "...",
-        "t": "..."
+        "en": "Refurbisher 0",
+        "g": "-Arena split into 4 quadrants with intermittent lava—adds must be dragged into lava to melt, otherwise boss absorbs them and gains powers. Full‑metal Faust spawns tethered and also must be killed in lava area or raid wipes.\n-Boss uses Scrap (tankbuster), Scrapline cleaves, Scrap Burst (hide behind meteor), and Scrap Bomb stack markers.",
+        "d": "-Pull adds into the next lava quadrant for auto-melt; kill Faust on safe lava panel before it absorbs or explodes.\n-Hide behind meteors to negate Scrap Burst and stack properly during bomb markers.",
+        "h": "-Keep raid topped before magma waves and meteor bursts; coordinate shields during Scrap Bomb.\n-Watch HP of players near Faust and panel edges during lava phase.",
+        "t": "-Main tank holds boss facing away; off‑tank grabs Faust and moves it to the upcoming lava panel for detonation.\n-Swap only if vulnerability stacks get dangerous; otherwise hold steadily."
       }
     }
   },
@@ -4192,16 +4294,30 @@
     "en": "Breath of the Creator",
     "maps": {
       "328": {
-        "en": "Breath of the Creator",
+        "en": "Trash Mobs",
+        "g": "...",
         "d": "...",
         "h": "...",
         "t": "..."
       },
       "329": {
-        "en": "Breath of the Creator",
-        "d": "...",
-        "h": "...",
-        "t": "..."
+        "en": "Lamebrix Strikebocks",
+        "st": [
+        {
+          "en": "Lamebrix Strikebocks",
+          "g": "-Arena features spike traps, ball traps, and lightning floors. Boss jumps between buttons to trigger them and brings in a steamroller add during phase 2.",
+          "d": "-Stand clear of spikes and trap zones; stack behind boss between mechanics.\n-Burst steamroller quickly or it clears the raid.",
+          "h": "-Heal party through trap damage and immobilizations.\n-Prepare for line and raid AoEs from adds.",
+          "t": "-Hold boss centrally to guide trap usage.\n-Lead steamroller clear to delay its path toward the raid."
+        },
+        {
+          "en": "Single Charge and Wall Saws",
+          "g": "-Boss begins using a mix of unmarked AoEs: green donut or red cleave (Single Charge), plus saw blades and ongoing trap mechanics.",
+          "d": "-Green = stand mid-range; Red = move away fast. Stay out of saw paths.",
+          "h": "-Position to avoid red cleaves and wall saw damage.\n-Heal through burst AoEs after mechanics.",
+          "t": "-Anticipate AoE cues to face boss away from party.\n-Guide raid into safe spots between traps and saws."
+        }
+      ]
       }
     }
   },
@@ -4210,26 +4326,29 @@
     "maps": {
       "330": {
         "en": "Heart of the Creator",
+        "g": "...",
         "d": "...",
         "h": "...",
         "t": "..."
       },
       "331": {
-        "en": "Heart of the Creator",
-        "d": "...",
-        "h": "...",
-        "t": "..."
+        "en": "Cruise Chaser",
+        "g": "-Three-phase fight with Optical Sight variations, adds, platform jumps, and Plasma Shield mechanics.\n-Final phase includes Prey and Blassty Charge, requiring movement and positioning.",
+        "d": "-Avoid Optical Sight AoEs (massive, ring, or player-targeted) by knowing the orb pattern.\n-Destroy Lapis Lazuli adds before Eternal Darkness and dodge lasers during Phase 3.",
+        "h": "-Heal low-health players after Photon and raid-wide E.D.D. damage.\n-Protect Prey targets with shields and position them away from group.",
+        "t": "-OT pick up flying E.D.D. add immediately.\n-Tank swap after GA-100, face boss away, and bait Blassty Charge to rear."
       }
     }
   },
   "583": {
     "en": "Soul of the Creator",
     "maps": {
-      "332": {
-        "en": "Soul of the Creator",
-        "d": "...",
-        "h": "...",
-        "t": "..."
+      "332":{
+        "en": "Alexander Prime",
+        "g": "-Phase 1: boss uses Divine Spear (frontal cleave), Punishing Heat tankbuster, Mega Holy AoE, Sacrament cross laser lines, and Blazing Scourge red circles.\n-Phase 2: boss leaps away to spawn adds in waves; requires tank LB to survive Judgement before Phase 3.\n-Phase 3: resumes Phase 1 abilities plus adds Temporal Stasis, Plaint of Solidarity (stack), Plaint of Severity (spread), Time Gates adds, Gravitational Anomalies, and Communion puddles before final burn.",
+        "d": "-Stand at diagonals to avoid Sacrament lines; keep uptime high between mechanics.\n-During adds waves, focus dungeon adds quickly; use tank LB in the 3–5 s window before Judgement.",
+        "h": "-Heal through Mega Holy and Sacrament overlaps; prep for burst healing during Blazing Scourge markers.\n-During Temporal Stasis stack/spread phases, coordinate healing cooldowns; regenerate after Time Gate add damage.",
+        "t": "-Face boss away from the raid throughout.\n-Swap tanks after Punishing Heat; hold adds off to the side during Phase 2; bait cleaves in safe direction."
       },
       "333": {
         "en": "Soul of the Creator",
