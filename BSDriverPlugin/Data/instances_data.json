@@ -3592,28 +3592,32 @@
     "en": "Void Ark",
     "maps": {
       "269": {
-        "en": "Void Ark",
-        "d": "...",
-        "h": "...",
-        "t": "..."
+        "en": "Cetus",
+        "g": "-Rear cone cleaves and raid-wide cleave leave small electrified pools (Electrocution).\n-Summons Hybodus adds; untargetable until they're defeated.\n-Drops watery orbs that form pools inflicting Dropsy.",
+        "d": "-Avoid cleaves pools and spread to dodge pools.\n-Burn Hybodus adds quickly to make Cetus vulnerable.",
+        "h": "-Steady raid-wide heals during cleaves and orb pools.\n-Assist DPS by healing through pool overlaps.",
+        "t": "-Tank facing away, pick up adds immediately.\n-Keep boss off pool clusters for group safety."
       },
       "270": {
-        "en": "Void Ark",
-        "d": "...",
-        "h": "...",
-        "t": "..."
+        "en": "Irminsul & Sawtooth",
+        "g": "-Two Fates boss duo: Irminsul (magic) and Sawtooth (melee); soil rising under adds will kill them if not moved.\n-Sawtooth cleaves; Irminsul casts lasers and ranged magic.",
+        "d": "-Help dodge mechanics and assist with interrupts/stuns.\n-Switch targets cleanly as needed.",
+        "h": "-Manage mixed melee-and-magical bursts.\n-Use shields for laser phases and stabilize group.",
+        "t": "-Split tanks: one per boss, face individually away from raid.\n-Move adds off rising soil quickly."
       },
       "271": {
-        "en": "Void Ark",
-        "d": "...",
-        "h": "...",
-        "t": "..."
+        "en": "Cuchulainn",
+        "g": "-Two-phase fight: First, boss cleaves and casts storm AoEs; second, spawns spears to deflect with precise timing.\n-Fail spears and party takes massive damage.",
+        "d": "-Dodge storm AoEs and position for spear deflects.\n-Maintain steady DPS except during spear casts.",
+        "h": "-Heal through storm-on-stacks safely.\n-Prep raid health before spear defense phase.",
+        "t": "-Face boss away; reposition for AoEs.\n-Lead party for spear deflection timing."
       },
       "272": {
-        "en": "Void Ark",
-        "d": "...",
-        "h": "...",
-        "t": "..."
+        "en": "Echidna",
+        "g": "-Combines fire AoE cones with poison puddles and spawning snake adds.\n-Poison puddles deal stacking damage if stood in. Adds amplify raid pressure.",
+        "d": "-Avoid standing in puddles and dodge AoE cones.\n-Burn adds quickly to reduce healer strain.",
+        "h": "-Stack heals for overlapping spills and puddle damage.\n-AoE heal during add waves and AoE bursts.",
+        "t": "-Face boss away and reposition to avoid puddle pools.\n-Tank adds that spawn and steer them away from raid."
       }
     }
   },
@@ -4006,40 +4010,46 @@
     "en": "The Weeping City of Mhach",
     "maps": {
       "298": {
-        "en": "The Weeping City of Mhach",
-        "d": "...",
-        "h": "...",
-        "t": "..."
+        "en": "Arachne Eve",
+        "g": "-Phase 1: tankbuster + Heavy cleave; orange markers place web; burrows then does ring AoEs.\n-Phase 2: draws players to web—split tasks: top handles orbs/spiders, bottom destroys Keyknots to drop the web.\n-Phase 3: mixes Phases 1 and 2 with additional web/tornado mechanics.",
+        "d": "-After initial rings, stay stacked for tankbuster then spread during Heavy.\n-In Phase 2, DPS on purple orbs first, kill spiders later; bottom DPS handles Keyknots.",
+        "h": "-Apply shields before Heavy AoEs; coordinate tether breaks.\n-Top heal through Implosion and drop phase; bottom heal through orb and spider burst damage.",
+        "t": "-Tank boss and avoid plowing into party.\n-1 tank holds boss top during Phase 2, other picks up spiders after drop."
       },
       "299": {
-        "en": "The Weeping City of Mhach",
+        "en": "Trash Mobs",
+        "g": "...",
         "d": "...",
         "h": "...",
         "t": "..."
       },
       "300": {
-        "en": "The Weeping City of Mhach",
-        "d": "...",
-        "h": "...",
-        "t": "..."
+        "en": "Forgall",
+        "g": "-Phase 1: regenerating adds explode with Vulnerability; portals must be covered during Punishing Ray.\n-Phase 2 (Void Call): three adds appear—Succubus (mind control), Hagenti (Doom gaze), Dahak.\n-Phase 3: Megadeath requires 1‑4 stacks of zombie buff to survive, followed by Hell Wind AoE and repeating mechanics.",
+        "d": "-Kill regulators quickly; cover Punishing Ray spots to mitigate damage.\n-Separate and burn adds in Void Call, stun Succubus, look away from Hagenti; soak Megadeath puddle once.",
+        "h": "-Heal orb soakers and manage Punishing Ray stacks; dispel Doom.\n-Post-Megadeath, heal through Hell Wind and ongoing AoEs.",
+        "t": "-MT picks up adds and positions away from raid; OT separates adds during Void Call."
       },
       "301": {
-        "en": "The Weeping City of Mhach",
-        "d": "...",
-        "h": "...",
-        "t": "..."
+        "en": "Headstone",
+        "g": "-Alliance A goes left, B in the middle, C to the right.\n-Kill Void Fire quickly or else big boom.\n-Kill Parthenope and rejoin middle.\n-Step on red circles to create a barrier in the middle against Flaring Epigraph.",
+        "d": "-Burn down Void Fire/Parthenope quickly.",
+        "h": "-If Big Burst goes off from Void Fire, expect need to burst heal everyone.",
+        "t": "Let alliance B tank take the miniboss. Go left/right on alliance A/C."
       },
       "302": {
-        "en": null,
-        "d": "...",
-        "h": "...",
-        "t": "..."
+        "en": "Ozma",
+        "g": "-Three shapes: Sphere (meteors + Singularity adds), Pyramid (lasers, Bleed, Accelbomb), Cube (tanks soak orbs + lasers, Holy knockback).\n-Phase 2: Black Hole evasion + Atomos pads + Ozmashade puzzle before returning.",
+        "d": "-Sphere: spread for meteors, burn adds quickly.\n-Pyramid: dodge lasers, spread for Bleed, stand still for bomb.\n-Cube: stack melee, tanks bait lasers, intercept orbs.",
+        "h": "-Heal through meteors and Singularity.\n-Pyramid: cleanse Bleed, manage bomb heal stance.\n-Cube: tank heals + orb healing; pad healer spot in Black Hole.",
+        "t": "-Face boss away; tank positioning varies by form.\n-During Black Hole, hold adds and position for Assimilation avoidance."
       },
       "303": {
-        "en": "The Weeping City of Mhach",
-        "d": "...",
-        "h": "...",
-        "t": "..."
+        "en": "Calofisteri",
+        "g": "-Boss grows hair-blades; attacks side-of-blade (Haircut). Uses Extension mechanics (Jail, Hammer, Axe, Spear) after Ultimate.\n-Bijous spawn and must die before Dancing Mad AoE; rotated Extension mechanics follow.",
+        "d": "-Avoid blade side constantly.\n-Kill Bijous immediately, dodge or soak Extensions by role.",
+        "h": "-Manage bleed after Haircut; AoE heal after Dancing Mad.\n-Prioritize popping shields or dispelling as needed during Extensions.",
+        "t": "-Face boss away from raid.\n-Align for Haircut and ensure positioning for Extension mechanics."
       }
     }
   },
@@ -4644,21 +4654,55 @@
     "maps": {
       "343": {
         "en": "Dun Scaith",
-        "d": "...",
-        "h": "...",
-        "t": "..."
+        "st": [
+        {
+          "en": "Deathgaze Hollow",
+          "g": "-Large puddle (Void Death) pulls players—run to edges or die.\n-Green markers spawn tornadoes on players (Void Aero II).\n-Avoid ice crystals and knockback pulls (Void Blizzard/Aero combos).",
+          "d": "-Run out of circle fast; keep moving to avoid tornado pull.\n-Position to use ice crystals as landing pads after knockback.",
+          "h": "-Stable healing through steady AoEs; top off after Blizzard.\n-Be ready to dispel Windburn debuff if caught in tornado touch.",
+          "t": "-Tank on safe side away from drops; face boss away during pulls to protect group.\n-Keep boss off puddle zones and avoid edge during pulls."
+        },
+        {
+          "en": "Ferdiad Hollow",
+          "g": "-Orange markers place scythe AoEs—drop behind boss.\n-Wormhole adds spawn tethers to ball/donut orbs—match colors and stand correctly.\n-Debilitator adds resist-downs, followed by puddle color swap (Flameflow).",
+          "d": "-Place scythes deliberately; spread quickly for orbs and boss cleaves.\n-Swap puddles actively based on resist debuffs.",
+          "h": "-Pre-shield before scythes and pooled AoEs.\n-Coordinate who swaps puddle colors to prevent raid-wide damage.",
+          "t": "-Tank mark-targets away after scythes; face away to reduce splash.\n-Pick up Wormhole adds carefully and reposition to safe puddle colors."
+        },
+        {
+          "en": "Shadowcourt Handmaiden / Proto Ultima",
+          "g": "-Alternate between red crosshairs (Light Pillars) and line lasers/stack orbs (Proto Ultima).\n-Adds appear (Dreadnaughts) and line/wrecking ball mechanics require off-tank management.",
+          "d": "-Avoid or soak pillars, stack for bombs, then dodge line lasers.\n-Take down adds after pillars to regain DPS uptime.",
+          "h": "-Shield stack during crosshairs; heal through line bursts.\n-Watch for Dreadnaught splash and heal accordingly.",
+          "t": "-Tank sequentially—one for pillars, one for line-cleave boss.\n-Off-tank grab Dreadnaughts quickly to prevent group cleaves."
+        }
+        ]
       },
       "344": {
-        "en": "Dun Scaith",
-        "d": "...",
-        "h": "...",
-        "t": "..."
+        "en": "Scathach",
+        "g": "-Fast, untargettable chrysalis phase with Particle Beam orb soak requirement.\n-Yellow/black markers spawn orbs (Nox Orbs) to kite around edges.\n-Thirty Cries stacks on MT—needs group stacking at that time.",
+        "d": "-Stack for Thirty Cries; kite Nox Orbs on edgeaway path.\n-In chrysalis, one soak per Particle Beam circle to prevent raid damage.",
+        "h": "-Heal after Scathach’s fast cleaves and chest-stacking phases.\n-Prepare for orb-phase damage; orb-light soakers need heals.",
+        "t": "-Brace for Thirty Cries stacked; tank facing away.\n-Pick up Connla adds quickly and move them for cleanse."
       },
       "345": {
-        "en": "Dun Scaith",
-        "d": "...",
-        "h": "...",
-        "t": "..."
+        "en": "Diabolos",
+        "st": [
+        {
+          "en": "Diabolos",
+          "g": "-Phase 1: Dream-type mechanics: Nightmare gaze (turn away), Ultimate Terror donut, Deathgates adds, Ruinous Omen raid-wide, and stack (Night Terror), followed by Lifegate adds.",
+          "d": "-Turn away during Nightmare, stack/dodge donuts.\n-Kill Deathgates fast and soak Lifegate 4 times before wipe.",
+          "h": "-Heavy raid-AoEs—save Medica/OGCD stacks for Ruinous or donut overlap.\n-Stack for Night Terror fast; heal through Lifegate timing.",
+          "t": "-Face away for donut and cleaves.\n-Pull adds (Deathgates) quickly and control position."
+        },
+        {
+          "en": "Diabolos Hollow",
+          "g": "-Buffed Diabolos with enhanced version of Scathach and Dream mechanics.\n-Floor-darkening (Hollow Camisado), no-market Shadethrust, Nox Orbs, Hollow Night (stack + turn-away), Particle Beam, Diabolic Gates adds, Blindside stack, Earthshaker cones.",
+          "d": "-Stack but look-away on Hollow Night.\n-Run Nox Orbs around edge; assign Gates runners fast.",
+          "h": "-Shield stacks in Hollow Night and heal through Particle Beam adds.\n-Cleanse and support Gates phase quickly.",
+          "t": "-Face away and stack for Blindside/stack mechanics.\n-Manage adds exiting Gates and reposition after Earthshaker."
+        }
+        ]
       },
       "346": {
         "en": null,
