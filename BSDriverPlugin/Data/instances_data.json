@@ -3129,10 +3129,30 @@
     "en": "Singularity Reactor",
     "maps": {
       "236": {
-        "en": "Singularity Reactor",
-        "d": "...",
-        "h": "...",
-        "t": "..."
+        "en": "The Singularity Reactor",
+        "st": [
+        {
+            "en": "King Thordan: Phase 1",
+            "g": "-King Thordan uses Ancient Quaga and The Dragon’s Gaze (looking away avoids fear), along with Ascalon's Mercy—line AoEs with safe gaps. At 80%, he summons untargetable Knights with unique mechanics: orbs, ice puddles, towers, lines, and comets.",
+            "d": "-Avoid stacking for Lightning Storm and puddles from knock-off adds.\n-Kill towers or step into them during Ser Hermenost to prevent paralysis.",
+            "h": "-Shield and heal through Ancient Quaga and orb explosions from Janlenoux/Adelphel.\n-Ensure one player stands in each conviction tower to avoid raid paralysis during Hermenost phase.",
+            "t": "-Face Thordan away from party to direct cleaves outward.\n-Stack for Ascalon’s Mercy gaps and rotate to intercept orbs safely."
+        },
+        {
+            "en": "King Thordan: Phase 2",
+            "g": "-At ~15%, Thordan withdraws and each Knight sequences special mechanics: Charibert (Heavensflame circles), Hermenost (towers again), Zephirin (massive Sacred Cross cast), Vellguine (room-wide line charge), Janlenoux & Adelphel (cleaves + Holiest of Holy), Ignasse (edge smash), Paulecrain & Haumeric (ice circles and line tether damage), Grinnaux (growing puddles), Noudenet & Guerrique (comet/multi-AoE patterns).",
+            "d": "-Separate to avoid overlapping ice circles from Paulecrain; dodge Grinnaux puddles before they detonate.\n-Burn Zephirin ASAP to soften Sacred Cross’s impact.",
+            "h": "-Stay mobile to avoid line AoEs and tower knockback overlaps.\n-Coordinate shields around Holy chains and icy AoEs.",
+            "t": "-Tanks split responsibilities: one for Janlenoux/Adelphel cleaves, one for Paulecrain/Haumeric players away.\n-Pick up Hermenost’s towers and avoid stacking for Grinnaux and comet circles."
+        },
+        {
+            "en": "King Thordan: Phase 3",
+            "g": "-Thordan returns and casts Light of Ascalon (multi-knockback), followed by his ultimate, Ultimate End—high-damage cleave in succession across raid.",
+            "d": "-Stack tightly in mid‑arena to minimize pathing issues during knockbacks.\n-Disperse quickly after Ultimate End to avoid lingering AoEs.",
+            "h": "-Use raid cooldowns before Light of Ascalon; heal through staggered knockbacks.\n-Prepare shields and regen for Ultimate End’s aftermath.",
+            "t": "-Face boss inwards to bait knockbacks toward safe zones.\n-Stick to Thordan during this phase; DPS until he dies—he’s weakened and only uses auto attacks."
+        }
+        ]
       }
     }
   },
@@ -3279,24 +3299,59 @@
     }
   },
   "446": {
-    "en": "Thok ast Thok",
-    "maps": {
-      "404": {
-        "en": "Thok ast Thok",
-        "d": "...",
-        "h": "...",
-        "t": "..."
-      }
+    "en": "Thok ast Thok (Hard)",
+    "st": [
+    {
+        "en": "Phase 1: Ravana (Damage Stance)",
+        "g": "-Tankkeeper cleaves and long-range knockback—always face Ravana away from the raid.\n-Prelude to Slaughter: huge unmarked AoE → line patterns → donut AoE; move staggered to safe zones.\n-Slaughter: frontal cone, then cross-pattern lines, then two players marked with large circles—spread those and avoid crossing their paths.",
+        "d": "-Avoid being in front or behind Ravana during stance switches.\n-Clear slavery markers early and spread for circle targets during Slaughter.",
+        "h": "-Top off before major combos and burn transitions.\n-Position to avoid cross fire; heal marked players quickly after circle explosions.",
+        "t": "-Face boss away to direct cleaves outward.\n-Swap tank only if marked or for cooldown timing; clear circle targets cleanly."
+    },
+    {
+        "en": "Phase 2: Gana Adds and Bloody Fuller",
+        "g": "-At ~60% HP, Ravana summons Moon and Spirit Ganas. Leaving them alive spawns swords used during Bloody Fuller—each sword increases raid‑wide damage and vulnerability stacks.",
+        "d": "-Kill Moon Ganas first, then Spirit Ganas to minimize swords.\n-Avoid standing in blades or projected areas from added swords.",
+        "h": "-Heal through add Blizzard damage.\n-Prepare raid‑wide healing before Bloody Fuller; vulnerability stacks amplify damage.",
+        "t": "-Hold Ravana centrally ensuring space to kite away.\n-Keep boss positioned for safe knockback landing during the Ultimate."
+    },
+    {
+        "en": "Phase 3: Ravana (Defense Stance & Finale)",
+        "g": "-Ravana alternates stances: Defense uses Pillars of Heaven (raid-wide knockback) → Surpanakha (targeted multi-line) → Rose of Hate (tether orbs inflicting Vulnerability Up → more knockbacks).\n-Damage stance uses Swift Slaughter (mark order AoEs + donut + circle) and Atma‑Linga (raid-wide AoE).",
+        "d": "-During Rose orbs, kite away to avoid tether damage and stay clear of others’ paths.\n-During Swift Slaughter, spread and avoid lining with marked players; move center → edge → edge accordingly.",
+        "h": "-Prioritize shielding for Rose orb holders and cleanse stacks if available.\n-Assist stacking for Swift Slaughter and heal during Atma‑Linga overlaps.",
+        "t": "-Off‑tank should proactively Provoke/Shirk to attract Surpanakha targets; main tank keep facing boss away.\n-Step toward fence before Pillars knockback to avoid falling off edge."
     }
+    ]
   },
   "447": {
     "en": "The Limitless Blue",
     "maps": {
       "407": {
-        "en": "The Limitless Blue",
-        "d": "...",
-        "h": "...",
-        "t": "..."
+        "en": "The Limitless Blue (Hard)",
+        "st": [
+        {
+            "en": "Phase 1",
+            "g": "-Defeat Vundu adds while island shield and dragonkillers recharge.\n-Activate both dragonkiller harpoons when ready, then board Bismarck to damage the Chitin Carapace from his back; island HP wipe occurs if shield fails.",
+            "d": "-Be ready to join one harpoon group; synchronize on the carapace to potentially kill it in one cycle.\n-Avoid knockbacks from adds—don't stand near edge.",
+            "h": "-One person should manage the Magitek Field Generator timing.\n-Heal through light AoE and carapace standing DoT.",
+            "t": "-Use cooldowns to mitigate carapace cleaves and face adds away from the group.\n-Pull one Vundu add if not killed, keeping it off group for clean carapace DPS."
+        },
+        {
+            "en": "Phase 2",
+            "g": "-Two Sanuwa adds spawn; they must be tanked separately to avoid buffs. Tornadoes and water AoEs appear. A timed Breach Blast wipe occurs if both adds are not killed in time.",
+            "d": "-Focus burst on one Sanuwa first, then the other—use Limit Break if needed.\n-Dodge tornado movement and island-edge AoEs.",
+            "h": "-Upkeep healing during add burn; prep raid heal for Breach Blast if adds remain.\n-Heal through knockback and water damage from tornadoes and adds.",
+            "t": "-Each tank picks up one Sanuwa and faces them away from each other and raid.\n-Keep adds far apart to prevent tether buff overlap."
+        },
+        {
+            "en": "Phase 3",
+            "g": "-Repeat carapace and add cycles while island shield is gone. New adds including Nat’maii Vundu will spawn, and Vapor Bubbles appear during rain/thunder; weather alternates and affects bubble behavior.",
+            "d": "-Join board when phased; sustain carapace DPS until chained.\n-Kill Vapor Bubbles in rain but leave them alive in thunderstorms to absorb storms.",
+            "h": "-Prioritize healing tanks and players dismounted after the board phase.\n-During thunder, heal random lightning hits from bubble destruction or weather signature.",
+            "t": "-Stay with boss after carapace broken and pick up any surviving adds on platform.\n-Keep boss positioned to prevent adds from damaging platform before final chain."
+        }
+        ]
       }
     }
   },
@@ -3736,10 +3791,30 @@
     "en": "Containment Bay S1T7",
     "maps": {
       "283": {
-        "en": "Containment Bay S1T7",
-        "d": "...",
-        "h": "...",
-        "t": "..."
+        "en": "Sephirot",
+        "st": [
+        {
+            "en": "Phase 1",
+            "g": "-No cast bars: mechanics telegraphed via animations only.\n-Casts Fiendish Rage (stack marker), Ein Sof (green AoE circles), Ratzon (purple AOE + green circles), Chesed tankbuster, Ain (180° frontal cleave). At ~60%, transitions to add phase and grows in size.",
+            "d": "-Stack behind marked player for Fiendish Rage to share damage.\n-Spread for Ratzon after stacking; stay behind boss at Ain.",
+            "h": "-Use shields before Chesed and stack heals on marked player during Fiendish Rage.\n-Top off raid before Ein Sof damage builds.",
+            "t": "-Face Sephirot away from party; anticipate Chesed by positioning centrally.\n-Keep boss rotated so Ain direction is safe for group."
+        },
+        {
+            "en": "Phase 2 (Adds)",
+            "g": "-Sephirot summons Binah adds then Storm of Words, then Cochma adds. Adds must die quickly or Revelation wipes raid. Storm of Words leaves an air current used to avoid Impact of Hod swing.",
+            "d": "-Burn Binah adds first, then Cochmas. Watch Storm of Words; kill before Revelation.\n-Use airflow from add death to dodge Impact of Hod sweep.",
+            "h": "-Heal tanks on Cochmas and Binahs; manage add explosion splash.\n-Stand in wind currents left behind by dying adds to avoid sweeps.",
+            "t": "-Off‑tanks pick up Binahs, MT holds Cochmas.\n-Face adds away from group and reposition after air current spawns."
+        },
+        {
+            "en": "Phase 3 (Giant Phase)",
+            "g": "-Pillar of Mercy: blue punch zones with knockback.\n-Earthshakers: markers sending players to edges.\n-Fiendish Wail: requires two players in towers.\n-Yesod: yellow AoE + vulnerability debuff.",
+            "d": "-Avoid knockbacks by standing inside punch zones; split edges during Earthshakers.\n-Occupy separate pillars for Wail if marked.",
+            "h": "-Shield and heal during Wail and Yesod overlaps.\n-Prepare burst heals after Life Force and AoE combos.",
+            "t": "-One tank per tower during Wail; both must stand inside.\n-Face boss away and kite knockback toward edge safely."
+        }
+        ]
       }
     }
   },
@@ -4174,13 +4249,40 @@
     }
   },
   "569": {
-    "en": "Steps of Faith",
+    "en": "The Final Steps of Faith",
     "maps": {
       "307": {
-        "en": "Steps of Faith",
-        "d": "...",
-        "h": "...",
-        "t": "..."
+        "en": "The Final Steps of Faith",
+        "st": [
+        {
+            "en": "Phase 1",
+            "g": "-Nidhogg begins with frontal cleaves (Scarlet Whisper on tank) and Deafening Bellow; launches Horror Roar circles under players and flies off to cast Cauterize across the arena, leaving fire trail.\n-Hot Wing and Hot Tail patterns alternate on return: safe zones are lines from head‑to‑tail or edges.",
+            "d": "-Stack near boss tail for Deafening Bellow and avoid circles; after fly‑off, stack center then spread for fire trail timing.\n-Reposition immediately out of Roar zones and avoid line sweeps.",
+            "h": "-Keep party topped off before Deafening Bellow and kite out of Roar safely.\n-Heal through overlapping fire trail and Hot Wing/Tail damage between mechanics.",
+            "t": "-Face boss away from party; adjust orientation to bait line AoEs outward safely.\n-Position early to avoid cross‑fire and fire trail pathing."
+        },
+        {
+            "en": "Phase 2",
+            "g": "-At ~80%, Nidhogg summons three adds: Shadow Falak (cone), Shadow Brobinyak (swipe), and Shadow Dragon (random target). Must be killed quickly or adds blow up Nidhogg and trigger wipe via Final Chorus.",
+            "d": "-Help burn adds fast; avoid Falak cone and Brobinyak swipe by repositioning.\n-Use Limit Break if adds survive too long; stay spread to minimize collateral splash.",
+            "h": "-Assign one healer per tank for add burn and shielding; heal off‑tank especially on swipe hits.\n-Prep for final chorus transition if adds bleed through.",
+            "t": "-Tank Falak and Brobinyak separately, facing them away; off‑tank grabs Dragon if targeted.\n-Move adds out of group and ensure clean enmity control."
+        },
+        {
+            "en": "Phase 3",
+            "g": "-After add clear or delay, resurrection/transformation into Phase 3. Nidhogg uses Ala Morn tankbuster, Geirskogul line AoEs, High Jump puddles, and Super Jump proximity markers.",
+            "d": "-Spread for puddles then dodge Geirskogul lines; bait Super Jump away from others.\n-Move to edges for High Jump drops then reposition quickly.",
+            "h": "-Shield and heal through Ala Morn; focus on puddle-hit players immediately.\n-Cleanse bleed from puddles and mitigate knockback and line damage overlap.",
+            "t": "-Tank swap for Ala Morn; face boss away and keep positioning for clean line bait.\n-Hold puddle‑marked adds off center and move off Biot to prevent overlaps."
+        },
+        {
+            "en": "Phase 4",
+            "g": "-At ~25–30%, Nidhogg uses Bloodrage and returns with new combos: Akh Morn stack marker (repeating raid‑wide cleaves), plus alternating Hot Wing/Tail, more Geirskogul and High Jump marks.",
+            "d": "-Stack tightly under Akh Morn mark until cleaves finish, then spread for Hot Wing/Tail patterns.\n-Maintain awareness for Geirskogul angles and avoid overlapping High Jump circles.",
+            "h": "-Use group cooldowns before Akh Morn; heal through chained cleaves and break stacks cleanly.\n-Prime shields on return of Bloodrage to soften entire raid damage.",
+            "t": "-Maintain boss oriented inward to channel knockbacks safely; hold stack during Akh Morn.\n-Face away for cleaves and keep space for puddles and line AoEs to resolve safely."
+        }
+        ]
       }
     }
   },
@@ -4259,10 +4361,30 @@
     "en": "Containment Bay P1T6",
     "maps": {
       "334": {
-        "en": "Containment Bay P1T6",
-        "d": "...",
-        "h": "...",
-        "t": "..."
+        "en": "Sophia",
+        "st": [
+        {
+          "en": "Phase 1",
+          "g": "-Sophia starts with Thunder II (frontal cleave), followed by Thunder III (donut AoE where safe spot is close or far).\n-Followed by Aero III (centered AoE with knockback) and Daughter adds that cast Light Dew line AoEs.\n-Proximity markers appear under players that must be moved away from to avoid extra damage.",
+          "d": "-Stack behind marked players during Fiendish Rage / stack markers to share damage from Thunder.\n-Avoid front-facing during Thunder II and stay either very close or far away during Thunder III.",
+          "h": "-Shield before Thunder II and Aero III. Prep for follow-up damage from Light Dew and proximity markers.\n-Stay mobile to avoid crowding into final knockbacks and proximity fields.",
+          "t": "-Face Sophia away from the raid at all times. Immediately reposition after Aero III to avoid pushing teammates off.\n-Keep spatial awareness when Daughter appears and line-casts are cast."
+        },
+        {
+          "en": "Phase 2",
+          "g": "-Sophia casts Cloudy Heavens to become invulnerable and marks all players with Eternal Doom.\n-Three Demiurge adds spawn (Paladin, Healer, Lancer) and must be killed quickly—failure triggers Zombification and wipe.",
+          "d": "-Burn Demiurges rapidly in priority order: healer first, paladin last for directional parry.\n-Avoid lingering in frost puddles dropped by the lancer Demiurge.",
+          "h": "-Help dispel the confusion gaze from the healer Demiurge.\n-Focus healing during AoE bursts from Demiurge adds and monitor Eternal Doom timers.",
+          "t": "-Off‑tank picks up Binah/Cochma or relevant Demiurges quickly; MT handles others.\n-Face adds away and avoid causing turmoil with parry mechanics on Paladin Demiurge."
+        },
+        {
+          "en": "Phase 3",
+          "g": "-Sophia casts Quasar, spawning scales on east and west. Meteors fall outside: orange =1, blue =3. Arena tilts toward heavier side.\n-Players slide toward low side—positioning near edge and avoiding frost puddles from Phase 2 is crucial.\n-Sophia also casts Sin & Punishment (light/dark ring markers) and Cintamani (always wipes if markers not paired).",
+          "d": "-Stand on the side opposite any blue meteor and at arena edge to avoid sliding off.\n-For Sin & Punishment, pair light with dark markers—max two players per stack to avoid damage.",
+          "h": "-Avoid sliding into lingering frost rings; stay mobile and aware of scale orientation.\n-Coordinated healing for paired markers and cleansing debuffs from Cintamani phase as required.",
+          "t": "-Guide facing outward to prevent knockbacks pushing group off edge.\n-Aim positioning to keep Sophia centered and away from icy puddles before scale tilt."
+        }
+      ]
       }
     }
   },
@@ -4838,10 +4960,37 @@
     "en": "Containment Bay Z1T9",
     "maps": {
       "353": {
-        "en": "Containment Bay Z1T9",
-        "d": "...",
-        "h": "...",
-        "t": "..."
+        "en": "Zurvan",
+        "st": [
+        {
+          "en": "Phase 1",
+          "g": "-Platform segments collapse in order: East → North → West → South. Touching a falling edge means instant death.\n-Zurvan uses Metal Cutter (frontal cleave) and drops Flare Star puddles on random players.",
+          "d": "-Avoid standing near edges and behind boss to dodge cleave.\n-Stack bait for Flare Stars then move as patterns develop.",
+          "h": "-Pre‑shield before Metal Cutter and puddle drops.\n-Heal through raindrop AoEs and reposition team away from dying floor tiles.",
+          "t": "-Keep Zurvan facing away from raid and centrally positioned.\n-Shift boss as the platform collapses to prevent edge exposure."
+        },
+        {
+          "en": "Phase 2",
+          "g": "-Zurvan leaps with Soar causing clones that cast line AoEs.\n-Flaming Halberd: player trails.\n-Demonic Dive: stack/stagger.\n-Wave Cannon: line on tank.\n-AoEs: Ice Puddle, Biting Halberd (cone), Southern Cross, Ciclicle (donut), and Tail End (edge circle).",
+          "d": "-Follow safe zones for Soar patterns and avoid overlap in Halberd trails.\n-Stack for Demonic Dive then dodge line, cone, donut, and edge AoEs in order.",
+          "h": "-Coordinate small stacks and shields for stagger and AoE chain.\n-Heal raid through overlap of ice puddles and donut hits.",
+          "t": "-Rotate between Halberd lines; reposition boss mid-chain to keep group safe.\n-Predict Tail End and guide raid toward arena edge."
+        },
+        {
+          "en": "Phase 3",
+          "g": "-Waves of adds arrive: Thews, Wills, and Wit. All must be defeated to continue; left alive they trigger wipes or destabilize later phases.",
+          "d": "-Focus DPS to burn adds quickly, prioritizing Wit and Will in that order..\n-Keep spread to minimize splash damage from AoE from adds.",
+          "h": "-Assign healer to the caster add (Wit) and shield tanks strapped to melee adds.\n-Heal through explosion damage and prepare for transition damage spike.",
+          "t": "-Off-tank grab Execrated Wills/Wit.\n-Position adds safely to avoid platform edge and overlapping AoEs."
+        },
+        {
+          "en": "Phase 4",
+          "g": "-Returns to Phase 2-style mechanics with added Broken Seal: players receive Fire or Ice tethers, meteors spawn in patterns. Mist-matched soaking or unsoaked meteors cause Vulnerability debuff.\n-Tyrfing tankbusters increase in hit count each cast.",
+          "d": "-Tether correctly by fire/ice; coordinate safe soaking and avoid multiple AoEs.\n-Stack or spread as needed and sidestep cone AoEs; watch for vulnerability stacking.",
+          "h": "-Share stacking for Demonic Dive/Wave Cannon.\n-Mitigate contagion of vulnerabilities and match meteor soaking patterns quickly.",
+          "t": "-External developers only: tank switch appropriately for Tyrfing escalation.\n-Keep orientation and positioning tight as arena fractures renew Soar and line mechanics."
+        }
+      ]
       }
     }
   },
