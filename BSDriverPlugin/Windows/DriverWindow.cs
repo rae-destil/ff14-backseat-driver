@@ -15,9 +15,6 @@ public class DriverWindow : Window, IDisposable
     private Plugin Plugin;
     private Configuration Configuration;
 
-    // We give this window a hidden ID using ##
-    // So that the user will see "My Amazing Window" as window title,
-    // but for ImGui the ID is "My Amazing Window##With a hidden ID"
     public DriverWindow(Plugin plugin, Configuration config)
         : base("Backseat Driver##imdumb", ImGuiWindowFlags.AlwaysAutoResize)
     {
