@@ -1,0 +1,12 @@
+{
+  "Author": "Raytheon Vers",
+  "Name": "Backseat Driver",
+  "Punchline": "Get tips for your role when entering a dungeon.",
+  "Description": "Get Tank, DPS, and healer-specific advice when loading into an instance - no need to frantically google!",
+  "ApplicableVersion": "any",
+  "Tags": [
+    "raid",
+    "plugin",
+    "helper"
+  ]
+}
