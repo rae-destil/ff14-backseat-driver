@@ -3867,9 +3867,9 @@
       "286": {
         "en": "Ratfinx Twinkledinks",
         "g": "-Ratfinx changes size and uses different mechanics depending on his form.\n-Giant form uses Boost (buff) followed by Bombs Away (slams based on player position); small form summons adds and uses AoEs.\n-Players can transform into creatures using syringes on the sides to interact with bombs or avoid mechanics.",
-        "d": "-Use red syringe to become a gorilla and push bombs away before Bombs Away.\n-Burn adds quickly in small form to avoid being overwhelmed.",
+        "d": "-Burn adds quickly in small form to avoid being overwhelmed.",
         "h": "-Watch for tank damage spikes during Boost and Bombs Away.\n-AoE heal during add phases and after large AoEs like Missile.",
-        "t": "-Swap at 4 stacks of Headache debuff in giant form.\n-Pick up adds in small form and position boss for safe bomb handling."
+        "t": "-Swap at 4 stacks of Headache debuff in giant form.\n-Use red syringe to become a gorilla and push bombs away before Bombs Away."
       }
     }
   },
@@ -9220,18 +9220,18 @@
     "en": "The Praetorium",
     "maps": {
       "56": {
-        "en": "Command Chamber → Magitek Colossus",
-        "g": "-Escort through mobs, using Magitek transporter to transition.\n-Avoid marked AoEs from the Colossus (conal cleave, circle lasers).",
-        "d": "-Use AoE skills during escort pulls.\n-Dodge Prototype Laser markers quickly.",
-        "h": "-Spot‐heal the tank during pulls before engaging boss.\n-Keep raid topped before Colossus adds/shockwaves.",
-        "t": "-Pull groups tightly for efficient escort.\n-Keep boss faced away and use cooldowns on colossus cleaves."
+        "en": "Command Chamber → Magitek Colossus - trash pull 1",
+        "g": "...",
+        "d": "...",
+        "h": "...",
+        "t": "..."
       },
       "99": {
-        "en": "Command Chamber → Magitek Colossus",
-        "g": "-Escort through mobs, using Magitek transporter to transition.\n-Avoid marked AoEs from the Colossus (conal cleave, circle lasers).",
-        "d": "-Use AoE skills during escort pulls.\n-Dodge Prototype Laser markers quickly.",
-        "h": "-Spot‐heal the tank during pulls before engaging boss.\n-Keep raid topped before Colossus adds/shockwaves.",
-        "t": "-Pull groups tightly for efficient escort.\n-Keep boss faced away and use cooldowns on colossus cleaves."
+        "en": "Command Chamber → Magitek Colossus - trash pull 2",
+        "g": "...",
+        "d": "...",
+        "h": "...",
+        "t": "..."
       },
       "100": {
         "en": "Command Chamber → Magitek Colossus",
