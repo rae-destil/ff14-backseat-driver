@@ -780,7 +780,7 @@
       },
       "97": {
         "en": "Chimera",
-        "g": "-Uses two gaze-based attacks: Dragon’s Voice (move away) and Ram’s Voice (move in).\n-Ice and lightning AoEs target random players.\n-Gaze attack (Eyes on Me) requires looking away.",
+        "g": "-Uses two gaze-based attacks: Purple = move in, Blue = move away.\n-Ice and lightning AoEs target random players.+",
         "d": "-React correctly to voice tells or risk heavy damage.\n-Turn from Eyes on Me to avoid stun and damage.",
         "h": "-High punishment if players fail voice or gaze mechanics.\n-Save healing tools for post-mechanic recoveries.",
         "t": "-Position boss center for consistent movement.\n-Maintain uptime while moving in/out of AoEs safely."
@@ -4446,10 +4446,10 @@
       },
       "327": {
         "en": "Refurbisher 0",
-        "g": "-Arena split into 4 quadrants with intermittent lava—adds must be dragged into lava to melt, otherwise boss absorbs them and gains powers. Full‑metal Faust spawns tethered and also must be killed in lava area or raid wipes.\n-Boss uses Scrap (tankbuster), Scrapline cleaves, Scrap Burst (hide behind meteor), and Scrap Bomb stack markers.",
-        "d": "-Pull adds into the next lava quadrant for auto-melt; kill Faust on safe lava panel before it absorbs or explodes.\n-Hide behind meteors to negate Scrap Burst and stack properly during bomb markers.",
-        "h": "-Keep raid topped before magma waves and meteor bursts; coordinate shields during Scrap Bomb.\n-Watch HP of players near Faust and panel edges during lava phase.",
-        "t": "-Main tank holds boss facing away; off‑tank grabs Faust and moves it to the upcoming lava panel for detonation.\n-Swap only if vulnerability stacks get dangerous; otherwise hold steadily."
+        "g": "-Arena split into 4 quadrants with intermittent lava.\n-Adds must be dragged into lit platforms before lava's in' to melt, otherwise boss absorbs them and gains powers.\n-Full‑metal Faust same mechanic but has extra HP.\n-Boss uses Scrap (tankbuster), Scrapline cleaves, Scrap Burst (hide behind meteor), and Scrap Bomb stack markers.",
+        "d": "-When off-tank pulls adds, focus them as they must die ASAP.",
+        "h": "-Keep eye on off-tank when they pull adds.",
+        "t": "-Main tank holds boss facing away.-\nOff-tank: grab power generators and put on robot piles to wake them up.\n-Pull activated robots to the lit panel - lava will sweep in and melt the defeated robot.\n-Adds explode if alive when lava's in, wiping the raid.\n-Full metal faust has a lot of HP, drag to the party and into a lit panel only as it gets close to dying."
       }
     }
   },
