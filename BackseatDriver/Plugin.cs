@@ -111,6 +111,7 @@ public sealed class Plugin : IDalamudPlugin
     public TerritoryRoleHints? current_territory_hint { get; set; }
     public MapRoleHints? current_map_hint { get; set; }
     private bool waitingForPlayer = false;
+    private uint lastLoadedMapId;
 
     private static readonly Dictionary<uint, Role> ClassJob_To_Role = new()
     {
@@ -219,6 +220,11 @@ public sealed class Plugin : IDalamudPlugin
 
             _loadCurrentMapHints();
         }
+
+        if (ClientState.LocalPlayer is not null && this.lastLoadedMapId != ClientState.MapId)
+        {
+            _loadCurrentMapHints();
+        }
     }
 
     private void OnTerritoryChanged(ushort newTerritoryId)
@@ -236,6 +242,7 @@ public sealed class Plugin : IDalamudPlugin
     {
         this.current_territory_hint = null;
         this.current_map_hint = null;
+        this.lastLoadedMapId = 0;
 
         var localPlayer = Plugin.ClientState.LocalPlayer;
         if (localPlayer == null || !localPlayer.ClassJob.IsValid)
@@ -271,6 +278,7 @@ public sealed class Plugin : IDalamudPlugin
         Log.Information($"Loaded hints for {territory_hint.en_name} ({territoryId}) - {hint.en_name} ({mapId}) for job {jobStr} ({jobId}).");
         this.current_territory_hint = territory_hint;
         this.current_map_hint = hint;
+        this.lastLoadedMapId = mapId;
     }
 
     private void OnImmediateHintCmd(string command, string args)
