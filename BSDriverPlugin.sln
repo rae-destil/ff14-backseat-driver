@@ -10,8 +10,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackseatDriver", "BackseatD
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "map_enumerator", "map_enumerator\map_enumerator.pyproj", "{219A087D-BC6D-4292-90EF-E2185C70A1F5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "plugin_tester", "plugin_tester\plugin_tester.csproj", "{6C745FDA-D9FC-42CC-BD47-5F7AA0246787}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "instances_compressor", "instances_compressor\instances_compressor.csproj", "{27D6D27C-518F-48B2-B3FE-690B8A992EE8}"
 EndProject
 Global
@@ -34,14 +32,6 @@ Global
 		{219A087D-BC6D-4292-90EF-E2185C70A1F5}.Debug|x64.ActiveCfg = Debug|Any CPU
 		{219A087D-BC6D-4292-90EF-E2185C70A1F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{219A087D-BC6D-4292-90EF-E2185C70A1F5}.Release|x64.ActiveCfg = Release|Any CPU
-		{6C745FDA-D9FC-42CC-BD47-5F7AA0246787}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6C745FDA-D9FC-42CC-BD47-5F7AA0246787}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6C745FDA-D9FC-42CC-BD47-5F7AA0246787}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{6C745FDA-D9FC-42CC-BD47-5F7AA0246787}.Debug|x64.Build.0 = Debug|Any CPU
-		{6C745FDA-D9FC-42CC-BD47-5F7AA0246787}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6C745FDA-D9FC-42CC-BD47-5F7AA0246787}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6C745FDA-D9FC-42CC-BD47-5F7AA0246787}.Release|x64.ActiveCfg = Release|Any CPU
-		{6C745FDA-D9FC-42CC-BD47-5F7AA0246787}.Release|x64.Build.0 = Release|Any CPU
 		{27D6D27C-518F-48B2-B3FE-690B8A992EE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{27D6D27C-518F-48B2-B3FE-690B8A992EE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{27D6D27C-518F-48B2-B3FE-690B8A992EE8}.Debug|x64.ActiveCfg = Debug|Any CPU
