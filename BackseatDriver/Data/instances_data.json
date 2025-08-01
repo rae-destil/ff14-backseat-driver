@@ -5342,9 +5342,29 @@
     "maps": {
       "400": {
         "en": "The Blessed Treasury",
-        "d": "...",
-        "h": "...",
-        "t": "..."
+        "st": [
+        {
+          "en": "Susano – Phase 1",
+          "g": "-Assail: Untargeted tankbuster with no cast bar.\n-Rasen Kaikyo: Drops puddles under all players; quickly vacate to avoid stacking Lightning Resist Down.\n-Brightstorm: One player is knocked back, then marked—stack to share damage and stand in the thin safe column.\n-Dark Cloud: Clouds spawn at arena edges and cast line AoEs; bait them away from the party.",
+          "d": "-Stack behind the main tank for Brightstorm.\n-Move shards away from puddles quickly and avoid cloud laser paths.",
+          "h": "-Pre‑shield before tankbuster and stack heal on Brightstorm target.\n-Heal through knockback and resist-down spill damage.",
+          "t": "-Hold boss centrally and face away to maintain safe knockback paths.\n-Raid follows behind tank to share Brightstorm damage."
+        },
+        {
+          "en": "Susano – Phase 2",
+          "g": "-Susano vanishes, summoning Blade Shadows and Ame-no-Murakumo swords.\n-One tank must claim the sword to shield the party (click the marker).\n-Off‑tank must destroy Shock Orbs spawning around. Ame-no-Murakumo must be killed before cast completes or wipes.\n-Afterwards a red line sweeps the arena center—avoid it.",
+          "d": "-DPS the sword and sword adds immediately.\n-Do not stand in red line post-Clash.",
+          "h": "-Tank clash needs focused mitigation and healing.\n-Heal players affected by Shock Orb splash or blade slam.",
+          "t": "-Main tank must interact with Blade’s Shadow and mash buttons.\n-Off‑tank handles Shock Orbs quickly and repositions for clean clash."
+        },
+        {
+          "en": "Susano – Phase 3",
+          "g": "-Resumes Phase 1 mechanics plus new ones:\n• Stormsplitter: Heavy tankbuster with tank swaps.\n• Ukehi: Raidwide moderate damage, sometimes twice.\n• Earth & Stone + Sealed Gate: One player trapped in stone prison among fakes—must free correct stone quickly or the trapped player dies.\n• Lupin: Levin Bolt markers place puddles—jump across arena to avoid overlap.",
+          "d": "-Avoid overlapping puddles from Levin Bolt (jump across dividing line).\n-Keep moving to dodge Dark Cloud lasers and resist-down puddles.",
+          "h": "-Shield pre‑Stormsplitter, heal through Ukehi chains.\n-Manage party priorities during Earth & Stone rescue.\n-Prepare healing around multiple Levin Bolt hits.",
+          "t": "-Cooldown Stormsplitter and swap tanks due to stack debuff.\n-Track prisons and break correct Ama‑no‑Iwato swiftly."
+        }
+      ]
       }
     }
   },
@@ -5624,10 +5644,11 @@
     "en": "Emanation",
     "maps": {
       "399": {
-        "en": "Emanation",
-        "d": "...",
-        "h": "...",
-        "t": "..."
+        "en": "Lady of Bliss: Lakshmi",
+        "g": "-Main mechanic is Vril, which disables certain moves.\n-Use Vril on: Divine Denial, Pull of Light.\n-Kill Dreamer Ananta adds first to break shield.\n-Hand of Beauty: circles on players—spread far.\n-Divine Denial: knockback—use Vril or be pushed off.\n-Pull of Light: tankbuster + knockback—Vril required.\n-Pall of Light: stack marker—stand together UNLESS MARKED.\n-Vril orbs appear during add phase—grab only one.\n-Adds with bubbles restore Vril—kill those first.",
+        "d": "-Spread for circles, move out for crosses.\n-Use Vril on knockbacks. Avoid double Vril pickup.",
+        "h": "-Shield before Divine Denial and Stotram.\n-Top up party during adds and post-stack hits.",
+        "t": "-Grab boss, face away.\n-Handle tankbusters with Vril and cooldowns. Don’t waste Vril early."
       }
     }
   },
@@ -5684,9 +5705,29 @@
     "maps": {
       "383": {
         "en": "The Royal Menagerie",
-        "d": "...",
-        "h": "...",
-        "t": "..."
+        "st": [
+        {
+          "en": "Phase 1",
+          "g": "-Watch Corrupted Aether gauge—Tidal Wave will knock back from water spout.\n-Stand beside spout to reduce push and damage.\n-Hellfire requires standing in puddles to survive.\n-Wing glows: right wing = spread for lightning; left wing = dodge icy wing swipes.\n-Akh Morn is a multi-hit cleave on tank—stack to share.",
+          "d": "-Move out for Earth Breath cones.\n-Handle wing glows properly and don’t get pushed off by Tidal Wave.",
+          "h": "-Shield before Hellfire and Tidal Wave.\n-Top off party after Earth Breath and Akh Morn.",
+          "t": "-Mitigate Akh Morn and face boss away.\n-Position correctly for wing mechanics and knockback safety."
+        },
+        {
+          "en": "Phase 2 (Add Phase)",
+          "g": "-Hakkinryu and Ginryu spawn—kill quickly.\n-Avoid proximity spawns by moving away from drop points.\n-Players get tethered by Burning Chains—run apart to break.\n-Breakthrough event: all players must press buttons to fill gauge.",
+          "d": "-Avoid spawn zones and focus down adds fast.\n-Break tethers quickly and prep for Phase 3 shift.",
+          "h": "-Spot heal players who fail to dodge spawn damage.\n-Stay mobile to avoid AoEs while healing.",
+          "t": "-Grab aggro on both adds and tank separately.\n-Mitigate add cleaves and help maintain boss position."
+        },
+        {
+          "en": "Phase 3",
+          "g": "-More Aether types appear: Diamond Dust (freeze—stand still), Aerial Blast (stay near center), Judgment Bolt (avoid puddles).\n-Tail Slam: tiles marked—destroy tail if vulnerable.\n-Spikecycle: alternating lines across platform—find safe gaps.\n-Line Charge: wide AoE charge—dodge or Sprint.\n-Akh Morn returns, now heavier.\n-Ending with Imperial Summons + heavy raid damage.",
+          "d": "-Break tethers and avoid puddles as required.\n-Destroy tail and find safe tiles. Watch for charge paths.",
+          "h": "-Shield before Judgment Bolt and Akh Morn.\n-Cleanse or rescue frozen players. Heal through final damage burst.",
+          "t": "-Handle stronger Akh Morn stacks and assist with tail.\n-Tank tail if alive; face boss carefully for charge and wings."
+        }
+      ]
       }
     }
   },
@@ -5929,9 +5970,36 @@
     "maps": {
       "450": {
         "en": "The Jade Stoa",
-        "d": "...",
-        "h": "...",
-        "t": "..."
+        "st": [
+        {
+          "en": "Phase 1",
+          "g": "-Storm Pulse: raid‑wide damage, no escape.\n-Heavenly Strike: heavy tankbuster—mitigate.\n-State of Shock: player grabbed and slammed; others stack at marker twice; AoEs back‑to‑back.\n-Sweep of the Leg: 270° cleave right after shock—safe only behind boss.\n-Unrelenting Anguish: red orbs swirl outward—dodge constantly.\n-Fire & Lightning: column AoE from boss or edge—move fast to avoid.\n-Hakutei appears at end of phase.",
+          "d": "-Stack at markers promptly for State of Shock.\n-Move behind boss immediately for Sweep of the Leg.",
+          "h": "-Shield before Heavenly Strike and shock slams.\n-Spread for State of Shock soak and heal through Fire & Lightning overlap.",
+          "t": "-Use cooldown for Heavenly Strike.\n-Keep off‑tank ready for second slam; face boss away to protect group."
+        },
+        {
+          "en": "Phase 2",
+          "g": "-Hakutei spawns—tanked off‑tank and tank face away.\n-Aramata puddles drop—marked players should place them at edge.\n-White Herald: tank slammed at spread marker; others must spread.\n-Fire & Lightning follows systematically.\n-Roar of Thunder: massive AoE; damage depends on Hakutei’s remaining HP.\n-After roar, players fall into Free‑Fall phase.",
+          "d": "-Move puddles to edge quickly.\n-Avoid cluster after Herald; don’t delay Fire & Lightning dodge.",
+          "h": "-Shield spread for Herald slam.\n-Top off party before Roar based on Tiger’s HP.",
+          "t": "-Tank flip for Herald; FTK off‑tank handles cleave.\n-Keep Hakutei angled away from group and near edge."
+        },
+        {
+          "en": "Free‑Fall Transition",
+          "g": "-Players fall through air with no actions possible.\n-Avoid spark orbs, line AoEs, and center donut markers while falling.\n-Touching outer ring kills instantly.\n-After landing, survivors get hit with Fell Swoop—instant raidwide.",
+          "d": "-Look down and move to clear zones to survive the fall.",
+          "h": "-Cannot heal—survival depends on movement during fall.",
+          "t": "-Position yourself near safe zones when landing; prepare for Fell Swoop."
+        },
+        {
+          "en": "Phase 3",
+          "g": "-Hundredfold Havoc fires twin sets of arrow-guided circle AoEs—dodge second wave mid‑pattern.\n-Bombogenesis: orange markers drop—spread markers apart.\n-Distant Clap: wide donut AoE with safe space under boss.\n-Fight loops previous mechanics until death or enrage.",
+          "d": "-Wait for first Havoc wave then move into safe space.\n-Spread for Bombogenesis; avoid overlapping markers.",
+          "h": "-Shield before Havoc; mitigate Bomb overlaps.\n-Raid heal before Distant Clap and after loops.",
+          "t": "-Face boss away and reposition behind him during Havoc.\n-Stay under him safely through Distant Clap."
+        }
+      ]
       }
     }
   },
@@ -6301,9 +6369,29 @@
     "maps": {
       "479": {
         "en": "Castrum Fluminis",
-        "d": "...",
-        "h": "...",
-        "t": "..."
+        "st": [
+        {
+          "en": "Phase 1",
+          "g": "-Torment Unto Death: untelegraphed tankbuster cone—tank must face boss away from party.\n-Zashiki-Asobi: fans explode in spawn order—stand near last fan, then move center.\n-Nightfall: weapon-based—gun = stack, spear = spread.\n-Reprimand: moderate raidwide.\n-Midnight Haze: kill tethered adds before they collide.\n-Lead of the Underworld: stack line marker—stack with target or intercept tether.",
+          "d": "-Adjust position based on Nightfall weapon.\n-Move safely during Zashiki-Asobi and break tethers quickly.",
+          "h": "-Shield before Reprimand.\n-Watch for party damage after tethers or fan explosions.",
+          "t": "-Face boss away for tankbuster.\n-Intercept Lead tethers and reposition between mechanics."
+        },
+        {
+          "en": "Add Phase",
+          "g": "-Nightbloom starts add phase—deals raidwide and stuns.\n-Suffering gauge rises as adds live—wipe at 100%.\n-Waves of Specters spawn; kill quickly.\n-Zenos Specter causes knockback and AoEs—deal with safely.",
+          "d": "-Focus DPS on adds to prevent gauge filling.\n-Avoid knockback paths when Zenos spawns.",
+          "h": "-Heal through Nightbloom and add phase hits.\n-Top off after stuns or knockbacks.",
+          "t": "-Grab aggro on incoming adds.\n-Move Zenos add away from group if needed."
+        },
+        {
+          "en": "Phase 3 & 4",
+          "g": "-Selenomancy: standing in light/dark builds stacks—switch sides before 5.\n-Orbs drop donut AoEs—watch your footing.\n-Antitwilight/Perilune: raidwide—stand on meteor safe zone.\n-Dance of the Dead: heavy raidwide damage.\n-Lunacy: stack marker that hits multiple times.\n-Dark/Bright Blade: cone AoEs left or right—adjust based on moon phase.",
+          "d": "-Switch sides during Selenomancy.\n-Stack for Lunacy, avoid Blade cones.",
+          "h": "-Heal during Selenomancy and after Dance of the Dead.\n-Shield before Lunacy and moon blade attacks.",
+          "t": "-Position boss to avoid cleaving group during blades.\n-Manage tank mitigation during stack hits."
+        }
+      ]
       }
     }
   },
@@ -6533,10 +6621,11 @@
     "en": "Hells' Kier",
     "maps": {
       "503": {
-        "en": "Hells' Kier",
-        "d": "...",
-        "h": "...",
-        "t": "..."
+        "en": "Suzaku",
+        "g": "-Kill Scarlet Lady adds quickly—they tether to DPS and apply fire DoT; if left, they revive and wipe via Ashes to Ashes. Stack and AOE them down together. \n-Screams of the Damned: unavoidable raidwide. \n-Screams repeats post-mechanical sequences. \n-Phoenix Down: flaming plumes appear in set pattern; kill small plumes first, then central to create safe zone. \n-Eternal Flame phase: absorb orbs by facing arrow marks; failure increases Scarlet Fever damage. \n-In final arena: avoid falling off edges or through centre hole. Mechanics include Southron Star (raidwide), Mesmerizing Melody or Ruthless Refrain (pull or knockback), Well of Flame + Rekindle (spread marker and dodge), Phantom Flurry (tankbuster + knockback), and Phoenix Pattern: track runes to avoid exploding quadrants. \n-Mechanics repeat until Suzaku is defeated.",
+        "d": "-ON Scarlet Lady spawn, spread and burn quickly to prevent explosive revival. \n-Absorb orbs correctly during Eternal Flame; avoid platform edges in final phase.",
+        "h": "-Shield before Screams and Scarlet Fever. Top off after Scarlet Lady bursts and during Mesmerizing Melody pulls. \n-Heal through Well of Flame overlaps and tether markers.",
+        "t": "-Use cooldowns on Cremate (tankbuster). Face boss away, rotate swiftly after Phantom Flurry to avoid edge knockback. \n-Help AOE down Scarlet Ladies swiftly."
       }
     }
   },
@@ -6716,9 +6805,29 @@
     "maps": {
       "516": {
         "en": "The Wreath of Snakes",
-        "d": "...",
-        "h": "...",
-        "t": "..."
+        "st": [
+        {
+          "en": "Phase 1",
+          "g": "-Fifth Element: raid‑wide damage.\n-Infirm Soul: tankbuster.\n-Onmyo Sigil: boss teleport + AoE—Yin‑yang = move out, serpent ring = stay close.\n-Serpent Descending: 4 players get circle markers—spread to avoid overlap.\n-Kuji‑kiri: grid of line AoEs—stand in gaps.\n-After those, boss summons Wheel Shiki adds and transitions to Phase 2 (Strength of Spirit cast if adds remain).",
+          "d": "-Watch sigils: stay away for Yin‑yang, close for serpent ring.\n-Spread out for Serpent Descending, dodging Kuji‑kiri lines.",
+          "h": "-Pre‑shield before Fifth Element and Infirm Soul.\n-Stack heals for Serpent Descending markers.",
+          "t": "-Use cooldowns for tankbuster.\n-Face boss away to control AoE facing."
+        },
+        {
+          "en": "Phase 2",
+          "g": "-Wheel Shiki: includes Ao‑no‑shiki (stack) and Aka‑no‑shiki (knockback)—tethered DPS should bait them toward edge.\n-Iwa‑no‑shiki add circles, then tethers leading to cones—aim cones away from raid.\n-Ten‑no‑shiki: line AoEs across arena.\n-Head Shiki: Doro and Numa heads explode on death. Stagger kills.\n-Strength of Spirit: triggers if Head Shiki gauge finishes; leads to Dragon’s Wake and transition.",
+          "d": "-Assign Ao‑no‑shiki stack, steer red wheels safely out, dodge Iwa and Ten‑no‑shiki strikes.\n-Stagger Head Shiki kills to reduce healer burst.",
+          "h": "-Heal through explosions and stagger deaths for recovery time.\n-Use long‑duration shields before Strength of Spirit.",
+          "t": "-Grab and tank Wheel Shiki and Head Shiki.\n-Position tethered units away from raid."
+        },
+        {
+          "en": "Phase 3",
+          "g": "-Arena floods then shrinks island; avoid water to keep from drowning.\n-Summon Shiki appears repeatedly: Blue Orochi (Coursing River), Yama‑no‑shiki, and others from Phase 2 in dual sets.\n-Coursing River: snakes run across—stand near them to get pushed inward.\n-Forbidden Arts: two‑hit stack marker.\n-Yama‑no‑shiki slams platform—watch arm signals, avoid red center zone.\n-Force of Nature: explosive AoE at center; stand just outside.\n-Serpent Ascending: 4 meteor circles appear—stand in each or take heavy damage and Damage Down stacks.",
+          "d": "-Stack quickly for Forbidden Arts.\n-Ride Coursing River pushes inward; dodge Serpent Ascending zones.",
+          "h": "-Shield before Forbidden Arts and river damage.\n-Heal spread for ascension circle hits.",
+          "t": "-Face boss for Shiki mechanics.\n-Absorb serpent circle hits if need be and maintain raid positioning."
+        }
+      ]
       }
     }
   },
