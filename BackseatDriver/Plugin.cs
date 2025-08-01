@@ -148,7 +148,7 @@ public sealed class Plugin : IDalamudPlugin
 
     public Configuration Configuration { get; init; }
 
-    public readonly WindowSystem WindowSystem = new("BSDriverPlugin");
+    public readonly WindowSystem WindowSystem = new("BackseatDriver");
     private ConfigWindow ConfigWindow { get; init; }
     private DriverWindow DriverWindow { get; init; }
 
@@ -156,7 +156,7 @@ public sealed class Plugin : IDalamudPlugin
     {
         var assembly = Assembly.GetExecutingAssembly();
 
-        using var stream = assembly.GetManifestResourceStream("BSDriverPlugin.Data.instances_data.json.gz") ??
+        using var stream = assembly.GetManifestResourceStream("BackseatDriver.Data.instances_data.json.gz") ??
             throw new FileNotFoundException($"Resource not found: {"instances_data.json.gz"}");
         using var gzip = new GZipStream(stream, CompressionMode.Decompress);
         using var reader = new StreamReader(gzip, Encoding.UTF8);
