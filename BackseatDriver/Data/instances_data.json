@@ -5491,10 +5491,11 @@
     "en": "Deltascape V1.0",
     "maps": {
       "390": {
-        "en": "Deltascape V1.0",
-        "d": "...",
-        "h": "...",
-        "t": "..."
+        "en": "Alte Roite",
+        "g": "-Monitor boss buffs: Blaze/White Hot/Cold/Deep Freeze dictate response.\n-Stack during Dual Cast + Blaze; spread for Dual Cast + White/Cold.\n-Watch boss casting order to anticipate follow-ups (e.g. Winged + Blaze).\n-Avoid tethers by sidestepping during Tail Slap/Chain Lightning.",
+        "d": "-Save mobility for Winged Reprobation fireballs.\n-Move out quickly during Chain Lightning to avoid chaining.",
+        "h": "-Tankbusters hit hard in quick succession (Flamethrower + Fire).\n-Prepare for AoE healing during Blaze and White Breath overlaps.",
+        "t": "-Main tank: watch Dualcast into Winged Reprobation; reposition accordingly.\n-Off-tank: intercept Chain Lightning if tethered, but avoid unnecessary movement."
       }
     }
   },
@@ -5502,10 +5503,11 @@
     "en": "Deltascape V2.0",
     "maps": {
       "391": {
-        "en": "Deltascape V2.0",
-        "d": "...",
-        "h": "...",
-        "t": "..."
+        "en": "Catastrophe",
+        "g": "-Tilted platforms drop into void; watch quake markers and stay on stable tiles.\n-Earthquake inflicts Hysteria if on unstable platforms—hug safe corners.\n-Black/white puddles require standing in the correct color or you'll be knocked off.\n-Gravitational Manipulation targets one role with knockback—look for arrows.",
+        "d": "-Gravitational Manipulation often targets DPS—adjust quickly to avoid fall.\n-Time movement to puddles and safe tiles without interrupting uptime.",
+        "h": "-Big roomwide AoEs after Earthquake combos; pre-shield before quake.\n-Watch for delayed damage from knockback failures or fear debuff.",
+        "t": "-Main tank: boss moves frequently—recenter quickly after tilt phases.\n-Off-tank: help locate quake marker and preposition party accordingly."
       }
     }
   },
@@ -5513,13 +5515,15 @@
     "en": "Deltascape V3.0",
     "maps": {
       "392": {
-        "en": "Deltascape V3.0",
-        "d": "...",
-        "h": "...",
-        "t": "..."
+        "en": "Halicarnassus",
+        "g": "-Watch for spell cues: normal cast = real, upside-down = reversed.\n-Platform turns into a board game; follow visual cues to avoid danger tiles.\n-Frogs must bait AoEs and avoid clipping others.\n-Adds phase requires splitting to interrupt casts simultaneously.",
+        "d": "-Move quickly to safe tiles during board phase; pay attention to glyph orientation.\n-If transformed into a frog, bait AoEs away from the party.",
+        "h": "-Party-wide AoEs follow most spell mechanics—anticipate overlap damage.\n-Adds phase can get chaotic—track split groups to keep both sides alive.",
+        "t": "-Main tank: pick up adds quickly during add phase.\n-Off-tank: interrupt your assigned add; coordinate to avoid missed casts."
       },
       "393": {
-        "en": "Deltascape V3.0",
+        "en": "Sandy Maze",
+        "g": "Git gud.",
         "d": "...",
         "h": "...",
         "t": "..."
@@ -5530,10 +5534,11 @@
     "en": "Deltascape V4.0",
     "maps": {
       "394": {
-        "en": "Deltascape V4.0",
-        "d": "...",
-        "h": "...",
-        "t": "..."
+        "en": "Exdeath",
+        "g": "-Watch for elemental cast indicators: Thunder = spread, Blizzard = stack, Fire = bait/explode.\n-Void Tornado and Black Hole require precise movement or knockback immunity.\n-During Decisive Battle, Exdeath gains new void mechanics—check cast name carefully.",
+        "d": "-Adjust positioning early for elemental spells to avoid rushed movement.\n-Bait Fire AoEs away from others during Fire III orbs.",
+        "h": "-High raid damage during Decisive Battle; pre-shield and pre-position.\n-Void mechanics have delay—don't top off too early or you'll waste heals.",
+        "t": "-Main tank: reposition away from party during Fire spells to control AoE.\n-Off-tank: assist with add pickup in Decisive Battle; don’t overlap tethers or AoEs."
       }
     }
   },
@@ -6011,10 +6016,11 @@
     "en": "Sigmascape V1.0",
     "maps": {
       "446": {
-        "en": "Sigmascape V1.0",
-        "d": "...",
-        "h": "...",
-        "t": "..."
+        "en": "Phantom Train",
+        "g": "-Players are pulled toward open train doors—run away to avoid being sucked in.\n-Ghosts must be defeated in cabooses; interact with shackles to enter.\n-Stack for AoEs like Diabolic Whistle; spread for Doom Strike tethers.\n-Stay off train tracks during Head-On/Diabolic Head to avoid instant KO.\n-When a ghost per-player spawns, take one and kill it in the place you're teleported to.'",
+        "d": "-Assign ghost-duty pairs early to minimize delay during shackle phase.\n-Avoid track AoEs and be ready to reposition quickly after door pull.",
+        "h": "-Prepare for spike AoE healing after ghost phase.\n-Use movement tools to avoid door suction without dropping healing uptime.",
+        "t": "-Main tank: face train away from party during frontal attacks.\n-Off-tank: handle ghost cars if assigned; help intercept Doom Strike tethers."
       },
       "452": {
         "en": "Sigmascape V1.0",
@@ -6076,10 +6082,11 @@
     "en": "Sigmascape V2.0",
     "maps": {
       "447": {
-        "en": "Sigmascape V2.0",
-        "d": "...",
-        "h": "...",
-        "t": "..."
+        "en": "Chadarnook",
+        "g": "-Boss alternates between painting forms (Demonio and Madonna); each has unique mechanics.\n-During painting casts, avoid marked tiles or get in safe zones based on art cues.\n-Cleanse “Haunting” by entering light puddles before timer expires.\n-Avoid AoEs while baiting paintings during Madonna form.",
+        "d": "-Don’t tunnel: painting casts need fast reaction to floor markers.\n-Move early to bait paintings safely away from group.",
+        "h": "-Expect raidwide damage during transitions and Haunting overlaps.\n-Time cleanses during light puddles while maintaining awareness of AoEs.",
+        "t": "-Main tank: reposition after each painting shift to stabilize boss facing.\n-Off-tank: be ready to grab extra spawns during Demonio phase if adds appear."
       }
     }
   },
@@ -6087,10 +6094,11 @@
     "en": "Sigmascape V3.0",
     "maps": {
       "448": {
-        "en": "Sigmascape V3.0",
-        "d": "...",
-        "h": "...",
-        "t": "..."
+        "en": "Guardian",
+        "g": "-Boss loads one of four programs (Delta, Sigma, Omega, Proto); each alters mechanics.\n-During Program Omega, bait missile and divebombs away from party.\n-Magitek Bits fire lasers down lanes—get between them or hug safe corners.\n-Limit Cut assigns numbers; players must take tethers in order.",
+        "d": "-Program mechanics require fast repositioning—memorize safe spots for each.\n-If targeted during Limit Cut, count your number and intercept your tether alone.",
+        "h": "-Expect high damage during Program Omega and Limit Cut.\n-Shield preemptively before phase transitions to avoid scramble healing.",
+        "t": "-Main tank: watch for forced tank swaps during certain programs.\n-Off-tank: take your correct tether during Limit Cut; avoid overlapping charges."
       }
     }
   },
@@ -6098,10 +6106,11 @@
     "en": "Sigmascape V4.0",
     "maps": {
       "449": {
-        "en": "Sigmascape V4.0",
-        "d": "...",
-        "h": "...",
-        "t": "..."
+        "en": "Kefka",
+        "g": "-Pay attention to cast text: 'normal' casts are real, 'lies' means the cast is fake.\n-Spread for Hyperdrive and AoEs; stack during Forsaken for shared healing.\n-Tilting platforms appear in Phase 2—position near center to avoid sliding off.\n-God of Magic phase includes multiple overlapping AoEs and heavy movement checks.",
+        "d": "-During 'lies' casts, delay movement—don’t dodge too early.\n-Save mobility tools for Forsaken and God of Magic AoE gauntlets.",
+        "h": "-Forsaken and Ultima Upsurge require strong AoE healing—pace cooldowns.\n-Watch for back-to-back damage in God of Magic phase; plan mitigation layers.",
+        "t": "-Main tank: move boss out of Forsaken AoEs while maintaining uptime.\n-Off-tank: handle add pickups in final phase and mitigate Hyperdrive if targeted."
       }
     }
   },
@@ -6502,46 +6511,123 @@
     "maps": {}
   },
   "798": {
-    "en": "Psiscape V1.0",
+    "en": "Alphascape V1.0",
     "maps": {
       "485": {
-        "en": "Psiscape V1.0",
-        "d": "...",
-        "h": "...",
-        "t": "..."
+        "en": "Chaos",
+        "g": "-Elements change mid-fight: Wind pushes, Earth pulls—position to avoid falling.\n-Chaotic Storm spawns expanding AoEs—rotate around the boss.\n-Tethered players must intercept beams or orbs safely.\n-Later phases combine mechanics rapidly—memorize safe responses.",
+        "d": "-Maintain uptime during rotating AoEs by hugging boss hitbox.\n-Move early during elemental casts to compensate for knockback or pull.",
+        "h": "-Earth/Wind phase deals heavy raid damage with knockback—pre-shield.\n-Watch tethered targets for beam damage and be ready to top off after hits.",
+        "t": "-Main tank: rotate the boss cleanly to give melee space during AoEs."
       }
     }
   },
   "799": {
-    "en": "Psiscape V2.0",
+    "en": "Alphascape V2.0",
     "maps": {
       "501": {
-        "en": "Psiscape V2.0",
-        "d": "...",
-        "h": "...",
-        "t": "..."
+        "en": "Midgardsormr",
+        "g": "-Ambient Aether combos define safe positioning: Coil+Coil = get out; Coil+Flip = get in; Flip+Flip = plus (go diagonals); Flip+Coil = X (go cardinals)\n-Earth Shaker and Thunderstorm will overlap after Aether: spread from Earth Shaker and avoid overlapping circles during Thunderstorm\n-Cauterize + Scarlet Thread or Horrid Roar combos require stack bait then reposition to dodge dive‑bombs and lines\n-Northern Cross applies Thin Ice then Ambient Aether combos while sliding: pre‑form safe circle near boss and slide accordingly",
+        "d": "-Assign cardinal/diagonal positions before combos; move immediately after second spin/flip to correct spot\n-When Blizzard markers appear, run to edge corners to drop puddles early and avoid clogging arena",
+        "h": "-Prep raid shields ahead of Thunderstorm + Cauterize overlaps and Horrid Roar stacks\n-During Akh Rhai + Exaflare + Blizzard, stagger heals and move ice‑marked players to drop puddles away from group",
+        "t": "-Make sure Ancient Dragon is faced away from the group."
       }
     }
   },
   "800": {
-    "en": "The Interdimensional Rift",
+    "en": "Alphascape V3.0",
     "maps": {
       "486": {
-        "en": "The Interdimensional Rift",
-        "d": "...",
-        "h": "...",
-        "t": "..."
+        "en": "Omega",
+        "st": [
+        {
+          "en": "Opening Phase",
+          "g": "-Spread during Ballistic Impact while weaving between Flame Thrower cones.\n-Use 'Larboard = left' and watch for boss spin before second Wave Cannon.\n-Use Omega Jammer on Rocket Punches.",
+          "d": "-Memorize cone gaps for Flame Thrower; plan Ballistic Impact spacing early.\n-Move opposite side immediately after Wave Cannon spin to stay safe.",
+          "h": "-Shield preemptively before Ballistic + Flame Thrower overlaps.\n-Prepare AoE heals for raid damage from Atomic Ray and mispositioned players.",
+          "t": "-Ensure no other players are within the small radius during Mustard Bomb.\n-Face Omega consistently to make Wave Cannon easier to read."
+        },
+        {
+          "en": "Add Phase",
+          "g": "-Stand in your circle during Executable #1 to cleanse Looper.\n-Executable #2: run out for point-blank, then in for donut AoE; cleanse inside circles.",
+          "d": "-Find and stand in your beam circle quickly—failure causes raidwide penalty.\n-Time your movement to avoid AoEs and still reach your cleanse spot.",
+          "h": "-Stagger heals during AoEs and post-cleanse damage.\n-Monitor health during Looper phase closely—late cleanses can result in deaths.",
+          "t": "-Avoid unnecessary movement that could confuse circle assignments.\n-Stay alert to quickly reposition for Executable mechanics."
+        },
+        {
+          "en": "Delta Attack Phase",
+          "g": "-Use Omega Jammer on Conductive Focus to charge shield to 100%.\n-Failure to do so before Delta Attack finishes casting results in wipe.",
+          "d": "-Target the Focus immediately and use Jammer—delay risks party wipe.\n-Don’t Jammer too close to others or risk overlapping AoE.",
+          "h": "-Top off HP before Delta Attack cast resolves.\n-Spot heal anyone late to shield or hit by Jammer overlap.",
+          "t": "-Use Jammer promptly and avoid overlapping others.\n-Reposition for follow-up mechanics after shield completes."
+        },
+        {
+          "en": "Final Phase",
+          "g": "-Electric Slide: all players must stack on marker to avoid lethal dive.\n-Mustard Bomb tether targets a random player—move away before detonation.\n-Rocket Punches and charging fists can appear together—watch both edges.",
+          "d": "-Stack quickly for Electric Slide—being late risks party wipe.\n-Keep peripheral awareness high as multiple mechanics overlap.",
+          "h": "-Heavy healing needed after Electric Slide and Atomic Ray.\n-Watch for paralysis debuff if Mustard Bomb tether goes off in group.",
+          "t": "-Move away from the group if tethered with Mustard Bomb.\n-Reorient boss as needed between overlapping mechanics."
+        }
+      ]
       }
     }
   },
   "801": {
-    "en": "The Interdimensional Rift",
+    "en": "Alphascape V4.0",
     "maps": {
       "502": {
-        "en": "The Interdimensional Rift",
-        "d": "...",
-        "h": "...",
-        "t": "..."
+        "en": "Omega - humanoid form",
+        "st": [
+        {
+          "en": "Omega-M",
+          "g": "-Solar Ray is a cleaving tankbuster—non-tanks must stay away from the main tank.\n-Program Alpha: spread for circles, then stack; reposition to avoid Efficient Bladework point-blank AoE.\n-Subject Simulation transforms into Omega-F and triggers a knockback; stay close to avoid falling.",
+          "d": "-Spread early and adjust during stack to dodge Efficient Bladework.\n-Know the knockback timing after transformation—hug boss before it triggers.",
+          "h": "-Pre-shield Program Alpha and raidwide knockback (Discharger).\n-Top off tank early during Solar Ray combo to prevent overlap deaths.",
+          "t": "-Face Omega consistently to stabilize Wave mechanics.\n-Move away from group during Solar Ray to avoid cleaving others."
+        },
+        {
+          "en": "Omega-F",
+          "g": "-Fire III targets four players with AoEs; Blizzard III creates a cross pattern—both resolve at once.\n-Synthetic Blades splits the arena; spread Fire III circles in narrow safe zone between blade AoEs.\n-Subject Simulation transforms into Omega-M—move far away to avoid Bladework AoE.",
+          "d": "-Stay out of marked players’ circles while dodging Blizzard III cross.\n-Use edge movement during blades to fit all spreads within safe center.",
+          "h": "-Laser Shower is frequent and unavoidable—keep party topped.\n-Be ready for high damage during overlap of Fire/Blizzard and blades.",
+          "t": "-Stay aware of Synthetic Blades orientation to avoid baiting cleaves into party.\n-Ensure boss is centered to maintain clear safe zones."
+        },
+        {
+          "en": "Omega-M v2",
+          "g": "-Program Alpha gains donut AoE (Beyond Strength); stack in center after spreads.\n-Follow-up Bladework hits center after stack; move out immediately.\n-Synthetic Shield means mechanics are reused but stacked in tighter timings.",
+          "d": "-After circle spreads, head to center for stack and dodge donut.\n-Move instantly outward after stack to dodge Bladework.",
+          "h": "-Shield and AoE heal through Program Alpha combo.\n-Anticipate rapid center-outside movement and position for post-stack heals.",
+          "t": "-Position boss for quick reaction between Beyond Strength and Bladework.\n-Avoid keeping boss too close to edge—limits group movement space."
+        },
+        {
+          "en": "Formless Transition",
+          "g": "-One player gets AoE, another a stack marker—both move far apart.\n-Omega-M will Bladework at puddle location; Omega-F uses knockback.\n-Position close to Omega-F to survive knockback and avoid Omega-M AoE.",
+          "d": "-If marked with AoE, move away from group to your puddle spot.\n-Anticipate reappearance location and move to safe position fast.",
+          "h": "-Stack heals after puddle split; anticipate damage from Bladework or fall-offs.\n-Keep knockback mitigation ready if positioning is late.",
+          "t": "-Identify reappearance spots; prepare to pick up your assigned Omega form.\n-Move quickly to correct spawn without pulling boss over puddles."
+        },
+        {
+          "en": "Laser Shower DPS Check",
+          "g": "-Omega-M shields Omega-F; players must destroy M before F casts Laser Shower.\n-Once Omega-M dies, damage F quickly to prevent wipe.",
+          "d": "-Use full burst on Omega-M as soon as he spawns.\n-Cleave avoidance matters—don’t stand near the center during Bladework.",
+          "h": "-Prep raid cooldowns before Laser Shower cast.\n-Top off raid after Discharger and prep for post-M death rush on F.",
+          "t": "-Grab Omega-M immediately; keep it away from group during tankbuster.\n-Reposition Omega-F quickly after M dies to prevent Resonance."
+        },
+        {
+          "en": "Omega Duo (Firewall Phase)",
+          "g": "-Firewall splits party—each player can only damage M or F.\n-Tank each boss separately to prevent Resonance (damage buff).\n-Mechanics from both bosses occur in tandem; learn to track and dodge both.",
+          "d": "-Identify your debuff and focus the correct Omega.\n-Avoid Meteor proximity zones; move to center if not a tank.",
+          "h": "-Expect high sustained raid damage from Laser Shower, Meteor, and Cosmo Memory.\n-Time cooldowns around Cosmo Memory and Meteor casts.",
+          "t": "-Each tank must pick up the Omega form they can damage.\n-Keep bosses apart after Cosmo Memory to prevent Resonance stacks."
+        },
+        {
+          "en": "Final Cycle",
+          "g": "-Limit Breaks begin: Meteor (proximity), Sagittarius Arrow (line AoE), Blade Dance (tankbuster).\n-Both bosses repeat previous mechanics in tighter combos.\n-When one boss dies, the other begins spamming Laser Shower until defeat.",
+          "d": "-During Meteor, move to center if not a tank.\n-Dodge Arrow’s line AoE and avoid standing in front of Omega-M.",
+          "h": "-Prepare mitigation layers for Blade Dance and Meteor overlap.\n-Handle prolonged Laser Shower spam after one form dies.",
+          "t": "-Separate bosses to reduce raidwide damage.\n-Stay away from group during Meteor; coordinate with co-tank to split bosses cleanly."
+        }
+      ]
       }
     }
   },
