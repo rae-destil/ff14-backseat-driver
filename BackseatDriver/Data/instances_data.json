@@ -3256,32 +3256,32 @@
         "en": "The Arm of the Father",
         "st": [
         {
-          "en": "Living Liquid (Human)",
-          "g": "-Uses Protean Wave (knockback cones), Sluice (marked players with AoEs), and Splash (raid-wide hits).\n-Keep boss centered and faced away from the party to avoid electric floor stun/DoT.",
-          "d": "-Sidestep Protean Wave and spread for Sluice markers to avoid hitting others.\n-Maintain DPS uptime between Splash casts.",
-          "h": "-Pre‑heal marked players before Sluice and manage raid-wide healing through Splash.\n-Stay mobile to avoid being knocked into the electric border.",
-          "t": "-Tank in center, face away and rotate to avoid knocking others into the edge.\n-Monitor electric border to keep party safe."
+          "en": "Phase 1 - Human",
+          "g": "-Protean Wave cleaves and knocks back in multiple cones—sidestep all angles.\n-Sluice marks four players with AoE—spread out, then dodge additional ground AoEs.\n-Boss cleaves; face away from party and tank mid to avoid edge knockbacks.",
+          "d": "-Always stay behind boss; never stand near marked players during Sluice.\n-Sidestep all cone AoEs quickly to avoid knockbacks into the edge.",
+          "h": "-Heal through three consecutive Splashes; time AoE heals between them.\n-Monitor Sluice marker players in case they fail to spread or take overlap damage.",
+          "t": "-Face boss away from group; cleave is always active.\n-Maintain center positioning to keep knockback angles safe."
         },
         {
-          "en": "Living Liquid (Hand)",
-          "g": "-Casts heavy cleaves and Wash Away knockbacks; splits to spawn Liquid Limb adds picked up by OT. Cleaves apply stacking blunt vulnerability.",
-          "d": "-Avoid standing in front for cleaves; be ready to soak shared stacks.\n-Keep DPS on boss; off-tank handles second hand.",
-          "h": "-Use raid cooldowns through overlapping cleave and knockback hits.\n-Watch OT for secondary hand positioning and cleave stacking.",
-          "t": "-MT holds boss, OT picks up limb and faces them ~90° apart.\n-Tank‐swap every ~4‑5 cleaves to relieve blunt stacks."
+          "en": "Phase 2 - Hand",
+          "g": "-Cleave must be shared by both tanks; tanks must stand together.\n-Wash Away knocks players in random directions—stand center or use knockback immunity.\n-After split, both hands cleave and inflict Blunt Resist Down—face away from raid.",
+          "d": "-Return to center before Wash Away or risk getting knocked into edge.\n-Never stand between hands or near their cleave paths.",
+          "h": "-Top off before Wash Away; be ready to heal players knocked into the edge.\n-Watch for overlapping cleaves during double-hand phase.",
+          "t": "-Share initial cleave; both tanks must stack.\n-When adds spawn, each tank picks up one and faces it away from group and the other tank."
         },
         {
-          "en": "Living Liquid (Tornado)",
-          "g": "-Boss becomes untargetable and spawns Gear and Piston Lubricants; creates donut water puddle. Adds must be killed before reaching arena edge. Features one drainage tether and +/- charge mechanic.",
-          "d": "-Burst down adds quickly, prioritize Piston Lubricants.\n-Keep tethered +/- pairs positioned correctly: same stack, opposite spread.",
-          "h": "-Be ready for tether explosion—tanks should soak it.\n-Heal through add damage and possible pool contact.",
-          "t": "-Tank must intercept drainage tether and kite it away.\n-Manually manage charge markers and rebait boss position."
+          "en": "Phase 3 - Tornado",
+          "g": "-Kill adds before they reach edge; stun Piston Lubricants when they charge.\n-Boss is invulnerable—avoid standing in water pool around center.\n-Orange tether must be taken by tank and kept away from group until it resolves.\n-Magnetic debuffs: same = stack center, opposite = spread apart to avoid collision.",
+          "d": "-Focus Gear Lubricants first, then burn Piston Lubricants.\n-Handle magnetic debuff correctly to avoid being flung into water or atrophy.",
+          "h": "-Prepare to heal through failed add handling or magnetic collisions.\n-Top off tethered tank post-explosion; damage is very high.",
+          "t": "-Take orange tether from marked player and move far from others.\n-Stun Piston Lubricants before they rush; control their timing."
         },
         {
-          "en": "Living Liquid (Final)",
-          "g": "-Combines all previous mechanics with added Cascade (three water puddles) and persistent cleaves with blunt stacks. Requires full rotation through all phases.",
-          "d": "-Continue previous rotation; dodge puddles and pooling AoEs.\n-Maintain DPS through mechanic overlap and charge/tether checks.",
-          "h": "-Coordinate raid cooldowns around Cascade and cleave transitions.\n-Use AoE heals and top off tanks between mechanic bursts.",
-          "t": "-Rotate boss to lead puddles into safe areas."
+          "en": "Phase 4 - Final",
+          "g": "-Cascade creates large AoE pools—avoid standing in or near them.\n-Magnetic debuffs reappear: same = stack, opposite = spread; aim push/pull safely.\n-Tank cleave now applies Blunt Resist Down—requires frequent swaps.",
+          "d": "-Dodge Cascade pools and avoid knockbacks into them or arena edge.\n-Watch debuff icons and position carefully to avoid magnetic collision.",
+          "h": "-Coordinate mitigation for frequent tank swaps and Blunt Down stacks.\n-Be ready for sustained damage from repeated mechanics and final enrage.",
+          "t": "-Swap every 4–5 stacks of Blunt Down; avoid overlapping debuff stacks.\n-Ensure boss is positioned away from Cascade pools and edge at all times."
         }
       ]
       }
