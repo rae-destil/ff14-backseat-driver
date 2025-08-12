@@ -9,7 +9,7 @@ using Dalamud.Plugin.Services;
 using FFXIVClientStructs.FFXIV.Client.System.Framework;
 using FFXIVClientStructs.FFXIV.Common.Lua;
 using FFXIVClientStructs.FFXIV.Component.GUI;
-using ImGuiNET;
+using Dalamud.Bindings.ImGui;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
