@@ -4944,10 +4944,23 @@
         ]
       },
       "346": {
-        "en": null,
-        "d": "...",
-        "h": "...",
-        "t": "..."
+        "en": "Diabolos",
+        "st": [
+        {
+          "en": "Diabolos",
+          "g": "-Look away from Nightmare.\n-Ultimate Terror: mid-range donut, either hug Diabolos or stand far away.\n-Omen does raid-wide damage.-Kill lifegates 5 times to move to the next phase.",
+          "d": "-Melee stuns can interrupt diabolos' attacks.\n-Focus deathgates so they don't spawn adds.",
+          "h": "...",
+          "t": "-Tank stuns can interrupt most of diabolos' attacks."
+        },
+        {
+          "en": "Diabolos Hollow",
+          "g": "-Has a shield to break through at first.\n-Hollow nightmare now inflicts Doom.\n-Earthshaker: marks 3 players for a cone AoE, so spread.\n-Nox: spawns chasing balls. Keep these away from the party!\n-Use towers to deal with particle beams, middle one only for tanks.",
+          "d": "-If diabolic gate spawns, go in and kill the add quickly or the raid wipes.",
+          "h": "-With the shield up, Diabolos will do extra damage so prepare to heal your main tank a LOT.",
+          "t": "-Use the middle tower for particle beam.\n-Off-tanks should soak Critical Gravity red orbs away from the party."
+        }
+        ]
       },
       "347": {
         "en": null,
@@ -7977,19 +7990,19 @@
         "t": "..."
       },
       "609": {
-        "en": "The Puppets' Bunker",
+        "en": "mobs + flight units",
         "d": "...",
         "h": "...",
         "t": "..."
       },
       "610": {
-        "en": "The Puppets' Bunker",
+        "en": "heavy artillery",
         "d": "...",
         "h": "...",
         "t": "..."
       },
       "611": {
-        "en": "The Puppets' Bunker",
+        "en": "artillery unit corridor, compound 2p",
         "d": "...",
         "h": "...",
         "t": "..."
