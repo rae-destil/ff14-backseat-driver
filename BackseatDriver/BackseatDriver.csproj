@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Project Sdk="Dalamud.NET.Sdk/13.0.0">
+<Project Sdk="Dalamud.NET.Sdk/13.1.0">
   <PropertyGroup>
     <Version>0.1.0.1</Version>
     <Description>Backseat driver plugin.</Description>
@@ -11,8 +11,5 @@
   </PropertyGroup>
   <ItemGroup>
     <EmbeddedResource Include="Data\instances_data.json.gz" />
-  </ItemGroup>
-  <ItemGroup>
-    <PackageReference Update="DalamudPackager" Version="13.0.0" />
   </ItemGroup>
 </Project>
