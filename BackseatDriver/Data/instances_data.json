@@ -761,7 +761,7 @@
     "en": null,
     "maps": {}
   },
-  "170": {
+  "1303": {
     "en": "Cutter's Cry",
     "maps": {
       "52": {
@@ -2102,25 +2102,25 @@
     "en": "Haukke Manor",
     "maps": {
       "137": {
-        "en": "Cercy",
-        "g": "-Casts large AoEs and summons multiple adds.\n-During add phase, boss becomes untargetable.",
-        "d": "-Focus adds during untargetable phase.\n-Avoid AoEs and reposition frequently.",
-        "h": "-High group damage during add phase.\n-Heal proactively during boss transitions.",
-        "t": "-Pick up adds immediately when they spawn.\n-Keep boss centered pre-phase to control space."
+        "en": "Manor Jester",
+        "g": "-Casts Void Blizzard, applying Slow—Esuna required.\n-Spawns Manor Butler adds; kill quickly.\n-Places ice patches on ground—avoid standing in them.",
+        "d": "-Focus down adds quickly.\n-Keep mobile to avoid ice patches.",
+        "h": "-Cleanse Slow from Void Blizzard with Esuna.\n-Heal damage from adds and avoidable AoEs.",
+        "t": "-Keep boss centered to control ice patch placement.\n-Pick up Manor Butler adds immediately."
       },
       "138": {
-        "en": "Manor Butlers and Maids",
-        "g": "-Dual mini-boss fight with shared mechanics.\n-Coordinated attacks, including AoEs and debuffs.",
-        "d": "-Focus one target to reduce threat faster.\n-Spread out to avoid overlapping AoEs.",
-        "h": "-Monitor split damage from two bosses.\n-Watch for debuffs requiring cleanses.",
-        "t": "-Hold both bosses’ aggro and keep them apart.\n-Avoid overlapping AoEs by controlling positioning."
+        "en": "Ash",
+        "g": "-Cleave attacks hit in front—non-tanks stay behind.\n-Glowing spirit cutters and swirling swords cover areas—dodge promptly.\n-Casts Abyssal Transfixion, inflicting Paralysis—must be cleansed.\n-Spawns an add; kill quickly.",
+        "d": "-Stay behind boss to avoid cleaves.\n-Focus adds quickly when they spawn.",
+        "h": "-Cleanse Paralysis from Abyssal Transfixion.\n-Be ready for party-wide damage if AoEs are missed.",
+        "t": "-Keep boss facing away from party.\n-Pick up adds as soon as they spawn."
       },
       "139": {
-        "en": "Ash",
-        "g": "-Casts large cleaves, line AoEs, and tether mechanics.\n-Can summon dolls that fixate on players and explode.",
-        "d": "-Break tethers by kiting.\n-Kill dolls quickly before they explode.",
-        "h": "-Exploding dolls cause unpredictable burst damage.\n-Save cooldowns for tethered party members.",
-        "t": "-Keep boss faced away from party.\n-Pull exploding dolls away from group when possible."
+        "en": "Halicarnassus",
+        "g": "-Casts Void Fire III and Dark Mist—both unavoidable AoEs that must be dodged.\n-Spawns adds in waves; she absorbs them and casts Blood Rain—damage scales with add HP left.\n-First wave: Manor Sentry (grants stun/silence immunity).\n-Second wave: 2 Maidservants (grant Determination buff); one must be pushed to 0% before absorb.\n-Final wave: Lady Amandine; DPS check to reduce her HP before absorption.\n-At ~15% HP, casts Beguiling Mist (charms party) followed by Void Fire IV; repeats 3 times—kill before third or wipe.",
+        "d": "-Burn adds to 0% quickly; focus one Maidservant fully.\n-Use Limit Break on Lady Amandine to ensure she dies before absorption.\n-Stop DPS if needed to control timing of add phases.",
+        "h": "-Prepare heavy healing for Blood Rain—damage scales with add HP.\n-Pre-shield during Beguiling Mist + Void Fire IV combo.",
+        "t": "-Keep Halicarnassus centered to manage adds.\n-Pull her away from absorbed add’s AoE pools when possible."
       }
     }
   },
@@ -2508,7 +2508,7 @@
       },
       "163":{
         "en": "Amon",
-        "g": "-Spawns Experiment adds; some tethered orbs that shrink Kum Kum when grouped.\n-Curtain Call: hide behind ice-blocked players.",
+        "g": "-Spawns Experiment adds; some tethered orbs that shrink Kum Kum when grouped.\n-Curtain Call: hide behind ice-blocked players.\n-If you're a frog, don't use your fire attack on the ice, it'll melt and leave no where to hide from Curtain Call.",
         "d": "-Stun Experiment adds then burn quickly.\n-Kite purple orb into Kum Kum add to shrink it.",
         "h": "-Esuna bomb debuffs and heal toads/Others.\n-Keep non-frog players healed and positioned for Curtain Call.",
         "t": "-Tank boss centrally; pick up adds safely.\n-Face away and hold adds during orb phases."
@@ -3834,25 +3834,18 @@
         "en": "Sephirot",
         "st": [
         {
-            "en": "Phase 1",
-            "g": "-No cast bars: mechanics telegraphed via animations only.\n-Casts Fiendish Rage (stack marker), Ein Sof (green AoE circles), Ratzon (purple AOE + green circles), Chesed tankbuster, Ain (180° frontal cleave). At ~60%, transitions to add phase and grows in size.",
-            "d": "-Stack behind marked player for Fiendish Rage to share damage.\n-Spread for Ratzon after stacking; stay behind boss at Ain.",
-            "h": "-Use shields before Chesed and stack heals on marked player during Fiendish Rage.\n-Top off raid before Ein Sof damage builds.",
-            "t": "-Face Sephirot away from party; anticipate Chesed by positioning centrally.\n-Keep boss rotated so Ain direction is safe for group."
+          "en": "Phase 1",
+          "g": "-Fiendish Rage: stack on marked player to share damage.\n-Ratzon: multiple players marked with green AoEs—spread.\n-Ain: faces a random player and blasts 180° cone—stay stacked behind him.\n-At 60%, adds spawn: kill Binah first, then Cochma.",
+          "d": "-Spread fast when marked by Ratzon.\n-Keep behind boss to avoid Ain blast.\n-Burn Binah add first.",
+          "h": "-Prepare AoE heals after Fiendish Rage.\n-Clean up Ratzon damage—multiple players hit at once.",
+          "t": "-Keep boss centered so players can stack safely.\n-Pick up adds immediately; tank Binah away for focus kill."
         },
         {
-            "en": "Phase 2 (Adds)",
-            "g": "-Sephirot summons Binah adds then Storm of Words, then Cochma adds. Adds must die quickly or Revelation wipes raid. Storm of Words leaves an air current used to avoid Impact of Hod swing.",
-            "d": "-Burn Binah adds first, then Cochmas. Watch Storm of Words; kill before Revelation.\n-Use airflow from add death to dodge Impact of Hod sweep.",
-            "h": "-Heal tanks on Cochmas and Binahs; manage add explosion splash.\n-Stand in wind currents left behind by dying adds to avoid sweeps.",
-            "t": "-Off‑tanks pick up Binahs, MT holds Cochmas.\n-Face adds away from group and reposition after air current spawns."
-        },
-        {
-            "en": "Phase 3 (Giant Phase)",
-            "g": "-Pillar of Mercy: blue punch zones with knockback.\n-Earthshakers: markers sending players to edges.\n-Fiendish Wail: requires two players in towers.\n-Yesod: yellow AoE + vulnerability debuff.",
-            "d": "-Avoid knockbacks by standing inside punch zones; split edges during Earthshakers.\n-Occupy separate pillars for Wail if marked.",
-            "h": "-Shield and heal during Wail and Yesod overlaps.\n-Prepare burst heals after Life Force and AoE combos.",
-            "t": "-One tank per tower during Wail; both must stand inside.\n-Face boss away and kite knockback toward edge safely."
+          "en": "Phase 2",
+          "g": "-Stay toward center—falling is possible now.\n-Pillar of Mercy: stand near blue circles (not inside) to avoid knockback off.\n-Beam markers: two players get cleaves—split directions.\n-Storm of Words must die before Revelation; drops air current for arm sweep—stand inside.\n-Spread out before Sephirot’s beam, then restack.\n-Red pillar mechanic: one player in each to prevent raidwide damage.",
+          "d": "-Kill Storm of Words ASAP; use cooldowns to burn.\n-If marked by beam, move opposite of group.\n-Stand in air current during arm sweep.\n-Blue circles knockback, stand next to them - NOT in them.",
+          "h": "-Prepare raid heals after Pillar of Mercy knockback.\n-Storm of Words Revelation is a wipe—be ready to heal through add damage until it dies.\n-Blue circles knockback, stand next to them - NOT in them.",
+          "t": "-Tanks should take positions inside red pillars.\n-Grab adds quickly after Storm of Words dies.\n-Hold boss centered to control arena space.\n-Blue circles knockback, stand next to them - NOT in them."
         }
         ]
       }
@@ -4574,13 +4567,33 @@
     "maps": {
       "332":{
         "en": "Alexander Prime",
-        "g": "-Phase 1: boss uses Divine Spear (frontal cleave), Punishing Heat tankbuster, Mega Holy AoE, Sacrament cross laser lines, and Blazing Scourge red circles.\n-Phase 2: boss leaps away to spawn adds in waves; requires tank LB to survive Judgement before Phase 3.\n-Phase 3: resumes Phase 1 abilities plus adds Temporal Stasis, Plaint of Solidarity (stack), Plaint of Severity (spread), Time Gates adds, Gravitational Anomalies, and Communion puddles before final burn.",
-        "d": "-Stand at diagonals to avoid Sacrament lines; keep uptime high between mechanics.\n-During adds waves, focus dungeon adds quickly; use tank LB in the 3–5 s window before Judgement.",
-        "h": "-Heal through Mega Holy and Sacrament overlaps; prep for burst healing during Blazing Scourge markers.\n-During Temporal Stasis stack/spread phases, coordinate healing cooldowns; regenerate after Time Gate add damage.",
-        "t": "-Face boss away from the raid throughout.\n-Swap tanks after Punishing Heat; hold adds off to the side during Phase 2; bait cleaves in safe direction."
+        "st": [
+        {
+          "en": "Phase 1",
+          "g": "-Divine Spear is a frontal cleave—face boss away.\n-Punishing Heat is a tankbuster.\n-Mega Holy is raidwide AoE.\n-Sacrament fires cross-shaped line AoEs; safe spots are diagonals.\n-Blazing Scourge marks 2 players with heavy AoE—spread away.",
+          "d": "-Stay at diagonals during Sacrament.\n-Spread quickly if marked by Blazing Scourge.",
+          "h": "-AoE healing needed for Mega Holy.\n-Spot heal Blazing Scourge victims—damage is heavy.",
+          "t": "-Keep boss faced away for Divine Spear.\n-Mitigation for Punishing Heat; reposition to ease Sacrament dodges."
+        },
+        {
+          "en": "Phase 2",
+          "g": "-Wave 1: 2 packs of 3 adds—stack mid and cleave.\n-Wave 2: 2 Generals—tanks split them and face away.\n-Wave 3: 4 Wings spam Almost Holy—focus kill to reduce raid damage.\n-Judgement follows waves—use tank LB or wipe.",
+          "d": "-Burn adds fast, focus Wings to cut raid damage.\n-DO NOT USE LB, TANK NEEDS TO USE IT FOR JUDGEMENT.",
+          "h": "-Raid healing needed during Wings’ Almost Holy spam.\n-Prepare for raidwide hit after tank LB during Judgement.",
+          "t": "-Pick up all adds quickly, face Generals away.\n-A tank should use LB during Judgement - wait for the final 5 seconds countdown."
+        },
+        {
+          "en": "Phase 3",
+          "g": "-Temporal Stasis freezes players; mechanics resolve after debuff falls.\n-Plaint of Solidarity = stack, Plaint of Severity (green marker) = spread.\n-Sacrament follows stasis—dodge quickly after freeze ends.\n-Time Gate: 4 adds spawn and enter portals—1 player must chase and kill each.\n-Gravitational Anomaly spawns overlapping circles with triangle/edge safe zones.\n-Incinerating Heat = stack.\n-Summon Alexander introduces Communion: players drop puddles from laser beams, move them to edge.",
+          "d": "-During Stasis, memorize mechanics (stack or spread) and move instantly once free.\n-If chosen for Communion, drop puddles on arena edge.\n-Burn portal adds quickly—help teammates once yours is dead.",
+          "h": "-Top group before Stasis; healing window is tight after freeze.\n-Raidwide healing for Mega Holy, Incinerating Heat, and post-Wings damage.\n-Heal Communion DoT victims as they place puddles.",
+          "t": "-Face boss carefully before Stasis to control Sacrament angle.\n-Assign tank LB for Judgement if still alive from previous phase.\n-Pick up portal adds immediately if chosen."
+        }
+      ]
       },
       "333": {
-        "en": "Soul of the Creator",
+        "en": "Time Gate",
+        "g": "Kill the add.",
         "d": "...",
         "h": "...",
         "t": "..."
@@ -9657,37 +9670,37 @@
     "en": "Porta Decumana",
     "maps": {
       "763": {
-        "en": "Porta Decumana",
+        "en": "Phase 1",
         "st": [
         {
-          "en": "Phase 1: Titan",
-          "g": "-Tank keeps Ultima Weapon near wall; Titan emerges to cast Earthen Fury, Geocrush, Landslide and Weight of the Land—avoid zone markers.\n-Players get trapped in Granite Gaol then freed before Earthen Eternity.",
-          "d": "-DST your positioning to dodge proximity and line AoEs; high uptime between mechanics.\n-Burn boss in safe windows with adds down.",
-          "h": "-Expect big raidwide spikes from Earthen Fury/Landslide; use AoE heals accordingly.\n-Minimal healing during safe windows.",
-          "t": "-Hold boss at wall; rotate to steer AoEs away from group.\n-Lead party to safe zones on Geocrush markers."
+          "en": "Titan",
+          "g": "-Earthen Fury is Titan’s ultimate—heavy raidwide.\n-Geocrush drops proximity AoE—run far, then dodge follow-up Landslide.\n-Weight of the Land spawns alternating circles—keep moving.\n-At 80%: Granite Interment traps all players, Hydaelyn intervenes to end phase.",
+          "d": "-Avoid circle AoEs quickly; don’t get clipped by Landslide.\n-Keep uptime while dodging alternating floor AoEs.",
+          "h": "-Prepare raidwide heals for Earthen Fury.\n-Be ready to heal after Granite Interment damage spike.",
+          "t": "-Face Ultima Weapon away from party for cleaves.\n-Maintain position at wall to keep space clear."
         },
         {
-          "en": "Phase 2: Garuda",
-          "g": "-Ultima channels Garuda: Aerial Blast, Eye of the Storm (donut), followed by Mistral Shriek at edge.\n-Block Vortex Barrier, then interrupted by Hydaelyn.",
-          "d": "-Stay middle then shift to edge markers; dodge Mistral Shriek.\n-Focus boss in open windows.",
-          "h": "-Heal through Aerial Blast and edge donut damage; burst when safe.\n-Quick recovery after Shriek.",
-          "t": "-Facilitate party movement from center to edge; face boss to minimize splash.\n-Pivot boss as arena shifts."
+          "en": "Garuda",
+          "g": "-Aerial Blast is Garuda’s ultimate—heavy raidwide.\n-Eye of the Storm creates donut AoE—safe inside center.\n-Mistral Shriek: Garuda moves to edge and blasts large point-blank—go opposite edge.\n-At 55%: Ultima casts Vortex Barrier, Hydaelyn interrupts.",
+          "d": "-Stay center for Eye, move far from Garuda for Shriek.\n-Keep DoTs and bursts rolling during shield downtime.",
+          "h": "-Top raid quickly after Aerial Blast.\n-Watch for Shriek damage if players misposition.",
+          "t": "-Keep boss to wall, face away.\n-Move quickly when Garuda relocates to edge."
         },
         {
-          "en": "Phase 3: Ifrit",
-          "g": "-Ultima channels Ifrit: Hellfire, Radiant Plume circles, Vulcan Burst knockback then edge Radiant Plume.\n-End with Radiant Blaze interrupted.",
-          "d": "-Move off knockback then return to center quickly.\n-React early to Radiant Plume markers.",
-          "h": "-Heavy AoE demand; use cooldowns post-Hellfire and after Plumes.\n-Top off between mechanics.",
-          "t": "-Maintain center aggro; move boss to keep group together.\n-Ensure tank avoids knockback pitfalls."
+          "en": "Ifrit",
+          "g": "-Hellfire is Ifrit’s ultimate—heavy raidwide.\n-Radiant Plume circle AoEs cover arena—dodge.\n-Vulcan Burst knocks back—be ready to move center after.\n-Follow-up Radiant Plume hits edges—safe at center.\n-At 35%: Radiant Blaze covers arena, Hydaelyn interrupts and Ifrit is torn out.",
+          "d": "-Move center immediately after Vulcan Burst to avoid edge Plumes.\n-Stay mobile to dodge random Radiant Plumes.",
+          "h": "-Strong AoE healing after Hellfire.\n-Watch health after knockback + Plume combo.",
+          "t": "-Hold Ultima steady while Ifrit casts.\n-Adjust positioning quickly after knockback."
         }
         ]
       },
       "764": {
-        "en": "Phase 4: Ultima Weapon",
-        "g": "-Final phase with homing lasers on MT, Magitek Ray lines, Homing Ray circles, Tank Purge, Aetheric Boom knockback, orb tethers, Citadel Buster, Magitek Bits & airship Explosions, ends with enrage Ultima cast—LB3 required.",
-        "d": "-MT bait homing laser; dodge lines and circles promptly.\n-Clean orb tethers early; burst hardest before final Ultima cast and use LB3.",
-        "h": "-Steady heals through tank laser, Purge, orbs; AoE heals for group-wide markers.\n-Prep large heals pre-ultima cast and support LB3 window.",
-        "t": "-Tank faces boss to shield party from line attacks.\n-Position for tether orb soak and kite to center during explosions; MVP timing on LB3."
+        "en": "Phase 2",
+        "g": "-Homing Lasers: single-target tank hit.\n-Magitek Ray: 3 consecutive line AoEs.\n-Homing Ray: all players get AoE markers—spread.\n-Tank Purge: unavoidable heavy raid AoE.\n-Aetheric Boom: knockback—use immunity if available.\n-Aetheroplasm: tethered orbs—absorb before collision.\n-Citadel Buster: frontal line laser—avoid in front.\n-Magitek Bits: untargetable, fire line AoEs—watch facing.\n-Explosion: proximity gunship crash—move center.\n-At 30%: Ultima cast enrage—Hydaelyn fills LB; DPS must use Limit Break to end fight.",
+        "d": "-Spread for Homing Ray; avoid clustering.\n-Move to edges between AoEs; drop uptime safely.\n-Use LB at Ultima cast to secure kill.",
+        "h": "-Heal through Tank Purge and raidwides.\n-Watch knockback victims and orb overlaps.\n-Keep tank topped for Homing Lasers.",
+        "t": "-Mitigate Homing Lasers and Tank Purge.\n-Face boss carefully to avoid Citadel Buster hitting raid.\n-Position near center to manage Bits and Explosions."
       }
     }
   },
@@ -10455,10 +10468,10 @@
         },
         {
           "en": "Byblos",
-          "g": "-Charges Head Down (line cleave) and Bone Shaker roars while invulnerable on book.\n-Spawns two Page 64 adds whose orbs tether to players—these orbs must be carried through the boss to remove invulnerability.\n-Gale Cut spawns toxic clouds that can destroy the orb tether prematurely.",
-          "d": "-Stand behind boss to dodge Head Down; kill Page 64 immediately after roar.\n-Carry tethers through boss to break its shield; avoid Gale Cut clouds when carrying orb.",
-          "h": "-Shield orb carriers and heal through overlapping AoE from Gale Cut.\n-Prep healing and cleanse after knockback from Head Down.",
-          "t": "-Face boss away and reposition to avoid line cleaves.\n-Pull Page 64s safely, and create path for orb carriers through boss."
+          "g": "-Becomes invulnerable at intervals; adds spawn in books—kill them fast.\n-Adds tether orbs to players; drag orb into Byblos to break invulnerability.\n-Oil clouds spawn later, deal damage + knockback; don’t run through unnecessarily.\n-Gale Cut = frontal cleave, Tail Swipe = rear cleave, Head Down = charge that splits damage along line.",
+          "d": "-Focus adds quickly to generate orbs.\n-When targeted by Head Down, line up with group to share damage.",
+          "h": "-Spot heal orb carriers if clipped by oil clouds.\n-Heal through charge (Head Down) and multiple cleaves.",
+          "t": "-Face Byblos away from group to avoid cleave hits.\n-Keep control of boss position during add/orb mechanics."
         },
         {
           "en": "The Everliving Bibliotaph",
@@ -10571,24 +10584,24 @@
         "st": [
         {
           "en": "Nuzal Hueloc",
-          "g": "-Casts Wind Blast (line AoE) at main tank and periodically lifts off to summon a Floating Turret and Airstones.\n-Killing the turret while standing in the whirlwind under Nuzal knocks him down; Airstones must be destroyed to prevent invulnerability. enrage not a concern.",
-          "d": "-Kill Floating Turret first, then stand under Nuzal during Hotblast to knock him down efficiently.\n-Help burst Airstones quickly when tethered to boss or turret.",
-          "h": "-Shield and top off tanks before Wind Blast and Hotblast.\n-Heal turret and Airstone victims through splash damage.",
-          "t": "-Face Nuzal away to direct Wind Blast safely.\n-After turret spawn, ensure main tank stands under boss to catch Hotblast."
+          "g": "-Wind Blast is a path AoE—dodge quickly.\n-Lift summons adds and turrets.\n-Turrets cast Hot Air, launching the party upward; stand under Nuzal to bring him down after.\n-Airstones tether to boss or turret—kill these first if present.\n-Air Raid and Long Burst are unavoidable raidwides.",
+          "d": "-Prioritize Airstones when they spawn; otherwise kill turrets fast.\n-Stand beneath Nuzal during Hot Air cast to end phase safely.",
+          "h": "-Prepare raid healing for Air Raid, Long Burst, and Hot Air overlap.\n-Heal add-targeted players quickly—damage spikes are frequent.",
+          "t": "-Pick up adds as they spawn.\n-Position boss so turrets and adds are easy to reach."
         },
         {
           "en": "Dotoli Ciloc",
-          "g": "-Uses On Low frontal cone cleave, On High raid-wide knockback (stand near barrier to avoid spikes), Swiftfeather (instant next cone), Dark Wings (moving circles), and Stormcoming (wall whirlwinds).",
-          "d": "-Stay stacked behind boss and dodge On Low/High; be ready for instant cones after Swiftfeather.\n-Place Dark Wings circles at edges and avoid Stormcoming knockbacks.",
-          "h": "-Apply shields before On High; heal through knockback spikes.\n-Be ready to heal players hit by Dark Wings chains and reposition.",
-          "t": "-Tank boss near barrier for On High safety.\n-Ensure proper spacing for Dark Wings and don’t face any AoE into group."
+          "g": "-On Low is a frontal cleave on tank.\n-On High is a raidwide AoE with knockback; stand against barriers.\n-Dark Wings marks random players with AoEs—spread out.\n-Stormcoming spawns windy AoE zones on barriers.\n-Swiftfeather causes instant On Low after dash—treat as tankbuster.",
+          "d": "-Spread out for Dark Wings.\n-Keep near barriers to avoid knockback deaths during On High.",
+          "h": "-Anticipate heavy raid damage from On High; AoE heal after.\n-Spot heal Dark Wings targets.",
+          "t": "-Face boss away from group for On Low.\n-Mitigation for Swiftfeather + instant cleave."
         },
         {
           "en": "Tozol Huatotl",
-          "g": "-Uses Ixali Aero (tank buster), Ixali Aero III (raid-wide), Ixali Aero II (line AoE), and Hawk (either spread or stack markers). Periodically summons untargetable Garuda that casts a wide or donut AoE.",
-          "d": "-Stack or spread depending on Hawk marker color.\n-Help burst Garuda adds to remove her safely.",
-          "h": "-Stack heal for Ixali Aero III and line damage.\n-Post-Garuda spawn, prep AoE heals for her wide/donut AoEs.",
-          "t": "-Position boss for Aero II lines and ensure Garuda’s spawn is handled off-center."
+          "g": "-Ixali Aero III is a raidwide AoE.\n-Ixali Aero II is a path AoE—step aside.\n-Hawk alternates between stack marker or spread marker—adjust accordingly.\n-Summon Garuda: roomwide AoE with small safe zones; all players marked with green crystal AoEs—spread out.",
+          "d": "-Move quickly into safe zones during Garuda summon.\n-Stack or spread as indicated by Hawk marker.",
+          "h": "-Sustain raid through Ixali Aero III and Garuda AoEs.\n-Be ready for burst healing after stack markers if combined with other AoEs.",
+          "t": "-Hold boss central for consistent path AoEs.\n-Assist with positioning group for Hawk markers."
         }
       ]
       }
