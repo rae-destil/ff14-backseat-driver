@@ -107,7 +107,7 @@ public sealed class Plugin : IDalamudPlugin
     [PluginService] internal static IChatGui ChatGui { get; set; } = null!;
     [PluginService] internal static IFramework Framework { get; private set; } = null!;
 
-    private Dictionary<string, TerritoryRoleHints>? instances_data;
+    public Dictionary<string, TerritoryRoleHints>? instances_data { get; private set; }
     public TerritoryRoleHints? current_territory_hint { get; set; }
     public MapRoleHints? current_map_hint { get; set; }
     private bool waitingForPlayer = false;
@@ -152,6 +152,7 @@ public sealed class Plugin : IDalamudPlugin
     public readonly WindowSystem WindowSystem = new("BackseatDriver");
     private ConfigWindow ConfigWindow { get; init; }
     private DriverWindow DriverWindow { get; init; }
+    private HandbookWindow HandbookWindow { get; init; }
 
     private bool load_instances_data()
     {
@@ -175,9 +176,11 @@ public sealed class Plugin : IDalamudPlugin
 
         ConfigWindow = new ConfigWindow(this);
         DriverWindow = new DriverWindow(this, Configuration);
+        HandbookWindow = new HandbookWindow(this, Configuration);
 
         WindowSystem.AddWindow(ConfigWindow);
         WindowSystem.AddWindow(DriverWindow);
+        WindowSystem.AddWindow(HandbookWindow);
 
         CommandManager.AddHandler("/pbsdriver", new CommandInfo(OnDriverCmd)
         {
@@ -187,6 +190,11 @@ public sealed class Plugin : IDalamudPlugin
         CommandManager.AddHandler("/pbsdriver-quick", new CommandInfo(OnImmediateHintCmd)
         {
             HelpMessage = "Print hints for your job for all encounters in the current duty."
+        });
+
+        CommandManager.AddHandler("/pbsdriver-handbook", new CommandInfo(OnHandbookCmd)
+        {
+            HelpMessage = "Opens a handbook containing all duties covered by the plugin."
         });
 
         PluginInterface.UiBuilder.Draw += DrawUI;
@@ -223,6 +231,7 @@ public sealed class Plugin : IDalamudPlugin
 
         if (ClientState.LocalPlayer is not null && this.lastLoadedMapId != ClientState.MapId)
         {
+            Log.Info($"Last loaded: {this.lastLoadedMapId}, curr map {ClientState.MapId}");
             _loadCurrentMapHints();
         }
     }
@@ -259,6 +268,8 @@ public sealed class Plugin : IDalamudPlugin
         Log.Information($"Loading hints for territory {territoryId} (map {mapId}) for job {jobStr} ({jobId}).");
 
         var territory_hint = this.instances_data?.GetValueOrDefault(territoryId.ToString());
+        this.lastLoadedMapId = mapId;
+
         if (territory_hint == null)
         {
             return;
@@ -354,9 +365,14 @@ public sealed class Plugin : IDalamudPlugin
         _loadCurrentMapHints();
         ToggleDriverUI();
     }
+    private void OnHandbookCmd(string command, string args)
+    {
+        ToggleHandbookUI();
+    }
 
     private void DrawUI() => WindowSystem.Draw();
 
     public void ToggleConfigUI() => ConfigWindow.Toggle();
     public void ToggleDriverUI() => DriverWindow.Toggle();
+    public void ToggleHandbookUI() => HandbookWindow.Toggle();
 }

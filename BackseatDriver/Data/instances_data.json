@@ -2073,28 +2073,28 @@
     }
   },
   "349": {
-    "en": "Copperbell Mines",
+    "en": "Copperbell Mines (Hard)",
     "maps": {
-      "140": {
-        "en": "Ouranos",
-        "g": "-Summons bombs and adds periodically.\n-Bombs explode in large AoEs after a delay.",
-        "d": "-Burn down bombs before they explode.\n-Switch to adds immediately when they spawn.",
-        "h": "-High party-wide damage if bombs detonate.\n-Stay mobile to avoid overlapping AoEs.",
-        "t": "-Face boss away from group.\n-Gather adds near boss but away from bombs."
+      "140":{
+        "en": "Hecatoncheir Mastermind",
+        "g": "-Casts Darkfire, covering part of bridge and spawning a Flambeau.\n-Flambeau must be killed before it reaches fire or self-destructs, wiping party.\n-Stun Flambeau if necessary to buy time.",
+        "d": "-Focus Flambeau immediately; prioritize it over boss.\n-Keep moving forward as arena space shrinks.",
+        "h": "-Prepare AoE heals after Darkfire damage.\n-Be ready for burst healing if Flambeau explosion nearly goes off.",
+        "t": "-Hold boss steady while group handles Flambeau.\n-Assist in stunning or repositioning if adds interfere."
       },
       "141": {
-        "en": "Gogmagolem",
-        "g": "-Gimmick fight: use lit powder kegs to damage the boss.\n-Gogmagolem takes almost no damage otherwise.",
-        "d": "-Ignore boss and focus on positioning kegs near it.\n-Burn adds that threaten the kegs.",
-        "h": "-Minimal direct boss damage—only watch party HP during add waves.\n-Keep safe distance from kegs to avoid blast.",
-        "t": "-Drag boss near kegs just before they explode.\n-Pick up any adds that spawn and keep them off keg handlers."
+        "en": "Gogmagolem and Biggy",
+        "g": "-Improved Blasting Device spawns Waymaker Bombs; must be carried into boss path when timer nears 0.\n-Black bombs spawn and self-destruct—move away.\n-Sprites spawn around edges; must be killed.\n-Golem uses Plaincracker cone at tank.\n-After Golem dies, Biggy spawns with large bombs—move clear of blast radius.",
+        "d": "-One DPS handles bomb duty; drop Waymaker Bombs in Golem’s path.\n-Other DPS focus adds and kill Biggy quickly.\n-Stay away from exploding black bombs.",
+        "h": "-Top tank after Plaincracker.\n-Prepare AoE healing if bomb explosions clip players.",
+        "t": "-Face Golem away from group to avoid cone.\n-Pick up adds until Biggy spawns; maintain control while bomb DPS works."
       },
       "142": {
-        "en": "Gyges the Great",
-        "g": "-Uses AoEs and targeted attacks.\n-Summons adds and uses bombs similar to normal mode.",
-        "d": "-Avoid bomb zones and prioritize AoE when adds spawn.\n-Use movement abilities to reposition quickly.",
-        "h": "-Burst healing may be needed during add phases or failed bomb mechanics.\n-Avoid standing near bombs.",
-        "t": "-Position boss away from bombs.\n-Take control of adds fast to prevent party pressure."
+        "en": "Ouranos",
+        "g": "-Boss cleaves; only tank should stand in front.\n-Circular AoEs appear—dodge.\n-Giga adds spawn, target random players—kill quickly.\n-Sand Worm spawns periodically; place Crystallized Rock on sand to distract it.\n-Failure causes Bottomless Desert: heavy raid damage and pull-in, often wiping.",
+        "d": "-Burn boss and adds quickly.\n-Designate someone to place Crystallized Rocks when worm spawns.",
+        "h": "-Spot heal players targeted by Giga adds.\n-Be ready for heavy AoE healing if Bottomless Desert goes off.",
+        "t": "-Keep boss faced away.\n-Pick up Giga adds as they appear, but they may target random players."
       }
     }
   },
@@ -3688,31 +3688,31 @@
     "maps": {
       "269": {
         "en": "Cetus",
-        "g": "-Rear cone cleaves and raid-wide cleave leave small electrified pools (Electrocution).\n-Summons Hybodus adds; untargetable until they're defeated.\n-Drops watery orbs that form pools inflicting Dropsy.",
-        "d": "-Avoid cleaves pools and spread to dodge pools.\n-Burn Hybodus adds quickly to make Cetus vulnerable.",
-        "h": "-Steady raid-wide heals during cleaves and orb pools.\n-Assist DPS by healing through pool overlaps.",
-        "t": "-Tank facing away, pick up adds immediately.\n-Keep boss off pool clusters for group safety."
+        "g": "-Electric Swipe: cone from rear with Electrocution debuff.\n-Immersion: raidwide AoE + orbs that drop puddles (Dropsy).\n-Symbiosis: spawns Hybodus adds, boss untargetable until they die.\n-Hydrobomb: boss chases marked player, dropping AoEs.\n-Electric Whorl: ring AoE, safe in hitbox.\n-Expulsion: circle AoE with knockback and Windburn.\n-Hydrocore: split-party mechanic; kill Hydrocore inside while outside group kills Hydrospheres to stop buffs.",
+        "d": "-Stay behind boss but avoid rear cone.\n-Kite Hydrobomb safely, away from allies.\n-Burn adds quickly during Symbiosis/Hydrocore.",
+        "h": "-Cleanse Electrocution/Dropsy if possible.\n-Strong AoE healing after Immersion and Expulsion.\n-Sustain group split during Hydrocore phase.",
+        "t": "-Face boss away to keep rear cone off group.\n-Pick up Hydrocore if tanked inside barrier."
       },
       "270": {
-        "en": "Irminsul & Sawtooth",
-        "g": "-Two Fates boss duo: Irminsul (magic) and Sawtooth (melee); soil rising under adds will kill them if not moved.\n-Sawtooth cleaves; Irminsul casts lasers and ranged magic.",
-        "d": "-Help dodge mechanics and assist with interrupts/stuns.\n-Switch targets cleanly as needed.",
-        "h": "-Manage mixed melee-and-magical bursts.\n-Use shields for laser phases and stabilize group.",
-        "t": "-Split tanks: one per boss, face individually away from raid.\n-Move adds off rising soil quickly."
+        "en": "Irminsul and Sawtooth",
+        "g": "-Tether mechanic: health equalizes if difference too large.\n-Each boss gains random resistance (Magic or Ranged invuln).\n-Mucus Bomb/Spray: AoEs that tether and seize targets; allies must break.\n-Shockwave Stomp: hide behind Irminsul or take lethal.\n-Sawtooth Feeds: adds spawn; failure leads to devour mechanic spreading Parasite.\n-Pulse of the Void: small AoE poison from Irminsul.",
+        "d": "-Target the boss you can damage (respect resistance).\n-Spread for Mucus Bomb and free tethered allies.\n-Kill Ark Keds to prevent Parasite spread.",
+        "h": "-Cleanses for Poison/Seized debuffs.\n-Heavy heals needed after Shockwave Stomp.\n-Extra healing if Parasite infestations spread.",
+        "t": "-Each tank hold one boss apart.\n-Face Sawtooth away for cleaves.\n-Position Irminsul to shield party during Stomp."
       },
       "271": {
         "en": "Cuchulainn",
-        "g": "-Two-phase fight: First, boss cleaves and casts storm AoEs; second, spawns spears to deflect with precise timing.\n-Fail spears and party takes massive damage.",
-        "d": "-Dodge storm AoEs and position for spear deflects.\n-Maintain steady DPS except during spear casts.",
-        "h": "-Heal through storm-on-stacks safely.\n-Prep raid health before spear defense phase.",
-        "t": "-Face boss away; reposition for AoEs.\n-Lead party for spear deflection timing."
+        "g": "-Everyone starts with permanent Bleed.\n-Corrosive Bile: cone DoT + Poison.\n-Flailing Tentacles: diagonal line AoEs with Concussion debuff.\n-Idol of Impurity: adds increase Bleed stacks until killed.\n-Void Pact: portals spawn Foobars; boss gains Stoneskin buffs.\n-Beckon + Devour: pulls Foobars in to eat, empowering boss.\n-Bile Below: instant-kill unless standing on raised platforms.\n-Pestilence: heavy AoE, reduced by raised platforms.\n-Black Lung: adds another Bleed + Black Phlegm orbs that must be cleared before they explode.",
+        "d": "-Dodge diagonal tentacle slams.\n-Help clear orbs during Black Lung.\n-Focus Foobars and Idols quickly to avoid wipes.",
+        "h": "-Bleed is constant—maintain baseline healing.\n-Heal through Poison/Concussion.\n-Be ready for massive damage if Pestilence empowered.",
+        "t": "-Face boss away to avoid cone cleave.\n-Pick up Gyrtower/Idol adds immediately."
       },
       "272": {
         "en": "Echidna",
-        "g": "-Combines fire AoE cones with poison puddles and spawning snake adds.\n-Poison puddles deal stacking damage if stood in. Adds amplify raid pressure.",
-        "d": "-Avoid standing in puddles and dodge AoE cones.\n-Burn adds quickly to reduce healer strain.",
-        "h": "-Stack heals for overlapping spills and puddle damage.\n-AoE heal during add waves and AoE bursts.",
-        "t": "-Face boss away and reposition to avoid puddle pools.\n-Tank adds that spawn and steer them away from raid."
+        "g": "-Sickle Strike: tankbuster.\n-Sickle Slash: side cleaves, safe in front/back.\n-Demonic Descent: either stack marker or random large AoEs.\n-Nemesis Burst: circular cleave + knockback.\n-Abyssal Reaper: cleave with knockback + Vulnerability Up.\n-Petrifaction: gaze, turn away.\n-Add Phase: splits into Echidna/Sinister/Dexter—each tank grabs one, keep apart to prevent buffs.\n-Gehenna: raidwide after adds merge.\n-Bloodguards: occasional adds.",
+        "d": "-Stack for descent marker or dodge scattered AoEs.\n-Avoid gaze; reposition if knocked back.\n-Burn adds quickly in split phase.",
+        "h": "-Tankbusters + Vulnerability Up require spot heals.\n-Raid healing for Gehenna and Demonic Descent AoEs.",
+        "t": "-Main tank takes Echidna, other tanks grab Sinister/Dexter.\n-Keep adds apart to prevent buffs.\n-Swap only if Vulnerability stacks too high."
       }
     }
   },
@@ -3917,35 +3917,35 @@
         "t": "..."
       },
       "288": {
-        "en": "Enemy Waves",
+        "en": "Robots",
         "st": [
         {
           "en": "Blaster",
-          "g": "-Uses Ballistic Missile to trap random players—others must stand on marked pad to free them.\n-Demolish is a tankbuster.\n-Adds spawn and must be killed quickly or wipe mechanics occur.",
-          "d": "-When ally is trapped, step onto nearby pad immediately.\n-Focus priority adds to avoid overwhelming mechanics.",
-          "h": "-Top off trapped players after release—they often take damage.\n-Prepare healing for raidwide AoEs when adds are alive too long.",
-          "t": "-Mitigate Demolish tankbuster.\n-Keep boss centered for consistent pad access."
-        },
-        {
-          "en": "Swindler",
-          "g": "-Uses Optical Sight (large donut or point-blank)—react accordingly.\n-Panzer adds must be balanced on weight platforms or raid wipes.\n-Tankbuster: Double Drill Crush.",
-          "d": "-Identify safe zones for Optical Sight quickly.\n-Assist in balancing adds on platforms as needed.",
-          "h": "-Heal tank after Double Drill Crush.\n-Prepare healing for platform mismanagement damage spikes.",
-          "t": "-Grab boss quickly; avoid positioning near platform edges.\n-Swap when Drill Crush stacks too high."
-        },
-        {
-          "en": "Vortexer",
-          "g": "-Spins arena with high knockback—stay central.\n-Casts Super Cyclone, heavy raidwide AoE.\n-Summons adds that must be stunned and killed before they reach boss.",
-          "d": "-Stay center to avoid knockbacks into edge.\n-Focus adds immediately; use stuns if available.",
-          "h": "-Prepare for Super Cyclone raidwide AoE.\n-Heal add-targeted players quickly.",
-          "t": "-Maintain boss in center during spin.\n-Handle add pickups to prevent stray hits on party."
+          "g": "-Drops mines on arena—avoid or tank may need to reposition boss.\n-Players marked will have Blaster copies fall on them; spread to avoid overlaps.\n-Copies charge in their facing direction after delay; getting hit deals damage + Vulnerability Up.",
+          "d": "-Spread in a line when marked to avoid overlaps.\n-Dodge charging copies by watching their facing.",
+          "h": "-Prepare heals after players get clipped by charges.\n-Be ready for damage spikes if mines detonate.",
+          "t": "-Move boss if mines clutter safe zones.\n-No tank swap required."
         },
         {
           "en": "Brawler",
-          "g": "-Casts multiple fists with separate mechanics (missile, flame jets, drill).\n-Fists tether to players, requiring careful positioning to avoid overlaps.\n-Tankbuster: Magitek Ray.",
-          "d": "-Adjust positioning when tethered to fists—don’t overlap with others.\n-Avoid drill and flame jet AoEs quickly.",
-          "h": "-Sustain healing through multiple partywide damage sources.\n-Watch tethered players—damage spikes possible if mishandled.",
-          "t": "-Mitigate Magitek Ray tankbuster.\n-Position fists safely, keeping AoEs from hitting group."
+          "g": "-Face boss away from group.\n-Look at hands to identify mechanic: single drill = proximity line AoE, single laser = tank soak, double laser = group stack.\n-Lasers bypass invulns; tanks swap after 3–4 stacks of Magic Vulnerability Up.",
+          "d": "-Stack behind boss unless targeted by drill.\n-Join group for double laser split damage.",
+          "h": "-AoE heal after double laser.\n-Top tank quickly if solo-soaking single laser.",
+          "t": "-Face away, manage stacks carefully.\n-Swap tanks at 3–4 Magic Vulnerability stacks."
+        },
+        {
+          "en": "Swindler",
+          "g": "-Everyone gets high (purple) or low (red) debuff—stand on opposite panel elevation.\n-Wrong elevation inflicts heavy damage + Vulnerability Up.\n-AoE follows each panel mechanic.\n-Orbs above player = stack mechanic requiring indicated number of players.",
+          "d": "-Move to correct elevation panel (high debuff → low panel, low debuff → high panel).\n-Stack in ring with correct number of players when targeted.",
+          "h": "-AoE heal after each elevation mechanic.\n-Be ready to heal players who fail and get Vulnerability Up.",
+          "t": "-Stay on correct panel to avoid stacking debuffs.\n-Swap only if Vulnerability Up is gained."
+        },
+        {
+          "en": "Vortexer",
+          "g": "-One player marked with blue indicator summons a water tornado.\n-Lava pools spawn, knockback follows.\n-Use Shiva ice rings to freeze tornado into an ice boulder.\n-Hide behind frozen boulder to survive Ultra Flash.\n-Tanks swap at 2 stacks of Vulnerability Up.",
+          "d": "-If marked, place water tornado safely for freezing.\n-Position to hide behind ice boulder after knockback.",
+          "h": "-Prepare raid heals if anyone fails to hide behind boulder.\n-Keep tanks healthy through swap cycles.",
+          "t": "-Swap tanks every 2 stacks of Vulnerability Up.\n-Help position boss away from lava pools."
         }
       ]
       }
@@ -4957,23 +4957,6 @@
         ]
       },
       "346": {
-        "en": "Diabolos",
-        "st": [
-        {
-          "en": "Diabolos",
-          "g": "-Look away from Nightmare.\n-Ultimate Terror: mid-range donut, either hug Diabolos or stand far away.\n-Omen does raid-wide damage.-Kill lifegates 5 times to move to the next phase.",
-          "d": "-Melee stuns can interrupt diabolos' attacks.\n-Focus deathgates so they don't spawn adds.",
-          "h": "...",
-          "t": "-Tank stuns can interrupt most of diabolos' attacks."
-        },
-        {
-          "en": "Diabolos Hollow",
-          "g": "-Has a shield to break through at first.\n-Hollow nightmare now inflicts Doom.\n-Earthshaker: marks 3 players for a cone AoE, so spread.\n-Nox: spawns chasing balls. Keep these away from the party!\n-Use towers to deal with particle beams, middle one only for tanks.",
-          "d": "-If diabolic gate spawns, go in and kill the add quickly or the raid wipes.",
-          "h": "-With the shield up, Diabolos will do extra damage so prepare to heal your main tank a LOT.",
-          "t": "-Use the middle tower for particle beam.\n-Off-tanks should soak Critical Gravity red orbs away from the party."
-        }
-        ]
       },
       "347": {
         "en": null,
@@ -9594,14 +9577,14 @@
         "t": "..."
       },
       "100": {
-        "en": "Command Chamber → Magitek Colossus",
+        "en": "Command Chamber → Magitek Colossus - 1",
         "g": "-Escort through mobs, using Magitek transporter to transition.\n-Avoid marked AoEs from the Colossus (conal cleave, circle lasers).",
         "d": "-Use AoE skills during escort pulls.\n-Dodge Prototype Laser markers quickly.",
         "h": "-Spot‐heal the tank during pulls before engaging boss.\n-Keep raid topped before Colossus adds/shockwaves.",
         "t": "-Pull groups tightly for efficient escort.\n-Keep boss faced away and use cooldowns on colossus cleaves."
       },
       "101": {
-        "en": "Command Chamber → Magitek Colossus",
+        "en": "Command Chamber → Magitek Colossus - 2",
         "g": "-Escort through mobs, using Magitek transporter to transition.\n-Avoid marked AoEs from the Colossus (conal cleave, circle lasers).",
         "d": "-Use AoE skills during escort pulls.\n-Dodge Prototype Laser markers quickly.",
         "h": "-Spot‐heal the tank during pulls before engaging boss.\n-Keep raid topped before Colossus adds/shockwaves.",
@@ -9622,11 +9605,6 @@
         "t": "-Main tank: Keep aggro, use defence cooldowns on Innocence."
       },
       "104": {
-        "en": "The Echelon → Gaius van Baelsar",
-        "g": "-Patterns: X‑lines (Terminus Est), stacks (Festina Lente), line AoEs (Ductus), phantoms → blade energy spike.",
-        "d": "-Stand between X markers on Terminus Est.\n-Kill Phantom Gaiuses fast to reduce Veni Vidi Vici damage.",
-        "h": "-Stack quickly on Festina; raid heal after.\n-Heavy heal/tank cooldowns ready for final burst.",
-        "t": "-Main tank: Keep aggro, use defence cooldowns on Innocence."
       }
     }
   },
