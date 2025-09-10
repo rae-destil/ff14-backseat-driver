@@ -14,14 +14,14 @@ public class HandbookWindow : Window, IDisposable
 {
     private Plugin Plugin;
     private Configuration Configuration;
-    private Dictionary<string, RoleHints> availableDuties;
+    private Dictionary<string, List<RoleHints>> availableDuties;
 
     public HandbookWindow(Plugin plugin, Configuration config)
         : base("Backseat Driver Handbook##imdumb", ImGuiWindowFlags.AlwaysAutoResize)
     {
         Plugin = plugin;
         Configuration = config;
-        availableDuties = new Dictionary<string, RoleHints>();
+        availableDuties = new Dictionary<string, List<RoleHints>>();
 
 
         foreach (var hints in plugin.instances_data.Values)
@@ -30,6 +30,8 @@ public class HandbookWindow : Window, IDisposable
             { 
                 continue; 
             }
+
+            var terrInfo = new List<RoleHints>();
 
             foreach (var map in hints.maps.Values)
             {
@@ -49,8 +51,8 @@ public class HandbookWindow : Window, IDisposable
                             healer = map.healer,
                             tank = map.tank
                         };
-                        
-                        availableDuties.Add($"{hints.en_name} | {map.en_name}", uglyHack);
+
+                        terrInfo.Add(uglyHack);
                     }
                 }
                 else
@@ -62,10 +64,15 @@ public class HandbookWindow : Window, IDisposable
                             (stage.healer != "" && map.healer != "...") ||
                             (stage.tank != "" && map.tank != "..."))
                         {
-                            availableDuties.Add($"{hints.en_name} | {map.en_name} | {stage.stage_name}", stage);
+                            terrInfo.Add(stage);
                         }
                     }
                 }
+            }
+
+            if (terrInfo.Count > 0) 
+            {
+                availableDuties.Add(hints.en_name, terrInfo);
             }
         }
 
@@ -75,16 +82,30 @@ public class HandbookWindow : Window, IDisposable
 
     public override void Draw()
     {
-        foreach (var mapPair in availableDuties)
+        const float CapPx = 768f; // max height, idk
+        float h = MathF.Min(CapPx, ImGui.GetContentRegionAvail().Y);
+
+        if (ImGui.BeginChild("duties_scroll", new Vector2(0, h), true))
         {
-            var mapName = mapPair.Key;
-            var mapHint = mapPair.Value;
+            foreach (var mapPair in availableDuties)
+            {
+                var mapName = mapPair.Key;
+                var mapHint = mapPair.Value;
 
-            ImGui.TextUnformatted($"{mapName}");
-
-            _renderHintSection(mapHint, mapName);
-
-            ImGui.SameLine();
+                if (ImGui.CollapsingHeader($"{mapName}##g",
+                    ImGuiTreeNodeFlags.SpanAvailWidth | ImGuiTreeNodeFlags.Framed))
+                {
+                    ImGui.Indent();
+                    foreach (var st in mapHint)
+                    {
+                        ImGui.TextUnformatted($"{st.stage_name}");
+                        ImGui.SameLine();
+                        _renderHintSection(st, $"{mapName}-{st.stage_name}");
+                    }
+                    ImGui.Unindent();
+                }
+            }
+            ImGui.EndChild();
         }
 
         if (ImGui.Button("Close"))
@@ -106,9 +127,10 @@ public class HandbookWindow : Window, IDisposable
                 buttonClicked = true;
             }
         }
-        ImGui.SameLine();
+
         if (!string.IsNullOrWhiteSpace(stage.dps) && stage.dps != "...")
         {
+            ImGui.SameLine();
             if (ImGui.Button($"DPS##{mapId}"))
             {
                 Plugin.printTitle($"DPS advice for {stage.stage_name}:", EnixTextColor.RedDPS);
@@ -116,9 +138,10 @@ public class HandbookWindow : Window, IDisposable
                 buttonClicked = true;
             }
         }
-        ImGui.SameLine();
+        
         if (!string.IsNullOrWhiteSpace(stage.healer) && stage.healer != "...")
         {
+            ImGui.SameLine();
             if (ImGui.Button($"Healer##{mapId}"))
             {
                 Plugin.printTitle($"Healer advice for {stage.stage_name}:", EnixTextColor.GreenHealer);
@@ -126,9 +149,10 @@ public class HandbookWindow : Window, IDisposable
                 buttonClicked = true;
             }
         }
-        ImGui.SameLine();
+
         if (!string.IsNullOrWhiteSpace(stage.tank) && stage.tank != "...")
         {
+            ImGui.SameLine();
             if (ImGui.Button($"Tank##{mapId}"))
             {
                 Plugin.printTitle($"Tank advice for {stage.stage_name}:", EnixTextColor.BlueTank);
