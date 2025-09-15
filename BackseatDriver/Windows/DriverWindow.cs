@@ -50,7 +50,7 @@ public class DriverWindow : Window, IDisposable
             var mapName = _getTerritoryName();
             if (mapName != null)
             {
-                ImGui.TextUnformatted($"No hints to display for this part of {mapName}.");
+                ImGui.TextUnformatted($"No hints to display for {mapName}.");
             }
             else
             {

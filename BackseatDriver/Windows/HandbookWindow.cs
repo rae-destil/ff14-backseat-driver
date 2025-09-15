@@ -93,17 +93,10 @@ public class HandbookWindow : Window, IDisposable
         float h = MathF.Min(CapPx, ImGui.GetContentRegionAvail().Y);
         float w = MathF.Min(CapPy, ImGui.GetContentRegionAvail().X);
 
-        Plugin.Log.Info($"w={w}, h={h}");
-
         if (ImGui.BeginChild("duties_scroll", new Vector2(CapPy, h), true))
         {
-            bool filterModified = false;
-
             ImGui.PushItemWidth(-1); // full width
-            if (ImGui.InputTextWithHint("##dutysearch", "Search duties…", ref filterQuery, 128))
-            {
-                filterModified = true;
-            }
+            ImGui.InputTextWithHint("##dutysearch", "Search duties...", ref filterQuery, 128);           
             ImGui.PopItemWidth();
 
             if (!string.Equals(filterQuery, prevFilterQuery, StringComparison.Ordinal))

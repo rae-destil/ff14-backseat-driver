@@ -2558,10 +2558,10 @@
     "maps": {
       "166": {
         "en": "Ramuh",
-        "g": "-Ramuh uses Thunderstorm (AoE with orbs), Judgment Bolt (lethal if orbs not absorbed), and Chaotic Strike (tethers two players who must move apart).\n-Lightning orbs must be absorbed by players before Judgment Bolt or the party will wipe.",
-        "d": "-Soak one lightning orb each—do not double soak or you’ll die.\n-Move away from your tethered partner during Chaotic Strike.",
-        "h": "-Top off players who absorb orbs—they take heavy damage.\n-Heal through frequent AoEs, especially Thunderstorm and post-Judgment Bolt.",
-        "t": "-Tank Ramuh near arena center.\n-Face him away from the party and watch for tankbusters like Shock Strike."
+        "g": "-Shock Strike tankbuster—stay clear of MT.\n-Thunderspark AoEs also break Chaotic Strike stuns.\n-Collect Lightning Orbs to gain Surge Protection (3 orbs) but leave some for mechanics.\n-Chaotic Strike stuns random player until freed by AoEs.\n-Grey Arbiters spawn—kill immediately before Judgment Bolt.\n-Rolling Thunder tethers two players; one must soak 3 orbs to cancel.",
+        "d": "-Focus Arbiters quickly on spawn.\n-Spread during Thunderstorm to avoid overlapping damage.\n-If tethered, coordinate who soaks orbs.",
+        "h": "-Prepare heavy heals if orbs are mismanaged (Ramuh hits harder).\n-Free stunned players with AoEs or coordinate Thunderstorm placement.\n-Top raid before Judgment Bolt.",
+        "t": "-Keep Ramuh faced away; Shock Strike cleaves.\n-Pick up Arbiters instantly.\n-Avoid standing near party to prevent tankbuster splash."
       }
     }
   },
@@ -5468,19 +5468,33 @@
     "maps": {}
   },
   "679": {
-    "en": "The Royal Airship Landing",
+    "en": "The Royal Menagerie",
     "maps": {
       "405": {
-        "en": "The Royal Airship Landing",
-        "d": "...",
-        "h": "...",
-        "t": "..."
+        "en": "Shinryu",
+        "st": [
+        {
+          "en": "Phase 1",
+          "g": "-First Corrupted Aether always Water: run to waterspout side to avoid knockback.\n-Fire requires standing in puddles, Lightning requires avoiding puddles.\n-Spread when marked by Right Wing lightning.\n-Avoid Left Wing icicles or platform-wide frost.\n-Earth Breath targets two players with cones—position so only one side is covered.\n-Stack for Ahk Morn to share damage.",
+          "d": "-Spread cleanly for Right Wing lightning.\n-Stack with group on Ahk Morn.",
+          "h": "-Prepare strong AoE heals for Fire and Lightning.\n-Rescue players during Tidal Wave if they misposition.",
+          "t": "-Hold boss steady.\n-Mitigation for tank autos and be ready for wing bolts."
+        },
+        {
+          "en": "Phase 2",
+          "g": "-Large AoEs cover arena—move to far corners.\n-Adds spawn from cocoons with proximity markers—spread away on drop.\n-Hakkinryu tankbusters (Death Sentence) need attention.\n-Defeat waves fast or DPS check fails.\n-Fetter + Active Time Maneuver before Phase 3—mash to survive.",
+          "d": "-Burn adds quickly; focus Hakkinryu first.\n-Use AoE to clear Ginryu packs.",
+          "h": "-Top off after arena AoEs.\n-Sustain tanks through Death Sentence and add waves.",
+          "t": "-Grab Hakkinryu immediately; mitigate Death Sentence.\n-Keep adds faced away from party."
+        }
+      ]
       },
       "406": {
-        "en": "Transparency",
-        "d": "...",
-        "h": "...",
-        "t": "..."
+        "en": "Phase 3",
+        "g": "-Line Charge comes early—either corners to dodge or soak safely mid.\n-Outer blue platforms can break from Tail Slam or Corrupted Earth—stand safe.\n-After Tail Slam, target Shinryu’s tail—breaking it chunks boss HP.\n-Wind pulses knockbacks from center; stay close in.\n-Ice freezes floor—don’t move until it ends.\n-Fire requires puddles; Lightning avoid puddles.\n-Burning Chains: chained players spread apart.\n-Ahk Morn still requires stacks, with extra blue beam AoE to dodge.",
+        "d": "-Focus tail after Tail Slam for faster clear.\n-Spread for Burning Chains and Right Wing lightning.\n-Avoid slippery Ice floors—stand still.",
+        "h": "-Big AoE healing for Wind pulses, Fire, and Akh Morn.\n-Watch chained players for DoT healing.",
+        "t": "-Hold boss mid on grey platform to avoid edge danger.\n-Move to Tail Slam platforms quickly to help DPS tail.\n-Mitigation for repeated tank autos and add pressure."
       }
     }
   },
@@ -5789,10 +5803,10 @@
     "maps": {}
   },
   "727": {
-    "en": "The Royal Menagerie",
+    "en": "The Royal Menagerie P2",
     "maps": {
       "383": {
-        "en": "The Royal Menagerie",
+        "en": "The Royal Menagerie P2",
         "st": [
         {
           "en": "Phase 1",
@@ -10540,7 +10554,7 @@
     "en": "The Antitower",
     "maps": {
       "277": {
-        "en": "Zuro Roggo",
+        "en": "Zuro Roggo",
         "g": "-Uses Water Bombs (targeted circle AoEs), Odious Croak (persistent frontal cone), Toy Hammer (stun + cone cleave). Summons Poroggo Choirtoads and inflicts Frog Song debuffs on two players.",
         "d": "-Avoid standing in Water Bombs and stay behind boss to dodge Croak.\n-If you’re froged, keep distance until Choirtoads are killed.",
         "h": "-Shield or cleanse stun from Toy Hammer as soon as possible.\n-Heal froged players and raid through bomb and cone damage.",
