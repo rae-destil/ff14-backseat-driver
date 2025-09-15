@@ -1,11 +1,12 @@
+using Dalamud.Bindings.ImGui;
 using Dalamud.Interface.Utility;
 using Dalamud.Interface.Utility.Raii;
 using Dalamud.Interface.Windowing;
 using Dalamud.Plugin.Services;
-using Dalamud.Bindings.ImGui;
 using Lumina.Excel.Sheets;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Numerics;
 
 namespace BSDriverPlugin.Windows;
@@ -15,6 +16,11 @@ public class HandbookWindow : Window, IDisposable
     private Plugin Plugin;
     private Configuration Configuration;
     private Dictionary<string, List<RoleHints>> availableDuties;
+    private Dictionary<string, List<RoleHints>> filteredDuties = new();
+
+    private string filterQuery = "";
+    private string prevFilterQuery = "";
+
 
     public HandbookWindow(Plugin plugin, Configuration config)
         : base("Backseat Driver Handbook##imdumb", ImGuiWindowFlags.AlwaysAutoResize)
@@ -83,11 +89,61 @@ public class HandbookWindow : Window, IDisposable
     public override void Draw()
     {
         const float CapPx = 768f; // max height, idk
+        const float CapPy = 480f; // max width, idk
         float h = MathF.Min(CapPx, ImGui.GetContentRegionAvail().Y);
+        float w = MathF.Min(CapPy, ImGui.GetContentRegionAvail().X);
 
-        if (ImGui.BeginChild("duties_scroll", new Vector2(0, h), true))
+        Plugin.Log.Info($"w={w}, h={h}");
+
+        if (ImGui.BeginChild("duties_scroll", new Vector2(CapPy, h), true))
         {
-            foreach (var mapPair in availableDuties)
+            bool filterModified = false;
+
+            ImGui.PushItemWidth(-1); // full width
+            if (ImGui.InputTextWithHint("##dutysearch", "Search duties…", ref filterQuery, 128))
+            {
+                filterModified = true;
+            }
+            ImGui.PopItemWidth();
+
+            if (!string.Equals(filterQuery, prevFilterQuery, StringComparison.Ordinal))
+            {
+                prevFilterQuery = filterQuery;
+                filteredDuties.Clear();
+
+                var q = filterQuery.Trim();
+                if (q.Length == 0)
+                {
+                    foreach (var kv in availableDuties)
+                    {
+                        filteredDuties.Add(kv.Key, kv.Value);
+                    }
+                }
+                else
+                {
+                    var qLower = q.ToLowerInvariant();
+                    foreach (var kv in availableDuties)
+                    {
+                        // fuzzy on map name OR any stage name
+                        bool matchMap = _isFuzzySubsequence(kv.Key.ToLowerInvariant(), qLower);
+                        bool matchAnyStage = !matchMap && kv.Value.Any(st => _isFuzzySubsequence(st.stage_name.ToLowerInvariant(), qLower));
+                        if (matchMap || matchAnyStage)
+                        {
+                            filteredDuties.Add(kv.Key, kv.Value);
+                        }
+                    }
+                }
+            }
+
+            if (filteredDuties.Count == 0)
+            {
+                foreach (var kv in availableDuties)
+                { 
+                    filteredDuties.Add(kv.Key, kv.Value);
+                }
+            }
+
+            foreach (var mapPair in filteredDuties)
             {
                 var mapName = mapPair.Key;
                 var mapHint = mapPair.Value;
@@ -110,10 +166,20 @@ public class HandbookWindow : Window, IDisposable
 
         if (ImGui.Button("Close"))
         {
-            Plugin.ToggleDriverUI();
+            Plugin.ToggleHandbookUI();
         }
     }
-
+    private static bool _isFuzzySubsequence(string textLower, string patternLower)
+    {
+        if (patternLower.Length == 0) return true;
+        int ti = 0, pi = 0;
+        while (ti < textLower.Length && pi < patternLower.Length)
+        {
+            if (textLower[ti] == patternLower[pi]) pi++;
+            ti++;
+        }
+        return pi == patternLower.Length;
+    }
     private void _renderHintSection(RoleHints stage, string mapId)
     {
         bool buttonClicked = false;
@@ -163,7 +229,7 @@ public class HandbookWindow : Window, IDisposable
 
         if (buttonClicked && !Configuration.KeepDriverOpenOnClick)
         {
-            Plugin.ToggleDriverUI();
+            Plugin.ToggleHandbookUI();
         }
     }
 }
