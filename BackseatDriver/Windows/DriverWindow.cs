@@ -120,7 +120,15 @@ public class DriverWindow : Window, IDisposable
                 }
             }
         }
-        
+
+        if (Plugin.current_territory_hint == null)
+        {
+            if (ImGui.Button("Handbook"))
+            {
+                Plugin.ToggleHandbookUI();
+            }
+            ImGui.SameLine();
+        }
         if (ImGui.Button("Configuration"))
         {
             Plugin.ToggleConfigUI();

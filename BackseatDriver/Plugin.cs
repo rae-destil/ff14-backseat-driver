@@ -367,6 +367,12 @@ public sealed class Plugin : IDalamudPlugin
     }
     private void OnHandbookCmd(string command, string args)
     {
+        if (current_map_hint != null)
+        {
+            ChatGui.Print("Handbook is unavailable in duties.");
+            return;
+        }
+
         ToggleHandbookUI();
     }
 
