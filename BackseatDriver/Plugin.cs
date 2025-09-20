@@ -104,7 +104,7 @@ public class TerritoryRoleHints
 public record CoachActionHint
 {
     public string general { get; set; } = "";
-    public string roleSpecficic { get; set; } = "";
+    public string roleSpecific { get; set; } = "";
 }
 
 public enum Role
@@ -141,6 +141,7 @@ public sealed class Plugin : IDalamudPlugin
     [PluginService] internal static IChatGui ChatGui { get; set; } = null!;
     [PluginService] internal static IFramework Framework { get; private set; } = null!;
     [PluginService] internal static IObjectTable Objects { get; private set; } = null!;
+    [PluginService] internal static IGameInteropProvider Interop { get; private set; } = null!;
 
     public Dictionary<string, TerritoryRoleHints>? instances_data { get; private set; }
     public TerritoryRoleHints? current_territory_hint { get; set; }
@@ -257,6 +258,11 @@ public sealed class Plugin : IDalamudPlugin
         WindowSystem.RemoveAllWindows();
 
         ConfigWindow.Dispose();
+        DriverWindow.Dispose();
+        HandbookWindow.Dispose();
+        CoachWindow.Dispose();
+
+        enemiesTracker.Dispose();
 
         CommandManager.RemoveHandler("/pbsdriver");
     }
@@ -367,7 +373,7 @@ public sealed class Plugin : IDalamudPlugin
             };
 
             hint.general = enemyHints.general;
-            hint.roleSpecficic = job_hint;
+            hint.roleSpecific = job_hint;
 
             return hint;
         }

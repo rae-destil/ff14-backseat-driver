@@ -12,8 +12,8 @@ namespace BackseatDriver.Windows;
 
 public class CoachWindow : Window, IDisposable
 {
-    private Plugin Plugin;
-    private Configuration Configuration;
+    private Plugin plugin;
+    private Configuration config;
 
     private Lumina.Excel.ExcelSheet<Lumina.Excel.Sheets.Action> actionSheet;
     private Lumina.Excel.ExcelSheet<Lumina.Excel.Sheets.BNpcBase> bnpcBaseSheet;
@@ -31,11 +31,11 @@ public class CoachWindow : Window, IDisposable
     public CoachWindow(Plugin plugin, Configuration config)
         : base("Backseat Driver Coach##imdumb", ImGuiWindowFlags.AlwaysAutoResize)
     {
-        Plugin = plugin;
-        Configuration = config;
+        this.plugin = plugin;
+        this.config = config;
 
-        Plugin.enemiesTracker.registerOnChangeCb(onEnemiesChanged);
-        Plugin.enemiesTracker.registerOnCastCb(onCasting);
+        this.plugin.enemiesTracker.registerOnChangeCb(onEnemiesChanged);
+        this.plugin.enemiesTracker.registerOnCastCb(onCasting);
 
         actionSheet = Plugin.DataManager.GetExcelSheet<Lumina.Excel.Sheets.Action>();
         bnpcBaseSheet = Plugin.DataManager.GetExcelSheet<Lumina.Excel.Sheets.BNpcBase>();
@@ -46,17 +46,17 @@ public class CoachWindow : Window, IDisposable
 
     public void onEnemiesChanged()
     {
-        if (Plugin.current_map_hint == null || Plugin.current_map_hint.coachHints.Count == 0)
+        if (plugin.current_map_hint == null || plugin.current_map_hint.coachHints.Count == 0)
         {
             relevantEnemyIDs.Clear();
             return;
         }
 
-        relevantEnemyIDs.UnionWith(Plugin.current_map_hint.coachHints.Keys);
+        relevantEnemyIDs.UnionWith(plugin.current_map_hint.coachHints.Keys);
     }
     public void onCasting(string enemyName, ulong enemyId, uint castId)
     {
-        if (!Configuration.DisplayNerdStuff && !relevantEnemyIDs.Contains(enemyId.ToString()))
+        if (!config.DisplayNerdStuff && !relevantEnemyIDs.Contains(enemyId.ToString()))
         {
             return;
         }
@@ -66,7 +66,7 @@ public class CoachWindow : Window, IDisposable
 
         var castString = "";
 
-        if (Configuration.DisplayNerdStuff)
+        if (config.DisplayNerdStuff)
         {
             castString = $"{enemyName} ({enemyId}) casts {actionName} ({castId}).";
         }
@@ -75,18 +75,18 @@ public class CoachWindow : Window, IDisposable
             castString = $"{enemyName} casts {actionName}.";
         }
 
-        if (Plugin.current_map_hint?.coachHints.Count > 0)
+        if (plugin.current_map_hint?.coachHints.Count > 0)
         {
-            var hint = Plugin.getCoachingActionHints(enemyId.ToString(), castId.ToString(), ref lastActionHint);
+            var hint = plugin.getCoachingActionHints(enemyId.ToString(), castId.ToString(), ref lastActionHint);
             if (hint != null)
             {
                 if (lastActionHint.general != "...")
                 {
                     castString += $"\n{lastActionHint.general}";
                 }
-                if (lastActionHint.roleSpecficic != "...")
+                if (lastActionHint.roleSpecific != "...")
                 {
-                    castString += $"\n{lastActionHint.roleSpecficic}";
+                    castString += $"\n{lastActionHint.roleSpecific}";
                 }
             }
         }
@@ -99,9 +99,7 @@ public class CoachWindow : Window, IDisposable
         eventsLog.Enqueue(castString);
         pendingLogUpdate = true;
 
-        Plugin.Log.Info(castString);
-
-        //Plugin.ChatGui.Print($"{enemyName} casted {actionName}");
+        //Plugin.Log.Info(castString);
     }
 
     public void Dispose() { }
@@ -113,9 +111,9 @@ public class CoachWindow : Window, IDisposable
         float h = MathF.Min(CapPx, ImGui.GetContentRegionAvail().Y);
         float w = MathF.Min(CapPy, ImGui.GetContentRegionAvail().X);
 
-        if (Configuration.DisplayNerdStuff)
+        if (config.DisplayNerdStuff)
         {
-            int rows = Plugin.enemiesTracker.currEnemies.Count;
+            int rows = plugin.enemiesTracker.currEnemies.Count;
             float rowH = ImGui.GetTextLineHeightWithSpacing();
             float pad = ImGui.GetStyle().WindowPadding.Y * 2f;
             float contentH = ((rows + 1) * rowH) + pad; // +1 because of the 'title' lol
@@ -126,7 +124,7 @@ public class CoachWindow : Window, IDisposable
             {
                 ImGui.TextUnformatted("Nearby Enemies:");
 
-                foreach (var enemyInfo in Plugin.enemiesTracker.currEnemies)
+                foreach (var enemyInfo in plugin.enemiesTracker.currEnemies)
                 {
                     if (enemyInfo.castId == 0)
                     {
@@ -168,7 +166,7 @@ public class CoachWindow : Window, IDisposable
 
         if (ImGui.Button("Close"))
         {
-            Plugin.ToggleCoachUI();
+            plugin.ToggleCoachUI();
         }
     }
 }

@@ -776,7 +776,15 @@
         "g": "-Stand behind boss to avoid Ram’s Breath (right side ice cone, Heavy) and Dragon’s Breath (left side lightning cone, Paralysis).\n-When eyes glow violet → move in (Dragon’s Voice donut AoE).\n-When eyes glow blue → move out (Ram’s Voice point-blank AoE).\n-Dodge Cacophony orb and Lightning Storm circles.",
         "d": "-Stay behind boss to avoid breath cones.\n-Run in/out quickly for Dragon’s Voice and Ram’s Voice.\n-If targeted by Cacophony, kite orb away safely.",
         "h": "-Cleanse Paralysis (Dragon’s Breath, Cacophony) and Heavy (Ram’s Breath).\n-Top party after Voice mechanics.\n-Be ready for spike damage from failed dodges.",
-        "t": "-Face boss away to avoid Lion’s Breath cleave.\n-Sidestep Ram’s/Dragon’s Breath cones.\n-Keep boss steady so party can position properly."
+        "t": "-Face boss away to avoid Lion’s Breath cleave.\n-Sidestep Ram’s/Dragon’s Breath cones.\n-Keep boss steady so party can position properly.",
+        "c": { 
+            "18688" : {
+                "a" : { 
+                    "44237" : {"g" : "PBAoE - move away.", "d" : "...", "h" : "...", "t" : "..." },
+                    "44238" : {"g" : "Donut AoE - get up close.", "d" : "...", "h" : "...", "t" : "..." }
+                }
+            }
+        }
       }
     }
   },

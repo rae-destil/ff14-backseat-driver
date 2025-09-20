@@ -13,8 +13,8 @@ namespace BackseatDriver.Windows;
 
 public class HandbookWindow : Window, IDisposable
 {
-    private Plugin Plugin;
-    private Configuration Configuration;
+    private Plugin plugin;
+    private Configuration config;
     private Dictionary<string, List<RoleHints>> availableDuties;
     private Dictionary<string, List<RoleHints>> filteredDuties = new();
 
@@ -25,8 +25,8 @@ public class HandbookWindow : Window, IDisposable
     public HandbookWindow(Plugin plugin, Configuration config)
         : base("Backseat Driver Handbook##imdumb", ImGuiWindowFlags.AlwaysAutoResize)
     {
-        Plugin = plugin;
-        Configuration = config;
+        this.plugin = plugin;
+        this.config = config;
         availableDuties = new Dictionary<string, List<RoleHints>>();
 
         if (plugin.instances_data == null)
@@ -163,7 +163,7 @@ public class HandbookWindow : Window, IDisposable
 
         if (ImGui.Button("Close"))
         {
-            Plugin.ToggleHandbookUI();
+            plugin.ToggleHandbookUI();
         }
     }
     private static bool _isFuzzySubsequence(string textLower, string patternLower)
@@ -185,7 +185,7 @@ public class HandbookWindow : Window, IDisposable
         {
             if (ImGui.Button($"General##{mapId}"))
             {
-                Plugin.printTitle($"General advice for {stage.stage_name}:", EnixTextColor.BlueLight);
+                plugin.printTitle($"General advice for {stage.stage_name}:", EnixTextColor.BlueLight);
                 Plugin.ChatGui.Print($"{stage.general}");
                 buttonClicked = true;
             }
@@ -196,7 +196,7 @@ public class HandbookWindow : Window, IDisposable
             ImGui.SameLine();
             if (ImGui.Button($"DPS##{mapId}"))
             {
-                Plugin.printTitle($"DPS advice for {stage.stage_name}:", EnixTextColor.RedDPS);
+                plugin.printTitle($"DPS advice for {stage.stage_name}:", EnixTextColor.RedDPS);
                 Plugin.ChatGui.Print($"{stage.dps}");
                 buttonClicked = true;
             }
@@ -207,7 +207,7 @@ public class HandbookWindow : Window, IDisposable
             ImGui.SameLine();
             if (ImGui.Button($"Healer##{mapId}"))
             {
-                Plugin.printTitle($"Healer advice for {stage.stage_name}:", EnixTextColor.GreenHealer);
+                plugin.printTitle($"Healer advice for {stage.stage_name}:", EnixTextColor.GreenHealer);
                 Plugin.ChatGui.Print($"{stage.healer}");
                 buttonClicked = true;
             }
@@ -218,15 +218,15 @@ public class HandbookWindow : Window, IDisposable
             ImGui.SameLine();
             if (ImGui.Button($"Tank##{mapId}"))
             {
-                Plugin.printTitle($"Tank advice for {stage.stage_name}:", EnixTextColor.BlueTank);
+                plugin.printTitle($"Tank advice for {stage.stage_name}:", EnixTextColor.BlueTank);
                 Plugin.ChatGui.Print($"{stage.tank}");
                 buttonClicked = true;
             }
         }
 
-        if (buttonClicked && !Configuration.KeepDriverOpenOnClick)
+        if (buttonClicked && !config.KeepDriverOpenOnClick)
         {
-            Plugin.ToggleHandbookUI();
+            plugin.ToggleHandbookUI();
         }
     }
 }
