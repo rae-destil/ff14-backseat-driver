@@ -32,8 +32,8 @@ namespace BackseatDriver
 
         public List<EnemyInfo> currEnemies { get; private set; } = new();
 
-        private onEnemyInfoChanged onEnemyInfoChanged;
-        private onCasting onCasting;
+        private event onEnemyInfoChanged? OnEnemyInfoChanged;
+        private event onCasting? OnCasting;
 
         public EnemiesTracker(Plugin plugin, Configuration config)
         {
@@ -41,32 +41,21 @@ namespace BackseatDriver
             Configuration = config;
 
             lastScanTS = 0;
-
-            onEnemyInfoChanged = onEnemiesChanged;
-            onCasting = onCast;
-        }
-
-        private void onCast(string enemyName, ulong enemyId, uint castId)
-        {
-            return;
-        }
-        private void onEnemiesChanged()
-        {
-            return;
         }
 
         public void registerOnChangeCb(onEnemyInfoChanged cb)
         {
-            onEnemyInfoChanged += cb;
+            OnEnemyInfoChanged += cb;
         }
         public void registerOnCastCb(onCasting cb)
         {
-            onCasting += cb;
+            OnCasting += cb;
         }
         public void scan()
         {
             var elapsed = Environment.TickCount - lastScanTS;
-            if (elapsed < 500)
+
+            if (Math.Abs(elapsed) < 250)
             {
                 return;
             }
@@ -104,7 +93,7 @@ namespace BackseatDriver
                     currEnemies.Add(new EnemyInfo { Name = hostile.Name.TextValue, DataId = hostile.DataId, EntityId = hostile.EntityId, castId = hostile.CastActionId });
                 }
 
-                onEnemyInfoChanged();
+                OnEnemyInfoChanged?.Invoke();
 
                 /*Plugin.Log.Info($"New Hostiles: {hostiles.Length}");
                 foreach (var hostile in hostiles)
@@ -124,7 +113,7 @@ namespace BackseatDriver
                     currEnemies[i].castId = sortedHostiles[i].CastActionId;
                     if (currEnemies[i].castId != 0)
                     {
-                        onCasting(currEnemies[i].Name, currEnemies[i].DataId, currEnemies[i].castId);
+                        OnCasting?.Invoke(currEnemies[i].Name, currEnemies[i].DataId, currEnemies[i].castId);
                     }
                 }
             }

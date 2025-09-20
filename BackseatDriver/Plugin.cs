@@ -100,6 +100,13 @@ public class TerritoryRoleHints
     [JsonPropertyName("maps")]
     public Dictionary<string, MapRoleHints> maps { get; set; } = new();
 }
+
+public record CoachActionHint
+{
+    public string general { get; set; } = "";
+    public string roleSpecficic { get; set; } = "";
+}
+
 public enum Role
 {
     Tank,
@@ -327,7 +334,7 @@ public sealed class Plugin : IDalamudPlugin
         this.lastLoadedMapId = mapId;
     }
 
-    public string? getCoachingActionHints(string enemyId, string actionId)
+    public CoachActionHint? getCoachingActionHints(string enemyId, string actionId, ref CoachActionHint hint)
     {
         if (current_map_hint?.coachHints.Count > 0)
         {
@@ -359,7 +366,10 @@ public sealed class Plugin : IDalamudPlugin
                 _ => ""
             };
 
-            return job_hint;
+            hint.general = enemyHints.general;
+            hint.roleSpecficic = job_hint;
+
+            return hint;
         }
 
         return null;
