@@ -26,6 +26,8 @@ public class CoachWindow : Window, IDisposable
     private bool eventsStickyScroll = false;
     private bool pendingLogUpdate = false;
 
+    private HashSet<string> relevantEnemyIDs = new();
+
     public CoachWindow(Plugin plugin, Configuration config)
         : base("Backseat Driver Coach##imdumb", ImGuiWindowFlags.AlwaysAutoResize)
     {
@@ -44,10 +46,21 @@ public class CoachWindow : Window, IDisposable
 
     public void onEnemiesChanged()
     {
-        return;
+        if (Plugin.current_map_hint == null || Plugin.current_map_hint.coachHints.Count == 0)
+        {
+            relevantEnemyIDs.Clear();
+            return;
+        }
+
+        relevantEnemyIDs.UnionWith(Plugin.current_map_hint.coachHints.Keys);
     }
     public void onCasting(string enemyName, ulong enemyId, uint castId)
     {
+        if (!Configuration.DisplayNerdStuff && !relevantEnemyIDs.Contains(enemyId.ToString()))
+        {
+            return;
+        }
+
         var actionRow = actionSheet?.GetRow(castId);
         var actionName = actionRow != null ? actionRow.Value.Name : $"Action #{castId}";
 
@@ -62,8 +75,6 @@ public class CoachWindow : Window, IDisposable
             castString = $"{enemyName} casts {actionName}.";
         }
 
-        Plugin.Log.Info(castString);
-
         if (Plugin.current_map_hint?.coachHints.Count > 0)
         {
             var hint = Plugin.getCoachingActionHints(enemyId.ToString(), castId.ToString(), ref lastActionHint);
@@ -77,8 +88,6 @@ public class CoachWindow : Window, IDisposable
                 {
                     castString += $"\n{lastActionHint.roleSpecficic}";
                 }
-
-                Plugin.Log.Info(castString);
             }
         }
         
@@ -89,6 +98,8 @@ public class CoachWindow : Window, IDisposable
 
         eventsLog.Enqueue(castString);
         pendingLogUpdate = true;
+
+        Plugin.Log.Info(castString);
 
         //Plugin.ChatGui.Print($"{enemyName} casted {actionName}");
     }
