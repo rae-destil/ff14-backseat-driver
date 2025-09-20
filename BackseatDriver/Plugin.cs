@@ -26,6 +26,29 @@ using BackseatDriver;
 
 namespace BackseatDriver;
 
+public class EnemyHints
+{
+    [JsonPropertyName("g")]
+    public string general { get; set; } = "";
+
+    [JsonPropertyName("d")]
+    public string dps { get; set; } = "";
+
+    [JsonPropertyName("h")]
+    public string healer { get; set; } = "";
+
+    [JsonPropertyName("t")]
+    public string tank { get; set; } = "";
+}
+public class CoachHints
+{
+    [JsonPropertyName("a")]
+    public Dictionary<string, EnemyHints> actionHints { get; set; } = new();
+
+    [JsonPropertyName("d")]
+    public Dictionary<string, EnemyHints> debuffHints { get; set; } = new();
+}
+
 public class RoleHints
 {
 
@@ -64,6 +87,9 @@ public class MapRoleHints
 
     [JsonPropertyName("t")]
     public string tank { get; set; } = "";
+
+    [JsonPropertyName("c")]
+    public Dictionary<string, CoachHints> coachHints { get; set; } = new();
 }
 
 public class TerritoryRoleHints
@@ -301,6 +327,43 @@ public sealed class Plugin : IDalamudPlugin
         this.lastLoadedMapId = mapId;
     }
 
+    public string? getCoachingActionHints(string enemyId, string actionId)
+    {
+        if (current_map_hint?.coachHints.Count > 0)
+        {
+            if (Plugin.ClientState.LocalPlayer == null)
+            {
+                return null;
+            }
+
+            if (!current_map_hint.coachHints.TryGetValue(enemyId, out CoachHints? enemyCoachingHint))
+            {
+                return null;
+            }
+
+            if (!enemyCoachingHint.actionHints.TryGetValue(actionId, out EnemyHints? enemyHints))
+            {
+                return null;
+            }
+
+            uint jobId = Plugin.ClientState.LocalPlayer.ClassJob.RowId;
+            var jobStr = Plugin.ClientState.LocalPlayer.ClassJob.Value.Abbreviation.ExtractText();
+
+            Role job_role = ClassJob_To_Role.GetValueOrDefault(jobId, Role.Unknown);
+
+            string job_hint = job_role switch
+            {
+                Role.Tank => enemyHints.tank,
+                Role.Healer => enemyHints.healer,
+                Role.DPS => enemyHints.dps,
+                _ => ""
+            };
+
+            return job_hint;
+        }
+
+        return null;
+    }
     private void OnImmediateHintCmd(string command, string args)
     {
         _loadCurrentMapHints();

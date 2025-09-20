@@ -13,7 +13,7 @@ using System.Threading.Tasks;
 namespace BackseatDriver
 {
     public delegate void onEnemyInfoChanged();
-    public delegate void onCasting(string enemyName, uint castId);
+    public delegate void onCasting(string enemyName, ulong enemyId, uint castId);
 
     public sealed record EnemyInfo
     {
@@ -46,7 +46,7 @@ namespace BackseatDriver
             onCasting = onCast;
         }
 
-        private void onCast(string enemyName, uint castId)
+        private void onCast(string enemyName, ulong enemyId, uint castId)
         {
             return;
         }
@@ -124,7 +124,7 @@ namespace BackseatDriver
                     currEnemies[i].castId = sortedHostiles[i].CastActionId;
                     if (currEnemies[i].castId != 0)
                     {
-                        onCasting(currEnemies[i].Name, currEnemies[i].castId);
+                        onCasting(currEnemies[i].Name, currEnemies[i].DataId, currEnemies[i].castId);
                     }
                 }
             }

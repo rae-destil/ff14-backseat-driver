@@ -29,6 +29,10 @@ public class HandbookWindow : Window, IDisposable
         Configuration = config;
         availableDuties = new Dictionary<string, List<RoleHints>>();
 
+        if (plugin.instances_data == null)
+        {
+            throw new Exception("Cannot instantiate handbook with missing instances data");
+        }
 
         foreach (var hints in plugin.instances_data.Values)
         {

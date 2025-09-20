@@ -5,7 +5,7 @@ var lumina = new Lumina.GameData("D:\\Apps\\SquareEnix\\FINAL FANTASY XIV - A Re
 
 var actionsSheet = lumina.GetExcelSheet<Lumina.Excel.Sheets.Action>();
 
-Console.WriteLine($"{actionsSheet.GetRow(0)}");
+Console.WriteLine($"{actionsSheet?.GetRow(0)}");
 
 foreach (var action in actionsSheet)
 {

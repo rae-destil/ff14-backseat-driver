@@ -37,12 +37,21 @@ public class CoachWindow : Window, IDisposable
     {
         needRefresh = true;
     }
-    public void onCasting(string enemyName, uint castId)
+    public void onCasting(string enemyName, ulong enemyId, uint castId)
     {
         var actionRow = actionSheet?.GetRow(castId);
         var actionName = actionRow != null ? actionRow.Value.Name : $"Action #{castId}";
 
-        Plugin.Log.Info($"{enemyName} casts {actionName}");    
+        Plugin.Log.Info($"{enemyName} casts {actionName} ({castId})");
+
+        if (Plugin.current_map_hint?.coachHints.Count > 0)
+        {
+            var hint = Plugin.getCoachingActionHints(enemyId.ToString(), castId.ToString());
+            if (hint != null)
+            {
+                Plugin.Log.Info($"{enemyName} ({enemyId}) {actionName} hint: {hint}");
+            }
+        }
         
         //Plugin.ChatGui.Print($"{enemyName} casted {actionName}");
     }

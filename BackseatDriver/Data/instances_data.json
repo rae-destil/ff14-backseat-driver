@@ -9590,9 +9590,10 @@
         "h": "-Top party after Vulcan Burst and prep big heals before Hellfire.\n-Watch for random target damage from Eruption and Nail explosions.",
         "t": "-Keep Ifrit faced away from party to avoid cleave damage.",
         "c": { 
-            "0" : {
+            "207" : {
                 "a" : { 
-                    "0" : {"g" : "...", "d" : "...", "h" : "...", "t" : "..." }
+                    "455" : {"g" : "...", "d" : "...", "h" : "...", "t" : "Move away." },
+                    "456" : {"g" : "...", "d" : "...", "h" : "...", "t" : "Move away." }
                 }
             }
         }
