@@ -1,4 +1,4 @@
-using BSDriverPlugin.Windows;
+using BackseatDriver.Windows;
 using Dalamud.Game.Command;
 using Dalamud.Game.Text.SeStringHandling;
 using Dalamud.Game.Text.SeStringHandling.Payloads;
@@ -22,8 +22,9 @@ using System.Text.Json;
 using System.Text.Json.Serialization;
 using static Dalamud.Interface.Utility.Raii.ImRaii;
 using static FFXIVClientStructs.FFXIV.Client.System.Scheduler.Resource.SchedulerResource;
+using BackseatDriver;
 
-namespace BSDriverPlugin;
+namespace BackseatDriver;
 
 public class RoleHints
 {
@@ -106,12 +107,14 @@ public sealed class Plugin : IDalamudPlugin
     [PluginService] internal static IPluginLog Log { get; private set; } = null!;
     [PluginService] internal static IChatGui ChatGui { get; set; } = null!;
     [PluginService] internal static IFramework Framework { get; private set; } = null!;
+    [PluginService] internal static IObjectTable Objects { get; private set; } = null!;
 
     public Dictionary<string, TerritoryRoleHints>? instances_data { get; private set; }
     public TerritoryRoleHints? current_territory_hint { get; set; }
     public MapRoleHints? current_map_hint { get; set; }
     private bool waitingForPlayer = false;
     private uint lastLoadedMapId;
+    public EnemiesTracker enemiesTracker { get; private set; }
 
     private static readonly Dictionary<uint, Role> ClassJob_To_Role = new()
     {
@@ -153,6 +156,7 @@ public sealed class Plugin : IDalamudPlugin
     private ConfigWindow ConfigWindow { get; init; }
     private DriverWindow DriverWindow { get; init; }
     private HandbookWindow HandbookWindow { get; init; }
+    private CoachWindow CoachWindow { get; init; }
 
     private bool load_instances_data()
     {
@@ -172,15 +176,19 @@ public sealed class Plugin : IDalamudPlugin
     {
         Configuration = PluginInterface.GetPluginConfig() as Configuration ?? new Configuration();
 
-        this.load_instances_data(); 
+        this.load_instances_data();
+
+        enemiesTracker = new EnemiesTracker(this, Configuration);
 
         ConfigWindow = new ConfigWindow(this);
         DriverWindow = new DriverWindow(this, Configuration);
         HandbookWindow = new HandbookWindow(this, Configuration);
+        CoachWindow = new CoachWindow(this, Configuration);
 
         WindowSystem.AddWindow(ConfigWindow);
         WindowSystem.AddWindow(DriverWindow);
         WindowSystem.AddWindow(HandbookWindow);
+        WindowSystem.AddWindow(CoachWindow);
 
         CommandManager.AddHandler("/pbsdriver", new CommandInfo(OnDriverCmd)
         {
@@ -231,9 +239,10 @@ public sealed class Plugin : IDalamudPlugin
 
         if (ClientState.LocalPlayer is not null && this.lastLoadedMapId != ClientState.MapId)
         {
-            Log.Info($"Last loaded: {this.lastLoadedMapId}, curr map {ClientState.MapId}");
             _loadCurrentMapHints();
         }
+
+        enemiesTracker.scan();
     }
 
     private void OnTerritoryChanged(ushort newTerritoryId)
@@ -381,4 +390,5 @@ public sealed class Plugin : IDalamudPlugin
     public void ToggleConfigUI() => ConfigWindow.Toggle();
     public void ToggleDriverUI() => DriverWindow.Toggle();
     public void ToggleHandbookUI() => HandbookWindow.Toggle();
+    public void ToggleCoachUI() => CoachWindow.Toggle();
 }

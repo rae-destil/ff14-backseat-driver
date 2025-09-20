@@ -8,7 +8,7 @@ using System;
 using System.Collections.Generic;
 using System.Numerics;
 
-namespace BSDriverPlugin.Windows;
+namespace BackseatDriver.Windows;
 
 public class DriverWindow : Window, IDisposable
 {
@@ -128,6 +128,10 @@ public class DriverWindow : Window, IDisposable
                 Plugin.ToggleHandbookUI();
             }
             ImGui.SameLine();
+        }
+        if (ImGui.Button("Coach"))
+        {
+            Plugin.ToggleCoachUI();
         }
         if (ImGui.Button("Configuration"))
         {

@@ -2,7 +2,7 @@ using Dalamud.Configuration;
 using Dalamud.Plugin;
 using System;
 
-namespace BSDriverPlugin;
+namespace BackseatDriver;
 
 [Serializable]
 public class Configuration : IPluginConfiguration

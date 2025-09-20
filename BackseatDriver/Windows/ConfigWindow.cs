@@ -3,7 +3,7 @@ using System.Numerics;
 using Dalamud.Interface.Windowing;
 using Dalamud.Bindings.ImGui;
 
-namespace BSDriverPlugin.Windows;
+namespace BackseatDriver.Windows;
 
 public class ConfigWindow : Window, IDisposable
 {

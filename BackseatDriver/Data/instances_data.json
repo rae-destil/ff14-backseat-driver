@@ -9588,7 +9588,14 @@
         "g": "-Casts Eruption (targeted AoEs), Vulcan Burst (knockback), Radiant Plume (outer or inner AoE), and Hellfire (raid-wide damage).\n-Nails spawn before Hellfire—must be destroyed to prevent wipe.",
         "d": "-Move out of Eruption and Radiant Plume zones quickly.\n-Focus Nails as soon as they appear to prevent Hellfire wipe.",
         "h": "-Top party after Vulcan Burst and prep big heals before Hellfire.\n-Watch for random target damage from Eruption and Nail explosions.",
-        "t": "-Keep Ifrit faced away from party to avoid cleave damage."
+        "t": "-Keep Ifrit faced away from party to avoid cleave damage.",
+        "c": { 
+            "0" : {
+                "a" : { 
+                    "0" : {"g" : "...", "d" : "...", "h" : "...", "t" : "..." }
+                }
+            }
+        }
       }
     }
   },

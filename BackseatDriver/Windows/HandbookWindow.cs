@@ -9,7 +9,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Numerics;
 
-namespace BSDriverPlugin.Windows;
+namespace BackseatDriver.Windows;
 
 public class HandbookWindow : Window, IDisposable
 {
