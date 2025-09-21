@@ -3252,7 +3252,14 @@
           "h": "-Phase 1: Heal through Hydrothermal Missile and raid-wide AoEs.\n-Phase 2: Prep cooldowns for 3000-Onze Missile and tank cleaves.",
           "t": "-Phase 1: MT holds Oppressor south, OT kites Alarums.\n-Phase 2: OT picks up the second boss north; tanks separate bosses to prevent buffing, then stack them for burn."
         }
-      ]
+        ],
+        "c": {
+            "4450" : {
+                "a" : {
+                    "4377" : { "g" : "Marked player gets shot with several missiles.", "h" : "Heal them." }
+                }
+            }
+        }
       }
     }
   },
@@ -3658,21 +3665,48 @@
         "g": "-Tether mechanic: health equalizes if difference too large.\n-Each boss gains random resistance (Magic or Ranged invuln).\n-Mucus Bomb/Spray: AoEs that tether and seize targets; allies must break.\n-Shockwave Stomp: hide behind Irminsul or take lethal.\n-Sawtooth Feeds: adds spawn; failure leads to devour mechanic spreading Parasite.\n-Pulse of the Void: small AoE poison from Irminsul.",
         "d": "-Target the boss you can damage (respect resistance).\n-Spread for Mucus Bomb and free tethered allies.\n-Kill Ark Keds to prevent Parasite spread.",
         "h": "-Cleanses for Poison/Seized debuffs.\n-Heavy heals needed after Shockwave Stomp.\n-Extra healing if Parasite infestations spread.",
-        "t": "-Each tank hold one boss apart.\n-Face Sawtooth away for cleaves.\n-Position Irminsul to shield party during Stomp."
+        "t": "-Each tank hold one boss apart.\n-Face Sawtooth away for cleaves.\n-Position Irminsul to shield party during Stomp.",
+        "c": {
+            "a": {
+                "5105" : {},
+                "5103" : {
+                    "5213" : {"g" : "Run behind Irminsul for cover!" }
+                }
+            }
+        }
       },
       "271": {
         "en": "Cuchulainn",
         "g": "-Everyone starts with permanent Bleed.\n-Corrosive Bile: cone DoT + Poison.\n-Flailing Tentacles: diagonal line AoEs with Concussion debuff.\n-Idol of Impurity: adds increase Bleed stacks until killed.\n-Void Pact: portals spawn Foobars; boss gains Stoneskin buffs.\n-Beckon + Devour: pulls Foobars in to eat, empowering boss.\n-Bile Below: instant-kill unless standing on raised platforms.\n-Pestilence: heavy AoE, reduced by raised platforms.\n-Black Lung: adds another Bleed + Black Phlegm orbs that must be cleared before they explode.",
         "d": "-Dodge diagonal tentacle slams.\n-Help clear orbs during Black Lung.\n-Focus Foobars and Idols quickly to avoid wipes.",
         "h": "-Bleed is constant—maintain baseline healing.\n-Heal through Poison/Concussion.\n-Be ready for massive damage if Pestilence empowered.",
-        "t": "-Face boss away to avoid cone cleave.\n-Pick up Gyrtower/Idol adds immediately."
+        "t": "-Face boss away to avoid cone cleave.\n-Pick up Gyrtower/Idol adds immediately.",
+        "c": {
+            "a": {
+                "5139" : {
+                    "5178" : {"g" : "Get out of the tentacles' way."},
+                    "5183" : {"g" : "Foobars will spawn on the raised platforms - kill ASAP."},
+                    "5181" : {"g" : "Instakill - stand on raised platforms to avoid."},
+                    "5182" : {"g" : "Touch spawned orbs to defuse or get massive debuffs."}
+                }
+            }
+        }
       },
       "272": {
         "en": "Echidna",
         "g": "-Sickle Strike: tankbuster.\n-Sickle Slash: side cleaves, safe in front/back.\n-Demonic Descent: either stack marker or random large AoEs.\n-Nemesis Burst: circular cleave + knockback.\n-Abyssal Reaper: cleave with knockback + Vulnerability Up.\n-Petrifaction: gaze, turn away.\n-Add Phase: splits into Echidna/Sinister/Dexter—each tank grabs one, keep apart to prevent buffs.\n-Gehenna: raidwide after adds merge.\n-Bloodguards: occasional adds.",
         "d": "-Stack for descent marker or dodge scattered AoEs.\n-Avoid gaze; reposition if knocked back.\n-Burn adds quickly in split phase.",
         "h": "-Tankbusters + Vulnerability Up require spot heals.\n-Raid healing for Gehenna and Demonic Descent AoEs.",
-        "t": "-Main tank takes Echidna, other tanks grab Sinister/Dexter.\n-Keep adds apart to prevent buffs.\n-Swap only if Vulnerability stacks too high."
+        "t": "-Main tank takes Echidna, other tanks grab Sinister/Dexter.\n-Keep adds apart to prevent buffs.\n-Swap only if Vulnerability stacks too high.",
+        "c": {
+            "a": {
+                "5107" : {
+                    "5144" :  {"g" : "PBAoE with knockback." },
+                    "5153" :  {"g" : "Rectangular AoEs to left and right - safe in middle." },
+                    "5145" :  {"g" : "Look away from the boss." }
+                }
+            }
+        }
       }
     }
   },
@@ -7508,7 +7542,31 @@
         "en": "The Grand Cosmos",
         "d": "...",
         "h": "...",
-        "t": "..."
+        "t": "...",
+        "c": { 
+            "11290" : {
+                "a" : { 
+                    "18851" : {"g" : "...", "d" : "...", "h" : "...", "t" : "..." }
+                }
+            },
+            "11268" : {
+                "a" : { 
+                    "18768" : {"g" : "Donut Aoe - hug the boss.", "d" : "...", "h" : "...", "t" : "..." },
+                    "18204" : {"g" : "Party-wide AoE.", "d" : "...", "h" : "Top up everyone.", "t" : "..." },
+                    "18203" : {"g" : "...", "d" : "...", "h" : "Tankbuster - heal the tank.", "t" : "Tankbuster - mitigate." },
+                    "18205" : {"g" : "Take spawned seedlings to non-grass tile.", "d" : "...", "h" : "...", "t" : "..." },
+                    "18206" : {"g" : "...", "d" : "...", "h" : "...", "t" : "..." }
+                }
+            },
+            "11283" : {
+                "a" : { 
+                    "18270" : {"g" : "Stay out of lugus' way, let them charge to you and attack away from furniture.", "d" : "...", "h" : "...", "t" : "..." },
+                    "18274" : {"g" : "AoE to Lugus' RIGHT - mind his facing direction!", "d" : "...", "h" : "...", "t" : "..." },
+                    "18277" : {"g" : "Party-wide AoE.", "d" : "...", "h" : "...", "t" : "..." },
+                    "18267" : {"g" : "AoE around you, move away from furniture.", "d" : "...", "h" : "Get ready to heal everyone afterwards.", "t" : "..." }
+                }
+            }
+        }
       }
     }
   },
@@ -8021,9 +8079,29 @@
     "maps": {
       "612": {
         "en": "The Seat of Sacrifice",
-        "d": "...",
-        "h": "...",
-        "t": "..."
+        "st": [
+        {
+            "en": "Warrior of Light: Elidibus (Phase 1)",
+            "g": "-Terror Unleashed reduces all players to 1 HP\n-Coruscant Saber: check sword animation (rings = safe center, no rings = safe outside)\n-Absolute Fire III: stop all actions during Pyretic debuff or you die\n-Absolute Blizzard III: keep moving during Deep Freeze or you freeze\n-Imbued Coruscant combines Saber with Fire/Blizzard mechanics\n-Sword of Light triangle zone = lethal damage\n-Summon Wyrm divebomb covers half arena, dodge accordingly\n-Elddragon Dive deals heavy raidwide\n-Ascendance fetters all players before teleport\n-Absolute Teleport sends party to intermission",
+            "t": "-Use cooldowns on The Bitter End tankbuster\n-Maintain boss facing away during mechanics\n-Stay mobile to adjust for divebombs and AoEs",
+            "d": "-Stop actions during Pyretic, keep moving during Deep Freeze\n-Stand correctly for Coruscant Saber (center vs edge)\n-Dodge Sword of Light triangle and Bahamut divebomb\n-Focus damage while respecting imbued mechanics",
+            "h": "-Top all players immediately after Terror Unleashed or they die\n-Cleanse Pyretic/Freeze effects through awareness\n-Prepare raidwide heals for Elddragon Dive\n-Heal tanks through The Bitter End"
+        },
+        {
+            "en": "Warrior of Light: Elidibus (Intermission)",
+            "g": "-Active Time Maneuver: press buttons rapidly to keep Will of Defiance bar above 0\n-Lethal: if any player fails, the party wipes\n-Ultimate Crossover requires Tank Limit Break 3 when prompt appears; failure to LB = wipe\n-Success sets checkpoint into Phase 2",
+            "t": "-Be ready to pop LB3 when system prompt appears\n-Mitigate incoming damage from Laughing Moon + Crossover",
+            "d": "-Contribute DPS once freed from fetters\n-Successful LB3 survival ensures checkpoint into Phase 2",
+            "h": "-Top the group immediately after Crossover sequence\n-Keep everyone alive during pre- and post-LB raidwides"
+        },
+        {
+            "en": "Warrior of Light: Elidibus (Phase 2)",
+            "g": "-Specter mechanics mirror classic job attacks (stack, soak, spread, bait)\n-Soak meteor circles (two per) or raidwide Vulnerability Up\n-Dodge Brimstone Earth expanding AoEs while stacking for Absolute Holy\n-Suiton tidal wave pushes + stack marker, stay grouped correctly\n-Dodge Summoner Egis cones based on tether\n-Perfect Decimation: remember first set of cones, wait to move into their space\n-To the Limit: Radiant Braver (cone AoEs), Radiant Desperado (line stacks on healers), Radiant Meteor (massive AoEs)\n-Sword of Light now summons two lethal triangle zones",
+            "t": "-Hold boss steady to simplify mechanics\n-Mitigate Radiant LB attacks as needed\n-Help position group for safe zones during pushes and dives",
+            "d": "-Split to soak meteor circles correctly\n-Spread during Radiant Braver cones\n-Stack properly during Radiant Desperado and Katon: San\n-Move out for Radiant Meteor AoEs\n-Dodge expanding Brimstone Earth zones and Egi cones",
+            "h": "-Heal through repeated raidwides (Absolute Holy, Elddragon Dive, Atma-like sequences)\n-Spot heal tether damage from Summoner Egis\n-Prepare strong healing after Radiant Desperado double stack\n-Dispel Bleeds or debuffs where applicable"
+        }
+        ]
       },
       "613": {
         "en": "The Rift",
@@ -9596,15 +9674,7 @@
         "g": "-Casts Eruption (targeted AoEs), Vulcan Burst (knockback), Radiant Plume (outer or inner AoE), and Hellfire (raid-wide damage).\n-Nails spawn before Hellfire—must be destroyed to prevent wipe.",
         "d": "-Move out of Eruption and Radiant Plume zones quickly.\n-Focus Nails as soon as they appear to prevent Hellfire wipe.",
         "h": "-Top party after Vulcan Burst and prep big heals before Hellfire.\n-Watch for random target damage from Eruption and Nail explosions.",
-        "t": "-Keep Ifrit faced away from party to avoid cleave damage.",
-        "c": { 
-            "207" : {
-                "a" : { 
-                    "455" : {"g" : "...", "d" : "...", "h" : "...", "t" : "Move away." },
-                    "456" : {"g" : "...", "d" : "...", "h" : "...", "t" : "Move away." }
-                }
-            }
-        }
+        "t": "-Keep Ifrit faced away from party to avoid cleave damage."
       }
     }
   },

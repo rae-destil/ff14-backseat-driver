@@ -80,11 +80,11 @@ public class CoachWindow : Window, IDisposable
             var hint = plugin.getCoachingActionHints(enemyId.ToString(), castId.ToString(), ref lastActionHint);
             if (hint != null)
             {
-                if (lastActionHint.general != "...")
+                if (lastActionHint.general != "..." && lastActionHint.general != "")
                 {
                     castString += $"\n{lastActionHint.general}";
                 }
-                if (lastActionHint.roleSpecific != "...")
+                if (lastActionHint.roleSpecific != "..." && lastActionHint.roleSpecific != "")
                 {
                     castString += $"\n{lastActionHint.roleSpecific}";
                 }
@@ -135,9 +135,8 @@ public class CoachWindow : Window, IDisposable
                         ImGui.TextUnformatted($"{enemyInfo.Name}: DID {enemyInfo.DataId}; EID {enemyInfo.EntityId} (casting {enemyInfo.castId})");
                     }
                 }
-
-                ImGui.EndChild();
             }
+            ImGui.EndChild();
         }
 
         ImGui.Separator();
@@ -159,9 +158,8 @@ public class CoachWindow : Window, IDisposable
 
             // note how this is here because we want the *next* iteration to snap to the bottom after we've added content in the *current* draw call
             eventsStickyScroll = ImGui.GetScrollY() >= (ImGui.GetScrollMaxY() - 1.0f) && pendingLogUpdate;
-
-            ImGui.EndChild();
         }
+        ImGui.EndChild();
 
 
         if (ImGui.Button("Close"))

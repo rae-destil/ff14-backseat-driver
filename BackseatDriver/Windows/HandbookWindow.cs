@@ -158,8 +158,8 @@ public class HandbookWindow : Window, IDisposable
                     ImGui.Unindent();
                 }
             }
-            ImGui.EndChild();
         }
+        ImGui.EndChild();
 
         if (ImGui.Button("Close"))
         {
