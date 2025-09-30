@@ -78,6 +78,7 @@ public class CoachWindow : Window, IDisposable
         if (plugin.current_map_hint?.coachHints.Count > 0)
         {
             var hint = plugin.getCoachingActionHints(enemyId.ToString(), castId.ToString(), ref lastActionHint);
+            Plugin.Log.Info($"enemy {enemyId} cat {castId} -> hint {hint}");
             if (hint != null)
             {
                 if (lastActionHint.general != "..." && lastActionHint.general != "")
@@ -142,8 +143,7 @@ public class CoachWindow : Window, IDisposable
         ImGui.Separator();
 
         ImGui.TextUnformatted("Casts Log");
-
-        if (ImGui.BeginChild("events_log", new Vector2(CapPy, h), true))
+        if (ImGui.BeginChild("events_log", new Vector2(CapPy, h), true, ImGuiWindowFlags.HorizontalScrollbar))
         {
             if (eventsStickyScroll)
             {

@@ -3660,53 +3660,59 @@
         "h": "-Cleanse Electrocution/Dropsy if possible.\n-Strong AoE healing after Immersion and Expulsion.\n-Sustain group split during Hydrocore phase.",
         "t": "-Face boss away to keep rear cone off group.\n-Pick up Hydrocore if tanked inside barrier."
       },
-      "270": {
+      "271": {
         "en": "Irminsul and Sawtooth",
         "g": "-Tether mechanic: health equalizes if difference too large.\n-Each boss gains random resistance (Magic or Ranged invuln).\n-Mucus Bomb/Spray: AoEs that tether and seize targets; allies must break.\n-Shockwave Stomp: hide behind Irminsul or take lethal.\n-Sawtooth Feeds: adds spawn; failure leads to devour mechanic spreading Parasite.\n-Pulse of the Void: small AoE poison from Irminsul.",
         "d": "-Target the boss you can damage (respect resistance).\n-Spread for Mucus Bomb and free tethered allies.\n-Kill Ark Keds to prevent Parasite spread.",
         "h": "-Cleanses for Poison/Seized debuffs.\n-Heavy heals needed after Shockwave Stomp.\n-Extra healing if Parasite infestations spread.",
         "t": "-Each tank hold one boss apart.\n-Face Sawtooth away for cleaves.\n-Position Irminsul to shield party during Stomp.",
         "c": {
-            "a": {
-                "5105" : {},
-                "5103" : {
+            "5103" : {
+                "a" : {
                     "5213" : {"g" : "Run behind Irminsul for cover!" }
                 }
+            },
+            "5105" : {
             }
         }
       },
-      "271": {
-        "en": "Cuchulainn",
-        "g": "-Everyone starts with permanent Bleed.\n-Corrosive Bile: cone DoT + Poison.\n-Flailing Tentacles: diagonal line AoEs with Concussion debuff.\n-Idol of Impurity: adds increase Bleed stacks until killed.\n-Void Pact: portals spawn Foobars; boss gains Stoneskin buffs.\n-Beckon + Devour: pulls Foobars in to eat, empowering boss.\n-Bile Below: instant-kill unless standing on raised platforms.\n-Pestilence: heavy AoE, reduced by raised platforms.\n-Black Lung: adds another Bleed + Black Phlegm orbs that must be cleared before they explode.",
-        "d": "-Dodge diagonal tentacle slams.\n-Help clear orbs during Black Lung.\n-Focus Foobars and Idols quickly to avoid wipes.",
-        "h": "-Bleed is constant—maintain baseline healing.\n-Heal through Poison/Concussion.\n-Be ready for massive damage if Pestilence empowered.",
-        "t": "-Face boss away to avoid cone cleave.\n-Pick up Gyrtower/Idol adds immediately.",
-        "c": {
-            "a": {
-                "5139" : {
+      "272": {
+        "en": "The Fo'c'sle",
+        "st": [
+        {
+            "en" : "Cuchulainn",
+            "g": "-Everyone starts with permanent Bleed.\n-Corrosive Bile: cone DoT + Poison.\n-Flailing Tentacles: diagonal line AoEs with Concussion debuff.\n-Idol of Impurity: adds increase Bleed stacks until killed.\n-Void Pact: portals spawn Foobars; boss gains Stoneskin buffs.\n-Beckon + Devour: pulls Foobars in to eat, empowering boss.\n-Bile Below: instant-kill unless standing on raised platforms.\n-Pestilence: heavy AoE, reduced by raised platforms.\n-Black Lung: adds another Bleed + Black Phlegm orbs that must be cleared before they explode.",
+            "d": "-Dodge diagonal tentacle slams.\n-Help clear orbs during Black Lung.\n-Focus Foobars and Idols quickly to avoid wipes.",
+            "h": "-Bleed is constant—maintain baseline healing.\n-Heal through Poison/Concussion.\n-Be ready for massive damage if Pestilence empowered.",
+            "t": "-Face boss away to avoid cone cleave.\n-Pick up Gyrtower/Idol adds immediately."
+        },
+        {
+            "en": "Echidna",
+            "g": "-Sickle Strike: tankbuster.\n-Sickle Slash: side cleaves, safe in front/back.\n-Demonic Descent: either stack marker or random large AoEs.\n-Nemesis Burst: circular cleave + knockback.\n-Abyssal Reaper: cleave with knockback + Vulnerability Up.\n-Petrifaction: gaze, turn away.\n-Add Phase: splits into Echidna/Sinister/Dexter—each tank grabs one, keep apart to prevent buffs.\n-Gehenna: raidwide after adds merge.\n-Bloodguards: occasional adds.",
+            "d": "-Stack for descent marker or dodge scattered AoEs.\n-Avoid gaze; reposition if knocked back.\n-Burn adds quickly in split phase.",
+            "h": "-Tankbusters + Vulnerability Up require spot heals.\n-Raid healing for Gehenna and Demonic Descent AoEs.",
+            "t": "-Main tank takes Echidna, other tanks grab Sinister/Dexter.\n-Keep adds apart to prevent buffs.\n-Swap only if Vulnerability stacks too high."
+        }
+        ],
+        "c" : {
+            "5139": {
+                "a": {
                     "5178" : {"g" : "Get out of the tentacles' way."},
                     "5183" : {"g" : "Foobars will spawn on the raised platforms - kill ASAP."},
                     "5181" : {"g" : "Instakill - stand on raised platforms to avoid."},
                     "5182" : {"g" : "Touch spawned orbs to defuse or get massive debuffs."}
                 }
-            }
-        }
-      },
-      "272": {
-        "en": "Echidna",
-        "g": "-Sickle Strike: tankbuster.\n-Sickle Slash: side cleaves, safe in front/back.\n-Demonic Descent: either stack marker or random large AoEs.\n-Nemesis Burst: circular cleave + knockback.\n-Abyssal Reaper: cleave with knockback + Vulnerability Up.\n-Petrifaction: gaze, turn away.\n-Add Phase: splits into Echidna/Sinister/Dexter—each tank grabs one, keep apart to prevent buffs.\n-Gehenna: raidwide after adds merge.\n-Bloodguards: occasional adds.",
-        "d": "-Stack for descent marker or dodge scattered AoEs.\n-Avoid gaze; reposition if knocked back.\n-Burn adds quickly in split phase.",
-        "h": "-Tankbusters + Vulnerability Up require spot heals.\n-Raid healing for Gehenna and Demonic Descent AoEs.",
-        "t": "-Main tank takes Echidna, other tanks grab Sinister/Dexter.\n-Keep adds apart to prevent buffs.\n-Swap only if Vulnerability stacks too high.",
-        "c": {
-            "a": {
-                "5107" : {
+            },
+            "5107" : {
+                "a": {
                     "5144" :  {"g" : "PBAoE with knockback." },
                     "5153" :  {"g" : "Rectangular AoEs to left and right - safe in middle." },
                     "5145" :  {"g" : "Look away from the boss." }
                 }
             }
         }
+      },
+      "273": {
       }
     }
   },
@@ -6594,7 +6600,15 @@
         "g": "-Ambient Aether combos define safe positioning: Coil+Coil = get out; Coil+Flip = get in; Flip+Flip = plus (go diagonals); Flip+Coil = X (go cardinals)\n-Earth Shaker and Thunderstorm will overlap after Aether: spread from Earth Shaker and avoid overlapping circles during Thunderstorm\n-Cauterize + Scarlet Thread or Horrid Roar combos require stack bait then reposition to dodge dive-bombs and lines\n-Northern Cross applies Thin Ice then Ambient Aether combos while sliding: pre-form safe circle near boss and slide accordingly",
         "d": "-Assign cardinal/diagonal positions before combos; move immediately after second spin/flip to correct spot\n-When Blizzard markers appear, run to edge corners to drop puddles early and avoid clogging arena",
         "h": "-Prep raid shields ahead of Thunderstorm + Cauterize overlaps and Horrid Roar stacks\n-During Akh Rhai + Exaflare + Blizzard, stagger heals and move ice-marked players to drop puddles away from group",
-        "t": "-Make sure Ancient Dragon is faced away from the group."
+        "t": "-Make sure Ancient Dragon is faced away from the group.",
+        "c": {
+            "9288" : {
+                "a": {
+                    "12745" : {"g" : "azure wings"},
+                    "12747" : {"g" : "stygian"}
+                }
+            }
+        }
       }
     }
   },
@@ -7540,9 +7554,29 @@
     "maps": {
       "567": {
         "en": "The Grand Cosmos",
-        "d": "...",
-        "h": "...",
-        "t": "...",
+        "st": [
+        {
+          "en": "Seeker of Solitude",
+          "g": "-Tribulation puddles apply Bleed and Heavy; avoid them\n-Sweep: brooms travel to puddles, knockback and apply Vulnerability Up if hit\n-Dark Shock targets two players with large AoEs; spread\n-Dark Pulse stack marker; group to share damage\n-Dark Well targets all four players with AoEs; spread to avoid overlap",
+          "t": "-Mitigate Shadowbolt tankbuster\n-Keep boss positioned center to manage puddle/broom mechanics",
+          "d": "-Spread for Dark Shock and Dark Well\n-Stack properly for Dark Pulse\n-Dodge broom paths during Sweep",
+          "h": "-Top up raid after Immortal Anathema\n-Heal through Dark Shock and Dark Well overlap\n-Prepare AoE healing if players are clipped by brooms"
+        },
+        {
+          "en": "Leannan Sith",
+          "g": "-Direct Seeding spawns seeds; carry seeds to barren tiles to prevent adds\n-Gardener's Hymn: kill Lover's Rings that sprout on grass or they explode for raidwide damage and debuffs\n-Ode to Far Winds overlaps AoEs; expect unavoidable hits\n-Ode to Fallen Petals: room-wide AoE with small safe zone near boss\n-When Djinn appears, all players and seeds are knocked one tile away just before sprouting",
+          "t": "-Mitigate Storm of Color tankbuster\n-Keep boss centered to help manage seeds and knockbacks",
+          "d": "-Move seeds to barren tiles quickly during Direct Seeding\n-Burst Lover's Rings on grass tiles before Toxic Sprout\n-Adjust quickly for Djinn knockbacks during seeding",
+          "h": "-Prepare AoE healing for Ode to Far Winds double hits\n-Top raid after Ode to Fallen Petals\n-Keep mitigation and burst heals ready if Lover's Rings explode"
+        },
+        {
+          "en": "Insatiable Flame: Lugus",
+          "g": "-Scorching Left/Right covers half arena; move to safe side\n-Otherworldly Heat: spreads then cross-cracks; avoid overlaps and explosions\n-Mortal Flame is lethal if not cleansed; pass it into furniture or chandeliers to survive\n-Culling Blade deals raidwide damage; first cast drops chandeliers used for cleansing Mortal Flame\n-Fire's Domain tethers: back away to avoid Vulnerability Up; dodge follow-up cone",
+          "t": "-Mitigate Captive Bolt tankbuster\n-Keep Lugus positioned away from furniture to preserve safe cleanses",
+          "d": "-Spread for Otherworldly Heat circles, then avoid delayed cross-cracks\n-Move Mortal Flame debuff into valid furniture if afflicted\n-Back away during Fire's Domain charges to avoid Vulnerability Up",
+          "h": "-Heal through Culling Blade raidwide\n-Top tank after Captive Bolt\n-Be ready for rapid AoE healing if players mishandle Mortal Flame or Otherworldly Heat"
+        }
+        ],
         "c": { 
             "11290" : {
                 "a" : { 
@@ -8013,28 +8047,88 @@
     "en": "The Puppets' Bunker",
     "maps": {
       "608": {
-        "en": "The Puppets' Bunker",
-        "d": "...",
-        "h": "...",
-        "t": "..."
+          "en": "813P-operated Aegis Unit",
+          "g": "-Falling off arena = instant death\n-Maneuver: Beam Cannons cover arena; safe zones appear as cones narrow, melee range is safe from knockback\n-Maneuver: Collider Cannons rotate before locking and firing; step into safe gaps when they stop\n-Firing Order: Surface Laser drops lingering AoE at targeted player’s position; move away\n-Aerial Support: Swoop causes knockback; watch paths of untargetable flight units\n-Maneuver: Refraction Cannons blast in direction wings tilt; stand opposite\n-Program: Life’s Last Song spawns expanding rings with safe gaps; match gaps to survive\n-Kill Flight Units quickly during Aerial Support: Bombardment to avoid Saturation Bombing raidwides",
+          "t": "-Mitigate Anti-personnel Laser tankbuster\n-Face boss centrally so safe zones are consistent",
+          "d": "-Position carefully for Surface Laser puddles to avoid overlap\n-Spread and regroup for High-Powered Laser stack markers\n-Identify safe lanes during Beam Cannons and Collider Cannons\n-Focus flight units during Bombardment phase",
+          "h": "-Prepare AoE healing after Diffusion Cannon and stack marker damage\n-Spot heal players clipped by brooms, cones, or swoops"
       },
       "609": {
-        "en": "mobs + flight units",
-        "d": "...",
-        "h": "...",
-        "t": "..."
+        "en": "Superior Flight Units",
+        "g": "-Each party can only damage its assigned Flight Unit due to Shield Protocol\n-Missile Command hits once per surviving unit; kill quickly to reduce AoE hits\n-Incendiary Bombing leaves burning puddles; don’t stand in them\n-High-powered Laser requires line stack per party; aim away from other groups\n-Formation: Sharp Turn sword position shows safe zone: right hand = middle, left hand = edge\n-Lethal Revolution circles around arena; follow arrows for safe movement\n-Sliding Swipe covers 2/3 arena; move with strafing units to safe side\n-Explosive Blast leaves bombs with column AoEs; watch starburst points",
+        "t": "-Pick up Precision Guided Missile tankbusters\n-Maintain unit positioning to avoid overlapping hazards with other parties",
+        "d": "-Spread for Bombing and Laser mechanics\n-Focus burn your Flight Unit until Shield Protocol drops\n-Move decisively on Sharp Turn and Sliding Swipe based on pilot’s weapon hand",
+        "h": "-Top off raid during Missile Command volleys\n-Extra healing for stack groups targeted by High-powered Laser"
       },
       "610": {
-        "en": "heavy artillery",
-        "d": "...",
-        "h": "...",
-        "t": "..."
+        "en": "905P-operated Heavy Artillery Unit",
+        "g": "-Volt Array deals heavy raidwide damage\n-Activate Laser Turret: bottom cannons fire lingering cone; top cannons stagger close-mid-far cones, wait far side until safe\n-Unconventional Voltage targets four players with wide cones; spread\n-Impact Crusher ends with Revolving Laser, only safe point is melee range\n-Pods display R010 (lines) or R030 (circles); stand between two R010 Pods or safe gap if mixed\n-Synthesize Compound requires 3 players per soak circle; failure = alliance-wide hit",
+        "t": "-Soak line tankbusters on off-tanks\n-Keep boss central for revolving AoE patterns",
+        "d": "-Spread to avoid overlapping cone AoEs\n-Move into melee range for Revolving Laser\n-Handle pod mechanics by watching screens and dodging correctly",
+        "h": "-Mitigate and heal through Volt Array and Impact Crusher sequences\n-Be ready to stabilize after failed soaks or laser overlaps"
       },
       "611": {
-        "en": "artillery unit corridor, compound 2p",
-        "d": "...",
-        "h": "...",
-        "t": "..."
+        "en": "The Compound",
+        "st": [
+        {
+          "en": "The Compound",
+          "g": "-Mechanical Dissection line AoE; sidestep\n-Mechanical Decapitation leaves only boss hitbox safe\n-Targeted circle AoEs overlap with ground circles; spread and dodge\n-Split forms rush across arena; only inside blind spots are safe\n-Final Mechanical Laceration deals raidwide and applies Down for the Count",
+          "t": "-Keep Compound positioned center to control AoE patterns",
+          "d": "-Move in for Decapitation safe zone\n-Spread to handle overlapping AoEs cleanly",
+          "h": "-Prepare strong healing for Mechanical Laceration and raidwide overlap damage"
+        },
+        {
+          "en": "Compound 2P",
+          "g": "-Prime Blade cues: sword down = ring AoE, stay inside; sword up = frontal cone; sword side = circle around boss\n-Relentless Spiral drops two waves of circles; stay mobile\n-Forced Transport tethers move targets or spawn AoEs; follow spark trails to see teleport result\n-Three Parts Disdain stack hits three times; knockback included\n-Four Parts Resolve targets players 1–4 in order; spread and move sequentially\n-Reproduce spawns clones mimicking Prime Blade; watch clone positioning\n-Energy Compression meteor soaks require one per circle\n-Pods R011 fire line lasers, R012 mimic Contusion with tankbusters; avoid overlaps",
+          "t": "-Mitigate tankbusters from R012 pod phase\n-Face boss carefully so cones and circles don’t clip raid",
+          "d": "-Spread and watch numbering for Four Parts Resolve\n-Soak meteors and adjust if Forced Transport moves circles\n-Move quickly to clone safe zones during Reproduce",
+          "h": "-Heal through Centrifugal Slice raidwides\n-Prepare AoE healing after Relentless Spiral and Energy Compression"
+        }
+        ],
+        "c" : {
+            "11938" : {
+                "a" : {
+                    "20595" : {"g" : "Collapsing cone attacks, safe zone where cones focus faster. Getting hit = high damage + knockback." },
+                    "20608" : {"g" : "Boss leans right or left, go opposite direction to avoid cone AoE." }
+                }
+            },
+            "11882" : {
+                "a" : {
+                    "20461" : {"g" : "Lingering cone from bottom turrets, gradual cone from top turrets. Safe zone at top cannons' far range.'" },
+                    "20481" : {"g" : "Line tankbusters.", "t" : "Targets off-tanks, so move away from your groups." },
+                    "20480" : {"g" : "Donut AoE - hug the boss." },
+                    "20463" : {"g" : "Phase shift." },
+                    "20462" : {"g" : "Pink balls - avoid AoE markers." },
+                    "20486" : {"g" : "Raid-wide AoE.", "h" : "Prepare to top everyone up." },
+                    "21561" : {"g" : "Monitors outside the arena display R010 or R030. R010 = line AoEs, R030 = circle AoEs." },
+                    "20460" : {"g" : "Need 3+ players in each soak circle - will turn blue when have enough players." },
+                    "20475" : {"g" : "AoEs around random players." }
+                }
+            },
+            "11972" : {
+                "a" : {
+                    "20920" : {"g" : "Raid-wide damage.", "h" : "Get ready to top everyone up." },
+                    "20915" : {"g" : "Line attack - watch for a vertical red laser." },
+                    "20916" : {"g" : "Donut - hug the boss." },
+                    "20917" : {"g" : "AoEs around random players." }
+                }
+            },
+            "11974" : {
+                "a" : {
+                    "20912" : {"g" : "Raid-wide damage."},
+                    "21490" : {"g" : "AoEs under random players."},
+                    "21535" : {"g" : "PBAoE - get away from the boss."},
+                    "21537" : {"g" : "Front cone - go behind the boss."},
+                    "20890" : {"g" : "Donut - hug the boss."},
+                    "20888" : {"g" : "Teleport + PBAoE."},
+                    "20907" : {"g" : "Four pods appear, spawn AoEs under random players."},
+                    "20894" : {"g" : "Four players marked. Players 1+3 get jumped, 2+4 get line AoE'd."},
+                    "20897" : {"g" : "A clone spawns in each corner - will copy the next Primal Blade P2 casts."},
+                    "20898" : {"g" : "A target tethers to the boss: if has sparks, they point at the circle where they'll get teleported. If no sparkles, will spawn AoEs."},
+                    "20900" : {"g" : "Pods spawn at arena edge and fire line AoEs."}
+                }
+            }
+        }
       }
     }
   },
