@@ -157,9 +157,10 @@ public class DriverWindow : Window, IDisposable
                 buttonClicked = true;
             }
         }
-        ImGui.SameLine();
+        
         if (!string.IsNullOrWhiteSpace(stage.dps) && stage.dps != "...")
         {
+            ImGui.SameLine();
             if (ImGui.Button($"DPS##{mapId}-{stage.stage_name}"))
             {
                 plugin.printTitle($"DPS advice for {stage.stage_name}:", EnixTextColor.RedDPS);
@@ -167,9 +168,10 @@ public class DriverWindow : Window, IDisposable
                 buttonClicked = true;
             }
         }
-        ImGui.SameLine();
+        
         if (!string.IsNullOrWhiteSpace(stage.healer) && stage.healer != "...")
         {
+            ImGui.SameLine();
             if (ImGui.Button($"Healer##{mapId}-{stage.stage_name}"))
             {
                 plugin.printTitle($"Healer advice for {stage.stage_name}:", EnixTextColor.GreenHealer);
@@ -177,9 +179,10 @@ public class DriverWindow : Window, IDisposable
                 buttonClicked = true;
             }
         }
-        ImGui.SameLine();
+        
         if (!string.IsNullOrWhiteSpace(stage.tank) && stage.tank != "...")
         {
+            ImGui.SameLine();
             if (ImGui.Button($"Tank##{mapId}-{stage.stage_name}"))
             {
                 plugin.printTitle($"Tank advice for {stage.stage_name}:", EnixTextColor.BlueTank);
