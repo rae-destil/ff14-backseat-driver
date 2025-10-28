@@ -5555,11 +5555,23 @@
     "en": "Deltascape V4.0",
     "maps": {
       "394": {
-        "en": "Exdeath",
-        "g": "-Watch for elemental cast indicators: Thunder = spread, Blizzard = stack, Fire = bait/explode.\n-Void Tornado and Black Hole require precise movement or knockback immunity.\n-During Decisive Battle, Exdeath gains new void mechanics—check cast name carefully.",
-        "d": "-Adjust positioning early for elemental spells to avoid rushed movement.\n-Bait Fire AoEs away from others during Fire III orbs.",
-        "h": "-High raid damage during Decisive Battle; pre-shield and pre-position.\n-Void mechanics have delay—don't top off too early or you'll waste heals.",
-        "t": "-Main tank: reposition away from party during Fire spells to control AoE.\n-Off-tank: assist with add pickup in Decisive Battle; don’t overlap tethers or AoEs."
+        "en" : "Exdeath",
+        "st": [
+        {
+            "en": "Exdeath",
+            "g": "-When tethered to the large orb, Exdeath's attacks hit harder.\n-Blizzard (Normal): AoEs appear under players.\n-Blizzard (Void): keep moving until hit to avoid freeze and vulnerability\n-Thunder (Normal): single-target tankbuster.\n-Thunder (Void): massive AoE centered on boss; move away\n-Fire (Normal): red markers on players; spread.\n-Fire (Void): inflicts Pyretic—stop all actions and movement or take damage\n-Vacuum Wave: heavy knockback; be cautious when arena walls are destroyed later\n-Holy: follows Vacuum Wave; stack behind boss to share damage",
+            "t": "-Keep Exdeath faced away from party for Thunder tankbusters",
+            "d": "-Avoid standing near boss during Void Thunder",
+            "h": "-Esuna Doom immediately\n-Prepare shields before Holy and Void Thunder"
+        },
+        {
+            "en": "Exdeath post Decisive Battle",
+            "g": "-At 66% and 33%, casts The Decisive Battle—run to arena edges to reduce meteor proximity damage\n-Giant head spawns after impact: center area inflicts Heavy and DoT; avoid walking through\n-After a short delay, head uses wide conal AoE; get behind it to avoid Zombification debuff\n-After first meteor, new abilities added:\n  • Flare – 3 players marked with white arrows; spread.\n  • Black Holes – persistent void zones; avoid.\n-At second Decisive Battle (33%), vines appear around arena leaving one gap—stand near missing vine for safe spot before meteor lands\n-After meteor, repeat head mechanic as before",
+            "t": "...",
+            "d": "...",
+            "h": "-Be prepared for lots of raidwides, time your shields/HoTs."
+        }
+        ]
       }
     }
   },
@@ -5923,24 +5935,24 @@
         "st": [
         {
           "en": "Otake-maru",
-          "g": "-If the boss raises his arm (100-tonze Swing), run out of melee range to avoid knockback/vuln up. If he stands up, stand inside his hitbox (safe zone).\n-He occasionally targets a random player for Liquid Carapace, chasing them while vomiting lava; kite away from group.\n-Avoid random Volcanic Debris falling from ceiling.",
-          "d": "-Stay behind boss to dodge cleaves; follow targeted player during Carapace to avoid overlaps.\n-Kill adds if they appear to minimize splash zones.",
-          "h": "-Shield before major sweeps and carapace phases.\n-Heal through lava damage and after Carapace finish.",
-          "t": "-Face boss away; reposition after arm-raise to bait swings safety.\n-Keep moving boss centrally during Carapace to avoid pushing into walls."
+          "g": "-100-tonze Swing: point-blank AoE\n-10-tonze Slash: frontal cone away from tank\n-Grrraaarrrgh: jumps to a player, leaves lava trail, then leaps to dropped mace/shield with AoE on landing",
+          "t": "-Face away from party\n-Move boss from lava zones\n-Mitigate leap AoEs",
+          "d": "-Avoid front and lava\n-Kite safely when targeted\n-Stay clear of mace and shield landings",
+          "h": "-Top tank before Slash\n-Heal AoE damage after jumps"
         },
         {
           "en": "Kamaitachi",
-          "g": "-Whipping Wittret tankbuster has no cast bar—keep boss facing away. Prompts like “The wind begins to howl” precede wide AoEs.\n-Tsumuji-kaze adds spawn whirlwinds and wind orbs; paired with tornado tether dashes that track lines. Reaper’s Gale proximity follows.",
-          "d": "-Stay close or far (safe spots) during 'howl' donut. Spread for Patient Blade line.\n-Stack post-tornado if near final cluster then dodge Reaper’s Gale edge drop.",
-          "h": "-Be ready for untelegraphed cleave; heal through whirlwind pierce hits.\n-Heal after add bursts and Reaper's proximity damage.",
-          "t": "-Face boss away constantly to avoid tankbuster hitting party.\n-Grab adds early; keep group clear of tornado paths."
+          "g": "-Whipping Wittret: untelepraphed tankbuster\n-The wind begins to howl!: point-blank AoE; safe near or far\n-The Patient Blade: wide frontal cleave\n-The wind shifts!: line AoE front/back\n-Whispers in the Wind: adds, whirlwinds, charges, proximity AoE (Reaper’s Gale) then Patient Blade",
+          "t": "-Mitigate tankbusters\n-Pull adds together\n-Move out for Reaper’s Gale",
+          "d": "-Avoid charge lines\n-AoE adds fast\n-Return center after Gale",
+          "h": "-Heal raid damage from charges\n-Top tank after Wittret"
         },
         {
           "en": "Genbu",
-          "g": "-Sinister Tide: arrow-marked tiles and blue orb track—predict its path to avoid hit and Vulnerability Up.\n-Genbu casts untelegraphed Caduceus (tankbuster) and Hell of Water cross-AoE plus Hell of Waste markers.\n-Then summons Chelonian Gate shield; if focus gauge fills before kill, Divine Cataract wipes.",
-          "d": "-Avoid Sinister orb paths; move out of marked tiles.\n-Stay clear of marker drops; avoid cross bloom zones during Hell of Water.",
-          "h": "-Alternate heal through tankbuster and purge Vuln stacks.\n-Prepare raid heal before Gate and wipe if gauge reaches full.",
-          "t": "-Use cooldown on Caduceus; face boss away.\n-Pick up adds around Gate and help collapse it quickly."
+          "g": "-Caduceus: tankbuster\n-Hell of Water: cross AoE\n-Hell of Waste: AoE marker; drop away\n-Sinister Tide: follow arrow flow, stand on safe platforms\n-Hell of Waves: destroy Chelonian Gate before Focus meter fills\n-Divine Cataract: raidwide, stronger if meter high",
+          "t": "-Mitigate Caduceus\n-Tank adds near boss\n-Stay off glowing tiles",
+          "d": "-Avoid cross AoE\n-Kill Gate fast\n-Follow safe paths for Sinister Tide",
+          "h": "-Heal heavy raid damage\n-Shield before Cataract"
         }
         ]
       }
@@ -6045,54 +6057,63 @@
       },
       "452": {
         "en": "Sigmascape V1.0",
+        "g": "...",
         "d": "...",
         "h": "...",
         "t": "..."
       },
       "453": {
         "en": "Sigmascape V1.0",
+        "g": "...",
         "d": "...",
         "h": "...",
         "t": "..."
       },
       "454": {
         "en": "Sigmascape V1.0",
+        "g": "...",
         "d": "...",
         "h": "...",
         "t": "..."
       },
       "455": {
         "en": "Sigmascape V1.0",
+        "g": "...",
         "d": "...",
         "h": "...",
         "t": "..."
       },
       "456": {
         "en": "Sigmascape V1.0",
+        "g": "...",
         "d": "...",
         "h": "...",
         "t": "..."
       },
       "457": {
         "en": "Sigmascape V1.0",
+        "g": "...",
         "d": "...",
         "h": "...",
         "t": "..."
       },
       "458": {
         "en": "Sigmascape V1.0",
+        "g": "...",
         "d": "...",
         "h": "...",
         "t": "..."
       },
       "459": {
         "en": "Sigmascape V1.0",
+        "g": "...",
         "d": "...",
         "h": "...",
         "t": "..."
       },
       "460": {
         "en": "Sigmascape V1.0",
+        "g": "...",
         "d": "...",
         "h": "...",
         "t": "..."
@@ -6126,12 +6147,12 @@
   "751": {
     "en": "Sigmascape V4.0",
     "maps": {
-      "449": {
+      "449":{
         "en": "Kefka",
-        "g": "-Hyper Drive is a single-target tankbuster.\n-Blizzard Blitz can be donut or point-blank; move in/out accordingly.\n-Flagrant Fire: spread from others when marked; initially overlaps with Thrumming Thunder.\n-Thrumming Thunder: avoid straight-line AoEs.\n-Timely Teleport: after teleport, move behind his new position; if no immediate frontal AoE, get in front to avoid Aero Assault knockback.\n-Ultima Upsurge: unavoidable raidwide AoE.\n-Trick versions of mechanics require the opposite movement - watch for question marks around Kefka.\n-Statue of the Gods adds tower-wide mechanics:\n-Dark purple orb's side half-arena blats.\n-Bright orb knockbacks, run up to it to not get knocked off.\n-Large orb to the side of the statue blasts that side's half of the arena.\n-Gaze attacks (purple eye) face away from the tower, trick gaze is yellow with question mark and requires you to look at the tower.",
-        "d": "-During Flagrant Fire + Thrumming Thunder, move to safe lane while keeping distance from others.\n-Remember trick versions require opposite actions—react quickly.\n-When Statue’s bright orb appears, move close and angle to avoid knockback over the edge.",
-        "h": "-Prepare for overlap damage from Flagrant Fire and Thrumming Thunder.\n-Heavy AoE phases (Ultima Upsurge, Hyper Drive follow-ups) require pre-shielding.\n-Watch for Statue orb knockbacks and ress players who fell.",
-        "t": "-Use mitigation for Hyper Drive; keep boss centered for predictable mechanic resolution.\n-Position to avoid Blizzard Blitz knockbacks and tower orb blasts.\n-Turn Kefka away from party when appropriate; keep an eye on Statue mechanics to avoid sudden deaths."
+        "g": "-Hyper Drive: heavy tankbuster\n-Blizzard Blitz: donut or point-blank AoE; move opposite of safe zone\n-Flagrant Fire: four orange markers; spread\n-Thrumming Thunder: two line AoEs; stand between\n-Ultima Upsurge: raidwide\n-Timely Teleport: move behind teleport circle, then adjust for cone or knockback\n-Trick Attacks (???): do the opposite of normal—stand *inside* danger zones or *in* line AoEs as needed\n-Statue Mechanics: watch background\n  • Dark orb = move opposite side\n  • Light orb = move close, face safely for knockback\n  • Side orb = stand on orb-less side\n  • Gaze (purple eye) = look away; Trick Gaze (yellow eye ?) = look at",
+        "t": "-Mitigate Hyper Drive\n-Stay centered for Blizzard/Thunder swaps\n-Watch statue orbs for safe zones\n-Hold knockback resist for light orb",
+        "d": "-Spread for Fire\n-Avoid false telegraphs during Trick mechanics\n-Move opposite or close to orbs per type\n-Look correctly for gaze icons",
+        "h": "-Prep for Hyper Drive and raidwides\n-Watch for deaths from falls; rez fast\n-AoE heal after Upsurge or orb hits"
       }
     }
   },
@@ -6246,7 +6267,7 @@
       },
       "465": {
         "en": "Daidarabotchi",
-        "g": "-Raises his left or right arm then slams it (Vulnerability Up). Uses overlapping cone, circle or burst AoEs, and spawns a growing lake (Mythmaker) that blocks movement and causes a knock-off if stood in too long.",
+        "g": "-Raises his left or right arm then slams it (Vulnerability Up). Uses overlapping cone, circle or burst AoEs, and spawns a growing lake (Mythmaker) that instakills if stood in too long.",
         "d": "-Watch which arm he raises and dodge accordingly. Spread for individual AoEs. Avoid the lake during Mythmaker.",
         "h": "-Heal raid through AoE overlaps. Be ready for add explosion damage after Mythmaker.",
         "t": "-Stay near safe side of the arena. Help move team out of growing lake and avoid side slams."
@@ -6551,12 +6572,24 @@
     "en": "Alphascape V1.0",
     "maps": {
       "485": {
-        "en": "Chaos",
-        "g": "-Elements change mid-fight: Wind pushes, Earth pulls—position to avoid falling.\n-Chaotic Storm spawns expanding AoEs—rotate around the boss.\n-Tethered players must intercept beams or orbs safely.\n-Later phases combine mechanics rapidly—memorize safe responses.",
-        "d": "-Maintain uptime during rotating AoEs by hugging boss hitbox.\n-Move early during elemental casts to compensate for knockback or pull.",
-        "h": "-Earth/Wind phase deals heavy raid damage with knockback—pre-shield.\n-Watch tethered targets for beam damage and be ready to top off after hits.",
-        "t": "-Main tank: rotate the boss cleanly to give melee space during AoEs."
-      }
+      "en": "Chaos",
+      "st": [
+        {
+          "en": "Phase 1",
+          "g": "-Chaotic Dispersion: heavy tankbuster\n-Damning Edict: large frontal cleave; move behind\n-Latitudinal/Longitudinal Implosion: alternating directional AoEs; move into detonated zones after first blast\n-If Edict used early → Tsunami & Earthquake phase\n\nTsunami:\n -Tsunami: raidwide, leaves center lane safe\n -Dynamic Fluid: donut AoEs on players when debuff ends; stack center\n -Knockdown + Big Bang: healers get proximity markers and should spread apart; avoid follow-up AoEs\n -Fiendish Orbs: north/south tethers; tanks intercept\n\nEarthquake:\n -Earthquake: raidwide; southern area collapses\n -Knockback from north; hug north edge\n -Repeat Implosion pattern after knockback\n -Knock Down x2: split soaks twice, then avoid Big Bang circles\n -Fiendish Orbs: four corners shoot random line AoEs",
+          "t": "-Intercept orb tethers.",
+          "d": "...",
+          "h": "-Heal raidwides (Tsunami/Earthquake)\n-Run away from the other healer and the group when marked with knockdown."
+        },
+        {
+          "en": "Phase 2 (no Edict)",
+          "g": "-If Edict was NOT cast on start → Inferno & Cyclone phase\n\nInferno:\n -Inferno: raidwide; only center circle safe\n -Entropy: AoEs on 4 players twice; spread within circle\n -Knock Down x2 → Big Bang: DON'T STACK BOTH MARKERS - split soaks, move after\n -Fiendish Orbs: four orbs around center fire line AoEs\n\nCyclone:\n -Cyclone: center unsafe tornado\n -Knockback from center; hug tornado edge or use knockback immunity\n -Damning Edict: move behind without crossing tornado\n -Knockdown + Big Bang: healers take corners away from group\n -Fiendish Orbs: two corner tethers; tanks take\n\nAfter mini-phases:\n -Bowels of Agony: sets HP to 1; tanks/healers STACK for donuts, DPS SPREAD for circles\n -Dark Crystal: DPS check; kill crystal before 100 gauge or wipe\n -Repeats Dispersion + Implosions until defeat",
+          "t": "-Tank soak orb tethers.",
+          "d": "-Spread when debuffed.",
+          "h": "-Bowels of Agony drops everyone to 1HP - prepare big heals.\n-STACK with other healer and tanks for dynamic fluid debuff."
+        }
+      ]
+    }
     }
   },
   "799": {
@@ -6624,53 +6657,18 @@
         "en": "Omega - humanoid form",
         "st": [
         {
-          "en": "Omega-M",
-          "g": "-Solar Ray is a cleaving tankbuster—non-tanks must stay away from the main tank.\n-Program Alpha: spread for circles, then stack; reposition to avoid Efficient Bladework point-blank AoE.\n-Subject Simulation transforms into Omega-F and triggers a knockback; stay close to avoid falling.",
-          "d": "-Spread early and adjust during stack to dodge Efficient Bladework.\n-Know the knockback timing after transformation—hug boss before it triggers.",
-          "h": "-Pre-shield Program Alpha and raidwide knockback (Discharger).\n-Top off tank early during Solar Ray combo to prevent overlap deaths.",
-          "t": "-Face Omega consistently to stabilize Wave mechanics.\n-Move away from group during Solar Ray to avoid cleaving others."
+          "en": "Omega-M & Omega-F",
+          "g": "-Solar Ray: heavy tankbuster; avoid cleave range\n-Program Alpha: AoE circles → stack marker; during stack, Omega-M dashes with Efficient Bladework (point-blank AoE)\n-Subject Simulation: switches form, Omega-F knockbacks and Omega-M PBAoEs. Hug F to not fly off the platform or into M.\n\nOmega-F:\n -Optimized Fire III: 4x player AoEs; spread\n -Laser Shower: raidwide\n\nOmega-M (v2):\n -Synthetic Shield + Beyond Strength: donut AoE + stack marker; stack mid\n -Efficient Bladework: center AoE after donut; move out",
+          "t": "...",
+          "d": "...",
+          "h": "-Top off after raidwides\n-Prep heals for stack + Solar Ray"
         },
         {
-          "en": "Omega-F",
-          "g": "-Fire III targets four players with AoEs; Blizzard III creates a cross pattern—both resolve at once.\n-Synthetic Blades splits the arena; spread Fire III circles in narrow safe zone between blade AoEs.\n-Subject Simulation transforms into Omega-M—move far away to avoid Bladework AoE.",
-          "d": "-Stay out of marked players’ circles while dodging Blizzard III cross.\n-Use edge movement during blades to fit all spreads within safe center.",
-          "h": "-Laser Shower is frequent and unavoidable—keep party topped.\n-Be ready for high damage during overlap of Fire/Blizzard and blades.",
-          "t": "-Stay aware of Synthetic Blades orientation to avoid baiting cleaves into party.\n-Ensure boss is centered to maintain clear safe zones."
-        },
-        {
-          "en": "Omega-M v2",
-          "g": "-Program Alpha gains donut AoE (Beyond Strength); stack in center after spreads.\n-Follow-up Bladework hits center after stack; move out immediately.\n-Synthetic Shield means mechanics are reused but stacked in tighter timings.",
-          "d": "-After circle spreads, head to center for stack and dodge donut.\n-Move instantly outward after stack to dodge Bladework.",
-          "h": "-Shield and AoE heal through Program Alpha combo.\n-Anticipate rapid center-outside movement and position for post-stack heals.",
-          "t": "-Position boss for quick reaction between Beyond Strength and Bladework.\n-Avoid keeping boss too close to edge—limits group movement space."
-        },
-        {
-          "en": "Formless Transition",
-          "g": "-One player gets AoE, another a stack marker—both move far apart.\n-Omega-M will Bladework at puddle location; Omega-F uses knockback.\n-Position close to Omega-F to survive knockback and avoid Omega-M AoE.",
-          "d": "-If marked with AoE, move away from group to your puddle spot.\n-Anticipate reappearance location and move to safe position fast.",
-          "h": "-Stack heals after puddle split; anticipate damage from Bladework or fall-offs.\n-Keep knockback mitigation ready if positioning is late.",
-          "t": "-Identify reappearance spots; prepare to pick up your assigned Omega form.\n-Move quickly to correct spawn without pulling boss over puddles."
-        },
-        {
-          "en": "Laser Shower DPS Check",
-          "g": "-Omega-M shields Omega-F; players must destroy M before F casts Laser Shower.\n-Once Omega-M dies, damage F quickly to prevent wipe.",
-          "d": "-Use full burst on Omega-M as soon as he spawns.\n-Cleave avoidance matters—don’t stand near the center during Bladework.",
-          "h": "-Prep raid cooldowns before Laser Shower cast.\n-Top off raid after Discharger and prep for post-M death rush on F.",
-          "t": "-Grab Omega-M immediately; keep it away from group during tankbuster.\n-Reposition Omega-F quickly after M dies to prevent Resonance."
-        },
-        {
-          "en": "Omega Duo (Firewall Phase)",
-          "g": "-Firewall splits party—each player can only damage M or F.\n-Tank each boss separately to prevent Resonance (damage buff).\n-Mechanics from both bosses occur in tandem; learn to track and dodge both.",
-          "d": "-Identify your debuff and focus the correct Omega.\n-Avoid Meteor proximity zones; move to center if not a tank.",
-          "h": "-Expect high sustained raid damage from Laser Shower, Meteor, and Cosmo Memory.\n-Time cooldowns around Cosmo Memory and Meteor casts.",
-          "t": "-Each tank must pick up the Omega form they can damage.\n-Keep bosses apart after Cosmo Memory to prevent Resonance stacks."
-        },
-        {
-          "en": "Final Cycle",
-          "g": "-Limit Breaks begin: Meteor (proximity), Sagittarius Arrow (line AoE), Blade Dance (tankbuster).\n-Both bosses repeat previous mechanics in tighter combos.\n-When one boss dies, the other begins spamming Laser Shower until defeat.",
-          "d": "-During Meteor, move to center if not a tank.\n-Dodge Arrow’s line AoE and avoid standing in front of Omega-M.",
-          "h": "-Prepare mitigation layers for Blade Dance and Meteor overlap.\n-Handle prolonged Laser Shower spam after one form dies.",
-          "t": "-Separate bosses to reduce raidwide damage.\n-Stay away from group during Meteor; coordinate with co-tank to split bosses cleanly."
+          "en": "Omega & Duo",
+          "g": "-Formless Transition: circle AoE + stack marker; separate to opposite sides\n -Goop splits → Omega-M (AoE) and Omega-F (knockback)\n -Stand near F to avoid fall, away from M’s AoE\n-M DPS check: kill M (shielding F) before F finishes Laser Shower\n-Keep bosses apart or they gain Resonance (damage up)",
+          "t": "-Separate bosses after Cosmo Memory\n-Stay away from the group and other tank for Meteor",
+          "d": "...",
+          "h": "-Heavy AoE healing after Cosmo Memory\n-Shields before Meteor/Blade Dance\n-Sustain through Laser Shower spam at end"
         }
       ]
       }
