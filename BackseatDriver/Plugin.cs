@@ -313,7 +313,7 @@ public sealed class Plugin : IDalamudPlugin
         var jobId = localPlayer.ClassJob.RowId;
         var jobStr = localPlayer.ClassJob.Value.Abbreviation.ExtractText();
 
-        Log.Information($"Loading hints for territory {territoryId} (map {mapId}) for job {jobStr} ({jobId}).");
+        //Log.Information($"Loading hints for territory {territoryId} (map {mapId}) for job {jobStr} ({jobId}).");
 
         var territory_hint = this.instances_data?.GetValueOrDefault(territoryId.ToString());
         this.lastLoadedMapId = mapId;
