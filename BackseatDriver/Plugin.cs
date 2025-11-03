@@ -1,4 +1,4 @@
-using BSDriverPlugin.Windows;
+using BackseatDriver.Windows;
 using Dalamud.Game.Command;
 using Dalamud.Game.Text.SeStringHandling;
 using Dalamud.Game.Text.SeStringHandling.Payloads;
@@ -22,8 +22,32 @@ using System.Text.Json;
 using System.Text.Json.Serialization;
 using static Dalamud.Interface.Utility.Raii.ImRaii;
 using static FFXIVClientStructs.FFXIV.Client.System.Scheduler.Resource.SchedulerResource;
+using BackseatDriver;
 
-namespace BSDriverPlugin;
+namespace BackseatDriver;
+
+public class EnemyHints
+{
+    [JsonPropertyName("g")]
+    public string general { get; set; } = "";
+
+    [JsonPropertyName("d")]
+    public string dps { get; set; } = "";
+
+    [JsonPropertyName("h")]
+    public string healer { get; set; } = "";
+
+    [JsonPropertyName("t")]
+    public string tank { get; set; } = "";
+}
+public class CoachHints
+{
+    [JsonPropertyName("a")]
+    public Dictionary<string, EnemyHints> actionHints { get; set; } = new();
+
+    [JsonPropertyName("d")]
+    public Dictionary<string, EnemyHints> debuffHints { get; set; } = new();
+}
 
 public class RoleHints
 {
@@ -63,6 +87,9 @@ public class MapRoleHints
 
     [JsonPropertyName("t")]
     public string tank { get; set; } = "";
+
+    [JsonPropertyName("c")]
+    public Dictionary<string, CoachHints> coachHints { get; set; } = new();
 }
 
 public class TerritoryRoleHints
@@ -73,6 +100,13 @@ public class TerritoryRoleHints
     [JsonPropertyName("maps")]
     public Dictionary<string, MapRoleHints> maps { get; set; } = new();
 }
+
+public record CoachActionHint
+{
+    public string general { get; set; } = "";
+    public string roleSpecific { get; set; } = "";
+}
+
 public enum Role
 {
     Tank,
@@ -106,12 +140,15 @@ public sealed class Plugin : IDalamudPlugin
     [PluginService] internal static IPluginLog Log { get; private set; } = null!;
     [PluginService] internal static IChatGui ChatGui { get; set; } = null!;
     [PluginService] internal static IFramework Framework { get; private set; } = null!;
+    [PluginService] internal static IObjectTable Objects { get; private set; } = null!;
+    [PluginService] internal static IGameInteropProvider Interop { get; private set; } = null!;
 
     public Dictionary<string, TerritoryRoleHints>? instances_data { get; private set; }
     public TerritoryRoleHints? current_territory_hint { get; set; }
     public MapRoleHints? current_map_hint { get; set; }
     private bool waitingForPlayer = false;
     private uint lastLoadedMapId;
+    public EnemiesTracker enemiesTracker { get; private set; }
 
     private static readonly Dictionary<uint, Role> ClassJob_To_Role = new()
     {
@@ -153,6 +190,7 @@ public sealed class Plugin : IDalamudPlugin
     private ConfigWindow ConfigWindow { get; init; }
     private DriverWindow DriverWindow { get; init; }
     private HandbookWindow HandbookWindow { get; init; }
+    private CoachWindow CoachWindow { get; init; }
 
     private bool load_instances_data()
     {
@@ -172,15 +210,19 @@ public sealed class Plugin : IDalamudPlugin
     {
         Configuration = PluginInterface.GetPluginConfig() as Configuration ?? new Configuration();
 
-        this.load_instances_data(); 
+        this.load_instances_data();
+
+        enemiesTracker = new EnemiesTracker(this, Configuration);
 
         ConfigWindow = new ConfigWindow(this);
         DriverWindow = new DriverWindow(this, Configuration);
         HandbookWindow = new HandbookWindow(this, Configuration);
+        CoachWindow = new CoachWindow(this, Configuration);
 
         WindowSystem.AddWindow(ConfigWindow);
         WindowSystem.AddWindow(DriverWindow);
         WindowSystem.AddWindow(HandbookWindow);
+        WindowSystem.AddWindow(CoachWindow);
 
         CommandManager.AddHandler("/pbsdriver", new CommandInfo(OnDriverCmd)
         {
@@ -216,6 +258,11 @@ public sealed class Plugin : IDalamudPlugin
         WindowSystem.RemoveAllWindows();
 
         ConfigWindow.Dispose();
+        DriverWindow.Dispose();
+        HandbookWindow.Dispose();
+        CoachWindow.Dispose();
+
+        enemiesTracker.Dispose();
 
         CommandManager.RemoveHandler("/pbsdriver");
     }
@@ -231,9 +278,10 @@ public sealed class Plugin : IDalamudPlugin
 
         if (ClientState.LocalPlayer is not null && this.lastLoadedMapId != ClientState.MapId)
         {
-            Log.Info($"Last loaded: {this.lastLoadedMapId}, curr map {ClientState.MapId}");
             _loadCurrentMapHints();
         }
+
+        enemiesTracker.scan();
     }
 
     private void OnTerritoryChanged(ushort newTerritoryId)
@@ -265,7 +313,7 @@ public sealed class Plugin : IDalamudPlugin
         var jobId = localPlayer.ClassJob.RowId;
         var jobStr = localPlayer.ClassJob.Value.Abbreviation.ExtractText();
 
-        Log.Information($"Loading hints for territory {territoryId} (map {mapId}) for job {jobStr} ({jobId}).");
+        //Log.Information($"Loading hints for territory {territoryId} (map {mapId}) for job {jobStr} ({jobId}).");
 
         var territory_hint = this.instances_data?.GetValueOrDefault(territoryId.ToString());
         this.lastLoadedMapId = mapId;
@@ -292,6 +340,46 @@ public sealed class Plugin : IDalamudPlugin
         this.lastLoadedMapId = mapId;
     }
 
+    public CoachActionHint? getCoachingActionHints(string enemyId, string actionId, ref CoachActionHint hint)
+    {
+        if (current_map_hint?.coachHints.Count > 0)
+        {
+            if (Plugin.ClientState.LocalPlayer == null)
+            {
+                return null;
+            }
+
+            if (!current_map_hint.coachHints.TryGetValue(enemyId, out CoachHints? enemyCoachingHint))
+            {
+                return null;
+            }
+
+            if (!enemyCoachingHint.actionHints.TryGetValue(actionId, out EnemyHints? enemyHints))
+            {
+                return null;
+            }
+
+            uint jobId = Plugin.ClientState.LocalPlayer.ClassJob.RowId;
+            var jobStr = Plugin.ClientState.LocalPlayer.ClassJob.Value.Abbreviation.ExtractText();
+
+            Role job_role = ClassJob_To_Role.GetValueOrDefault(jobId, Role.Unknown);
+
+            string job_hint = job_role switch
+            {
+                Role.Tank => enemyHints.tank,
+                Role.Healer => enemyHints.healer,
+                Role.DPS => enemyHints.dps,
+                _ => ""
+            };
+
+            hint.general = enemyHints.general;
+            hint.roleSpecific = job_hint;
+
+            return hint;
+        }
+
+        return null;
+    }
     private void OnImmediateHintCmd(string command, string args)
     {
         _loadCurrentMapHints();
@@ -381,4 +469,5 @@ public sealed class Plugin : IDalamudPlugin
     public void ToggleConfigUI() => ConfigWindow.Toggle();
     public void ToggleDriverUI() => DriverWindow.Toggle();
     public void ToggleHandbookUI() => HandbookWindow.Toggle();
+    public void ToggleCoachUI() => CoachWindow.Toggle();
 }

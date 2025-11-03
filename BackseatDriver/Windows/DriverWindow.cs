@@ -8,18 +8,18 @@ using System;
 using System.Collections.Generic;
 using System.Numerics;
 
-namespace BSDriverPlugin.Windows;
+namespace BackseatDriver.Windows;
 
 public class DriverWindow : Window, IDisposable
 {
-    private Plugin Plugin;
-    private Configuration Configuration;
+    private Plugin plugin;
+    private Configuration config;
 
     public DriverWindow(Plugin plugin, Configuration config)
         : base("Backseat Driver##imdumb", ImGuiWindowFlags.AlwaysAutoResize)
     {
-        Plugin = plugin;
-        Configuration = config;
+        this.plugin = plugin;
+        this.config = config;
     }
 
     public void Dispose() { }
@@ -36,7 +36,7 @@ public class DriverWindow : Window, IDisposable
 
     public override void Draw()
     {
-        if (Configuration.DisplayNerdStuff)
+        if (config.DisplayNerdStuff)
         {
             ImGui.TextUnformatted($"TID: {Plugin.ClientState.TerritoryType}, MID: {Plugin.ClientState.MapId}");
         }
@@ -45,7 +45,7 @@ public class DriverWindow : Window, IDisposable
         {
             ImGui.TextUnformatted("Loading hints...");
         }
-        else if (Plugin.current_territory_hint == null)
+        else if (plugin.current_territory_hint == null)
         {
             var mapName = _getTerritoryName();
             if (mapName != null)
@@ -69,7 +69,7 @@ public class DriverWindow : Window, IDisposable
                 ImGui.TextUnformatted("What hints are you interested in?");
             }
             
-            foreach (var mapPair in Plugin.current_territory_hint.maps)
+            foreach (var mapPair in plugin.current_territory_hint.maps)
             {
                 var mapId = mapPair.Key;
                 var mapHint = mapPair.Value;
@@ -121,22 +121,26 @@ public class DriverWindow : Window, IDisposable
             }
         }
 
-        if (Plugin.current_territory_hint == null)
+        if (plugin.current_territory_hint == null)
         {
             if (ImGui.Button("Handbook"))
             {
-                Plugin.ToggleHandbookUI();
+                plugin.ToggleHandbookUI();
             }
             ImGui.SameLine();
         }
+        if (ImGui.Button("Coach"))
+        {
+            plugin.ToggleCoachUI();
+        }
         if (ImGui.Button("Configuration"))
         {
-            Plugin.ToggleConfigUI();
+            plugin.ToggleConfigUI();
         }
         ImGui.SameLine();
         if (ImGui.Button("Close"))
         {
-            Plugin.ToggleDriverUI();
+            plugin.ToggleDriverUI();
         }
     }
 
@@ -148,45 +152,48 @@ public class DriverWindow : Window, IDisposable
         {
             if (ImGui.Button($"General##{mapId}-{stage.stage_name}"))
             {
-                Plugin.printTitle($"General advice for {stage.stage_name}:", EnixTextColor.BlueLight);
+                plugin.printTitle($"General advice for {stage.stage_name}:", EnixTextColor.BlueLight);
                 Plugin.ChatGui.Print($"{stage.general}");
                 buttonClicked = true;
             }
         }
-        ImGui.SameLine();
+        
         if (!string.IsNullOrWhiteSpace(stage.dps) && stage.dps != "...")
         {
+            ImGui.SameLine();
             if (ImGui.Button($"DPS##{mapId}-{stage.stage_name}"))
             {
-                Plugin.printTitle($"DPS advice for {stage.stage_name}:", EnixTextColor.RedDPS);
+                plugin.printTitle($"DPS advice for {stage.stage_name}:", EnixTextColor.RedDPS);
                 Plugin.ChatGui.Print($"{stage.dps}");
                 buttonClicked = true;
             }
         }
-        ImGui.SameLine();
+        
         if (!string.IsNullOrWhiteSpace(stage.healer) && stage.healer != "...")
         {
+            ImGui.SameLine();
             if (ImGui.Button($"Healer##{mapId}-{stage.stage_name}"))
             {
-                Plugin.printTitle($"Healer advice for {stage.stage_name}:", EnixTextColor.GreenHealer);
+                plugin.printTitle($"Healer advice for {stage.stage_name}:", EnixTextColor.GreenHealer);
                 Plugin.ChatGui.Print($"{stage.healer}");
                 buttonClicked = true;
             }
         }
-        ImGui.SameLine();
+        
         if (!string.IsNullOrWhiteSpace(stage.tank) && stage.tank != "...")
         {
+            ImGui.SameLine();
             if (ImGui.Button($"Tank##{mapId}-{stage.stage_name}"))
             {
-                Plugin.printTitle($"Tank advice for {stage.stage_name}:", EnixTextColor.BlueTank);
+                plugin.printTitle($"Tank advice for {stage.stage_name}:", EnixTextColor.BlueTank);
                 Plugin.ChatGui.Print($"{stage.tank}");
                 buttonClicked = true;
             }
         }
 
-        if (buttonClicked && !Configuration.KeepDriverOpenOnClick)
+        if (buttonClicked && !config.KeepDriverOpenOnClick)
         {
-            Plugin.ToggleDriverUI();
+            plugin.ToggleDriverUI();
         }
     }
 }
