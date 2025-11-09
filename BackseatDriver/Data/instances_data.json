@@ -3198,17 +3198,17 @@
         "st": [
         {
           "en": "Faust",
-          "g": "-Mini-boss that spawns Sturm Doll adds stacking boss damage.\n-Off-tank should pick up dolls; boss is the primary focus.",
-          "d": "-Stack for AoE to burst boss quickly, ignoring dolls.\n-Avoid adds but help stun if extra survive.",
-          "h": "-Minor raid-wide damage; heal through steady cleaves.\n-Stay mobile during movement-heavy steam room pulls.",
-          "t": "-Primary tank holds boss; off-tank grabs dolls and keeps them off raid."
+          "g": "-Mini-boss that spawns Sturm Doll adds stacking boss damage.\n-Off-tank should pick up adds and face them away from the group (they cleave).",
+          "d": "...",
+          "h": "...",
+          "t": "..."
         },
         {
           "en": "Oppressor",
-          "g": "-Phase 1: Oppressor spawns Alarum adds that leave Minimize puddles when killed under laser beams.\n-Phase 2: Second copy (Oppressor 0.5) joins; both must die simultaneously or remaining one self-destructs.",
-          "d": "-Phase 1: Kill Alarums away from melee and under laser to reduce damage.\n-Phase 2: Split DPS evenly and burn both bosses together.",
-          "h": "-Phase 1: Heal through Hydrothermal Missile and raid-wide AoEs.\n-Phase 2: Prep cooldowns for 3000-Onze Missile and tank cleaves.",
-          "t": "-Phase 1: MT holds Oppressor south, OT kites Alarums.\n-Phase 2: OT picks up the second boss north; tanks separate bosses to prevent buffing, then stack them for burn."
+          "g": "-Oppressor spawns Alarum adds that leave Minimize puddles when killed under laser beams.\n-Second copy (Oppressor 0.5) joins; both must die simultaneously or remaining one self-destructs.",
+          "d": "...",
+          "h": "...",
+          "t": "..."
         }
         ],
         "c": {
@@ -3285,25 +3285,18 @@
         "en": "The Burden of the Father",
         "st": [
         {
-          "en": "Phase 1: Leg #1",
-          "g": "-Two forelegs must be destroyed sequentially (one regenerates when the other dies).\n-Orbs spawn targeting random players and must be soaked by others to prevent their death.",
-          "d": "-Stand in to soak orbs away from marked player; save burst for when the leg is vulnerable.",
+          "en": "Phase 1: Legs",
+          "g": "-Two forelegs must be destroyed sequentially (one regenerates when the other dies).\n-A player will be marked with a blue orb: then orbs will flow to them and must be soaked by others to prevent their death.\n-On second leg, a player will be marked with three tethers. Others need to take two of them.\n-Jagd Dolls spawn: kill ASAP.",
+          "d": "-Stand in to soak orbs away from marked player.",
           "h": "-Heal marked players and orb-soakers promptly; prep party health for the burst window post-leg kill.",
-          "t": "-Face leg toward safe zone; MT takes most orbs, OT can assist when MT is low."
+          "t": "-OT takes most orbs, MT can assist when OT is low."
         },
         {
-          "en": "Phase 2: Leg #2",
-          "g": "-Adds spawn: laser bits tether and deal splash damage; Jagd Dolls apply lethal stacks if not killed and separated.\n-Mechanics layer atop Phase 1’s orbs and panzer quarantine.",
-          "d": "-Intercept tethered laser bits to relieve marked players.\n-Assign DPS to grab and burn Jagd Dolls separately to avoid multiple stacks.",
-          "h": "-Heal orb interceptors and tether interceptors; tag and heal Jagd Doll handlers.",
-          "t": "-MT handles leg and orbs; OT picks up Jagd Dolls and positions them apart."
-        },
-        {
-          "en": "Phase 3: Fourth Leg → Core",
+          "en": "Phase 2: Manipulator",
           "g": "-All prior mechanics return: orbs, laser bits, Jagd Dolls, plus Quarantine adds and healer DoT (Judgement Nisi).\n-Core vulnerable briefly after fourth leg; then uses Royal Pentacle and heavy AoEs.",
-          "d": "-Burn fourth leg quickly to avoid dual-Nisi deaths; follow Nisi debuff pass order during Pentacles.\n-Dodge AoEs and soak Orbs/Bits.",
-          "h": "-Healer separation is essential for Nisi spread; provide cooldowns during Quarantine, Bits, and AoE bursts.",
-          "t": "-Maintain leg tanking until fourth leg falls; face core properly and bait AoEs away from party."
+          "d": "...",
+          "h": "-Judgement Nisi: STAY AWAY FROM THE OTHER HEALER.",
+          "t": "..."
         }
       ]
       }
@@ -3857,10 +3850,10 @@
     "maps": {
       "286": {
         "en": "Ratfinx Twinkledinks",
-        "g": "-Ratfinx changes size and uses different mechanics depending on his form.\n-Giant form uses Boost (buff) followed by Bombs Away (slams based on player position); small form summons adds and uses AoEs.\n-Players can transform into creatures using syringes on the sides to interact with bombs or avoid mechanics.",
-        "d": "-Burn adds quickly in small form to avoid being overwhelmed.",
-        "h": "-Watch for tank damage spikes during Boost and Bombs Away.\n-AoE heal during add phases and after large AoEs like Missile.",
-        "t": "-Swap at 4 stacks of Headache debuff in giant form.\n-Use red syringe to become a gorilla and push bombs away before Bombs Away."
+        "g": "-Adds spawn in corners → tank pick them up, DPS focus immediately.\n-Red/orange marker = drop large puddle away from party.\n-Central tower circle spawns red/violet puddles; step in briefly to trigger the puddles.\n-When bombs spawn, use RED puddle → turn gorilla → push bombs to far corner.\n-When the boss is big and uses Boost, use VIOLET puddle → turn bird → survive Boost groundpounds.",
+        "t": "-Tank boss in the corner.\n-Swap at 4 Concussion stacks: OT provokes to take the tankbuster while MT is stunned and vulnerable.\n-Keep boss faced away from party during puddle drops.\n-Position so bomb pushes can be directed into a safe corner.",
+        "h": "-Prepare heals for tank during debuff stacks.\n-Watch damage from puddles/bomb mispositions.\n-Top party before Boost if bird transform timing is late.",
+        "d": "..."
       }
     }
   },
@@ -3914,10 +3907,22 @@
     "maps": {
       "289": {
         "en": "Quickthinx Allthoughts",
-        "g": "-Avoid standing in spikes; they inflict Bleed and Vulnerability Up that cannot be cleansed\n-When marked with a purple marker, move away—boss fires Sizzlebeam in a straight line, inflicting uncleanable Electrocution\n-Dodge all ground AoEs; getting hit drains MP and applies long Bleed stacks\n-Uplander Doom is a multi-hit tankbuster that applies stacking Physical Vulnerability Up—swap tanks if needed\n-When caged:\n  Red cage → do not move or act (Pyretic)\n  Purple cage → kill Alarum before Doom timer expires\n  White cage → fight Gobwalker, avoid walls to prevent Deep Freeze\n  Green cage → stand on vent to contain Poison and prevent raid-wide DoT\n-Kill Panzer-Doll and Sturm-Doll adds quickly; stun Sturm-Doll’s Kugelblitz to reduce damage\n-When spikes retract, Shanoa will summon True Heart adds—kill them before they reach the boss or he will heal and gain a damage buff\n-Avoid the rolling Weight of the World ball—touching it deals 9999 damage and knockback\n-If a Bomb tethers to you, drag it to a corner to isolate its explosion",
-        "t": "-Face boss away from group to avoid cleaves\n-Swap on Uplander Doom if stacks get high\n-Keep boss away from True Hearts to prevent healing and buffs",
-        "d": "-Move out for Sizzlebeam and all AoEs\n-Focus kill adds and True Hearts immediately\n-Avoid spikes and Weight of the World ball at all costs\n-Follow correct cage mechanics to survive and avoid wipes",
-        "h": "-Be ready for tank damage during Uplander Doom\n-Cannot cleanse most DoTs—heal through Bleed and Poison\n-Pay attention during cage phase: one healer may be trapped on vent\n-Top off party after add explosions or failed stuns"
+        "st": [
+        {
+          "en": "Quickthinx Allthoughts",
+          "g": "-Avoid floor spikes (Bleed + Vuln).\n-Purple marker → stay away; Sizzlebeam is a straight line.\n-Dodge large floor AoEs that drain MP + apply long Bleed.\n-Uplander Doom = multi-hit tankbuster with stacking Phys Vuln.\n-When a player is targeted for the grab, **stay away** so you aren’t stunned/grabbed.\n-During cages, kill adds quickly.\n-When spikes retract, Shanoa starts dropping True Hearts → **kill immediately** or boss heals + gains damage buff.\n-Weight of the World ball rolls around; avoid or take 9999 dmg + knockback.\n-Bomb (if seen) tethers to a player → drag to corner before explosion.",
+          "t": "-When True Hearts spawn, drag boss away from them.",
+          "h": "-You cannot heal players inside cages—prepare pre-shields if possible.",
+          "d": "..."
+        },
+        {
+          "en": "Cages",
+          "g": "-Cages occur one at a time; you cannot heal the trapped player.\nCages:\n\n-Red cage (Pyretic): **stand still, no actions**.\n-Purple (Throttle): kill Alarum fast.\n-White (Frostbite): avoid walls; kill Gobwalker.\n-Green (Poison vent): stand on vent so party isn’t poisoned.",
+          "t": "...",
+          "h": "...",
+          "d": "..."
+        }
+        ]
       }
     }
   },
@@ -4514,10 +4519,22 @@
       },
       "331": {
         "en": "Cruise Chaser",
-        "g": "-OT must grab and kill the flying E.D.D. add before it self-destructs\n-Optical Sight has three variants:\n  1) Four players marked with green circles—spread to avoid overlap\n  2) Large central light circle—move to edge to avoid Vulnerability Up\n  3) Sequential small circles—wait in middle, then move to cleared outer section\n-Photon drops four players to low HP—healers top off quickly\n-Propeller Wind causes Confusion unless you hide behind objects; Esuna cleanses it if needed\n-GA-100 hits OT heavily and deals reduced AoE damage by distance—spread slightly\n-At 50%, boss transforms—click a duct and complete the timed sequence or party wipes\n-Limit Cut phase: if damage before transition was low, four Lapis Lazuli Orbs spawn—kill them before Eternal Darkness\n-Eternal Darkness is raidwide AoE followed by room-wide Bleed; surviving orbs cause a wipe\n-Optical Sight gains flying adds firing lethal line AoEs—watch for overlaps\n-Plasma Shield phase: stand in front of the shield to damage it until destroyed; Cruise Chaser rushes MT afterward\n-Prey marks a player for triple AoE—healers pre-shield and sustain through damage",
-        "t": "-Maintain boss positioning so Optical Sight lines are predictable\n-Grab and hold E.D.D. immediately on spawn\n-Mitigate GA-100 and be ready for the post-shield rush",
-        "d": "-Spread for Optical Sight circles and move as light zones rotate\n-During transformation, click ducts quickly to avoid wipe\n-Focus orbs before Eternal Darkness to prevent instant death\n-Avoid line AoEs during flying Optical Sight phase",
-        "h": "-Prepare AoE heals for Photon and Eternal Darkness\n-Pre-shield the Prey target to survive triple hits\n-Cleanse Confusion after Propeller Wind if someone misses shelter\n-Manage Bleed damage over time after Eternal Darkness"
+        "st" : [
+        {
+            "en": "Phase 1",
+            "g": "-Kill the flying E.D.D. add before it self-destructs\n-Optical Sight has three variants:\n  1) Four players marked with green circles—spread to avoid overlap\n  2) Large central light circle—move to edge to avoid Vulnerability Up\n  3) Sequential small circles—wait in middle, then move to cleared outer section\n-Photon drops four players to low HP—healers top off quickly\n-Propeller Wind causes Confusion unless you hide behind objects; Esuna cleanses it if needed\n-GA-100 hits OT heavily and deals reduced AoE damage by distance—spread slightly\n-At 50%, boss transforms—click a duct and complete the timed sequence or party wipe",
+            "t": "-OT Grab and hold E.D.D. immediately on spawn\n-Mitigate GA-100 and be ready for the post-shield rush",
+            "d": "...",
+            "h": "..."
+        },
+        {
+            "en": "Phase 2",
+            "g": "-Limit Cut phase: if damage before transition was low, four Lapis Lazuli Orbs spawn—kill them before Eternal Darkness\n-Eternal Darkness is raidwide AoE followed by room-wide Bleed; surviving orbs cause a wipe\n-Optical Sight gains flying adds firing lethal line AoEs—watch for overlaps\n-Plasma Shield phase: stand in front of the shield to damage it until destroyed; Cruise Chaser rushes MT afterward\n-Prey marks a player for triple AoE—healers pre-shield and sustain through damage",
+            "t": "...",
+            "d": "...",
+            "h": "..."
+        }
+        ]
       }
     }
   },
@@ -9536,32 +9553,25 @@
         "en": "Sastasha",
         "st": [
         {
-            "en": "Chopper",
-            "g": "-Frontal cleave (Sweeping Gouge) and random player charges (Bloody Charge).\n-Adds spawn if fight drags on.",
-            "d": "-Avoid standing in front of boss.\n-Burn boss quickly to prevent adds.",
-            "h": "-Watch for tank damage spikes from cleave.\n-Adds can split healing focus.",
-            "t": "-Keep boss faced away from group.\n-Hold aggro on potential adds if fight runs long."
+          "en": "Chopper",
+          "g": "-Charged Whisker: point-blank AoE that inflicts Paralysis—step out.\n-Otherwise simple: just avoid the cast and burn.",
+          "t": "...",
+          "d": "...",
+          "h": "-Esuna Paralysis victims."
         },
         {
-            "en": "Captain Madison (First Encounter)",
-            "g": "-Summons adds periodically.\n-Madison flees after taking enough damage.",
-            "d": "-Focus Madison; ignore adds unless overwhelming.",
-            "h": "-Healing load increases with active adds.",
-            "t": "-Control adds to reduce pressure on group."
+          "en": "Captain Madison (x2)",
+          "g": "-Crew adds join; kill them to keep damage low.\n-Second encounter adds: Heavy Swing, Fast Blade, Sandslinger (Accuracy Down). At 50%, Scurvy Dogs spawn.",
+          "t": "...",
+          "d": "-Focus adds then boss.",
+          "h": "..."
         },
         {
-            "en": "Captain Madison (Second Encounter)",
-            "g": "-Now uses bombs and adds again.\n-Bombs detonate with large AoEs; avoid them.",
-            "d": "-Prioritize boss but move out from bombs fast.\n-Use AoE if adds pile up.",
-            "h": "-Be ready for burst damage when bombs explode.\n-Heal through potential group-wide AoE if bombs go off.",
-            "t": "-Position boss away from bombs.\n-Quickly regain control after add spawns."
-        },
-        {
-            "en": "Denn the Orcatoothed",
-            "g": "-Spawns bubbles that trap players.\n-Bubbles must be destroyed to free trapped allies.",
-            "d": "-Target and destroy bubbles quickly.\n-Position carefully to avoid unnecessary bubble spawns.",
-            "h": "-Trapped players take damage over time.\n-Stay mobile to avoid being bubbled yourself.",
-            "t": "-Maintain aggro while helping break bubbles.\n-Position boss away from bubble spawns to reduce clutter."
+          "en": "Denn the Orcatoothed",
+          "g": "-True Thrust: light tank hit.\n-Hydroball: frontal cone; inflicts Silence — sidestep.\n-Grates in four corners can bubble and spawn adds (optional to handle).",
+          "t": "...",
+          "d": "...",
+          "h": "..."
         }
         ]
       }
@@ -9596,24 +9606,24 @@
     "maps": {
       "34": {
         "en": "Kottos",
-        "g": "-Boss is passive until activated by blasting device.\n-Uses point-blank AoEs and cleaves.\n-Adds may spawn from surrounding tunnels.",
-        "d": "-Avoid close-range AoEs.\n-Quickly clear any adds that emerge from tunnels.",
-        "h": "-Prepare for moderate AoE damage bursts.\n-Watch for stray adds attacking party.",
-        "t": "-Face boss away from group.\n-Hold aggro on both boss and spawned adds."
+        "g": "-Grand Slam: tankbuster.\n-Lumbering Leap: boss jumps 3 times; move to tiny edge-safe spots.\n-Colossal Slam: large cone on a random player.\n-Catapult: targeted rock hit.",
+        "t": "...",
+        "d": "...",
+        "h": "..."
       },
       "40": {
         "en": "Ichorous Ire",
-        "g": "-Slime boss splits into smaller slimes when damaged.\n-Slimes move to fuse if not killed quickly.",
-        "d": "-Focus slimes down fast before they can merge.\n-Use AoE abilities after first split.",
-        "h": "-Damage increases if slimes merge—watch for unexpected spikes.\n-Stay mobile to avoid being cornered by slimes.",
-        "t": "-Pull slimes together for AoE.\n-Prevent merges by keeping slimes controlled and grouped."
+        "g": "-Fluid Spread: tankbuster.\n-Syrup: AoEs under players — keep moving.\n-Divide: splits into many drips, each dropping Burst circles.",
+        "t": "...",
+        "d": "...",
+        "h": "..."
       },
       "41": {
         "en": "Gyges the Great",
-        "g": "-Boss uses AoE swings and targeted attacks.\n-Spawns adds and uses bombs that must be avoided.",
-        "d": "-Focus boss while avoiding bomb AoEs.\n-Use AoE if overrun by adds.",
-        "h": "-Watch for high burst damage if bombs or adds aren't handled.\n-Stay at range to avoid frontal swings.",
-        "t": "-Keep boss away from bombs and group.\n-Grab aggro on spawned adds quickly."
+        "g": "-Grand Slam: tankbuster.\n-Gigantic Swing: huge donut—stack in boss hitbox.\n-Gigantic Smash: center AoE + 5 around edges—move between them.\n-Colossal Slam: random large cone.",
+        "t": "...",
+        "d": "...",
+        "h": "..."
       }
     }
   },
@@ -9624,25 +9634,18 @@
         "en": "The Thousand Maws of Toto-Rak",
         "st": [
         {
-            "en": "Coeurl O' Nine Tails",
-            "g": "-Uses large frontal AoEs and rear cleaves.\n-Poisons players periodically.",
-            "d": "-Avoid standing in front or behind boss.\n-Cleanse poison puddles only if safe to do so.",
-            "h": "-Watch for poison debuffs and cleanse quickly.\n-Prepare for spike damage after AoEs.",
-            "t": "-Keep boss facing away from party.\n-Position to minimize cleave hazard zones."
+          "en": "Coeurl O' Nine Tails",
+          "g": "-Acid Mist: small-radius poison aura.\n-Second spawn has 2 Warden's Whip adds.",
+          "t": "...",
+          "d": "...",
+          "h": "..."
         },
         {
-            "en": "Graffias",
-            "g": "-Becomes invulnerable while cocooned and summons adds.\n-Large AoEs and poison zones fill the arena over time.",
-            "d": "-Kill cocoon and adds quickly to resume damage on boss.\n-Move early to avoid creeping poison zones.",
-            "h": "-Heavy damage during add waves and poison phase.\n-Maintain mobility to avoid overlapping AoEs.",
-            "t": "-Tank adds away from party.\n-Reposition boss to clear zones as space shrinks."
-        },
-        {
-            "en": "Slime Puddles / Intermissions",
-            "g": "-Slimes and traps appear throughout the dungeon.\n-Slime puddles explode if left unchecked.",
-            "d": "-Kill slimes before they detonate.\n-Avoid stepping in trap circles.",
-            "h": "-Damage spikes if slime explodes.\n-Minor healing otherwise.",
-            "t": "-Pull slimes into safe zones.\n-Keep aggro on surprise spawns near traps."
+          "en": "Graffias",
+          "g": "-Green goo puddles inflict Leaden (slow).\n-Realm Shaker: instant melee circle.\n-Silkscreen: line AoE.\n-Sticky Web spawns Fleshy Pod that soon explodes with poison.\n-At 50%: 4 Comesmite adds spawn; boss tail becomes targetable.\n-Deadly Thrust: drops a large poison puddle on a targeted player, place it away from everyone",
+          "t": "-Pick up Comesmites fast.",
+          "d": "...",
+          "h": "..."
         }
         ]
       }
@@ -9653,24 +9656,24 @@
     "maps": {
       "48": {
         "en": "Manor Claviger",
-        "g": "-Uses large frontal cleaves and cone AoEs.\n-Summons adds during the fight.",
-        "d": "-Avoid cleaves by staying behind the boss.\n-Swap to adds quickly when they spawn.",
-        "h": "-Spikes possible during cleaves or if adds ignored.\n-Keep party spread to avoid overlapping AoEs.",
-        "t": "-Face boss away from group.\n-Grab adds immediately to prevent chaos."
+        "g": "-Face boss away; heavy cleaver hits non-tanks hard.\n-Sweet Steel: untelegraphed cone.\n-Void Fire II: interruptible ranged AoE.\n-Dark Mist: large PBAoE; can be stunned.\n-After kill: backtrack to use Green Key on Ivy Door.",
+        "t": "...",
+        "d": "...",
+        "h": "..."
       },
       "54": {
-        "en": "Manor Jester and Manor Steward",
-        "g": "-Two mini-bosses fought simultaneously.\n-Jester uses magic AoEs; Steward uses physical cleaves.",
-        "d": "-Focus one target to reduce incoming damage.\n-Avoid standing between both bosses.",
-        "h": "-Unpredictable damage from two sources.\n-Avoid stacking near AoEs to preserve space.",
-        "t": "-Hold both bosses’ aggro and face them apart.\n-Keep them from overlapping to prevent AoE chaos."
+        "en": "Jester & Steward",
+        "g": "-Two-boss fight; kill Jester first (lower HP, higher damage).\n-Jester: Ice Spikes (interruptible).\n-Steward: Soul Drain PBAoE; can be stunned.\n-After kill: use Bloody Parchment to unlock barrier.",
+        "t": "-Hold both; stun Steward’s Soul Drain.",
+        "d": "-Focus Jester first.",
+        "h": "..."
       },
       "55": {
         "en": "Lady Amandine",
-        "g": "-Casts line AoEs, summons adds, and activates wall turrets.\n-Becomes untargetable while turrets are active.",
-        "d": "-Burn turrets and adds to resume damage on boss.\n-Dodge line AoEs from boss and walls.",
-        "h": "-High AoE pressure during turret and add phases.\n-Position to avoid wall lasers while healing.",
-        "t": "-Gather adds quickly to avoid party disruption.\n-Keep boss centered to control turret line-of-fire."
+        "g": "-Manor Sentry introduces gaze; turn away.\n-Handmaiden add must die (casts Stoneskin on boss).\n-Seduce: slow walk toward boss while Sentry casts gaze; look away after.\n-Void Fire/Thunder III: interruptible.\n-Dark Mist: PBAoE.",
+        "t": "...",
+        "d": "...",
+        "h": "..."
       }
     }
   },
@@ -9719,24 +9722,24 @@
         "st": [
         {
             "en": "Chudo-Yudo",
-            "g": "-Uses frontal AoEs and summons adds during the fight.\n-Ice puddles may appear and linger.",
-            "d": "-Avoid front of boss and clear adds quickly.\n-Don't stand in lingering ice puddles.",
-            "h": "-Ice puddles can stack damage unexpectedly.\n-Monitor party for pressure during add phases.",
-            "t": "-Face boss away from party.\n-Pick up adds fast to reduce healer stress."
+            "g": "-Non-tanks stay behind the boss at all times.\n-Rake: small hit.\n-Lion’s Breath: frontal breath + Burns.\n-Swinge: frontal cone + Silence/Pacification.",
+            "t": "...",
+            "d": "...",
+            "h": "..."
         },
         {
             "en": "Koshchei",
-            "g": "-Targets players with charge attacks and narrow line AoEs.\n-May leap to random players.",
-            "d": "-Stay spread to avoid overlapping AoEs.\n-Burn boss quickly to reduce leaps.",
-            "h": "-Charge/leap patterns can cause spike damage.\n-Use oGCDs to top off after unexpected hits.",
-            "t": "-Keep boss under control and away from party.\n-Watch for repositioning after charges."
+            "g": "-Spiked Tail: tankbuster.\n-Sonic Storm: avoid the circle.\n-Typhoon: dodge moving tornado lanes.\n-First Typhoon: go to empty lane.\n-Later Typhoons: only two tornados move first",
+            "t": "...",
+            "d": "...",
+            "h": "..."
         },
         {
             "en": "Isgebind",
-            "g": "-Heavy ice-themed mechanics with line AoEs and frozen ground.\n-Flight phase includes targeted ice breath and sweeping AoEs.",
-            "d": "-Avoid frozen ground and move early for breath markers.\n-Spread out during aerial phase to limit AoE overlap.",
-            "h": "-Intense damage during flight and breath phases.\n-Keep party topped off between AoEs.",
-            "t": "-Position boss center pre-flight for consistency.\n-Move quickly after flight to regain control."
+            "g": "-Avoid front; heavy breath attacks.\n-Rime Wreath: raidwide.\n-Sheet of Ice: targeted circle; move.\n-Cauterize: glowing strip = unsafe; move out.\n-After Cauterize: avoid center for Touchdown.\n-Double Sheet of Ice after 3rd Cauterize—just spread and dodge.",
+            "t": "...",
+            "d": "...",
+            "h": "..."
         }
         ]
       }
@@ -9844,10 +9847,10 @@
     "maps": {
       "33":  {
         "en": "Titan",
-        "g": "-Arena is small but has a safe edge; Titan uses Landslide (line knockback), Weight of the Land (AoE circles), and Geocrush (proximity AoE).\n-At 50%, Titan summons his Heart—must be destroyed before he casts Earthen Fury or the party wipes.",
-        "d": "-Dodge Landslide by sidestepping immediately.\n-Focus Titan’s Heart when it appears to prevent a wipe.",
-        "h": "-Top up party before Geocrush and post-Earthen Fury.\n-AoE heal after Weight of the Land if multiple players are hit.",
-        "t": "-Tank Titan near center to keep AoEs manageable.\n-Face him away from the group to avoid cleaves."
+        "g": "-Landslide: line knockback\n-Weight of the Land: AoE circles\n-Geocrush: proximity AoE\n-At 50%, Titan summons his Heart—must be destroyed before he casts Earthen Fury or the party wipes.\n-After 50% will randomly trap players in stone - free them.",
+        "d": "...",
+        "h": "...",
+        "t": "..."
       }
     }
   },
@@ -9856,10 +9859,22 @@
     "maps": {
       "39": {
         "en": "Garuda",
-        "g": "-Uses Friction (line AoE), Slipstream (frontal cone stun), and Mistral Song (tankbuster).\n-Spawns razor plumes and satin plumes—satin must be killed to interrupt Mistral Shriek.\nPhase transition splits arena with stone pillars and adds.",
-        "d": "-Kill satin plume immediately to prevent raid-wide Shriek.\nAvoid line AoEs and stay mobile during phase shifts.",
-        "h": "-Heavy damage if satin plume lives—prep big heals for Shriek.\nWatch for split damage during add phase and line AoEs.",
-        "t": "-Tank Garuda near arena center, away from plumes.\nInterrupt Slipstream when possible and mitigate Mistral Song."
+        "st": [
+        {
+          "en": "Phase 1",
+          "g": "-Keep Garuda away from pillars; her Friction/Wicked Wheel damage them.\n-Spread lightly for Friction.\n-Hide behind pillars for Mistral Song.\n-Kill Razor Plumes immediately to protect pillars.\n-After second Mistral Song → DPS plumes scattered.\n-Aerial Blast damage scales with pillar health.",
+          "t": "-Pull Garuda to room edge, facing away from pillars.",
+          "d": "...",
+          "h": "..."
+        },
+        {
+          "en": "Phase 2",
+          "g": "-Stay inside the center safe zone (Eye of the Storm).\n-Mistral Shriek: she teleports to a side → run away.\n-Mistral Song: she teleports mid → get behind her.\n-Kill Razor Plumes on spawn.",
+          "t": "...",
+          "d": "...",
+          "h": "..."
+        }
+      ]
       }
     }
   },
@@ -10127,24 +10142,24 @@
     "maps": {
       "201": {
         "en": "Einhander",
-        "g": "-Drops ceruleum tanks via Resounding Screech; tank explosions are unavoidable but clear aux tanks quickly.\n-Casts Heavy Swing (tankbuster) and line AoEs from Mark XLT cannon.",
-        "d": "-Move aux tanks away before tankbuster lands to save party HP.\n-Dodge line AoEs by moving to the cleared sides of the room.",
-        "h": "-Heal through unavoidable tankbuster but avoid standing near exploding aux tanks.\n-Keep party spread to dodge the line cannon cleaves.",
-        "t": "-Pick up boss and face away from party and aux tanks.\n-Move aux tanks as far from group as possible to reduce explosion damage."
+        "g": "-Avoid glowing red ceruleum tanks; they explode in large circles.\n-Aero Blast is routine raidwide.\n-Watch for line AoE (Quick-Firing Cannon) that triggers tank explosions.",
+        "t": "...",
+        "d": "...",
+        "h": "..."
       },
       "202": {
         "en": "Magitek Gunship",
-        "g": "-Fires Flame Thrower cones and Carpet Bomb AoEs; summons adds periodically.",
-        "d": "-Leave flame cone early and continue DPS once clear.\n-Priority-target adds as soon as they spawn.",
-        "h": "-Ranged flame causes steady but dodgeable damage; heal accordingly.\n-Expect spike healing when adds overlap with AoEs.",
-        "t": "-Face boss to direct flame away from party.\n-Aggro adds quickly so DPS/healer aren’t overwhelmed."
+        "g": "-Move out of Flame Thrower’s long frontal cone and stay out until it ends.\n-Dodge Carpet Bomb circles.\n-Kill adds quickly.\n-Avoid fire puddles left behind by the ship’s passes.",
+        "t": "...",
+        "d": "...",
+        "h": "..."
       },
       "203": {
         "en": "Midgardsormr",
-        "g": "-Multi-phase with inner/outer donuts, line cleaves, chiron dragon adds tethered to positioning.\n-Utilize safe zones: center/donut edge shifts; tank positions dragons for tethered cleave debuffs.",
-        "d": "-Stand in middle ring, then edge as Antipathy expands.\n-Kill Mirage Dragons quickly to reduce Animadversion damage.",
-        "h": "-Use AoE heals on donut and line phases.\n-Stack on tank for Akh Morn targets and line cleave bursts.",
-        "t": "-Tank tethered dragons at correct distance (first far, second close) to avoid their defensive buffs."
+        "g": "-Admonishment = wide line AoE; dodge to sides.\n-Inner Turmoil = point-blank; get out.\n-Outer Turmoil = donut; get in.\n-Phantom Kin: two mirage dragons cast Admonishment → watch overlapping line AoEs.\n-Animadversion: kill both dragons before gauge hits 100%.\n-Akh Morn: multi-hit stack.\n-Antipathy: expanding fire rings → start mid ring → move center.",
+        "t": "...",
+        "d": "...",
+        "h": "-Heavy healing during Disgust and Akh Morn."
       }
     }
   },
@@ -10196,7 +10211,7 @@
         },
         {
           "en": "Nidhogg",
-          "g": "-Uses Hot Tail and Hot Wings (line AoEs), Cauterize (fiery line), with eyeball circles spawning randomly.\n-At ~30%, enters add phase: slays adds to stall Rancor gauge before Massacre, followed by Horrid Blaze.",
+          "g": "-Uses Hot Tail and Hot Wings (line AoEs), Cauterize (fiery line), with eyeball circles spawning randomly.\n-The Sable Price: traps a random player that must be freed\n-At ~30%, enters add phase: slays adds to stall Rancor gauge before Massacre, followed by Horrid Blaze.",
           "d": "-Move out of tail/wing lines and eyeball markers.\n-During add phase, burn fast to delay wipe gauge.",
           "h": "-Top off players hit by Cauterize and stack heal after Massacre.\n-Prepare AoE burst after gauge stops.",
           "t": "..."
@@ -10210,10 +10225,10 @@
     "maps": {
       "248": {
         "en": "Ser Adelphel Brightblade",
-        "g": "-Fights in two phases: normal guards then primal form with orb charges and orbs that explode for Bleed.\n-Keep orbs away from group during charge and avoid explosion circles.",
-        "d": "-Stay behind boss to dodge cleaves and share damage from Holy Shield Bash stuns.\n-Move away from orb explosions to maintain uptime.",
-        "h": "-Top off players hit by Bright Flare from orb blasts.\n-Use shields before Holy Shield Bash stuns to reduce follow-up damage.",
-        "t": "-Face boss away from party; rotate to steer him clear of orbs and group.\n-Maintain aggro and position to help manage orb placement."
+        "g": "-Kill initial adds (very low HP) before pushing Adelphel.\n-Avoid orbs left on the ground after his charge paths.\n-Spread out enough that Shield Bash jumps don’t chain-stun multiple players.",
+        "t": "...",
+        "d": "...",
+        "h": "..."
       },
       "249": {
         "en": "The Vault",
@@ -10224,17 +10239,17 @@
       },
       "250": {
         "en": "Ser Grinnaux the Bull",
-        "g": "-Pre- and post-phase transition, uses sweeping line AoEs (Hyperdimensional Slash) and ground rifts that inflict Vulnerability stacks.\n-After phase flip, uses knockback Faith Unmoving and creates blind spots at pool edges.",
-        "d": "-Avoid line AoEs twice in a row and reposition away from Aetherial Tears.\n-Bait knockback safely to avoid rifts and stacks.",
-        "h": "-Heal through stacks of mechanical hits and reposition party before knockback lands.\n-Top off players stepped in dimensional rifts.",
-        "t": "-Keep boss angled away from group to control cleave direction.\n-Pull him between line attacks and move players out before knockback."
+        "g": "-Bait both Hyperdimensional Slashes to the same wall to cluster the Aetherial Tears.\n-After two Tears, prepare for Faith Unmoving knockback; don’t get pushed into Tears.\n-Avoid Dimensional Rift circles and assorted floor AoEs.",
+        "t": "...",
+        "d": "...",
+        "h": "..."
       },
       "251": {
         "en": "Ser Charibert",
-        "g": "-Casts raid-wide Heavensflame rings, tethered Holy Chains on two players, and summons marching knight adds and Holy Flames during phase éclipse.\n-Killing flames blocks Purification explosion.",
-        "d": "-Break Holy Chains by spreading apart after mark; move through Heavensflame rings quickly.\n-Kill Holy Flames on time during eclipse to soften massive raid damage.",
-        "h": "-Shield tethered players and heal through chain bursts.\n-Pre-burst before Purification, and AoE heal during knight adds overlap.",
-        "t": "-Face boss away and tank near edge to manage clarity.\n-Pick up knights and kite them away from raid; position group for eclipse flame control."
+        "g": "-Break Holy Chain by running opposite directions.\n-Avoid flame rings from Heavensflame.\n-Dodge marching knight lines (apply Slow if hit).\n-When Holy Flames spawn at 50%, kill them fast or incoming raidwide hits harder.",
+        "t": "...",
+        "d": "...",
+        "h": "..."
       }
     }
   },
@@ -10242,11 +10257,23 @@
     "en": "Thornmarch",
     "maps": {
       "36": {
-        "en": "Good King Moggle Mog XII and Mogglesguard",
-        "g": "-Fight features 7 moogle adds with different roles. All must be killed close together or they will revive.\n-Each moogle has unique mechanics (e.g. AoEs, tankbusters, heals, knockbacks). Phase 2 begins after first full wipe of moogles, followed by King Moggle Mog joining with enhanced attacks.\n-Wipe if mechanics are ignored or DPS isn’t synchronized.",
-        "d": "-Follow assigned kill order and synchronize killing blows to prevent revives.\n-Dodge persistent AoEs like Pom Holy and spinning attacks from Whiskerwall.",
-        "h": "-Heal through frequent raid-wide damage and moogle AoE overlap.\n-Cleanse debuffs like Disease and prep for burst healing after synchronized kills.",
-        "t": "-Pick up assigned tank moogles (usually Whiskerwall and Ruffletuft)."
+        "en": "Good King Moggle Mog XII",
+        "st": [
+        {
+          "en": "Mooglesguard",
+          "g": "-Kill moogles in waves; each has a simple, avoidable telegraph.\n-Spread for Mograin of Death.\n-Dodge line AoEs (Moogleday Night Fever, cone slashes, Pom Holy).\n-For Pom Meteor, stand in the 4 red circles to intercept falling heads.\n-After last two moogles die, all revive briefly then summon the King.",
+          "t": "...",
+          "d": "...",
+          "h": "..."
+        },
+        {
+          "en": "Good King Moggle Mog XII",
+          "g": "-King is only target; untargetable moogles repeat earlier mechanics.\n-Handle stack markers, spreads, and rotating safe-spots for Moogle-Go-Round.\n-Intercept all Pom Meteors (again) during Third Decree.\n-Avoid Mog Comet chasing circles.\n-Fight loops until King dies.",
+          "t": "...",
+          "d": "...",
+          "h": "..."
+        }
+        ]
       }
     }
   },
@@ -10687,38 +10714,32 @@
     "maps": {
       "231": {
         "en": "Regula van Hydrus",
-        "g": "-Summons magitek turrets that tether players and explode if not killed.\n-Casts Magitek Slug (line AoE) and Magitek Spread (large cone, avoid by standing behind boss).",
-        "d": "-When turret tethers ally, help soak the beam and burst turret before explosion.\n-Move to boss’s back during Spread to avoid damage.",
-        "h": "-Shield and top off tethered players to withstand turret explosion splash.\n-Heal through random Slug hits and tankbuster-style hits.",
-        "t": "-Face turrets to shield tethered players and soak beam.\n-Hold boss facing away and rotate to avoid AoE cones."
-      },
-      "232": {
-        "en": "Harmachis",
-        "g": "-Shifts between forms: Sphinx (AoE circles/cones), Cobra (tankbuster), Naga (petrification gaze), Machina (stack meteors). Weighing of the Heart triggers form swaps.",
-        "d": "-React to form changes: dodge circles/cones, stack for meteors, turn away from gaze.\n-Burst when in forms without shared mechanics.",
-        "h": "-Pre-heal tanks before Hood Swing and apply shields; group heal through AoEs and petrify avoidance.\n-Turn away to avoid Curse in Naga form.",
-        "t": "..."
-      },
-      "233": {
-        "en": "Elevator Ride",
-        "g": "Clear the trash mobs.",
+        "g": "-Move away from stunned players; an untelegraphed AoE follows.\n-Dodge turret lasers (line) and grenados (circle).\n-Kill turrets ASAP to stop wall-dashes and reduce roomwide damage.\n-Dodge Magitek Slug lines; avoid the 270° Magitek Spread.",
         "d": "...",
         "h": "...",
         "t": "..."
       },
+      "232": {
+        "en": "Harmachis",
+        "g": "-Sphinx: dodge Riddle; avoid front for Chthonic Hush (Poison).\n-Anti-Cobra: tankbuster.\n-Anti-Naga: look away for Petrifaction; spread for Circle of Flames.\n-Anti-Machina: number of rotating spheres indicates how many players should stack for Ballistic Missile; all should stack for Gaseous Bomb.",
+        "t": "...",
+        "h": "..."
+      },
+      "233": {
+      },
       "234":{
         "en": "Lahabrea and Igeyorhm",
-        "g": "-Both bosses are targetable at all times and must be brought to 0.1% HP.\n-Fire orbs: explode, safe spot is far from them.\n-Ice orbs: donut, safe spot is IN the orb.\n-Esoteric Fusion: collides orbs. If colliding fire, RUN AWAY, if colliding ice, run TO them.",
-        "d": "-For Burning Star tethers, move away from the collision path; for Frozen Star tethers, stand under them.\n-Spread for Dark Fire II, line up properly for End of Days.",
-        "h": "-Heal through frequent raidwides and avoid overlapping AoEs.\n-Stay mobile for ice/fusion mechanics while prepping burst healing.",
-        "t": "-Keep aggro on both bosses; coordinate to balance HP evenly.\n-Position bosses to keep AoEs clear from group; intercept line stack if needed."
+        "g": "-Both bosses are targetable at all times and must be brought to 0.1% HP.\n-Fire orbs: explode, safe spot is far from them.\n-Ice orbs: donut, safe spot is IN the orb.\n-Esoteric Fusion: collides orbs.\n    - If colliding fire, RUN AWAY\n    - If colliding ice, run TO them.",
+        "d": "...",
+        "h": "...",
+        "t": "..."
     },
       "254": {
         "en": "Ascian Prime",
         "g": "-Continues mechanics from previous fight with increased intensity.\n-Dualstar: collides 3 sets of two orbs, fire pair - ice pair - fire pair - same mechanic as before.\n-Dualstore order is according to the orbs' tether distance - closer = first.",
         "d": "...",
-        "h": "-Prepare burst healing after Fusion Prime and during raidwide damage.\n-Watch for tankbuster follow-ups and heal Vulnerability Up players.",
-        "t": "-Ensure you're not in both explosions."
+        "h": "...",
+        "t": "..."
       }
     }
   },
@@ -10728,23 +10749,23 @@
       "277": {
         "en": "Zuro Roggo",
         "g": "-Uses Water Bombs (targeted circle AoEs), Odious Croak (persistent frontal cone), Toy Hammer (stun + cone cleave). Summons Poroggo Choirtoads and inflicts Frog Song debuffs on two players.",
-        "d": "-Avoid standing in Water Bombs and stay behind boss to dodge Croak.\n-If you’re froged, keep distance until Choirtoads are killed.",
+        "d": "...",
         "h": "-Shield or cleanse stun from Toy Hammer as soon as possible.\n-Heal froged players and raid through bomb and cone damage.",
-        "t": "-Face boss away to direct Croak safely.\n-Kill Choirtoads quickly and use cooldowns after Toy Hammer hits."
+        "t": "..."
       },
       "278": {
         "en": "Ziggy",
         "g": "-Casts narrow cone cleaves and summons Stardusts—untargetable adds that cast Mystic Light (circle AoEs). Also uses tethers that require hiding behind meteors.",
-        "d": "-Face boss away to dodge Jittering Glare cones.\n-Kill Stardusts to limit AoE pools and hide from tethers behind meteors.",
-        "h": "-Pre-heal raid before cone cleaves.\n-Heal melee hiding behind meteors after tethered shots.",
-        "t": "-Keep boss facing away from group.\n-Pick up Stardust adds and position boss clear of meteors."
+        "d": "...",
+        "h": "...",
+        "t": "..."
       },
       "279": {
         "en": "Calcabrina",
         "g": "-Starts with six dolls (Calca + Brina) that cast alternating donut and cone AoEs, then merges into Calcabrina. Marks a player for Terrifying Glance cone, casts Brace (directional parry), Dollhouse (transforms two players into dolls), and Knockout tankbuster.",
-        "d": "-Avoid overlapping AoEs; burst dolls before the merge.\n-When marked with Glance, face away and reposition out of the cone.",
-        "h": "-Prepare raid heals for Slapstick damage during Dollhouse.\n-Heal tank through Knockout and surround with shields during Brace.",
-        "t": "-Save cooldowns for Knockout and face boss away during Brace.\n-Pick up doll adds early and position boss to avoid doll cleave overlap."
+        "d": "...",
+        "h": "...",
+        "t": "..."
       }
     }
   },
@@ -10753,24 +10774,24 @@
     "maps": {
       "292": {
         "en": "Chieftain Moglin",
-        "g": "-Summons various moogle adds and Captain Mogsun, who tethers to Moglin to make him invulnerable.\n-Casts Pom Praise to revive fallen moogles—knock corpses out of revival circles quickly to prevent revives and HP buffs.",
-        "d": "-Assist in burst-down of moogle adds and captain quickly when they appear.\n-Knock corpses out of revival circles after Praise to avoid empowered revivals.",
-        "h": "-Provide raid-wide heals for Pom Holy.\n-Monitor party to stop revivals by assisting corpse knockbacks.",
-        "t": "-Face Moglin away from the group.\n-Prioritize grabbing new adds and guarding corpses from circles."
+        "g": "-Kill adds fast; Moglin then tries to revive them.\n-Knock corpses out of purple circles to prevent resurrection.\n-Focus Captain Mogsun first whenever he’s alive.\n-Heal through Holy.",
+        "d": "...",
+        "t": "...",
+        "h": "-Prep AoE heals for Holy."
       },
       "293": {
         "en": "Poqhiraj",
-        "g": "-Uses Burning Bright (line AoE) that damages walls and creates electrified flooring if walls break.\n-Gallop charges across the arena; players should hug walls to avoid being knocked onto electrified zones.\n-Cloud Call spawns dark clouds that cast Lightning Bolt and apply Vulnerability Up—drop them near walls or edge to minimize party-wide damage.",
-        "d": "-Stay between boss and wall during Gallop to avoid electric floor knockback.\n-Destroy clouds quickly and place them far from the group.",
-        "h": "-Heal players hit by Gallop knockback and Lightning Bolt stacks.\n-Stack AoE healing for cloud explosions and Vulnerability Up hits.",
-        "t": "-Face boss down the arena for clearing Gallop path.\n-Position boss so Burning Bright avoids wall destruction."
+        "g": "-Walls break; exposed electrified pools are lethal—don’t get knocked in.\n-During Jump, run opposite the proximity marker.\n-Charge: unavoidable knockback - stand by a wall.\n-Stand behind boss for Quasar to avoid hitting walls.\n-Cloud Call spawns a pulsing cloud—drop it at an already-destroyed wall or far edge.",
+        "d": "...",
+        "t": "...",
+        "h": "..."
       },
       "294": {
         "en": "Hraesvelgr",
-        "g": "-Casts Hallowed Wings (line AoE per wing), Holy Storm (arena-wide), Diamond Storm (freezes terrain, causes sliding), Frigid Dive (line AoE while frozen), and uses stack+AoE head marker (Akh Morn).\n-Sliding mechanics from Diamond Storm can push players into other AoEs or off platforms.",
-        "d": "-Move carefully to avoid sliding into line markers during Diamond Storm.\n-Stack tightly for Akh Morn and then spread for Holy Breath circles.",
-        "h": "-Prepare shields before sliding and line AoEs; heal through frozen ground damage.\n-Use burst heals on Akh Morn stacks and after Massacre healing windows.",
-        "t": "-Rotate boss to bait line attacks away from the party.\n-Swap after tankbusters and position to minimize sliding hazards."
+        "g": "-Wyrmclaw: tankbuster.\n-Hallowed Wings: left/right wing cleave telegraphed — go to opposite side.\n-Hallowed Dive: center unsafe → then edges unsafe → return center.\n-Akh Morn: full stack.\n-Diamond Storm freezes floor—slide only to dodge red AoEs.\n-Frigid Dive repeats mid-line AoE during ice.\n-Holy Breath: spread.",
+        "d": "...",
+        "t": "...",
+        "h": ".."
       }
     }
   },
@@ -10782,23 +10803,23 @@
         "st": [
         {
           "en": "Nuzal Hueloc",
-          "g": "-Wind Blast is a path AoE—dodge quickly.\n-Lift summons adds and turrets.\n-Turrets cast Hot Air, launching the party upward; stand under Nuzal to bring him down after.\n-Airstones tether to boss or turret—kill these first if present.\n-Air Raid and Long Burst are unavoidable raidwides.",
+          "g": "-Wind Blast is a path AoE—dodge quickly.\n-Lift summons adds and turrets.\n-Turrets cast Hot Air, launching the party upward; stand under Nuzal to bring him down after.\n-Airstones tether to boss or turret—kill these first if present.\n-Air Raid and Long Burst are unavoidable partywides.",
           "d": "-Prioritize Airstones when they spawn; otherwise kill turrets fast.\n-Stand beneath Nuzal during Hot Air cast to end phase safely.",
-          "h": "-Prepare raid healing for Air Raid, Long Burst, and Hot Air overlap.\n-Heal add-targeted players quickly—damage spikes are frequent.",
+          "h": "-Prepare party healing for Air Raid, Long Burst, and Hot Air overlap.\n-Heal add-targeted players quickly—damage spikes are frequent.",
           "t": "-Pick up adds as they spawn.\n-Position boss so turrets and adds are easy to reach."
         },
         {
           "en": "Dotoli Ciloc",
-          "g": "-On Low is a frontal cleave on tank.\n-On High is a raidwide AoE with knockback; stand against barriers.\n-Dark Wings marks random players with AoEs—spread out.\n-Stormcoming spawns windy AoE zones on barriers.\n-Swiftfeather causes instant On Low after dash—treat as tankbuster.",
+          "g": "-On Low is a frontal cleave on tank.\n-On High is a partywide AoE with knockback; stand against barriers.\n-Dark Wings marks random players with AoEs—spread out.\n-Stormcoming spawns windy AoE zones on barriers.\n-Swiftfeather causes instant On Low after dash—treat as tankbuster.",
           "d": "-Spread out for Dark Wings.\n-Keep near barriers to avoid knockback deaths during On High.",
-          "h": "-Anticipate heavy raid damage from On High; AoE heal after.\n-Spot heal Dark Wings targets.",
+          "h": "-Anticipate heavy party damage from On High; AoE heal after.\n-Spot heal Dark Wings targets.",
           "t": "-Face boss away from group for On Low.\n-Mitigation for Swiftfeather + instant cleave."
         },
         {
           "en": "Tozol Huatotl",
-          "g": "-Ixali Aero III is a raidwide AoE.\n-Ixali Aero II is a path AoE—step aside.\n-Hawk alternates between stack marker or spread marker—adjust accordingly.\n-Summon Garuda: roomwide AoE with small safe zones; all players marked with green crystal AoEs—spread out.",
+          "g": "-Ixali Aero III is a partywide AoE.\n-Ixali Aero II is a path AoE—step aside.\n-Hawk alternates between stack marker or spread marker—adjust accordingly.\n-Summon Garuda: roomwide AoE with small safe zones; all players marked with green crystal AoEs—spread out.",
           "d": "-Move quickly into safe zones during Garuda summon.\n-Stack or spread as indicated by Hawk marker.",
-          "h": "-Sustain raid through Ixali Aero III and Garuda AoEs.\n-Be ready for burst healing after stack markers if combined with other AoEs.",
+          "h": "-Sustain party through Ixali Aero III and Garuda AoEs.\n-Be ready for burst healing after stack markers if combined with other AoEs.",
           "t": "-Hold boss central for consistent path AoEs.\n-Assist with positioning group for Hawk markers."
         }
       ]
@@ -10810,31 +10831,31 @@
     "maps": {
       "337": {
         "en": "Magitek Predator",
-        "g": "-Uses Magitek Claw (tankbuster), Magitek Ray (line AoE), Magitek Missile (targeted with high damage), and spawns tethered adds (Sky Armor Reinforcements).",
-        "d": "-Kill tethered adds immediately to reduce healer pressure.\n-Move away when marked for Magitek Missile to avoid splash damaging others.",
-        "h": "-Be ready for moderate tank damage from Claw and raid damage from Missile.\n-Heal through Magitek Ray line AoE with steady heals.",
-        "t": "-Face boss away; use cooldowns on Claw.\n-Pick up adds and rotate tank as needed to manage pressure."
+        "g": "-Missile = spread from party.\n-Ray = avoid line.\n-Adds spawn; kill quickly.",
+        "d": "...",
+        "t": "...",
+        "h": "-Prep spot-heals for Missile targets and add damage."
       },
       "338": {
         "en": "Trash Platform",
-        "g": "Just clear the trash mobs.",
+        "g": "...",
         "d": "...",
         "h": "...",
         "t": "..."
       },
       "339": {
         "en": "Armored Weapon",
-        "g": "-Casts Launcher (raid-wide), Dynamic Sensory Jammer (movement/action lock), Diffractive Laser (puddle AoE), Magitek Bits (grid line AoEs), and Distress Beacon (spawn adds).",
-        "d": "-Stop moving/attacking during Jammer debuff to avoid self-damage.\n-Move into safe spaces when Bits activate and help burst adds from Beacon.",
-        "h": "-Pre-shield before Launcher and heal through add bursts from Distress Beacon.\n-Attend marked players affected by Jammer and Laser puddles.",
-        "t": "-Pick up spawned adds quickly.\n-Face away to avoid cleave overlap and reposition for Bits lines."
+        "g": "-Launcher = partywide.\n-Dynamic Sensory Jammer = **no movement, no actions**.\n-Magitek Bits = checkerboard AoEs.\n-Distress Beacon = many small adds.",
+        "d": "...",
+        "t": "...",
+        "h": "..."
       },
       "340": {
         "en": "The Griffin",
-        "g": "-Uses Beak of the Griffin (raid-wide), Flash Powder (gaze stun with accuracy debuff), Sanguine Blade (leap cleave), Claw (tankbuster), Lionshead (sword adds + AoE), Restraint Collar (traps healer), and Big Boot (knockback).",
-        "d": "-Stand behind boss to dodge Blade; burn middle sword during Lionshead to create safe zone.\n-Move quickly after Big Boot to avoid puddles.",
-        "h": "-Turn away on Flash Powder; cleanse accuracy if needed.\n-Immediately heal healer trapped by Collar and prep for raid-wide Lionshead damage.",
-        "t": "-Hold boss facing away; cooldown through Claw.\n-Chase boss after Sanguine Blade to maintain positioning; pick up adds during Lionshead phase."
+        "g": "-Turn away for Flash Powder.\n-Sanguine Blade = boss leaps + large cleave; move behind.\n-S L O P P Y\n-Lionshead = swords spawn; kill the **center sword** first, then stand in its cleared space.\n-Big Foot = knockback on marked player.\n-Break Restraint Collar to free healer.",
+        "d": "-Free healer quickly during healer restraint phase.",
+        "t": "...",
+        "h": "..."
       }
     }
   },
@@ -11217,31 +11238,31 @@
     "en": "Castrum Abania",
     "maps": {
       "397": {
-        "en": "Castrum Abania",
-        "st": [
+      "en": "Castrum Abania",
+      "st": [
         {
           "en": "Magna Roader",
-          "g": "-Alternates tankbuster (Wheel), circle puddle (Magitek Fire II), and raidwide (Magitek Fire III).\n-Ultimately uses Wild Speed: immune until adds occupy edge turrets and fire Magitek Pulse at him.",
-          "d": "-Stay behind boss to dodge cleaves and puddles.\n-After adds spawn, grab turret and fire it to break Wild Speed ASAP.",
-          "h": "-Shield for Fire II puddles and pre-heal for Fire III.\n-Expect tankbuster burst from Wheel → heal properly.",
-          "t": "-Face boss away; mitigate cleave with cooldowns.\n-Grab aggro of adds and direct turret line safely toward them."
+          "g": "-Wheel = tankbuster.\n-Fire II = spread from others.\n-Fire III = raidwide.\n-Wild Speed: avoid line dashes; two Optios spawn → kill them, seize cannons, fire at Roader **only when it stops**.\n-Roader is invulnerable while speeding.",
+          "t": "...",
+          "h": "...",
+          "d": "..."
         },
         {
-          "en": "Number XXIV",
-          "g": "-Uses Elemental Pillars scattered as Fire/Ice/Lightning, reset boss barrier buff. Discrete Magick (elemental cones, crosshatches, or towers) then Serial Magick of same type with stack or line markers.",
-          "d": "-Adjust positioning per Discrete type: crosshatch, cone, or tower. Spread or stack on Serial Magick accordingly.",
-          "h": "-Top off before stacks and area bursts.\n-Heal group stacks or spread accordingly.",
-          "t": "-Face boss away; reposition depending on barrier element.\n-Maintain spacing to avoid overlapping lines or circles."
+          "en": "Subject Number XXIV",
+          "g": "-Elemental Overload = fire/ice/thunder pattern that dictates the next mechanics.\n    -Fire: cones + stack, then Serial Magicks (more cones + stack).\n    -Ice: crisscross lines + player AoE circles, then Serial Magicks (lines → circles).\n    -Thunder: towers (one player soaks each) + line AoEs, then Serial Magicks (two sets of towers + lines).\n-After each elemental sequence the boss is staggered and gains Vulnerability Up → burst.",
+          "t": "...",
+          "h": "...",
+          "d": "..."
         },
         {
           "en": "Inferno",
-          "g": "-Performs Ketu Slash (tankbuster), Rahu Blaster (line AoE), and Ketu & Rahu combo (circle + proximity puddles).\n-Periodic Roids phase triggers Enhanced versions: boss jumps to edge, gains buffs, spawning adds tethered to players.",
-          "d": "-Avoid lines during Rahu and dodge puddles quickly.\n-Kill tethered adds fast during Roids phase; avoid stack overlaps.",
-          "h": "-Shield through Ketu Slash and heal stack where needed.\n-Mitigate Enhanced bleed/vuln after Roids; heal through explosion orbs.",
-          "t": "-Mitigate tankbuster and face away.\n-Soak or pick up tethered adds promptly and lead them away from squad."
+          "g": "-Ketu Slash = tankbuster.\n-Rahu Blaster = line AoE; sidestep.\n-Ketu & Rahu: avoid targeted ground circles.\n-Empowered Ketu = tank Bleed→Vuln\n-Empowered Rahu = multi-column AoEs + proximity + player AoEs.\n-Legion adds: Death Claws tether to players (stun if they reach). Packer walks to device → kill before it reaches.\n-If packer is not stopped, Rahu also knockbacks",
+          "t": "...",
+          "h": "...",
+          "d": "-Kill Death Claws first to prevent grabs.\n-Burn Packer immediately to block Quick Charge."
         }
       ]
-      }
+    }
     }
   },
   "1146": {
@@ -11549,26 +11570,26 @@
         "st": [
         {
           "en": "Kelpie",
-          "g": "-Arena edge inflicts Water Resist Down and damage—stay centered.\n-Uses Torpedo (tankbuster), Rising Seas (raid-wide), Hydro Pull/Pull (knock pull or push tied to edge), and Bloody Puddle markers followed by tethered orbs.",
+          "g": "-Arena edge inflicts Water Resist Down and damage—stay centered.\n-Uses Torpedo (tankbuster), Rising Seas (raid-wide), Hydro Pull/Push (pull, knockback), and Bloody Puddle markers followed by tethered orbs.",
           "d": "-When marked, move puddles to edge safely—don’t overlap others.\n-Stand behind boss for Torpedo and avoid orbs by kiting away from group.",
           "h": "-Shield before puddles and Rising Seas.\n-Heal tank through Torpedo and orb splash damage.",
-          "t": "-Face boss away and use cooldowns on Torpedo.\n-Control orb tether path away from party and edge."
+          "t": "..."
         },
         {
           "en": "The Old One",
           "g": "-Casts Mystic Light (frontal cone) and Mystic Flame (under player circle) randomly.\n-Spawns Subservient adds and becomes invulnerable before final cast Order to Self-destruct. After Shifting Light, players become Spriggans to place Shatterstone bombs under adds.",
           "d": "-Spread out to avoid flame circles; dodge cones.\n-When a Spriggan, place bombs under adds quickly using Shatterstone.",
           "h": "-Shield before high-damage Flame/Air AoEs.\n-Coordinate healing during add explosion damage.",
-          "t": "-Face boss away for Mystic Light dodges.\n-Prioritize tanking adds and ensure players transform to Spriggans."
+          "t": "-Face boss away for Mystic Light dodges."
         }
         ]
       },
       "415": {
         "en": "Hrodric Poisontongue",
-        "g": "-All moves are animation telegraphed: Rusting Claw (raise right arm), Tail Drive (tail lift), The Spin (proximity knock).\nCasts stacking mechanics: Ring, Cross, Circle of Chaos, Eye of the Fire gaze, Words of Woe line attack.",
-        "d": "-Watch boss animations: dodge front or rear accordingly.\n-Move out of proximity (Spin), spread for circles, stop moving for cross markers.",
-        "h": "-Apply shields before chaos markers and heal bleed stacks.\n-Dispel confusion from gaze and heal post-Spin knockback.",
-        "t": "-Face boss away consistently.\n-Intervene for Cross of Chaos markers (stop moving), and reposition adds for clean AoE avoidance."
+        "g": "-Right arm → Rusting Claw (front unsafe).\n-Tail up → Tail Drive (rear unsafe).\n-The Spin: proximity center → run to edge.\n-Ring of Chaos: marked player moves **to boss** to open safe lane.\n-Eye of the Fire: look away.\n-Cross of Chaos: stop moving so others can dodge.\n-Circle of Chaos: move away from group.\n-Words of Woe: line AoE on random target.",
+        "t": "...",
+        "h": "...",
+        "d": "..."
       }
     }
   },
@@ -11594,10 +11615,10 @@
         },
         {
           "en": "Mist Dragon",
-          "g": "-Rime Wreath: frequent raid-wide AoE.\n-Mist Plume: star marker → line blasts and puddles.\n-Vaporize: dragon disappears, spawns 3 Draconic Regards + 1 Mist.\n-Tank should not kill Mist. After fog engulfs arena, Dragon dives (Cauterize) from random directions—players must scout by circling center, get out before dive.\n-Touchdown: proximity marker edge—move away.",
-          "d": "-Spread to reduce multi-target hits. When fog starts, move in a small circle around center to spot dragon dive. If marked with Mist Plume, avoid line and don’t touch puddles.",
-          "h": "-Conserve mana for Rime Wreath. Heal survivors of Mist suck. Keep shields up for Cauterize chain damage. Heal knocked players off platform edge.",
-          "t": "-Mitigate Rime Wreath or Coil. Face away during dive phase. Tank maintain center position and avoid pushing others into danger."
+          "g": "-Rime Wreath = heavy raidwide.\n-Frost Breath: line on non-tank → then wide cone on tank; avoid puddles.\n-Fog Plume: avoid star pattern; getting hit freezes you.\n-Vaporize: kill 3 tethers; attacking boss traps you.\n-Deep Fog: run outer ring; dodge line swoops.\n-Touchdown: flee to opposite side.",
+          "t": "-Face Frost Breath cone safely.\n-Pull boss so puddles don’t clog center.",
+          "h": "-Heavy healing for Rime Wreath + frostbite victims.\n-Free frozen players fast to prevent KO.",
+          "d": "-Stay clear of Frost Breath zones.\n-Avoid star AoEs; free frozen allies.\n-Kill Draconic Regards fast during Vaporize.\n-Watch for swoop telegraphs during Deep Fog."
         }
       ]
       }
