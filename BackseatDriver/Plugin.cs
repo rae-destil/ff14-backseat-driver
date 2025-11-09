@@ -329,7 +329,19 @@ public sealed class Plugin : IDalamudPlugin
             return;
         }
 
-        if (hint.stages.Count == 0 && (hint.general == "..." || hint.general == ""))
+        // check if any map in this territory has stage or map hints
+        var anyTerritoryHintsExist = territory_hint.maps.Any(map =>
+                (map.Value.stages.Count > 0 &&
+                map.Value.stages.Any(stage =>
+                    (stage.general != "..." && stage.general != "") ||
+                    (stage.tank != "..." && stage.tank != "") ||
+                    (stage.healer != "..." && stage.healer != "") ||
+                    (stage.dps != "..." && stage.dps != ""))) ||
+                    (map.Value.general != "..." && map.Value.general != "")
+        );
+
+        // no stages, no map hints
+        if (!anyTerritoryHintsExist)
         {
             return;
         }
@@ -386,7 +398,7 @@ public sealed class Plugin : IDalamudPlugin
 
         var hint = this.current_map_hint;
 
-        if (Plugin.ClientState.LocalPlayer == null || hint == null)
+        if (Plugin.ClientState.LocalPlayer == null || hint == null || (hint.stages.Count == 0 && (hint.general == "" || hint.general == "...")))
         {
             ChatGui.PrintError("No hints available in here.");
             return;

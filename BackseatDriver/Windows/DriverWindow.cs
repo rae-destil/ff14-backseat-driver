@@ -78,7 +78,6 @@ public class DriverWindow : Window, IDisposable
                 {
                     continue;
                 }
-
                 
                 //ImGui.TextUnformatted($"{mapHint.en_name}");
 

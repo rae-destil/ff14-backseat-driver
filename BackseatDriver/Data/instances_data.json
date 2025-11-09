@@ -3133,28 +3133,28 @@
     "en": "Singularity Reactor",
     "maps": {
       "236": {
-        "en": "The Singularity Reactor",
+        "en": "Thordan",
         "st": [
         {
-            "en": "King Thordan: Phase 1",
-            "g": "-King Thordan uses Ancient Quaga and The Dragon’s Gaze (looking away avoids fear), along with Ascalon's Mercy—line AoEs with safe gaps. At 80%, he summons untargetable Knights with unique mechanics: orbs, ice puddles, towers, lines, and comets.",
-            "d": "-Avoid stacking for Lightning Storm and puddles from knock-off adds.\n-Kill towers or step into them during Ser Hermenost to prevent paralysis.",
-            "h": "-Shield and heal through Ancient Quaga and orb explosions from Janlenoux/Adelphel.\n-Ensure one player stands in each conviction tower to avoid raid paralysis during Hermenost phase.",
-            "t": "-Face Thordan away from party to direct cleaves outward.\n-Stack for Ascalon’s Mercy gaps and rotate to intercept orbs safely."
+          "en": "Stage 1",
+          "g": "-Lightning Storm: 4 players get small circles; the other 4 get ground AoEs—spread cleanly\n-Ascalon’s Mercy: line gaps—sidestep\n-Ancient Quaga: raidwide\n-Ascalon’s Might: heavy tank hit\n-Knights of the Round: rotating Knight cameos (charges, columns, towers). Stand on all 3 platforms for Hermenost.\n-Dragon’s Gaze: turn away",
+          "t": "...",
+          "d": "...",
+          "h": "-Cleanse Bleeds and Paralysis from getting hit by knights."
         },
         {
-            "en": "King Thordan: Phase 2",
-            "g": "-At ~15%, Thordan withdraws and each Knight sequences special mechanics: Charibert (Heavensflame circles), Hermenost (towers again), Zephirin (massive Sacred Cross cast), Vellguine (room-wide line charge), Janlenoux & Adelphel (cleaves + Holiest of Holy), Ignasse (edge smash), Paulecrain & Haumeric (ice circles and line tether damage), Grinnaux (growing puddles), Noudenet & Guerrique (comet/multi-AoE patterns).",
-            "d": "-Separate to avoid overlapping ice circles from Paulecrain; dodge Grinnaux puddles before they detonate.\n-Burn Zephirin ASAP to soften Sacred Cross’s impact.",
-            "h": "-Stay mobile to avoid line AoEs and tower knockback overlaps.\n-Coordinate shields around Holy chains and icy AoEs.",
-            "t": "-Tanks split responsibilities: one for Janlenoux/Adelphel cleaves, one for Paulecrain/Haumeric players away.\n-Pick up Hermenost’s towers and avoid stacking for Grinnaux and comet circles."
+          "en": "Stage 2 - Knights Gauntlet",
+          "g": "-The Knights attacks are mostly obvious. Notable ones:\n-Heavensflame circles + towers (Hermenost): stand on towers\n-Zephirin: damage scales by his HP - burn him\n-Janlenoux/Adelphel: tank damage + Holiest of Holy raid-wide\n-Ignasse: proximity — move far\n-Blue ice markers: drop at edge\n-Comets + central meteor — kill quickly\n-Guerrique: rotating ring AoE — move into rock rows to avoid.",
+          "t": "...",
+          "d": "...",
+          "h": "..."
         },
         {
-            "en": "King Thordan: Phase 3",
-            "g": "-Thordan returns and casts Light of Ascalon (multi-knockback), followed by his ultimate, Ultimate End—high-damage cleave in succession across raid.",
-            "d": "-Stack tightly in mid-arena to minimize pathing issues during knockbacks.\n-Disperse quickly after Ultimate End to avoid lingering AoEs.",
-            "h": "-Use raid cooldowns before Light of Ascalon; heal through staggered knockbacks.\n-Prepare shields and regen for Ultimate End’s aftermath.",
-            "t": "-Face boss inwards to bait knockbacks toward safe zones.\n-Stick to Thordan during this phase; DPS until he dies—he’s weakened and only uses auto attacks."
+          "en": "Final Stage",
+          "g": "-Thordan autos with Damage Down — put him out of his misery.",
+          "t": "...",
+          "d": "...",
+          "h": "..."
         }
         ]
       }
@@ -5726,11 +5726,11 @@
     "en": "Emanation",
     "maps": {
       "399": {
-        "en": "Lady of Bliss: Lakshmi",
-        "g": "-Main mechanic is Vril, which disables certain moves.\n-Use Vril on: Divine Denial, Pull of Light.\n-Kill Dreamer Ananta adds first to break shield.\n-Hand of Beauty: circles on players—spread far.\n-Divine Denial: knockback—use Vril or be pushed off.\n-Pull of Light: tankbuster + knockback—Vril required.\n-Pall of Light: stack marker—stand together UNLESS MARKED.\n-Vril orbs appear during add phase—grab only one.\n-Adds with bubbles restore Vril—kill those first.",
-        "d": "-Spread for circles, move out for crosses.\n-Use Vril on knockbacks. Avoid double Vril pickup.",
-        "h": "-Shield before Divine Denial and Stotram.\n-Top up party during adds and post-stack hits.",
-        "t": "-Grab boss, face away.\n-Handle tankbusters with Vril and cooldowns. Don’t waste Vril early."
+        "en": "Lakshmi",
+        "g": "-Burst kill Dreaming Kshatriya one at a time; Lakshmi’s AoEs heal them\n-Vril: take **one** orb only; press it shortly after adds die (at the start) and whenever Lakshmi moves center to unleash a platform-wide AoE\n    -Missing Vril will knockback you off the platform to your death.\n-Hand of Grace: cross-shaped eruptions around marked players.\n-Hand of Beauty: circle AoEs around healers, leaving blue pools. Don't touch these.\n-Blue circle over off-tank is a cone attack, move away.",
+        "t": "...",
+        "d": "...",
+        "h": "..."
       }
     }
   },
@@ -6048,9 +6048,9 @@
         {
           "en": "Free-Fall Transition",
           "g": "-Players fall through air with no actions possible.\n-Avoid spark orbs, line AoEs, and center donut markers while falling.\n-Touching outer ring kills instantly.\n-After landing, survivors get hit with Fell Swoop—instant raidwide.",
-          "d": "-Look down and move to clear zones to survive the fall.",
-          "h": "-Cannot heal—survival depends on movement during fall.",
-          "t": "-Position yourself near safe zones when landing; prepare for Fell Swoop."
+          "d": "...",
+          "h": "...",
+          "t": "..."
         },
         {
           "en": "Phase 3",
@@ -6789,10 +6789,22 @@
     "maps": {
       "503": {
         "en": "Suzaku",
-        "g": "-Kill Scarlet Lady adds quickly—they tether to DPS and apply fire DoT; if left, they revive and wipe via Ashes to Ashes. Stack and AOE them down together. \n-Screams of the Damned: unavoidable raidwide. \n-Screams repeats post-mechanical sequences. \n-Phoenix Down: flaming plumes appear in set pattern; kill small plumes first, then central to create safe zone. \n-Eternal Flame phase: absorb orbs by facing arrow marks; failure increases Scarlet Fever damage. \n-In final arena: avoid falling off edges or through centre hole. Mechanics include Southron Star (raidwide), Mesmerizing Melody or Ruthless Refrain (pull or knockback), Well of Flame + Rekindle (spread marker and dodge), Phantom Flurry (tankbuster + knockback), and Phoenix Pattern: track runes to avoid exploding quadrants. \n-Mechanics repeat until Suzaku is defeated.",
-        "d": "-ON Scarlet Lady spawn, spread and burn quickly to prevent explosive revival. \n-Absorb orbs correctly during Eternal Flame; avoid platform edges in final phase.",
-        "h": "-Shield before Screams and Scarlet Fever. Top off after Scarlet Lady bursts and during Mesmerizing Melody pulls. \n-Heal through Well of Flame overlaps and tether markers.",
-        "t": "-Use cooldowns on Cremate (tankbuster). Face boss away, rotate swiftly after Phantom Flurry to avoid edge knockback. \n-Help AOE down Scarlet Ladies swiftly."
+        "st": [
+        {
+          "en": "Stage 1",
+          "g": "-Cremate: tankbuster\n-Eternal Flame: revives 4 Scarlet Ladies; they tether to DPS. Stack mid and AoE them before Ashes to Ashes\n-Endless Summer: large frontal - sidestep\n-Screams of the Damned: raidwide\n-Phoenix Down: plumes charge an explosion. Kill CENTER plume to create the safe zone. Phoenix corpses get ressed and buffed by plumes, kill immediately\n-Second Eternal Flame: platform becomes 8 circles. Face the arrow direction to absorb orbs.",
+          "t": "...",
+          "d": "...",
+          "h": "..."
+        },
+        {
+          "en": "Stage 2",
+          "g": "-Don't fall through the hole in the center.\n-Southron Star: raidwide\n-Ruthless Refrain: knockback from center\n-Phantom Flurry: multi-hit tankbuster + massive frontal knockback\n-Well of Flame: targeted column—dodge\n-Phoenix Says: phoenix hits a rune, matching platform explodes.\n    -Stand next to the platform, then move in after explosion.\n-Incandescent Interlude: 4 meteor soaks—1 player in each\n-Rekindle: AoE circles - spread.\n-Phoenix Rush: phoenixes dash across lanes—dodge\n-Phoenix Says 2.0: harder version of Phoenix Says.",
+          "t": "...",
+          "d": "...",
+          "h": "..."
+        }
+      ]
       }
     }
   },
@@ -6995,15 +7007,15 @@
           "t": "-Use cooldowns for tankbuster.\n-Face boss away to control AoE facing."
         },
         {
-          "en": "Phase 2",
+          "en": "Adds Phase",
           "g": "-Wheel Shiki: includes Ao-no-shiki (stack) and Aka-no-shiki (knockback)—tethered DPS should bait them toward edge.\n-Iwa-no-shiki add circles, then tethers leading to cones—aim cones away from raid.\n-Ten-no-shiki: line AoEs across arena.\n-Head Shiki: Doro and Numa heads explode on death. Stagger kills.\n-Strength of Spirit: triggers if Head Shiki gauge finishes; leads to Dragon’s Wake and transition.",
           "d": "-Assign Ao-no-shiki stack, steer red wheels safely out, dodge Iwa and Ten-no-shiki strikes.\n-Stagger Head Shiki kills to reduce healer burst.",
           "h": "-Heal through explosions and stagger deaths for recovery time.\n-Use long-duration shields before Strength of Spirit.",
           "t": "-Grab and tank Wheel Shiki and Head Shiki.\n-Position tethered units away from raid."
         },
         {
-          "en": "Phase 3",
-          "g": "-Arena floods then shrinks island; avoid water to keep from drowning.\n-Summon Shiki appears repeatedly: Blue Orochi (Coursing River), Yama-no-shiki, and others from Phase 2 in dual sets.\n-Coursing River: snakes run across—stand near them to get pushed inward.\n-Forbidden Arts: two-hit stack marker.\n-Yama-no-shiki slams platform—watch arm signals, avoid red center zone.\n-Force of Nature: explosive AoE at center; stand just outside.\n-Serpent Ascending: 4 meteor circles appear—stand in each or take heavy damage and Damage Down stacks.",
+          "en": "Phase 2",
+          "g": "-Arena floods then shrinks island; avoid water to keep from getting silenced.\n-Summon Shiki appears repeatedly: Blue Orochi (Coursing River), Yama-no-shiki, and others from Phase 2 in dual sets.\n-Coursing River: snakes run across—stand near them to get pushed inward.\n-Forbidden Arts: two-hit stack marker.\n-Yama-no-shiki slams platform—watch arm signals, avoid red center zone.\n-Force of Nature: explosive AoE at center; stand just outside.\n-Serpent Ascending: 4 meteor circles appear—stand in each or take heavy damage and Damage Down stacks.",
           "d": "-Stack quickly for Forbidden Arts.\n-Ride Coursing River pushes inward; dodge Serpent Ascending zones.",
           "h": "-Shield before Forbidden Arts and river damage.\n-Heal spread for ascension circle hits.",
           "t": "-Face boss for Shiki mechanics.\n-Absorb serpent circle hits if need be and maintain raid positioning."
@@ -9765,52 +9777,52 @@
     "en": "The Praetorium",
     "maps": {
       "56": {
-        "en": "Trash pull 1",
+        "en": "...",
         "g": "...",
         "d": "...",
         "h": "...",
         "t": "..."
       },
       "99": {
-        "en": "Trash pull 2",
+        "en": "...",
         "g": "...",
         "d": "...",
         "h": "...",
         "t": "..."
       },
       "100": {
-        "en": "Command Chamber → Magitek Colossus - 1",
-        "g": "-Escort through mobs, using Magitek transporter to transition.\n-Avoid marked AoEs from the Colossus (conal cleave, circle lasers).",
-        "d": "-Use AoE skills during escort pulls.\n-Dodge Prototype Laser markers quickly.",
-        "h": "-Spot‐heal the tank during pulls before engaging boss.\n-Keep raid topped before Colossus adds/shockwaves.",
-        "t": "-Pull groups tightly for efficient escort.\n-Keep boss faced away and use cooldowns on colossus cleaves."
+        "en": "Magitek Colossus - 1",
+        "g": "...",
+        "d": "...",
+        "h": "...",
+        "t": "..."
       },
       "101": {
-        "en": "Command Chamber → Magitek Colossus - 2",
-        "g": "-Ceruleum Vent: unavoidable raidwide AoE.\n-Prototype Laser Alpha: four circle AoEs radiate outward from center.\n-Prototype Laser Beta: each player marked with circle AoE—spread out.\n-Grand Sword: cone AoE on random player.",
+        "en": "Magitek Colossus",
+        "g": "-Ceruleum Vent: unavoidable partywide AoE.\n-Prototype Laser Alpha: four circle AoEs radiate outward from center.\n-Prototype Laser Beta: each player marked with circle AoE—spread out.\n-Grand Sword: cone AoE on random player.",
         "d": "-Spread during Prototype Laser Beta.\n-Avoid cone AoE from Grand Sword.\n-Dodge outward-moving circles.",
         "h": "-Heal through Ceruleum Vent.\n-Watch for spread damage from Prototype Laser Beta.",
         "t": "-Maintain aggro; face boss away to reduce cone cleave risk."
       },
       "102": {
-        "en": "Laboratorium Primum → Nero tol Scaeva",
-        "g": "-Arena edges apply Electrocution DoT—don’t get knocked into them.\n-Spine Shatter: tankbuster.\n-Iron Uprising: frontal cone with knockback.\n-Activate: summons Magitek Death Claw tether—kill it before it reaches target.\n-Augmented Shatter: stack marker, followed by Wheel of Suffering (circle AoE at Nero’s location). Stack then move out.\n-Augmented Uprising: large cone AoE from arena edge—dodge.\n-Augmented Suffering: knockback from center—stand near center to avoid electrical field.",
-        "d": "-Stack for Augmented Shatter, then move out of Wheel of Suffering.\n-Kill Magitek Death Claw add fast.\n-Stay near center during Augmented Suffering.",
-        "h": "-Mitigate Spine Shatter.\n-Heal raid after unavoidable damage or failed mechanics.\n-Cleanse and heal anyone clipped by Electrocution.",
-        "t": "-Keep Nero centered when possible.\n-Face him away from group for Iron Uprising.\n-Position to avoid knockback into walls."
+        "en": "Nero tol Scaeva",
+        "g": "-Arena edges apply Electrocution DoT—don’t get knocked into them.\n-Spine Shatter: tankbuster.\n-Iron Uprising: frontal cone with knockback.\n-Activate: kill Magitek Death Claw tether.\n-Augmented Shatter: stack.\n-Augmented Uprising: large cone AoE from arena edge — dodge.\n-Augmented Suffering: knockback from center.",
+        "d": "-Kill Magitek Death Claw add fast.",
+        "h": "..",
+        "t": "-Keep Nero centered when possible.\n-Face him away from group for Iron Uprising."
       },
       "103": {
-        "en": "The Echelon → Gaius van Baelsar",
+        "en": "Gaius van Baelsar",
         "g": "-Patterns: X-lines (Terminus Est), stacks (Festina Lente), line AoEs (Ductus), phantoms → blade energy spike.",
         "d": "-Stand between X markers on Terminus Est.\n-Kill Phantom Gaiuses fast to reduce Veni Vidi Vici damage.",
-        "h": "-Stack quickly on Festina; raid heal after.\n-Heavy heal/tank cooldowns ready for final burst.",
+        "h": "-Stack quickly on Festina; party heal after.\n-Heavy heal/tank cooldowns ready for final burst.",
         "t": "-Main tank: Keep aggro, use defence cooldowns on Innocence."
       },
       "104": {
         "en": "Gaius van Baelsar",
-        "g": "-Innocence: tankbuster.\n-Horrida Bella: unavoidable raidwide.\n-Terminus Est: flaming X telegraphs—move between them.\n-Phantasmata: clones cast Terminus Est from arena edge—stand between telegraphs.\n-Festina Lente: stack marker.\n-Ductus: line AoEs travel length of arena—avoid.\n-Hand of the Empire: each player targeted with AoE—spread.\n-At 5% HP: summons 4 Phantom Gaius adds. Kill them quickly while he charges Blade Energy. If bar hits 100%, Veni Vidi Vici wipes raid.\n-Heirsbane: Phantom adds hit random players with moderate damage.\n-After surviving, Gaius spams stronger Horrida Bella until defeat.",
+        "g": "-Innocence: tankbuster.\n-Horrida Bella: unavoidable partywide.\n-Terminus Est: flaming X telegraphs—move between them.\n-Phantasmata: clones line AoEs - stand in between.\n-Festina Lente: stack marker.\n-Ductus: circle AoEs - walk around.\n-Hand of the Empire: each player targeted with AoE—spread.\n-At 5% HP, Heirsbane: summons 4 Phantom Gaius adds. Kill them quickly while he charges Blade Energy.\n-After surviving, Gaius spams stronger Horrida Bella until defeat.",
         "d": "-Spread for Hand of the Empire.\n-Stack for Festina Lente.\n-Dodge Terminus Est and Ductus.\n-Burn Phantom Gaius adds quickly before Blade Energy fills.",
-        "h": "-Heal through Horrida Bella.\n-Prepare AoE heals during Phantasmata and Ductus overlap.\n-Support raid during Phantom Gaius adds with high damage output.",
+        "h": "-Heal through Horrida Bella.\n-Prepare AoE heals during Phantasmata and Ductus overlap.\n-Support party during Phantom Gaius adds with high damage output.",
         "t": "-Hold Gaius steady while group dodges line AoEs.\n-Pick up Phantom adds immediately at 5% HP."
       }
     }
