@@ -33,6 +33,12 @@ public class ConfigWindow : Window, IDisposable
             config.DisplayNerdStuff = configValue;
         }
 
+        configValue = config.CoachModeEchoIntoChat;
+        if (ImGui.Checkbox("Print coach hints in chat.", ref configValue))
+        {
+            config.CoachModeEchoIntoChat = configValue;
+        }
+
         if (ImGui.Button("Save and Close"))
         {
             config.Save();

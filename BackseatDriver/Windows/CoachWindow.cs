@@ -22,7 +22,7 @@ public class CoachWindow : Window, IDisposable
     private CoachActionHint lastActionHint = new();
 
     private Queue<string> eventsLog;
-    const int EVENTS_LOG_MAX_ENTRIES = 100;
+    const int EVENTS_LOG_MAX_ENTRIES = 200;
     private bool eventsStickyScroll = false;
     private bool pendingLogUpdate = false;
 
@@ -88,6 +88,11 @@ public class CoachWindow : Window, IDisposable
                 if (lastActionHint.roleSpecific != "..." && lastActionHint.roleSpecific != "")
                 {
                     castString += $"\n{lastActionHint.roleSpecific}";
+                }
+
+                if (config.CoachModeEchoIntoChat)
+                {
+                    Plugin.ChatGui.Print(castString);
                 }
             }
         }
