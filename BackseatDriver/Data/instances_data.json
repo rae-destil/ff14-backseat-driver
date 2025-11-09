@@ -834,7 +834,7 @@
         "en": "Labyrinth of the Ancients",
         "st": [
         {
-            "en": "Pools of Folly / Demise / Oblivion",
+            "en": "Mob Pools",
             "g": "-Platforms rise and poison fills the floor – stay on safe platforms.\n-Enemy waves include Valefors, Homunculi, Greater Demons, Valar, Dira, Cursed Eyes.",
             "d": "-Stay on raised platforms to avoid ground damage and cleave AoEs.\n-Save AoE cooldowns for add waves attacking platforms.",
             "h": "-Expect steady platform-based damage—heal accordingly.\n-Watch for knockbacks—rescue or position heal through group movement.",
@@ -848,7 +848,7 @@
           "t": "-Tank dragon at center (JP) or far edge (NA/EU) depending on group strategy.\n-Pull boss near adds to simplify cleaving them.\n-Ensure uptime on boss while DPS handle skeletons."
         },
         {
-            "en": "Walk of Lament",
+            "en": "Atomos",
             "g": "-Split into parties A/B/C to activate platforms and expose Atomos.\n-Must station 4 players per platform before barrier activates to avoid Iron Giants.",
             "d": "-Go to your assigned platform and avoid crossing prematurely.\n-Burst Atomos after platform activation.",
             "h": "-Pre-heal platform teams in case of accidental AoEs or delays.",
@@ -862,7 +862,7 @@
           "t": "-If buffed, grab boss and face away from group.\n-Swap aggro when other tank gets Astral Realignment.\n-Help with adds if unbuffed."
         },
         {
-          "en": "King Behemoth",
+          "en": "Behemoth",
           "g": "-Kill Iron Giants before they destroy comets.\n-Drop comet markers outside boss’s ring.\n-Hide behind comets during Ecliptic Meteor cast.",
           "d": "-Burn adds, especially Iron Giants and Puroboros.\n-When marked, place comets outside boss ring.\n-Use comets as LOS cover for Ecliptic Meteor.",
           "h": "-Heal towers if used; otherwise focus on raidwide damage.\n-Prepare for high damage during Ecliptic Meteor phase.\n-Support players dropping comets.",
@@ -2266,24 +2266,24 @@
         "st": [
         {
           "en": "Illuminati Commander",
-          "g": "-Illuminati Snipers tether to random players, dealing continuous damage; players can intercept the tether to protect the target\n-Boss periodically throws spiked bombs that explode in line AoEs toward cardinal directions; avoid the crossfire\n-Bomb Toss targets random players with circular AoEs; move away quickly",
-          "t": "-Pick up and intercept sniper tethers when possible to protect weaker allies\n-Position boss away from bomb lines to maintain safety zones",
-          "d": "-Dodge Bomb Toss circles and bomb line explosions\n-Intercept sniper tethers if able to reduce damage on healers or casters",
+          "g": "-Illuminati Snipers tether to random players, dealing continuous damage; players can intercept the tether to protect the target\n-Spiked bombs explode in line AoEs toward cardinals\n-Bomb Toss targets random players with circular AoEs",
+          "t": "-Pick up and intercept sniper tethers when possible to protect weaker allies",
+          "d": "...",
           "h": "-Focus healing on players tethered by snipers\n-Be ready to spot-heal Bomb Toss victims and AoE damage from bomb detonations"
         },
         {
           "en": "Magitek Vangob G-III",
-          "g": "-Ceruleum puddles expand over time and explode during Oversurge; move boss and players out of them\n-Drill Cannons fires a line AoE at a random player\n-Career targets a player with crosshairs and rushes them shortly after; avoid line of charge\n-Needle Burst is a light, untelegraphed raidwide AoE\n-Illuminati Glider adds cast Bomb Toss, leaving circular AoEs",
-          "t": "-Drag boss out of ceruleum puddles to prevent explosion damage\n-Mitigate Oversurge if movement isn’t possible\n-Handle Glider adds promptly to minimize AoE clutter",
-          "d": "-Avoid puddles and Drill Cannon lines\n-Dodge charge path after Career target\n-Burn adds quickly to reduce arena chaos",
+          "g": "-Ceruleum puddles expand over time and explode during Oversurge\n-Drill Cannons fires a line AoE at a random player\n-Career targets a player with crosshairs and rushes them shortly after; avoid line of charge\n-Needle Burst: party-wide AoE\n-Illuminati Glider adds cast Bomb Toss, leaving circular AoEs",
+          "t": "...",
+          "d": "-Burn adds quickly to reduce arena chaos",
           "h": "-Heal through Oversurge damage if players are clipped\n-AoE heal after Needle Burst\n-Watch for add-related Bomb Toss damage overlapping with puddle explosions"
         },
         {
           "en": "Gobmachine G-VI",
-          "g": "-Flamethrower cleaves the main target\n-Bombardment drops circular AoEs on random players\n-At 75%, 50%, and 25% HP boss circles arena; avoid its path and kill Illuminati Sniper and Glider adds\n-Bombs cover arena during intermissions; knock or move them away from center before they explode\n-Final intermission summons Giant Bomb; kill immediately or risk wipe\n-Boss charges through middle after Giant Bomb, stunning and damaging players",
-          "t": "-Face boss away for Flamethrower cleave\n-During intermissions, grab adds and keep arena clear of bombs\n-Mitigate charge through center post-Giant Bomb",
-          "d": "-Focus down adds and Giant Bomb quickly\n-Help clear bombs with AoE abilities\n-Avoid center lane during boss rush",
-          "h": "-Prepare strong AoE healing during Bombardment and intermission explosions\n-Heal stunned or low HP players after boss charge\n-Top off raid before and after intermission phases"
+          "g": "-Flamethrower cleaves the main target\n-Bombardment drops circular AoEs on random players\n-At 75%, 50%, and 25% HP boss circles arena; avoid its path and kill Illuminati Sniper and Glider adds\n-When bombs cover arena, push them out using AoEs\n-Giant Bomb needs to be killed quickly or you wipe.\n-Boss charges through middle after Giant Bomb.",
+          "t": "-Face boss away for Flamethrower's cleave",
+          "d": "...",
+          "h": "..."
         }
         ]
       }
@@ -3103,7 +3103,14 @@
               "t": "-Position boss near rubble preemptively.\n-Prepare to quickly regain aggro after forced movement."
             }
           ]
-      }
+      },
+      "c": {
+            "3725" : {
+                "a" : {
+                    "3695" : { "g" : "Hide behind a pile of rubble or you get pulled." }
+                }
+            }
+        }
     }
   },
   "435": {
@@ -3115,10 +3122,10 @@
     "maps": {
       "235": {
         "en": "The Limitless Blue",
-        "g": "-At the start, two adds spawn; kill them quickly and avoid their knockbacks\n-Bismarck will dive toward the platform—activate the shield generator just before impact to minimize platform damage; mistiming it increases damage\n-When harpoons become active, use them immediately to chain Bismarck and board him to destroy his Chitin Carapace (you take a light DoT while on his back)\n-Failing to break the chitin in time causes a repeat of the first phase\n-After chitin breaks, two large adds appear; tanks must separate and face them away, as they cleave and gain buffs if close together\n-Dodge tornadoes and exploding bubbles while killing adds; Bismarck’s AoE after this can wipe if adds are still alive\n-In the final cycle, there’s no shield—kill adds and then attack Bismarck’s exposed Corona when chained\n-Two Vapor Bubbles will spawn: during thunder weather, do not kill them or lightning will hit players; during rain, kill them or they gain Damage Up\n-Platform damage over time will wipe the raid if Bismarck isn’t finished quickly",
-        "t": "-Grab adds immediately and face them from the group\n-During twin adds, separate them and mitigate frontal cleaves\n-Watch shield generator timing and be ready to re-position for harpoon phase",
-        "d": "-Focus adds, avoid tornadoes and bubbles\n-Break chitin and later Corona while on Bismarck’s back\n-During thunder, avoid killing Vapor Bubbles; during rain, kill them fast",
-        "h": "-Heal through platform damage and DoT from boarding\n-Watch for heavy raid damage after failed shield or during Bismarck’s AoE\n-Prepare strong healing during lightning strikes if timing fails"
+        "g": "-Avoid adds' knockback\n-When Bismarck dives at the platform, shield generators reduce damage taken.\n-When harpoons become active, use them immediately to chain Bismarck and board him\n-Dodge tornadoes and exploding bubbles while killing adds; Bismarck’s AoE will wipe if adds are still alive\n-Two Vapor Bubbles will spawn: during thunder weather, do not kill them or lightning will hit players\n    -During rain, kill them quickly",
+        "t": "-After Chitin breaks, SEPARATE adds and face them from the group - they cleave.",
+        "d": "-During thunder, avoid killing Vapor Bubbles; during rain, kill them fast",
+        "h": "-Prepare strong healing during lightning strikes if timing fails\n-Carapace back DoT can only be healed if you're on Bismarck's back too."
       }
     }
   },
@@ -3715,25 +3722,25 @@
         {
           "en": "Rose Garden",
           "g": "-Avoid breath attacks from both the boss and small adds\n-Boss spins clockwise or counterclockwise during breath; move behind or opposite direction\n-Rose Hips spawn from second spin onward; kill them quickly before they explode and cause raidwide damage",
-          "t": "-Face boss away from group to control breath direction\n-Move boss to safe zones between spins to reduce party exposure",
-          "d": "-Watch spin direction and reposition quickly\n-Focus down Rose Hip adds immediately\n-Stay mobile to avoid breath overlap",
+          "t": "-Face boss away from group to control breath direction",
+          "d": "-Focus down Rose Hip adds immediately",
           "h": "-Prepare AoE heals after breath attacks or Rose Hip explosions\n-Watch for players clipped by stray breath cones"
         },
         {
           "en": "Queen Hawk",
-          "g": "-Bees around the arena target random players with column AoEs; avoid standing in front of them\n-During Ally, bees form two groups and perform double untelegraphed line AoEs; watch their positions to dodge in time\n-Knight Hawk adds tether to boss; kill quickly to stop stacking raidwide damage\n-Boss can use Avail to mimic damage effects",
+          "g": "-Bees around the arena target random players with column AoEs; avoid standing in front of them\n-During Ally, bees form two groups and perform double untelegraphed line AoEs; watch their positions to dodge in time\n-Knight Hawk adds tether to boss; kill quickly to stop stacking raidwide damage\n-Avail: while adds are alive boss is immune, does AoEs, and stacks Damage Up.",
           "t": "-Keep boss centered to simplify add management\n-Move slightly to dodge Ally columns and maintain uptime",
-          "d": "-Avoid all frontal lines from bees\n-Focus Knight Hawk adds before continuing boss damage\n-Pay attention to untelegraphed Ally patterns",
-          "h": "-Heal through periodic AoEs from adds and Ally damage\n-Be ready for heavy healing if Knight Hawks survive too long"
+          "d": "-Avoid all frontal lines from bees\n-Focus Knight Hawk adds before continuing boss damage",
+          "h": "-Prepare to burst heal players lingering in bee line AoEs."
         }
         ]
       },
       "273": {
         "en": "Belladonna",
-        "g": "-Initial large AoE can only be dodged by standing close to the boss\n-Bulbs spawn and place yellow AoEs that apply Magic Vulnerability Up debuffs\n-Frond Fatale charms players facing boss, forcing them into AoEs; look away during cast to avoid charm\n-Roomwide AoE hits for heavy damage; heal quickly after\n-Kill any targetable adds to prevent being overwhelmed",
-        "t": "-Position boss center to help melee dodge inward safely\n-Mitigate roomwide AoE damage\n-Gather adds promptly when they spawn",
-        "d": "-Run toward boss during large AoE cast to avoid damage\n-Avoid yellow Bulb AoEs and look away from boss during Frond Fatale\n-Focus adds quickly after charm phase",
-        "h": "-Top off party after roomwide AoE\n-Dispel or heal players hit by multiple vulnerability stacks\n-Watch for sudden burst damage if players fail to look away"
+        "g": "-Initial large AoE can only be dodged by standing close to the boss\n-Bulbs spawn and place yellow AoEs that apply Magic Vulnerability Up debuffs\n-Frond Fatale charms players facing boss, forcing them into AoEs; look away.",
+        "t": "-Position boss center to help melee dodge inward safely",
+        "d": "...",
+        "h": "..."
     }
     }
   },
@@ -3838,10 +3845,10 @@
       },
       "282": {
         "en": "Kuribu",
-        "g": "-Three-phase fight with Seed of Life revives; stance flips invert effects for Cure IV and Regen.\n-Phase 3 introduces Decoy adds tethered to boss or healer requiring fast handling.",
-        "d": "-In normal stance, stand in Cure IV circles; avoid them in reverse phases.\n-Burn Decoy add quickly—prioritize based on stance (Low Putto damages healer, High Putto heals boss).",
-        "h": "-Manage healing/damage zones based on stance: normal = heal circles, reverse = avoid them.\n-Focus healer onto Decoy tethered off healer to protect against Prey.",
-        "t": "-Pick up Decoy add appropriate to stance—High or Low—and reposition to prevent its effect."
+        "g": "-Three HP phases via Seed of Life (2 → 1 → 0). Effects flip under **Reverse**\n-Glory: tank cone\n-Understand stance rules:\n  Normal: Cure IV = light circle (step in to block heal), Regen = healing field (move boss out)\n  Reverse: Cure IV = point-blank AoE, regen = bleed ground—avoid",
+        "t": "-Face Glory away\n-Move Kuribu out of normal Regen zones\n-In Reverse, keep her away from party during proximity Cure IV",
+        "d": "-Kill Decoy adds first: Low Putto (Reverse active) or High Putto (no Reverse)",
+        "h": "-Heavy healing during Reverse Cure IV proximity blasts\n-Dispels not possible—sustain through Bleed zones if anyone missteps"
       }
     }
   },
@@ -4113,17 +4120,17 @@
     "maps": {
       "298": {
         "en": "Arachne Eve",
-        "g": "-Phase 1: tankbuster + Heavy cleave; orange markers place web; burrows then does ring AoEs.\n-Phase 2: draws players to web—split tasks: top handles orbs/spiders, bottom destroys Keyknots to drop the web.\n-Phase 3: mixes Phases 1 and 2 with additional web/tornado mechanics.",
+        "g": "-Phase 1: tankbuster + Heavy cleave; orange markers place web; burrows then does ring AoEs.\n-Phase 2: draws players to web—split tasks: top handles orbs/spiders, bottom destroys Keyknots to drop the web.\n-Phase 3: mixes Phases 1 and 2 with additional web/tornado mechanics.\n    -Shadow burst: if marked, stack within melee distance.\n    -Orange marker: place webs AWAY FROM CENTER.\n    -Widow's Kiss: get on a web to not get sucked center and wrecked.",
         "d": "-After initial rings, stay stacked for tankbuster then spread during Heavy.\n-In Phase 2, DPS on purple orbs first, kill spiders later; bottom DPS handles Keyknots.",
         "h": "-Apply shields before Heavy AoEs; coordinate tether breaks.\n-Top heal through Implosion and drop phase; bottom heal through orb and spider burst damage.",
         "t": "-Tank boss and avoid plowing into party.\n-1 tank holds boss top during Phase 2, other picks up spiders after drop."
       },
       "299": {
         "en": "Forgall",
-        "g": "-Phase 1: regenerating adds explode with Vulnerability; portals must be covered during Punishing Ray.\n-Phase 2 (Void Call): three adds appear—Succubus (mind control), Hagenti (Doom gaze), Dahak.\n-Phase 3: Megadeath requires 1-4 stacks of zombie buff to survive, followed by Hell Wind AoE and repeating mechanics.",
-        "d": "-Kill regulators quickly; cover Punishing Ray spots to mitigate damage.\n-Separate and burn adds in Void Call, stun Succubus, look away from Hagenti; soak Megadeath puddle once.",
-        "h": "-Heal orb soakers and manage Punishing Ray stacks; dispel Doom.\n-Post-Megadeath, heal through Hell Wind and ongoing AoEs.",
-        "t": "-MT picks up adds and positions away from raid; OT separates adds during Void Call."
+        "g": "-Phase 1: regenerating adds explode with Vulnerability; portals must be covered during Punishing Ray.\n-Phase 2 (Void Call): three adds appear, kill order: Succubus (mind control), Hagenti (Doom gaze), Dahak.\n-Phase 3: Megadeath wipes anyone without zombification.\n    - Get on green puddles when Necropurge is cast to get zombification.\n    -When Evil Mist is cast, stand next to the Poison Mists. They'll turn to puddles and give you zombification against a quick megadeath followup.",
+        "d": "...",
+        "h": "-Esuna Doom.\n-Post-Megadeath, heal through Hell Wind and ongoing AoEs.",
+        "t": "..."
       },
       "300":  {
         "en": "Headstone",
@@ -4376,24 +4383,24 @@
         "st": [
         {
           "en": "Phase 1",
-          "g": "-Sophia starts with Thunder II (frontal cleave), followed by Thunder III (donut AoE where safe spot is close or far).\n-Followed by Aero III (centered AoE with knockback) and Daughter adds that cast Light Dew line AoEs.\n-Proximity markers appear under players that must be moved away from to avoid extra damage.",
-          "d": "-Stack behind marked players during Fiendish Rage / stack markers to share damage from Thunder.\n-Avoid front-facing during Thunder II and stay either very close or far away during Thunder III.",
-          "h": "-Shield before Thunder II and Aero III. Prep for follow-up damage from Light Dew and proximity markers.\n-Stay mobile to avoid crowding into final knockbacks and proximity fields.",
-          "t": "-Face Sophia away from the raid at all times. Immediately reposition after Aero III to avoid pushing teammates off.\n-Keep spatial awareness when Daughter appears and line-casts are cast."
+          "g": "-Thunder II: front cone.\n-Thunder III: donut AoE, hug her.\n-Aero II: centered AoE with knockback.\n-Daughter: moves to arena sides and casts Light Dew line AoEs.\n-Proximity markers appear under players that must be moved away from to avoid extra damage.",
+          "d": "...",
+          "h": "...",
+          "t": "..."
+        },
+        {
+          "en": "Adds Phase",
+          "g": "-Sophia casts Cloudy Heavens to become invulnerable and marks all players with Eternal Doom.\n-Three Demiurge adds spawn (kill order: Healer, Lancer, Paladin) and must be killed quickly or you wipe.\n-Paladin parry knocks back.",
+          "d": "...",
+          "h": "...",
+          "t": "-Off-tank picks up Binah/Cochma or relevant Demiurges quickly; MT handles others."
         },
         {
           "en": "Phase 2",
-          "g": "-Sophia casts Cloudy Heavens to become invulnerable and marks all players with Eternal Doom.\n-Three Demiurge adds spawn (Paladin, Healer, Lancer) and must be killed quickly—failure triggers Zombification and wipe.",
-          "d": "-Burn Demiurges rapidly in priority order: healer first, paladin last for directional parry.\n-Avoid lingering in frost puddles dropped by the lancer Demiurge.",
-          "h": "-Help dispel the confusion gaze from the healer Demiurge.\n-Focus healing during AoE bursts from Demiurge adds and monitor Eternal Doom timers.",
-          "t": "-Off-tank picks up Binah/Cochma or relevant Demiurges quickly; MT handles others.\n-Face adds away and avoid causing turmoil with parry mechanics on Paladin Demiurge."
-        },
-        {
-          "en": "Phase 3",
-          "g": "-Sophia casts Quasar, spawning scales on east and west. Meteors fall outside: orange =1, blue =3. Arena tilts toward heavier side.\n-Players slide toward low side—positioning near edge and avoiding frost puddles from Phase 2 is crucial.\n-Sophia also casts Sin & Punishment (light/dark ring markers) and Cintamani (always wipes if markers not paired).",
-          "d": "-Stand on the side opposite any blue meteor and at arena edge to avoid sliding off.\n-For Sin & Punishment, pair light with dark markers—max two players per stack to avoid damage.",
-          "h": "-Avoid sliding into lingering frost rings; stay mobile and aware of scale orientation.\n-Coordinated healing for paired markers and cleansing debuffs from Cintamani phase as required.",
-          "t": "-Guide facing outward to prevent knockbacks pushing group off edge.\n-Aim positioning to keep Sophia centered and away from icy puddles before scale tilt."
+          "g": "-Sophia casts Quasar, spawning scales on east and west. Meteors fall outside: orange weight =1, blue weight =3. Arena tilts toward heavier side.\n-Players slide toward low (heavier) side: position near edge and avoid frost puddles from Adds Phase.\n-Sin & Punishment (light/dark ring markers) - stack with someone with OPPOSITE marker.",
+          "d": "...",
+          "h": "...",
+          "t": "..."
         }
       ]
       }
@@ -4411,9 +4418,9 @@
         "st": [
         {
           "en": "Demon of the Tome",
-          "g": "-Boss uses wide and narrow AoEs that require careful positioning\n-Tank sideways so the party can see AoE markers clearly\n-Avoid standing between narrow AoE lines—these indicate where a large follow-up AoE will strike",
-          "t": "-Tank boss side-on for visibility and to keep AoEs predictable\n-Maintain control of boss position to avoid clipping melee",
-          "d": "-Watch for narrow line AoEs at edges; move into them to avoid the large follow-up\n-Keep spacing to avoid overlapping damage zones",
+          "g": "-Avoid standing between narrow AoE lines—these indicate where a large follow-up AoE will strike",
+          "t": "-Tank sideways so the party can see AoE markers clearly",
+          "d": "...",
           "h": "-Prepare light AoE healing during sequence attacks\n-Heal players hit by overlapping AoEs"
         },
         {
@@ -4428,9 +4435,9 @@
       "312": {
         "en": "Strix",
         "g": "-White circle deals with Quakes.\n-Black circle deals with Tornados.\n-Green circle toggles Imp status. Use to turn back after getting hit by Properties of Imps.\n-Find a rock to hide behind when Behemoth casts Ecliptic Meteor.",
-        "d": "-Enter correct circle based on upcoming mechanic (white for quake, black for tornado).\n-During meteors, use safe zones and avoid stacking with imp status.",
-        "h": "-Prepare burst healing for tornado and quake phases.\n-Heal through Thunder overlap if players are still imps.",
-        "t": "-Keep boss away from Behemoth spawn.\n-Reposition Strix to prevent AoEs from overlapping circles or meteors."
+        "d": "...",
+        "h": "...",
+        "t": "-Keep boss away from Behemoth spawn."
       }
     }
   },
@@ -5011,31 +5018,27 @@
         "st": [
         {
           "en": "Phase 1",
-          "g": "-Platform segments collapse in order: East → North → West → South. Touching a falling edge means instant death.\n-Zurvan uses Metal Cutter (frontal cleave) and drops Flare Star puddles on random players.",
-          "d": "-Avoid standing near edges and behind boss to dodge cleave.\n-Stack bait for Flare Stars then move as patterns develop.",
-          "h": "-Pre-shield before Metal Cutter and puddle drops.\n-Heal through raindrop AoEs and reposition team away from dying floor tiles.",
-          "t": "-Keep Zurvan facing away from raid and centrally positioned.\n-Shift boss as the platform collapses to prevent edge exposure."
+          "g": "-Platform quarters fall counter-clockwise starting east; step off shaking tiles\n-Flare Star: spread from random circle AoEs",
+          "t": "-Face Zurvan away to contain Metal Cutter cleave\n-Anchor boss near safe tiles to reduce party movement"
         },
         {
           "en": "Phase 2",
-          "g": "-Zurvan leaps with Soar causing clones that cast line AoEs.\n-Flaming Halberd: player trails.\n-Demonic Dive: stack/stagger.\n-Wave Cannon: line on tank.\n-AoEs: Ice Puddle, Biting Halberd (cone), Southern Cross, Ciclicle (donut), and Tail End (edge circle).",
-          "d": "-Follow safe zones for Soar patterns and avoid overlap in Halberd trails.\n-Stack for Demonic Dive then dodge line, cone, donut, and edge AoEs in order.",
-          "h": "-Coordinate small stacks and shields for stagger and AoE chain.\n-Heal raid through overlap of ice puddles and donut hits.",
-          "t": "-Rotate between Halberd lines; reposition boss mid-chain to keep group safe.\n-Predict Tail End and guide raid toward arena edge."
+          "g": "-Soar: dodge two line AoEs, then clone lines on edges\n-Flaming Halberd: 2 players kite tracking AoEs; leaves fire puddles\n-Demonic Dive: stack to mitigate\n-Wave Cannon: untelegraphed line at random target; sidestep\n-Ice Puddle → Biting Halberd: avoid center slow field, then get behind\n-Southern Cross: stack AoEs tightly to conserve space\n-Ciclicle: donut—stay close\n-Tail End: point-blank—move to edges",
+          "t": "-Keep Zurvan centered to simplify Ciclicle→Tail End movement\n-After Soar land, be ready to re-center boss quickly for subsequent cones",
+          "d": "-If targeted by Flaming Halberd, drag circles away from stack and safe lanes",
+          "h": "-Prep mitigation for Demonic Dive stack and Soar damage combo\n-Top quickly after Wave Cannon and Southern Cross"
+        },
+        {
+          "en": "Adds Phase",
+          "g": "-Wave 1: 3 Threw → burn\n-Wave 2: mix of Threw + Will\n-Wave 3: 2 Will + 1 Wit; kill caster first",
+          "t": "-Pick up all Threw/Will immediately; split the two Wills in Wave 3\n-Position adds away from party to avoid cleaves while DPS nuke Wit",
+          "d": "-Priority: Execrated Wit → Will → Threw"
         },
         {
           "en": "Phase 3",
-          "g": "-Waves of adds arrive: Thews, Wills, and Wit. All must be defeated to continue; left alive they trigger wipes or destabilize later phases.",
-          "d": "-Focus DPS to burn adds quickly, prioritizing Wit and Will in that order..\n-Keep spread to minimize splash damage from AoE from adds.",
-          "h": "-Assign healer to the caster add (Wit) and shield tanks strapped to melee adds.\n-Heal through explosion damage and prepare for transition damage spike.",
-          "t": "-Off-tank grab Execrated Wills/Wit.\n-Position adds safely to avoid platform edge and overlapping AoEs."
-        },
-        {
-          "en": "Phase 4",
-          "g": "-Returns to Phase 2-style mechanics with added Broken Seal: players receive Fire or Ice tethers, meteors spawn in patterns. Mist-matched soaking or unsoaked meteors cause Vulnerability debuff.\n-Tyrfing tankbusters increase in hit count each cast.",
-          "d": "-Tether correctly by fire/ice; coordinate safe soaking and avoid multiple AoEs.\n-Stack or spread as needed and sidestep cone AoEs; watch for vulnerability stacking.",
-          "h": "-Share stacking for Demonic Dive/Wave Cannon.\n-Mitigate contagion of vulnerabilities and match meteor soaking patterns quickly.",
-          "t": "-External developers only: tank switch appropriately for Tyrfing escalation.\n-Keep orientation and positioning tight as arena fractures renew Soar and line mechanics."
+          "g": "-Broken Seal: match Infinite Fire/Ice to same-color meteors; only marked player soaks—wrong/missed soaks give vuln stacks\n-Repeats Phase 2 patterns with meteors added",
+          "t": "-Tyrfing: multi-hit tankbuster that adds strikes each use—rotate strong CDs; consider swap if gear is low\n-Maintain boss placement so meteor soakers have room",
+          "h": "-Spot-heal meteor soakers and stabilize after Tyrfing strings\n-Time raid mitigation for Southern Cross → Ciclicle/Tail End chains"
         }
       ]
       }
@@ -5411,14 +5414,34 @@
           "h": "-Top off after arena AoEs.\n-Sustain tanks through Death Sentence and add waves.",
           "t": "-Grab Hakkinryu immediately; mitigate Death Sentence.\n-Keep adds faced away from party."
         }
-      ]
+        ],
+        "c": {
+            "6531" : {
+                "a": {
+                    "8107" : {"g" : "raid-wide fire attack - stand in a water puddle to mitigate."},
+                    "8106" : {"g" : "run to the water spout and hug it or get knockedbacked off the platform."},
+                    "8111" : {"g" : "stand as close as possible but not ON center platform. Final charge knockbacks."},
+                    "8109" : {"g" : "careful not to slide off the arena."}
+                }
+            }
+        }
       },
       "406": {
         "en": "Phase 3",
         "g": "-Line Charge comes early—either corners to dodge or soak safely mid.\n-Outer blue platforms can break from Tail Slam or Corrupted Earth—stand safe.\n-After Tail Slam, target Shinryu’s tail—breaking it chunks boss HP.\n-Wind pulses knockbacks from center; stay close in.\n-Ice freezes floor—don’t move until it ends.\n-Fire requires puddles; Lightning avoid puddles.\n-Burning Chains: chained players spread apart.\n-Ahk Morn still requires stacks, with extra blue beam AoE to dodge.",
         "d": "-Focus tail after Tail Slam for faster clear.\n-Spread for Burning Chains and Right Wing lightning.\n-Avoid slippery Ice floors—stand still.",
         "h": "-Big AoE healing for Wind pulses, Fire, and Akh Morn.\n-Watch chained players for DoT healing.",
-        "t": "-Hold boss mid on grey platform to avoid edge danger.\n-Move to Tail Slam platforms quickly to help DPS tail.\n-Mitigation for repeated tank autos and add pressure."
+        "t": "-Hold boss mid on grey platform to avoid edge danger.\n-Move to Tail Slam platforms quickly to help DPS tail.\n-Mitigation for repeated tank autos and add pressure.",
+        "c": {
+            "6531" : {
+                "a": {
+                    "8107" : {"g" : "raid-wide fire attack - stand in a water puddle to mitigate."},
+                    "8106" : {"g" : "run to the water spout and hug it or get knockedbacked off the platform."},
+                    "8111" : {"g" : "stand as close as possible but not ON center platform. Final charge knockbacks."},
+                    "8109" : {"g" : "careful not to slide off the arena."}
+                }
+            }
+        }
       }
     }
   },
@@ -6376,14 +6399,14 @@
           "h": "-Prepare for Reprimand raidwide AoE\n-Keep tanks topped off through Torment Unto Death\n-Use regen before Nightfall variations for stability"
         },
         {
-          "en": "Phase 2",
+          "en": "Adds Phase",
           "g": "-Begins with Nightbloom: heavy raidwide + stun\n-Kill adds quickly to prevent Suffering gauge from reaching 100%\n-More suffering = stronger damage at phase end",
-          "t": "-Grab each wave immediately\n-Keep adds separated if multiple spawn\n-Use mitigation before Nightbloom and near end of phase",
-          "d": "-Focus highest-priority adds first (Zenos last wave)\n-Use AoEs to clear groups fast\n-Manage burst DPS to prevent Suffering gauge overflow",
-          "h": "-Prepare for raidwide Nightbloom damage\n-Maintain shields and AoE heals during each wave\n-Top off before phase ends to survive final detonation"
+          "t": "...",
+          "d": "...",
+          "h": "-Top off before phase ends to survive final detonation"
         },
         {
-          "en": "Phase 3",
+          "en": "Phase 2",
           "g": "-Selenomancy splits arena into light/dark halves; standing too long on one side stacks debuffs leading to Doom\n-Swap sides at 3 stacks to reset safely\n-During this, she continues Nightfall and Midnight Haze mechanics\n-Antitwilight/Perilune clears debuffs but deals raidwide damage\n-Dance of the Dead: transition attack with heavy damage\n-Lunacy: multi-hit stack (1 + 2 rapid hits) — group up and mitigate\n-Dark/Bright Blade: cleaves most of arena; move opposite the glowing blade",
           "t": "-Maintain control of boss centerline for Selenomancy rotations\n-Swap sides with the group at 3 stacks\n-Pop mitigation before Antitwilight and Lunacy",
           "d": "-Follow stack/swap cues for Selenomancy safely\n-Dodge Nightfall and cleaves while switching sides\n-Stack close during Lunacy and spread right after\n-Move opposite glowing blade to avoid cleave",
@@ -6465,28 +6488,27 @@
           "t": "-Face boss away from party to reduce Odious Air exposure\n-Mitigate Vine Whip and be ready to reposition after Rafflesia spawns\n-Watch Nullchu’s facing direction to predict poison breath",
           "d": "-Avoid green puddles and spread for Taproot\n-Move near Rafflesia spawn when announced to avoid Odious Atmosphere\n-Stack properly for Fault Warren to minimize deaths",
           "h": "-Cleanse Poison from players after Odious Air or Odious Atmosphere\n-Be prepared for high damage during Fault Warren stacks\n-Spot heal anyone clipped by green puddles"
-        },
-        {
-          "en": "Lakhamu",
-          "g": "-Arena edges are covered in vines that inflict damage and Vulnerability Up when touched\n-Stone II is a tankbuster; Tectonics is party-wide AoE damage\n-Landslip pushes all players along line markers; Silt Golems cast Rockslide right after push—align movement to be pushed into a safe lane\n-Earthquake is a two-step AoE: first center, then ring; move close or far accordingly\n-Earth Shaker targets two DPS with line attacks—spread to avoid overlap\n-Empty Gaze is a gaze attack that inflicts Hysteria; look away during cast",
-          "t": "-Face boss away from group to avoid cleaves\n-Mitigate Stone II and prepare cooldowns for Tectonics\n-Move boss to safe areas after Landslip",
-          "d": "-Avoid standing near arena edges\n-Dodge push mechanics intelligently; pre-position to avoid Rockslide lines\n-Look away for Empty Gaze\n-Spread for Earth Shaker markers",
-          "h": "-Top off party after Tectonics and Landslip combos\n-Remove Hysteria aftermath quickly with stabilizing heals\n-Be ready for spike damage if players are hit by Rockslide or vines"
-        },
-        {
-          "en": "Tokkapchi",
-          "g": "-Arena has four solid platforms; when the mud begins to froth, get onto one or be launched and damaged\n-Mudsling is a heavy tankbuster\n-Quagmire places AoEs on all players; spread out and avoid coating solid platforms with puddles—puddles inflict Vulnerability Up on contact\n-Mud Pie summons an unkillable Mud Slime add; push it away from boss AoEs to prevent it from growing\n-Mud Slime detonates with Corrupture after ~45 seconds; damage depends on size—keep it small or it will wipe the party\n-Royal Flush is a melee-range AoE; stay at mid-range when cast\n-During second Mud Pie, kill two Muddy Dorpokkur adds quickly\n-Feculent Flood targets the Mud Slime; push it away before the cast completes\n-Bog Bequest is a ring AoE that leaves melee range safe (or the opposite side if boss is on edge)",
-          "t": "-Tank boss on a platform to simplify Quagmire positioning\n-Use mitigation for Mudsling\n-Keep boss AoEs and Slime well separated; coordinate with party to control push direction",
-          "d": "-Always stay on solid platforms when mud churns\n-Spread AoEs away from platforms during Quagmire\n-Focus pushing the Mud Slime instead of killing it\n-Burn Dorpokkur adds immediately to prevent chaos",
-          "h": "-Heal players hit by Quagmire puddles and cleanse Vulnerability stacks\n-Prepare for heavy raid damage during Corrupture if Slime grows\n-Top off tank after Mudsling and party after Bog Bequest"
         }
       ]
       },
       "482": {
         "en": "Saint Mocianne's Arboretum (Hard)",
-        "d": "...",
-        "h": "...",
-        "t": "..."
+        "st": [
+        {
+          "en": "Lakhamu",
+          "g": "-Arena edges vines inflict damage and Vulnerability Up when touched\n-Stone II is a tankbuster; Tectonics is party-wide AoE damage\n-Landslip pushes all players along line markers; Silt Golems cast Rockslide right after push.\n    -Align movement to be pushed into a safe lane\n    -On second round, golems fire in cross direction - consider both for safe spot.\n-Earthquake is a two-step AoE: first center, then ring; move close or far accordingly\n-Earth Shaker targets two DPS with line attacks—spread to avoid overlap\n-Empty Gaze inflicts Hysteria; look away.",
+          "t": "-Face boss away from group to avoid cleaves",
+          "d": "...",
+          "h": "-Be ready for spike damage if players are hit by Rockslide or vines"
+        },
+        {
+          "en": "Tokkapchi",
+          "g": "-Arena has four solid platforms; when the mud begins to froth, get onto one or be launched and damaged\n-Mudsling is a heavy tankbuster\n-Quagmire places AoEs on all players; spread out and avoid coating solid platforms with puddles—puddles inflict Vulnerability Up on contact\n-Mud Pie summons an unkillable Mud Slime add; push it onto a platform away from boss AoEs to prevent it from growing\n-Mud Slime detonates with Corrupture after ~45 seconds; damage depends on size—keep it small or it will wipe the party\n-Royal Flush is a melee-range AoE; stay at mid-range when cast\n-Feculent Flood targets the Mud Slime; push it away before the cast completes\n-Bog Bequest is a ring AoE that leaves melee range safe (or the opposite side if boss is on edge)",
+          "t": "-Tank boss on a platform to simplify Quagmire positioning",
+          "d": "-Focus pushing the Mud Slime instead of killing it\n-Burn Dorpokkur adds immediately to prevent chaos",
+          "h": "-Heal players hit by Quagmire puddles and cleanse Vulnerability stacks\n-Prepare for heavy raid damage during Corrupture if Slime grows"
+        }
+      ]
       }
     }
   },
@@ -6572,24 +6594,39 @@
     "en": "Alphascape V1.0",
     "maps": {
       "485": {
-      "en": "Chaos",
-      "st": [
-        {
-          "en": "Phase 1",
-          "g": "-Chaotic Dispersion: heavy tankbuster\n-Damning Edict: large frontal cleave; move behind\n-Latitudinal/Longitudinal Implosion: alternating directional AoEs; move into detonated zones after first blast\n-If Edict used early → Tsunami & Earthquake phase\n\nTsunami:\n -Tsunami: raidwide, leaves center lane safe\n -Dynamic Fluid: donut AoEs on players when debuff ends; stack center\n -Knockdown + Big Bang: healers get proximity markers and should spread apart; avoid follow-up AoEs\n -Fiendish Orbs: north/south tethers; tanks intercept\n\nEarthquake:\n -Earthquake: raidwide; southern area collapses\n -Knockback from north; hug north edge\n -Repeat Implosion pattern after knockback\n -Knock Down x2: split soaks twice, then avoid Big Bang circles\n -Fiendish Orbs: four corners shoot random line AoEs",
-          "t": "-Intercept orb tethers.",
-          "d": "...",
-          "h": "-Heal raidwides (Tsunami/Earthquake)\n-Run away from the other healer and the group when marked with knockdown."
-        },
-        {
-          "en": "Phase 2 (no Edict)",
-          "g": "-If Edict was NOT cast on start → Inferno & Cyclone phase\n\nInferno:\n -Inferno: raidwide; only center circle safe\n -Entropy: AoEs on 4 players twice; spread within circle\n -Knock Down x2 → Big Bang: DON'T STACK BOTH MARKERS - split soaks, move after\n -Fiendish Orbs: four orbs around center fire line AoEs\n\nCyclone:\n -Cyclone: center unsafe tornado\n -Knockback from center; hug tornado edge or use knockback immunity\n -Damning Edict: move behind without crossing tornado\n -Knockdown + Big Bang: healers take corners away from group\n -Fiendish Orbs: two corner tethers; tanks take\n\nAfter mini-phases:\n -Bowels of Agony: sets HP to 1; tanks/healers STACK for donuts, DPS SPREAD for circles\n -Dark Crystal: DPS check; kill crystal before 100 gauge or wipe\n -Repeats Dispersion + Implosions until defeat",
-          "t": "-Tank soak orb tethers.",
-          "d": "-Spread when debuffed.",
-          "h": "-Bowels of Agony drops everyone to 1HP - prepare big heals.\n-STACK with other healer and tanks for dynamic fluid debuff."
-        }
-      ]
-    }
+          "en": "Chaos",
+          "st": [
+            {
+              "en": "Phase 1",
+              "g": "-Chaotic Dispersion: heavy tankbuster\n-Damning Edict: large frontal cleave; move behind\n-Latitudinal/Longitudinal Implosion: alternating directional AoEs; move into detonated zones after first blast\n-If Edict used early → Tsunami & Earthquake phase\n\nTsunami:\n -Tsunami: raidwide, leaves center lane safe\n -Dynamic Fluid: donut AoEs on players when debuff ends; stack center\n -Knockdown + Big Bang: healers get proximity markers and should spread apart; avoid follow-up AoEs\n -Fiendish Orbs: north/south tethers; tanks intercept\n\nEarthquake:\n -Earthquake: raidwide; southern area collapses\n -Knockback from north; hug north edge\n -Repeat Implosion pattern after knockback\n -Knock Down x2: split soaks twice, then avoid Big Bang circles\n -Fiendish Orbs: four corners shoot random line AoEs",
+              "t": "-Intercept orb tethers.",
+              "d": "...",
+              "h": "-Heal raidwides (Tsunami/Earthquake)\n-Run away from the other healer and the group when marked with knockdown."
+            },
+            {
+              "en": "Phase 2 (no Edict)",
+              "g": "-If Edict was NOT cast on start → Inferno & Cyclone phase\n\nInferno:\n -Inferno: raidwide; only center circle safe\n -Entropy: AoEs on 4 players twice; spread within circle\n -Knock Down x2 → Big Bang: DON'T STACK BOTH MARKERS - split soaks, move after\n -Fiendish Orbs: four orbs around center fire line AoEs\n\nCyclone:\n -Cyclone: center unsafe tornado\n -Knockback from center; hug tornado edge or use knockback immunity\n -Damning Edict: move behind without crossing tornado\n -Knockdown + Big Bang: healers take corners away from group\n -Fiendish Orbs: two corner tethers; tanks take\n\nAfter mini-phases:\n -Bowels of Agony: sets HP to 1; tanks/healers STACK for donuts, DPS SPREAD for circles\n -Dark Crystal: DPS check; kill crystal before 100 gauge or wipe\n -Repeats Dispersion + Implosions until defeat",
+              "t": "-Tank soak orb tethers.",
+              "d": "-Spread when debuffed.",
+              "h": "-Bowels of Agony drops everyone to 1HP - prepare big heals.\n-STACK with other healer and tanks for dynamic fluid debuff."
+            }
+          ],
+          "c" : {
+            "9269" : {
+                "a": {
+                    "12623" : {"t" : "A tankbuster you'll want to mitigate.", "h" : "Get ready to heal this tankbuster."},
+                    "12645" : {"g" : "Raid-wide damage, safe spot in middle of arena."},
+                    "12631" : {"g" : "Place the stack markers APART, half the group on each marker. Happens twice."},
+                    "12632" : {"g" : "Proximity marker on healers - stay away from them.", "h" : "Keep away from other healer as well."},
+                    "12634" : {"g" : "AoEs where Knockdown went off - stay away."},
+                    "12624" : {"g" : "Move behind Chaos, but not too far as they then knockback."},
+                    "12636" : {"g" : "Tethers to a player and tankbusts after a delay.", "t": "Intercept the line so the tankbuster doesn't wipe a DPS or healer."},
+                    "12649" : {"g" : "Reduces everyone to 1HP.", "h" : "Quickly top everyone off. Stack with other healer and tanks for Dynmamic Fluid expiration donut AoE.", "d" : "Spread apart from everyone else for Dynamic Fluid expiration PBAoE."},
+                    "12646" : {"g" : "East and west sides flood - center is safe. Donut AoE on Dynamic Fluid expiration - stack."}
+                }
+            }
+          }
+      }
     }
   },
   "799": {
@@ -6597,7 +6634,7 @@
     "maps": {
       "501": {
         "en": "Midgardsormr",
-        "g": "-Ambient Aether combos define safe positioning: Coil+Coil = get out; Coil+Flip = get in; Flip+Flip = plus (go diagonals); Flip+Coil = X (go cardinals)\n-Earth Shaker and Thunderstorm will overlap after Aether: spread from Earth Shaker and avoid overlapping circles during Thunderstorm\n-Cauterize + Scarlet Thread or Horrid Roar combos require stack bait then reposition to dodge dive-bombs and lines\n-Northern Cross applies Thin Ice then Ambient Aether combos while sliding: pre-form safe circle near boss and slide accordingly",
+        "g": "-Ambient Aether combos define safe positioning: Coil+Coil = get out; Coil+Flip = get in; Flip+Flip = plus (go diagonals)\n-Earth Shaker and Thunderstorm will overlap after Aether: spread from Earth Shaker and avoid overlapping circles during Thunderstorm\n-Cauterize + Scarlet Thread or Horrid Roar combos require stack bait then reposition to dodge dive-bombs and lines\n-Northern Cross applies Thin Ice then Ambient Aether combos while sliding: pre-form safe circle near boss and slide accordingly",
         "d": "-Assign cardinal/diagonal positions before combos; move immediately after second spin/flip to correct spot\n-When Blizzard markers appear, run to edge corners to drop puddles early and avoid clogging arena",
         "h": "-Prep raid shields ahead of Thunderstorm + Cauterize overlaps and Horrid Roar stacks\n-During Akh Rhai + Exaflare + Blizzard, stagger heals and move ice-marked players to drop puddles away from group",
         "t": "-Make sure Ancient Dragon is faced away from the group.",
@@ -8013,22 +8050,25 @@
     "en": "The Heroes' Gauntlet",
     "maps": {
       "592": {
-        "en": "The Heroes' Gauntlet",
-        "d": "...",
-        "h": "...",
-        "t": "..."
+        "en": "Spectral Thief",
+        "g": "-Spectral Dream: tankbuster\n-Chicken Knife: line AoEs from corners; stand center\n-Dash: teleports then circle AoE; move after marker\n-Shadowdash: two marked AoEs (circle or line); dodge both\n-Spectral Gust: AoEs on all players; spread\n-Spectral Whirlwind: raidwide damage",
+        "t": "-Mitigate tankbuster\n-Keep boss centered for AoE visibility",
+        "d": "-Move after teleport markers\n-Spread for Gust, center for Chicken Knife\n-Avoid overlapping vuln stacks",
+        "h": "-Top up after Whirlwind\n-Heal through stacked vuln hits if missed dodge"
       },
       "593": {
-        "en": "The Heroes' Gauntlet",
-        "d": "...",
-        "h": "...",
-        "t": "..."
+        "en": "Spectral Necromancer",
+        "g": "-Twisted Touch: tankbuster\n-Chaos Storm: raidwide\n-Absolute Dark II: large cone, inflicts Doom; dodge or cleanse\n-Necromancy: summons 4 zombie tethers\n   -Walking: auto-attacks briefly, then explode (Necroburst)\n   -Crawling: slow but teleport if not caught; inflict Rigor Mortis\n-Pain Mire: five large AoEs leaving bleed puddles\n-Dark Deluge: AoEs on all players; spread",
+        "t": "-Grab boss center\n-Mitigate Twisted Touch\n-Avoid puddles while maintaining uptime",
+        "d": "-Kite tethers safely\n-Spread for Deluge\n-Dodge cone + puddles; avoid explosions",
+        "h": "-Cleanse Doom quickly\n-Prepare heals for Necroburst\n-Raid heals after Chaos Storm"
       },
       "594": {
-        "en": "The Heroes' Gauntlet",
-        "d": "...",
-        "h": "...",
-        "t": "..."
+        "en": "Spectral Berserker",
+        "g": "-Beastly Fury: raidwide; first cast covers edges with bleed, leaving +-shaped safe zone\n-Wild Anguish: stack marker → Magic Vuln Up\n-Raging Slice: multiple line AoEs in a row\n-Wild Rage: knockback + instant-kill circle; creates crater\n-Falling Rock: rocks on each player → stack on own rock for follow-up Anguish\n-Wild Rampage: fatal AoE; stand inside crater to survive\n   -A Bit Berserk: staying in crater stacks debuff; leave after Rampage",
+        "t": "-Mitigate Beastly Fury\n-Face boss safely during Slice chains\n-Stand in crater for Rampage only",
+        "d": "-Use +-shaped safe zone\n-Stack individually on rocks\n-Move out of crater fast post-Rampage",
+        "h": "-Heavy raid healing after Fury and Anguish\n-Cleanse Berserk DoTs if applicable\n-Prepare burst heals after Rampage"
       }
     }
   },
@@ -8379,15 +8419,36 @@
     "maps": {
       "666": {
         "en": "Paglth'an",
-        "d": "...",
-        "h": "...",
-        "t": "..."
+        "st": [
+        {
+          "en": "Amhuluk",
+          "g": "-Critical Rip: tankbuster\n-Lightning Bolt: AoEs on all players and lamps; pass your AoE to a lamp without one\n-Thundercall: orbs appear on edges, pulsing damage; follows later Lightning Bolts\n-Wide Blaster → Spike Flail: front then rear cones back-to-back, no time between\n-Electric Burst: raidwide AoE",
+          "t": "-Face boss away; avoid rear cone after Blaster\n-Mitigate tankbusters\n-Position for lamp mechanics",
+          "d": "-Drop AoEs on unused lamps\n-Avoid orbs and cone chains\n-Stay midrange for quick repositioning",
+          "h": "-Heal through Electric Burst\n-Be ready for burst healing after Thundercall and Lightning Bolt hits"
+        },
+        {
+          "en": "Magitek Fortress",
+          "g": "-Fight waves of adds while avoiding cannon line AoEs\n-First wave: Imperials + Predators (jump attacks)\n-After waves, jump pad opens to Core; damage it to trigger Defensive Reaction (raidwide)\n-At 50% Core HP: ejected, 2nd wave begins (Sky Armors, Colossus, Predators)\n-New adds: Aethershot (circle AoE), Exhaust (line AoE)\n-Missiles: cross arena from east/west in lines\n-Ground-to-Ground Ballistic: knockback from center",
+          "t": "-Grab adds fast; avoid facing cannons toward group\n-Mitigate Defensive Reaction\n-Hold Core mid to manage positioning",
+          "d": "-Avoid cannon and missile lines\n-Burn adds quickly to open Core\n-Move toward jump pad when force field drops",
+          "h": "-Top off after Defensive Reaction\n-Spot heal through cannon and missile splash damage"
+        }
+        ],
+        "c": {
+            "12649" : {
+                "a": {
+                    "23627" : {"g" : "pass your electric AoE to a lamppost with no AoE marker."}
+                }
+            }
+        }
       },
       "667": {
-        "en": "Paglth'an",
+        "en": "Lunar Bahamut",
+        "g": "-Twisted Scream: raidwide + spawns nails that explode in sequence\n-Perigean Breath: random frontal cone\n-Akh Morn: multi-hit stack marker\n-Megaflare: spreads on all; second AoEs appear where you stood\n-Megaflare Dive: divebomb after Twisted Scream, avoid path and nails\n-Kan Rhai: cross AoE → lingering ground pulse, move out of it\n-Lunar Flare: shrinking purple AoEs, safe either center or edges\n-Gigaflare: heavy unavoidable raidwide\n-Flatten: late tankbuster",
+        "t": "...",
         "d": "...",
-        "h": "...",
-        "t": "..."
+        "h": "-Heal through Gigaflare and Twisted Scream\n-Shield before Akh Morn"
       }
     }
   },

@@ -79,7 +79,8 @@ public class DriverWindow : Window, IDisposable
                     continue;
                 }
 
-                ImGui.TextUnformatted($"{mapHint.en_name}");
+                
+                //ImGui.TextUnformatted($"{mapHint.en_name}");
 
                 var stages = mapHint.stages;
                 if (stages.Count == 0)
@@ -98,25 +99,18 @@ public class DriverWindow : Window, IDisposable
                 }
 
 
-                if (stages.Count == 1)
+                if (ImGui.BeginTabBar($"##StagesTabBar_{mapId}"))
                 {
-                    _renderHintSection(stages[0], mapId);
-                }
-                else
-                {
-                    if (ImGui.BeginTabBar($"##StagesTabBar_{mapId}"))
+                    foreach (var stage in stages)
                     {
-                        foreach (var stage in stages)
+                        var tabLabel = string.IsNullOrWhiteSpace(stage.stage_name) ? "Stage" : stage.stage_name;
+                        if (ImGui.BeginTabItem($"{tabLabel}##{mapId}-{tabLabel}"))
                         {
-                            var tabLabel = string.IsNullOrWhiteSpace(stage.stage_name) ? "Stage" : stage.stage_name;
-                            if (ImGui.BeginTabItem($"{tabLabel}##{mapId}-{tabLabel}"))
-                            {
-                                _renderHintSection(stage, mapId);
-                                ImGui.EndTabItem();
-                            }
+                            _renderHintSection(stage, mapId);
+                            ImGui.EndTabItem();
                         }
-                        ImGui.EndTabBar();
                     }
+                    ImGui.EndTabBar();
                 }
             }
         }

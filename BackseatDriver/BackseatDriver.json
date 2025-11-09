@@ -1,11 +1,12 @@
 {
   "Author": "Raytheon Vers",
   "Name": "Backseat Driver",
-  "Punchline": "Get tips for your role when entering a dungeon.",
-  "Description": "Get Tank, DPS, and healer-specific advice when loading into an instance - no need to frantically google!",
+  "Punchline": "Easily get general and role-specific hints in duties.",
+  "Description": "No more frantic googling in duties. Use to write general or role-specific duty hints straight in the chat window.",
   "ApplicableVersion": "any",
   "Tags": [
     "raid",
+    "duty",
     "plugin",
     "helper"
   ]

@@ -89,6 +89,11 @@ public class CoachWindow : Window, IDisposable
                 {
                     castString += $"\n{lastActionHint.roleSpecific}";
                 }
+
+                if (config.CoachModeEchoIntoChat)
+                {
+                    Plugin.ChatGui.Print(castString);
+                }
             }
         }
         
