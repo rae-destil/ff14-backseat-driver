@@ -237,7 +237,7 @@ namespace BackseatDriver
 
                 foreach (var hostile in sortedHostiles)
                 {
-                    currEnemies.Add(new EnemyInfo { Name = hostile.Name.TextValue, DataId = hostile.DataId, EntityId = hostile.EntityId, castId = hostile.CastActionId });
+                    currEnemies.Add(new EnemyInfo { Name = hostile.Name.TextValue, DataId = hostile.BaseId, EntityId = hostile.EntityId, castId = hostile.CastActionId });
                     entityIds.Add(hostile.EntityId);
                 }
 

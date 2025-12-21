@@ -41,7 +41,7 @@ public class DriverWindow : Window, IDisposable
             ImGui.TextUnformatted($"TID: {Plugin.ClientState.TerritoryType}, MID: {Plugin.ClientState.MapId}");
         }
 
-        if (Plugin.ClientState.LocalPlayer == null)
+        if (Plugin.PlayerState == null)
         {
             ImGui.TextUnformatted("Loading hints...");
         }
