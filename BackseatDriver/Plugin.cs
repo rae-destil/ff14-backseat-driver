@@ -136,6 +136,7 @@ public sealed class Plugin : IDalamudPlugin
     [PluginService] internal static ITextureProvider TextureProvider { get; private set; } = null!;
     [PluginService] internal static ICommandManager CommandManager { get; private set; } = null!;
     [PluginService] internal static IClientState ClientState { get; private set; } = null!;
+    [PluginService] internal static IPlayerState PlayerState { get; private set; } = null!;
     [PluginService] internal static IDataManager DataManager { get; private set; } = null!;
     [PluginService] internal static IPluginLog Log { get; private set; } = null!;
     [PluginService] internal static IChatGui ChatGui { get; set; } = null!;
@@ -269,14 +270,14 @@ public sealed class Plugin : IDalamudPlugin
 
     private void OnFrameworkUpdate(IFramework _)
     {
-        if (waitingForPlayer && ClientState.LocalPlayer is not null)
+        if (waitingForPlayer && PlayerState is not null)
         {
             waitingForPlayer = false;
 
             _loadCurrentMapHints();
         }
 
-        if (ClientState.LocalPlayer is not null && this.lastLoadedMapId != ClientState.MapId)
+        if (PlayerState is not null && this.lastLoadedMapId != ClientState.MapId)
         {
             _loadCurrentMapHints();
         }
@@ -301,7 +302,7 @@ public sealed class Plugin : IDalamudPlugin
         this.current_map_hint = null;
         this.lastLoadedMapId = 0;
 
-        var localPlayer = Plugin.ClientState.LocalPlayer;
+        var localPlayer = Plugin.PlayerState;
         if (localPlayer == null || !localPlayer.ClassJob.IsValid)
         {
             Log.Info("No local player or invalid class job. Cannot load hints.");
@@ -356,7 +357,7 @@ public sealed class Plugin : IDalamudPlugin
     {
         if (current_map_hint?.coachHints.Count > 0)
         {
-            if (Plugin.ClientState.LocalPlayer == null)
+            if (Plugin.PlayerState == null)
             {
                 return null;
             }
@@ -371,8 +372,8 @@ public sealed class Plugin : IDalamudPlugin
                 return null;
             }
 
-            uint jobId = Plugin.ClientState.LocalPlayer.ClassJob.RowId;
-            var jobStr = Plugin.ClientState.LocalPlayer.ClassJob.Value.Abbreviation.ExtractText();
+            uint jobId = Plugin.PlayerState.ClassJob.RowId;
+            var jobStr = Plugin.PlayerState.ClassJob.Value.Abbreviation.ExtractText();
 
             Role job_role = ClassJob_To_Role.GetValueOrDefault(jobId, Role.Unknown);
 
@@ -398,14 +399,14 @@ public sealed class Plugin : IDalamudPlugin
 
         var hint = this.current_map_hint;
 
-        if (Plugin.ClientState.LocalPlayer == null || hint == null || (hint.stages.Count == 0 && (hint.general == "" || hint.general == "...")))
+        if (Plugin.PlayerState == null || hint == null || (hint.stages.Count == 0 && (hint.general == "" || hint.general == "...")))
         {
             ChatGui.PrintError("No hints available in here.");
             return;
         }
 
-        uint jobId = Plugin.ClientState.LocalPlayer.ClassJob.RowId;
-        var jobStr = Plugin.ClientState.LocalPlayer.ClassJob.Value.Abbreviation.ExtractText();
+        uint jobId = Plugin.PlayerState.ClassJob.RowId;
+        var jobStr = Plugin.PlayerState.ClassJob.Value.Abbreviation.ExtractText();
 
         Role job_role = ClassJob_To_Role.GetValueOrDefault(jobId, Role.Unknown);
 
