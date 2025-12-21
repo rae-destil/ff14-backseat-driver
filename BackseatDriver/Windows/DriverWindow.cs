@@ -74,7 +74,11 @@ public class DriverWindow : Window, IDisposable
                 var mapId = mapPair.Key;
                 var mapHint = mapPair.Value;
 
-                if (mapHint.tank == "..." && mapHint.dps == "..." && mapHint.healer == "..." && mapHint.general == "...")
+                if (mapHint.stages.Count == 0 &&
+                    (mapHint.tank == "..." || mapHint.tank == "") && 
+                    (mapHint.dps == "..." || mapHint.dps == "") && 
+                    (mapHint.healer == "..." || mapHint.healer == "") && 
+                    (mapHint.general == "..." || mapHint.general == ""))
                 {
                     continue;
                 }

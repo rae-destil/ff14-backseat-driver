@@ -7,9 +7,13 @@
     <PackageLicenseExpression>AGPL-3.0-or-later</PackageLicenseExpression>
     <IsPackable>false</IsPackable>
     <Title>Backseat Driver Dalamud Plugin</Title>
-    <TargetFramework>net9.0-windows7.0</TargetFramework>
+    <TargetFramework>net10.0-windows7.0</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
     <EmbeddedResource Include="Data\instances_data.json.gz" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Update="DalamudPackager" Version="14.0.1" />
+    <PackageReference Update="DotNet.ReproducibleBuilds" Version="1.2.39" />
   </ItemGroup>
 </Project>

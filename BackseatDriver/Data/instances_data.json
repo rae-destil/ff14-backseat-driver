@@ -3657,8 +3657,7 @@
             "5107" : {
                 "a": {
                     "5144" :  {"g" : "PBAoE with knockback." },
-                    "5153" :  {"g" : "Rectangular AoEs to left and right - safe in middle." },
-                    "5145" :  {"g" : "Look away from the boss." }
+                    "5142" :  {"g" : "Rectangular AoEs to left and right - safe in middle." }
                 }
             }
         }
@@ -4933,10 +4932,14 @@
         ]
       },
       "346": {
-          "g": "..."
+        "en": "...",
+        "g": "...",
+        "d": "...",
+        "h": "...",
+        "t": "..."
       },
       "347": {
-        "en": null,
+        "en": "...",
         "g": "...",
         "d": "...",
         "h": "...",
@@ -9794,7 +9797,7 @@
         "t": "..."
       },
       "100": {
-        "en": "Magitek Colossus - 1",
+        "en": "...",
         "g": "...",
         "d": "...",
         "h": "...",
@@ -9815,11 +9818,11 @@
         "t": "-Keep Nero centered when possible.\n-Face him away from group for Iron Uprising."
       },
       "103": {
-        "en": "Gaius van Baelsar",
-        "g": "-Patterns: X-lines (Terminus Est), stacks (Festina Lente), line AoEs (Ductus), phantoms → blade energy spike.",
-        "d": "-Stand between X markers on Terminus Est.\n-Kill Phantom Gaiuses fast to reduce Veni Vidi Vici damage.",
-        "h": "-Stack quickly on Festina; party heal after.\n-Heavy heal/tank cooldowns ready for final burst.",
-        "t": "-Main tank: Keep aggro, use defence cooldowns on Innocence."
+        "en": "...",
+        "g": "...",
+        "d": "...",
+        "h": "...",
+        "t": "..."
       },
       "104": {
         "en": "Gaius van Baelsar",
