@@ -765,7 +765,7 @@
       }
     }
   },
-  "171": {
+  "1330": {
     "en": "Dzemael Darkhold",
     "maps": {
       "50": {
@@ -8498,13 +8498,53 @@
     "maps": {}
   },
   "942": {
-    "en": "Sphere of Naught",
+    "en": "Eden's Promise: Umbra",
     "maps": {
       "631": {
-        "en": "Sphere of Naught",
-        "d": "...",
-        "h": "...",
-        "t": "..."
+        "en": "Cloud of Darkness",
+        "st": [
+        {
+          "en": "Deluge of Darkness Phase",
+          "g": "-Ground Razing Particle Beam = unavoidable raidwide.\n-The Art of Darkness: watch boss hands to identify which half cleaves.\n-Wide Angle Particle Beam = large cone, go between tethered-side death zones.\n-Zero Form Particle Beam = tankbuster beam; do not stand between boss and tank.\n-Particle Concentration: 4 towers → one player per column, hold until meteor lands.",
+          "t": "-Face boss to keep beam clear of party.",
+          "h": "-Recover party quickly after Empty Plane cast.",
+          "d": "..."
+        },
+        {
+          "en": "Empty Plane Phase",
+          "g": "-Standing on tiles builds danger → everyone must step off to reset.\n-Flood of Emptiness: corners + boss hitbox become lethal.\n-Hypercharged Condensation: kill cloud adds before they meet; body-block to slow them.\n-Summon ghosts: note facing direction.\n-Anti-Air Particle Beam: avoid ghost lines + boss PBAoE simultaneously.",
+          "t": "...",
+          "h": "-Be ready for Obscure Woods transition damage.",
+          "d": "-Kill cloud adds immediately."
+        },
+        {
+          "en": "Obscure Woods Phase",
+          "g": "-Flood of Obscurity: stack near boss, avoid being pushed into outer AOEs.\n-Tether mechanic: move near your death zone during beam, then run away when tether turns rope.\n-Wide Angle Phaser: sprint to indicated wall edge, avoid central death zone.\n-Rejuvenating Balm: stand next to death zone on UNTETHERED walls.\n-Deluge of Darkness = raidwide transition.",
+          "t": "-Stabilize boss position for Flood of Obscurity pushes.",
+          "h": "-Prep strong healing for repeated raidwides.\n-Recover players after failed tether breaks quickly.",
+          "d": "-Execute tether movements precisely.\n-React fast to wall indicators for Phaser/Balm.\n-Burst during safe windows."
+        }
+      ],
+        "c": {
+            "12374" : {
+                "a": {
+                    "21296" : {"g" : "two ghosts in arena sides. Pay attention to the direction they're facing."},
+                    "21294" : {"g" : "two cloud adds that buff Cloud if they reach her. Kill them - stand in front to slow them down."},
+                    "20786" : {"g" : "destroys corner platforms. Platforms stood on for too long get destroyed, get off them as soon as they turn purple (or just move after a couple seconds)."},
+                    "20422" : {"g" : "raid-wide + phase transition.", "h" : "Prepare big heals."},
+                    "21995" : {"g" : "tankbuster with cleave - move away from main tank."},
+                    "21997" : {"g" : "raid-wide.", "h" : "Prepare big heals."},
+                    "21027" : {"g" : "move OPPOSITE direction of her shining hand. Cleaves half the arena."},
+                    "21028" : {"g" : "move OPPOSITE direction of her shining hand. Cleaves half the arena."},
+                    "21986" : {"g" : "massive explosions on purple tether connections. Hug middle death zone on one of the remaining walls."},
+                    "21983" : {"g" : "quick, huge cone AoE. Run to the side with the gold tether, stand in the middle between either sides of the middle death zone there."},
+                    "22769" : {"g" : "PBAoE knockback + tethers. Position so you don't get pushed into the AoE markers, then run away from the zone you're tethered to to break the line."},
+                    "21980" : {"g" : "PBAoe from Cloud + line AoE from the ghosts."},
+                    "20821" : {"g" : "raid-wide + phase transition.", "h" : "Prepare big heals"},
+                    "20386" : {"g" : "raid-wide + phase transition.", "h" : "Prepare big heals"}
+                }
+            }
+        }
       }
     }
   },
@@ -9231,10 +9271,47 @@
     "en": "The Dark Inside",
     "maps": {
       "676": {
-        "en": "The Dark Inside",
-        "d": "...",
-        "h": "...",
-        "t": "..."
+        "en": "Zodiark",
+        "st": [
+        {
+          "en": "Phase 1",
+          "g": "-Kokytos reduces all players to 1 HP at pull\n-Exoterikos: purple beam = triangle cone across arena; red beam = half-room square\n-Paradeigma: Behemoths leave 2 safe quadrants; Snakes leave lanes safe between/edges\n-Adikia: fists hit east/west → safe north or south\n-Phlegeton: 3 successive AoEs under players, keep moving\n-Styx: multi-hit stack marker, heavy mitigation required\n-Ania: tankbuster",
+          "t": "-Mitigate Ania tankbuster\n-Help stabilize during Styx with Reprisal/party mit\n-Position boss center to simplify Exoterikos + Paradeigma reads",
+          "d": "-Identify Exoterikos color fast to pre-position\n-For Behemoths, move early to safe quadrants to maintain uptime\n-For Snakes, stand in safe lane and adjust for follow-up mechanics\n-Stack tightly for Styx, use personal mitigation",
+          "h": "-Immediately top party after Kokytos\n-Plan heavy mitigation + shields for Styx multi-hit\n-Spot heal during Phlegeton movement\n-Prepare recovery if players misread Exoterikos"
+        },
+        {
+          "en": "Phase 2",
+          "g": "-Astral Flow rotates arena 90° before Paradeigma resolves; pre-plan safe spot after rotation\n-Triple Esoteric Ray fires in order shown; lasers do not linger, step into cleared lane immediately\n-Algedon diagonal knockback from boss corner; move to safe side quickly or fall off\n-Astral Eclipse: boss circles arena; read 3x3 star pattern to determine meteor impacts\n-Trimorphos Exoterikos: 3 sequential triangle/square patterns, resolve in order\n-Phase repeats mechanics (no more Astral Eclipse)",
+          "t": "-Face boss predictably for Exoterikos chains\n-Mitigation for Styx remains critical\n-Be ready to adjust position after Astral Flow rotation",
+          "d": "-During Astral Flow, mentally rotate safe quadrant before movement returns\n-For Triple Ray, move immediately into just-fired lane for uptime\n-Respect Algedon; greed = death off platform\n-Resolve Trimorphos in sequence without over-rotating",
+          "h": "-Pre-mitigate Styx even during complex overlaps\n-Top party before and after Astral Flow rotations\n-Heavy healing after Astral Eclipse meteors\n-Be ready for sudden deaths from Algedon knock-offs"
+        }
+      ],
+      "c": { 
+        "12876" : {
+            "a" : { 
+                "27687" : {"g" : "Reduces everyone's HP to 1.", "d" : "...", "h" : "Prepare massive heals.", "t" : "..." },
+                "27743" : {"g" : "Reduces everyone's HP to 1.", "d" : "...", "h" : "Prepare massive heals.", "t" : "..." },
+                "27702" : {"g" : "Shape [square?] at the side indicates AoE pattern: square = move to far half of the arena, triangle = move to front sides.", "d" : "...", "h" : "...", "t" : "..." },
+                "26561" : {"g" : "Shape [triangle?] at the side indicates AoE pattern: square = move to far half of the arena, triangle = move to front sides.", "d" : "...", "h" : "...", "t" : "..." },
+                "26581" : {"g" : "Tankbuster.", "d" : "...", "h" : "...", "t" : "..." },
+                "26568" : {"g" : "Summons mechanics [behemoths?]: behemoths = AoE circles, snakes = line AoEs.", "d" : "...", "h" : "...", "t" : "..." },
+                "26559" : {"g" : "Summons mechanics [snakes?]: behemoths = AoE circles, snakes = line AoEs.", "d" : "...", "h" : "...", "t" : "..." },
+                "26587" : {"g" : "Extreme stack marker.", "d" : "...", "h" : "Prepare massive heals.", "t" : "Highly suggest group mitigations." },
+                "26586" : {"g" : "Extreme stack marker.", "d" : "...", "h" : "Prepare massive heals.", "t" : "Highly suggest group mitigations." },
+                "26576" : {"g" : "AoEs under players, keep moving to avoid.", "d" : "...", "h" : "...", "t" : "..." },
+                "26575" : {"g" : "AoEs under players, keep moving to avoid.", "d" : "...", "h" : "...", "t" : "..." },
+                "28361" : {"g" : "Floor rotates 90 degrees, note the behemoth/snake positions to not get hit.", "d" : "...", "h" : "...", "t" : "..." },
+                "27860" : {"g" : "Floor rotates 90 degrees, note the behemoth/snake positions to not get hit.", "d" : "...", "h" : "...", "t" : "..." },
+                "26159" : {"g" : "Floor rotates 90 degrees, note the behemoth/snake positions to not get hit.", "d" : "...", "h" : "...", "t" : "..." },
+                "26564" : {"g" : "Lasers fire in the order they appear.", "d" : "...", "h" : "...", "t" : "..." },
+                "26563" : {"g" : "Stars hit the arena, in the shape of the symbol Zodiark leaves behind. Note: from HIS point of view. The Z pattern is flipped.", "d" : "...", "h" : "...", "t" : "..." },
+                "26561" : {"g" : "Three Exoterikos (beam + shape attack) in sequence.", "d" : "...", "h" : "...", "t" : "..." },
+                "26577" : {"g" : "Diagonal knockback to your death.", "d" : "...", "h" : "...", "t" : "..." }
+            }
+          }
+        }
       }
     }
   },
