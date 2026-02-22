@@ -6728,9 +6728,55 @@
           "d": "...",
           "h": "-Heavy AoE healing after Cosmo Memory\n-Shields before Meteor/Blade Dance\n-Sustain through Laser Shower spam at end"
         }
-      ]
-      }
-    }
+        ],
+        "c": { 
+            "9339" : {
+                "a": {
+                "13071": { "g": "Tankbuster with splash damage.", "d": "...", "h": "...", "t": "Move away from the group." },
+                "13072": { "g": "Tankbuster with splash damage.", "d": "...", "h": "...", "t": "Move away from the group." },
+                "13064": { "g": "Circle AoEs under players followed by stack marker.", "d": "...", "h": "...", "t": "..." },
+                "13055": { "g": "PBAoE - move away from Omega-M.", "d": "...", "h": "...", "t": "..." },
+                "13043": { "g": "PBAoE - move away from Omega-M.", "d": "...", "h": "...", "t": "..." },
+                "13041": { "g": "Omega-F spawns - prepare for Discharger knockback.", "d": "...", "h": "...", "t": "..." },
+                "13044": { "g": "Subject Simulation M", "d": "...", "h": "...", "t": "..." },
+                "13046": { "g": "...", "d": "...", "h": "...", "t": "..." },
+                "13069": { "g": "Circle AoEs on 4 players.", "d": "...", "h": "...", "t": "..." },
+                "13059": { "g": "...", "d": "...", "h": "...", "t": "..." },
+                "13073": { "g": "Raid-wide.", "d": "...", "h": "...", "t": "..." },
+                "13057": { "g": "...", "d": "...", "h": "...", "t": "..." },
+                "13061": { "g": "[Superliminal Steel is undocumented]", "d": "...", "h": "...", "t": "..." },
+                "13075": { "g": "[Electric Slide is undocumented]", "d": "...", "h": "...", "t": "..." },
+                "13078": { "g": "Omega-F is invulnerable until Omega-M is down.", "d": "...", "h": "...", "t": "..." },
+                "13083": { "g": "Raid-wide.", "d": "...", "h": "...", "t": "..." },
+                "13204": { "g": "Omega-M+F damage bonus.", "d": "...", "h": "...", "t": "This means the Omegas are too close together!" },
+                "13086": { "g": "[Suppression is undocumented]", "d": "...", "h": "...", "t": "..." },
+                "13091": { "g": "Line AoE.", "d": "...", "h": "...", "t": "..." },
+                "13089": { "g": "Heavy tankbuster.", "d": "...", "h": "...", "t": "..." },
+                "13053": { "g": "Synthetic Shield", "d": "...", "h": "...", "t": "..." },
+                "13056": { "g": "Donut AoE from the arena center.", "d": "...", "h": "...", "t": "..." }
+                }
+            },
+            "9340" : {
+                "a": {
+                "13079": { "g": "Raid-wide.", "d": "...", "h": "...", "t": "..." },
+                "13074": { "g": "Raid-wide.", "d": "...", "h": "...", "t": "..." },
+                "13076": { "g": "[Ground Zero is undocumented]", "d": "...", "h": "...", "t": "..." },
+                "13046": { "g": "Massive knockback, can push off the arena.", "d": "...", "h": "...", "t": "..." },
+                "13057": { "g": "Cone AoEs left and right, safe in middle.", "d": "...", "h": "...", "t": "..." },
+                "13069": { "g": "...", "d": "...", "h": "...", "t": "..." },
+                "13059": { "g": "Line AoEs.", "d": "...", "h": "...", "t": "..." },
+                "13061": { "g": "...", "d": "...", "h": "...", "t": "..." },
+                "13072": { "g": "...", "d": "...", "h": "...", "t": "..." },
+                "13084": { "g": "...", "d": "...", "h": "...", "t": "..." },
+                "13205": { "g": "Omega-M+F damage bonus.", "d": "...", "h": "...", "t": "This means the Omegas are too close together!" },
+                "13087": { "g": "...", "d": "...", "h": "...", "t": "..." },
+                "13092": { "g": "Meteors on both tanks, causing proximity-based damage. Stand between them.", "d": "...", "h": "...", "t": "Keep omegas apart!" },
+                "13090": { "g": "...", "d": "...", "h": "...", "t": "..." }
+                }
+            }
+        }
+       }
+     }
   },
   "802": {
     "en": "Psiscape V1.0",
