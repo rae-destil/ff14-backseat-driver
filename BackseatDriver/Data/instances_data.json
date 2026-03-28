@@ -11272,9 +11272,86 @@
         "maps": {
             "823": {
                 "en": "Mount Ordeals",
-                "d": "...",
-                "h": "...",
-                "t": "..."
+                "st": [
+                    {
+                        "en": "Rubicante Phase 1",
+                        "g": "-Arena edge is lethal, but players can be raised after a delay if they fall.\n-Inferno is raidwide damage.\n-Ordeal of Purgation roots players when Penance expires, so solve the fuse path early and stand in the safe slice before the AoEs fire.\n-On rotated Purgation, standing near the originally targeted panel is safe because the fireball shifts to an adjacent panel.\n-Shattering Heat is a tankbuster.\n-Arch Inferno fills the center and outer ring with rotating AoEs while Conflagration and Radial Flagration cover most of the arena.\n-Dodge the rotating fire while reading the line and cone telegraphs.",
+                        "d": "",
+                        "h": "-Prepare for repeated raidwide damage from Inferno and later mechanics.\n-Watch tanks during Shattering Heat.",
+                        "t": "-Mitigate Shattering Heat."
+                    },
+                    {
+                        "en": "Adds",
+                        "g": "-Kill the adds before Rubicante's Power reaches 100.\n-Greater Flamesent repeatedly uses Ghastly Torch raidwides and Burns, so killing it first is safer if healing is strained.\n-Dodge Ghastly Flame ground AoEs and Ghastly Wind cones.\n-Blazing Rapture hits after the adds phase and applies another Burns DoT.",
+                        "d": "",
+                        "h": "-Expect constant raid damage and Burns stacks during the adds phase.\n-Top the party before Blazing Rapture.",
+                        "t": "-Shattering Heat can target either tank during the adds phase."
+                    },
+                    {
+                        "en": "Rubicante Phase 2",
+                        "g": "-Inferno now puts spread markers on every player and applies Bleeding.\n-Flamerake shows a line through the boss, then cascades outward; dodge into the previously unsafe area after the first hit.\n-Soulscald marks every player with line AoEs, then repeats as longer blue lines from the same spots.\n-Dualfire is a tankbuster cleave on both tanks.\n-Sweeping Immolation combines a half-room cleave with player spreads.\n-The boss later returns to Phase 1 mechanics, then back to Phase 2.",
+                        "d": "",
+                        "h": "-Inferno in this phase applies Bleeding to everyone.\n-Be ready for heavy damage after Soulscald and Dualfire.",
+                        "t": "-Separate for Dualfire so each cleave misses the party."
+                    }
+                ],
+                "c": {
+                    "15086": {
+                        "a": {
+                            "31934": {
+                                "g": "Phase transition. Re-center and prepare for the next mechanic set."
+                            },
+                            "31940": {
+                                "g": "Solve the fuse path early and stand in the safe slice before Penance roots you."
+                            },
+                            "31943": {
+                                "g": "Keep moving around the edge to trail the rotating AoEs while dodging the center and side patterns."
+                            },
+                            "31947": {
+                                "g": "Line AoE through the middle."
+                            },
+                            "31948": {
+                                "g": "Large cone AoEs cover most of the arena. Move into the narrow safe space."
+                            },
+                            "31950": {
+                                "g": "Raidwide damage after the adds phase. Heal through it."
+                            },
+                            "31961": {
+                                "g": "Spread marker on every player. Separate.",
+                                "h": "It also applies Bleeding."
+                            },
+                            "31963": {
+                                "g": "Spread markers on players. Do not overlap."
+                            },
+                            "31965": {
+                                "g": "Wait for the line to lock in, then dodge into the previously unsafe lane after the first hit."
+                            },
+                            "31966": {
+                                "g": "Wait for the line to lock in, then dodge into the previously unsafe lane after the first hit."
+                            },
+                            "31978": {
+                                "g": "Raidwide damage."
+                            },
+                            "31979": {
+                                "g": "Tankbuster.",
+                                "t": "Mitigate."
+                            },
+                            "32149": {
+                                "g": "Tankbuster cleaves on both tanks. Keep away from the party.",
+                                "t": "Split from the other tank so the cleaves do not overlap the group."
+                            },
+                            "32550": {
+                                "g": "Transition into the adds or transformed phase. Reposition and prepare."
+                            },
+                            "32802": {
+                                "g": "Boss transforms and starts using Phase 2 mechanics."
+                            },
+                            "33000": {
+                                "g": "Solve the rotated fuse path before Penance roots you."
+                            }
+                        }
+                    }
+                }
             }
         }
     },
