@@ -1,4 +1,4 @@
-{
+﻿{
     "1": {
         "en": null,
         "maps": {
@@ -5668,19 +5668,63 @@
                 "st": [
                     {
                         "en": "Exdeath",
-                        "g": "-Unavoidable Doom on start.\n-When tethered to the large orb, Exdeath's attacks hit harder.\n-Blizzard (Normal): AoEs appear under players.\n-Blizzard (Void): keep moving until hit to avoid freeze and vulnerability\n-Thunder (Normal): single-target tankbuster.\n-Thunder (Void): massive AoE centered on boss; move away\n-Fire (Normal): red markers on players; spread.\n-Fire (Void): inflicts Pyretic—stop all actions and movement or take damage\n-Vacuum Wave: heavy knockback; be cautious when arena walls are destroyed later\n-Holy: follows Vacuum Wave; stack behind boss to share damage",
+                        "g": "-Doom goes out on two players at the start.\n-If Exdeath turns and tethers to the large void orb, Blizzard, Thunder, and Fire use their void versions.\n-Blizzard: dodge the player AoEs; for Void Blizzard, start moving around 75% cast and keep moving until you take damage.\n-Thunder: normal is a tankbuster; Void Thunder is a large AoE around the boss.\n-Fire: normal puts spread markers on players; Void Fire applies Pyretic, so stop moving and stop all actions.\n-Vacuum Wave is a heavy knockback.\n-Holy usually follows Vacuum Wave; stack behind the boss to share damage.",
                         "t": "-Keep Exdeath faced away from party for Thunder tankbusters",
-                        "d": "-Avoid standing near boss during Void Thunder",
-                        "h": "-Esuna Doom immediately\n-Prepare shields before Holy and Void Thunder"
+                        "d": "",
+                        "h": "-Esuna Doom quickly.\n-Prepare for shared damage from Holy and heavy damage from Void Thunder."
                     },
                     {
-                        "en": "Exdeath post Decisive Battle",
-                        "g": "-At 66% and 33%, casts The Decisive Battle—run to arena edges to reduce meteor proximity damage\n-Giant head spawns after impact: center area inflicts Heavy and DoT; avoid walking through\n-After a short delay, head uses wide conal AoE; get behind it to avoid Zombification debuff\n-After first meteor, new abilities added:\n  • Flare – 3 players marked with white arrows; spread.\n  • Black Holes – persistent void zones; avoid.\n-At second Decisive Battle (33%), vines appear around arena leaving one gap—stand near missing vine for safe spot before meteor lands\n-After meteor, repeat head mechanic as before",
-                        "t": "...",
-                        "d": "...",
-                        "h": "-Be prepared for lots of raidwides, time your shields/HoTs."
+                        "en": "Exdeath after The Decisive Battle",
+                        "g": "-At 66% and 33%, The Decisive Battle spawns a center meteor; run to the edge to reduce proximity damage.\n-A giant head appears after impact: avoid the center under it, then get behind it to avoid the conal hit and Zombification.\n-After the first Decisive Battle, Exdeath also uses Flare spreads and Black Holes.\n-At 33%, vines ring the arena with one gap; use the gap for the safe spot before the meteor lands.",
+                        "t": "",
+                        "d": "-Spread away from the party and each other for Flare.",
+                        "h": "-Be ready for repeated raidwide damage during The Decisive Battle sequence.\n-Watch players clipped by the head or forced close by the vine pattern."
                     }
-                ]
+                ],
+                "c": {
+                    "7799": {
+                        "a": {
+                            "9224": {
+                                "g": "Meteor phase. Run to the edge for proximity damage, then avoid the head's center and get behind it for the cone."
+                            },
+                            "9399": {
+                                "g": "Doom on two players at the start.",
+                                "h": "Esuna it quickly."
+                            },
+                            "9401": {
+                                "g": "Spread marker on several players. Separate."
+                            },
+                            "9403": {
+                                "g": "AoEs appear under players. Move out."
+                            },
+                            "9405": {
+                                "g": "Tankbuster.",
+                                "t": "Mitigate and hold boss steady."
+                            },
+                            "9407": {
+                                "g": "Pyretic. Stop moving and stop all actions until it ends."
+                            },
+                            "9408": {
+                                "g": "Keep moving until the hit lands or you get frozen and vuln up."
+                            },
+                            "9409": {
+                                "g": "Large AoE around the boss. Move away."
+                            },
+                            "9410": {
+                                "g": "Three players get spread markers. Spread away from each other and the party."
+                            },
+                            "9412": {
+                                "g": "Shared damage behind the boss. Stack up."
+                            },
+                            "9414": {
+                                "g": "Center proximity hit. Run to the arena edge."
+                            },
+                            "9416": {
+                                "g": "Black holes spawn around the arena. Stay out of them."
+                            }
+                        }
+                    }
+                }
             }
         }
     },
