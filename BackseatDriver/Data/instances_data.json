@@ -1,4 +1,4 @@
-﻿{
+{
     "1": {
         "en": null,
         "maps": {
@@ -12214,10 +12214,97 @@
         "en": "The Abyssal Fracture",
         "maps": {
             "894": {
-                "en": "The Abyssal Fracture",
-                "d": "...",
-                "h": "...",
-                "t": "..."
+                "en": "Zeromus",
+                "st": [
+                    {
+                        "en": "Phase 1",
+                        "g": "-Arena edge is lethal; players knocked off can be raised after a delay.\n-Abyssal Nox drops everyone to 1 HP and applies Doom; heal to full while dodging the circle AoEs marked by light rays.\n-Sable Thread is a multi-hit line stack, and the two closest players take extra damage.\n-Visceral Whirl leaves two triangular safe spots; later you must dodge it while Void Bio poison orbs move south.\n-Flare is a full-party tower, then fiery line AoEs.\n-Nox gives two players short chasing AoEs; bait them away.\n-Big Bang and Big Crunch are raidwide transitions with many baited circles.\n-For Big Bang, stop moving when Acceleration Bomb expires, then resolve the stack marker before the spreads.\n-Meteor Impact tethers every player; stretch your tether until it is no longer spiky and do not overlap others.\n-For Black Hole, go behind the rotating line AoE and stay out of the expanding corner hole.\n-Fractured Eventide leaves cracked meteors behind; do not clip them with the next Meteor Impact, then avoid the point-blank blasts.",
+                        "d": "",
+                        "h": "-Top everyone to full after Abyssal Nox to clear Doom.\n-Big Bang into Big Crunch brings heavy raid damage while the party has reduced max HP or a long bleed.\n-Watch players hit by poison orbs, missed tethers, or black hole mechanics.",
+                        "t": "-Mitigate Dark Matter tankbusters.\n-Take the front spots in Sable Thread line stacks and stay clear of other players' Meteor Impact tethers."
+                    },
+                    {
+                        "en": "Phase 2",
+                        "g": "-Rend the Rift transitions the arena.\n-Dodge the baited circles and tri-directional line telegraphs.\n-Nostalgia hits seven times total; mitigate and heal through it.\n-Flow of the Abyss marks a wide line from the background crack while players also drop persistent Akh Rhai circles.\n-Chasmic Nails hits in sequence; sidestep into a previous cone after it resolves.",
+                        "d": "",
+                        "h": "-Nostalgia is repeated raidwide damage with a heavier final hit.\n-Esuna Flesh Wound from Chasmic Nails if anyone is clipped.",
+                        "t": ""
+                    }
+                ],
+                "c": {
+                    "16462": {
+                        "a": {
+                            "35566": {
+                                "g": "Line stack. Group up, and the two closest players should mitigate.",
+                                "t": "Take the front spots and mitigate."
+                            },
+                            "35568": {
+                                "g": "Line stack. Group up, and the two closest players should mitigate.",
+                                "t": "Take the front spots and mitigate."
+                            },
+                            "35569": {
+                                "g": "Line stack. Group up, and the two closest players should mitigate.",
+                                "t": "Take the front spots and mitigate."
+                            },
+                            "35571": {
+                                "g": "Cracked meteors remain on the field. Do not clip them with the next Meteor Impact, then avoid their point-blank blasts."
+                            },
+                            "35572": {
+                                "g": "Cracked meteors remain on the field. Do not clip them with the next Meteor Impact, then avoid their point-blank blasts."
+                            },
+                            "35575": {
+                                "g": "Drops everyone to 1 HP and applies Doom. Heal to full while dodging the light-marked circle AoEs.",
+                                "h": "Get everyone to full HP fast to clear Doom."
+                            },
+                            "35582": {
+                                "g": "Perpendicular line AoEs leave two triangular safe spots."
+                            },
+                            "35587": {
+                                "g": "Raidwide transition with baited circles. Stop moving when Acceleration Bomb expires, then stack before spreads."
+                            },
+                            "35588": {
+                                "g": "Raidwide transition with baited circles. HP Penalty is removed, but everyone gets a long bleed."
+                            },
+                            "35595": {
+                                "g": "Stretch your tether until it is no longer spiky, and do not overlap other players."
+                            },
+                            "35596": {
+                                "g": "Stretch your tether until it is no longer spiky, and do not overlap other players."
+                            },
+                            "35602": {
+                                "g": "Full-party tower. Take it together, then dodge the fiery line AoEs."
+                            },
+                            "35607": {
+                                "g": "Poison orbs move south and leave gaps. Dodge through them.",
+                                "h": "Anyone hit takes a heavy DoT."
+                            },
+                            "35609": {
+                                "g": "Raidwide transition into Phase 2."
+                            },
+                            "35610": {
+                                "g": "Seven raidwide hits in sequence. Mitigate and heal through them.",
+                                "h": "The last hit is the heaviest."
+                            },
+                            "35622": {
+                                "g": "Five conal AoEs resolve in sequence. Move into the previous cone after it goes off.",
+                                "h": "Esuna Flesh Wound if anyone is hit."
+                            },
+                            "35638": {
+                                "g": "Multi-hit tankbuster.",
+                                "t": "Mitigate heavily."
+                            },
+                            "36089": {
+                                "g": "Wide line AoE from the background crack. Move out while dropping your Akh Rhai circles safely."
+                            },
+                            "36133": {
+                                "g": "Go behind the rotating line AoE and stay out of the expanding black hole."
+                            },
+                            "36135": {
+                                "g": "Two players get short chasing AoEs. Bait them away from the group."
+                            }
+                        }
+                    }
+                }
             }
         }
     },
