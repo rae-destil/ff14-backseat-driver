@@ -4161,10 +4161,41 @@
             },
             "299": {
                 "en": "Forgall",
-                "g": "-Phase 1: regenerating adds explode with Vulnerability; portals must be covered during Punishing Ray.\n-Phase 2 (Void Call): three adds appear, kill order: Succubus (mind control), Hagenti (Doom gaze), Dahak.\n-Phase 3: Megadeath wipes anyone without zombification.\n    - Get on green puddles when Necropurge is cast to get zombification.\n    -When Evil Mist is cast, stand next to the Poison Mists. They'll turn to puddles and give you zombification against a quick megadeath followup.",
+                "g": "-Phase 1: kill Shriveled Talons before Necropurge finishes.\n-Necropurge creates green puddles; avoid them unless you are preparing to survive Megadeath later.\n-Punishing Ray spawns towers that each need one player, but wait if Megiddo Flame columns are covering them.\n-Brand of the Fallen: stack with players who have the same marker.\n-Phase 2 (Void Call): kill Succubus first, then Haagenti, then Dahak.\n-Phase 3: gain Gradual Zombification from the green puddles to survive Megadeath.\n-When Evil Mist spawns Poison Mists in Phase 3, stand next to them immediately so the puddles appear in time for Megadeath.\n-Dark Eruption drops fire puddles on marked players; place them away from everyone.",
                 "d": "...",
                 "h": "-Esuna Doom.\n-Post-Megadeath, heal through Hell Wind and ongoing AoEs.",
-                "t": "..."
+                "t": "...",
+                "c": {
+                    "5671": {
+                        "a": {
+                            "6078": {
+                                "g": "Green puddles appear under players. Avoid them unless you need Gradual Zombification for Megadeath."
+                            },
+                            "6080": {
+                                "g": "Multiple column AoEs. Move out, and wait to soak Punishing Ray towers if a column is covering one."
+                            },
+                            "6082": {
+                                "g": "Orange markers drop fire puddles. Place them away from the group."
+                            },
+                            "6085": {
+                                "g": "Raidwide damage that spawns Poison Mists. Avoid the mists normally, but in Phase 3 stand next to them so they turn into puddles for Megadeath."
+                            },
+                            "6086": {
+                                "g": "Adds spawn. Prioritize Succubus, then Hagenti, then Dahak."
+                            },
+                            "6090": {
+                                "g": "Instant kill unless you have Gradual Zombification or full Zombification."
+                            },
+                            "6091": {
+                                "g": "Drops everyone to critical HP.",
+                                "h": "Top the raid quickly."
+                            },
+                            "6092": {
+                                "g": "Group with players who have the same marker to avoid damage and Toad."
+                            }
+                        }
+                    }
+                }
             },
             "300": {
                 "en": "Headstone",
@@ -4175,10 +4206,37 @@
             },
             "301": {
                 "en": "Ozma",
-                "g": "-Cycles between Sphere, Pyramid, and Cube forms.\n-Sphere: Spread proximity markers left/back to avoid Debris Burst overlap. Kill adds. Handle stack marker.\n-Pyramid: Move to ring platform to dodge line AoE.\n-Cube: Stand on rectangular platform to avoid donut AoE. Tanks bait lasers and soak Ozmaspheres away from group.\n-Ozmashade Phase: stand on circle to kill the add. Look away from Assimilation. Kill Ozmashade before Doomsday.\n-Final Phase: Repeats all forms with doubled meteor targets.",
-                "d": "-Spread correctly for meteors. Handle stack marker.\n-Stop all actions before Acceleration Bomb ends.\n-Avoid ring AoE and let tanks soak orbs.\n-Quickly burn adds and spread proximity markers in Ozmashade.",
-                "h": "-Shield meteor and stack damage.\n-Cleanse Bleed/Poison in Pyramid. Time heals around Acceleration Bomb.\n-Heal tanks during orb soaks and Holy.\n-Free trapped players during Ozmashade and heal proximity hits.",
-                "t": "-Face boss away. In Cube, absorb Ozmaspheres and avoid cleaving raid with lasers.\n-Tank adds in Sphere. In Ozmashade, help burn adds and reposition fast post-return."
+                "g": "-Arena edge is lethal.\n-Cycles through Sphere, Pyramid, and Cube forms, then repeats all of them in the last phase.\n-Sphere: place the red-black proximity markers apart, kill Singularity Fragments, and handle the stack marker.\n-Pyramid: move to the ring sections beside the rectangular platform to avoid the line AoE.\n-Cube: stand next to the boss on the rectangular platform to avoid the donut AoE.\n-Black Hole starts the Ozmashade phase; kill the platform targets, then kill Ozmashade before Doomsday.\n-In Ozmashade, look away from Assimilation and spread the red markers to corners.",
+                "d": "-Spread the Sphere markers so Debris Burst explosions do not overlap.\n-Stop moving and sheathe before Acceleration Bomb expires.\n-Burn the Sphere adds and the Ozmashade targets quickly.",
+                "h": "-Cleanse Poison, Timer, and Bleeding in Pyramid.\n-Shield the stack marker and heal tanks soaking Ozmaspheres.\n-Free players trapped by Assimilation if they fail the gaze.",
+                "t": "-Soak Ozmaspheres in Cube form away from the party.\n-Keep the laser cleaves off the raid in Cube form.",
+                "c": {
+                    "5472": {
+                        "a": {
+                            "6144": {
+                                "g": "Pulls everyone into the Ozmashade phase."
+                            },
+                            "6147": {
+                                "g": "Cube form. Move onto the rectangular platform to avoid the donut AoE."
+                            },
+                            "6149": {
+                                "g": "Stay next to the boss to avoid the donut AoE, then tanks separate for lasers and soak Ozmaspheres."
+                            },
+                            "6182": {
+                                "g": "Pyramid form. Move to the ring sections to avoid the line AoE."
+                            },
+                            "6183": {
+                                "g": "Sphere form. Prepare for meteor spreads, adds, and stack mechanics."
+                            },
+                            "6184": {
+                                "g": "Pyramid line AoE. Move to the ring sections; it also applies Poison and Timer if hit."
+                            },
+                            "6190": {
+                                "g": "Raidwide damage with a small knockback. Stay close to the boss so you do not get knocked off."
+                            }
+                        }
+                    }
+                }
             },
             "302": {
                 "en": "Ozma (singularities)",
@@ -4189,10 +4247,56 @@
             },
             "303": {
                 "en": "Calofisteri",
-                "g": "-Haircut cleaves left or right based on blade-side hair—causes Bleed.\n-Extension tethers pull players in; failing to kill tentacles results in Garrote deaths.\n-Bijous must be killed quickly to weaken Dancing Mad AoE.\n-Living Locks (flowers) do knockbacks (bulbs) or donut AoEs (axes); position near axes.\n-Penetration pushes/pulls based on whether you're looking at boss; avoid being forced into flowers.\n-Depth Charge → Haircut combo follows her charge—dodge blade side.\n-Arena-wide beams fire from flower sides late in fight.",
+                "g": "-Haircut cleaves the left or right side based on which side of her hair becomes a blade; getting hit applies Flesh Wound.\n-Extension telegraphs still pull you in if you stand near them.\n-If the Entanglement tentacles from Extension are not killed in time, trapped players die to Garrote.\n-Bijous and Grand Bijous power up Dancing Mad with Energize, so kill the smaller Bijous first.\n-Living Locks: stay near the axe flowers to avoid their donut AoEs and away from the bulb flowers that knock players up.\n-Penetration pulls you in if you face the boss and pushes you out if you look away; aim to get pushed into the empty spaces.\n-Depth Charge is followed by Haircut; watch the blade side after the dash.\n-Blade flowers later fire beams across the center from the arena sides.",
                 "d": "-Avoid blade side during Haircut and watch for tether pulls.\n-Burn Bijous fast; kite chasing AoEs along edges.\n-Stay in safe zones near axes during flower phase.",
-                "h": "-Cleanse Bleeds from Haircut.\n-Heal through Dancing Mad and mitigate Evil Tress knockups.\n-Watch Garrote and assist freeing trapped players.",
-                "t": "-Face boss away; avoid cleaving group with Bloodied Nail.\n-Tank in center to give room for Haircut dodges and Depth Charge.\n-Adjust boss facing to control Haircut direction safely."
+                "h": "-Cleanse Flesh Wound from Haircut.\n-Heal through Dancing Mad and Evil Tress knockups.\n-Watch Garrote and assist freeing trapped players.",
+                "t": "-Face the boss away so Bloodied Nail does not cleave the raid.\n-Keep her near the middle to leave room for Haircut and Depth Charge.\n-Turn the boss to direct Haircut away from the raid when possible.",
+                "c": {
+                    "5729": {
+                        "a": {
+                            "6154": {
+                                "g": "Boss changes hair pattern. Re-read which side Haircut and Split End will cover."
+                            },
+                            "6155": {
+                                "g": "Haircut cleave. Dodge the blade side."
+                            },
+                            "6156": {
+                                "g": "Split End cleaves the blade side. Move to the safe side."
+                            },
+                            "6158": {
+                                "g": "Boss changes hair pattern. Re-read which side Haircut and Split End will cover."
+                            },
+                            "6159": {
+                                "g": "Haircut cleave. Dodge the blade side."
+                            },
+                            "6160": {
+                                "g": "Split End cleaves the blade side. Move to the safe side."
+                            },
+                            "6162": {
+                                "g": "Tethers pull players in. Kill the tentacles or tethered players die to Garrote."
+                            },
+                            "6168": {
+                                "g": "Raidwide damage. Kill Bijous first to weaken it."
+                            },
+                            "6174": {
+                                "g": "Lethal tether resolution if Extension is not handled."
+                            },
+                            "6175": {
+                                "g": "Frontal cleave auto-attack.",
+                                "t": "Mitigate and face away from the raid."
+                            },
+                            "6176": {
+                                "g": "Charge attack followed by Haircut. Dodge the blade side after the dash."
+                            },
+                            "6177": {
+                                "g": "Push or pull based on whether you face the boss. Avoid getting forced into the flowers."
+                            },
+                            "6178": {
+                                "g": "Line AoE. Move out."
+                            }
+                        }
+                    }
+                }
             }
         }
     },
