@@ -42,6 +42,15 @@ When resolving IDs from the existing dataset:
 
 If IDs still cannot be resolved, do not invent them. Ask for them or state that the output is provisional and needs IDs filled before upsert.
 
+## Naming Defaults
+
+Use these defaults unless the user asks otherwise:
+
+- for map-level `en`, use the territory or duty name
+- for stage-level `en` inside `st`, use boss or encounter names
+
+If a map name would require guessing a boss-to-map assignment, stop and ask instead of inferring it.
+
 ## Output Modes
 
 Choose exactly one of these:
@@ -75,6 +84,9 @@ Follow these rules strictly:
 7. Prefer `""` for intentionally empty hint fields in newly authored content.
 8. Only add coach hints in `c` when the source explicitly includes enemy/action/debuff IDs or the user provided them.
 9. If the source is ambiguous, note the ambiguity instead of guessing.
+10. If a dungeon has multiple seeded map IDs but the source does not clearly establish which boss belongs to which map, stop and ask before assigning bosses to maps.
+
+Boss-to-map ambiguity is a hard stop, not an invitation to reason longer.
 
 ## Compression Rules
 
@@ -84,17 +96,27 @@ Compress source text into hints carefully:
 - Remove trivia, lore, and flavor text.
 - Keep role-specific hints only when the source justifies them.
 - Do not force all four role fields to be populated.
-- Combine repeated mechanics into one compact instruction when possible.
+- Prefer newline-separated quick bullets inside each populated hint field, using `\n` between bullets.
+- Prefer 1-3 short bullets per field, not a full fight guide.
+- Prioritize mechanics a player can react to quickly in duty: stacks, spreads, gaze, knockback, adds, tankbusters, raidwides, arena changes.
+- Omit low-value detail such as story framing, exact ability sequencing, or mechanics that are too minor to matter in a quick-reference plugin.
+- Only populate `h` or `t` when the source supports a genuinely role-specific action or risk.
+- Keep each bullet short enough to scan instantly in the plugin UI.
+- When a field needs multiple points, format them like `"- First point.\n- Second point."` rather than a dense paragraph.
 
 Good:
 
-- `"Stack for shared damage, then spread for the follow-up circles."`
+- `"-Stack for shared damage.\n-Spread for the follow-up circles."`
+- `"-Tankbuster with cleave.\n-Face boss away from party."`
+- `"-Prepare healing after repeated raidwides.\n-Cleanse poison if possible."`
 
 Bad:
 
 - long narrative retellings
 - speculative optimizations not grounded in source
 - role tips that are just generic MMO advice
+- copying the wiki almost verbatim
+- one long paragraph when the same content can be split into fast-scanning bullets
 
 ## Hand-Off To Tooling
 

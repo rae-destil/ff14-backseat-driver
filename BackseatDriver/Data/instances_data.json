@@ -3116,7 +3116,9 @@
                 "c": {
                     "3725": {
                         "a": {
-                            "3695": { "g": "Hide behind a pile of rubble or you get pulled." }
+                            "3695": {
+                                "g": "Hide behind a pile of rubble or you get pulled."
+                            }
                         }
                     }
                 }
@@ -3317,7 +3319,7 @@
     },
     "446": {
         "en": "Thok ast Thok (Hard)",
-        "maps" :  {}
+        "maps": {}
     },
     "447": {
         "en": "The Limitless Blue (Hard)",
@@ -3634,11 +3636,12 @@
                 "c": {
                     "5103": {
                         "a": {
-                            "5213": { "g": "Run behind Irminsul for cover!" }
+                            "5213": {
+                                "g": "Run behind Irminsul for cover!"
+                            }
                         }
                     },
-                    "5105": {
-                    }
+                    "5105": {}
                 }
             },
             "272": {
@@ -3662,16 +3665,28 @@
                 "c": {
                     "5139": {
                         "a": {
-                            "5178": { "g": "Get out of the tentacles' way." },
-                            "5183": { "g": "Foobars will spawn on the raised platforms - kill ASAP." },
-                            "5181": { "g": "Instakill - stand on raised platforms to avoid." },
-                            "5182": { "g": "Touch spawned orbs to defuse or get massive debuffs." }
+                            "5178": {
+                                "g": "Get out of the tentacles' way."
+                            },
+                            "5183": {
+                                "g": "Foobars will spawn on the raised platforms - kill ASAP."
+                            },
+                            "5181": {
+                                "g": "Instakill - stand on raised platforms to avoid."
+                            },
+                            "5182": {
+                                "g": "Touch spawned orbs to defuse or get massive debuffs."
+                            }
                         }
                     },
                     "5107": {
                         "a": {
-                            "5144": { "g": "PBAoE with knockback." },
-                            "5142": { "g": "Rectangular AoEs to left and right - safe in middle." }
+                            "5144": {
+                                "g": "PBAoE with knockback."
+                            },
+                            "5142": {
+                                "g": "Rectangular AoEs to left and right - safe in middle."
+                            }
                         }
                     }
                 }
@@ -4318,7 +4333,6 @@
                 "en": "The Final Steps of Faith",
                 "g": "...",
                 "d": "...",
-                "h": "...",
                 "h": "..."
             }
         }
@@ -5455,10 +5469,18 @@
                 "c": {
                     "6531": {
                         "a": {
-                            "8107": { "g": "raid-wide fire attack - stand in a water puddle to mitigate." },
-                            "8106": { "g": "run to the water spout and hug it or get knockedbacked off the platform." },
-                            "8111": { "g": "stand as close as possible but not ON center platform. Final charge knockbacks." },
-                            "8109": { "g": "careful not to slide off the arena." }
+                            "8107": {
+                                "g": "raid-wide fire attack - stand in a water puddle to mitigate."
+                            },
+                            "8106": {
+                                "g": "run to the water spout and hug it or get knockedbacked off the platform."
+                            },
+                            "8111": {
+                                "g": "stand as close as possible but not ON center platform. Final charge knockbacks."
+                            },
+                            "8109": {
+                                "g": "careful not to slide off the arena."
+                            }
                         }
                     }
                 }
@@ -5472,10 +5494,18 @@
                 "c": {
                     "6531": {
                         "a": {
-                            "8107": { "g": "raid-wide fire attack - stand in a water puddle to mitigate." },
-                            "8106": { "g": "run to the water spout and hug it or get knockedbacked off the platform." },
-                            "8111": { "g": "stand as close as possible but not ON center platform. Final charge knockbacks." },
-                            "8109": { "g": "careful not to slide off the arena." }
+                            "8107": {
+                                "g": "raid-wide fire attack - stand in a water puddle to mitigate."
+                            },
+                            "8106": {
+                                "g": "run to the water spout and hug it or get knockedbacked off the platform."
+                            },
+                            "8111": {
+                                "g": "stand as close as possible but not ON center platform. Final charge knockbacks."
+                            },
+                            "8109": {
+                                "g": "careful not to slide off the arena."
+                            }
                         }
                     }
                 }
@@ -6662,14 +6692,22 @@
                                 "t": "A tankbuster you'll want to mitigate.",
                                 "h": "Get ready to heal this tankbuster."
                             },
-                            "12645": { "g": "Raid-wide damage, safe spot in middle of arena." },
-                            "12631": { "g": "Place the stack markers APART, half the group on each marker. Happens twice." },
+                            "12645": {
+                                "g": "Raid-wide damage, safe spot in middle of arena."
+                            },
+                            "12631": {
+                                "g": "Place the stack markers APART, half the group on each marker. Happens twice."
+                            },
                             "12632": {
                                 "g": "Proximity marker on healers - stay away from them.",
                                 "h": "Keep away from other healer as well."
                             },
-                            "12634": { "g": "AoEs where Knockdown went off - stay away." },
-                            "12624": { "g": "Move behind Chaos, but not too far as they then knockback." },
+                            "12634": {
+                                "g": "AoEs where Knockdown went off - stay away."
+                            },
+                            "12624": {
+                                "g": "Move behind Chaos, but not too far as they then knockback."
+                            },
                             "12636": {
                                 "g": "Tethers to a player and tankbusts after a delay.",
                                 "t": "Intercept the line so the tankbuster doesn't wipe a DPS or healer."
@@ -6679,7 +6717,9 @@
                                 "h": "Quickly top everyone off. Stack with other healer and tanks for Dynmamic Fluid expiration donut AoE.",
                                 "d": "Spread apart from everyone else for Dynamic Fluid expiration PBAoE."
                             },
-                            "12646": { "g": "East and west sides flood - center is safe. Donut AoE on Dynamic Fluid expiration - stack." }
+                            "12646": {
+                                "g": "East and west sides flood - center is safe. Donut AoE on Dynamic Fluid expiration - stack."
+                            }
                         }
                     }
                 }
@@ -6698,8 +6738,12 @@
                 "c": {
                     "9288": {
                         "a": {
-                            "12745": { "g": "azure wings" },
-                            "12747": { "g": "stygian" }
+                            "12745": {
+                                "g": "azure wings"
+                            },
+                            "12747": {
+                                "g": "stygian"
+                            }
                         }
                     }
                 }
@@ -8191,31 +8235,57 @@
                                 "g": "tankbuster",
                                 "h": "prepare to top-up the primary tank."
                             },
-                            "19090": { "g": "moving cracks appear on the ground - where they finish an AoE will appear when Ravensclaw is cast." },
-                            "19091": { "g": "AoE where Flexiclaw cracks finished." },
-                            "19094": { "g": "entire arena becomes quicksand - stand on the cracks to avoid." },
-                            "19095": { "g": "all cracks explode - move away from them." },
-                            "19142": { "g": "line AoE where Ruby's facing. Get behind/by the side of the boss." },
+                            "19090": {
+                                "g": "moving cracks appear on the ground - where they finish an AoE will appear when Ravensclaw is cast."
+                            },
+                            "19091": {
+                                "g": "AoE where Flexiclaw cracks finished."
+                            },
+                            "19094": {
+                                "g": "entire arena becomes quicksand - stand on the cracks to avoid."
+                            },
+                            "19095": {
+                                "g": "all cracks explode - move away from them."
+                            },
+                            "19142": {
+                                "g": "line AoE where Ruby's facing. Get behind/by the side of the boss."
+                            },
                             "19140": {
                                 "g": "AoE circles under everyone. Spread out.",
                                 "h": "prepare to heal everyone after AoEs go off"
                             },
-                            "19104": { "g": "donut AoE - hug Ruby ASAP." },
+                            "19104": {
+                                "g": "donut AoE - hug Ruby ASAP."
+                            },
                             "19113": {
                                 "g": "spawns two adds, kill them.",
                                 "t": "one add per tank, must be tanked APART, drag away from the other one."
                             },
-                            "20081": { "g": "AoEs around DPS players. Spread out." },
+                            "20081": {
+                                "g": "AoEs around DPS players. Spread out."
+                            },
                             "19114": {
                                 "g": "raid-wide damage, lots of pretty pixels.",
                                 "h": "prepare to top-up everyone after dalamud hits."
                             },
-                            "19121": { "g": "big wipe meteor like Behemoth's. Hide behind leftover Magitek Comets or die." },
-                            "19126": { "g": "stand within telegraph circle to catch the meteors or party wipes. If others caught it, help destroy them." },
-                            "19120": { "g": "move into boss to avoid most of the damage. Use these to hide from the meteor." },
-                            "19131": { "g": "line AoEs. Move out of the way." },
-                            "19144": { "g": "repeated raid-wide damage. Burn boss down before Dalamud falls again or wipe." },
-                            "19112": { "g": "unavoidable raid-wide damage." }
+                            "19121": {
+                                "g": "big wipe meteor like Behemoth's. Hide behind leftover Magitek Comets or die."
+                            },
+                            "19126": {
+                                "g": "stand within telegraph circle to catch the meteors or party wipes. If others caught it, help destroy them."
+                            },
+                            "19120": {
+                                "g": "move into boss to avoid most of the damage. Use these to hide from the meteor."
+                            },
+                            "19131": {
+                                "g": "line AoEs. Move out of the way."
+                            },
+                            "19144": {
+                                "g": "repeated raid-wide damage. Burn boss down before Dalamud falls again or wipe."
+                            },
+                            "19112": {
+                                "g": "unavoidable raid-wide damage."
+                            }
                         }
                     }
                 }
@@ -8467,27 +8537,45 @@
                 "c": {
                     "11938": {
                         "a": {
-                            "20595": { "g": "Collapsing cone attacks, safe zone where cones focus faster. Getting hit = high damage + knockback." },
-                            "20608": { "g": "Boss leans right or left, go opposite direction to avoid cone AoE." }
+                            "20595": {
+                                "g": "Collapsing cone attacks, safe zone where cones focus faster. Getting hit = high damage + knockback."
+                            },
+                            "20608": {
+                                "g": "Boss leans right or left, go opposite direction to avoid cone AoE."
+                            }
                         }
                     },
                     "11882": {
                         "a": {
-                            "20461": { "g": "Lingering cone from bottom turrets, gradual cone from top turrets. Safe zone at top cannons' far range.'" },
+                            "20461": {
+                                "g": "Lingering cone from bottom turrets, gradual cone from top turrets. Safe zone at top cannons' far range.'"
+                            },
                             "20481": {
                                 "g": "Line tankbusters.",
                                 "t": "Targets off-tanks, so move away from your groups."
                             },
-                            "20480": { "g": "Donut AoE - hug the boss." },
-                            "20463": { "g": "Phase shift." },
-                            "20462": { "g": "Pink balls - avoid AoE markers." },
+                            "20480": {
+                                "g": "Donut AoE - hug the boss."
+                            },
+                            "20463": {
+                                "g": "Phase shift."
+                            },
+                            "20462": {
+                                "g": "Pink balls - avoid AoE markers."
+                            },
                             "20486": {
                                 "g": "Raid-wide AoE.",
                                 "h": "Prepare to top everyone up."
                             },
-                            "21561": { "g": "Monitors outside the arena display R010 or R030. R010 = line AoEs, R030 = circle AoEs." },
-                            "20460": { "g": "Need 3+ players in each soak circle - will turn blue when have enough players." },
-                            "20475": { "g": "AoEs around random players." }
+                            "21561": {
+                                "g": "Monitors outside the arena display R010 or R030. R010 = line AoEs, R030 = circle AoEs."
+                            },
+                            "20460": {
+                                "g": "Need 3+ players in each soak circle - will turn blue when have enough players."
+                            },
+                            "20475": {
+                                "g": "AoEs around random players."
+                            }
                         }
                     },
                     "11972": {
@@ -8496,24 +8584,52 @@
                                 "g": "Raid-wide damage.",
                                 "h": "Get ready to top everyone up."
                             },
-                            "20915": { "g": "Line attack - watch for a vertical red laser." },
-                            "20916": { "g": "Donut - hug the boss." },
-                            "20917": { "g": "AoEs around random players." }
+                            "20915": {
+                                "g": "Line attack - watch for a vertical red laser."
+                            },
+                            "20916": {
+                                "g": "Donut - hug the boss."
+                            },
+                            "20917": {
+                                "g": "AoEs around random players."
+                            }
                         }
                     },
                     "11974": {
                         "a": {
-                            "20912": { "g": "Raid-wide damage." },
-                            "21490": { "g": "AoEs under random players." },
-                            "21535": { "g": "PBAoE - get away from the boss." },
-                            "21537": { "g": "Front cone - go behind the boss." },
-                            "20890": { "g": "Donut - hug the boss." },
-                            "20888": { "g": "Teleport + PBAoE." },
-                            "20907": { "g": "Four pods appear, spawn AoEs under random players." },
-                            "20894": { "g": "Four players marked. Players 1+3 get jumped, 2+4 get line AoE'd." },
-                            "20897": { "g": "A clone spawns in each corner - will copy the next Primal Blade P2 casts." },
-                            "20898": { "g": "A target tethers to the boss: if has sparks, they point at the circle where they'll get teleported. If no sparkles, will spawn AoEs." },
-                            "20900": { "g": "Pods spawn at arena edge and fire line AoEs." }
+                            "20912": {
+                                "g": "Raid-wide damage."
+                            },
+                            "21490": {
+                                "g": "AoEs under random players."
+                            },
+                            "21535": {
+                                "g": "PBAoE - get away from the boss."
+                            },
+                            "21537": {
+                                "g": "Front cone - go behind the boss."
+                            },
+                            "20890": {
+                                "g": "Donut - hug the boss."
+                            },
+                            "20888": {
+                                "g": "Teleport + PBAoE."
+                            },
+                            "20907": {
+                                "g": "Four pods appear, spawn AoEs under random players."
+                            },
+                            "20894": {
+                                "g": "Four players marked. Players 1+3 get jumped, 2+4 get line AoE'd."
+                            },
+                            "20897": {
+                                "g": "A clone spawns in each corner - will copy the next Primal Blade P2 casts."
+                            },
+                            "20898": {
+                                "g": "A target tethers to the boss: if has sparks, they point at the circle where they'll get teleported. If no sparkles, will spawn AoEs."
+                            },
+                            "20900": {
+                                "g": "Pods spawn at arena edge and fire line AoEs."
+                            }
                         }
                     }
                 }
@@ -8797,7 +8913,9 @@
                 "c": {
                     "12649": {
                         "a": {
-                            "23627": { "g": "pass your electric AoE to a lamppost with no AoE marker." }
+                            "23627": {
+                                "g": "pass your electric AoE to a lamppost with no AoE marker."
+                            }
                         }
                     }
                 }
@@ -8854,24 +8972,44 @@
                 "c": {
                     "12374": {
                         "a": {
-                            "21296": { "g": "two ghosts in arena sides. Pay attention to the direction they're facing." },
-                            "21294": { "g": "two cloud adds that buff Cloud if they reach her. Kill them - stand in front to slow them down." },
-                            "20786": { "g": "destroys corner platforms. Platforms stood on for too long get destroyed, get off them as soon as they turn purple (or just move after a couple seconds)." },
+                            "21296": {
+                                "g": "two ghosts in arena sides. Pay attention to the direction they're facing."
+                            },
+                            "21294": {
+                                "g": "two cloud adds that buff Cloud if they reach her. Kill them - stand in front to slow them down."
+                            },
+                            "20786": {
+                                "g": "destroys corner platforms. Platforms stood on for too long get destroyed, get off them as soon as they turn purple (or just move after a couple seconds)."
+                            },
                             "20422": {
                                 "g": "raid-wide + phase transition.",
                                 "h": "Prepare big heals."
                             },
-                            "21995": { "g": "tankbuster with cleave - move away from main tank." },
+                            "21995": {
+                                "g": "tankbuster with cleave - move away from main tank."
+                            },
                             "21997": {
                                 "g": "raid-wide.",
                                 "h": "Prepare big heals."
                             },
-                            "21027": { "g": "move OPPOSITE direction of her shining hand. Cleaves half the arena." },
-                            "21028": { "g": "move OPPOSITE direction of her shining hand. Cleaves half the arena." },
-                            "21986": { "g": "massive explosions on purple tether connections. Hug middle death zone on one of the remaining walls." },
-                            "21983": { "g": "quick, huge cone AoE. Run to the side with the gold tether, stand in the middle between either sides of the middle death zone there." },
-                            "22769": { "g": "PBAoE knockback + tethers. Position so you don't get pushed into the AoE markers, then run away from the zone you're tethered to to break the line." },
-                            "21980": { "g": "PBAoe from Cloud + line AoE from the ghosts." },
+                            "21027": {
+                                "g": "move OPPOSITE direction of her shining hand. Cleaves half the arena."
+                            },
+                            "21028": {
+                                "g": "move OPPOSITE direction of her shining hand. Cleaves half the arena."
+                            },
+                            "21986": {
+                                "g": "massive explosions on purple tether connections. Hug middle death zone on one of the remaining walls."
+                            },
+                            "21983": {
+                                "g": "quick, huge cone AoE. Run to the side with the gold tether, stand in the middle between either sides of the middle death zone there."
+                            },
+                            "22769": {
+                                "g": "PBAoE knockback + tethers. Position so you don't get pushed into the AoE markers, then run away from the zone you're tethered to to break the line."
+                            },
+                            "21980": {
+                                "g": "PBAoe from Cloud + line AoE from the ghosts."
+                            },
                             "20821": {
                                 "g": "raid-wide + phase transition.",
                                 "h": "Prepare big heals"
@@ -9648,7 +9786,7 @@
                                 "t": "..."
                             },
                             "26561": {
-                                "g": "Shape [triangle?] at the side indicates AoE pattern: square = move to far half of the arena, triangle = move to front sides.",
+                                "g": "Three Exoterikos (beam + shape attack) in sequence.",
                                 "d": "...",
                                 "h": "...",
                                 "t": "..."
@@ -9721,12 +9859,6 @@
                             },
                             "26563": {
                                 "g": "Stars hit the arena, in the shape of the symbol Zodiark leaves behind. Note: from HIS point of view. The Z pattern is flipped.",
-                                "d": "...",
-                                "h": "...",
-                                "t": "..."
-                            },
-                            "26561": {
-                                "g": "Three Exoterikos (beam + shape attack) in sequence.",
                                 "d": "...",
                                 "h": "...",
                                 "t": "..."
@@ -9828,10 +9960,10 @@
         }
     },
     "1002": {
-        "en": "The Gates of Pand\u00e6monium",
+        "en": "The Gates of Pandæmonium",
         "maps": {
             "709": {
-                "en": "The Gates of Pand\u00e6monium",
+                "en": "The Gates of Pandæmonium",
                 "d": "...",
                 "h": "...",
                 "t": "..."
@@ -9839,7 +9971,7 @@
         }
     },
     "1003": {
-        "en": "The Gates of Pand\u00e6monium",
+        "en": "The Gates of Pandæmonium",
         "maps": {}
     },
     "1004": {
@@ -9962,10 +10094,10 @@
         }
     },
     "1025": {
-        "en": "The Gates of Pand\u00e6monium",
+        "en": "The Gates of Pandæmonium",
         "maps": {
             "748": {
-                "en": "The Gates of Pand\u00e6monium",
+                "en": "The Gates of Pandæmonium",
                 "d": "...",
                 "h": "...",
                 "t": "..."
@@ -10793,7 +10925,6 @@
                 "en": "The Final Steps of Faith",
                 "g": "...",
                 "d": "...",
-                "h": "...",
                 "h": "..."
             }
         }
@@ -11822,10 +11953,10 @@
         "maps": {}
     },
     "1149": {
-        "en": "The D\u00e6mons' Nest",
+        "en": "The Dæmons' Nest",
         "maps": {
             "834": {
-                "en": "The D\u00e6mons' Nest",
+                "en": "The Dæmons' Nest",
                 "d": "...",
                 "h": "...",
                 "t": "..."
@@ -11833,7 +11964,7 @@
         }
     },
     "1150": {
-        "en": "The D\u00e6mons' Nest",
+        "en": "The Dæmons' Nest",
         "maps": {}
     },
     "1151": {
@@ -11905,7 +12036,7 @@
         "maps": {}
     },
     "1158": {
-        "en": "The D\u00e6mons' Nest",
+        "en": "The Dæmons' Nest",
         "maps": {}
     },
     "1159": {
@@ -12434,21 +12565,24 @@
         "maps": {
             "902": {
                 "en": "Worqor Zormor",
-                "d": "...",
-                "h": "...",
-                "t": "..."
+                "g": "- Frosting Fracas is raidwide damage and makes the arena edge unsafe.\n- Read Fluffle Up and dodge the unfrozen add AoEs first, then move into the delayed safe space from the frozen adds.\n- During Snowscoop, spread while weaving between the line AoEs.",
+                "d": "",
+                "h": "- Prepare for Frosting Fracas raidwide damage.\n- Watch for party damage while everyone spreads during Snowscoop.",
+                "t": ""
             },
             "903": {
                 "en": "Worqor Zormor",
-                "d": "...",
-                "h": "...",
-                "t": "..."
+                "g": "- Soak the Crystalline Crush tower.\n- Use the debris safe spots for the spread and donut follow-ups.\n- Destroy Crystalline Debris on players before Seed Crystals becomes lethal, and turn away from Eye of the Fierce during the next two mechanics.",
+                "d": "",
+                "h": "- Prepare for raidwide damage from Wind Unbound.\n- Be ready for repeated spread and donut damage.\n- Free players from Seed Crystals before they crystallize.",
+                "t": ""
             },
             "904": {
                 "en": "Worqor Zormor",
-                "d": "...",
-                "h": "...",
-                "t": "..."
+                "g": "- Heaving Haymaker is raidwide damage and makes the arena edge unsafe.\n- Read Stonework by element: water is a side knockback, fire is cascading square AoEs plus spreads, and wind is center knockbacks with moving tornadoes.\n- Soak Arcane Stomp orbs before they reach the boss.",
+                "d": "",
+                "h": "- Prepare for heavy party damage from Heaving Haymaker, Sledgehammer, and Enduring Glory.\n- Missed orb soaks make Enduring Glory more dangerous.",
+                "t": "- Mitigate the three-hit Sledgehammer stack.\n- Help cover Arcane Stomp orb soaks when needed."
             }
         }
     },

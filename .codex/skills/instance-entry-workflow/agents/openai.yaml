@@ -1,7 +1,0 @@
-interface:
-  display_name: "Instance Entry Workflow"
-  short_description: "Coordinate author, review, and dry-run upsert flow"
-  default_prompt: "Use $instance-entry-workflow to turn pasted FFXIV wiki text or duty notes into a reviewed BackseatDriver JSON entry and prepare the dry-run upsert."
-
-policy:
-  allow_implicit_invocation: true
