@@ -1,4 +1,4 @@
-{
+﻿{
     "1": {
         "en": null,
         "maps": {
@@ -6283,16 +6283,50 @@
                 "st": [
                     {
                         "en": "Kefka",
-                        "g": "-Hyper Drive: heavy tankbuster\n-Blizzard Blitz: donut or point-blank AoE; move opposite of safe zone\n-Flagrant Fire: four orange markers; spread\n-Thrumming Thunder: two line AoEs; stand between\n-Ultima Upsurge: raidwide\n-Timely Teleport: move behind teleport circle, then adjust for cone or knockback\n-Trick Attacks (???): do the opposite of normal—stand *inside* danger zones or *in* line AoEs as needed",
-                        "t": "-Mitigate Hyper Drive\n-Stay centered for Blizzard/Thunder swaps\n-Watch statue orbs for safe zones\n-Hold knockback resist for light orb",
-                        "d": "-Spread for Fire\n-Avoid false telegraphs during Trick mechanics\n-Move opposite or close to orbs per type\n-Look correctly for gaze icons",
-                        "h": "-Prep for Hyper Drive and raidwides\n-Watch for deaths from falls; rez fast\n-AoE heal after Upsurge or orb hits"
+                        "g": "-Arena edge is lethal, but fallen players can be raised after a delay.\n-Hyper Drive is a tankbuster.\n-Blizzard Blitz is either a donut or point-blank AoE; move close or far based on the real version.\n-Flagrant Fire marks four players to spread.\n-Thrumming Thunder makes two line AoEs; stand between or beside them.\n-Ultima Upsurge is raidwide damage.\n-Timely Teleport moves Kefka to the second circle; get behind it first, then if no cone appears move in front to survive Aero Assault.\n-When telegraphs show question marks, do the opposite of the normal mechanic.",
+                        "t": "-Mitigate Hyper Drive.",
+                        "d": "",
+                        "h": "-Prepare for Hyper Drive and Ultima Upsurge damage.\n-Watch for deaths from players falling off the arena."
                     },
                     {
                         "en": "Statue of the Gods",
-                        "g": "-Statue Mechanics: watch background\n  • Dark orb = move opposite side\n  • Light orb = move close, face safely for knockback\n  • Side orb = stand on orb-less side\n  • Gaze (purple eye) = look away; Trick Gaze (yellow eye ?) = look at"
+                        "g": "-Bottom tier: move toward the first orb, dodge the two player line AoEs, then get knocked to the far side.\n-Middle tier: stand on the half of the arena without the orb.\n-Top tier: purple eye means look away, but the yellow question-mark eye means look at the tower.\n-These statue mechanics combine with Kefka's normal and trick mechanics, then loop.",
+                        "d": "",
+                        "h": "",
+                        "t": ""
                     }
-                ]
+                ],
+                "c": {
+                    "8531": {
+                        "a": {
+                            "10519": {
+                                "g": "Donut or point-blank AoE. Move close or far based on the real version; with question marks, do the opposite."
+                            },
+                            "10522": {
+                                "g": "Two line AoEs. Stand between them; with question marks, stand inside one instead."
+                            },
+                            "10526": {
+                                "g": "Four players get markers. Spread away from the party."
+                            },
+                            "10529": {
+                                "g": "Kefka teleports to the second circle. Move behind it first, then adjust for the follow-up."
+                            },
+                            "10531": {
+                                "g": "After Timely Teleport, either stay behind Kefka for the instant cone or move in front if he delays for Aero Assault knockback."
+                            },
+                            "10533": {
+                                "g": "Tower mechanic incoming. Check which tier is active and solve the orb or gaze mechanic."
+                            },
+                            "10541": {
+                                "g": "Raidwide damage."
+                            },
+                            "10542": {
+                                "g": "Tankbuster.",
+                                "t": "Mitigate."
+                            }
+                        }
+                    }
+                }
             }
         }
     },
