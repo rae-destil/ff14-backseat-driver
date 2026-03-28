@@ -2,5 +2,6 @@
 obj/
 bin/
 *.user
+*.pyc
 /Data/instances_data.json.gz
 /SamplePlugin/Data/instances_data.json.gz

@@ -1,0 +1,7 @@
+interface:
+  display_name: "Instance Entry Author"
+  short_description: "Author BackseatDriver instance JSON from source text"
+  default_prompt: "Use $instance-entry-author to turn provided FFXIV duty notes or wiki text into a schema-valid BackseatDriver JSON entry."
+
+policy:
+  allow_implicit_invocation: true
