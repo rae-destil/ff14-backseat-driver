@@ -1,4 +1,4 @@
-﻿{
+{
     "1": {
         "en": null,
         "maps": {
@@ -5173,7 +5173,7 @@
                 "st": [
                     {
                         "en": "Phase 1",
-                        "g": "-Platform quarters fall counter-clockwise starting east; step off shaking tiles\n-Flare Star: spread from random circle AoEs",
+                        "g": "-Platform quarters fall counter-clockwise starting east; step off shaking tiles.\n-Metal Cutter is a frontal cleave on the main tank.\n-Flare Star drops circle AoEs on random players.",
                         "t": "-Face Zurvan away to contain Metal Cutter cleave\n-Anchor boss near safe tiles to reduce party movement"
                     },
                     {
@@ -5191,11 +5191,76 @@
                     },
                     {
                         "en": "Phase 3",
-                        "g": "-Broken Seal: match Infinite Fire/Ice to same-color meteors; only marked player soaks—wrong/missed soaks give vuln stacks\n-Repeats Phase 2 patterns with meteors added",
+                        "g": "-Broken Seal: match Infinite Fire/Ice to same-color meteors; only the marked player needs to soak, and wrong or missed soaks give vuln stacks.\n-Repeats Phase 2 patterns with meteors and Tyrfing added.",
                         "t": "-Tyrfing: multi-hit tankbuster that adds strikes each use—rotate strong CDs; consider swap if gear is low\n-Maintain boss placement so meteor soakers have room",
                         "h": "-Spot-heal meteor soakers and stabilize after Tyrfing strings\n-Time raid mitigation for Southern Cross → Ciclicle/Tail End chains"
                     }
-                ]
+                ],
+                "c": {
+                    "6550": {
+                        "a": {
+                            "7710": {
+                                "g": "Circle AoEs on random players. Spread out and move away."
+                            },
+                            "7738": {
+                                "g": "Frontal cleave on the tank.",
+                                "t": "Mitigate and keep Zurvan faced away from the raid."
+                            },
+                            "7744": {
+                                "g": "Frontal cleave on the tank.",
+                                "t": "Mitigate and keep Zurvan faced away from the raid."
+                            }
+                        }
+                    },
+                    "6551": {
+                        "a": {
+                            "7689": {
+                                "g": "Zurvan jumps away. Dodge the line AoEs from him, then from the edge clones."
+                            },
+                            "7712": {
+                                "g": "Phase transition sequence. Get ready to reposition as the arena changes."
+                            },
+                            "7713": {
+                                "g": "Line AoE sequence during the Soar pattern. Move into the safe lane."
+                            },
+                            "7717": {
+                                "g": "Stack marker on a healer. Group up to split the damage."
+                            },
+                            "7719": {
+                                "g": "Line AoE sequence during the Soar pattern. Move into the safe lane."
+                            },
+                            "7720": {
+                                "g": "Ice puddle around the boss into the fire cone. Stay out of the center, then move behind Zurvan."
+                            },
+                            "7723": {
+                                "g": "Donut AoE. Stay close to Zurvan."
+                            },
+                            "7724": {
+                                "g": "Multiple AoEs target players. Stack them tightly to save space for the next mechanic."
+                            },
+                            "7726": {
+                                "g": "Phase transition sequence. Get ready to reposition as the arena changes."
+                            },
+                            "7735": {
+                                "g": "Multi-hit tankbuster that gains extra hits each time.",
+                                "t": "Use strong mitigation and plan swaps if needed."
+                            },
+                            "7736": {
+                                "g": "Multi-hit tankbuster that gains extra hits each time.",
+                                "t": "Use strong mitigation and plan swaps if needed."
+                            },
+                            "7737": {
+                                "g": "Tracking fire circles on marked players. Kite them away from the party; they leave puddles behind."
+                            },
+                            "7741": {
+                                "g": "Unmarked line AoE at a random target. Sidestep it."
+                            },
+                            "7776": {
+                                "g": "Assign Infinite Fire and Infinite Ice to matching meteors. Wrong or missed soaks give vuln stacks."
+                            }
+                        }
+                    }
+                }
             }
         }
     },
@@ -5557,58 +5622,83 @@
                 "st": [
                     {
                         "en": "Phase 1",
-                        "g": "-Tidal Wave will knock back from water spout.\n-Stand beside spout to reduce push and damage.\n-Hellfire requires standing in puddles to survive.\n-Wing glows: right wing = spread for lightning; left wing = dodge icy wing swipes.\n-Akh Morn is a multi-hit cleave on tank—stack to share.",
+                        "g": "-Arena edge is lethal.\n-Tidal Wave: run to the waterspout edge so the knockback carries you across instead of off the platform.\n-Hellfire: stand in water puddles to reduce damage.\n-Judgment Bolt: stay out of puddles.\n-Right wing glow marks players to spread for lightning; left wing glow means dodge the ice attack.\n-Earth Breath targets two players with cones; place them to leave a safe side or center.\n-Akh Morn is a stack mechanic.\n-After two Corrupted Aether attacks, the fight transitions.",
                         "d": "...",
-                        "h": "-Shield before Hellfire and Tidal Wave.\n-Top off party after Earth Breath and Akh Morn.",
-                        "t": "..."
+                        "h": "-Shield before Tidal Wave, Hellfire, and Judgment Bolt.\n-Top the party after Earth Breath and Akh Morn.",
+                        "t": "-Mitigate Ahk Morn hits and keep Earth Breath safe."
                     },
                     {
                         "en": "Adds Phase",
-                        "g": "-Hakkinryu and Ginryu spawn—kill quickly.\n-Avoid proximity spawns by moving away from drop points.\n-Players get tethered by Burning Chains—run apart to break.\n-Breakthrough event: all players must press buttons to fill gauge.",
+                        "g": "-Shinryu leaves the platform and large AoEs appear; move far from each blast.\n-Cocoons land as proximity AoEs, then spawn three waves of Hakkinryu and Ginryu adds.\n-Kill all adds quickly; Hakkinryu uses Death Sentence on the tanks.\n-Everyone is Fettered for the Active Time Maneuver before the next phase, so mash the button to fill the bar.",
                         "d": "-Avoid spawn zones and focus down adds fast.",
-                        "h": "-Spot heal or rescue players who fail to dodge spawn damage.",
-                        "t": "-Grab aggro on both adds and tank separately."
+                        "h": "-Heal the proximity hits and prepare for the transition after the add waves.",
+                        "t": "-Pick up Hakkinryu quickly and mitigate Death Sentence."
                     }
                 ],
                 "c": {
                     "6531": {
                         "a": {
+                            "8100": {
+                                "g": "Stack to split the Ahk Morn hits.",
+                                "t": "Mitigate the repeated hits."
+                            },
+                            "8101": {
+                                "g": "Stack to split the Ahk Morn hits.",
+                                "t": "Mitigate the repeated hits."
+                            },
                             "8107": {
-                                "g": "raid-wide fire attack - stand in a water puddle to mitigate."
+                                "g": "Raidwide fire attack. Stand in a water puddle to reduce damage."
                             },
                             "8106": {
-                                "g": "run to the water spout and hug it or get knockedbacked off the platform."
+                                "g": "Run to the waterspout edge or the knockback will throw you off."
+                            },
+                            "8108": {
+                                "g": "Raidwide lightning attack. Stay out of puddles."
                             },
                             "8111": {
-                                "g": "stand as close as possible but not ON center platform. Final charge knockbacks."
+                                "g": "Stay close to the center while the whirlwind pulses, then brace for the final knockback."
                             },
                             "8109": {
-                                "g": "careful not to slide off the arena."
+                                "g": "Diamond Dust freezes the platform. Do not move or you may slide off."
                             }
                         }
                     }
                 }
             },
             "406": {
-                "en": "Phase 2",
-                "g": "-More Aether types appear: Diamond Dust (freeze—stand still), Aerial Blast (stay near center), Judgment Bolt (avoid puddles).\n-Tail Slam: tiles marked—destroy tail if vulnerable.\n-Spikecycle: alternating lines across platform—find safe gaps.\n-Line Charge: wide AoE charge—dodge or Sprint.\n-Akh Morn returns, now heavier.\n-Ending with Imperial Summons + heavy raid damage.",
+                "en": "Phase 3",
+                "g": "-The party lands on a 3x3 grid; the outer blue tiles can be broken, but the center grey tile cannot.\n-Line Charge hits almost immediately; get clear or soak it away from the edges.\n-Tail Slam marks two platforms and exposes the tail; kill it quickly for free boss damage.\n-Earthen Fury breaks a marked platform.\n-Tidal Wave, Hellfire, Judgment Bolt, Diamond Dust, and Aerial Blast all return.\n-Diamond Dust makes the floor slippery; stop moving.\n-Aerial Blast pulses knockbacks from the center, so stay close to the middle.\n-Ground Pound targets the center platform with a large AoE.\n-Burning Chains tethers two players; run apart to break them.\n-Ahk Morn returns, and a second blue beam later pulses on a random player.\n-Every two Corrupted Aether attacks, Shinryu uses Line Charge again and swaps sides.",
                 "d": "...",
-                "h": "-Shield before Judgment Bolt and Akh Morn.",
-                "t": "...",
+                "h": "-Shield before Judgment Bolt, Aerial Blast, and Ahk Morn.\n-Watch players soaking Line Charge or breaking chains near broken tiles.",
+                "t": "-Help burn the tail when it becomes targetable.\n-Keep safe positioning near intact tiles for Line Charge and Ahk Morn.",
                 "c": {
                     "6531": {
                         "a": {
+                            "8100": {
+                                "g": "Stack to split the Ahk Morn hits, then move out of the extra blue beam if it spawns on you.",
+                                "t": "Mitigate the repeated hits."
+                            },
+                            "8101": {
+                                "g": "Stack to split the Ahk Morn hits, then move out of the extra blue beam if it spawns on you.",
+                                "t": "Mitigate the repeated hits."
+                            },
                             "8107": {
-                                "g": "raid-wide fire attack - stand in a water puddle to mitigate."
+                                "g": "Raidwide fire attack. Stand in a water puddle to reduce damage."
                             },
                             "8106": {
-                                "g": "run to the water spout and hug it or get knockedbacked off the platform."
+                                "g": "Run to the waterspout edge or the knockback will throw you off."
+                            },
+                            "8108": {
+                                "g": "Raidwide lightning attack. Stay out of puddles."
                             },
                             "8111": {
-                                "g": "stand as close as possible but not ON center platform. Final charge knockbacks."
+                                "g": "Stay close to the center while the whirlwind pulses, then brace for the final knockback."
                             },
                             "8109": {
-                                "g": "careful not to slide off the arena."
+                                "g": "Diamond Dust freezes the platform. Do not move or you may slide off."
+                            },
+                            "9455": {
+                                "g": "Very wide line charge. Get fully clear if possible, or soak it away from the edge."
                             }
                         }
                     }
@@ -9933,14 +10023,14 @@
                 "st": [
                     {
                         "en": "Phase 1",
-                        "g": "-Kokytos reduces all players to 1 HP at pull\n-Exoterikos: purple beam = triangle cone across arena; red beam = half-room square\n-Paradeigma: Behemoths leave 2 safe quadrants; Snakes leave lanes safe between/edges\n-Adikia: fists hit east/west → safe north or south\n-Phlegeton: 3 successive AoEs under players, keep moving\n-Styx: multi-hit stack marker, heavy mitigation required\n-Ania: tankbuster",
+                        "g": "-Kokytos reduces all players to 1 HP at pull.\n-Exoterikos: purple beam = triangle cone across the arena; red beam = adjacent half-room square.\n-Paradeigma: Behemoths leave two safe quadrants; Snakes leave safe lanes between or outside them.\n-Adikia: fists hit left and right, leaving north and south safe.\n-Phlegeton: three successive AoEs under players, keep moving.\n-Styx: multi-hit stack marker, heavy mitigation required.\n-Ania: tankbuster.\n-Complete Control starts the next phase.",
                         "t": "-Mitigate Ania tankbuster\n-Help stabilize during Styx with Reprisal/party mit\n-Position boss center to simplify Exoterikos + Paradeigma reads",
                         "d": "-Identify Exoterikos color fast to pre-position\n-For Behemoths, move early to safe quadrants to maintain uptime\n-For Snakes, stand in safe lane and adjust for follow-up mechanics\n-Stack tightly for Styx, use personal mitigation",
                         "h": "-Immediately top party after Kokytos\n-Plan heavy mitigation + shields for Styx multi-hit\n-Spot heal during Phlegeton movement\n-Prepare recovery if players misread Exoterikos"
                     },
                     {
                         "en": "Phase 2",
-                        "g": "-Astral Flow rotates arena 90° before Paradeigma resolves; pre-plan safe spot after rotation\n-Triple Esoteric Ray fires in order shown; lasers do not linger, step into cleared lane immediately\n-Algedon diagonal knockback from boss corner; move to safe side quickly or fall off\n-Astral Eclipse: boss circles arena; read 3x3 star pattern to determine meteor impacts\n-Trimorphos Exoterikos: 3 sequential triangle/square patterns, resolve in order\n-Phase repeats mechanics (no more Astral Eclipse)",
+                        "g": "-Astral Flow rotates the arena 90 degrees before Paradeigma resolves; pre-plan the safe spot after rotation.\n-Triple Esoteric Ray fires in the order shown; lasers do not linger, so step into the cleared lane immediately.\n-Algedon is a diagonal strike from the front-left or front-right corner that can knock you off.\n-Astral Eclipse: read the 3x3 star pattern from the side the meteors are attacking from.\n-Trimorphos Exoterikos: three sequential triangle or square blasts, one on each side.\n-Phase repeats mechanics after that, without more Astral Eclipse.",
                         "t": "-Face boss predictably for Exoterikos chains\n-Mitigation for Styx remains critical\n-Be ready to adjust position after Astral Flow rotation",
                         "d": "-During Astral Flow, mentally rotate safe quadrant before movement returns\n-For Triple Ray, move immediately into just-fired lane for uptime\n-Respect Algedon; greed = death off platform\n-Resolve Trimorphos in sequence without over-rotating",
                         "h": "-Pre-mitigate Styx even during complex overlaps\n-Top party before and after Astral Flow rotations\n-Heavy healing after Astral Eclipse meteors\n-Be ready for sudden deaths from Algedon knock-offs"
@@ -9949,6 +10039,9 @@
                 "c": {
                     "12876": {
                         "a": {
+                            "26420": {
+                                "g": "Phase transition. Get ready for the next mechanic set."
+                            },
                             "27687": {
                                 "g": "Reduces everyone's HP to 1.",
                                 "d": "...",
@@ -9962,94 +10055,60 @@
                                 "t": "..."
                             },
                             "27702": {
-                                "g": "Shape [square?] at the side indicates AoE pattern: square = move to far half of the arena, triangle = move to front sides.",
-                                "d": "...",
-                                "h": "...",
-                                "t": "..."
+                                "g": "Purple triangle = wide cone across the arena from the rune. Red square = rune-side half-room blast."
                             },
                             "26561": {
-                                "g": "Three Exoterikos (beam + shape attack) in sequence.",
-                                "d": "...",
-                                "h": "...",
-                                "t": "..."
+                                "g": "Purple triangle = wide cone across the arena from the rune. Red square = rune-side half-room blast."
                             },
                             "26581": {
                                 "g": "Tankbuster.",
-                                "d": "...",
-                                "h": "...",
-                                "t": "..."
+                                "t": "Mitigate."
                             },
                             "26568": {
-                                "g": "Summons mechanics [behemoths?]: behemoths = AoE circles, snakes = line AoEs.",
-                                "d": "...",
-                                "h": "...",
-                                "t": "..."
+                                "g": "Paradeigma summons Behemoths or Snakes. Behemoths cover quadrants; Snakes make line lanes."
                             },
                             "26559": {
-                                "g": "Summons mechanics [snakes?]: behemoths = AoE circles, snakes = line AoEs.",
-                                "d": "...",
-                                "h": "...",
-                                "t": "..."
+                                "g": "Paradeigma summons Behemoths or Snakes. Behemoths cover quadrants; Snakes make line lanes."
                             },
                             "26587": {
                                 "g": "Extreme stack marker.",
-                                "d": "...",
                                 "h": "Prepare massive heals.",
                                 "t": "Highly suggest group mitigations."
                             },
                             "26586": {
                                 "g": "Extreme stack marker.",
-                                "d": "...",
                                 "h": "Prepare massive heals.",
                                 "t": "Highly suggest group mitigations."
                             },
                             "26576": {
-                                "g": "AoEs under players, keep moving to avoid.",
-                                "d": "...",
-                                "h": "...",
-                                "t": "..."
+                                "g": "AoEs under players. Keep moving."
                             },
                             "26575": {
-                                "g": "AoEs under players, keep moving to avoid.",
-                                "d": "...",
-                                "h": "...",
-                                "t": "..."
+                                "g": "AoEs under players. Keep moving."
+                            },
+                            "26584": {
+                                "g": "Both sides of the arena are hit. Move north or south."
                             },
                             "28361": {
-                                "g": "Floor rotates 90 degrees, note the behemoth/snake positions to not get hit.",
-                                "d": "...",
-                                "h": "...",
-                                "t": "..."
+                                "g": "Arena rotates 90 degrees. Re-read where the Behemoths or Snakes will resolve."
                             },
                             "27860": {
-                                "g": "Floor rotates 90 degrees, note the behemoth/snake positions to not get hit.",
-                                "d": "...",
-                                "h": "...",
-                                "t": "..."
+                                "g": "Arena rotates 90 degrees. Re-read where the Behemoths or Snakes will resolve."
                             },
                             "26159": {
-                                "g": "Floor rotates 90 degrees, note the behemoth/snake positions to not get hit.",
-                                "d": "...",
-                                "h": "...",
-                                "t": "..."
+                                "g": "Arena rotates 90 degrees. Re-read where the Behemoths or Snakes will resolve."
                             },
                             "26564": {
-                                "g": "Lasers fire in the order they appear.",
-                                "d": "...",
-                                "h": "...",
-                                "t": "..."
+                                "g": "Lasers fire in the order they appear. Step into the lane that just fired."
                             },
                             "26563": {
-                                "g": "Stars hit the arena, in the shape of the symbol Zodiark leaves behind. Note: from HIS point of view. The Z pattern is flipped.",
-                                "d": "...",
-                                "h": "...",
-                                "t": "..."
+                                "g": "Read the 3x3 star pattern from the side the meteors are attacking from. (North-West typically safe for zigzag pattern)"
                             },
                             "26577": {
-                                "g": "Diagonal knockback to your death.",
-                                "d": "...",
-                                "h": "...",
-                                "t": "..."
+                                "g": "Diagonal strike from the corner. Move to the safe side or get knocked off."
+                            },
+                            "26562": {
+                                "g": "Three Exoterikos blasts in sequence, one from each side. Resolve them in order."
                             }
                         }
                     }
