@@ -3677,6 +3677,7 @@
                 }
             },
             "273": {
+                "en": "Void Ark"
             }
         }
     },
@@ -6504,6 +6505,7 @@
         "en": "Castrum Fluminis",
         "maps": {
             "479": {
+                "en": "Castrum Fluminis"
             }
         }
     },
@@ -10187,6 +10189,7 @@
         "en": "Brayflox's Longstop",
         "maps": {
             "45": {
+                "en": "Brayflox's Longstop",
                 "st": [
                     {
                         "en": "Great Yellow Pelican",
@@ -11232,6 +11235,7 @@
                 "h": "..."
             },
             "233": {
+                "en": "Aetherochemical Research Facility"
             },
             "234": {
                 "en": "Lahabrea and Igeyorhm",
