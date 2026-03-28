@@ -7912,13 +7912,71 @@
         "maps": {}
     },
     "849": {
-        "en": "The Core",
+        "en": "Eden's Gate: Resurrection",
         "maps": {
             "559": {
-                "en": "The Core",
-                "d": "...",
-                "h": "...",
-                "t": "..."
+                "en": "Eden's Gate: Resurrection",
+                "st": [
+                    {
+                        "en": "Phase 1",
+                        "g": "-Arena edge is lethal.\n-Spear of Paradise is a two-hit tankbuster.\n-Eden's Gravity is raidwide damage.\n-Vice and Virtue can either mark four players to spread puddles at the edge, or tether both tanks for line blasts that must be aimed apart from the party.\n-Eden's Flare is a donut AoE around Eden.\n-Pure Light teleports Eden to a corner and blasts the arena center-to-corner line, so move behind him.\n-Delta Attack leaves only the corners safe while every player also gets a circle marker.\n-Dimensional Shift changes the arena and starts the Pure Beam plus Paradise Lost sequence.\n-While dodging Pure Beam lines and Paradise Lost circles, be ready for another Pure Light.\n-After the second Dimensional Shift, Fragor Maximus transitions the fight.",
+                        "d": "",
+                        "h": "-Prepare for repeated raid damage from Eden's Gravity, Dimensional Shift, and Fragor Maximus.\n-Recover players clipped by Delta Attack or the Pure Beam / Paradise Lost overlap quickly.",
+                        "t": "-Mitigate Spear of Paradise.\n-Aim Vice and Virtue tank lines away from the party."
+                    },
+                    {
+                        "en": "Phase 2",
+                        "g": "-Two proximity markers appear near center; move north or south before the adds land.\n-Guardians of Paradise must be picked up by the tanks, faced away from the raid, and killed before Unto Dust wipes the party.\n-The two adds can be stacked together.\n-After the transition sequence and heavy damage, the earlier mechanics repeat, except Fragor Maximus does not return.",
+                        "d": "",
+                        "h": "-Heal heavily after the transition sequence when the raid returns from space.\n-Keep the party stable while both adds are alive and pulsing raid damage.",
+                        "t": "-Pick up both Guardians quickly, face them away, and stack them together."
+                    }
+                ],
+                "c": {
+                    "9369": {
+                        "a": {
+                            "15764": {
+                                "g": "Raidwide damage."
+                            },
+                            "15767": {
+                                "g": "Donut AoE. Move into Eden's hitbox."
+                            },
+                            "15772": {
+                                "g": "Raidwide transition into the altered arena and the next mechanic sequence."
+                            },
+                            "15773": {
+                                "g": "Line AoEs fire from the floating orbs toward random players."
+                            },
+                            "15775": {
+                                "g": "Repeated circles form under random players. Keep moving while dodging the beam lines."
+                            },
+                            "15777": {
+                                "g": "Two-hit tankbuster.",
+                                "t": "Mitigate."
+                            },
+                            "15778": {
+                                "g": "Two-hit tankbuster.",
+                                "t": "Mitigate."
+                            },
+                            "15779": {
+                                "g": "Eden teleports to a corner and blasts straight through the center. Move behind him."
+                            },
+                            "15780": {
+                                "g": "Raidwide transition into the add phase."
+                            },
+                            "17636": {
+                                "g": "Four players get orb markers. Spread to the edge and do not overlap the puddles."
+                            },
+                            "17637": {
+                                "g": "Both tanks are tethered for line blasts. Separate and aim them away from the party.",
+                                "t": "Do not overlap the tank lines."
+                            },
+                            "17642": {
+                                "g": "Only the corners are safe, and every player also gets a circle AoE. Split up into the safe corners."
+                            }
+                        }
+                    }
+                }
             }
         }
     },
@@ -8643,30 +8701,163 @@
         }
     },
     "904": {
-        "en": "The Halo",
+        "en": "Eden's Verse: Iconoclasm",
         "maps": {
             "591": {
-                "en": "The Halo",
-                "d": "...",
-                "h": "...",
-                "t": "..."
+                "en": "The Idol of Darkness",
+                "st": [
+                    {
+                        "en": "Phase 1",
+                        "g": "-Arena edge is lethal.\n-Empty Wave is raidwide damage.\n-Unshadowed Stake is a line tankbuster; aim it away from the party.\n-Words of Motion fires bird clouds down lanes in summon order; sidestep the first set, then move into the emptied lane.\n-Betwixt Worlds adds red and blue portals; watch which bird enters which color portal and swap to the opposite side-lane after the first shot.\n-Away With Thee teleports everyone to their linked circle; aim it so you do not land off the arena or into mechanics.\n-False Twilight drops random player AoEs.\n-Silver Sledge makes two split stack groups.\n-Unjoined Aspect plus Words of Night: get hit by the opposite color bird three times to swap safely.",
+                        "d": "",
+                        "h": "-Prepare for Empty Wave and split-stack damage from Silver Sledge.\n-Recover players clipped by teleport or lane mistakes quickly.",
+                        "t": "-Aim Unshadowed Stake away from the raid and mitigate."
+                    },
+                    {
+                        "en": "Phase 2",
+                        "g": "-Two Idolatry adds spawn and can be stacked together.\n-Away With Thee returns while the adds cast Strength In Numbers donut AoEs; aim the teleport to land in a safe spot.\n-Silver Shot marks every player with spread AoEs.\n-The next Strength In Numbers is point-blank instead, so spread safely away from both adds.\n-Kill both adds before Explosion finishes or the raid wipes.\n-Empty Flood ends the phase with raidwide damage.",
+                        "d": "",
+                        "h": "-Prepare for repeated add AoEs and Empty Flood.\n-Watch for players teleported into bad spots during Away With Thee.",
+                        "t": "-Grab both adds and stack them for cleave damage."
+                    },
+                    {
+                        "en": "Phase 3",
+                        "g": "-Unjoined Aspect returns with full red and blue portal coverage.\n-Find the inner lane that matches the opposite of your debuff, then stand on a tile where both portal shots crossing it are also the opposite color; you should not need to move after that.\n-Black Smoke spawns north and south meteor towers.\n-Away With Thee happens during Black Smoke, so aim your teleport to land inside a tower soak.\n-These mechanics loop until the boss dies.",
+                        "d": "",
+                        "h": "-Black Smoke failures are usually fatal, so pre-shield before the tower soaks.\n-Watch for teleport mistakes during the portal overlaps.",
+                        "t": ""
+                    }
+                ],
+                "c": {
+                    "11565": {
+                        "a": {
+                            "19499": {
+                                "g": "Bird clouds fire down lanes in summon order. Dodge the first lanes, then move into the lane they vacated."
+                            },
+                            "19500": {
+                                "g": "Get hit by the opposite color bird to your current aspect."
+                            },
+                            "19513": {
+                                "g": "Teleport to the linked circle. Aim it so you do not land off the arena or into danger."
+                            },
+                            "19515": {
+                                "g": "Light or dark aspect. You must get hit by the opposite color bird."
+                            },
+                            "19537": {
+                                "g": "Line tankbuster.",
+                                "t": "Aim it away from the party and mitigate."
+                            },
+                            "19538": {
+                                "g": "Raidwide damage."
+                            },
+                            "19545": {
+                                "g": "Random player AoEs. Spread and move out."
+                            },
+                            "19704": {
+                                "g": "Red and blue portals redirect the bird lanes. Track which color fires first and swap sides after the first shot."
+                            }
+                        }
+                    }
+                }
             }
         }
     },
     "905": {
-        "en": "Great Glacier",
+        "en": "Eden's Verse: Refulgence",
         "maps": {
             "599": {
-                "en": "Great Glacier",
-                "d": "...",
-                "h": "...",
-                "t": "..."
+                "en": "Eden's Verse: Refulgence",
+                "st": [
+                    {
+                        "en": "Phase 1",
+                        "g": "-Arena edge is lethal.\n-Absolute Zero is raidwide damage.\n-Redress: in Ice form, look away for the gaze; in Holy form, it applies Thin Ice.\n-Holy form: Axe Kick is point-blank, Scythe Kick is donut.\n-After Holy form, Shiva redresses back and Thin Ice continues into Biting Frost or Driving Frost, so slide behind her or in front of her safely.\n-Double Slap is the tankbuster.\n-Diamond Frost is heavy raidwide damage.\n-Frigid Stone and Frigid Water: proximity markers go to the edge while circle markers spread in the center safe space.\n-Frigid Eruption chases marked players three times.\n-Heavenly Strike knocks back from Shiva.\n-Mirror, Mirror copies Biting Frost or Driving Frost from the edge mirrors.\n-Shattered World ends the phase.",
+                        "d": "",
+                        "h": "-Prepare for Absolute Zero, Diamond Frost, and split damage during Frigid Stone and Frigid Water.\n-Watch players sliding badly during Thin Ice or getting knocked toward the edge.",
+                        "t": "-Mitigate Double Slap and keep Shiva faced safely for the frost cone mechanics."
+                    },
+                    {
+                        "en": "Phase 3",
+                        "g": "-Holy either drops a center proximity marker or four edge proximity markers; move out or in accordingly.\n-Light Rampant is heavy raidwide damage.\n-Path of Light resolves as four one-player towers, then two two-player towers, then one four-player tower; cone-marked players must stand between towers and away from each other.\n-Mirror, Mirror now copies Axe Kick or Scythe Kick from four mirrors.\n-Twin Silence is Driving Frost into Biting Frost, while Twin Stillness is Biting Frost into Driving Frost; Thin Ice is active, so slide twice without falling.\n-Shiva later enrages with repeated Absolute Zero casts until pushed.",
+                        "d": "",
+                        "h": "-Pre-mitigate Light Rampant and the repeated tower damage from Path of Light.\n-Be ready to recover teleport or sliding mistakes during the Twin mechanics.",
+                        "t": ""
+                    },
+                    {
+                        "en": "Phase 4",
+                        "g": "-Everyone is frozen while Shiva begins Endless Ice Age.\n-Gaia frees the raid and doubles the cast time.\n-Break Ryne out of the ice before Endless Ice Age finishes or the raid wipes.",
+                        "d": "",
+                        "h": "",
+                        "t": ""
+                    }
+                ],
+                "c": {
+                    "11635": {
+                        "a": {
+                            "19924": {
+                                "g": "Mirrors copy Shiva's next attack after a delay. Read the follow-up and move for both Shiva and the mirrors."
+                            },
+                            "19927": {
+                                "g": "Raidwide damage."
+                            },
+                            "20008": {
+                                "g": "Raidwide damage."
+                            },
+                            "19928": {
+                                "g": "Knockback from Shiva. Stay close or use knockback immunity."
+                            },
+                            "19929": {
+                                "g": "Towers resolve as four one-player, then two two-player, then one four-player soak. Cone-marked players stand away from the towers."
+                            },
+                            "19930": {
+                                "g": "Tankbuster.",
+                                "t": "Mitigate."
+                            },
+                            "19931": {
+                                "g": "Frontal cone. With Thin Ice active, slide behind Shiva."
+                            },
+                            "19932": {
+                                "g": "Rear cone. With Thin Ice active, slide in front of Shiva or to her flanks."
+                            },
+                            "19934": {
+                                "g": "Driving Frost first, then Biting Frost. Slide twice with Thin Ice without going over the edge."
+                            },
+                            "19935": {
+                                "g": "Biting Frost first, then Driving Frost. Slide twice with Thin Ice without going over the edge."
+                            },
+                            "19937": {
+                                "g": "Heavy raidwide damage."
+                            },
+                            "19938": {
+                                "g": "Point-blank AoE. Move away from Shiva."
+                            },
+                            "19939": {
+                                "g": "Donut AoE. Move into Shiva's hitbox."
+                            },
+                            "19944": {
+                                "g": "Heavy raidwide damage."
+                            },
+                            "19945": {
+                                "g": "Arena shatters into reflections, starting the split-platform phase."
+                            },
+                            "19948": {
+                                "g": "One orb means center proximity, four orbs mean edge proximities. Move out or in accordingly."
+                            },
+                            "20302": {
+                                "g": "Holy-to-Ice Redress applies Thin Ice."
+                            },
+                            "20303": {
+                                "g": "Ice-to-Holy Redress is a gaze. Look away."
+                            }
+                        }
+                    }
+                }
             },
             "602": {
                 "en": "Frozen Reflections",
-                "d": "...",
-                "h": "...",
-                "t": "..."
+                "g": "-The raid is split across small platforms with a central crystal.\n-The crystal pulses unavoidable damage.\n-Elemental adds walk toward the crystal; stop them before they reach it.\n-Some adds tether to the crystal instead; players must intercept the tether before it resolves.\n-If the Flood of Light gauge fills, the raid wipes.\n-Survive the adds and raid damage to return with Grace of Light for the next phase.",
+                "d": "",
+                "h": "-The crystal's repeated AoE damage is constant pressure.\n-Watch tether soakers and the Flood of Light gauge closely.",
+                "t": "-Pick up adds quickly so they do not walk into the crystal."
             }
         }
     },
@@ -10841,22 +11032,224 @@
         "en": "Aglaia",
         "maps": {
             "755": {
-                "en": "Aglaia",
-                "d": "...",
-                "h": "...",
-                "t": "..."
+                "en": "Byregot",
+                "g": "-Arena edge inflicts Electrocution.\n-Byregot's Ward is the tankbuster.\n-Ordeal of Thunder is raidwide damage.\n-Byregot's Strike is a knockback from a circle near the middle; the blue center is lethal.\n-Builder's Build adds four thin cone AoEs translated into the knockback circle.\n-In the block arena, hammers push tiles sideways; if your floor is moved out from under you, you fall.\n-Levinforge creates a long line AoE from the purple hammer and can be shifted by the moving rows.\n-Byregot's Spire covers the center three columns while the side hammers move the floor.\n-Reproduce sends exaflares down the arena; the lightning-marked clones travel faster, so follow a slow lane and cross after the fast set passes.",
+                "d": "",
+                "h": "-Prepare for repeated raid damage from Ordeal of Thunder.\n-Watch players clipped by knockbacks or hammer movement near the edge.",
+                "t": "-Mitigate Byregot's Ward and keep safe positioning for Byregot's Strike.",
+                "c": {
+                    "14603": {
+                        "a": {
+                            "29031": {
+                                "g": "Knockback from the marked circle. Position so it sends you onto safe ground."
+                            },
+                            "29034": {
+                                "g": "Purple hammer line AoE. Predict where the hammer will end up after the rows shift."
+                            },
+                            "29039": {
+                                "g": "Exaflares from the clones. Follow a slow lane, then cross after the fast line passes."
+                            },
+                            "29040": {
+                                "g": "Center three columns are unsafe while the outside hammers push the floor. Stand where the moved tile becomes safe."
+                            },
+                            "29041": {
+                                "g": "Exaflares from the clones. Follow a slow lane, then cross after the fast line passes."
+                            },
+                            "29045": {
+                                "g": "Tankbuster.",
+                                "t": "Mitigate."
+                            },
+                            "29046": {
+                                "g": "Raidwide damage."
+                            },
+                            "29274": {
+                                "g": "Knockback from the marked circle. Position so it sends you onto safe ground."
+                            },
+                            "29433": {
+                                "g": "Thin cone AoEs appear around the knockback circle. Find a safe lane before the push."
+                            }
+                        }
+                    }
+                }
             },
             "756": {
                 "en": "Aglaia",
-                "d": "...",
-                "h": "...",
-                "t": "..."
+                "st": [
+                    {
+                        "en": "Rhalgr's Emissary",
+                        "g": "-Destructive Strike is a cleaving tankbuster.\n-Bolts from the Blue is raidwide damage.\n-Destructive Static cleaves one half of the arena based on the axe shoulder.\n-Lightning Bolt traces out a path across the arena, then random puddles appear on players.\n-Later, a Destructive Static can resolve immediately after Lightning Bolt.\n-Boltloop places two circle AoEs on opposite sides, then an expanding donut.",
+                        "d": "",
+                        "h": "-Prepare for raid damage from Bolts from the Blue and Lightning Bolt overlap.\n-Watch players clipped by puddles after the line traces.",
+                        "t": "-Face the Emissary safely and mitigate Destructive Strike."
+                    },
+                    {
+                        "en": "Rhalgr",
+                        "g": "-Arena edge is lethal.\n-Lightning Reign is raidwide damage.\n-Advent of the Eighth plus Hand of the Destroyer punches the matching portal color and hits that half of the arena.\n-Broken World adds the comet / flare pattern; if the hand punches the comet, only the space under it is safe.\n-Rhalgr's Beacon knocks players down marked lines onto the fingers.\n-Hell of Lightning places hazards on some fingers, so choose a safe landing line.\n-Bronze Work is two waves of thin cones; stand in the second set first, then move.\n-Destructive Bolt hits all three tanks.",
+                        "d": "",
+                        "h": "-Prepare for Lightning Reign and for players landing badly after Rhalgr's Beacon.\n-Recover quickly after Broken World combinations.",
+                        "t": "-Mitigate Destructive Bolt on all three tanks."
+                    }
+                ],
+                "c": {
+                    "14586": {
+                        "a": {
+                            "28890": {
+                                "g": "Dash or charge attack. Stay out of its path."
+                            },
+                            "28896": {
+                                "g": "Half-room cleave based on the shoulder the axe is held over."
+                            },
+                            "28897": {
+                                "g": "Follow the traced lightning path, then dodge the player puddles."
+                            },
+                            "28899": {
+                                "g": "Raidwide damage."
+                            }
+                        }
+                    },
+                    "14550": {
+                        "a": {
+                            "28836": {
+                                "g": "Tankbusters on all three tanks.",
+                                "t": "Mitigate."
+                            },
+                            "28837": {
+                                "g": "Raidwide damage."
+                            },
+                            "28838": {
+                                "g": "Comet and flare mechanic. If the hand punches the comet, only directly under it is safe."
+                            },
+                            "28839": {
+                                "g": "Colored portals split the arena. Move to the half that will not be punched."
+                            },
+                            "28840": {
+                                "g": "Massive fist AoE through the matching portal color."
+                            },
+                            "28841": {
+                                "g": "Massive fist AoE through the matching portal color."
+                            },
+                            "28842": {
+                                "g": "Center knockback. Choose a line that lands on a safe finger."
+                            },
+                            "28844": {
+                                "g": "Massive fist AoE through the matching portal color."
+                            }
+                        }
+                    }
+                }
             },
             "757": {
                 "en": "Aglaia",
-                "d": "...",
-                "h": "...",
-                "t": "..."
+                "st": [
+                    {
+                        "en": "Lion of Aglaia and Lioness of Aglaia",
+                        "g": "-Double Immolation is raidwide damage.\n-Slash and Burn resolves a circle on the lion and a donut on the lioness in dot order.\n-Roaring Blaze cleaves the halves in front of each lion, also in dot order.\n-After one lion dies, the surviving lion keeps a simpler half-room cleave plus either a center circle or a center donut.\n-Killing the lion first is common because the lioness's donut is easier to keep uptime on.",
+                        "d": "",
+                        "h": "",
+                        "t": ""
+                    },
+                    {
+                        "en": "Azeyma",
+                        "g": "-Warden's Warmth is three tankbusters.\n-Warden's Prominence is raidwide damage.\n-Solar Wings leaves flank cones and exploding orbs; later, illusions kick the orbs before they explode.\n-Solar Fans move around the arena edge, then Radiant Finish explodes them in large circles.\n-Solar Fold divides the arena by flame bars, and Sun's Shine clones blow the fire into other quadrants.\n-Fleeting Spark is a quick 270-degree cleave to Azeyma's front and flanks.\n-Wildfire Ward leaves only a small center safe zone and follows with three sequential knockbacks.\n-Noble Dawn marks fiery puddles, then Sublime Sunset kicks the center orb to one side for a flare.",
+                        "d": "",
+                        "h": "-Prepare for Warden's Prominence and repeated damage when orb or fan patterns are missed.\n-Watch players knocked into fire during Wildfire Ward.",
+                        "t": "-Mitigate Warden's Warmth."
+                    },
+                    {
+                        "en": "The Traders: Nald'thal",
+                        "g": "-Arena edge inflicts heavy damage-over-time.\n-The active brother color determines which orange or blue telegraphs are real, and swaps can change that during the cast.\n-Golden Tenet is a shared tankbuster for all three tanks, while Stygian Tenet is a separate hit on each tank.\n-As Above, So Below and Hells' Trial are raidwides.\n-Heat Above, Flames Below combines a melee circle and outer donut, but only the active color is real.\n-Heavens' Trial is three cone markers plus a stack marker.\n-Far Above, Deep Below is three chasers plus a line stack, again only in the active color.\n-Once Above, Ever Below sends traveling AoEs in the active color directions.\n-Hell of Fire blasts half the arena based on Thal's facing and can flip if the brothers swap.\n-Wayward Soul drops large circles, ending in a spiral pattern.\n-Fired Up releases ordered circles or knockbacks after Fortune's Flux.\n-Soul's Measure and Tipped Scales require each alliance to balance their side or wipe.\n-Hearth Above, Flight Below combines the color-safe area with either the line stack or the chasers.",
+                        "d": "",
+                        "h": "-Prepare for repeated raid damage and large mistakes during Tipped Scales.\n-Watch knockback paths during Fired Up carefully.",
+                        "t": "-Stack for Golden Tenet with the other alliance tanks or invuln it.\n-Mitigation is also needed for Stygian Tenet."
+                    }
+                ],
+                "c": {
+                    "14545": {
+                        "a": {
+                            "28800": {
+                                "g": "Fans move out from the boss with line AoEs. Move toward a cardinal without a fan."
+                            },
+                            "28801": {
+                                "g": "Flank cones that leave exploding orbs. Later, track where the illusions will kick the orbs."
+                            },
+                            "28805": {
+                                "g": "Clones blow the flame bars into other quadrants. Find the one quadrant that stays safe."
+                            },
+                            "28808": {
+                                "g": "Arena splits into four flame quadrants. The later clone blasts determine which quadrants become unsafe."
+                            },
+                            "28813": {
+                                "g": "Fans start circling the edge with line AoEs."
+                            },
+                            "28815": {
+                                "g": "Fans rotate 90 degrees around the arena edge."
+                            },
+                            "28816": {
+                                "g": "Fans rotate 90 degrees around the arena edge."
+                            },
+                            "28817": {
+                                "g": "Both fans explode in large circles. Stand at a cardinal without a fan."
+                            },
+                            "28826": {
+                                "g": "Center triangle is the only safe area before three knockbacks. Memorize the line order or use knockback immunity."
+                            },
+                            "28828": {
+                                "g": "Fast 270-degree cleave to Azeyma's front and flanks."
+                            },
+                            "28830": {
+                                "g": "Three tankbusters.",
+                                "t": "Mitigate."
+                            },
+                            "28832": {
+                                "g": "Raidwide damage."
+                            }
+                        }
+                    },
+                    "14595": {
+                        "a": {
+                            "28904": {
+                                "g": "Raidwide damage and arena transition."
+                            },
+                            "28906": {
+                                "g": "Raidwide damage and arena transition."
+                            },
+                            "28942": {
+                                "g": "Large falling circles, ending in a spiral. Keep moving around the boss."
+                            },
+                            "28945": {
+                                "g": "Ordered circles or knockbacks release after Fortune's Flux. Plan both knockbacks ahead of time."
+                            },
+                            "28954": {
+                                "g": "Shared tankbuster for all three tanks.",
+                                "t": "Stack with the other tanks or invuln."
+                            },
+                            "28958": {
+                                "g": "Three cone markers and one stack marker."
+                            },
+                            "29367": {
+                                "g": "Half-arena laser based on Thal's facing. Re-check if the brothers swap."
+                            },
+                            "29369": {
+                                "g": "Half-arena laser based on Thal's facing. Re-check if the brothers swap."
+                            },
+                            "29578": {
+                                "g": "Ordered circles or knockbacks release after Fortune's Flux. Plan both knockbacks ahead of time."
+                            },
+                            "29604": {
+                                "g": "Melee circle and outer donut, but only the active brother's color is real."
+                            },
+                            "29605": {
+                                "g": "Melee circle and outer donut, but only the active brother's color is real."
+                            },
+                            "29611": {
+                                "g": "Three chasers plus a line stack in the active color."
+                            },
+                            "29724": {
+                                "g": "Traveling AoEs move in the active color directions shown by the arrows."
+                            }
+                        }
+                    }
+                }
             }
         }
     },
