@@ -7586,15 +7586,34 @@
         "maps": {
             "510": {
                 "en": "The Qitana Ravel",
-                "d": "...",
-                "h": "...",
-                "t": "..."
+                "st": [
+                    {
+                        "en": "Lozatl",
+                        "g": "-Stonefist is the tankbuster, and Sun Toss drops a circle on one player.\n-Lozatl's Scorn makes one statue blast half the arena.\n-Heat Up marks one side of Lozatl, then Lozatl's Fury hits the half of the arena that glowing side faces.\n-Later Scorn and Fury overlap; watch both statue and body glow to find the safe space.",
+                        "d": "",
+                        "h": "",
+                        "t": ""
+                    },
+                    {
+                        "en": "Batsquatch",
+                        "g": "-Ripper Fang is the tankbuster. Soundwave is raidwide damage.\n-Subsonics drops rock circles; the largest ones leave pillars.\n-If pillars remain when Soundwave is cast, they topple in narrow cones for heavy damage and Vulnerability Up, so stand clear of the fall direction.",
+                        "d": "",
+                        "h": "-Prepare healing for repeated Subsonics hits and the following Soundwave.",
+                        "t": ""
+                    }
+                ]
             },
             "511": {
                 "en": "The Qitana Ravel",
-                "d": "...",
-                "h": "...",
-                "t": "..."
+                "st": [
+                    {
+                        "en": "Lightwarden: Eros",
+                        "g": "-Rend is the tankbuster, and Hound out of Heaven tethers a random non-tank. Stretch the tether until it turns purple before the charge lands.\n-Viper Poison leaves puddles, then Inhale pulls everyone in and Heaving Breath knocks everyone across the room. Stand where the knockback will not send you into poison.\n-For Confession of Faith, lightning means stack in front of Eros while the side heads cleave; fire means two player circles plus a center cone, so stand beside Eros to dodge.",
+                        "d": "",
+                        "h": "-Glossolalia is the raidwide.\n-Prepare for damage after Hound out of Heaven and poison mistakes.",
+                        "t": ""
+                    }
+                ]
             }
         }
     },
@@ -11565,7 +11584,7 @@
                     {
                         "en": "Good King Moggle Mog XII",
                         "g": "-King is only target; untargetable moogles repeat earlier mechanics.\n-Handle stack markers, spreads, and rotating safe-spots for Moogle-Go-Round.\n-Intercept all Pom Meteors (again) during Third Decree.\n-Avoid Mog Comet chasing circles.\n-Fight loops until King dies.",
-                        "t": "...",
+                        "t": "-Stack with the other tank when you see the two red balls stack marker.",
                         "d": "...",
                         "h": "..."
                     }
