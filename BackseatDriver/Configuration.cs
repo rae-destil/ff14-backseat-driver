@@ -12,6 +12,8 @@ public class Configuration : IPluginConfiguration
     public bool KeepDriverOpenOnClick { get; set; } = true;
     public bool DisplayNerdStuff { get; set; } = false;
     public bool CoachModeEchoIntoChat { get; set; } = true;
+    public bool CoachModeLogToFile { get; set; } = false;
+    public bool CoachModeLogMapChanges { get; set; } = false;
 
     // the below exist just to make saving less cumbersome
     public void Save()

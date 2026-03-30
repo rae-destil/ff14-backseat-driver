@@ -105,7 +105,7 @@ public class CoachWindow : Window, IDisposable
         eventsLog.Enqueue(castString);
         pendingLogUpdate = true;
 
-        //Plugin.Log.Info(castString);
+        plugin.AppendSessionLog(castString, LogEventKind.CoachCast);
     }
 
     public void Dispose() { }

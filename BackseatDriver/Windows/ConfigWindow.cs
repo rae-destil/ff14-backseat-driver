@@ -39,6 +39,23 @@ public class ConfigWindow : Window, IDisposable
             config.CoachModeEchoIntoChat = configValue;
         }
 
+        configValue = config.CoachModeLogToFile;
+        if (ImGui.Checkbox("Write coach hints to file.", ref configValue))
+        {
+            config.CoachModeLogToFile = configValue;
+        }
+
+        configValue = config.CoachModeLogMapChanges;
+        if (ImGui.Checkbox("Write territory and map changes to file.", ref configValue))
+        {
+            config.CoachModeLogMapChanges = configValue;
+        }
+
+        if (config.CoachModeLogToFile || config.CoachModeLogMapChanges)
+        {
+            ImGui.TextWrapped($"Log file: {plugin.GetSessionLogPath()}");
+        }
+
         if (ImGui.Button("Save and Close"))
         {
             config.Save();
