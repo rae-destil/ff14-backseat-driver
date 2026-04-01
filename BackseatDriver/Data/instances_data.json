@@ -4534,26 +4534,75 @@
                 "st": [
                     {
                         "en": "Phase 1",
-                        "g": "-Thunder II: front cone.\n-Thunder III: donut AoE, hug her.\n-Aero II: centered AoE with knockback.\n-Daughter: moves to arena sides and casts Light Dew line AoEs.\n-Proximity markers appear under players that must be moved away from to avoid extra damage.",
-                        "d": "...",
-                        "h": "...",
-                        "t": "..."
+                        "g": "-Thunder II is a large frontal cone, then Thunder III is a donut with a safe spot near Sophia.\n-Aero knockback is minor early, but later the rails are gone, so respect it.\n-Daughter fires Light Dew line AoEs from the arena edge, and Sophia Rush is another full line from east or west.\n-Move away from player-targeted proximity markers.",
+                        "d": "",
+                        "h": "-Prepare healing after repeated AoEs and any failed proximity markers.",
+                        "t": "-Face Sophia away so Thunder II stays clear of the party."
                     },
                     {
                         "en": "Adds Phase",
-                        "g": "-Sophia casts Cloudy Heavens to become invulnerable and marks all players with Eternal Doom.\n-Three Demiurge adds spawn (kill order: Healer, Lancer, Paladin) and must be killed quickly or you wipe.\n-Paladin parry knocks back.",
-                        "d": "...",
-                        "h": "...",
-                        "t": "-Off-tank picks up Binah/Cochma or relevant Demiurges quickly; MT handles others."
+                        "g": "-Cloudy Heavens makes Sophia invulnerable and applies Eternal Doom until the three adds die.\n-Kill order is healer, then lancer, then paladin.\n-The paladin add has a directional parry, the healer add uses a gaze, and the lancer add leaves a persistent ice puddle, so place it at the edge.",
+                        "d": "",
+                        "h": "-If players die with Eternal Doom, they become zombies and attack the party.",
+                        "t": "-Separate and hold the adds cleanly, especially the lancer at the side."
                     },
                     {
                         "en": "Phase 2",
-                        "g": "-Sophia casts Quasar, spawning scales on east and west. Meteors fall outside: orange weight =1, blue weight =3. Arena tilts toward heavier side.\n-Players slide toward low (heavier) side: position near edge and avoid frost puddles from Adds Phase.\n-Sin & Punishment (light/dark ring markers) - stack with someone with OPPOSITE marker.",
-                        "d": "...",
-                        "h": "...",
-                        "t": "..."
+                        "g": "-From here on, players can fall off the platform.\n-Quasar tilts the arena toward the heavier side. Orange meteors weigh 1, blue meteors weigh 3, so usually move opposite the blue side and stand at the edge before the tilt.\n-Avoid sliding through the lingering ice puddle from the adds phase.\n-Sin & Punishment gives light and dark rings; pair with a player of the opposite color.\n-At low HP, another healer add spawns. Either kill it or have the off-tank drag it away while the raid finishes Sophia.",
+                        "d": "",
+                        "h": "-Prepare for fall deaths and Quasar mistakes after the rails are gone.",
+                        "t": "-Be ready to pick up the late healer add if the group stays on Sophia."
                     }
-                ]
+                ],
+                "c": {
+                    "6026": {
+                        "a": {
+                            "6510": {
+                                "g": "Quasar tilts the arena. Move to the lighter side before the slide. (weights: blue=3, orange=1)"
+                            },
+                            "6514": {
+                                "g": "Donut AoE. Move in near Sophia."
+                            },
+                            "6515": {
+                                "g": "Knockback from Sophia. Do not get pushed off."
+                            },
+                            "6516": {
+                                "g": "Frontal cone. Stay out of front.",
+                                "t": "Face it away from the party."
+                            },
+                            "6528": {
+                                "g": "Adds phase begins. Sophia is invulnerable until the Demiurges die."
+                            },
+                            "6533": {
+                                "g": "Line charge across the arena. Move out of the path."
+                            },
+                            "6535": {
+                                "g": "Raidwide damage."
+                            }
+                        }
+                    },
+                    "6029": {
+                        "a": {
+                            "6521": {
+                                "g": "Gaze attack. Look away."
+                            }
+                        }
+                    },
+                    "6030": {
+                        "a": {
+                            "6524": {
+                                "g": "Drops a persistent ice puddle. Keep it at the edge."
+                            }
+                        }
+                    },
+                    "6031": {
+                        "a": {
+                            "6525": {
+                                "g": "Directional parry. Do not attack into the defended side."
+                            }
+                        }
+                    }
+                }
             }
         }
     },
@@ -5811,10 +5860,57 @@
         "maps": {
             "390": {
                 "en": "Alte Roite",
-                "g": "-Wyrm Tail and Twin Bolt are tankbusters; Twin Bolt also hits closest tethered player.\n-Breathwing and Clamp knockback - hug boss during breathwing.\n-Elements: Fire Orbs (AoE), Thin Ice (arena turns to ice), Levinbolt (spread), Blaze (stack), and Downburst (tornado in the center, avoid).\n-Charybdis drops HP to 1—follow immediately with healing before Roar finishes.",
-                "d": "-If tethered for Twin Bolt, stand closest to MT intentionally; if not, avoid that spot.\n-Dodge knockbacks toward safe zones during Breathwing and Clamp.\n-React quickly to Classical Elements combos to avoid stacking mechanics.",
-                "h": "-Prepare burst healing after Charybdis + Roar.\n-Watch for high incoming damage on Twin Bolt target and Vulnerability Up players.",
-                "t": "-Git gud."
+                "g": "-Wyrm Tail and Twin Bolt are tankbusters; Twin Bolt also hits the closest tethered player.\n-Breath Wing and Clamp are knockbacks; hug the boss for Breath Wing.\n-Elements: Flame drops fire orbs, Flash Freeze makes the arena slippery, Levinbolt is spread, Blaze is stack, and Downburst places a tornado in the center.\n-Charybdis drops everyone to 1 HP, so recover before Roar finishes.",
+                "d": "-If tethered for Twin Bolt, only stand closest if you are the intended soak.\n-Dodge knockbacks into safe ground and react quickly to Classical Elements.",
+                "h": "-Prepare burst healing after Charybdis into Roar.\n-Watch for heavy damage on the tank and Twin Bolt soak target.",
+                "t": "-Mitigate Wyrm Tail and Twin Bolt.\n-Keep Alte Roite steady so the intended Twin Bolt target can position closest.",
+                "c": {
+                    "6767": {
+                        "a": {
+                            "7896": {
+                                "g": "Center tornado. Stay out of it."
+                            },
+                            "9174": {
+                                "g": "Tankbuster.",
+                                "t": "Mitigate the hit."
+                            },
+                            "9175": {
+                                "g": "Tankbuster plus a second hit on the closest tethered player.",
+                                "d": "If tethered, stand closest only if you are the tethered soak.",
+                                "h": "Be ready for two heavy hits.",
+                                "t": "Mitigate and keep the tethered target closest."
+                            },
+                            "9177": {
+                                "g": "Spread for lightning."
+                            },
+                            "9179": {
+                                "g": "Drops everyone to 1 HP.",
+                                "h": "Top the party immediately before the follow-up damage."
+                            },
+                            "9180": {
+                                "g": "Raidwide damage."
+                            },
+                            "9181": {
+                                "g": "Fire orb AoEs. Stay clear of the explosions."
+                            },
+                            "9182": {
+                                "g": "Knockback. Hug the boss."
+                            },
+                            "9183": {
+                                "g": "Thin Ice. Minimize movement or you will slide."
+                            },
+                            "9184": {
+                                "g": "Combines the elemental mechanics."
+                            },
+                            "9185": {
+                                "g": "Stack to share the hit."
+                            },
+                            "9186": {
+                                "g": "Knockback. Avoid being pushed into hazards."
+                            }
+                        }
+                    }
+                }
             }
         }
     },
@@ -8222,7 +8318,7 @@
                 "t": "-Pick up and separate adds quickly.\n-Face them away from the raid to control cleaves."
             },
             "572": {
-                "en": "Engels and 9S Operated Walking Fortress",
+                "en": "Engels and 9S",
                 "st": [
                     {
                         "en": "Engels",
@@ -8232,7 +8328,7 @@
                         "t": "-Spread tanks for Precision Guided Missile.\n-Pick up and hold Goliath adds away from others.\n-Move Engels’ target zones away from raid to leave space for safe lanes."
                     },
                     {
-                        "en": "9S Operated Walking Fortress",
+                        "en": "9S",
                         "g": "-Neutralization is tankbuster.\n-Laser Turret: line laser on target.\n-Fore/Dual cannons: hind = stand to the side, flank = stand front or back.\n-Laser Saturation = raidwide.\n-Ballistic Impact: 6 players marked with circles.\n-Engage Marx Support: Engels’ arms slam large quarters, move away.\n-Undock: 9S goes aerial, Bombing Run sweeps arena thirds; follow 2P for safe edge.\n-Anti-personnel Missiles light tiles in patterns that you then need to avoid. Good luck.\n-Engage Goliath Tank Support: 2 tanks spawn, keep them faced away from the alliance.\n-Hack Goliath Tank: one explodes huge AoE (hide behind other), then smaller second blast.\n-Total Annihilation: kill adds, then stand in 2P's shield.",
                         "d": "-Avoid cannon cones by memorizing safe sides.\n-For bombing run, follow 2P’s position.\n-Spread carefully when marked by Ballistic Impact.\n-Dodge tile AoEs by recognizing pattern early.",
                         "h": "-Raid healing required for repeated Laser Saturations.\n-Top players hit by Ballistic Impact or tank lasers.\n-Prepare heavy AoE mitigation during Goliath explosions.",
