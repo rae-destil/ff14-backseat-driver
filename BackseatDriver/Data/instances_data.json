@@ -7920,15 +7920,87 @@
         "maps": {
             "532": {
                 "en": "Amaurot",
-                "d": "...",
-                "h": "...",
-                "t": "..."
+                "st": [
+                    {
+                        "en": "The First Beast",
+                        "g": "-Venomous Breath is a cone on the tank that inflicts Poison.\n-Meteor Rain marks the healer and both DPS, then leaves proximity puddles and boulders where they were standing.\n-The Falling Sky drops large circles, later on all four players.\n-The Final Sky is hidden behind a boulder, then a building collapses across most of the arena, leaving only a narrow safe lane on the side opposite the boss.\n-Earthquake is the point-blank AoE.",
+                        "d": "",
+                        "h": "-Prepare healing for repeated proximity hits and Poison mistakes.\n-Be ready after The Final Sky into the building collapse.",
+                        "t": "-Face Venomous Breath away from the party."
+                    },
+                    {
+                        "en": "Terminus Bellwether",
+                        "g": "-Shrill Shriek is the raidwide.\n-The boss leaves and mob waves spawn. Kill the tethering enemies first and dodge the small AoEs.\n-Burst makes the boss grow, increasing damage dealt and taken. It also goes off on death, so burn it before the stacks get too high.",
+                        "d": "",
+                        "h": "-Expect repeated raid damage from Shrill Shriek and the Burst detonation.",
+                        "t": ""
+                    }
+                ],
+                "c": {
+                    "10166": {
+                        "a": {
+                            "15556": {
+                                "g": "Drop the markers apart. The boulders left behind are needed for later cover."
+                            },
+                            "15559": {
+                                "g": "More falling AoEs. Keep dodging around the remaining boulders."
+                            },
+                            "15561": {
+                                "g": "Large circle AoEs under players."
+                            },
+                            "15563": {
+                                "g": "Hide behind a boulder, then move to the narrow safe lane away from the collapsing building."
+                            },
+                            "15565": {
+                                "g": "Point-blank AoE. Move out."
+                            },
+                            "15566": {
+                                "g": "Tank cone with Poison.",
+                                "h": "Esuna Poison if needed.",
+                                "t": "Face it away and mitigate."
+                            }
+                        }
+                    }
+                }
             },
             "533": {
                 "en": "Amaurot",
-                "d": "...",
-                "h": "...",
-                "t": "..."
+                "st": [
+                    {
+                        "en": "Chthonic Riddle: Therion",
+                        "g": "-You can fall off the stage, and the entire area behind Therion is covered in damaging fire.\n-Shadow Wreck is the raidwide.\n-Apokalypsis covers almost the whole platform, leaving only the side outcroppings safe. Each cast marks one outcropping to collapse on the next cast.\n-Therion Charge is a proximity leap that removes part of the arena. Too many charges become a soft enrage.\n-Mask Deathly Rays sweep from left or right in two waves, with no warning for which side fires first.\n-Therion's Deathly Ray is a player-directed line while two players also get ground AoEs.",
+                        "d": "",
+                        "h": "-Keep the party healthy enough to survive the first mask line if they guess wrong.\n-Prepare raid healing after Shadow Wreck and arena-shrinking charges.",
+                        "t": ""
+                    }
+                ],
+                "c": {
+                    "10177": {
+                        "a": {
+                            "15575": {
+                                "g": "Hide on a side outcropping. The marked outcropping will collapse on the next cast."
+                            },
+                            "15578": {
+                                "g": "Move away from the proximity marker before Therion lands."
+                            },
+                            "15579": {
+                                "g": "Deathly Ray from one side of the arena. Get clear of that side, but be ready for the other side next."
+                            },
+                            "15582": {
+                                "g": "Deathly Ray from the opposite side of the arena. Move to the newly safe side."
+                            },
+                            "15587": {
+                                "g": "Raidwide damage."
+                            },
+                            "16785": {
+                                "g": "Therion's Deathly Ray plus player AoEs. Sidestep the line and spread the circles."
+                            },
+                            "16786": {
+                                "g": "Therion's Deathly Ray plus player AoEs. Sidestep the line and spread the circles."
+                            }
+                        }
+                    }
+                }
             }
         }
     },
@@ -8683,10 +8755,22 @@
         "maps": {
             "583": {
                 "en": "Cinder Drift",
-                "g": "...",
-                "d": "...",
-                "h": "...",
-                "t": "...",
+                "st": [
+                    {
+                        "en": "Ruby Weapon",
+                        "g": "-Stamp is the tankbuster and Optimized Ultima is the raidwide.\n-Flexiclaw sends long and short cracks outward, then Ravensclaw explodes under Ruby and at the crack ends.\n-After Flexiclaw, Undermine means get away from the cracks; Liquefaction means stand on the cracks.\n-Ruby Ray is a line AoE at one player.\n-Helioclaw sends traveling circles along the fan lanes; start between lanes, then move with the pattern.\n-High-Powered Homing Laser puts two stack markers out, then Homing Laser marks everyone to spread.\n-Ravensflight dashes across the arena in telegraphed order, then Ruby Dynamics is a donut, so move into the hitbox.",
+                        "d": "",
+                        "h": "-Prepare healing after Optimized Ultima and split stack damage.\n-Watch for players clipped by multiple Ravensflight dashes.",
+                        "t": "-Mitigate Stamp."
+                    },
+                    {
+                        "en": "Nael deus Darnus",
+                        "g": "-Meteor Project starts the Dalamud timer; each impact deals heavy raidwide damage.\n-Negative Personae summons two Raven's Image adds. Tank them apart and kill them to make Nael targetable.\n-Meteor Stream marks all DPS with circles; spread out.\n-Magitek Comet drops four proximity markers around Nael, so move into her hitbox, then hide behind the fallen comets from Magitek Meteor.\n-Mark II Magitek Meteor must be caught by standing in the final circles, then the party destroys the caught meteors to free those players.\n-Bradamante is line AoEs.\n-After the last Meteor Project, Nael spams Outrage until she dies or Dalamud wipes the raid.",
+                        "d": "",
+                        "h": "-Prepare for heavy raid damage when Dalamud lands and during Outrage.\n-Be ready to stabilize players catching meteors.",
+                        "t": "-Take one Raven's Image each and keep them separated.\n-Mitigate the five-hit Raven's Claw on the add."
+                    }
+                ],
                 "c": {
                     "11487": {
                         "a": {
@@ -12096,21 +12180,119 @@
             },
             "816": {
                 "en": "Lapis Manalis",
-                "d": "...",
-                "h": "...",
-                "t": "..."
+                "g": "-Call of the Mountain sends two herds through marked thirds of the room; read the wall telegraphs and dodge both charges.\n-Albion's Embrace is the tankbuster.\n-Left Slam and Right Slam are half-room cleaves with brief indicators.\n-Knock on Ice spawns three ice chunks, then Icebreaker destroys one with a large AoE.\n-Icy Throes marks everyone with spreads and adds two more ice chunks.\n-Hide behind a surviving ice chunk to avoid Roar of Albion.",
+                "d": "",
+                "h": "-Prepare for damage from failed herd charges and Roar mistakes.",
+                "t": "",
+                "c": {
+                    "15614": {
+                        "a": {
+                            "31356": {
+                                "g": "Two herds charge through marked lanes. Read the wall telegraphs and dodge both."
+                            },
+                            "31358": {
+                                "g": "Three ice chunks appear. Plan which one will remain for the line-of-sight."
+                            },
+                            "31361": {
+                                "g": "Large AoE on the targeted ice chunk. Stay clear so one chunk survives."
+                            },
+                            "31362": {
+                                "g": "Spread markers on everyone."
+                            },
+                            "31364": {
+                                "g": "Hide behind an ice chunk."
+                            },
+                            "31365": {
+                                "g": "Tankbuster.",
+                                "t": "Mitigate."
+                            },
+                            "32813": {
+                                "g": "Right half-room cleave."
+                            },
+                            "32814": {
+                                "g": "Left half-room cleave."
+                            }
+                        }
+                    }
+                }
             },
             "817": {
                 "en": "Lapis Manalis",
-                "d": "...",
-                "h": "...",
-                "t": "..."
+                "g": "-Waxing Cycle is point-blank into a quick donut follow-up. Waning Cycle is donut into a quick point-blank follow-up.\n-Soul Scythe jumps to a cardinal and blasts a large circle in the facing direction.\n-Soul Nebula is the raidwide, then Scarecrow Chase resolves from numbered portals. For the first set, staying near the center is safe.\n-Tenebrism spawns four meteor towers that must be soaked one by one, then Glassy-eyed resolves, so look away from other players.\n-Later Scarecrow Chase uses four portals around the room instead of two.",
+                "d": "",
+                "h": "-Esuna Doom from failed Scarecrow Chase hits.\n-Prepare raid healing after Soul Nebula and any missed tower soaks.",
+                "t": "",
+                "c": {
+                    "14705": {
+                        "a": {
+                            "31377": {
+                                "g": "Point-blank AoE, then a fast donut follow-up."
+                            },
+                            "31382": {
+                                "g": "Soak the meteor towers, then look away from other players."
+                            },
+                            "31386": {
+                                "g": "Boss jumps to a cardinal and blasts a large circle in front."
+                            },
+                            "31387": {
+                                "g": "Portal cross AoEs. Read the portal order and stay in the safe lane."
+                            },
+                            "31389": {
+                                "g": "Portal cross AoEs continue. Move into the next safe lane after each hit."
+                            },
+                            "31390": {
+                                "g": "Raidwide damage, then portals appear."
+                            },
+                            "32622": {
+                                "g": "Donut AoE, then a fast point-blank follow-up."
+                            }
+                        }
+                    }
+                }
             },
             "824": {
                 "en": "Lapis Manalis",
-                "d": "...",
-                "h": "...",
-                "t": "..."
+                "g": "-The arena edge inflicts Dropsy.\n-Stygian Deluge is the raidwide.\n-Antediluvian grows bubble AoEs, then Body Slam knocks everyone from the middle; the knockback cannot be prevented.\n-Hydraulic Ram resolves the telegraphed line charges and circles in the order shown.\n-Hydrofall is the stack marker.\n-Cursed Tide gives three players point-blank AoEs and one player a stack marker while Fearsome Flotsam adds spawn. Kill the adds before the gauge fills, then resolve the marked AoEs cleanly.\n-Tsunami is the raidwide after the adds.\n-Voidcleaver portals tether to players and fire cone AoEs in their direction. Lifescleaver adds more boss cones.\n-Void Torrent is the tankbuster line.",
+                "d": "",
+                "h": "-Prepare healing for Stygian Deluge, Tsunami, and mistakes during Cursed Tide.\n-Watch players knocked into the edge during Antediluvian.",
+                "t": "-Mitigate Void Torrent and place Hydrofall cleanly.",
+                "c": {
+                    "15074": {
+                        "a": {
+                            "31110": {
+                                "g": "Portal cones track tethered players. Keep the cones away from others."
+                            },
+                            "31112": {
+                                "g": "Multiple boss cone AoEs. Move between the cleaves."
+                            },
+                            "31118": {
+                                "g": "Line tankbuster.",
+                                "t": "Mitigate and face it away."
+                            },
+                            "31119": {
+                                "g": "Bubble AoEs expand, then Body Slam knockback follows. Plan where the push will send you."
+                            },
+                            "31121": {
+                                "g": "Knockback from the middle. It cannot be prevented."
+                            },
+                            "31130": {
+                                "g": "Adds phase. Three players get point-blank AoEs, one gets the stack marker, and the Flotsam must die first."
+                            },
+                            "31139": {
+                                "g": "Raidwide damage."
+                            },
+                            "31375": {
+                                "g": "Stack marker."
+                            },
+                            "32692": {
+                                "g": "Memorize the telegraphs. Hydraulic Ram resolves them in order."
+                            },
+                            "32694": {
+                                "g": "Memorize the telegraphs. Hydraulic Ram resolves them in order."
+                            }
+                        }
+                    }
+                }
             }
         }
     },
@@ -13007,9 +13189,118 @@
             },
             "898": {
                 "en": "Ihuykatumu",
-                "d": "...",
-                "h": "...",
-                "t": "..."
+                "st": [
+                    {
+                        "en": "Prime Punutiy",
+                        "g": "-Punutiy Press is the raidwide, and Hydrowave is a conal AoE aimed at one player.\n-Resurface moves the boss to the west waterline for a persistent cone, then follows with debris AoEs and a flytrap donut.\n-Song of the Punutiy marks four players with different-sized AoEs and a cone; spread to avoid overlap, then kill the adds.\n-Shore Shaker is point-blank into two donut rings.",
+                        "d": "",
+                        "h": "-Prepare healing for Punutiy Press and any overlap damage from Song of the Punutiy.",
+                        "t": ""
+                    },
+                    {
+                        "en": "Drowsie",
+                        "g": "-Uppercut is the tankbuster.\n-Sow and Drowsy Dance spawn ivy line AoEs based on the seeds' facing, then the roots enlarge and fire again with tighter safe spots.\n-Sneeze is a wide cone from the boss.\n-Spit creates Mimiclots that should be killed while players dodge the add circles and Flagrant Spread markers.",
+                        "d": "",
+                        "h": "",
+                        "t": ""
+                    },
+                    {
+                        "en": "Apex Predator: Apollyon",
+                        "g": "-Razor Zephyr is a wide line at one player, and Blade is the tankbuster.\n-High Wind kills the summoned beasts or sandworms, then Devour empowers the next mechanics.\n-Swarming Locust jumps around the edge and follows with Blades of Famine line patterns; safe spots are near the boss's southwest or southeast.\n-Levinsickle leaves lingering lightning fields that then fire cone sets; dodge into the first set.\n-Thunder III marks everyone to spread.\n-After the sandworms are eaten, Blade also adds a donut on the tank.\n-Razor Storm is a wide frontal cleave.\n-Windwhistle spawns a rotating whirlwind with three starburst line-AoE sets while Razor Zephyr and Thunder III overlap.",
+                        "d": "",
+                        "h": "-Prepare for repeated raid damage from High Wind and mistakes during the Windwhistle overlaps.",
+                        "t": "-Mitigate Blade, especially the later version with the donut follow-up."
+                    }
+                ],
+                "c": {
+                    "16784": {
+                        "a": {
+                            "36492": {
+                                "g": "Raidwide damage."
+                            },
+                            "36493": {
+                                "g": "Conal AoE aimed at a player."
+                            },
+                            "36494": {
+                                "g": "Boss moves west and starts the Resurface sequence. Get out of the persistent cone."
+                            },
+                            "36495": {
+                                "g": "Keep dodging the follow-up debris and flytrap mechanics from Resurface."
+                            },
+                            "36506": {
+                                "g": "Spread for the mixed add-targeted AoEs, then kill the spawned punutiy adds."
+                            },
+                            "36514": {
+                                "g": "Point-blank AoE, then donut rings. Start out, then move in as each ring resolves."
+                            },
+                            "32813": {
+                                "g": "Right-side half-room cleave."
+                            },
+                            "32814": {
+                                "g": "Left-side half-room cleave."
+                            }
+                        }
+                    },
+                    "16789": {
+                        "a": {
+                            "36475": {
+                                "g": "Wide cone from the boss."
+                            },
+                            "36476": {
+                                "g": "Seeds appear. Watch where they will sprout."
+                            },
+                            "36477": {
+                                "g": "Ivy line AoEs fire from the sprouted seeds, then repeat larger after the roots grow."
+                            },
+                            "36483": {
+                                "g": "Mimiclot adds spawn. Kill them while spreading for the add-targeted circles."
+                            },
+                            "39132": {
+                                "g": "Tankbuster.",
+                                "t": "Mitigate."
+                            }
+                        }
+                    },
+                    "16741": {
+                        "a": {
+                            "36340": {
+                                "g": "Wide line AoE aimed at one player."
+                            },
+                            "36341": {
+                                "g": "Raidwide damage. It also kills the summoned beasts or sandworms."
+                            },
+                            "36342": {
+                                "g": "The boss eats the dead adds and powers up the next mechanic."
+                            },
+                            "36343": {
+                                "g": "Boss jumps around the edge, then Blades of Famine follows. Prepare for the safe side."
+                            },
+                            "36345": {
+                                "g": "Line AoEs leave a safe area near the boss's southwest or southeast."
+                            },
+                            "36347": {
+                                "g": "Tankbuster.",
+                                "t": "Mitigate."
+                            },
+                            "36348": {
+                                "g": "Circle AoEs plus lingering lightning fields. Dodge into the first cone set after it fires."
+                            },
+                            "36352": {
+                                "g": "Spread markers on everyone."
+                            },
+                            "36355": {
+                                "g": "Wide frontal cleave."
+                            },
+                            "36356": {
+                                "g": "Tankbuster followed by a donut on the tank.",
+                                "t": "Mitigate and move for the donut follow-up."
+                            },
+                            "36359": {
+                                "g": "Rotating whirlwind with three starburst line-AoE sets. Keep clear of the whirlwind itself."
+                            }
+                        }
+                    }
+                }
             }
         }
     },
