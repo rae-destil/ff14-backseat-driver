@@ -8373,14 +8373,87 @@
                 "g": "-Clanging Blow is a tankbuster.\n-Forceful Impact is alliance-wide AoE.\n-Energy Bombardment targets 8 players with circles—spread.\n-Energy Assault fires a massive lingering cone toward a random player.\n-Energy Ring: circle AoE then expanding rings.\n-Sidestriking Spin and Centrifugal Spin: rectangular AoEs from sides or center—safe in opposite axis.\n-Systematic mechanics add hazards: Siege = edge orbs, Targeting = player lasers, Airstrike = aerial bombs, Suppression = half-arena lasers.\n-Shockwave = raidwide knockback.",
                 "d": "-Spread promptly during Bombardment and keep moving for Airstrike.\n-Watch cone and spin AoEs—stand in safe axis.\n-Avoid edge during Shockwave knockback.",
                 "h": "-Raidwides (Forceful Impact, Shockwave) require AoE healing.\n-Heal players clipped by overlapping Bombardment + Airstrike.",
-                "t": "-Use mitigation for Clanging Blow.\n-Face boss carefully to predict Energy Assault cone.\n-Keep boss central to manage add mechanics."
+                "t": "-Use mitigation for Clanging Blow.\n-Face boss carefully to predict Energy Assault cone.\n-Keep boss central to manage add mechanics.",
+                "c": {
+                    "11361": {
+                        "a": {
+                            "18610": {
+                                "g": "Edge adds fire very slow projectiles. Do not stand in their path."
+                            },
+                            "18613": {
+                                "g": "Large lingering cone at a random player. Move behind or beside the boss."
+                            },
+                            "18615": {
+                                "g": "Spread for the ground-targeted circles."
+                            },
+                            "18617": {
+                                "g": "Aerial adds bombard the grating with falling circles. Keep moving."
+                            },
+                            "18619": {
+                                "g": "Center circle AoE, then expanding rings. Start out, then dodge each ring."
+                            },
+                            "18621": {
+                                "g": "Expanding ring AoE. Move into the area that already exploded."
+                            },
+                            "18623": {
+                                "g": "Expanding ring AoE. Move into the area that already exploded."
+                            },
+                            "18625": {
+                                "g": "Expanding ring AoE. Move into the area that already exploded."
+                            },
+                            "18627": {
+                                "g": "Alliance knockback. Stay away from the edge."
+                            },
+                            "18628": {
+                                "g": "Line lasers track targeted players. Move so your line does not clip others."
+                            },
+                            "18630": {
+                                "g": "Half-arena lasers from the edge adds. Move to the safe half."
+                            },
+                            "18632": {
+                                "g": "Center rectangle through the boss. Stand at its sides."
+                            },
+                            "18638": {
+                                "g": "Tankbuster.",
+                                "t": "Mitigate."
+                            },
+                            "18639": {
+                                "g": "Alliance-wide damage."
+                            }
+                        }
+                    }
+                }
             },
             "570": {
                 "en": "Hobbes",
                 "g": "-Alliance A: heads arc lightning below.\n-Alliance B: conveyor belts push players toward edge (death).\n-Alliance C: vents spray oil then arena erupts, oil debuff makes fire lethal.\n-Left Arm drops container (cross AoE) and spawns tethered adds that self-destruct.\n-Right Arm rotates, firing small cones and ring AoEs.\n-Nozzles create lingering fire lines.\n-Hobbes’ attacks: Laser-Resistance Test (multi raid AoEs), Ring Laser (safe center or pre-hit areas), Laser Sight (line stack per alliance), Short-Range Missile (circle AoEs per player).",
                 "d": "-Respect platform hazards (heads, belts, vents).\n-Help soak stacks and move out with missile markers.\n-Move with belts carefully to not slide into edge.",
                 "h": "-Multiple raid AoEs in succession during Laser-Resistance Test—layer cooldowns.\n-Extra healing needed for oil debuff victims and missile overlaps.",
-                "t": "-Tanks can intercept all self-destruct tethers with invuln; otherwise split.\n-Keep boss centered despite platform hazards.\n-Mitigation for Catechism-type tankbusters."
+                "t": "-Tanks can intercept all self-destruct tethers with invuln; otherwise split.\n-Keep boss centered despite platform hazards.\n-Mitigation for Catechism-type tankbusters.",
+                "c": {
+                    "11307": {
+                        "a": {
+                            "18431": {
+                                "g": "Ring laser from the edge. Stand in the center or move into a section that already fired."
+                            },
+                            "18432": {
+                                "g": "Ring laser from the edge. Stand in the center or move into a section that already fired."
+                            },
+                            "18433": {
+                                "g": "Ring laser from the edge. Stand in the center or move into a section that already fired."
+                            },
+                            "18437": {
+                                "g": "Alliance-wide damage, repeated in pulses."
+                            },
+                            "18438": {
+                                "g": "Alliance-wide damage, repeated in pulses."
+                            },
+                            "18439": {
+                                "g": "Line stack marker on one player per alliance."
+                            }
+                        }
+                    }
+                }
             },
             "571": {
                 "en": "Serial-jointed Command Model + adds",
@@ -8406,7 +8479,106 @@
                         "h": "-Raid healing required for repeated Laser Saturations.\n-Top players hit by Ballistic Impact or tank lasers.\n-Prepare heavy AoE mitigation during Goliath explosions.",
                         "t": "-Mitigate Neutralization tankbuster.\n-Face tank lasers away from alliance.\n-Hold aggro on Service Models quickly during Total Annihilation."
                     }
-                ]
+                ],
+                "c": {
+                    "9559": {
+                        "a": {
+                            "18214": {
+                                "g": "Marx Smash. Watch the raised arm position to know which side is unsafe."
+                            },
+                            "18215": {
+                                "g": "Marx Smash. Watch the raised arm position to know which side is unsafe."
+                            },
+                            "18218": {
+                                "g": "Marx Smash. Both arms high means only the center is safe."
+                            },
+                            "18220": {
+                                "g": "Marx Smash. Both arms low means east and west are safe."
+                            },
+                            "18222": {
+                                "g": "Marx Smash. Watch the raised arm position to know which side is unsafe."
+                            },
+                            "18224": {
+                                "g": "Marx Smash. Watch the raised arm position to know which side is unsafe."
+                            },
+                            "18227": {
+                                "g": "Several players get AoE circles. Spread away from others."
+                            },
+                            "18229": {
+                                "g": "Chasing missile marker. Kite it away from the alliance."
+                            },
+                            "18232": {
+                                "g": "Drop the bombing marker away from others; it leaves napalm behind."
+                            },
+                            "18236": {
+                                "g": "Move out of Engels's hitbox for the head laser, then fill one circle each."
+                            },
+                            "18246": {
+                                "g": "Destroy both Marx arms before they meet in the center."
+                            },
+                            "18254": {
+                                "g": "South side fills with napalm. Move to the front of the platform."
+                            },
+                            "18256": {
+                                "g": "Several mechanics resolve in sequence. Keep moving through the combined pattern."
+                            },
+                            "18259": {
+                                "g": "Triple tankbuster on the alliance tanks.",
+                                "t": "Spread away from the other tanks and mitigate."
+                            },
+                            "18261": {
+                                "g": "Raidwide damage."
+                            },
+                            "18600": {
+                                "g": "Marx arms attack in rows from east and west. Hide out of line with the current row."
+                            }
+                        }
+                    },
+                    "11380": {
+                        "a": {
+                            "18643": {
+                                "g": "Engels arms slam large circles onto the platform. Move out of their quarters."
+                            },
+                            "18645": {
+                                "g": "9S flies up. Get ready for Bombing Run."
+                            },
+                            "18654": {
+                                "g": "Cone attacks from both sides. Stand in front of or behind 9S."
+                            },
+                            "18655": {
+                                "g": "Cone attacks from front and back. Stand at 9S's sides."
+                            },
+                            "18657": {
+                                "g": "Red floor tiles explode in a set pattern. Move to the safe tiles."
+                            },
+                            "18658": {
+                                "g": "Red floor tiles explode in a set pattern. Move to the safe tiles."
+                            },
+                            "18661": {
+                                "g": "Two Goliath Tanks spawn and make 9S invulnerable. Kill both."
+                            },
+                            "18663": {
+                                "g": "Hide behind the intact tank for the first self-destruct, then move out for the smaller second blast."
+                            },
+                            "18677": {
+                                "g": "Tankbuster.",
+                                "t": "Mitigate."
+                            },
+                            "18678": {
+                                "g": "High alliance-wide damage."
+                            },
+                            "18679": {
+                                "g": "Laser line at the marked player or tank. Point it away from the alliance."
+                            },
+                            "19038": {
+                                "g": "9S flies up. Get ready for Bombing Run."
+                            },
+                            "19255": {
+                                "g": "9S flies up. Get ready for Bombing Run."
+                            }
+                        }
+                    }
+                }
             }
         }
     },

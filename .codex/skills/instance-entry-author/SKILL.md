@@ -42,6 +42,12 @@ When resolving IDs from the existing dataset:
 
 If IDs still cannot be resolved, do not invent them. Ask for them or state that the output is provisional and needs IDs filled before upsert.
 
+If the user provides an enemy ID and wants attack IDs from the BSD log, use:
+
+- `python instances_compressor/bsd_log_extract.py --log <path-to-bsd-log> --enemy-id <enemy-id>`
+
+This returns deduplicated `attack name - attack id` pairs for the specified enemy ID and can be used as source material for coach hints in `c`.
+
 ## Naming Defaults
 
 Use these defaults unless the user asks otherwise:
