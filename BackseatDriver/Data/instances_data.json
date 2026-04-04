@@ -10066,15 +10066,110 @@
         "maps": {
             "739": {
                 "en": "Vanaspati",
-                "d": "...",
-                "h": "...",
-                "t": "..."
+                "st": [
+                    {
+                        "en": "Terminus Snatcher",
+                        "g": "-Last Gasp is the tankbuster and Note of Despair is the raidwide.\n-Mouth Off leaves two closed mouths safe; stand on or behind a closed mouth.\n-What Is Left and What Is Right cleave the matching side of the arena and can overlap Mouth Off or Wallow.\n-Lost Hope locks your next movement into the direction the hand points, so set your movement carefully before Mouth Off resolves.\n-Wallow gives every player a point-blank AoE, so spread out.",
+                        "d": "",
+                        "h": "",
+                        "t": ""
+                    },
+                    {
+                        "en": "Terminus Wrecker",
+                        "g": "-The arena edge burns after the pull.\n-Total Wreck is the tankbuster and Meaningless Destruction is the raidwide.\n-Poison Heart is the stack marker.\n-Unholy Water spawns six water orbs. Enter an orb to survive the fire version of Aether Spray.\n-Aether Siphon alternates between fire and water after the first cast. Fire Spray requires a water orb; Water Spray is a large central knockback, so stand near center or use knockback immunity.",
+                        "d": "",
+                        "h": "-Prepare for Burns damage from failed fire mechanics and edge mistakes.",
+                        "t": ""
+                    }
+                ],
+                "c": {
+                    "13288": {
+                        "a": {
+                            "25137": {
+                                "g": "Find a closed mouth and stand on or behind it."
+                            },
+                            "25139": {
+                                "g": "Right-side cleave."
+                            },
+                            "25140": {
+                                "g": "Left-side cleave."
+                            },
+                            "25141": {
+                                "g": "Tankbuster.",
+                                "t": "Mitigate."
+                            },
+                            "25143": {
+                                "g": "Set your movement direction carefully before you need to move."
+                            },
+                            "25144": {
+                                "g": "Raidwide damage."
+                            }
+                        }
+                    },
+                    "13289": {
+                        "a": {
+                            "25145": {
+                                "g": "Water siphon. The next Aether Spray is the central knockback."
+                            },
+                            "25146": {
+                                "g": "Fire siphon. Enter a water orb before Aether Spray resolves."
+                            },
+                            "25147": {
+                                "g": "Big central knockback. Stand near the middle or use knockback immunity."
+                            },
+                            "25148": {
+                                "g": "Fire raidwide. You need a water orb to avoid it."
+                            },
+                            "25151": {
+                                "g": "Stack marker."
+                            },
+                            "25153": {
+                                "g": "Raidwide damage."
+                            },
+                            "25154": {
+                                "g": "Tankbuster.",
+                                "t": "Mitigate."
+                            },
+                            "27852": {
+                                "g": "Water orbs appear. Use one if the next siphon is fire."
+                            }
+                        }
+                    }
+                }
             },
             "740": {
                 "en": "Vanaspati",
-                "d": "...",
-                "h": "...",
-                "t": "..."
+                "st": [
+                    {
+                        "en": "Blasphemy: Svarbhanu",
+                        "g": "-The arena edge inflicts Bleeding.\n-Gnashing of Teeth is the tankbuster and Flames of Decay is the raidwide.\n-Aetherial Disruption divides the arena with red and blue line AoEs; move to the opposite color from your debuff marker.\n-Crumbling Sky adds a knockback, player spread circles, or both later in the fight.\n-For the meteor phase, watch the 4 lanes. The safe pattern is always inner lane, the other inner lane, then the adjacent outer lane.\n-After the meteor phase, Crumbling Sky always includes both effects.",
+                        "d": "",
+                        "h": "-Prepare healing after Flames of Decay and any meteor mistakes.\n-Watch players knocked toward the bleeding edge.",
+                        "t": ""
+                    }
+                ],
+                "c": {
+                    "13291": {
+                        "a": {
+                            "25160": {
+                                "g": "Stand in the opposite color from your marker."
+                            },
+                            "25166": {
+                                "g": "Knockback, spread circles, or both. Resolve the current Crumbling Sky effect before the next pattern."
+                            },
+                            "25170": {
+                                "g": "Raidwide damage."
+                            },
+                            "25171": {
+                                "g": "Tankbuster.",
+                                "t": "Mitigate."
+                            },
+                            "27489": {
+                                "g": "Meteor phase setup. Watch the lanes and prepare to move 1 lane, then 2 lanes."
+                            }
+                        }
+                    }
+                }
             }
         }
     },
