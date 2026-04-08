@@ -7505,7 +7505,48 @@
                         "d": "...",
                         "h": "..."
                     }
-                ]
+                ],
+                "c": {
+                    "9305": {
+                        "a": {
+                            "12832": {
+                                "g": "Tankbuster.",
+                                "t": "Mitigate."
+                            },
+                            "12833": {
+                                "g": "Raidwide damage."
+                            },
+                            "12834": {
+                                "g": "Scarlet Lady corpses revive. Stack them together and kill them fast."
+                            },
+                            "12835": {
+                                "g": "Massive frontal cone at one player. Sidestep it."
+                            },
+                            "12836": {
+                                "g": "Kill the middle plume to create the safe zone before the explosion."
+                            },
+                            "12848": {
+                                "g": "Knockback from the center. Stay clear of the edge and the hole."
+                            },
+                            "12849": {
+                                "g": "Multi-hit tankbuster, then a huge frontal knockback.",
+                                "t": "Mitigate the hit and face the follow-up away."
+                            },
+                            "12852": {
+                                "g": "Raidwide damage."
+                            },
+                            "12854": {
+                                "g": "Column AoE on one player. Move out."
+                            },
+                            "12855": {
+                                "g": "Raidwide damage based on how many orbs reached Suzaku."
+                            },
+                            "12860": {
+                                "g": "Four meteor towers. Put at least one player in each."
+                            }
+                        }
+                    }
+                }
             }
         }
     },
@@ -14099,10 +14140,89 @@
         "en": "Worqor Lar Dor",
         "maps": {
             "925": {
-                "en": "Worqor Lar Dor",
-                "d": "...",
-                "h": "...",
-                "t": "..."
+                "en": "Valigarmanda",
+                "st": [
+                    {
+                        "en": "Opening",
+                        "g": "-Body animations telegraph the late AoEs: circling wind means donut, claws raised means point-blank, open beak means wide cone.\n-Ice Talon is the double tankbuster and Skyruin is the raidwide that transitions into ice or thunder.\n-Ruinfall is a dual-tank tower with a north knockback and south circles. Tanks soak the tower, everyone else avoids it while handling the push.",
+                        "d": "",
+                        "h": "-Esuna Concussion if someone reaches 2 Trauma.\n-Prepare healing after Skyruin and Ruinfall.",
+                        "t": "-Take one hit each of Ice Talon.\n-Mitigate Ruinfall while soaking the shared tower."
+                    },
+                    {
+                        "en": "Thunder Phase",
+                        "g": "-Stand in a levitation tile to avoid Thunderous Breath, then step off before Blighted Bolt hits those tiles.\n-Hail of Feathers drops four feathers that later explode in point-blank AoEs.\n-Arcane thunder spheres fire horizontal line AoEs, so find the safe lane; later this overlaps with Thunderous Breath, so the safe lane must also include a levitation tile.\n-Disaster Zone ends the phase.",
+                        "d": "",
+                        "h": "-Prepare for repeated magical damage from Hail of Feathers and Disaster Zone.",
+                        "t": ""
+                    },
+                    {
+                        "en": "Ice Phase",
+                        "g": "-Avalanches come from the southeast or southwest and knock players back.\n-Freezing Dust means keep moving until the debuff ends or you will be frozen.\n-Ice spheres fire simultaneous starburst lines; stand in a gap that is safe from both sets.\n-Later ice phases combine avalanche or Freezing Dust with the sphere lines.\n-Disaster Zone ends the phase.",
+                        "d": "",
+                        "h": "",
+                        "t": ""
+                    },
+                    {
+                        "en": "Beacon Phase",
+                        "g": "-Destroy the Flame-kissed, Thunderous, and Glacial Beacons before Ruinous Power reaches 100.\n-While killing them, the boss alternates conal lane patterns and repeatedly uses Calamitous Cry line stacks on random players, so stay together and move as a group between safe cone lanes.\n-Tulidisaster is a three-hit raidwide after the beacons. Afterwards, Perpetual Conflagration remains for the rest of the fight.\n-Eruption baits three sets of circles on two players.",
+                        "d": "",
+                        "h": "-Prepare heavy healing for Tulidisaster and the permanent Perpetual Conflagration damage.",
+                        "t": ""
+                    }
+                ],
+                "c": {
+                    "16661": {
+                        "a": {
+                            "36155": {
+                                "g": "Wide cone from the beak. Safe spots are the top corners."
+                            },
+                            "36157": {
+                                "g": "Large point-blank AoE. Move out of melee range."
+                            },
+                            "36159": {
+                                "g": "Donut AoE. Move into the middle."
+                            },
+                            "36161": {
+                                "g": "Raidwide damage and phase transition."
+                            },
+                            "36164": {
+                                "g": "Raidwide damage that ends the phase."
+                            },
+                            "36166": {
+                                "g": "Raidwide damage that ends the phase."
+                            },
+                            "36170": {
+                                "g": "Feathers drop and explode later in point-blank AoEs."
+                            },
+                            "36172": {
+                                "g": "Levitation tiles are struck. Step off them before the bolts hit."
+                            },
+                            "36175": {
+                                "g": "Full-arena blast. Stand on a levitation tile to avoid it."
+                            },
+                            "36177": {
+                                "g": "Keep moving until the debuff ends or you will freeze."
+                            },
+                            "36186": {
+                                "g": "Shared tank tower with a north knockback and south circles.",
+                                "t": "Soak the tower together with mitigation, then move north."
+                            },
+                            "36190": {
+                                "g": "Baited circles on two players, repeated three times."
+                            },
+                            "36197": {
+                                "g": "Three-hit raidwide after the beacon phase."
+                            },
+                            "38338": {
+                                "g": "Raidwide damage and phase transition."
+                            },
+                            "38545": {
+                                "g": "Beacon phase begins. Kill the three beacons before the gauge fills."
+                            }
+                        }
+                    }
+                }
             }
         }
     },
