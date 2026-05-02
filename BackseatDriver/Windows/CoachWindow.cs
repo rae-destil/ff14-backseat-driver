@@ -65,6 +65,7 @@ public class CoachWindow : Window, IDisposable
         var actionName = actionRow != null ? actionRow.Value.Name : $"Action #{castId}";
 
         var castString = "";
+        var chatCastString = $"{enemyName} casts {actionName}.";
 
         if (config.DisplayNerdStuff)
         {
@@ -84,15 +85,17 @@ public class CoachWindow : Window, IDisposable
                 if (lastActionHint.general != "..." && lastActionHint.general != "")
                 {
                     castString += $"\n{lastActionHint.general}";
+                    chatCastString += $"\n{lastActionHint.general}";
                 }
                 if (lastActionHint.roleSpecific != "..." && lastActionHint.roleSpecific != "")
                 {
                     castString += $"\n{lastActionHint.roleSpecific}";
+                    chatCastString += $"\n{lastActionHint.roleSpecific}";
                 }
 
                 if (config.CoachModeEchoIntoChat)
                 {
-                    Plugin.ChatGui.Print(castString);
+                    Plugin.ChatGui.Print(chatCastString);
                 }
             }
         }
