@@ -161,9 +161,9 @@ public sealed class Plugin : IDalamudPlugin
     private bool sessionLogInitFailed;
     private bool sessionLogWriteFailed;
     private string? sessionLogPath;
-    private ushort? lastLoggedTerritoryId;
+    private uint? lastLoggedTerritoryId;
     private uint? lastLoggedMapId;
-    private ushort? lastObservedTerritoryId;
+    private uint? lastObservedTerritoryId;
     private uint? lastObservedMapId;
 
     private static readonly Dictionary<uint, Role> ClassJob_To_Role = new()
@@ -301,7 +301,7 @@ public sealed class Plugin : IDalamudPlugin
         enemiesTracker.scan();
     }
 
-    private void OnTerritoryChanged(ushort newTerritoryId)
+    private void OnTerritoryChanged(uint newTerritoryId)
     {
         LogMapChange(
             "Territory changed event",
@@ -406,17 +406,17 @@ public sealed class Plugin : IDalamudPlugin
         }
     }
 
-    private string ResolveTerritoryName(ushort territoryId)
+    private string ResolveTerritoryName(uint territoryId)
     {
         return instances_data?.GetValueOrDefault(territoryId.ToString())?.en_name ?? "unknown";
     }
 
-    private string ResolveMapName(ushort territoryId, uint mapId)
+    private string ResolveMapName(uint territoryId, uint mapId)
     {
         return instances_data?.GetValueOrDefault(territoryId.ToString())?.maps.GetValueOrDefault(mapId.ToString())?.en_name ?? "unknown";
     }
 
-    private void LogMapChange(string reason, ushort? fromTerritoryId, uint? fromMapId, ushort toTerritoryId, uint toMapId)
+    private void LogMapChange(string reason, uint? fromTerritoryId, uint? fromMapId, uint toTerritoryId, uint toMapId)
     {
         if (lastLoggedTerritoryId == toTerritoryId && lastLoggedMapId == toMapId && reason == "Map snapshot updated")
         {
