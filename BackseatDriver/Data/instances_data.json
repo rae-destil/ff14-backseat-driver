@@ -3829,19 +3829,71 @@
                 "st": [
                     {
                         "en": "Phase 1",
-                        "g": "-Fiendish Rage: stack on marked player to share damage.\n-Ratzon: multiple players marked with green AoEs—spread.\n-Ain: faces a random player and blasts 180° cone—stay stacked behind him.\n-At 60%, adds spawn: kill Binah first, then Cochma.",
-                        "d": "-Spread fast when marked by Ratzon.\n-Keep behind boss to avoid Ain blast.\n-Burn Binah add first.",
+                        "g": "-Fiendish Rage: stack on marked player to share damage.\n-Ratzon: multiple players marked with green AoEs—spread.\n-Ein: faces a random player and blasts a 180-degree cone—stay stacked behind him.\n-At 60%, adds spawn: kill Binah first, then Cochma.",
+                        "d": "-Spread fast when marked by Ratzon.\n-Keep behind boss to avoid Ein blast.\n-Burn Binah add first.",
                         "h": "-Prepare AoE heals after Fiendish Rage.\n-Clean up Ratzon damage—multiple players hit at once.",
                         "t": "-Keep boss centered so players can stack safely.\n-Pick up adds immediately; tank Binah away for focus kill."
                     },
                     {
                         "en": "Phase 2",
                         "g": "-Stay toward center—falling is possible now.\n-Pillar of Mercy: stand near blue circles (not inside) to avoid knockback off.\n-Beam markers: two players get cleaves—split directions.\n-Storm of Words must die before Revelation; drops air current for arm sweep—stand inside.\n-Spread out before Sephirot’s beam, then restack.\n-Red pillar mechanic: one player in each to prevent raidwide damage.",
-                        "d": "-Kill Storm of Words ASAP; use cooldowns to burn.\n-If marked by beam, move opposite of group.\n-Stand in air current during arm sweep.\n-Blue circles knockback, stand next to them - NOT in them.",
-                        "h": "-Prepare raid heals after Pillar of Mercy knockback.\n-Storm of Words Revelation is a wipe—be ready to heal through add damage until it dies.\n-Blue circles knockback, stand next to them - NOT in them.",
-                        "t": "-Tanks should take positions inside red pillars.\n-Grab adds quickly after Storm of Words dies.\n-Hold boss centered to control arena space.\n-Blue circles knockback, stand next to them - NOT in them."
+                        "t": "...",
+                        "d": "...",
+                        "h": "..."
                     }
-                ]
+                ],
+                "c": {
+                    "5555": {
+                        "a": {
+                            "5482": {
+                                "g": "Spread for the green AoE markers."
+                            },
+                            "5850": {
+                                "g": "Phase 2 combo. Stay centered, handle the knockback circles safely, then split for the two cleave markers."
+                            },
+                            "5851": {
+                                "g": "Soak the red pillars. Put one player in each to prevent raid damage."
+                            },
+                            "5852": {
+                                "g": "Spread for Sephirot's beam, then restack in the center."
+                            },
+                            "5853": {
+                                "g": "Huge 180-degree frontal blast at one player. Stay stacked behind Sephirot."
+                            },
+                            "5855": {
+                                "g": "Stack on the marked player to share the hit."
+                            }
+                        }
+                    },
+                    "5556": {
+                        "a": {
+                            "5493": {
+                                "g": "Spread out for the beam sequence, then restack in the center."
+                            },
+                            "5496": {
+                                "g": "Phase 2 combo mechanic. Stay centered and be ready to separate marked and unmarked players."
+                            },
+                            "5500": {
+                                "g": "Two players are marked for huge cleaves. Split marked and unmarked players to opposite sides."
+                            },
+                            "5503": {
+                                "g": "Blue knockback circles. Stand next to them on the inside, not inside them."
+                            },
+                            "5509": {
+                                "g": "Soak the red pillars. Put one player in each."
+                            },
+                            "5857": {
+                                "g": "Arm sweep mechanic. Use the air current when marked by arrows to avoid it."
+                            },
+                            "5858": {
+                                "g": "Arm sweep mechanic. Use the air current when marked by arrows to avoid it."
+                            },
+                            "5867": {
+                                "g": "Kill the Storm of Words add before Revelation wipes the raid."
+                            }
+                        }
+                    }
+                }
             }
         }
     },
@@ -8127,7 +8179,7 @@
             }
         }
     },
-    "846": {
+    "848": {
         "en": "The Crown of the Immaculate",
         "maps": {
             "557": {
@@ -8143,15 +8195,78 @@
         "maps": {
             "558": {
                 "en": "The Dying Gasp",
-                "d": "...",
-                "h": "...",
-                "t": "..."
+                "st": [
+                    {
+                        "en": "Phase 1",
+                        "g": "-Ravenous Assault is the tankbuster.\n-Bad Faith creates a wall through the arena; stand behind the half whose spikes point away from you.\n-Double makes the next Dark Eruption or Shadowspread happen twice.\n-Dark Eruption marks players to spread while also dropping circles under them.\n-Shadowspread covers multiple cone lanes, then doubles into the previously safe lanes if Double was active.\n-Broken Faith drops large delayed circles; move into areas that already exploded.",
+                        "d": "",
+                        "h": "-Prepare for repeated raid damage and spread mistakes during Double overlaps.",
+                        "t": "-Mitigate Ravenous Assault."
+                    },
+                    {
+                        "en": "Add Phase",
+                        "g": "-Kill all five waves of Shadow of the Ancients before the duty gauge fills.\n-AoE-marked players spread while everyone else stacks on the stack marker.\n-After the adds die, Ancient Dark IV is a survivable raidwide if the gauge stayed below 100.",
+                        "d": "",
+                        "h": "-Be ready to heal through Ancient Dark IV after the last wave.",
+                        "t": ""
+                    },
+                    {
+                        "en": "Phase 2",
+                        "g": "-The railing is gone from this point on.\n-Titanomachy is the recurring raidwide.\n-Shadowstream is an untelegraphed center column; move east or west when Hades charges the dark sphere at his face.\n-Echoes of the Lost is safe directly behind the raised arm.\n-Polydegmon's Predation leaves only the center column safe.\n-Hellborn Yawp marks both tanks with earthshaker cones; place them to leave a safe lane.\n-Captivity traps two players in gaols; free them before Chorus of the Lost.\n-Doom places five circles that must all be occupied to cleanse Doom.\n-Wall of the Lost is a center knockback.",
+                        "d": "",
+                        "h": "-Keep the party healthy enough to survive overlapping raidwides and stray arm swipes.\n-Be ready to recover players freed late from Captivity.",
+                        "t": "-Maintain top enmity for the ranged auto-attacks and place Hellborn Yawp safely."
+                    },
+                    {
+                        "en": "Finale",
+                        "g": "-Life in Captivity starts the active time maneuver; fail it and you die.\n-Afterwards, Hades repeatedly casts The Dark Devours while the platform is consumed.\n-If the platform is fully lost, a bleed starts and Black Cauldron will wipe the raid.",
+                        "d": "",
+                        "h": "-Expect extreme raid damage during The Dark Devours and finish the fight quickly.",
+                        "t": ""
+                    }
+                ],
+                "c": {
+                    "10570": {
+                        "a": {
+                            "16732": {
+                                "g": "Center column blast. Move east or west."
+                            },
+                            "16737": {
+                                "g": "Spread for the strike markers."
+                            },
+                            "16739": {
+                                "g": "Arm swipe. Stand directly behind the raised arm."
+                            },
+                            "16740": {
+                                "g": "Arm swipe. Stand directly behind the raised arm."
+                            },
+                            "16744": {
+                                "g": "Two players are trapped. Break the gaols quickly."
+                            },
+                            "16750": {
+                                "g": "Earthshaker cones on both tanks. Place them to leave a safe lane.",
+                                "t": "Aim your cone away from the party."
+                            },
+                            "16752": {
+                                "g": "Only the center column is safe."
+                            },
+                            "16757": {
+                                "g": "Active time maneuver. Fill the gauge or die."
+                            },
+                            "16758": {
+                                "g": "Enrage cast. Kill Hades before it finishes."
+                            },
+                            "16759": {
+                                "g": "Heavy repeated raidwide damage while the platform disappears."
+                            },
+                            "16768": {
+                                "g": "Raidwide damage."
+                            }
+                        }
+                    }
+                }
             }
         }
-    },
-    "848": {
-        "en": "The Crown of the Immaculate",
-        "maps": {}
     },
     "849": {
         "en": "Eden's Gate: Resurrection",
@@ -11560,11 +11675,30 @@
         "en": "Aglaia",
         "maps": {
             "755": {
-                "en": "Byregot",
-                "g": "-Arena edge inflicts Electrocution.\n-Byregot's Ward is the tankbuster.\n-Ordeal of Thunder is raidwide damage.\n-Byregot's Strike is a knockback from a circle near the middle; the blue center is lethal.\n-Builder's Build adds four thin cone AoEs translated into the knockback circle.\n-In the block arena, hammers push tiles sideways; if your floor is moved out from under you, you fall.\n-Levinforge creates a long line AoE from the purple hammer and can be shifted by the moving rows.\n-Byregot's Spire covers the center three columns while the side hammers move the floor.\n-Reproduce sends exaflares down the arena; the lightning-marked clones travel faster, so follow a slow lane and cross after the fast set passes.",
-                "d": "",
-                "h": "-Prepare for repeated raid damage from Ordeal of Thunder.\n-Watch players clipped by knockbacks or hammer movement near the edge.",
-                "t": "-Mitigate Byregot's Ward and keep safe positioning for Byregot's Strike.",
+                "en": "Aglaia",
+                "st": [
+                    {
+                        "en": "Byregot",
+                        "g": "-Arena edge inflicts Electrocution.\n-Byregot's Ward is the tankbuster.\n-Ordeal of Thunder is raidwide damage.\n-Byregot's Strike is a knockback from a circle near the middle; the blue center is lethal.\n-Builder's Build adds four thin cone AoEs translated into the knockback circle.\n-In the block arena, hammers push tiles sideways; if your floor is moved out from under you, you fall.\n-Levinforge creates a long line AoE from the purple hammer and can be shifted by the moving rows.\n-Byregot's Spire covers the center three columns while the side hammers move the floor.\n-Reproduce sends exaflares down the arena; the lightning-marked clones travel faster, so follow a slow lane and cross after the fast set passes.",
+                        "d": "",
+                        "h": "-Prepare for repeated raid damage from Ordeal of Thunder.\n-Watch players clipped by knockbacks or hammer movement near the edge.",
+                        "t": "-Mitigate Byregot's Ward and keep safe positioning for Byregot's Strike."
+                    },
+                    {
+                        "en": "Rhalgr's Emissary",
+                        "g": "-Destructive Strike is a cleaving tankbuster.\n-Bolts from the Blue is raidwide damage.\n-Destructive Static cleaves one half of the arena based on the axe shoulder.\n-Lightning Bolt traces out a path across the arena, then random puddles appear on players.\n-Later, a Destructive Static can resolve immediately after Lightning Bolt.\n-Boltloop places two circle AoEs on opposite sides, then an expanding donut.",
+                        "d": "",
+                        "h": "-Prepare for raid damage from Bolts from the Blue and Lightning Bolt overlap.\n-Watch players clipped by puddles after the line traces.",
+                        "t": "-Face the Emissary safely and mitigate Destructive Strike."
+                    },
+                    {
+                        "en": "Rhalgr",
+                        "g": "-Arena edge is lethal.\n-Lightning Reign is raidwide damage.\n-Advent of the Eighth plus Hand of the Destroyer punches the matching portal color and hits that half of the arena.\n-Broken World adds the comet / flare pattern; if the hand punches the comet, only the space under it is safe.\n-Rhalgr's Beacon knocks players down marked lines onto the fingers.\n-Hell of Lightning places hazards on some fingers, so choose a safe landing line.\n-Bronze Work is two waves of thin cones; stand in the second set first, then move.\n-Destructive Bolt hits all three tanks.",
+                        "d": "",
+                        "h": "-Prepare for Lightning Reign and for players landing badly after Rhalgr's Beacon.\n-Recover quickly after Broken World combinations.",
+                        "t": "-Mitigate Destructive Bolt on all three tanks."
+                    }
+                ],
                 "c": {
                     "14603": {
                         "a": {
@@ -11597,28 +11731,7 @@
                                 "g": "Thin cone AoEs appear around the knockback circle. Find a safe lane before the push."
                             }
                         }
-                    }
-                }
-            },
-            "756": {
-                "en": "Aglaia",
-                "st": [
-                    {
-                        "en": "Rhalgr's Emissary",
-                        "g": "-Destructive Strike is a cleaving tankbuster.\n-Bolts from the Blue is raidwide damage.\n-Destructive Static cleaves one half of the arena based on the axe shoulder.\n-Lightning Bolt traces out a path across the arena, then random puddles appear on players.\n-Later, a Destructive Static can resolve immediately after Lightning Bolt.\n-Boltloop places two circle AoEs on opposite sides, then an expanding donut.",
-                        "d": "",
-                        "h": "-Prepare for raid damage from Bolts from the Blue and Lightning Bolt overlap.\n-Watch players clipped by puddles after the line traces.",
-                        "t": "-Face the Emissary safely and mitigate Destructive Strike."
                     },
-                    {
-                        "en": "Rhalgr",
-                        "g": "-Arena edge is lethal.\n-Lightning Reign is raidwide damage.\n-Advent of the Eighth plus Hand of the Destroyer punches the matching portal color and hits that half of the arena.\n-Broken World adds the comet / flare pattern; if the hand punches the comet, only the space under it is safe.\n-Rhalgr's Beacon knocks players down marked lines onto the fingers.\n-Hell of Lightning places hazards on some fingers, so choose a safe landing line.\n-Bronze Work is two waves of thin cones; stand in the second set first, then move.\n-Destructive Bolt hits all three tanks.",
-                        "d": "",
-                        "h": "-Prepare for Lightning Reign and for players landing badly after Rhalgr's Beacon.\n-Recover quickly after Broken World combinations.",
-                        "t": "-Mitigate Destructive Bolt on all three tanks."
-                    }
-                ],
-                "c": {
                     "14586": {
                         "a": {
                             "28890": {
@@ -11666,31 +11779,12 @@
                     }
                 }
             },
-            "757": {
+            "756": {
                 "en": "Aglaia",
-                "st": [
-                    {
-                        "en": "Lion of Aglaia and Lioness of Aglaia",
-                        "g": "-Double Immolation is raidwide damage.\n-Slash and Burn resolves a circle on the lion and a donut on the lioness in dot order.\n-Roaring Blaze cleaves the halves in front of each lion, also in dot order.\n-After one lion dies, the surviving lion keeps a simpler half-room cleave plus either a center circle or a center donut.\n-Killing the lion first is common because the lioness's donut is easier to keep uptime on.",
-                        "d": "",
-                        "h": "",
-                        "t": ""
-                    },
-                    {
-                        "en": "Azeyma",
-                        "g": "-Warden's Warmth is three tankbusters.\n-Warden's Prominence is raidwide damage.\n-Solar Wings leaves flank cones and exploding orbs; later, illusions kick the orbs before they explode.\n-Solar Fans move around the arena edge, then Radiant Finish explodes them in large circles.\n-Solar Fold divides the arena by flame bars, and Sun's Shine clones blow the fire into other quadrants.\n-Fleeting Spark is a quick 270-degree cleave to Azeyma's front and flanks.\n-Wildfire Ward leaves only a small center safe zone and follows with three sequential knockbacks.\n-Noble Dawn marks fiery puddles, then Sublime Sunset kicks the center orb to one side for a flare.",
-                        "d": "",
-                        "h": "-Prepare for Warden's Prominence and repeated damage when orb or fan patterns are missed.\n-Watch players knocked into fire during Wildfire Ward.",
-                        "t": "-Mitigate Warden's Warmth."
-                    },
-                    {
-                        "en": "The Traders: Nald'thal",
-                        "g": "-Arena edge inflicts heavy damage-over-time.\n-The active brother color determines which orange or blue telegraphs are real, and swaps can change that during the cast.\n-Golden Tenet is a shared tankbuster for all three tanks, while Stygian Tenet is a separate hit on each tank.\n-As Above, So Below and Hells' Trial are raidwides.\n-Heat Above, Flames Below combines a melee circle and outer donut, but only the active color is real.\n-Heavens' Trial is three cone markers plus a stack marker.\n-Far Above, Deep Below is three chasers plus a line stack, again only in the active color.\n-Once Above, Ever Below sends traveling AoEs in the active color directions.\n-Hell of Fire blasts half the arena based on Thal's facing and can flip if the brothers swap.\n-Wayward Soul drops large circles, ending in a spiral pattern.\n-Fired Up releases ordered circles or knockbacks after Fortune's Flux.\n-Soul's Measure and Tipped Scales require each alliance to balance their side or wipe.\n-Hearth Above, Flight Below combines the color-safe area with either the line stack or the chasers.",
-                        "d": "",
-                        "h": "-Prepare for repeated raid damage and large mistakes during Tipped Scales.\n-Watch knockback paths during Fired Up carefully.",
-                        "t": "-Stack for Golden Tenet with the other alliance tanks or invuln it.\n-Mitigation is also needed for Stygian Tenet."
-                    }
-                ],
+                "g": "-Warden's Warmth is three tankbusters.\n-Warden's Prominence is raidwide damage.\n-Solar Wings leaves flank cones and exploding orbs; later, illusions kick the orbs before they explode.\n-Solar Fans move around the arena edge, then Radiant Finish explodes them in large circles.\n-Solar Fold divides the arena by flame bars, and Sun's Shine clones blow the fire into other quadrants.\n-Fleeting Spark is a quick 270-degree cleave to Azeyma's front and flanks.\n-Wildfire Ward leaves only a small center safe zone and follows with three sequential knockbacks.\n-Noble Dawn marks fiery puddles, then Sublime Sunset kicks the center orb to one side for a flare.",
+                "d": "",
+                "h": "-Prepare for Warden's Prominence and repeated damage when orb or fan patterns are missed.\n-Watch players knocked into fire during Wildfire Ward.",
+                "t": "-Mitigate Warden's Warmth.",
                 "c": {
                     "14545": {
                         "a": {
@@ -11732,7 +11826,16 @@
                                 "g": "Raidwide damage."
                             }
                         }
-                    },
+                    }
+                }
+            },
+            "757": {
+                "en": "Aglaia",
+                "g": "-Arena edge inflicts heavy damage-over-time.\n-The active brother color determines which orange or blue telegraphs are real, and swaps can change that during the cast.\n-Golden Tenet is a shared tankbuster for all three tanks, while Stygian Tenet is a separate hit on each tank.\n-As Above, So Below and Hells' Trial are raidwides.\n-Heat Above, Flames Below combines a melee circle and outer donut, but only the active color is real.\n-Heavens' Trial is three cone markers plus a stack marker.\n-Far Above, Deep Below is three chasers plus a line stack, again only in the active color.\n-Once Above, Ever Below sends traveling AoEs in the active color directions.\n-Hell of Fire blasts half the arena based on Thal's facing and can flip if the brothers swap.\n-Wayward Soul drops large circles, ending in a spiral pattern.\n-Fired Up releases ordered circles or knockbacks after Fortune's Flux.\n-Soul's Measure and Tipped Scales require each alliance to balance their side or wipe.\n-Hearth Above, Flight Below combines the color-safe area with either the line stack or the chasers.",
+                "d": "",
+                "h": "-Prepare for repeated raid damage and large mistakes during Tipped Scales.\n-Watch knockback paths during Fired Up carefully.",
+                "t": "-Stack for Golden Tenet with the other alliance tanks or invuln it.\n-Mitigation is also needed for Stygian Tenet.",
+                "c": {
                     "14595": {
                         "a": {
                             "28904": {
