@@ -364,12 +364,72 @@ public sealed class Plugin : IDalamudPlugin
         }
     }
 
+    private void TrimSessionLogIfNeeded()
+    {
+        var maxBytes = (long)(Configuration.SessionLogMaxSizeMb * 1024 * 1024);
+        if (maxBytes <= 0)
+        {
+            return;
+        }
+
+        var logPath = GetSessionLogPath();
+        if (!File.Exists(logPath))
+        {
+            return;
+        }
+
+        var fileInfo = new FileInfo(logPath);
+        if (fileInfo.Length <= maxBytes)
+        {
+            return;
+        }
+
+        sessionLogWriter?.Dispose();
+        sessionLogWriter = null;
+
+        try
+        {
+            var trimPercent = Math.Clamp(Configuration.SessionLogTrimPercent, 1, 100);
+            var offset = fileInfo.Length * trimPercent / 100;
+            var tailStart = fileInfo.Length;
+
+            using (var input = new FileStream(logPath, FileMode.Open, FileAccess.Read, FileShare.ReadWrite))
+            {
+                input.Position = offset;
+                while (input.Position < input.Length)
+                {
+                    if (input.ReadByte() == '\n')
+                    {
+                        tailStart = input.Position;
+                        break;
+                    }
+                }
+
+                var tempPath = Path.Combine(Path.GetDirectoryName(logPath)!, $"{Path.GetFileName(logPath)}.tmp");
+                using (var output = new FileStream(tempPath, FileMode.Create, FileAccess.Write, FileShare.Read))
+                {
+                    input.Position = tailStart;
+                    input.CopyTo(output);
+                }
+
+                File.Copy(tempPath, logPath, true);
+                File.Delete(tempPath);
+            }
+        }
+        catch (Exception ex)
+        {
+            Log.Error(ex, "Failed to trim coach mode session log file.");
+        }
+    }
+
     public void AppendSessionLog(string message, LogEventKind eventKind)
     {
         if (!ShouldLogToFile(eventKind))
         {
             return;
         }
+
+        TrimSessionLogIfNeeded();
 
         var writer = EnsureSessionLogWriter();
         if (writer == null)

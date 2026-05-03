@@ -53,6 +53,20 @@ public class ConfigWindow : Window, IDisposable
 
         if (config.CoachModeLogToFile || config.CoachModeLogMapChanges)
         {
+            ImGui.SetNextItemWidth(120);
+            var maxSizeMb = config.SessionLogMaxSizeMb;
+            if (ImGui.InputFloat("Max log size (MB)", ref maxSizeMb, 0.1f, 1.0f, "%.2f"))
+            {
+                config.SessionLogMaxSizeMb = Math.Max(0, maxSizeMb);
+            }
+
+            ImGui.SetNextItemWidth(120);
+            var trimPercent = config.SessionLogTrimPercent;
+            if (ImGui.InputInt("Log truncate percent", ref trimPercent))
+            {
+                config.SessionLogTrimPercent = Math.Clamp(trimPercent, 1, 100);
+            }
+
             ImGui.TextWrapped($"Log file: {plugin.GetSessionLogPath()}");
         }
 
