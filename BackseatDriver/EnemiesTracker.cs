@@ -210,7 +210,7 @@ namespace BackseatDriver
             var hostiles = Plugin.Objects
                 .Where(o => o is IBattleNpc bnpc
                 && o.ObjectKind == Dalamud.Game.ClientState.Objects.Enums.ObjectKind.BattleNpc
-                && bnpc.BattleNpcKind == Dalamud.Game.ClientState.Objects.Enums.BattleNpcSubKind.Enemy
+                && bnpc.BattleNpcKind == Dalamud.Game.ClientState.Objects.Enums.BattleNpcSubKind.Combatant
                 && o.IsTargetable)
                 .Cast<IBattleNpc>()
                 .ToArray();

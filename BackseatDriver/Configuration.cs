@@ -12,6 +12,10 @@ public class Configuration : IPluginConfiguration
     public bool KeepDriverOpenOnClick { get; set; } = true;
     public bool DisplayNerdStuff { get; set; } = false;
     public bool CoachModeEchoIntoChat { get; set; } = true;
+    public bool CoachModeLogToFile { get; set; } = false;
+    public bool CoachModeLogMapChanges { get; set; } = false;
+    public float SessionLogMaxSizeMb { get; set; } = 1.0f;
+    public int SessionLogTrimPercent { get; set; } = 25;
 
     // the below exist just to make saving less cumbersome
     public void Save()

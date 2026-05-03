@@ -1,0 +1,7 @@
+interface:
+  display_name: "Instance Entry Validator"
+  short_description: "Validate BackseatDriver entry JSON against source"
+  default_prompt: "Use $instance-entry-validator to review a drafted BackseatDriver JSON entry against the supplied FFXIV source material before upsert."
+
+policy:
+  allow_implicit_invocation: true

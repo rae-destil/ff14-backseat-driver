@@ -20,6 +20,7 @@ using System.Reflection;
 using System.Text;
 using System.Text.Json;
 using System.Text.Json.Serialization;
+using System.Globalization;
 using static Dalamud.Interface.Utility.Raii.ImRaii;
 using static FFXIVClientStructs.FFXIV.Client.System.Scheduler.Resource.SchedulerResource;
 using BackseatDriver;
@@ -130,6 +131,12 @@ public enum EnixTextColor
     GreenHealer = 504,
 }
 
+public enum LogEventKind
+{
+    CoachCast,
+    MapChange
+}
+
 public sealed class Plugin : IDalamudPlugin
 {
     [PluginService] internal static IDalamudPluginInterface PluginInterface { get; private set; } = null!;
@@ -150,6 +157,14 @@ public sealed class Plugin : IDalamudPlugin
     private bool waitingForPlayer = false;
     private uint lastLoadedMapId;
     public EnemiesTracker enemiesTracker { get; private set; }
+    private StreamWriter? sessionLogWriter;
+    private bool sessionLogInitFailed;
+    private bool sessionLogWriteFailed;
+    private string? sessionLogPath;
+    private uint? lastLoggedTerritoryId;
+    private uint? lastLoggedMapId;
+    private uint? lastObservedTerritoryId;
+    private uint? lastObservedMapId;
 
     private static readonly Dictionary<uint, Role> ClassJob_To_Role = new()
     {
@@ -256,6 +271,7 @@ public sealed class Plugin : IDalamudPlugin
 
     public void Dispose()
     {
+        sessionLogWriter?.Dispose();
         WindowSystem.RemoveAllWindows();
 
         ConfigWindow.Dispose();
@@ -285,9 +301,202 @@ public sealed class Plugin : IDalamudPlugin
         enemiesTracker.scan();
     }
 
-    private void OnTerritoryChanged(ushort newTerritoryId)
+    private void OnTerritoryChanged(uint newTerritoryId)
     {
+        LogMapChange(
+            "Territory changed event",
+            lastObservedTerritoryId,
+            lastObservedMapId,
+            newTerritoryId,
+            ClientState.MapId);
         waitingForPlayer = true;
+    }
+
+    public string GetSessionLogPath()
+    {
+        if (sessionLogPath != null)
+        {
+            return sessionLogPath;
+        }
+
+        sessionLogPath = Path.Combine(PluginInterface.ConfigDirectory.FullName, "bsd-log.log");
+        return sessionLogPath;
+    }
+
+    private bool ShouldLogToFile(LogEventKind eventKind)
+    {
+        return eventKind switch
+        {
+            LogEventKind.CoachCast => Configuration.CoachModeLogToFile,
+            LogEventKind.MapChange => Configuration.CoachModeLogMapChanges,
+            _ => false
+        };
+    }
+
+    private StreamWriter? EnsureSessionLogWriter()
+    {
+        if (sessionLogWriter != null)
+        {
+            return sessionLogWriter;
+        }
+
+        if (sessionLogInitFailed)
+        {
+            return null;
+        }
+
+        try
+        {
+            var logPath = GetSessionLogPath();
+            Directory.CreateDirectory(Path.GetDirectoryName(logPath)!);
+            sessionLogWriter = new StreamWriter(new FileStream(logPath, FileMode.Append, FileAccess.Write, FileShare.ReadWrite), Encoding.UTF8)
+            {
+                AutoFlush = true
+            };
+            sessionLogWriter.WriteLine($"[{DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss", CultureInfo.InvariantCulture)}] Session started");
+            return sessionLogWriter;
+        }
+        catch (Exception ex)
+        {
+            sessionLogInitFailed = true;
+            Log.Error(ex, "Failed to initialize coach mode session log file.");
+            return null;
+        }
+    }
+
+    private void TrimSessionLogIfNeeded()
+    {
+        var maxBytes = (long)(Configuration.SessionLogMaxSizeMb * 1024 * 1024);
+        if (maxBytes <= 0)
+        {
+            return;
+        }
+
+        var logPath = GetSessionLogPath();
+        if (!File.Exists(logPath))
+        {
+            return;
+        }
+
+        var fileInfo = new FileInfo(logPath);
+        if (fileInfo.Length <= maxBytes)
+        {
+            return;
+        }
+
+        sessionLogWriter?.Dispose();
+        sessionLogWriter = null;
+
+        try
+        {
+            var trimPercent = Math.Clamp(Configuration.SessionLogTrimPercent, 1, 100);
+            var offset = fileInfo.Length * trimPercent / 100;
+            var tailStart = fileInfo.Length;
+
+            using (var input = new FileStream(logPath, FileMode.Open, FileAccess.Read, FileShare.ReadWrite))
+            {
+                input.Position = offset;
+                while (input.Position < input.Length)
+                {
+                    if (input.ReadByte() == '\n')
+                    {
+                        tailStart = input.Position;
+                        break;
+                    }
+                }
+
+                var tempPath = Path.Combine(Path.GetDirectoryName(logPath)!, $"{Path.GetFileName(logPath)}.tmp");
+                using (var output = new FileStream(tempPath, FileMode.Create, FileAccess.Write, FileShare.Read))
+                {
+                    input.Position = tailStart;
+                    input.CopyTo(output);
+                }
+
+                File.Copy(tempPath, logPath, true);
+                File.Delete(tempPath);
+            }
+        }
+        catch (Exception ex)
+        {
+            Log.Error(ex, "Failed to trim coach mode session log file.");
+        }
+    }
+
+    public void AppendSessionLog(string message, LogEventKind eventKind)
+    {
+        if (!ShouldLogToFile(eventKind))
+        {
+            return;
+        }
+
+        TrimSessionLogIfNeeded();
+
+        var writer = EnsureSessionLogWriter();
+        if (writer == null)
+        {
+            return;
+        }
+
+        var timestamp = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss", CultureInfo.InvariantCulture);
+        var prefix = eventKind switch
+        {
+            LogEventKind.CoachCast => "COACH",
+            LogEventKind.MapChange => "MAP",
+            _ => "LOG"
+        };
+
+        var normalizedMessage = message.Replace("\r\n", "\n");
+        var lines = normalizedMessage.Split('\n');
+
+        try
+        {
+            writer.WriteLine($"[{timestamp}] [{prefix}] {lines[0]}");
+            for (var i = 1; i < lines.Length; i++)
+            {
+                writer.WriteLine($"[{timestamp}] [{prefix}]   {lines[i]}");
+            }
+        }
+        catch (Exception ex)
+        {
+            if (!sessionLogWriteFailed)
+            {
+                sessionLogWriteFailed = true;
+                Log.Error(ex, "Failed to write to coach mode session log file.");
+            }
+        }
+    }
+
+    private string ResolveTerritoryName(uint territoryId)
+    {
+        return instances_data?.GetValueOrDefault(territoryId.ToString())?.en_name ?? "unknown";
+    }
+
+    private string ResolveMapName(uint territoryId, uint mapId)
+    {
+        return instances_data?.GetValueOrDefault(territoryId.ToString())?.maps.GetValueOrDefault(mapId.ToString())?.en_name ?? "unknown";
+    }
+
+    private void LogMapChange(string reason, uint? fromTerritoryId, uint? fromMapId, uint toTerritoryId, uint toMapId)
+    {
+        if (lastLoggedTerritoryId == toTerritoryId && lastLoggedMapId == toMapId && reason == "Map snapshot updated")
+        {
+            return;
+        }
+
+        var fromText = fromTerritoryId.HasValue && fromMapId.HasValue
+            ? $"from territory={fromTerritoryId.Value} ({ResolveTerritoryName(fromTerritoryId.Value)}), map={fromMapId.Value} ({ResolveMapName(fromTerritoryId.Value, fromMapId.Value)})"
+            : "from territory=unknown, map=unknown";
+        var toText = $"to territory={toTerritoryId} ({ResolveTerritoryName(toTerritoryId)}), map={toMapId} ({ResolveMapName(toTerritoryId, toMapId)})";
+        var hasHints = current_map_hint != null && ClientState.TerritoryType == toTerritoryId && ClientState.MapId == toMapId;
+
+        AppendSessionLog(
+            $"{reason}: {fromText}, {toText}, hintsLoaded={hasHints}",
+            LogEventKind.MapChange);
+
+        lastLoggedTerritoryId = toTerritoryId;
+        lastLoggedMapId = toMapId;
+        lastObservedTerritoryId = toTerritoryId;
+        lastObservedMapId = toMapId;
     }
 
     public void printTitle(string text, EnixTextColor color)
@@ -306,6 +515,7 @@ public sealed class Plugin : IDalamudPlugin
         if (localPlayer == null || !localPlayer.ClassJob.IsValid)
         {
             Log.Info("No local player or invalid class job. Cannot load hints.");
+            LogMapChange("Map snapshot updated", lastObservedTerritoryId, lastObservedMapId, ClientState.TerritoryType, ClientState.MapId);
             return;
         }
 
@@ -321,12 +531,14 @@ public sealed class Plugin : IDalamudPlugin
 
         if (territory_hint == null)
         {
+            LogMapChange("Map snapshot updated", lastObservedTerritoryId, lastObservedMapId, territoryId, mapId);
             return;
         }
 
         var hint = territory_hint.maps.GetValueOrDefault(mapId.ToString());
         if (hint == null)
         {
+            LogMapChange("Map snapshot updated", lastObservedTerritoryId, lastObservedMapId, territoryId, mapId);
             return;
         }
 
@@ -344,6 +556,7 @@ public sealed class Plugin : IDalamudPlugin
         // no stages, no map hints
         if (!anyTerritoryHintsExist)
         {
+            LogMapChange("Map snapshot updated", lastObservedTerritoryId, lastObservedMapId, territoryId, mapId);
             return;
         }
 
@@ -351,6 +564,7 @@ public sealed class Plugin : IDalamudPlugin
         this.current_territory_hint = territory_hint;
         this.current_map_hint = hint;
         this.lastLoadedMapId = mapId;
+        LogMapChange("Map snapshot updated", lastObservedTerritoryId, lastObservedMapId, territoryId, mapId);
     }
 
     public CoachActionHint? getCoachingActionHints(string enemyId, string actionId, ref CoachActionHint hint)
