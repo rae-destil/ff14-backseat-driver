@@ -14578,9 +14578,210 @@
             },
             "916": {
                 "en": "The Skydeep Cenote",
-                "d": "...",
-                "h": "...",
-                "t": "..."
+                "st": [
+                    {
+                        "en": "Firearms",
+                        "g": "-Mirror Maneuver reflects Thunderlight Burst through mirrors into an orb; identify the orb that will explode and stand opposite it.\n-Ancient Artillery glyphs become plus-shaped AoEs; later patterns leave only one safe tile.\n-Spread after later artillery tiles resolve.",
+                        "d": "-Keep moving cleanly through mirror and tile patterns.",
+                        "h": "-Heal Dynamic Dominance party-wide magical damage.\n-Watch spread damage after later artillery.",
+                        "t": "-Mitigate Pummel tankbusters."
+                    },
+                    {
+                        "en": "Maulskull",
+                        "g": "-The arena has fall danger; use knockback immunity or aim knockbacks safely.\n-Stonecarver fists show two sequential half-room cleaves.\n-For Colossal Impact, get knocked to the opposite corner while stacked or spread as marked.",
+                        "d": "-Dodge Maulwork circles and the final wide line pattern.\n-Soak Deep Thunder with the party.",
+                        "h": "-Heal Ashlayer party-wide magical damage.\n-Keep the party stable through Deep Thunder's three hits.",
+                        "t": "-Mitigate Wrought Fire tankbusters.\n-Help keep Maulskull positioned for safe knockback handling."
+                    }
+                ],
+                "c": {
+                    "16772": {
+                        "a": {
+                            "36442": {
+                                "g": "Arrow glyphs mark plus-shaped tile AoEs; identify the safe tile.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "36443": {
+                                "g": "Line AoE reflects through mirrors into an orb; move away from the orb that will be hit.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "36447": {
+                                "g": "Physical tankbuster.",
+                                "d": "",
+                                "h": "Watch the tank.",
+                                "t": "Use mitigation."
+                            },
+                            "36448": {
+                                "g": "Party-wide magical damage and arena edge danger.",
+                                "d": "",
+                                "h": "Prepare party healing.",
+                                "t": ""
+                            },
+                            "39000": {
+                                "g": "Artillery glyphs expand and explode; move to the safe tile.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "39139": {
+                                "g": "Mirrors and orbs are spawning; trace the reflected line and avoid the orb explosion.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            }
+                        },
+                        "d": {}
+                    },
+                    "16839": {
+                        "a": {
+                            "36668": {
+                                "g": "Watch the glowing fists; dodge the two sequential half-room cleaves.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "36673": {
+                                "g": "Watch the glowing fists; dodge the two sequential half-room cleaves.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "36675": {
+                                "g": "Long knockback from the north plus spreads; stand close and angle southwest or southeast.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "36679": {
+                                "g": "Dodge the cube AoE sets; watch the third set for safe side or middle lanes.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "36682": {
+                                "g": "Dodge the cube AoE sets; watch the third set for safe side or middle lanes.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "36687": {
+                                "g": "Soak the tower stack with the party for three physical hits.",
+                                "d": "",
+                                "h": "Heal through the three hits.",
+                                "t": "Stack in the tower with the party."
+                            },
+                            "36691": {
+                                "g": "Soak the tower stack with the party for three physical hits.",
+                                "d": "",
+                                "h": "Heal through the three hits.",
+                                "t": "Stack in the tower with the party."
+                            },
+                            "36695": {
+                                "g": "Knockback and half-room cleaves combine; get knocked safely, then dodge the cleaves.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "36699": {
+                                "g": "Watch the glowing fists; dodge the two sequential half-room cleaves.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "36700": {
+                                "g": "Watch the glowing fists; dodge the two sequential half-room cleaves.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "36704": {
+                                "g": "Knockback from a lower corner; land in the opposite corner while handling stack or spread markers.",
+                                "d": "",
+                                "h": "Heal the follow-up stack or spread damage.",
+                                "t": ""
+                            },
+                            "36711": {
+                                "g": "Party-wide magical damage; heal and mitigate.",
+                                "d": "",
+                                "h": "Prepare party healing.",
+                                "t": ""
+                            },
+                            "39121": {
+                                "g": "Magical tankbuster.",
+                                "d": "",
+                                "h": "Watch the tank.",
+                                "t": "Use mitigation."
+                            }
+                        },
+                        "d": {}
+                    }
+                }
+            },
+            "365": {
+                "en": "Feather Ray",
+                "g": "-Troublesome Tail gives Nuisance; your next mirrored attack fires from where you face.\n-For Worrisome Wave and Trouble Bubbles, avoid facing other players.\n-Use the shifted empty spaces for Bubble Bomb after Rolling Current moves bubbles west.",
+                "d": "-Keep uptime while dodging Blowing Bubbles and shifted Bubble Bomb explosions.",
+                "h": "-Heal Immersion party-wide magical damage.\n-Watch players clipped by mirrored attacks or bubbles.",
+                "t": "-Avoid facing the party while Nuisance is active.",
+                "c": {
+                    "16851": {
+                        "a": {
+                            "36727": {
+                                "g": "Nuisance is applied; your next mirrored attack fires from where you face.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "36728": {
+                                "g": "Frontal cone on a player; with Nuisance, avoid facing others when your timer expires.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "36732": {
+                                "g": "Dodge the slow bubbles moving out from the boss.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "36733": {
+                                "g": "Donut AoE; move inside, then respect the smaller arena edge.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "36735": {
+                                "g": "Bubbles form a grid; find empty spaces and prepare for the current shift.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "36736": {
+                                "g": "East current shifts bubbles west by one spot; stand where the empty space will end up.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "36739": {
+                                "g": "Party-wide magical damage; heal and mitigate.",
+                                "d": "",
+                                "h": "Prepare party healing.",
+                                "t": ""
+                            },
+                            "38787": {
+                                "g": "Players fire slow bubbles forward; face away from the group and dodge others' bubbles.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            }
+                        },
+                        "d": {}
+                    }
+                }
             }
         }
     },
