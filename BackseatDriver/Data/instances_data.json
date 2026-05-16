@@ -5128,70 +5128,300 @@
         "en": "Dun Scaith",
         "maps": {
             "343": {
-                "en": "Dun Scaith",
-                "st": [
-                    {
-                        "en": "Deathgaze Hollow",
-                        "g": "-Void Death pulls players; run to edges or die.\n-Green markers spawn tornadoes on players (Void Aero II).\n-Void Aero III damages based on distance from it, so go to the purple walls.\n-Void Blizzard IV spawns ice crystals on the proximity markers. Stand OPPOSITE them to not get blown off by the following Void Aero IV.",
-                        "d": "...",
-                        "h": "-Many mechanics drop Esuna-able debuffs on party members.\n-Particularly Doomsay which gives Doom to two players. You must Esuna this.",
-                        "t": "-Keep boss roughly in the center, but avoid lit-up platforms as those will 1-shot you."
-                    },
-                    {
-                        "en": "Ferdiad Hollow",
-                        "g": "-Red markers place scythe AoEs on players.\n-Wormhole: spawns four atomos, two orange and two blue. Will tether to one, and send a blue ORB or yellow DONUT.\n-If it's a DONUT, stand on matching Atomos to avoid Donut AoE. If ORB, run away from matching Atomos to avoid blast AoE.\n-Debilitator gives a debuff to fire or water. Turn the puddles to the opposite to receive less damage.",
-                        "d": "-Place scythes away from the main group.",
-                        "h": "-Lots of debuffs to Esuna.",
-                        "t": "..."
-                    },
-                    {
-                        "en": "Proto Ultima",
-                        "g": "-Aethero Flare: just soak this.\n-Eikonizer: stack.\n-Flare Star: run away.",
-                        "d": "-Focus Dreadnaughts and Collectors over Ultima.",
-                        "h": "...",
-                        "t": "-If you're off-tank, make sure to grab Dreadnaughts so they don't touch your parties."
+                "en": "Deathgaze Hollow",
+                "g": "-Watch the open ship edges; knockbacks can throw you off.\n-Void Death pulls inward from the center; run out or use knockback immunity after the first pull.\n-Use ice blocks or purple walls to survive Void Aero knockbacks.",
+                "d": "-Drop Void Aero II tornadoes away from the group.\n-Kill Void Sprites quickly when they spawn.",
+                "h": "-Esuna Doom from Doomsay immediately.\n-Esuna Windburn, Frostbite, and Bleeding when possible.",
+                "t": "-Keep the boss positioned safely while watching floor squares and ship edges.",
+                "c": {
+                    "6415": {
+                        "a": {
+                            "7284": {
+                                "g": "Avoid the fan AoE; Frostbite can be cleansed if hit.",
+                                "d": "",
+                                "h": "Cleanse Frostbite if players are hit.",
+                                "t": ""
+                            },
+                            "7285": {
+                                "g": "Avoid the fan AoE; Frostbite can be cleansed if hit.",
+                                "d": "",
+                                "h": "Cleanse Frostbite if players are hit.",
+                                "t": ""
+                            },
+                            "7286": {
+                                "g": "Proximity markers drop ice blocks; stand opposite a marker so the next knockback sends you into a block.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "7287": {
+                                "g": "Proximity markers drop ice blocks; stand opposite a marker so the next knockback sends you into a block.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "7288": {
+                                "g": "Spread markers drop tornadoes; place them away from the group.",
+                                "d": "",
+                                "h": "Cleanse Windburn if players step into tornadoes.",
+                                "t": ""
+                            },
+                            "7289": {
+                                "g": "Spread markers drop tornadoes; place them away from the group.",
+                                "d": "",
+                                "h": "Cleanse Windburn if players step into tornadoes.",
+                                "t": ""
+                            },
+                            "7290": {
+                                "g": "Center wind causes proximity damage and knockback; get to a purple wall or use knockback immunity.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "7291": {
+                                "g": "Center wind causes proximity damage and knockback; get to a purple wall or use knockback immunity.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "7292": {
+                                "g": "Knockback is coming; use an ice block or knockback immunity to avoid falling.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "7293": {
+                                "g": "Knockback is coming; use an ice block or knockback immunity to avoid falling.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "7294": {
+                                "g": "Run out of the center pull or use knockback immunity; being caught is lethal.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "7295": {
+                                "g": "Run out of the center pull or use knockback immunity; being caught is lethal.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "7298": {
+                                "g": "Get off the gray floor squares before they pulse; standing on them is lethal.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "7300": {
+                                "g": "Doom is going out; affected players need Esuna.",
+                                "d": "",
+                                "h": "Cleanse Doom immediately.",
+                                "t": ""
+                            },
+                            "7301": {
+                                "g": "Doom is going out; affected players need Esuna.",
+                                "d": "",
+                                "h": "Cleanse Doom immediately.",
+                                "t": ""
+                            },
+                            "7302": {
+                                "g": "Large line attack during wind knockback; use the wall away from the boss if possible.",
+                                "d": "",
+                                "h": "Cleanse Bleeding if players are hit.",
+                                "t": ""
+                            }
+                        },
+                        "d": {}
                     }
-                ]
+                }
             },
             "344": {
-                "en": "Scathach",
-                "g": "-Thirty Thorns: move out of melee range.\n-Shadespin: get out of her wings' way.\n-When you see 'Shadows gather on the floor', stop moving.\n-Nox Orbs: bait away from other players.\n-Face shadow limbs when tethered to stop their movement.",
-                "d": "-Focus shadow limbs and Connla adds.",
-                "h": "...",
-                "t": "-Pitfall spawns Connla adds. Off-tanks should grab these and keep them away from the queen."
+                "en": "Ferdiad Hollow",
+                "g": "-For Wormhole, match the tethered Atomos color and avoid the sent shape: stand under the matching color for yellow donuts, away from matching color for blue circles.\n-For Debilitator, turn puddles to the opposite element of your debuff.\n-Avoid Wailing Atomos fronts and look away from Petrifying Eye.",
+                "d": "-Drop scythe markers away from the group.\n-Kill adds quickly during the untargetable phase.",
+                "h": "-Cleanse Flesh Wound from scythe hits when possible.\n-Heal Jester's Jig after the add phase.",
+                "t": "-Help control add waves and keep players clear of Atomos fronts.",
+                "c": {
+                    "6440": {
+                        "a": {
+                            "7320": {
+                                "g": "Marked players should drop scythes away from the group.",
+                                "d": "",
+                                "h": "Cleanse Flesh Wound if players are hit.",
+                                "t": ""
+                            },
+                            "7322": {
+                                "g": "Check the tethered Atomos color and shape: yellow means stand under the matching color, blue means avoid it.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "7332": {
+                                "g": "Raidwide damage after the add phase; heal and mitigate.",
+                                "d": "",
+                                "h": "Prepare party healing.",
+                                "t": ""
+                            },
+                            "7334": {
+                                "g": "Change puddles to the opposite element of your debuff before Flameflow.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            }
+                        },
+                        "d": {}
+                    }
+                }
             },
             "345": {
+                "en": "Scathach",
+                "g": "-Thirty Thorns is a tankbuster followed by close AoE; move out of melee after it.\n-Shadespin hits opposite quadrants around the boss; stand between the wings.\n-When shadows gather on the floor, stop moving.",
+                "d": "-Kill Connla away from Scathach and burn Shadow Limbs before they reach tethered players.\n-Bait Nox orbs away from the group.",
+                "h": "-Prepare healing for add phases and tower failures.\n-Watch Bleeding if players move during Shadow Links.",
+                "t": "-Pick up Connla from Pitfall and keep it away from Scathach.\n-Face or stun interruptible Chimera-style add casts during cocoon phase.",
+                "c": {
+                    "6479": {
+                        "a": {
+                            "7455": {
+                                "g": "Stand in a safe quadrant between the extended wings.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "7459": {
+                                "g": "Line AoE toward the party; sidestep it.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "7467": {
+                                "g": "Tankbuster followed by close AoE; move out of melee range after the hits.",
+                                "d": "Move out after the tankbuster sequence.",
+                                "h": "Watch the tank through the multi-hit tankbuster.",
+                                "t": "Mitigate the tankbuster, then move out of the close AoE."
+                            },
+                            "7471": {
+                                "g": "Lines fire from the blue pool location; dodge the pattern.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            }
+                        },
+                        "d": {}
+                    }
+                }
+            },
+            "346": {
                 "en": "Diabolos",
                 "st": [
                     {
                         "en": "Diabolos",
-                        "g": "-Look away from Nightmare.\n-Ultimate Terror: mid-range donut, either hug Diabolos or stand far away.\n-Omen does raid-wide damage.-Kill lifegates 5 times to move to the next phase.",
-                        "d": "-Melee stuns can interrupt diabolos' attacks.\n-Focus deathgates so they don't spawn adds.",
-                        "h": "...",
-                        "t": "-Tank stuns can interrupt most of diabolos' attacks."
+                        "g": "-Look away from Nightmare.\n-Ultimate Terror is a donut; stand close or far away.\n-Stack for Night Terror and dodge Shadethrust lines.",
+                        "d": "-Stun casted abilities when available.\n-Kill Deathgates during the Lifegate intermission.",
+                        "h": "-Heal Ruinous Omen raidwide damage.\n-Wake or recover players hit by Nightmare.",
+                        "t": "-Stun casted abilities when available.\n-Keep Diabolos faced away for Shadethrust."
                     },
                     {
                         "en": "Diabolos Hollow",
-                        "g": "-Has a shield to break through at first.\n-Hollow nightmare now inflicts Doom.\n-Earthshaker: marks 3 players for a cone AoE, so spread.\n-Nox: spawns chasing balls. Keep these away from the party!\n-Use towers to deal with particle beams, middle one only for tanks.\n-Watch for Diablos turning around randomly, he will follow up with Shadethrust - nasty line AoE.",
-                        "d": "-If diabolic gate spawns, go in and kill the add quickly or the raid wipes.",
-                        "h": "-With the shield up, Diabolos will do extra damage so prepare to heal your main tank a LOT.",
-                        "t": "-Use the middle tower for particle beam.\n-Off-tanks should soak Critical Gravity red orbs away from the party."
+                        "g": "-Break the starting shield quickly; it makes attacks critically hit.\n-Look away from Hollow Nightmare and handle Hollow Night as both stack and gaze.\n-Enter Diabolic Gate and kill Shadow Dahak before the raid wipes.",
+                        "d": "-Kill Deathgates and portal adds quickly.\n-Spread Earthshaker cones and kite Nox away from the party.",
+                        "h": "-Watch the main tank during shielded Hollow Camisado.\n-Prepare healing for Hollow Omen and Hollow Night.",
+                        "t": "-Mitigate Hollow Camisado hard while the shield is up.\n-Use the middle tower for Particle Beam and soak Critical Gravity away from the party."
                     }
-                ]
-            },
-            "346": {
-                "en": "...",
-                "g": "...",
-                "d": "...",
-                "h": "...",
-                "t": "..."
+                ],
+                "c": {
+                    "6407": {
+                        "a": {
+                            "7182": {
+                                "g": "Look away from Diabolos to avoid Sleep.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "7184": {
+                                "g": "Raidwide damage; heal and mitigate.",
+                                "d": "",
+                                "h": "Prepare party healing.",
+                                "t": ""
+                            },
+                            "7187": {
+                                "g": "Stack marker; group up to share damage.",
+                                "d": "",
+                                "h": "Heal the stack damage.",
+                                "t": ""
+                            }
+                        },
+                        "d": {}
+                    },
+                    "6408": {
+                        "a": {
+                            "7193": {
+                                "g": "Heavy tankbuster; it crits while the shield is up.",
+                                "d": "",
+                                "h": "Top the tank quickly, especially while shield is up.",
+                                "t": "Use strong mitigation, especially while shield is up."
+                            },
+                            "7194": {
+                                "g": "Line AoE in front of Diabolos; dodge to the side or back.",
+                                "d": "",
+                                "h": "",
+                                "t": "Face the line away from the party."
+                            },
+                            "7197": {
+                                "g": "Stack and gaze from the marked player; stack between them and the boss while facing away from the marked player.",
+                                "d": "",
+                                "h": "Heal the stack damage.",
+                                "t": ""
+                            },
+                            "7198": {
+                                "g": "Shield is up; break it quickly before tank damage gets out of hand.",
+                                "d": "Burn the shield.",
+                                "h": "Watch the tank until the shield breaks.",
+                                "t": "Use mitigation until the shield breaks."
+                            },
+                            "7200": {
+                                "g": "Look away from Diabolos to avoid Doom.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "7202": {
+                                "g": "Raidwide damage; heal and mitigate.",
+                                "d": "",
+                                "h": "Prepare party healing.",
+                                "t": ""
+                            },
+                            "7208": {
+                                "g": "Tank stack marker; stack with the target to share damage.",
+                                "d": "",
+                                "h": "Heal the stack damage.",
+                                "t": "Mitigate the shared tank hit."
+                            },
+                            "7209": {
+                                "g": "Three players get boss-origin cone markers; spread apart.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "7211": {
+                                "g": "Boss gains more damage but starts taking damage over time.",
+                                "d": "",
+                                "h": "Expect heavier incoming damage.",
+                                "t": "Use extra mitigation while damage is increased."
+                            }
+                        },
+                        "d": {}
+                    }
+                }
             },
             "347": {
-                "en": "...",
-                "g": "...",
-                "d": "...",
-                "h": "...",
-                "t": "..."
+                "en": "Proto Ultima",
+                "g": "-Aethero Flare: soak this.\n-Eikonizer: stack.\n-Flare Star: run away.",
+                "d": "-Focus Dreadnaughts and Collectors over Ultima.",
+                "h": "",
+                "t": "-Off-tanks should grab Dreadnaughts so they do not reach parties."
             }
         }
     },
