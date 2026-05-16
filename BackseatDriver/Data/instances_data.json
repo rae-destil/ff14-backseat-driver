@@ -6900,26 +6900,141 @@
                 "st": [
                     {
                         "en": "Phase 1",
-                        "g": "-Torment Unto Death: large frontal tankbuster—stay out of front\n-Zashiki-Asobi: fans explode in spawn order; start near a late fan and move center after first explosions\n-Nightfall triggers one of several attacks:\n  • Steel of the Underworld – frontal cone on tank\n  • Reprimand – raidwide AoE; heal through\n  • Midnight Haze – kill two adds before they meet or finish To Ashes\n  • Lead of the Underworld – line stack marker; share damage safely",
-                        "t": "-Keep boss faced away from group for Torment Unto Death and Steel of the Underworld\n-Pick up Midnight Haze adds immediately\n-Move to safe zones during fan explosions",
-                        "d": "-Spread for green markers\n-Stack properly for line marker\n-Destroy adds fast to avoid overlapping casts\n-Move center after early fan explosions resolve",
-                        "h": "-Prepare for Reprimand raidwide AoE\n-Keep tanks topped off through Torment Unto Death\n-Use regen before Nightfall variations for stability"
+                        "g": "-Avoid Torment Unto Death and other frontal cones.\n-For Zashiki-Asobi, move from a late fan into the center after the first explosions.\n-Nightfall can be a raidwide, tank cone, line stack, or Midnight Haze adds.",
+                        "d": "-Kill Midnight Haze adds before they meet or finish casting.\n-Share Lead of the Underworld line stacks.",
+                        "h": "-Heal through Reprimand raidwide damage.\n-Keep the tank stable for Torment Unto Death and Steel of the Underworld.",
+                        "t": "-Face frontal cones away from the party.\n-Use mitigation for Torment Unto Death and Steel of the Underworld."
                     },
                     {
-                        "en": "Adds Phase",
-                        "g": "-Begins with Nightbloom: heavy raidwide + stun\n-Kill adds quickly to prevent Suffering gauge from reaching 100%\n-More suffering = stronger damage at phase end",
-                        "t": "...",
-                        "d": "...",
-                        "h": "-Top off before phase ends to survive final detonation"
+                        "en": "Add Phase",
+                        "g": "-Nightbloom opens the phase with raidwide damage and stun.\n-Kill each add wave quickly before the Suffering gauge fills.\n-Higher Suffering means heavier end-of-phase damage; 100% wipes the group.",
+                        "d": "-Swap quickly to new add waves and burn them down.",
+                        "h": "-Shield and heal as Suffering rises.\n-Top the party before the phase-end damage.",
+                        "t": "-Help collect add waves so the party can kill them quickly."
                     },
                     {
-                        "en": "Phase 2",
-                        "g": "-Selenomancy splits arena into light/dark halves; standing too long on one side stacks debuffs leading to Doom\n-Swap sides at 3 stacks to reset safely\n-During this, she continues Nightfall and Midnight Haze mechanics\n-Antitwilight/Perilune clears debuffs but deals raidwide damage\n-Dance of the Dead: transition attack with heavy damage\n-Lunacy: multi-hit stack (1 + 2 rapid hits) — group up and mitigate\n-Dark/Bright Blade: cleaves most of arena; move opposite the glowing blade",
-                        "t": "-Maintain control of boss centerline for Selenomancy rotations\n-Swap sides with the group at 3 stacks\n-Pop mitigation before Antitwilight and Lunacy",
-                        "d": "-Follow stack/swap cues for Selenomancy safely\n-Dodge Nightfall and cleaves while switching sides\n-Stack close during Lunacy and spread right after\n-Move opposite glowing blade to avoid cleave",
-                        "h": "-Use strong mitigation and healing for Antitwilight and Dance of the Dead\n-Pre-shield for Lunacy hits\n-Heal through DoTs or Bleed if players mistime Selenomancy swaps"
+                        "en": "Final Phase",
+                        "g": "-Selenomancy splits the arena; swap sides around 3 stacks and stay there for the reset tick.\n-Antitwilight and Perilune clear Selenomancy and deal raidwide damage.\n-Stack for Lunacy, then dodge Dark Blade or Bright Blade by moving opposite the sword.",
+                        "d": "-Kill Midnight Haze adds while managing Selenomancy stacks.\n-Stay grouped for all Lunacy hits.",
+                        "h": "-Prepare healing for Antitwilight, Perilune, Dance of the Dead, and Lunacy.\n-Recover players who mistime Selenomancy swaps.",
+                        "t": "-Keep the boss controlled while the party swaps sides.\n-Mitigate Lunacy and major raidwides."
                     }
-                ]
+                ],
+                "c": {
+                    "8720": {
+                        "a": {
+                            "11234": {
+                                "g": "Raidwide damage; heal and mitigate.",
+                                "d": "",
+                                "h": "Prepare party healing.",
+                                "t": ""
+                            },
+                            "11235": {
+                                "g": "Frontal cone tankbuster; stay out of the boss's front.",
+                                "d": "",
+                                "h": "Keep the tank topped.",
+                                "t": "Mitigate and face the cone away from the party."
+                            },
+                            "11236": {
+                                "g": "Nightfall is resolving; watch for the follow-up attack.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "11237": {
+                                "g": "Nightfall is resolving; watch for the follow-up attack.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "11238": {
+                                "g": "Line stack marker; line up with the target to share damage.",
+                                "d": "",
+                                "h": "Heal the stack damage.",
+                                "t": ""
+                            },
+                            "11239": {
+                                "g": "Large frontal cone on the primary target; avoid the boss's front.",
+                                "d": "",
+                                "h": "Watch the tank.",
+                                "t": "Face the cone away from the party."
+                            },
+                            "11240": {
+                                "g": "Midnight Haze adds are spawning; kill them before they meet or finish casting.",
+                                "d": "Swap to the adds immediately.",
+                                "h": "",
+                                "t": ""
+                            },
+                            "11241": {
+                                "g": "Midnight Haze adds are spawning; kill them before they meet or finish casting.",
+                                "d": "Swap to the adds immediately.",
+                                "h": "",
+                                "t": ""
+                            },
+                            "11244": {
+                                "g": "Fans explode in spawn order; start near a later fan, then move center after early explosions.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "11246": {
+                                "g": "Raidwide damage and stun; add phase begins.",
+                                "d": "Prepare to swap to adds.",
+                                "h": "Shield and top the party.",
+                                "t": ""
+                            },
+                            "11249": {
+                                "g": "Arena splits into light and dark; swap sides around 3 stacks and wait for the reset tick.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "11256": {
+                                "g": "Raidwide damage that clears Selenomancy; heal and mitigate.",
+                                "d": "",
+                                "h": "Prepare party healing.",
+                                "t": "Use party mitigation if available."
+                            },
+                            "11257": {
+                                "g": "Dark Blade cleaves over half the arena; move opposite the sword.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "11258": {
+                                "g": "Bright Blade cleaves over half the arena; move opposite the sword.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "11259": {
+                                "g": "Multi-hit stack; group up and stay stacked.",
+                                "d": "Stay stacked for every hit.",
+                                "h": "Heal through the repeated hits.",
+                                "t": "Use mitigation for the stack."
+                            },
+                            "11260": {
+                                "g": "Multi-hit stack; group up and stay stacked.",
+                                "d": "Stay stacked for every hit.",
+                                "h": "Heal through the repeated hits.",
+                                "t": "Use mitigation for the stack."
+                            },
+                            "11897": {
+                                "g": "Heavy raidwide phase transition; heal and mitigate.",
+                                "d": "",
+                                "h": "Prepare strong party healing.",
+                                "t": "Use mitigation if available."
+                            },
+                            "11955": {
+                                "g": "Frontal cone tankbuster; stay out of the boss's front.",
+                                "d": "",
+                                "h": "Keep the tank topped.",
+                                "t": "Mitigate and face the cone away from the party."
+                            }
+                        },
+                        "d": {}
+                    }
+                }
             }
         }
     },
@@ -14728,6 +14843,3 @@
         "maps": {}
     }
 }
-
-
-
