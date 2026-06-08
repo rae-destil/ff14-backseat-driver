@@ -9776,6 +9776,182 @@
                 "d": "...",
                 "h": "...",
                 "t": "..."
+            },
+            "365": {
+                "en": "Eden's Verse: Furor",
+                "st": [
+                    {
+                        "en": "Garuda",
+                        "g": "-Arena edge is lethal.\n-Ferostorm blades fire cones from Garuda's sides; dodge the blade directions.\n-Vacuum Slice cuts the arena in half; do not cross the persistent center line.",
+                        "d": "-For Aerial Stack, each blue marker needs one unmarked partner; marked players should not stack together.",
+                        "h": "-Heal Superstorm raidwide damage.\n-Prepare for players clipped by knockback or orb explosions.",
+                        "t": ""
+                    },
+                    {
+                        "en": "Ifrit",
+                        "g": "-Move away from Ifrit's arrival proximity marker.\n-Hot Foot: move to Ifrit's orb location; that becomes the safe spot.\n-Hands of Hell tethers should be split so no player holds multiple tethers.",
+                        "d": "-Avoid Eruption circles as they appear.\n-Help split Hands of Hell tethers.",
+                        "h": "-Heal Inferno Howl raidwide damage.\n-Watch the tank for Instant Incineration and Hands of Flame.",
+                        "t": "-Mitigate Instant Incineration.\n-Handle Hands of Flame away from follow-up concussive hits."
+                    },
+                    {
+                        "en": "Garuda and Ifrit",
+                        "g": "-Each tank should hold one primal.\n-Occluded Front plus Hot Foot changes the orb safe spot; move near Ifrit if he kicks your side's orb.\n-Handle Aerial Stack, Hands of Hell, Eruption, and Ferostorm together.",
+                        "d": "-Split tethers and dodge Eruptions without clipping stack partners.\n-Use the updated orb safe spot after Hot Foot.",
+                        "h": "-Expect overlapping stack, tether, and raid damage.\n-Recover quickly before the merge raidwide.",
+                        "t": "-Keep one tank on Garuda and one on Ifrit."
+                    },
+                    {
+                        "en": "Raktapaksa",
+                        "g": "-Flaming circles leave small edge safe spots, then Ferostorm follows.\n-Hands of Flame leaves the center line safe between side explosions.\n-Conflag Strike ends with a huge frontal cone; move behind the boss after the fire patterns finish.",
+                        "d": "-For Aerial Stack plus Hands of Hell, split tethers while covering stack markers.\n-Dodge Eruptions before moving to the final Conflag safe spot.",
+                        "h": "-Prepare for heavy raid damage during the merge and Conflag sequence.\n-Watch tether players after Hands of Hell dashes.",
+                        "t": "-Mitigate Hands of Flame and keep the boss stable for Conflag positioning."
+                    }
+                ],
+                "c": {
+                    "11534": {
+                        "a": {
+                            "19409": {
+                                "g": "Blue stack markers need one unmarked partner each; marked players should not stack together.",
+                                "d": "",
+                                "h": "Heal the stack damage.",
+                                "t": ""
+                            },
+                            "19410": {
+                                "g": "Wind orbs and knockback are coming; start near the edge between orbs, get pushed inward, then move back out before orb AoEs.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "19413": {
+                                "g": "Center line cut; get to one side and do not cross the persistent purple line.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "19415": {
+                                "g": "Raidwide damage; heal and mitigate.",
+                                "d": "",
+                                "h": "Prepare party healing.",
+                                "t": ""
+                            },
+                            "19422": {
+                                "g": "Feather blades fire cones in their facing directions; move out of the lines.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "19424": {
+                                "g": "Point-blank AoE plus two tethers; tethered players separate and everyone avoids the tether directions.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            }
+                        },
+                        "d": {}
+                    },
+                    "11535": {
+                        "a": {
+                            "19433": {
+                                "g": "Teleport punch on the main target; avoid adding extra concussive hits afterward.",
+                                "d": "",
+                                "h": "Watch the target after the hit.",
+                                "t": "Mitigate and avoid follow-up concussive hits."
+                            },
+                            "19434": {
+                                "g": "Three tethers start on one player; split them so no player keeps more than one.",
+                                "d": "Help take one tether if needed.",
+                                "h": "Watch tether targets after the hits.",
+                                "t": ""
+                            },
+                            "19437": {
+                                "g": "Tankbuster.",
+                                "d": "",
+                                "h": "Watch the tank.",
+                                "t": "Use mitigation."
+                            },
+                            "19439": {
+                                "g": "Ifrit kicks an outer orb; move to Ifrit's orb location because it becomes the safe spot.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "19441": {
+                                "g": "Raidwide damage; heal and mitigate.",
+                                "d": "",
+                                "h": "Prepare party healing.",
+                                "t": ""
+                            },
+                            "19443": {
+                                "g": "Flaming circle AoEs; move away from the circles.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "19710": {
+                                "g": "Teleport punch on the main target; avoid adding extra concussive hits afterward.",
+                                "d": "",
+                                "h": "Watch the target after the hit.",
+                                "t": "Mitigate and avoid follow-up concussive hits."
+                            },
+                            "19711": {
+                                "g": "Three tethers start on one player; split them so no player keeps more than one.",
+                                "d": "Help take one tether if needed.",
+                                "h": "Watch tether targets after the hits.",
+                                "t": ""
+                            }
+                        },
+                        "d": {}
+                    },
+                    "11536": {
+                        "a": {
+                            "19427": {
+                                "g": "Feather blades fire cones in their facing directions; move out of the lines.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "19428": {
+                                "g": "Feather blades fire cones in their facing directions; move out of the lines.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "19433": {
+                                "g": "Teleport punch with side explosions; the center line is safe.",
+                                "d": "",
+                                "h": "Watch the target after the hit.",
+                                "t": "Mitigate."
+                            },
+                            "19434": {
+                                "g": "Split the tethers while also resolving stack markers and dodging Eruptions.",
+                                "d": "Help take one tether if needed.",
+                                "h": "Watch tether targets after the dashes.",
+                                "t": ""
+                            },
+                            "19438": {
+                                "g": "Conflag Strike: dodge fire patterns until the cast finishes, then move behind the boss to avoid the giant frontal cone.",
+                                "d": "",
+                                "h": "Prepare healing during the long fire sequence.",
+                                "t": ""
+                            },
+                            "19710": {
+                                "g": "Teleport punch with side explosions; the center line is safe.",
+                                "d": "",
+                                "h": "Watch the target after the hit.",
+                                "t": "Mitigate."
+                            },
+                            "19711": {
+                                "g": "Split the tethers while also resolving stack markers and dodging Eruptions.",
+                                "d": "Help take one tether if needed.",
+                                "h": "Watch tether targets after the dashes.",
+                                "t": ""
+                            }
+                        },
+                        "d": {}
+                    }
+                }
             }
         }
     },
