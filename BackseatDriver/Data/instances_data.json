@@ -8347,9 +8347,202 @@
         "maps": {
             "544": {
                 "en": "Holminster Switch",
-                "d": "...",
-                "h": "...",
-                "t": "..."
+                "st": [
+                    {
+                        "en": "Forgiven Dissonance",
+                        "g": "-Brazen Bull cross AoEs leave only a small safe section.\n-Thumbscrew charges toward a safe area; move out of the line.\n-Wooden Horse follows Thumbscrew with a large cone toward the center.",
+                        "d": "",
+                        "h": "-Heal The Path of Light party damage.\n-Watch the tank for Pillory.",
+                        "t": "-Mitigate Pillory tankbusters."
+                    },
+                    {
+                        "en": "Tesleen, the Forgiven",
+                        "g": "-For Fevered Flagellation, players are charged in overhead-number order; spread around the boss so charges do not cross others.\n-Exorcise is a stack marker plus center circle AoEs; avoid the puddles left behind.",
+                        "d": "",
+                        "h": "-Heal Scold's Bridle party damage.\n-Watch Bleeding from Exorcise puddles.",
+                        "t": "-Mitigate The Tickler tankbusters."
+                    },
+                    {
+                        "en": "Philia",
+                        "g": "-Free the Chain Down target before Aethersup hits them.\n-Left and Right Knout cleave the raised-arm side; move to the opposite side.\n-Fierce Beating rotates around the boss; follow the safe space while avoiding the hitbox puddle.",
+                        "d": "-Destroy the Iron Chain quickly to free the Fettered player.\n-Stack for Into the Light and spread for Taphephobia.",
+                        "h": "-Heal Scavenger's Daughter party damage.\n-Watch the tank for Headcrusher and Pendulum.",
+                        "t": "-Mitigate Headcrusher tankbusters.\n-Handle Pendulum proximity away from the group."
+                    }
+                ],
+                "c": {
+                    "10122": {
+                        "a": {
+                            "15812": {
+                                "g": "Tankbuster.",
+                                "d": "",
+                                "h": "Watch the tank.",
+                                "t": "Use mitigation."
+                            },
+                            "15813": {
+                                "g": "Party-wide damage; heal and mitigate.",
+                                "d": "",
+                                "h": "Prepare party healing.",
+                                "t": ""
+                            },
+                            "15814": {
+                                "g": "Line AoE and charge toward a safe area; move out of the line.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "15815": {
+                                "g": "Large cone toward the center after Thumbscrew; move out of the cone.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "15817": {
+                                "g": "Cross AoEs from orbs leave a small safe section; find the gap.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            }
+                        },
+                        "d": {}
+                    },
+                    "10123": {
+                        "a": {
+                            "15823": {
+                                "g": "Tankbuster.",
+                                "d": "",
+                                "h": "Watch the tank.",
+                                "t": "Use mitigation."
+                            },
+                            "15824": {
+                                "g": "Party-wide damage; heal and mitigate.",
+                                "d": "",
+                                "h": "Prepare party healing.",
+                                "t": ""
+                            },
+                            "15826": {
+                                "g": "Stack marker plus center circle AoEs; stack safely and avoid the bleeding puddles left behind.",
+                                "d": "",
+                                "h": "Heal the stack and watch Bleeding.",
+                                "t": ""
+                            },
+                            "15827": {
+                                "g": "Stack marker plus center circle AoEs; stack safely and avoid the bleeding puddles left behind.",
+                                "d": "",
+                                "h": "Heal the stack and watch Bleeding.",
+                                "t": ""
+                            },
+                            "15829": {
+                                "g": "Numbered charges resolve in order; stand around the boss so no charge crosses another player.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "15830": {
+                                "g": "Numbered charges resolve in order; stand around the boss so no charge crosses another player.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            }
+                        },
+                        "d": {}
+                    },
+                    "10124": {
+                        "a": {
+                            "15831": {
+                                "g": "Tankbuster.",
+                                "d": "",
+                                "h": "Watch the tank.",
+                                "t": "Use mitigation."
+                            },
+                            "15832": {
+                                "g": "Party-wide damage; heal and mitigate.",
+                                "d": "",
+                                "h": "Prepare party healing.",
+                                "t": ""
+                            },
+                            "15833": {
+                                "g": "Tank proximity, then center proximity; move away from each marker.",
+                                "d": "",
+                                "h": "Watch the tank after the proximity marker.",
+                                "t": "Take the first proximity away from the group."
+                            },
+                            "15834": {
+                                "g": "Rotating front slams and rear cone; follow the safe space around the boss.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "15835": {
+                                "g": "Rotating front slams and rear cone; follow the safe space around the boss.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "15836": {
+                                "g": "Rotating front slams and rear cone; follow the safe space around the boss.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "15842": {
+                                "g": "Player-targeted circle AoE; spread out.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "15845": {
+                                "g": "Line stack marker; line up with the target to share damage.",
+                                "d": "",
+                                "h": "Heal the stack damage.",
+                                "t": ""
+                            },
+                            "15846": {
+                                "g": "Right-side cleave; move to Philia's left side.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "15847": {
+                                "g": "Left-side cleave; move to Philia's right side.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "15848": {
+                                "g": "Large cone on the Fettered player; free them and avoid the lingering cone.",
+                                "d": "Destroy the Iron Chain quickly.",
+                                "h": "",
+                                "t": ""
+                            },
+                            "16777": {
+                                "g": "Tank proximity, then center proximity; move away from each marker.",
+                                "d": "",
+                                "h": "Watch the tank after the proximity marker.",
+                                "t": "Take the first proximity away from the group."
+                            },
+                            "16790": {
+                                "g": "Tank proximity, then center proximity; move away from each marker.",
+                                "d": "",
+                                "h": "Watch the tank after the proximity marker.",
+                                "t": "Take the first proximity away from the group."
+                            },
+                            "17052": {
+                                "g": "A non-tank player is chained and Fettered; destroy the Iron Chain to free them.",
+                                "d": "Swap to the Iron Chain immediately.",
+                                "h": "",
+                                "t": ""
+                            },
+                            "17232": {
+                                "g": "Line stack marker; line up with the target to share damage.",
+                                "d": "",
+                                "h": "Heal the stack damage.",
+                                "t": ""
+                            }
+                        },
+                        "d": {}
+                    }
+                }
             }
         }
     },
@@ -10828,7 +11021,7 @@
                                 "g": "Stand in the opposite color from your marker."
                             },
                             "25166": {
-                                "g": "Knockback, spread circles, or both. Resolve the current Crumbling Sky effect before the next pattern."
+                                "g": "Knockback, spread circles, or both. Make sure you're not knockbacked to exploding AoEs."
                             },
                             "25170": {
                                 "g": "Raidwide damage."
@@ -11985,22 +12178,118 @@
         "en": "Alzadaal's Legacy",
         "maps": {
             "752": {
-                "en": "Alzadaal's Legacy",
-                "d": "...",
-                "h": "...",
-                "t": "..."
+                "en": "Ambujam",
+                "g": "-For Tentacle Dig, watch the water ripples; the tentacle traveling outside the hitbox points to the opposite far-side safe spot.\n-Toxic Fountain AoEs burst in the order they appear and knock back.\n-Avoid tentacle eruptions; they inflict heavy Toxicosis.",
+                "d": "",
+                "h": "-Heal Big Wave party damage and Bleeding.\n-Watch players clipped by Tentacle Dig or Toxic Fountain.",
+                "t": "",
+                "c": {
+                    "14457": {
+                        "a": {
+                            "28501": {
+                                "g": "Track the water ripples; avoid the tentacle eruption circles.",
+                                "d": "",
+                                "h": "Watch for Toxicosis on players hit.",
+                                "t": ""
+                            },
+                            "28505": {
+                                "g": "Track the water ripples; avoid the tentacle eruption circles.",
+                                "d": "",
+                                "h": "Watch for Toxicosis on players hit.",
+                                "t": ""
+                            },
+                            "28512": {
+                                "g": "Party-wide damage with Bleeding; heal and mitigate.",
+                                "d": "",
+                                "h": "Prepare party healing.",
+                                "t": ""
+                            },
+                            "29466": {
+                                "g": "Circle AoEs burst in order and knock back; dodge each set.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            }
+                        },
+                        "d": {}
+                    }
+                }
             },
             "753": {
-                "en": "Alzadaal's Legacy",
-                "d": "...",
-                "h": "...",
-                "t": "..."
+                "en": "Armored Chariot",
+                "g": "-Articulated Bits reflects lasers off shields; avoid the cone quadrant or narrow laser lanes.\n-Do not stand inside the boss hitbox puddle during Articulated Bits.\n-Later Articulated Bits patterns leave narrow safe spots near Death Claws not firing at the boss.",
+                "d": "",
+                "h": "-Heal Diffusion Ray party damage.\n-Watch players clipped by reflected lasers and damage-over-time effects.",
+                "t": "-Mitigate tankbusters if Rail Cannon appears.",
+                "c": {
+                    "14444": {
+                        "a": {
+                            "28441": {
+                                "g": "Reflected lasers are coming; identify the safe quadrant or narrow lane.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "28446": {
+                                "g": "Party-wide damage; heal and mitigate.",
+                                "d": "",
+                                "h": "Prepare party healing.",
+                                "t": ""
+                            }
+                        },
+                        "d": {}
+                    }
+                }
             },
             "754": {
-                "en": "Alzadaal's Legacy",
-                "d": "...",
-                "h": "...",
-                "t": "..."
+                "en": "Kapikulu",
+                "g": "-Avoid spike traps; they inflict Bleeding.\n-During Spin Out, steer the pointing hand loosely and avoid active spikes.\n-For Wild Weave, move away from ropes of the tethered color.",
+                "d": "",
+                "h": "-Heal Billowing Bolts party damage.\n-Heal through Magnitude Opus stacks and Rotary Gale spreads.",
+                "t": "-Mitigate Crewel Slice tankbusters.",
+                "c": {
+                    "14017": {
+                        "a": {
+                            "28515": {
+                                "g": "Spin Out pulls and spins players; steer around active spike traps.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "28520": {
+                                "g": "Wide line attacks during Spin Out; steer along the side, then turn back through the middle.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "28521": {
+                                "g": "Boss tethers to one rope color; avoid AoEs from the other ropes of that color.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "28526": {
+                                "g": "Stack marker; group up to share damage.",
+                                "d": "",
+                                "h": "Heal the stack damage.",
+                                "t": ""
+                            },
+                            "28528": {
+                                "g": "Party-wide damage; heal and mitigate.",
+                                "d": "",
+                                "h": "Prepare party healing.",
+                                "t": ""
+                            },
+                            "28530": {
+                                "g": "Tankbuster.",
+                                "d": "",
+                                "h": "Watch the tank.",
+                                "t": "Use mitigation."
+                            }
+                        },
+                        "d": {}
+                    }
+                }
             }
         }
     },
