@@ -7020,24 +7020,146 @@
         "maps": {
             "464": {
                 "en": "Otengu",
-                "g": "-Uses Clout of the Tengu (raid-wide), Yama-kagura (targeted line), and spawn Tengu Embers that spiral and explode later. Gaze Wile of the Tengu inflicts Hysteria if looked at; Might of the Tengu is a heavy tankbuster.",
-                "d": "-Spread to avoid ember explosions. Dodge line AoEs and look away during gaze.\n-Minimize downtime between attacks.",
-                "h": "-Shield before Clout and embers. Heal through ember explosion overlaps.\n-Be ready to cleanse Hysteria if triggered.",
-                "t": "-Face Otengu away. Mitigate tankbuster and maintain spacing from embers."
+                "g": "-Look away for Wile of the Tengu to avoid Hysteria.\n-Dodge Yama-kagura line AoEs and Clout of the Tengu point-blank AoE.\n-Avoid moving Tengu Embers and their later explosions.",
+                "d": "-Keep clear of embers while dodging lines and gaze.",
+                "h": "-Recover players clipped by embers or gaze mistakes.\n-Watch the tank for Might of the Tengu.",
+                "t": "-Mitigate Might of the Tengu.\n-Keep Otengu positioned safely while avoiding embers.",
+                "c": {
+                    "8662": {
+                        "a": {
+                            "11156": {
+                                "g": "Tankbuster.",
+                                "d": "",
+                                "h": "Watch the tank.",
+                                "t": "Use mitigation."
+                            },
+                            "11157": {
+                                "g": "Large point-blank AoE centered on Otengu; move out.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "11158": {
+                                "g": "Medium line AoE toward a non-tank player; sidestep it.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "11159": {
+                                "g": "Gaze attack; look away from Otengu to avoid Hysteria.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            }
+                        },
+                        "d": {}
+                    }
+                }
             },
             "465": {
                 "en": "Daidarabotchi",
-                "g": "-Raises his left or right arm then slams it (Vulnerability Up). Uses overlapping cone, circle or burst AoEs, and spawns a growing lake (Mythmaker) that instakills if stood in too long.",
-                "d": "-Watch which arm he raises and dodge accordingly. Spread for individual AoEs. Avoid the lake during Mythmaker.",
-                "h": "-Heal raid through AoE overlaps. Be ready for add explosion damage after Mythmaker.",
-                "t": "-Stay near safe side of the arena. Help move team out of growing lake and avoid side slams."
+                "g": "-Watch the raised arm and stand on the opposite side before the slam.\n-The growing center lake covers most of the arena; move out before it expands.\n-Move away from marked player AoEs and follow-up circles.",
+                "d": "-Dodge the arm slam and avoid the expanding lake.",
+                "h": "-Heal players clipped by arm slams or marked AoEs.",
+                "t": "-Keep the party oriented to the safe side away from the raised arm.",
+                "c": {
+                    "8664": {
+                        "a": {
+                            "11163": {
+                                "g": "Arm slam; move to the side opposite the raised arm.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "11164": {
+                                "g": "Arm slam; move to the side opposite the raised arm.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "11171": {
+                                "g": "Growing center lake; move out before it expands across the arena.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            }
+                        },
+                        "d": {}
+                    }
+                }
             },
             "466": {
                 "en": "Qitian Dasheng",
-                "g": "-Arena edge applies Bleed + Vulnerability Up if touched. Uses The Short End (tankbuster), Both Ends (point-blank or donut AoE based on staff), Mount Huaguo (raid-wide), Monkey Magicks add phase leading to Second Heaven, clone Splitting Hairs with adds, Long End tethers, and stack markers (Five-Fingered Punishment).",
-                "d": "-Avoid edge. Dodge Both Ends correctly (staff form dictates safe zone). Spread or stack as required. Help burn adds quickly to delay Second Heaven.",
-                "h": "-Shield raid before Mount Huaguo and Second Heaven. Heal clones extra if splitting occurs. Support tethered and stack targets.",
-                "t": "-Face boss away. Use cooldown for Short End. During add phases, hold aggro on Sage adds. During Splitting Hairs, control tethered line mechanics safely."
+                "g": "-Both Ends depends on weapon stance: normal raised weapon means move away; enlarged electrified lowered weapon means stay near.\n-Kill Servant of the Sage adds before Monkey Magicks fully charges.\n-For Splitting Hairs, damage both Shadow of the Sage copies evenly and kill them close together.",
+                "d": "-Burn Monkey Magicks adds quickly.\n-Kill Shadow of the Sage copies close together to avoid another split.",
+                "h": "-Heal Mount Huaguo and Second Heaven damage.\n-Watch Bleeding if players are knocked into the outer ring.",
+                "t": "-Mitigate The Short End.\n-Keep control of copies during Splitting Hairs.",
+                "c": {
+                    "8665": {
+                        "a": {
+                            "11174": {
+                                "g": "Tankbuster.",
+                                "d": "",
+                                "h": "Watch the tank.",
+                                "t": "Use mitigation."
+                            },
+                            "11177": {
+                                "g": "Both Ends: normal raised weapon means move away; enlarged electrified lowered weapon means stay near.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "11178": {
+                                "g": "Area-wide damage; heal and mitigate.",
+                                "d": "",
+                                "h": "Prepare party healing.",
+                                "t": ""
+                            },
+                            "11186": {
+                                "g": "Boss splits into Shadow of the Sage copies; damage both evenly and kill them close together.",
+                                "d": "Balance damage on both copies.",
+                                "h": "",
+                                "t": "Keep copies controlled."
+                            }
+                        },
+                        "d": {}
+                    },
+                    "8666": {
+                        "a": {
+                            "11181": {
+                                "g": "Clone tankbuster.",
+                                "d": "",
+                                "h": "Watch the tank.",
+                                "t": "Use mitigation."
+                            },
+                            "11182": {
+                                "g": "Both Ends: normal raised weapon means move away; enlarged electrified lowered weapon means stay near.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "11183": {
+                                "g": "Both Ends: normal raised weapon means move away; enlarged electrified lowered weapon means stay near.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "11187": {
+                                "g": "If only one Shadow dies, the remaining copy can split again; kill both close together.",
+                                "d": "Balance damage and finish both copies together.",
+                                "h": "",
+                                "t": ""
+                            },
+                            "11528": {
+                                "g": "Area-wide damage; heal and mitigate.",
+                                "d": "",
+                                "h": "Prepare party healing.",
+                                "t": ""
+                            }
+                        },
+                        "d": {}
+                    }
+                }
             }
         }
     },
@@ -7510,20 +7632,81 @@
         "maps": {
             "501": {
                 "en": "Midgardsormr",
-                "g": "-Ambient Aether combos define safe positioning: Coil+Coil = get out; Coil+Flip = get in; Flip+Flip = plus (go diagonals)\n-Earth Shaker and Thunderstorm will overlap after Aether: spread from Earth Shaker and avoid overlapping circles during Thunderstorm\n-Cauterize + Scarlet Thread or Horrid Roar combos require stack bait then reposition to dodge dive-bombs and lines\n-Northern Cross applies Thin Ice then Ambient Aether combos while sliding: pre-form safe circle near boss and slide accordingly",
-                "d": "-Assign cardinal/diagonal positions before combos; move immediately after second spin/flip to correct spot\n-When Blizzard markers appear, run to edge corners to drop puddles early and avoid clogging arena",
-                "h": "-Prep raid shields ahead of Thunderstorm + Cauterize overlaps and Horrid Roar stacks\n-During Akh Rhai + Exaflare + Blizzard, stagger heals and move ice-marked players to drop puddles away from group",
-                "t": "-Make sure Ancient Dragon is faced away from the group.",
+                "g": "-Watch Ambient Aether spin order: horizontal+horizontal = move out, horizontal+vertical = move into hitbox, vertical+vertical = move to a far corner.\n-Spread Earth Shaker and Thunderstorm markers while also solving the spin attack.\n-Dodge Cauterize dive paths, Scarlet Thread checkerboard lines, Exaflares, and Thin Ice movement.",
+                "d": "-Kill Immortal Keys first so the Ancient Dragon becomes vulnerable.\n-Drop Ice-Storm puddles at outer edges or corners.",
+                "h": "-Prepare for Akh Morn multi-hit stacks, Protostar, Northern Cross, and Akh Rhai damage.\n-Watch players clipped by spin attacks because they gain Vulnerability Up and Damage Down.",
+                "t": "-Face the Ancient Dragon away during add phase.\n-Mitigation for Tail End and heavy add-phase damage.",
                 "c": {
                     "9288": {
                         "a": {
+                            "12741": {
+                                "g": "Tankbuster.",
+                                "d": "",
+                                "h": "Watch the tank.",
+                                "t": "Use mitigation."
+                            },
+                            "12742": {
+                                "g": "Multi-hit stack marker; group up and stay stacked until all hits finish.",
+                                "d": "",
+                                "h": "Heal through repeated hits.",
+                                "t": ""
+                            },
+                            "12743": {
+                                "g": "Ambient Aether spin cue. Track the two spins: double horizontal = out, horizontal then vertical = in, double vertical = far corner.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "12744": {
+                                "g": "Ambient Aether spin cue. Track the two spins: double horizontal = out, horizontal then vertical = in, double vertical = far corner.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
                             "12745": {
-                                "g": "azure wings"
+                                "g": "Ambient Aether follow-up; resolve based on spin order and avoid overlapping Earth Shaker or Thunderstorm markers.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
                             },
                             "12747": {
-                                "g": "stygian"
+                                "g": "Ambient Aether follow-up; resolve based on spin order and avoid overlapping Earth Shaker or Thunderstorm markers.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "12795": {
+                                "g": "Multi-hit stack marker; group up and stay stacked until all hits finish.",
+                                "d": "",
+                                "h": "Heal through repeated hits.",
+                                "t": ""
+                            },
+                            "12865": {
+                                "g": "Divebomb from arena edge; find Midgardsormr and move out of that half of the arena.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "13858": {
+                                "g": "Multi-hit AoEs under two players; move out after the first hit.",
+                                "d": "",
+                                "h": "Heal targets clipped by repeated hits.",
+                                "t": ""
+                            },
+                            "13865": {
+                                "g": "Raidwide damage and Thin Ice; slide deliberately into the safe spot for the next spin attack.",
+                                "d": "",
+                                "h": "Prepare party healing.",
+                                "t": ""
+                            },
+                            "13880": {
+                                "g": "Exaflares travel by column; move behind the first explosion, while watching for Cauterize if paired.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
                             }
-                        }
+                        },
+                        "d": {}
                     }
                 }
             }
@@ -7537,26 +7720,104 @@
                 "st": [
                     {
                         "en": "Opening Phase",
-                        "g": "-Spread during Ballistic Impact while weaving between Flame Thrower cones.\n-Wave Cannon:\n    -Use 'Larboard = left': Larboard shoots from Omega's Left, Starboard from its right.\n    -If behind the boss, Larboard means Left is NOT SAFE, from the front Lardboard means Left is SAFE.\n    -Omega will spin and Wave Cannon again.\n-Use Omega Jammer on Rocket Punches.",
-                        "d": "...",
-                        "h": "-Shield preemptively before Ballistic + Flame Thrower overlaps.\n-Prepare AoE heals for raid damage from Atomic Ray and mispositioned players.",
-                        "t": "-Ensure no other players are within the small radius during Mustard Bomb."
+                        "g": "-Spread Ballistic Impact puddles while dodging Flame Thrower cone gaps.\n-Larboard hits Omega's left; Starboard hits Omega's right. Watch its facing and the spin into the second cannon.\n-Use Omega Jammer on Rocket Punch walls from Peripheral Synthesis.",
+                        "d": "-Use Omega Jammer on Rocket Punch adds instead of trying to burn them normally.",
+                        "h": "-Heal Atomic Ray raidwide damage.\n-Prepare for tight Ballistic Impact and Flame Thrower movement.",
+                        "t": "-Keep non-tanks out of Mustard Bomb splash.\n-Call Omega's facing for Larboard and Starboard swaps."
                     },
                     {
-                        "en": "Adds+Delta Phase",
-                        "g": "-Avoid electropuddles in center and outer edges - they instakill.\n-Stand in a circle during Executable #1 to cleanse Looper.\n-Executable #2: run out for point-blank, then in for donut AoE; cleanse inside circles.\n-During Delta Attack, target Conductive Focus and use Omega Jammer repeatedly and charge to 100% or wipe.",
-                        "d": "...",
-                        "h": "...",
-                        "t": "..."
+                        "en": "Level Checker",
+                        "g": "-Avoid the center and edge electro-puddles.\n-Executable 1: each player takes one circle to clear Looper.\n-Executable 2: run out from the point-blank, then back in to two-person circles.",
+                        "d": "-Kill Level Checker before Force Quit finishes.",
+                        "h": "-Heal Storage Violation circle damage.\n-Prepare for higher damage if any circle is missed.",
+                        "t": ""
                     },
                     {
-                        "en": "Final Phase",
-                        "g": "-Electric Slide: stack on marked player or they'll die.\n-Mustard Bomb tether targets a random player—move away before detonation.\n-Rocket Punches and charging fists can appear together—watch both edges.",
-                        "d": "...",
-                        "h": "-Prepare for big healing after Electric Slide and Atomic Ray.\n-Watch for paralysis debuff if Mustard Bomb tether goes off in group.",
-                        "t": "-Grab the Mustard Bomb tether and get away from the group."
+                        "en": "Delta and Final Phase",
+                        "g": "-Use Omega Jammer on Conductive Focus until Electromagnetic Induction reaches 100% before Delta Attack.\n-Stack for Electric Slide.\n-Watch for small Rocket Punch walls and giant charging fists together.",
+                        "d": "-Use Omega Jammer quickly during Delta Attack setup.\n-Dodge combined Rocket Punch paths.",
+                        "h": "-Prepare healing for Delta Attack, Electric Slide, and Atomic Ray.\n-Watch Paralysis if Mustard Bomb tether explodes in the group.",
+                        "t": "-Take the improved Mustard Bomb tether and move it away from the party."
                     }
-                ]
+                ],
+                "c": {
+                    "9335": {
+                        "a": {
+                            "12912": {
+                                "g": "Rocket Punch adds are spawning; use Omega Jammer on them and avoid their path.",
+                                "d": "Use Omega Jammer on Rocket Punch adds.",
+                                "h": "",
+                                "t": ""
+                            },
+                            "12924": {
+                                "g": "Cone fan AoEs from Omega; stand in the gaps, while keeping spread puddles apart if present.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "12926": {
+                                "g": "Spread circles leave burning puddles; spread apart and move out after they drop.",
+                                "d": "",
+                                "h": "Watch for players standing in Burns puddles.",
+                                "t": ""
+                            },
+                            "12929": {
+                                "g": "Starboard hits Omega's right side. Watch its facing and be ready for the spin into the next cannon.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "12931": {
+                                "g": "Larboard hits Omega's left side. Watch its facing and be ready for the spin into the next cannon.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "12932": {
+                                "g": "Larboard hits Omega's left side. Watch its facing and be ready for the spin into the next cannon.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "12933": {
+                                "g": "Stack marker; group up on the target to share Electric Slide.",
+                                "d": "",
+                                "h": "Heal the stack damage.",
+                                "t": ""
+                            },
+                            "12934": {
+                                "g": "Raidwide damage; heal and mitigate.",
+                                "d": "",
+                                "h": "Prepare party healing.",
+                                "t": ""
+                            },
+                            "12935": {
+                                "g": "Tankbuster with small splash. Later tethered versions should be taken away from the group.",
+                                "d": "",
+                                "h": "Watch the tank and tether target.",
+                                "t": "Mitigate; take tethered Mustard Bomb away from the party."
+                            }
+                        },
+                        "d": {}
+                    },
+                    "9337": {
+                        "a": {
+                            "12922": {
+                                "g": "DPS check; kill Level Checker before Force Quit finishes.",
+                                "d": "Burn Level Checker.",
+                                "h": "",
+                                "t": ""
+                            },
+                            "13736": {
+                                "g": "Executable: clear Looper by standing in the circles. For the second pattern, run out first, then back in.",
+                                "d": "",
+                                "h": "Heal circle damage and missed-soak damage.",
+                                "t": ""
+                            }
+                        },
+                        "d": {}
+                    }
+                }
             }
         }
     },
@@ -14071,26 +14332,104 @@
                 "st": [
                     {
                         "en": "Garula",
-                        "g": "-Avoid frontal cone (Heave), circular AoEs (Crumbling Crust), and line charge (Rush). After Rush, activated animals perform AoEs based on type.",
-                        "d": "-Stay behind boss for Rush tether; move away to dodge animal AoEs.",
-                        "h": "-Shield after Rush; heal through Earthquake stun/damage.",
-                        "t": "-Face boss away; reposition after each Rush to lead safe zones."
+                        "g": "-Dodge Heave frontal cone and Crumbling Crust circles.\n-For Rush, tether target gets far until the tether changes; everyone else avoids the charge path.\n-After Rush, War Cry and Earthquake trigger animal AoEs from the pens.",
+                        "d": "-Dodge animal AoEs: ram lines, coeurl cones, and kukurul circles.",
+                        "h": "-Heal War Cry and Earthquake party damage.\n-Watch the Rush target and animal AoE mistakes.",
+                        "t": "-Face Heave away from the party.\n-Mitigation is useful for repeated boss and animal damage."
                     },
                     {
-                        "en": "Bardam (Trials)",
-                        "g": "-Hide behind rocks to block gaze.\n-Step between expanding rings and away from pulsing floors.\n-Dodge alternating cone AoEs and orbs crossing in lines.",
-                        "d": "-Understand each mechanic’s pattern and avoid all AoEs—there’s no damage to DPS.",
-                        "h": "-No healing required—failure is due to standing in mechanics, not damage.",
-                        "t": "-No tanking—success is purely movement/dodge-based."
+                        "en": "Bardam",
+                        "g": "-This is a non-combat trial; failing twice fetters you until the phase ends.\n-Phase 1: after Magnetism, stand just outside the inner circle, then move back after it resolves; look away from Empty Gaze.\n-Phase 3: dodge the combo, then hide behind the last Star Shard before the meteor lands.",
+                        "d": "-No boss damage check; focus entirely on dodging and tower soaks.",
+                        "h": "-No healing check; failures come from mechanics.\n-Soak towers in phase 2 so the party does not reset.",
+                        "t": "-No tanking required; focus on movement mechanics."
                     },
                     {
                         "en": "Yol",
-                        "g": "-Avoid palette of raidwide (Wind Unbound), orb line cleaves, Flutterfall circles, and Confusion gaze. After defeat of adds, wings become vulnerable and outer edge rotates—don’t be knocked into rotating AoEs.",
-                        "d": "-Spread for Flutterfall; dodge orb lines and rotating edge circles. Avoid dash path during Yol’s movement.",
-                        "h": "-Shield after Wind Unbound; cleanse confusion and heal through feather splash.",
-                        "t": "-Tank-facing away for Feather Cut; reposition after Wingbeat knockback to avoid edge AoEs."
+                        "g": "-Look away from Eye of the Fierce to avoid Confusion.\n-Spread for Flutterfall and dodge orb line AoEs from Wind Unbound.\n-After Wingbeat knockback, return to center to avoid outer rotating AoEs.",
+                        "d": "-Kill Corpsecleaner Eagles and Yol's wings quickly.\n-Spread for Flutterfall.",
+                        "h": "-Heal Wind Unbound party damage.\n-Recover players hit by gaze, Flutterfall, or orb lines.",
+                        "t": "-Face Feathercut away from the party.\n-After Wingbeat, get back to center quickly."
                     }
-                ]
+                ],
+                "c": {
+                    "6814": {
+                        "a": {
+                            "7927": {
+                                "g": "Frontal cone AoE; move out of the boss's front.",
+                                "d": "",
+                                "h": "",
+                                "t": "Face the cone away from the party."
+                            },
+                            "7928": {
+                                "g": "Quick circle AoEs appear around Garula; dodge out of overlapping circles.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "7929": {
+                                "g": "Rush tether: target gets far until the tether changes color; everyone else avoids the charge path.",
+                                "d": "",
+                                "h": "Watch the tether target after the charge.",
+                                "t": ""
+                            },
+                            "7930": {
+                                "g": "Party-wide damage before Earthquake and animal AoEs.",
+                                "d": "",
+                                "h": "Prepare party healing.",
+                                "t": ""
+                            },
+                            "7931": {
+                                "g": "Party-wide damage and stun; animal AoEs follow from marked pens.",
+                                "d": "",
+                                "h": "Recover the party after the stun.",
+                                "t": ""
+                            }
+                        },
+                        "d": {}
+                    },
+                    "6822": {
+                        "a": {
+                            "7945": {
+                                "g": "Frontal cleave tankbuster.",
+                                "d": "",
+                                "h": "Watch the tank.",
+                                "t": "Mitigate and face away from the party."
+                            },
+                            "7946": {
+                                "g": "Party-wide damage and outer orbs; dodge the orb line AoEs.",
+                                "d": "",
+                                "h": "Prepare party healing.",
+                                "t": ""
+                            },
+                            "7947": {
+                                "g": "Orange markers on all players; spread to avoid overlapping splash damage.",
+                                "d": "",
+                                "h": "Heal spread damage.",
+                                "t": ""
+                            },
+                            "7949": {
+                                "g": "Gaze attack; look away from Yol to avoid Confusion.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "7951": {
+                                "g": "Knockback marker; get back to center after being knocked to avoid outer AoEs.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "7952": {
+                                "g": "Orange markers on all players; spread to avoid overlapping splash damage.",
+                                "d": "",
+                                "h": "Heal spread damage.",
+                                "t": ""
+                            }
+                        },
+                        "d": {}
+                    }
+                }
             }
         }
     },
@@ -15360,9 +15699,201 @@
         "maps": {
             "899": {
                 "en": "Vanguard",
-                "d": "...",
-                "h": "...",
-                "t": "..."
+                "st": [
+                    {
+                        "en": "Vanguard Commander R8",
+                        "g": "-Enhanced Mobility/Rapid Rotary sweeps either middle or corners; read the blade side and rotation.\n-Dispatch add patterns leave gaps, wall safe spots, or center follow-up safe spots.\n-Dispatch plus Electrosurge combines criss-cross lines with spread markers.",
+                        "d": "-Keep moving through add line and expanding AoE patterns.",
+                        "h": "-Heal Electrowave party damage.\n-Watch spread damage during Electrosurge.",
+                        "t": ""
+                    },
+                    {
+                        "en": "Protector",
+                        "g": "-Search and Destroy adds bait circles and lines; keep moving while avoiding barriers.\n-Fulminous Fence barriers paralyze on contact.\n-Motion Sensor gives Acceleration Bomb; stop moving when the debuff expires.",
+                        "d": "-Spread for Tracking Bolt and stack for Heavy Blast Cannon.\n-Keep moving during Search and Destroy except when Acceleration Bomb resolves.",
+                        "h": "-Heal Electrowave and Heavy Blast Cannon damage.\n-Esuna paralysis from Fulminous Fence contact.",
+                        "t": "-Mitigate Rapid Thunder tankbusters."
+                    },
+                    {
+                        "en": "Zander the Snakeskinner",
+                        "g": "-Phase 1: Soulbane Saber marks delayed half-room cleaves; move into the cleared quadrant between resolves.\n-Phase 2: stand under the first Syntheslither curve, opposite the initial bend, to avoid the rapid cleaves.\n-Foreguard cleaves front; Rearguard cleaves back.",
+                        "d": "-Spread for Soulbane Shock while respecting delayed half-room cleaves.",
+                        "h": "-Heal Electrothermia and Screech party damage.\n-Watch tanks for Saber Rush and Shade Shot.",
+                        "t": "-Mitigate Saber Rush and Shade Shot tankbusters.\n-Keep frontal Syntheslean aimed safely."
+                    }
+                ],
+                "c": {
+                    "16669": {
+                        "a": {
+                            "36559": {
+                                "g": "Enhanced Mobility: read blade side and rotation to choose middle or corners.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "36560": {
+                                "g": "Enhanced Mobility: read blade side and rotation to choose middle or corners.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "36561": {
+                                "g": "Rapid Rotary sweep incoming; dodge the blade path, either middle or corners.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "36562": {
+                                "g": "Rapid Rotary sweep incoming; dodge the blade path, either middle or corners.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "36568": {
+                                "g": "Dispatch adds are spawning; find the gap, wall safe spot, or center follow-up safe spot based on the pattern.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "36571": {
+                                "g": "Party-wide magical damage and unsafe arena edge.",
+                                "d": "",
+                                "h": "Prepare party healing.",
+                                "t": ""
+                            },
+                            "36572": {
+                                "g": "Spread markers during add line patterns; spread without standing in criss-cross lines.",
+                                "d": "",
+                                "h": "Heal spread damage.",
+                                "t": ""
+                            }
+                        },
+                        "d": {}
+                    },
+                    "16951": {
+                        "a": {
+                            "37149": {
+                                "g": "Electric barriers are spawning; avoid touching them.",
+                                "d": "",
+                                "h": "Esuna paralysis if someone touches a barrier.",
+                                "t": ""
+                            },
+                            "37150": {
+                                "g": "Acceleration Bomb: stop moving when the debuff expires while dodging turret lines.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "37154": {
+                                "g": "Turrets bait circles and line AoEs; keep moving and avoid barriers.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "37159": {
+                                "g": "Rotating cones plus point-blank and circle AoEs; dodge while avoiding electric barriers.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "37161": {
+                                "g": "Party-wide magical damage and unsafe arena edge.",
+                                "d": "",
+                                "h": "Prepare party healing.",
+                                "t": ""
+                            },
+                            "37162": {
+                                "g": "Magical tankbuster.",
+                                "d": "",
+                                "h": "Watch the tank.",
+                                "t": "Use mitigation."
+                            },
+                            "37345": {
+                                "g": "Line stack marker; line up with the target to share damage.",
+                                "d": "",
+                                "h": "Heal the stack damage.",
+                                "t": ""
+                            },
+                            "37348": {
+                                "g": "Large spread markers; spread apart.",
+                                "d": "",
+                                "h": "Heal spread damage.",
+                                "t": ""
+                            }
+                        },
+                        "d": {}
+                    },
+                    "16670": {
+                        "a": {
+                            "36574": {
+                                "g": "Delayed half-room cleave; after the first cleave resolves, move into the cleared quadrant if needed.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "36594": {
+                                "g": "Party-wide magical damage and unsafe arena edge.",
+                                "d": "",
+                                "h": "Prepare party healing.",
+                                "t": ""
+                            },
+                            "36595": {
+                                "g": "Physical tankbuster.",
+                                "d": "",
+                                "h": "Watch the tank.",
+                                "t": "Use mitigation."
+                            }
+                        },
+                        "d": {}
+                    },
+                    "16826": {
+                        "a": {
+                            "36579": {
+                                "g": "Syntheslither: stand under the first curve, opposite the initial bend, to avoid rapid side cleaves.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "36584": {
+                                "g": "Syntheslither repeats; stand under the first curve, opposite the initial bend.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "36589": {
+                                "g": "Line AoE plus front cleave; avoid the line and the boss's front.",
+                                "d": "",
+                                "h": "",
+                                "t": "Keep the front cleave aimed safely."
+                            },
+                            "36590": {
+                                "g": "Line AoE plus rear cleave; avoid the line and the boss's back.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "36596": {
+                                "g": "Party-wide magical damage; heal and mitigate.",
+                                "d": "",
+                                "h": "Prepare party healing.",
+                                "t": ""
+                            },
+                            "36597": {
+                                "g": "Magical tankbuster.",
+                                "d": "",
+                                "h": "Watch the tank.",
+                                "t": "Use mitigation."
+                            },
+                            "37198": {
+                                "g": "Frontal cone AoE; move out of the boss's front.",
+                                "d": "",
+                                "h": "",
+                                "t": "Face the cone away from the party."
+                            }
+                        },
+                        "d": {}
+                    }
+                }
             }
         }
     },
