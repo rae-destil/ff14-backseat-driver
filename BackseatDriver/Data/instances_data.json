@@ -3277,33 +3277,106 @@
                 "st": [
                     {
                         "en": "Phase 1 - Human",
-                        "g": "-Protean Wave cleaves and knocks back in multiple cones—sidestep all angles.\n-Sluice marks four players with AoE—spread out, then dodge additional ground AoEs.\n-Boss cleaves; face away from party and tank mid to avoid edge knockbacks.",
-                        "d": "-Always stay behind boss; never stand near marked players during Sluice.\n-Sidestep all cone AoEs quickly to avoid knockbacks into the edge.",
-                        "h": "-Heal through three consecutive Splashes; time AoE heals between them.\n-Monitor Sluice marker players in case they fail to spread or take overlap damage.",
-                        "t": "-Face boss away from group; cleave is always active.\n-Maintain center positioning to keep knockback angles safe."
+                        "g": "- The arena edge stuns, damages, and paralyzes; keep away from it.\n- Protean Wave fires several knockback cones. Sidestep the telegraphs.\n- Sluice marks 4 players to spread, then extra ground circles appear under random players.\n- The boss cleaves the main tank; avoid standing in front.",
+                        "d": "- Stay behind the boss and away from Sluice-marked players.\n- Dodge Protean Wave cones quickly so the knockback does not send you into the edge.",
+                        "h": "- Splash is light raid damage cast 3 times in a row.\n- Watch Sluice spreads and follow-up circles for overlap damage.",
+                        "t": "- Tank the boss near center and face the cleave away from the raid."
                     },
                     {
                         "en": "Phase 2 - Hand",
-                        "g": "-Cleave must be shared by both tanks; tanks must stand together.\n-Wash Away knocks players in random directions—stand center or use knockback immunity.\n-After split, both hands cleave and inflict Blunt Resist Down—face away from raid.",
-                        "d": "-Return to center before Wash Away or risk getting knocked into edge.\n-Never stand between hands or near their cleave paths.",
-                        "h": "-Top off before Wash Away; be ready to heal players knocked into the edge.\n-Watch for overlapping cleaves during double-hand phase.",
-                        "t": "-Share initial cleave; both tanks must stack.\n-When adds spawn, each tank picks up one and faces it away from group and the other tank."
+                        "g": "- The hand cleave is heavy and must be shared by both tanks.\n- Wash Away knocks each player in a random direction; stand center or use knockback immunity.\n- After the split, both hands cleave and apply Blunt Resistance Down.",
+                        "d": "- Return to center before Wash Away.\n- Stay out from between the hands and avoid their cleave paths.",
+                        "h": "- Top the party before Wash Away and recover anyone knocked toward the edge.\n- Watch both tanks after the hand split.",
+                        "t": "- Stack both tanks for the shared hand cleave.\n- After the split, each tank takes one hand and faces it away from the raid and the other tank."
                     },
                     {
                         "en": "Phase 3 - Tornado",
-                        "g": "-Kill adds before they reach edge; stun Piston Lubricants when they charge.\n-Boss is invulnerable—avoid standing in water pool around center.\n-Orange tether must be taken by tank and kept away from group until it resolves.\n-Magnetic debuffs: same = stack center, opposite = spread apart to avoid collision.",
-                        "d": "-Focus Gear Lubricants first, then burn Piston Lubricants.\n-Handle magnetic debuff correctly to avoid being flung into water or atrophy.",
-                        "h": "-Prepare to heal through failed add handling or magnetic collisions.\n-Top off tethered tank post-explosion; damage is very high.",
-                        "t": "-Take orange tether from marked player and move far from others.\n-Stun Piston Lubricants before they rush; control their timing."
+                        "g": "- The boss is invulnerable and surrounded by a damaging water pool.\n- Kill Gear and Piston Lubricants before they reach the edge; stun Piston rushes.\n- Orange tether should be passed to a tank, who moves away before it resolves.\n- Magnetic icons: same signs stack near center; opposite signs spread apart.",
+                        "d": "- Kill Gear Lubricants quickly and focus Piston Lubricants before they reach the edge.\n- Handle magnetic icons correctly to avoid collision, Atrophy, or being pushed into danger.",
+                        "h": "- Prepare healing if adds reach the edge or magnetic icons are failed.\n- Top the tethered tank before and after the heavy tether hit.",
+                        "t": "- Take the orange tether from the marked player and move away from everyone.\n- Stun Piston Lubricants when they begin rushing toward the edge."
                     },
                     {
                         "en": "Phase 4 - Final",
-                        "g": "-Cascade creates large AoE pools—avoid standing in or near them.\n-Magnetic debuffs reappear: same = stack, opposite = spread; aim push/pull safely.\n-Tank cleave now applies Blunt Resist Down—requires frequent swaps.",
-                        "d": "-Dodge Cascade pools and avoid knockbacks into them or arena edge.\n-Watch debuff icons and position carefully to avoid magnetic collision.",
-                        "h": "-Coordinate mitigation for frequent tank swaps and Blunt Down stacks.\n-Be ready for sustained damage from repeated mechanics and final enrage.",
-                        "t": "-Swap every 4–5 stacks of Blunt Down; avoid overlapping debuff stacks.\n-Ensure boss is positioned away from Cascade pools and edge at all times."
+                        "g": "- Cascade deals damage and drops 3 large static pools; do not stand in them or get knocked into them.\n- Magnetic icons return: same signs stack, opposite signs spread, and aim movement away from pools and the edge.\n- The tank cleave now applies Blunt Resistance Down.",
+                        "d": "- Dodge Cascade pools and magnetic movement safely.\n- Stay behind the boss and avoid being knocked into pools or the edge.",
+                        "h": "- Heal Cascade damage and sustained final-phase damage.\n- Watch tanks during swaps and Blunt Resistance Down stacks.",
+                        "t": "- Swap around 4-5 Blunt Resistance Down stacks.\n- Keep the boss away from Cascade pools and face the cleave away from the raid."
                     }
-                ]
+                ],
+                "c": {
+                    "4909": {
+                        "a": {
+                            "4855": {
+                                "g": "Cascade damage and 3 large static pools. Avoid the pools and knockbacks into them.",
+                                "d": "",
+                                "h": "Heal Cascade damage and watch players moving around pools.",
+                                "t": "Keep the boss away from Cascade pools."
+                            },
+                            "4858": {
+                                "g": "Magnetic icons: same signs stack near center; opposite signs spread apart.",
+                                "d": "",
+                                "h": "Watch for collision damage and Atrophy from failed magnetic movement.",
+                                "t": ""
+                            },
+                            "4861": {
+                                "g": "Tank cleave.",
+                                "d": "",
+                                "h": "Watch the tank after the cleave.",
+                                "t": "Face the cleave away from the raid."
+                            },
+                            "4862": {
+                                "g": "Tank cleave.",
+                                "d": "",
+                                "h": "Watch the tank after the cleave.",
+                                "t": "Face the cleave away from the raid."
+                            },
+                            "4846": {
+                                "g": "Cleave attack.",
+                                "d": "Stay behind the boss.",
+                                "h": "",
+                                "t": "Face the cleave away from the raid."
+                            },
+                            "4853": {
+                                "g": "Cleave attack.",
+                                "d": "Stay behind the boss.",
+                                "h": "",
+                                "t": "Face the cleave away from the raid."
+                            },
+                            "4848": {
+                                "g": "Several knockback cones. Sidestep the telegraphs and avoid the electric edge.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "4850": {
+                                "g": "Four marked players spread out, then everyone dodges the follow-up ground circles.",
+                                "d": "",
+                                "h": "Watch for Sluice overlap and follow-up circle damage.",
+                                "t": ""
+                            },
+                            "4847": {
+                                "g": "Light raid-wide damage, usually repeated 3 times.",
+                                "d": "",
+                                "h": "Heal through the repeated Splash hits.",
+                                "t": ""
+                            },
+                            "4854": {
+                                "g": "Orange tether should be passed to a tank, who moves away before the AoE resolves.",
+                                "d": "",
+                                "h": "Top the tethered tank before and after the heavy hit.",
+                                "t": "Take the orange tether and move away from the group."
+                            },
+                            "4863": {
+                                "g": "Random-direction knockback. Stand center or use knockback immunity.",
+                                "d": "",
+                                "h": "Recover players knocked toward the electric edge.",
+                                "t": ""
+                            }
+                        },
+                        "d": {}
+                    }
+                }
             }
         }
     },
@@ -3314,20 +3387,58 @@
                 "en": "The Burden of the Father",
                 "st": [
                     {
-                        "en": "Phase 1: Legs",
-                        "g": "-Two forelegs must be destroyed sequentially (one regenerates when the other dies).\n-A player will be marked with a blue orb: then orbs will flow to them and must be soaked by others to prevent their death.\n-On second leg, a player will be marked with three tethers. Others need to take two of them.\n-Jagd Dolls spawn: kill ASAP.",
-                        "d": "-Stand in to soak orbs away from marked player.",
-                        "h": "-Heal marked players and orb-soakers promptly; prep party health for the burst window post-leg kill.",
-                        "t": "-OT takes most orbs, MT can assist when OT is low."
+                        "en": "Phase 1 - First Leg",
+                        "g": "- Spread out: most boss attacks deal splash damage.\n- Focus one leg at a time; the other leg heals when one is destroyed.\n- Blue orb target: other players intercept incoming orbs, taking 1-2 each.\n- Quarantined players must kill their add; deaths in that room cannot be revived.",
+                        "d": "- Focus the chosen leg and save burst for the boss vulnerability after it dies.\n- Help intercept orbs, but avoid taking too many.",
+                        "h": "- Heal orb soakers and spread splash damage.\n- Prepare raid healing for the transition AoE after the leg dies.",
+                        "t": "- Off tank and main tank should take most orbs, depending on current HP."
                     },
                     {
-                        "en": "Phase 2: Manipulator",
-                        "g": "-All prior mechanics return: orbs, laser bits, Jagd Dolls, plus Quarantine adds and healer DoT (Judgement Nisi).\n-Core vulnerable briefly after fourth leg; then uses Royal Pentacle and heavy AoEs.",
-                        "d": "...",
-                        "h": "-Judgement Nisi: STAY AWAY FROM THE OTHER HEALER.",
-                        "t": "..."
+                        "en": "Phase 2 - Second Leg",
+                        "g": "- Laser lines: the targeted player stops moving, and other players intercept at least 2 lines.\n- No player should take more than 1 laser hit.\n- Jagd Dolls are top priority. Keep them separated because their AoE stacks Luminous Aetheroplasm.\n- Four Luminous Aetheroplasm stacks kills the player.",
+                        "d": "- Kill Jagd Dolls immediately and keep assigned dolls separated.\n- Be ready to replace assigned players if they are Quarantined.",
+                        "h": "- Watch doll tanks and laser intercepts for splash damage.\n- Heal the transition AoE after the second leg dies.",
+                        "t": "- Keep the boss stable while assigned players handle dolls and lasers."
+                    },
+                    {
+                        "en": "Phase 3 - The Manipulator",
+                        "g": "- All earlier mechanics except dolls and Quarantine return.\n- Carnage Zero targets random players with heavy splash damage; stay spread.\n- Discoid resolves as 4 ground AoEs, then 4 more, then a heavy tank hit.\n- Healers with Judgement Nisi must stay far apart until stacks fall off.",
+                        "d": "- Stay spread for splash damage and Discoid circles.\n- Keep pressure on the boss while avoiding healer Nisi positions.",
+                        "h": "- Judgement Nisi goes on both healers; stay far from the other healer and sustain yourself.\n- Use cooldowns for Discoid's tank hit as fight damage ramps.",
+                        "t": "- Mitigate the Discoid tank hit after the two sets of player AoEs.\n- Use stronger cooldowns as the fight goes longer."
                     }
-                ]
+                ],
+                "c": {
+                    "3902": {
+                        "a": {
+                            "3939": {
+                                "g": "Heavy splash damage on targeted players. Stay spread.",
+                                "d": "",
+                                "h": "Top targeted players after splash damage.",
+                                "t": ""
+                            },
+                            "3934": {
+                                "g": "Heavy splash damage on random players. Stay spread.",
+                                "d": "",
+                                "h": "Prepare healing for random heavy splash hits.",
+                                "t": ""
+                            },
+                            "3937": {
+                                "g": "Discoid: 4 ground AoEs, then 4 more, then a heavy tank hit.",
+                                "d": "Dodge the Discoid circles and stay spread.",
+                                "h": "Heal the AoEs and cover the tank hit after them.",
+                                "t": "Mitigate the tank hit after the two Discoid AoE sets."
+                            },
+                            "5053": {
+                                "g": "Judgement Nisi on both healers. Healers must stay far apart while stacks fall off.",
+                                "d": "Avoid standing near the healers during Judgement Nisi.",
+                                "h": "Stay far from the other healer and sustain yourself through Nisi damage.",
+                                "t": ""
+                            }
+                        },
+                        "d": {}
+                    }
+                }
             }
         }
     },
@@ -10277,10 +10388,198 @@
         "en": "Ashfall",
         "maps": {
             "590": {
-                "en": "Ashfall",
-                "d": "...",
-                "h": "...",
-                "t": "..."
+                "en": "Eden's Verse: Furor",
+                "st": [
+                    {
+                        "en": "Garuda",
+                        "g": "- Arena edge is lethal.\n- Ferostorm blades fire large cones from Garuda's sides; dodge the blade directions.\n- For Aerial Stack, each blue circle needs an unmarked partner, and the two marked players should not stack together.\n- Vacuum Slice divides the arena with a lethal center line; do not cross it.",
+                        "d": "",
+                        "h": "- Superstorm is unavoidable raid-wide damage.\n- Heal players after Aerial Stack, then move out of the circle left behind.",
+                        "t": ""
+                    },
+                    {
+                        "en": "Ifrit",
+                        "g": "- Move away from Ifrit's arrival proximity marker.\n- Split Hands of Hell tethers so no player keeps multiple tethers.\n- For Hot Foot, move to Ifrit's orb; that becomes the safe spot.\n- Dodge Eruption circles quickly.",
+                        "d": "",
+                        "h": "- Inferno Howl is unavoidable raid-wide damage.\n- Be ready for high tether damage from Hands of Hell.",
+                        "t": "- Hands of Flame hits the main target with a teleport punch.\n- Instant Incineration is a heavy tankbuster."
+                    },
+                    {
+                        "en": "Garuda & Ifrit",
+                        "g": "- Each tank should hold one primal.\n- Vacuum Slice, Eruption, Occluded Front, and Hot Foot overlap; solve your side without crossing the lethal center line.\n- Split Aerial Stack pairs and pass Hands of Hell tethers before they resolve.\n- Watch Ferostorm blades while handling the shared mechanics.",
+                        "d": "",
+                        "h": "- Expect overlapping raid damage and tether hits while the arena is divided.",
+                        "t": "- Keep one primal on each tank during the dual-boss phase."
+                    },
+                    {
+                        "en": "Raktapaksa",
+                        "g": "- Flaming circles leave only small edge safe spots; move there, then dodge Ferostorm.\n- During Aerial Stack plus Hands of Hell, cover stack circles, split tethers, dodge Eruptions, then move into the safe area after the dashes.\n- For center knockback, stand close to the blue circle or use knockback immunity.\n- During Conflag Strike, dodge repeated circles and Eruptions, then get behind the boss for the final cone.",
+                        "d": "",
+                        "h": "- Prepare healing for the merge damage and Inferno Howl.\n- Cover repeated damage during Conflag Strike movement.",
+                        "t": "- Hands of Flame targets the main target; keep the straight center lane clear when the side explosions appear."
+                    }
+                ],
+                "c": {
+                    "11534": {
+                        "a": {
+                            "19409": {
+                                "g": "Two blue stack circles. Each marked player needs an unmarked partner; marked players should not stack together.",
+                                "d": "",
+                                "h": "Heal the stack hits and move out of the circles left behind.",
+                                "t": ""
+                            },
+                            "19422": {
+                                "g": "Feather blades fire large cones in the directions they face. Move out of their lanes.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "19410": {
+                                "g": "Wind orbs and knockback. Start near the edge between orbs, get pushed inward, then move back out before the orb AoEs.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "19424": {
+                                "g": "Point-blank AoE plus tether cones. Tethered players separate; everyone else avoid the tether directions.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "19415": {
+                                "g": "Unavoidable raid-wide damage.",
+                                "d": "",
+                                "h": "Heal and shield the raid-wide damage.",
+                                "t": ""
+                            },
+                            "19413": {
+                                "g": "Center line slices the arena and leaves a lethal divider. Move off the line and do not cross it.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            }
+                        },
+                        "d": {}
+                    },
+                    "11535": {
+                        "a": {
+                            "19443": {
+                                "g": "Dodge the flaming circle AoEs.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "19433": {
+                                "g": "Teleport punch on the main target.",
+                                "d": "",
+                                "h": "Watch the main target after the punch.",
+                                "t": "Mitigate the teleport punch."
+                            },
+                            "19710": {
+                                "g": "Teleport punch on the main target.",
+                                "d": "",
+                                "h": "Watch the main target after the punch.",
+                                "t": "Mitigate the teleport punch."
+                            },
+                            "19434": {
+                                "g": "Split the three tethers across players. Do not keep multiple tethers.",
+                                "d": "",
+                                "h": "Prepare healing for high tether damage.",
+                                "t": ""
+                            },
+                            "19711": {
+                                "g": "Split the three tethers across players. Do not keep multiple tethers.",
+                                "d": "",
+                                "h": "Prepare healing for high tether damage.",
+                                "t": ""
+                            },
+                            "19439": {
+                                "g": "Move to the orb Ifrit teleports to; that spot is safe when the outer orbs explode.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "19441": {
+                                "g": "Unavoidable raid-wide damage.",
+                                "d": "",
+                                "h": "Heal the raid-wide damage.",
+                                "t": ""
+                            },
+                            "19437": {
+                                "g": "Heavy tankbuster.",
+                                "d": "",
+                                "h": "Top and cover the tank.",
+                                "t": "Mitigate the heavy tankbuster."
+                            }
+                        },
+                        "d": {}
+                    },
+                    "11536": {
+                        "a": {
+                            "19412": {
+                                "g": "Two blue stack circles. Each marked player needs an unmarked partner; marked players should not stack together.",
+                                "d": "",
+                                "h": "Heal the stack hits and move out of the circles left behind.",
+                                "t": ""
+                            },
+                            "19438": {
+                                "g": "Dodge repeated flaming circles and Eruptions, then get behind the boss for the final giant cone.",
+                                "d": "",
+                                "h": "Heal through the repeated Conflag Strike sequence.",
+                                "t": ""
+                            },
+                            "19427": {
+                                "g": "Feather blades fire large cones in the directions they face. Move out of their lanes.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "19428": {
+                                "g": "Feather blades fire large cones in the directions they face. Move out of their lanes.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "19433": {
+                                "g": "Teleport punch on the main target; side explosions leave the center lane safe.",
+                                "d": "",
+                                "h": "Watch the main target after the punch.",
+                                "t": "Mitigate the teleport punch and keep the center lane clear."
+                            },
+                            "19710": {
+                                "g": "Teleport punch on the main target; side explosions leave the center lane safe.",
+                                "d": "",
+                                "h": "Watch the main target after the punch.",
+                                "t": "Mitigate the teleport punch and keep the center lane clear."
+                            },
+                            "19434": {
+                                "g": "Split the three tethers, cover the stack circles, dodge Eruptions, then move to the safe area after the dashes.",
+                                "d": "",
+                                "h": "Prepare healing for tether and stack damage.",
+                                "t": ""
+                            },
+                            "19711": {
+                                "g": "Split the three tethers, cover the stack circles, dodge Eruptions, then move to the safe area after the dashes.",
+                                "d": "",
+                                "h": "Prepare healing for tether and stack damage.",
+                                "t": ""
+                            },
+                            "19441": {
+                                "g": "Unavoidable raid-wide damage.",
+                                "d": "",
+                                "h": "Heal the raid-wide damage.",
+                                "t": ""
+                            },
+                            "19430": {
+                                "g": "Point-blank AoE plus tether cones. Tethered players separate; everyone else avoid the tether directions.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            }
+                        },
+                        "d": {}
+                    }
+                }
             },
             "365": {
                 "en": "Eden's Verse: Furor",
@@ -17384,15 +17683,167 @@
         "maps": {
             "900": {
                 "en": "Tender Valley",
-                "d": "...",
-                "h": "...",
-                "t": "..."
+                "st": [
+                    {
+                        "en": "Barreltender",
+                        "g": "- Heavyweight Needles expands into smaller gaps; stand in the middle of the largest gaps.\n- For Tender Drop into Barrel Breaker, get knocked toward a naked cactus or use knockback immunity.\n- Prickly Left/Right expands into a wide sweep; move to the narrow safe cone opposite the named side.",
+                        "d": "",
+                        "h": "- Barbed Bellow is party-wide magical damage.\n- Succulent Stomp is a stack marker with split physical damage.",
+                        "t": "- Tender Fury is a physical tankbuster."
+                    },
+                    {
+                        "en": "Anthracite",
+                        "g": "- For Anthrabomb, dodge black bomb circles and yellow-arrow wall-hole line AoEs by shape.\n- Carniflagration repeats the bomb patterns three times; watch the next arrows before the current AoEs resolve.\n- Spread when Anthrabomb markers appear during the final Carniflagration set.",
+                        "d": "",
+                        "h": "- Carbonaceous Combustion is party-wide magical damage.\n- Burning Coals is a magical stack marker.",
+                        "t": "- Chimney Smack is a magical tankbuster."
+                    }
+                ],
+                "c": {
+                    "16948": {
+                        "a": {
+                            "37392": {
+                                "g": "Party-wide magical damage.",
+                                "d": "",
+                                "h": "Prepare healing for party-wide magical damage.",
+                                "t": ""
+                            },
+                            "37384": {
+                                "g": "Stand in the largest gap; the smaller needle gaps will be covered before the cast resolves.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "37387": {
+                                "g": "Find the naked cacti; they mark the safer corners for the coming cactus explosions.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "37390": {
+                                "g": "Knockback from center. Aim toward a naked cactus or use knockback immunity.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "37391": {
+                                "g": "Stack to split the jump damage.",
+                                "d": "",
+                                "h": "Heal the stack hit.",
+                                "t": ""
+                            },
+                            "39155": {
+                                "g": "Wide sweep after the initial side cleave; move to the narrow safe cone opposite Prickly Left.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "39242": {
+                                "g": "Physical tankbuster.",
+                                "d": "",
+                                "h": "Top and cover the tank.",
+                                "t": "Mitigate the physical tankbuster."
+                            }
+                        },
+                        "d": {}
+                    },
+                    "16830": {
+                        "a": {
+                            "36542": {
+                                "g": "Check black bomb circles and yellow arrows; dodge both ground circles and matching wall-hole lines.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "36556": {
+                                "g": "Party-wide magical damage.",
+                                "d": "",
+                                "h": "Prepare healing for party-wide magical damage.",
+                                "t": ""
+                            },
+                            "36547": {
+                                "g": "Three ordered bomb patterns. Keep moving as the next arrows appear, then spread for the final set.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "36548": {
+                                "g": "Three ordered bomb patterns. Keep moving as the next arrows appear, then spread for the final set.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "36554": {
+                                "g": "Stack to share the marker.",
+                                "d": "",
+                                "h": "Heal the stack hit.",
+                                "t": ""
+                            },
+                            "38467": {
+                                "g": "Magical tankbuster.",
+                                "d": "",
+                                "h": "Top and cover the tank.",
+                                "t": "Mitigate the magical tankbuster."
+                            }
+                        },
+                        "d": {}
+                    }
+                }
             },
             "901": {
                 "en": "Tender Valley",
-                "d": "...",
-                "h": "...",
-                "t": "..."
+                "st": [
+                    {
+                        "en": "The Greatest Serpent of Tural",
+                        "g": "- Bouncy Council clones show line or point-blank AoEs with blue arrows; move to the safe lane or empty corner.\n- In Greatest Labyrinth, work backward from the blue O tile and follow arrows to cleanse Greatest Curse.\n- For Moist Summoning into Greatest Flood, stack through Mighty Blorp, avoid puddles, then handle the corner knockback.",
+                        "d": "",
+                        "h": "- Dubious Tulidisaster is party-wide magical damage.\n- Mighty Blorp is three sequential stack hits that leave puddles.",
+                        "t": "- Screes of Fury is a magical tankbuster."
+                    }
+                ],
+                "c": {
+                    "16740": {
+                        "a": {
+                            "36748": {
+                                "g": "Party-wide magical damage and bleeding edge spikes.",
+                                "d": "",
+                                "h": "Prepare healing for party-wide magical damage.",
+                                "t": ""
+                            },
+                            "36746": {
+                                "g": "Read the clone arrows: dodge line AoEs or move to the empty corner for point-blank clones.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "36744": {
+                                "g": "Magical tankbuster.",
+                                "d": "",
+                                "h": "Top and cover the tank.",
+                                "t": "Mitigate the magical tankbuster."
+                            },
+                            "36745": {
+                                "g": "Find the blue O corner, work backward through arrows, and reach it before Greatest Curse expires.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "36743": {
+                                "g": "Stack for three Mighty Blorp hits and move out of the puddles before they apply sludge.",
+                                "d": "",
+                                "h": "Heal the repeated stack hits.",
+                                "t": ""
+                            },
+                            "36742": {
+                                "g": "Corner knockback. Aim around lingering puddles or use knockback immunity.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            }
+                        },
+                        "d": {}
+                    }
+                }
             }
         }
     },
@@ -17889,5 +18340,107 @@
     "1241": {
         "en": null,
         "maps": {}
+    },
+    "1367": {
+        "en": "Shisui of the Violet Tides",
+        "maps": {
+            "336": {
+                "en": "Shisui of the Violet Tides",
+                "st": [
+                    {
+                        "en": "Amikiri",
+                        "g": "- Mucal Glob immobilizes a player; destroy the targetable leg during Shuck to interrupt the kill.\n- Kill Kamikiri adds when they spawn.\n- Otherwise this is mostly a simple tank-and-spank fight.",
+                        "d": "- Swap to the targetable leg immediately during Shuck.\n- Kill Kamikiri adds quickly.",
+                        "h": "- Watch the Mucal Glob target until Shuck is interrupted.",
+                        "t": "- Sharp Strike is a telegraphed physical tankbuster."
+                    },
+                    {
+                        "en": "Ruby Princess",
+                        "g": "- For Seduce, each player uses a different outside box to gain Old and avoid walking into Coriolis Kick.\n- Do not touch boxes except to avoid Seduce.\n- Abyssal Volcano marks two players with tracking AoEs; keep moving out of them and avoid boxes.",
+                        "d": "",
+                        "h": "- Heal players clipped by Seduce into Coriolis Kick or tracking volcano AoEs.",
+                        "t": "- Tornadogenesis is a telegraphed tankbuster."
+                    },
+                    {
+                        "en": "Shisui Yohi",
+                        "g": "- Turn away for Mad Stare to avoid Hysteria.\n- During Thick Fog, kill all 3 Churn bubble adds and avoid the large churning ripple area.\n- After Churns die, avoid the ripple location because Black Tide hits nearby players when the boss reappears.\n- Kill shark adds before Bite and Run resolves, especially before the next Thick Fog.",
+                        "d": "- Kill Churn adds quickly during Thick Fog.\n- Kill Naishi-no-jo and Naishi-no-Kami before their rush attacks.",
+                        "h": "- Thick Fog deals group damage and Churns apply stacking Dropsy until killed.\n- Naishi-no-Kami targets the healer; watch yourself if it spawns.",
+                        "t": "- Foul Nail is a telegraphed two-hit tankbuster."
+                    }
+                ],
+                "c": {
+                    "6924": {
+                        "a": {
+                            "8051": {
+                                "g": "Mucal Glob immobilizes a player. Destroy the targetable leg during Shuck to interrupt the kill.",
+                                "d": "Swap to the targetable leg immediately.",
+                                "h": "Watch the immobilized player until Shuck is interrupted.",
+                                "t": ""
+                            },
+                            "8050": {
+                                "g": "Physical tankbuster.",
+                                "d": "",
+                                "h": "Top and cover the tank.",
+                                "t": "Mitigate the physical tankbuster."
+                            }
+                        },
+                        "d": {}
+                    },
+                    "6926": {
+                        "a": {
+                            "8060": {
+                                "g": "Large AoE plus tracking AoEs on two players. Keep moving out and avoid touching boxes.",
+                                "d": "",
+                                "h": "Watch players targeted by tracking AoEs.",
+                                "t": ""
+                            },
+                            "8059": {
+                                "g": "Large circle AoE after Seduce. Use an outside box before Seduce so you are not pulled into it.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "8058": {
+                                "g": "Run into your assigned outside box to gain Old and avoid being seduced toward the boss.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "8063": {
+                                "g": "Tankbuster.",
+                                "d": "",
+                                "h": "Top and cover the tank.",
+                                "t": "Mitigate the tankbuster."
+                            }
+                        },
+                        "d": {}
+                    },
+                    "6927": {
+                        "a": {
+                            "8071": {
+                                "g": "Two-hit tankbuster.",
+                                "d": "",
+                                "h": "Top and cover the tank for both hits.",
+                                "t": "Mitigate the two-hit tankbuster."
+                            },
+                            "8066": {
+                                "g": "Gaze attack. Turn away before the cast finishes to avoid Hysteria.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "8064": {
+                                "g": "Group damage and fog phase. Kill all Churn adds, avoid churning ripples, then move away before the boss reappears.",
+                                "d": "Kill Churn adds quickly.",
+                                "h": "Heal group damage and Dropsy while Churns are alive.",
+                                "t": ""
+                            }
+                        },
+                        "d": {}
+                    }
+                }
+            }
+        }
     }
 }
