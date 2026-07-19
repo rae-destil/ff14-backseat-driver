@@ -3099,7 +3099,7 @@
             }
         }
     },
-    "434": {
+    "1366": {
         "en": "Dusk Vigil",
         "maps": {
             "243": {
@@ -5201,7 +5201,7 @@
         "maps": {}
     },
     "616": {
-        "en": "Shisui of the Violet Tides",
+        "en": "",
         "maps": {
             "336": {
                 "en": "Shisui of the Violet Tides",
@@ -6608,11 +6608,90 @@
         "en": "Emanation",
         "maps": {
             "399": {
-                "en": "Lakshmi",
-                "g": "-Burst kill Dreaming Kshatriya one at a time; Lakshmi’s AoEs heal them\n-Vril: take **one** orb only; press it shortly after adds die (at the start) and whenever Lakshmi moves center to unleash a platform-wide AoE\n    -Missing Vril will knockback you off the platform to your death.\n-Hand of Grace: cross-shaped eruptions around marked players.\n-Hand of Beauty: circle AoEs around healers, leaving blue pools. Don't touch these.\n-Blue circle over off-tank is a cone attack, move away.",
-                "t": "...",
-                "d": "...",
-                "h": "..."
+                "en": "Emanation",
+                "g": "- Kill the Dreaming Kshatriya adds one at a time; Lakshmi's AoEs can heal them.\n- Carry only one Vril orb. Do not take an orb if you already have a charge.\n- Use Vril after the opening adds die and whenever Lakshmi moves center for a platform-wide attack.\n- Stay away from the platform edge; even reduced knockback can throw you off.\n- Stack for the large orange marker with arrows. Dodge all other AoEs.",
+                "d": "- Focus adds one at a time, then burn Lakshmi.\n- Pick up only one Vril orb so every player can get a charge.",
+                "h": "- Heal raid damage from Stotram and stack markers.\n- Watch players who miss Vril or get clipped by Hand mechanics.",
+                "t": "- Keep Lakshmi stable and help focus the adds one at a time.",
+                "c": {
+                    "7712": {
+                        "a": {
+                            "9352": {
+                                "g": "Hand mechanic is coming. Dodge the marked hand AoEs and keep away from unsafe pools.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "9348": {
+                                "g": "Lakshmi is empowered. Make sure you have a Vril charge ready for major attacks.",
+                                "d": "",
+                                "h": "Prepare for empowered damage.",
+                                "t": ""
+                            },
+                            "9349": {
+                                "g": "Use Vril and stay away from the edge for the platform-wide knockback.",
+                                "d": "",
+                                "h": "Use Vril and heal after the hit.",
+                                "t": "Use Vril and stay away from the edge."
+                            },
+                            "9351": {
+                                "g": "Circle AoEs leave blue pools that grow if they hit players. Move out and avoid the pools.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "9350": {
+                                "g": "Cross-shaped AoEs originate from marked players. Spread away and dodge the crosses.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "9026": {
+                                "g": "Use Vril for Lakshmi's special attack or it can kill you.",
+                                "d": "",
+                                "h": "Use Vril and prepare recovery healing.",
+                                "t": "Use Vril."
+                            },
+                            "9347": {
+                                "g": "Raid-wide damage.",
+                                "d": "",
+                                "h": "Heal raid-wide damage.",
+                                "t": ""
+                            },
+                            "9374": {
+                                "g": "Raid-wide damage.",
+                                "d": "",
+                                "h": "Heal raid-wide damage.",
+                                "t": ""
+                            },
+                            "9361": {
+                                "g": "Stack marker with arrows. Group up to share the damage.",
+                                "d": "",
+                                "h": "Heal the stack hit.",
+                                "t": ""
+                            },
+                            "9377": {
+                                "g": "Targeted light attack. Move away from the target line or cone.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "9362": {
+                                "g": "Targeted light attack. Move away from the target line or cone.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "9363": {
+                                "g": "Targeted light attack. Move away from the target line or cone.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            }
+                        },
+                        "d": {}
+                    }
+                }
             }
         }
     },
@@ -7040,11 +7119,145 @@
         "en": "Sigmascape V3.0",
         "maps": {
             "448": {
-                "en": "Guardian",
-                "g": "-Boss loads one of four programs (Delta, Sigma, Omega, Proto); each alters mechanics.\n-During Program Omega, bait missile and divebombs away from party.\n-Magitek Bits fire lasers down lanes—get between them or hug safe corners.\n-Limit Cut assigns numbers; players must take tethers in order.",
-                "d": "-Program mechanics require fast repositioning—memorize safe spots for each.\n-If targeted during Limit Cut, count your number and intercept your tether alone.",
-                "h": "-Expect high damage during Program Omega and Limit Cut.\n-Shield preemptively before phase transitions to avoid scramble healing.",
-                "t": "-Main tank: watch for forced tank swaps during certain programs.\n-Off-tank: take your correct tether during Limit Cut; avoid overlapping charges."
+                "en": "Sigmascape V3.0",
+                "st": [
+                    {
+                        "en": "Guardian",
+                        "g": "- Avoid the arena edge; it deals damage and applies Shocked.\n- Watch the outside monitors when Guardian uses Load; the sprite shows the next program.\n- Magitek Ray is a line AoE toward a random player. Sidestep when the boss turns and charges its cannon.\n- Prey Missile marks a DPS for moderate damage and a burning debuff.",
+                        "d": "- If marked by Prey Missile, separate enough that the hit does not splash the party.",
+                        "h": "- Diffractive Laser is raid-wide damage and can happen between loaded programs.\n- Watch the Prey Missile target after the hit.",
+                        "t": "- Arm and Hammer is a tankbuster. Mitigate it."
+                    },
+                    {
+                        "en": "Program: Dadaluma",
+                        "g": "- Shockwave knocks everyone back from Guardian. Position so you are not pushed into the dangerous edge.\n- Chakra Burst drops eight tower circles; at least one player must stand in each.\n- Dodge Dadaluma's Aura Cannon line AoE.",
+                        "d": "- Help cover Chakra Burst towers.\n- Kill Dadaluma after he spawns.",
+                        "h": "- Heal Shockwave and any missed tower damage.",
+                        "t": "- Off-tank should pick up Dadaluma quickly."
+                    },
+                    {
+                        "en": "Program: Ultros",
+                        "g": "- Ultros first drops AoEs under all players; move out after baiting them.\n- Tentacles spawn and use Wallop line AoEs. Dodge the telegraphed lines.\n- Chain Cannon tethers a player; keep moving to avoid repeated AoEs.\n- Move far from Main Cannon's proximity marker while burning Ultros.",
+                        "d": "- Burn Ultros while dodging Chain Cannon and Main Cannon.",
+                        "h": "- Heal movement damage during tentacles and Chain Cannon.",
+                        "t": "- Off-tank should grab Ultros and move it to a corner."
+                    },
+                    {
+                        "en": "Program: Bibliotaph",
+                        "g": "- Six demonic circles spawn; each needs three players to quench it.\n- Move quickly between circles so they do not summon adds.\n- Dodge Bibliotaph's large point-blank AoE.",
+                        "d": "- Help fill three-person circles, then kill Bibliotaph.",
+                        "h": "- Watch for damage if any circle is missed or adds spawn.",
+                        "t": "- Off-tank should pick up Bibliotaph quickly."
+                    },
+                    {
+                        "en": "Program: Air Force",
+                        "g": "- Move out for Guardian's point-blank AoE.\n- Weave through Missile Simulation gaps as missiles cross the arena.\n- For Bomb Deployment, stand on the wire color that is glowing brighter; the wrong wire detonates the bomb.\n- Dodge Air Force's large cone AoE.",
+                        "d": "- Defuse bombs by standing on the brighter wire color.",
+                        "h": "- Heal any premature bomb detonations or missile hits.",
+                        "t": "- Off-tank should pick up Air Force quickly."
+                    }
+                ],
+                "c": {
+                    "8395": {
+                        "a": {
+                            "10092": {
+                                "g": "Tankbuster.",
+                                "d": "",
+                                "h": "Top and cover the tank.",
+                                "t": "Mitigate the tankbuster."
+                            },
+                            "10082": {
+                                "g": "Bombs appear with red and blue wires. Stand on the brighter glowing wire color to defuse.",
+                                "d": "Help defuse bombs on the brighter wire color.",
+                                "h": "Heal if a bomb detonates early.",
+                                "t": ""
+                            },
+                            "10066": {
+                                "g": "Bibliotaph program: six demonic circles need three players each before they summon adds.",
+                                "d": "Help fill three-person circles quickly.",
+                                "h": "Watch for damage or adds if circles are missed.",
+                                "t": ""
+                            },
+                            "10081": {
+                                "g": "Raid-wide damage.",
+                                "d": "",
+                                "h": "Heal raid-wide damage.",
+                                "t": ""
+                            },
+                            "10094": {
+                                "g": "Raid-wide damage.",
+                                "d": "",
+                                "h": "Heal raid-wide damage.",
+                                "t": ""
+                            },
+                            "10076": {
+                                "g": "Guardian is loading a program. Check the outside monitor sprite for Dadaluma, Ultros, Air Force, or Bibliotaph.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "10091": {
+                                "g": "Line AoE toward a random player. Sidestep when Guardian turns and charges its cannon.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "10093": {
+                                "g": "Prey Missile marker on a DPS. Separate for the hit and burning debuff.",
+                                "d": "If marked, separate for the missile hit.",
+                                "h": "Watch the marked DPS after the hit.",
+                                "t": ""
+                            },
+                            "10084": {
+                                "g": "Missiles cross the arena. Move through the gaps.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "10095": {
+                                "g": "Loaded program is resolving. Handle the mechanic shown by the monitor.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "10086": {
+                                "g": "Knockback from Guardian. Position so you are not pushed into the dangerous edge, or use knockback immunity.",
+                                "d": "",
+                                "h": "Heal the knockback damage.",
+                                "t": ""
+                            },
+                            "10078": {
+                                "g": "Ultros program: AoEs spawn under players, then tentacles use Wallop line AoEs.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            }
+                        },
+                        "d": {}
+                    },
+                    "8398": {
+                        "a": {
+                            "10087": {
+                                "g": "Line AoE from Dadaluma. Sidestep it.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            }
+                        },
+                        "d": {}
+                    },
+                    "8431": {
+                        "a": {
+                            "10687": {
+                                "g": "Large point-blank AoE. Move away from Bibliotaph.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            }
+                        },
+                        "d": {}
+                    }
+                }
             }
         }
     },
@@ -9495,10 +9708,60 @@
         "en": "The Halo",
         "maps": {
             "560": {
-                "en": "The Halo",
-                "d": "...",
-                "h": "...",
-                "t": "..."
+                "en": "Eden's Gate: Descent",
+                "g": "- Arena edges are fall hazards.\n- Doomvoid Guillotine is a front/back line AoE; Doomvoid Slicer is a donut. Each spawns Nyx demons afterward, so dodge the first hit and then the demon paths.\n- Spell-in-Waiting delays the next mechanic. Resolve delayed spreads, stacks, and gazes when their timer expires, not when they are applied.\n- Hand of Erebos knockback: move close to the hand or use knockback immunity.\n- Punishing Ray pools need one player each until sealed, but they apply a bleed while you stand in them.",
+                "d": "- Spread for Dark Fire III and stack for Unholy Darkness, including delayed versions.\n- During delayed stack plus delayed spreads, stack first if the stack resolves first, then spread out.",
+                "h": "- Entropy is heavy raid-wide damage.\n- Heal Punishing Ray bleeds and missed-pool damage.\n- Be ready for Shadowflame into Entropy.",
+                "t": "- Shadowflame hits both tanks. Both tanks should mitigate.\n- Keep the boss positioned so line/donut movement and Hand knockbacks remain manageable.",
+                "c": {
+                    "10508": {
+                        "a": {
+                            "15938": {
+                                "g": "Spread markers on 4 players. If delayed by Spell-in-Waiting, spread when the timer counts down.",
+                                "d": "Spread away from the party and other marked players.",
+                                "h": "Watch marked players after the explosions.",
+                                "t": ""
+                            },
+                            "15931": {
+                                "g": "Large line AoE through the boss's front and back. Move to the sides, then avoid Nyx demons along the line.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "15932": {
+                                "g": "Donut AoE centered on the boss. Move into the hitbox, then avoid Nyx demons converging afterward.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "15981": {
+                                "g": "Heavy raid-wide damage.",
+                                "d": "",
+                                "h": "Heal and shield the raid-wide damage.",
+                                "t": ""
+                            },
+                            "16566": {
+                                "g": "Look away from the marked player when the gaze resolves. If delayed, wait for the countdown.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "15934": {
+                                "g": "The next mechanic is delayed. Watch the clock marker and resolve it when the timer expires.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "15935": {
+                                "g": "Stack marker. If delayed by Spell-in-Waiting, stack when the timer expires.",
+                                "d": "Stack if unmarked; spread players should stay out if spreads resolve at the same time.",
+                                "h": "Heal the stack hit.",
+                                "t": ""
+                            }
+                        },
+                        "d": {}
+                    }
+                }
             }
         }
     },
@@ -11572,35 +11835,130 @@
                 "st": [
                     {
                         "en": "Amhuluk",
-                        "g": "-Critical Rip: tankbuster\n-Lightning Bolt: AoEs on all players and lamps; pass your AoE to a lamp without one\n-Thundercall: orbs appear on edges, pulsing damage; follows later Lightning Bolts\n-Wide Blaster → Spike Flail: front then rear cones back-to-back, no time between\n-Electric Burst: raidwide AoE",
-                        "t": "-Face boss away; avoid rear cone after Blaster\n-Mitigate tankbusters\n-Position for lamp mechanics",
-                        "d": "-Drop AoEs on unused lamps\n-Avoid orbs and cone chains\n-Stay midrange for quick repositioning",
-                        "h": "-Heal through Electric Burst\n-Be ready for burst healing after Thundercall and Lightning Bolt hits"
+                        "g": "- Pass Lightning Bolt AoEs to lampposts that do not already have one.\n- Avoid Thundercall edge orbs and their pulse damage.\n- Wide Blaster is a front cone followed immediately by rear Spike Flail.",
+                        "d": "",
+                        "h": "- Electric Burst is unavoidable party-wide damage.\n- Lightning Bolt hits apply Lightning Vulnerability Up.",
+                        "t": "- Critical Rip is a tankbuster.\n- Keep the front and rear cleaves away from the party."
                     },
                     {
                         "en": "Magitek Fortress",
-                        "g": "-Fight waves of adds while avoiding cannon line AoEs\n-First wave: Imperials + Predators (jump attacks)\n-After waves, jump pad opens to Core; damage it to trigger Defensive Reaction (raidwide)\n-At 50% Core HP: ejected, 2nd wave begins (Sky Armors, Colossus, Predators)\n-New adds: Aethershot (circle AoE), Exhaust (line AoE)\n-Missiles: cross arena from east/west in lines\n-Ground-to-Ground Ballistic: knockback from center",
-                        "t": "-Grab adds fast; avoid facing cannons toward group\n-Mitigate Defensive Reaction\n-Hold Core mid to manage positioning",
-                        "d": "-Avoid cannon and missile lines\n-Burn adds quickly to open Core\n-Move toward jump pad when force field drops",
-                        "h": "-Top off after Defensive Reaction\n-Spot heal through cannon and missile splash damage"
+                        "g": "- Defeat add waves to drop the Magitek Core shield, then use the jump pad to attack the core.\n- Watch fortress cannons: charged cannons fire line attacks straight ahead.\n- Dodge player AoEs, crossing missiles, and center knockback while handling adds.",
+                        "d": "- Kill add waves quickly, then burn the Magitek Core while its shield is down.",
+                        "h": "- Defensive Reaction is high party-wide damage while the core is under attack.\n- Heal through add and cannon pressure.",
+                        "t": "- Pick up add waves and keep cleaves or line attacks away from the party."
                     }
                 ],
                 "c": {
                     "12649": {
                         "a": {
+                            "23630": {
+                                "g": "Tankbuster.",
+                                "d": "",
+                                "h": "Keep the tank stable.",
+                                "t": "Mitigate the tankbuster."
+                            },
+                            "23629": {
+                                "g": "Unavoidable party-wide damage.",
+                                "d": "",
+                                "h": "Heal the party-wide damage.",
+                                "t": ""
+                            },
                             "23627": {
-                                "g": "pass your electric AoE to a lamppost with no AoE marker."
+                                "g": "Targeted AoEs on all players. Pass yours to a lamppost that does not already have an AoE.",
+                                "d": "",
+                                "h": "Watch players hit by Lightning Vulnerability Up.",
+                                "t": ""
+                            },
+                            "23631": {
+                                "g": "Rear cone immediately after Wide Blaster. Do not stand behind the boss.",
+                                "d": "",
+                                "h": "",
+                                "t": "Keep the rear cleave away from the party."
+                            },
+                            "23632": {
+                                "g": "Lightning orbs spawn on the edge and pulse for damage. Avoid the edge orbs while preparing for Lightning Bolt.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "24773": {
+                                "g": "Wide frontal cone. Move out of the front, then avoid the immediate rear Spike Flail.",
+                                "d": "",
+                                "h": "",
+                                "t": "Face the frontal cone away from the party."
                             }
-                        }
+                        },
+                        "d": {}
                     }
                 }
             },
             "667": {
                 "en": "Lunar Bahamut",
-                "g": "-Twisted Scream: raidwide + spawns nails that explode in sequence\n-Perigean Breath: random frontal cone\n-Akh Morn: multi-hit stack marker\n-Megaflare: spreads on all; second AoEs appear where you stood\n-Megaflare Dive: divebomb after Twisted Scream, avoid path and nails\n-Kan Rhai: cross AoE → lingering ground pulse, move out of it\n-Lunar Flare: shrinking purple AoEs, safe either center or edges\n-Gigaflare: heavy unavoidable raidwide\n-Flatten: late tankbuster",
-                "t": "...",
-                "d": "...",
-                "h": "-Heal through Gigaflare and Twisted Scream\n-Shield before Akh Morn"
+                "g": "- Twisted Scream nails explode in spawn order; move to later safe spaces.\n- Spread Megaflare, then move away from the second AoEs where players stood.\n- For Lunar Flare, wait for the purple circles to shrink and reveal the edge or center safe area.",
+                "d": "- Stack for Akh Morn's repeated hits.\n- Drop Kan Rhai away from the group and leave the lingering AoE.",
+                "h": "- Gigaflare is high unavoidable party-wide damage.\n- Heal Akh Morn's repeated stack hits.",
+                "t": "- Flatten is a late tankbuster if seen.\n- Keep Perigean Breath pointed away from the party.",
+                "c": {
+                    "12650": {
+                        "a": {
+                            "23381": {
+                                "g": "Stack marker with repeated hits. Stay stacked until all hits resolve.",
+                                "d": "Stack with the party.",
+                                "h": "Heal repeated stack hits.",
+                                "t": ""
+                            },
+                            "23382": {
+                                "g": "Stack marker with repeated hits. Stay stacked until all hits resolve.",
+                                "d": "Stack with the party.",
+                                "h": "Heal repeated stack hits.",
+                                "t": ""
+                            },
+                            "23383": {
+                                "g": "High unavoidable party-wide damage.",
+                                "d": "",
+                                "h": "Mitigate and heal the party-wide damage.",
+                                "t": ""
+                            },
+                            "23375": {
+                                "g": "Short cross AoE on a player, followed by a lingering eruption where they stood. Move away from the group.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "23369": {
+                                "g": "Purple AoEs shrink over time. Move to the revealed safe area at the edge or center.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "23372": {
+                                "g": "Spread markers on all players, then move away from the delayed AoEs left where players stood.",
+                                "d": "Spread without overlapping.",
+                                "h": "",
+                                "t": ""
+                            },
+                            "23378": {
+                                "g": "Boss dives across the arena in a line with knockback. Avoid the dive path and nearby nails.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "23385": {
+                                "g": "Frontal cone toward a random player. Move out of the boss's front.",
+                                "d": "",
+                                "h": "",
+                                "t": "Keep the cone away from the party when possible."
+                            },
+                            "23367": {
+                                "g": "Nails spawn in sets and explode in spawn order. Move away from early nails into later safe spots.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            }
+                        },
+                        "d": {}
+                    }
+                }
             }
         }
     },
@@ -15133,21 +15491,204 @@
         "maps": {
             "831": {
                 "en": "The Aetherfont",
-                "d": "...",
-                "h": "...",
-                "t": "..."
+                "st": [
+                    {
+                        "en": "Lyngbakr",
+                        "g": "- Body Slam spawns crystals of different sizes.\n- Upsweep triggers crystal AoEs; move based on each crystal's size.\n- Tidal Breath hits most of the arena from the boss's front; get behind it.\n- Floodstide marks all players with light AoEs. Spread out.",
+                        "d": "",
+                        "h": "- Upsweep and Body Slam deal party damage.\n- Floodstide puts AoEs on every player.",
+                        "t": "- Sonic Bloop is a moderate tankbuster."
+                    }
+                ],
+                "c": {
+                    "16107": {
+                        "a": {
+                            "33335": {
+                                "g": "Party damage and crystal spawns. Remember crystal sizes for the coming Upsweep.",
+                                "d": "",
+                                "h": "Heal party damage and prepare for crystal AoEs.",
+                                "t": ""
+                            },
+                            "33341": {
+                                "g": "AoE markers on every player. Spread out.",
+                                "d": "",
+                                "h": "Heal after the spread hits.",
+                                "t": ""
+                            },
+                            "33345": {
+                                "g": "Moderate tankbuster.",
+                                "d": "",
+                                "h": "Top and cover the tank.",
+                                "t": "Mitigate the tankbuster."
+                            },
+                            "33344": {
+                                "g": "Large frontal arena AoE. Get behind the boss.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "33338": {
+                                "g": "Party damage and crystal detonation. Dodge the crystal AoEs based on crystal size.",
+                                "d": "",
+                                "h": "Heal party damage while players dodge crystal AoEs.",
+                                "t": ""
+                            }
+                        },
+                        "d": {}
+                    }
+                }
             },
             "832": {
                 "en": "The Aetherfont",
-                "d": "...",
-                "h": "...",
-                "t": "..."
+                "st": [
+                    {
+                        "en": "Arkas",
+                        "g": "- Battle Cry deals party damage and later shrinks the arena with a dangerous edge AoE.\n- Lightning Leap and Spinning Claw leave lightning lines that explode; dodge the circle first, then the lines.\n- Lightning Rampage repeats jump AoEs and lightning lines 4 times.\n- Lightning Claw is a stack marker that leaves an electrified spot; move out before it explodes.",
+                        "d": "",
+                        "h": "- Battle Cry and Electric Eruption are party-wide damage.\n- Heal the Lightning Claw stack and move the party out of the electrified spot.",
+                        "t": "- Ripper Claw is a moderate tankbuster."
+                    }
+                ],
+                "c": {
+                    "16106": {
+                        "a": {
+                            "33364": {
+                                "g": "Party damage. Later casts also shrink the arena with a dangerous edge AoE.",
+                                "d": "",
+                                "h": "Heal party damage.",
+                                "t": ""
+                            },
+                            "34605": {
+                                "g": "Party damage and dangerous edge AoE. Stay inside the reduced arena.",
+                                "d": "",
+                                "h": "Heal party damage while players reposition inward.",
+                                "t": ""
+                            },
+                            "33615": {
+                                "g": "Party-wide magical damage and 3 electrified spots that explode later. Move away from the spots.",
+                                "d": "",
+                                "h": "Heal party-wide magical damage.",
+                                "t": ""
+                            },
+                            "33366": {
+                                "g": "Stack marker. After the hit, move out of the electrified spot before it explodes.",
+                                "d": "",
+                                "h": "Heal the stack hit and move with the party.",
+                                "t": ""
+                            },
+                            "34712": {
+                                "g": "Stack marker. After the hit, move out of the electrified spot before it explodes.",
+                                "d": "",
+                                "h": "Heal the stack hit and move with the party.",
+                                "t": ""
+                            },
+                            "33358": {
+                                "g": "Jump AoE plus lightning lines. Dodge the circle, then avoid the exploding lines.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "33359": {
+                                "g": "Jump AoE plus lightning lines. Dodge the circle, then avoid the exploding lines.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "34318": {
+                                "g": "Four jump AoEs with lightning lines. Keep moving through each set.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "34319": {
+                                "g": "Four jump AoEs with lightning lines. Keep moving through each set.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "34320": {
+                                "g": "Four jump AoEs with lightning lines. Keep moving through each set.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "33368": {
+                                "g": "Moderate tankbuster.",
+                                "d": "",
+                                "h": "Top and cover the tank.",
+                                "t": "Mitigate the tankbuster."
+                            },
+                            "33362": {
+                                "g": "Point-blank circle AoE followed by large lightning lines. Move out, then dodge the lines.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            }
+                        },
+                        "d": {}
+                    }
+                }
             },
             "833": {
                 "en": "The Aetherfont",
-                "d": "...",
-                "h": "...",
-                "t": "..."
+                "st": [
+                    {
+                        "en": "Octomammoth",
+                        "g": "- Octostroke makes tentacles cover 4 platforms; move to the safe platform and watch for Wallop lines.\n- Vivid Eyes is a narrow ring through platforms and bridges; stand close to the boss or far away.\n- Saline Spit hits all platforms, leaving connectors safe.\n- Telekinesis tethers crystals to platforms; leave the targeted platform.\n- Breathstroke combines Octostroke and Tidal Breath, with a tentacle further narrowing the safe area.",
+                        "d": "",
+                        "h": "- Tidal Roar is party-wide damage.\n- Water Drop spreads player AoEs; keep the party spread.",
+                        "t": "- Tidal Breath is a wide frontal; keep the boss faced safely when possible."
+                    }
+                ],
+                "c": {
+                    "16042": {
+                        "a": {
+                            "34551": {
+                                "g": "Octostroke plus Tidal Breath. Use the safe flank platform and avoid the tentacle cone on it.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "33347": {
+                                "g": "Tentacles cover 4 platforms with cones. Move to the platform not flanked by tentacles.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "33352": {
+                                "g": "Circle AoEs on all platforms. Move onto a connector.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "33349": {
+                                "g": "Crystal tethers indicate a platform-wide AoE. Leave the tethered platform.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "33354": {
+                                "g": "Wide frontal AoE. Move to the boss's flank safe area.",
+                                "d": "",
+                                "h": "",
+                                "t": "Keep the frontal pointed safely when possible."
+                            },
+                            "33356": {
+                                "g": "Party-wide damage.",
+                                "d": "",
+                                "h": "Heal party-wide damage.",
+                                "t": ""
+                            },
+                            "33355": {
+                                "g": "Narrow ring through platforms and connectors. Stand close to the boss or far away.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            }
+                        },
+                        "d": {}
+                    }
+                }
             }
         }
     },
@@ -17848,19 +18389,204 @@
         }
     },
     "1204": {
-        "en": "Strayborough",
+        "en": "The Strayborough Deadwalk",
         "maps": {
             "917": {
-                "en": "Strayborough",
-                "d": "...",
-                "h": "...",
-                "t": "..."
+                "en": "The Strayborough Deadwalk",
+                "st": [
+                    {
+                        "en": "First Area Pulls",
+                        "g": "- Large Stray Memory ghosts use Grim Remembrance, a massive cone. Stun it if possible.",
+                        "d": "",
+                        "h": "",
+                        "t": ""
+                    },
+                    {
+                        "en": "His Royal Headness Leonogg I",
+                        "g": "- Failed mechanics give stacking Vulnerability Up.\n- Falling Nightmare drops heads at player or arena locations; move away before they fall.\n- Avoid dolls during Spirited Charge while also dodging exaflares, chasing AoEs, or cone sets.",
+                        "d": "- For Evil Scheme, wait for the first exaflares to resolve twice, then move into their starting spots.",
+                        "h": "- Malicious Mist is party-wide magical damage.\n- Watch for players hit by Benoggined or chained avoidable damage.",
+                        "t": ""
+                    },
+                    {
+                        "en": "Second Area Pulls",
+                        "g": "- A ghost can possess the ferris wheel in the last pull, causing it to collapse for moderate damage.",
+                        "d": "",
+                        "h": "",
+                        "t": ""
+                    },
+                    {
+                        "en": "Jack-in-the-Pot",
+                        "g": "- Track the ghost-possessed teacup during Tea Awhirl; that cup explodes after the shuffle.\n- Later shuffles possess 2 cups. Move to the safe offset from the tracked cup.\n- For Toiling Teapots, stand near cups filled last, then move into old puddle spots after they disappear.",
+                        "d": "",
+                        "h": "- Sordid Steam is party-wide magical damage.\n- Heal bleed from Mad Tea Party puddles.",
+                        "t": "- Last Drop is a magical tankbuster, often during Toiling Teapots."
+                    }
+                ],
+                "c": {
+                    "16771": {
+                        "a": {
+                            "39682": {
+                                "g": "Exaflares start in 4 middle lanes, then the empty lanes. Wait for the first set to resolve twice, then move into those starting spots.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "36526": {
+                                "g": "Heads drop from where they spawn after a delay. Move away before the late circle AoEs.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "39685": {
+                                "g": "Chasing circle AoEs on marked players. Keep moving and avoid dragging them through the party.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "36529": {
+                                "g": "Party-wide magical damage and dangerous arena edge.",
+                                "d": "",
+                                "h": "Heal the raid-wide damage.",
+                                "t": ""
+                            },
+                            "36530": {
+                                "g": "Sequential cone AoEs cover the arena. Dodge the cones while avoiding dolls.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "36541": {
+                                "g": "Sequential cone AoEs cover the arena. Dodge the cones while avoiding dolls.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "36598": {
+                                "g": "Dolls charge across the arena twice. Avoid their paths or you can be bound and Benoggined.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "36527": {
+                                "g": "Dolls are being summoned. Prepare to dodge Spirited Charge paths with the next mechanics.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            }
+                        },
+                        "d": {}
+                    },
+                    "16842": {
+                        "a": {
+                            "36726": {
+                                "g": "Magical tankbuster.",
+                                "d": "",
+                                "h": "Keep the tank stable during Toiling Teapots.",
+                                "t": "Mitigate the magical tankbuster."
+                            },
+                            "36717": {
+                                "g": "Track the ghost-possessed teacup or cups through the shuffle; those cups explode afterward.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "36722": {
+                                "g": "Cups overflow in waves. Start near the last cups to fill, then move into previous puddle spots.",
+                                "d": "",
+                                "h": "Heal bleed from puddle hits.",
+                                "t": ""
+                            },
+                            "36716": {
+                                "g": "Teacups are spawning for Tea Awhirl. Watch which cup or cups the ghosts possess.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            }
+                        },
+                        "d": {}
+                    }
+                }
             },
             "930": {
-                "en": "Strayborough",
-                "d": "...",
-                "h": "...",
-                "t": "..."
+                "en": "The Strayborough Deadwalk",
+                "st": [
+                    {
+                        "en": "Third Area Pulls",
+                        "g": "- Large Stray Dolls continually use Slapstick for party-wide damage. Use healing and mitigation.",
+                        "d": "",
+                        "h": "- Prepare for repeated party-wide damage from Slapstick.",
+                        "t": ""
+                    },
+                    {
+                        "en": "Traumerei",
+                        "g": "- Failed mechanics give stacking Vulnerability Up.\n- Bitter Regret portals fire line AoEs: north portal leaves sides safe; side portals leave middle safe.\n- Use Ghostly Guise to pass debris and stretch tethers, but remove it before Ghostduster.",
+                        "d": "- Stretch Stray Geist tethers until they turn purple.\n- Reapply Ghostly Guise for Fleshbuster or it will kill living players.",
+                        "h": "- Malicious Mist is party-wide magical damage and bleed.\n- Ghostcrusher is a line stack AoE.",
+                        "t": ""
+                    }
+                ],
+                "c": {
+                    "16927": {
+                        "a": {
+                            "37139": {
+                                "g": "Portal line AoE. A north portal leaves the sides safe; side portals leave the middle safe.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "37140": {
+                                "g": "Portal line AoE. A north portal leaves the sides safe; side portals leave the middle safe.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "37148": {
+                                "g": "Be in Ghostly Guise before this resolves. Living players are instantly killed.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "37142": {
+                                "g": "Line stack marker. Stack together in the line.",
+                                "d": "",
+                                "h": "Heal the line stack damage.",
+                                "t": ""
+                            },
+                            "37145": {
+                                "g": "Large spread AoEs. Remove Ghostly Guise before this resolves or it will kill you.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "37168": {
+                                "g": "Party-wide magical damage with bleed.",
+                                "d": "",
+                                "h": "Heal the raid-wide damage and bleed.",
+                                "t": ""
+                            },
+                            "37065": {
+                                "g": "Adds line up at the north wall and fire alternating line AoEs. Resolve the add lines, then dodge the boss portal line.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "37136": {
+                                "g": "Adds line up at the north wall and fire alternating line AoEs. Resolve the add lines, then dodge the boss portal line.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "37132": {
+                                "g": "Debris partitions the arena. Use Ghostly Guise panels to pass through and stretch tethers as needed.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            }
+                        },
+                        "d": {}
+                    }
+                }
             }
         }
     },
@@ -17921,13 +18647,6 @@
                         "d": "",
                         "h": "- Prepare healing for Strident Shriek and Collective Agony.",
                         "t": "- Mitigate Convulsive Crush."
-                    },
-                    {
-                        "en": "Deceiver",
-                        "g": "- For androids and turrets, stand in front of the blurry fakes; only the solid units fire.\n- Bionic Thrash strikes the two quadrants beneath the boss's raised tentacles.\n- For Surge, align with a solid turret so the knockback stops you before the electrified border, then spread.",
-                        "d": "- Kill the androids when they become targetable.",
-                        "h": "- Prepare healing for Electrowave.",
-                        "t": ""
                     }
                 ],
                 "c": {
@@ -18001,7 +18720,21 @@
                             }
                         },
                         "d": {}
-                    },
+                    }
+                }
+            },
+            "908": {
+                "en": "Origenics",
+                "st": [
+                    {
+                        "en": "Deceiver",
+                        "g": "- For androids and turrets, stand in front of the blurry fakes; only the solid units fire.\n- Bionic Thrash strikes the two quadrants beneath the boss's raised tentacles.\n- For Surge, align with a solid turret so the knockback stops you before the electrified border, then spread.",
+                        "d": "- Kill the androids when they become targetable.",
+                        "h": "- Prepare healing for Electrowave.",
+                        "t": ""
+                    }
+                ],
+                "c": {
                     "16752": {
                         "a": {
                             "36371": {
@@ -18044,12 +18777,6 @@
                         "d": {}
                     }
                 }
-            },
-            "908": {
-                "en": "Origenics",
-                "d": "...",
-                "h": "...",
-                "t": "..."
             },
             "909": {
                 "en": "Origenics",
