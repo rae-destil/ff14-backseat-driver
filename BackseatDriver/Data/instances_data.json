@@ -9540,9 +9540,71 @@
         "maps": {
             "556": {
                 "en": "The Dancing Plague",
-                "d": "...",
-                "h": "...",
-                "t": "..."
+                "g": "- Phantom Rune is either in or out; read the floor pattern and stack under Titania or move away.\n- For Water Rune into Flame Rune, stand in water pools, then stack in a pool with the marked player.\n- During add phases, kill Puck, Peaseblossom, and Mustardseed before Titania's Power fills.",
+                "d": "- Spread for Mist Rune and avoid overlapping player AoEs.\n- Kill Spirit of Dew adds if any Water Rune pool was missed.\n- During giant adds, dodge wide line/AoE attacks and use Puck's Rebuke knockback safely.",
+                "h": "- Bright Sabbath and Being Mortal are party-wide damage.\n- Missed Water Rune pools spawn adds that can explode for high magical party damage.\n- Add phase damage scales with Titania's Power.",
+                "t": "- Divination Rune is a frontal cone tankbuster; face Titania away.\n- Separate Puck and Peaseblossom during adds so tank hits do not overlap.",
+                "c": {
+                    "10221": {
+                        "a": {
+                            "15708": {
+                                "g": "Unavoidable party-wide damage.",
+                                "d": "",
+                                "h": "Heal the party-wide damage.",
+                                "t": ""
+                            },
+                            "15707": {
+                                "g": "Frontal cone tankbuster. Avoid standing in front unless tanking.",
+                                "d": "",
+                                "h": "Keep the tank stable.",
+                                "t": "Mitigate and face the cone away from the party."
+                            },
+                            "15687": {
+                                "g": "Stack with the marked player inside a water pool to share the hit and keep Fire Resistance.",
+                                "d": "Stack in the water pool with the marked player.",
+                                "h": "Heal the shared hit; missed pool positioning can cause heavy party damage.",
+                                "t": ""
+                            },
+                            "15658": {
+                                "g": "Circle AoEs resolve in the order they appeared. Move into earlier safe spots after they explode.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "15662": {
+                                "g": "Roots spread from the center marker direction. Move out of the root paths to avoid stun and damage over time.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "15664": {
+                                "g": "Phase transition. The arena changes and new rune mechanics begin.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "15685": {
+                                "g": "Player AoEs. Spread and do not overlap.",
+                                "d": "Spread away from other players.",
+                                "h": "",
+                                "t": ""
+                            },
+                            "15709": {
+                                "g": "Read the floor pattern: stack under Titania if it is the in pattern, or move away if it is the out pattern.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "15710": {
+                                "g": "Read the floor pattern: stack under Titania if it is the in pattern, or move away if it is the out pattern.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            }
+                        },
+                        "d": {}
+                    }
+                }
             }
         }
     },
@@ -9780,10 +9842,126 @@
         "en": "Atlas Peak",
         "maps": {
             "562": {
-                "en": "Atlas Peak",
-                "d": "...",
-                "h": "...",
-                "t": "..."
+                "en": "Eden's Gate: Sepulture",
+                "g": "- Arena edges are fall hazards, and the arena is a 4x4 tile grid.\n- For Evil Earth and Bomb Boulders, wait for the first explosions, then move into the resolved safe tiles.\n- Use the remaining boulder to line-of-sight Seismic Wave.",
+                "d": "- Avoid orange tile telegraphs and move through resolved tiles during chain explosions.\n- During Titan Fists, start in front of Titan, then move to his sides for the follow-up.\n- During Titan Wheels, avoid the front drive line and stand on the side with enough room for knockback.",
+                "h": "- Voice of the Land and Earthen Fury are raid-wide damage.\n- Earthen Fury also applies damage over time.\n- Heal players clipped by tile, boulder, or knockback mechanics quickly.",
+                "t": "- Stonecrusher is a heavy tankbuster with a small splash AoE; keep only the tank near the impact.\n- Mitigate Stonecrusher. A swap is not usually needed in normal mode.\n- Keep Titan positioned so landslide and wheel knockbacks are readable.",
+                "c": {
+                    "10636": {
+                        "a": {
+                            "16620": {
+                                "g": "Bombs explode in spawn order. Wait for earlier bombs to explode, then move into those safe spots.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "16628": {
+                                "g": "Large bomb. Move as far from it as possible while also avoiding smaller Bomb Boulders.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "16625": {
+                                "g": "Two proximity boulders drop. Move away from both impacts, then note which boulder remains for Seismic Wave.",
+                                "d": "",
+                                "h": "Prepare for raid damage based on proximity.",
+                                "t": ""
+                            },
+                            "16615": {
+                                "g": "Titan is changing form. Watch for the next fist or wheel mechanic.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "16617": {
+                                "g": "Titan is changing form. Watch for the next fist or wheel mechanic.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "16632": {
+                                "g": "Unavoidable raid-wide damage with damage over time.",
+                                "d": "",
+                                "h": "Heal and mitigate the raid-wide damage and DoT.",
+                                "t": ""
+                            },
+                            "16614": {
+                                "g": "Titan Fists form. Prepare for Massive Landslide: start in front of Titan, then move to the sides after the first smash.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "16616": {
+                                "g": "Titan Wheels form. Avoid the front drive line and stand beside the path with enough arena behind you for knockback.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "16622": {
+                                "g": "Tile explosions chain outward. Wait for a tile to explode, then move into the resolved safe tile.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "16642": {
+                                "g": "Titan drives forward, killing anyone in front and knocking others back. Stand beside the path with room behind you.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "16630": {
+                                "g": "Large knockback from Titan's landing point. Move close and aim away from the edge, or use knockback immunity.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "16637": {
+                                "g": "Line AoE. Move out of the lane.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "16634": {
+                                "g": "Fist smash sequence. Start on tiles in front of Titan, then move to the sides for the follow-up blast.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "16640": {
+                                "g": "Side landslide. Move away from the marked side while handling Massive Landslide.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "16627": {
+                                "g": "Line-of-sight Titan behind the remaining boulder or this raid-buster is usually lethal.",
+                                "d": "",
+                                "h": "Heal anyone who survives without proper line-of-sight.",
+                                "t": ""
+                            },
+                            "16633": {
+                                "g": "Heavy tankbuster with small splash. Only the main target should be close.",
+                                "d": "Stay away from the tankbuster impact.",
+                                "h": "Keep the tank stable through the heavy hit.",
+                                "t": "Mitigate the heavy tankbuster."
+                            },
+                            "16631": {
+                                "g": "Unavoidable raid-wide damage.",
+                                "d": "",
+                                "h": "Heal the raid-wide damage.",
+                                "t": ""
+                            },
+                            "16618": {
+                                "g": "Random tiles explode. Move off orange tile telegraphs.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            }
+                        },
+                        "d": {}
+                    }
+                }
             }
         }
     },
@@ -18962,10 +19140,132 @@
         "en": "Scratching Ring",
         "maps": {
             "927": {
-                "en": "Scratching Ring",
-                "d": "...",
-                "h": "...",
-                "t": "..."
+                "en": "AAC Light-heavyweight M1",
+                "g": "- Watch the arena tiles. Damaged tiles break if hit again, and falling is lethal.\n- One-two Paw cleaves two half-rooms in sequence; dodge the glowing claw sides.\n- Black Cat Crossing resolves two sets of late conal AoEs from cardinal/intercardinal lines.",
+                "d": "- For Mouser, track which tiles are hit 0, 1, or 2 times and move onto tiles that will survive.\n- For spread markers, stay clear of missing or damaged tiles.\n- During Copycat, resolve the clone mechanic while still stacking or dodging the boss mechanic.",
+                "h": "- Bloody Scratch is raid-wide physical damage.\n- Clawful and Overshadow are magical stack damage.\n- Watch players targeted by Elevate and Eviscerate if they are knocked onto damaged tiles.",
+                "t": "- Biscuit Maker is a physical tankbuster.\n- Keep the boss centered for Shockwave and tile mechanics when possible.",
+                "c": {
+                    "17052": {
+                        "a": {
+                            "37706": {
+                                "g": "Single-target physical tankbuster.",
+                                "d": "",
+                                "h": "Keep the tank stable.",
+                                "t": "Mitigate the physical tankbuster."
+                            },
+                            "37647": {
+                                "g": "Two sets of late conal AoEs from glowing cardinal/intercardinal lines. Dodge the first set, then move into it.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "37648": {
+                                "g": "Two sets of late conal AoEs from glowing cardinal/intercardinal lines. Dodge the first set, then move into it.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "37696": {
+                                "g": "Raid-wide physical damage.",
+                                "d": "",
+                                "h": "Heal the raid-wide damage.",
+                                "t": ""
+                            },
+                            "37692": {
+                                "g": "Stack marker on a random player.",
+                                "d": "Stack with the marked player.",
+                                "h": "Heal the magical stack damage.",
+                                "t": ""
+                            },
+                            "37656": {
+                                "g": "Copy Cat clone is summoned. Prepare for the clone to repeat Elevate and Eviscerate or Predaceous Pounce.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "37655": {
+                                "g": "Tethered player is knocked up and lands where the arrow points. Aim onto an intact tile, not a damaged or missing tile.",
+                                "d": "",
+                                "h": "Watch the targeted player if they land badly.",
+                                "t": ""
+                            },
+                            "37694": {
+                                "g": "Spread AoEs on all players. Spread without standing on missing or unsafe tiles.",
+                                "d": "Spread away from other players.",
+                                "h": "",
+                                "t": ""
+                            },
+                            "37674": {
+                                "g": "Boss slides to the tethered point, then resolves Black Cat Crossing from that final position. Dodge the conal AoE sets after the slide.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "37675": {
+                                "g": "Boss slides to the tethered point, then resolves Black Cat Crossing from that final position. Dodge the conal AoE sets after the slide.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "38928": {
+                                "g": "Boss slides to the tethered point, then resolves Black Cat Crossing from that final position. Dodge the conal AoE sets after the slide.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "37666": {
+                                "g": "Boss slides to the tethered point, then resolves One-two Paw from that final position without rotating. Dodge both half-room cleaves.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "37670": {
+                                "g": "Boss slides to the tethered point, then resolves One-two Paw from that final position without rotating. Dodge both half-room cleaves.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "37651": {
+                                "g": "Nine pairs of tile AoEs resolve in sequence. Track damaged tiles and avoid tiles that will break from a second hit.",
+                                "d": "Keep uptime from surviving tiles; do not tunnel on a tile that will be hit twice.",
+                                "h": "",
+                                "t": ""
+                            },
+                            "37641": {
+                                "g": "Sequential half-room cleaves from the boss's glowing claws. Dodge the first side, then the second.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "37644": {
+                                "g": "Sequential half-room cleaves from the boss's glowing claws. Dodge the first side, then the second.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "37680": {
+                                "g": "Sequential paw-track line AoEs and large circle AoEs resolve in the order they appeared. Follow the safe spaces through the pattern.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "39634": {
+                                "g": "Sequential paw-track line AoEs and large circle AoEs resolve in the order they appeared. Follow the safe spaces through the pattern.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "37661": {
+                                "g": "Radial knockback from center. Stand near the boss and avoid being knocked toward missing tiles, or use knockback immunity.",
+                                "d": "",
+                                "h": "Heal the magical knockback damage.",
+                                "t": ""
+                            }
+                        },
+                        "d": {}
+                    }
+                }
             }
         }
     },
@@ -19161,6 +19461,459 @@
                                 "g": "Group damage and fog phase. Kill all Churn adds, avoid churning ripples, then move away before the boss reappears.",
                                 "d": "Kill Churn adds quickly.",
                                 "h": "Heal group damage and Dropsy while Churns are alive.",
+                                "t": ""
+                            }
+                        },
+                        "d": {}
+                    }
+                }
+            }
+        }
+    },
+    "1248": {
+        "en": "Jeuno: The First Walk",
+        "maps": {
+            "946": {
+                "en": "Jeuno: The First Walk",
+                "g": "- Arena edges are fall hazards.\n- For Knuckle Sandwich and Auroral Uppercut, count the blue fist charges: 1, 2, or 3 changes the AoE size or knockback distance.\n- Banish Storm rods fire moving circle AoEs along their arrows.",
+                "d": "- Spread for Holy; overlap is lethal with Light Resistance Down.\n- Use safe corner or middle gaps for Crystalline Thorns, then aim Auroral Uppercut into a safe zone.",
+                "h": "- Banishga and Banishga IV are magical raid-wide damage.\n- Asuran Fists is an 8-hit stack tower if seen.",
+                "t": "- Nullifying Dropkick is a shared physical tankbuster stack. All tanks should stack.",
+                "c": {
+                    "18035": {
+                        "a": {
+                            "40951": {
+                                "g": "Knockback distance depends on fist charges. Aim your trajectory into a safe zone and avoid spikes or the edge.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "40952": {
+                                "g": "Knockback distance depends on fist charges. Aim your trajectory into a safe zone and avoid spikes or the edge.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "40946": {
+                                "g": "Rods fire moving circle AoEs along their arrows. Dodge the traveling AoEs.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "40935": {
+                                "g": "Magical raid-wide damage.",
+                                "d": "",
+                                "h": "Heal the raid-wide damage.",
+                                "t": ""
+                            },
+                            "40954": {
+                                "g": "Magical raid-wide damage and orb grid. Watch which orbs glow first, then dodge the cascade.",
+                                "d": "",
+                                "h": "Heal the raid-wide damage.",
+                                "t": ""
+                            },
+                            "40948": {
+                                "g": "Spikes cover most of the arena. Move to the L-shaped corner safe zones or the middle safe region.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "40962": {
+                                "g": "Spread markers. Do not overlap; hits apply Light Resistance Down.",
+                                "d": "Spread away from other players.",
+                                "h": "",
+                                "t": ""
+                            },
+                            "40937": {
+                                "g": "Count fist charges for circle size, dodge outside that range, then move for the immediate donut follow-up.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "40938": {
+                                "g": "Count fist charges for circle size, dodge outside that range, then move for the immediate donut follow-up.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "40945": {
+                                "g": "Shared physical tankbuster on the main tank.",
+                                "d": "",
+                                "h": "Keep tanks stable through the shared hit.",
+                                "t": "All tanks stack and mitigate."
+                            }
+                        },
+                        "d": {}
+                    }
+                }
+            },
+            "947": {
+                "en": "Jeuno: The First Walk",
+                "g": "- Read Offensive Posture animation: glowing tail means front safe, glowing mouth means donut breath, glowing claws means get out.\n- Kill Darter adds quickly before they enrage into repeated Venom cleaves.\n- During wind phase, dodge cascading donuts/circles, whirlwinds, Horrid Roar, and spread markers.",
+                "d": "- For Absolute/Winged Terror, head glow means dodge front line; wing glow means dodge side lines.\n- Avoid whirlwinds; hits inflict Windburn.",
+                "h": "- Dark Matter Blast and Hurricane Wing are magical raid-wide damage.\n- Cleanse Concussion from Touchdown if needed.",
+                "t": "- Sharp Spike targets all 3 tanks with physical tankbuster AoEs.\n- Pick up Darter adds and keep them controlled.",
+                "c": {
+                    "16869": {
+                        "a": {
+                            "39798": {
+                                "g": "Four-hit line stack AoE.",
+                                "d": "Stack in the line.",
+                                "h": "Heal repeated magical stack hits.",
+                                "t": ""
+                            },
+                            "39922": {
+                                "g": "Four-hit line stack AoE.",
+                                "d": "Stack in the line.",
+                                "h": "Heal repeated magical stack hits.",
+                                "t": ""
+                            },
+                            "40852": {
+                                "g": "Four-hit line stack AoE.",
+                                "d": "Stack in the line.",
+                                "h": "Heal repeated magical stack hits.",
+                                "t": ""
+                            },
+                            "40853": {
+                                "g": "Four-hit line stack AoE.",
+                                "d": "Stack in the line.",
+                                "h": "Heal repeated magical stack hits.",
+                                "t": ""
+                            },
+                            "40812": {
+                                "g": "Tank-targeted hit.",
+                                "d": "",
+                                "h": "Watch tank health.",
+                                "t": "Mitigate as needed."
+                            },
+                            "40854": {
+                                "g": "Magical raid-wide damage and dangerous arena edge.",
+                                "d": "",
+                                "h": "Heal the raid-wide damage.",
+                                "t": ""
+                            },
+                            "40849": {
+                                "g": "Random circle AoEs during wind phase. Dodge to avoid Hysteria.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "40817": {
+                                "g": "Nine-hit magical raid-wide damage, with a heavier final hit.",
+                                "d": "",
+                                "h": "Heal through repeated raid-wide hits.",
+                                "t": ""
+                            },
+                            "40811": {
+                                "g": "Read the animation: tail glow leaves front safe, mouth glow is donut breath, claw glow is point-blank.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "40814": {
+                                "g": "Read the animation: tail glow leaves front safe, mouth glow is donut breath, claw glow is point-blank.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "40816": {
+                                "g": "Read the animation: tail glow leaves front safe, mouth glow is donut breath, claw glow is point-blank.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "40855": {
+                                "g": "Physical tankbuster AoEs on all 3 tanks.",
+                                "d": "Stay away from tanks.",
+                                "h": "Keep tanks stable.",
+                                "t": "Spread from other tanks and mitigate."
+                            },
+                            "40857": {
+                                "g": "Arena damage. Move as indicated by the active mechanic.",
+                                "d": "",
+                                "h": "Watch party health.",
+                                "t": ""
+                            }
+                        },
+                        "d": {}
+                    }
+                }
+            },
+            "949": {
+                "en": "Jeuno: The First Walk",
+                "g": "- At pull, attack the Ark Angel matching your hero buff color or you deal no damage.\n- Keep bosses roughly balanced; high-health bosses can transfer health to lower ones.\n- Later, burn all five while dodging each angel's returning mechanics.",
+                "d": "- Interrupt TT's Meteor and HM's later Critical Reaver/Mijin Gakure sequence when possible.\n- Break Ark Shield quickly so HM's Mijin Gakure can be stopped.",
+                "h": "- Dominion Slash and Holy are magical raid-wide damage.\n- Dragonfall and Arrogance Incarnate are stack mechanics; overlapping Dragonfall stacks is lethal.",
+                "t": "- Cloudsplitter targets each tank with magical tankbuster AoEs.\n- Keep bosses centered when possible; separation is not required.",
+                "c": {
+                    "18053": {
+                        "a": {
+                            "41105": {
+                                "g": "Raid attack from the Ark Angels encounter. Mitigate and recover.",
+                                "d": "",
+                                "h": "Heal raid damage.",
+                                "t": ""
+                            },
+                            "41086": {
+                                "g": "Healer stack markers. Separate the stacks; overlap is lethal.",
+                                "d": "Stack with your assigned healer marker only.",
+                                "h": "Take your stack away from the other healer stacks.",
+                                "t": ""
+                            },
+                            "41087": {
+                                "g": "Healer stack markers. Separate the stacks; overlap is lethal.",
+                                "d": "Stack with your assigned healer marker only.",
+                                "h": "Take your stack away from the other healer stacks.",
+                                "t": ""
+                            },
+                            "41080": {
+                                "g": "Dodge crisscrossing ice lines, expanding flower AoE, and gaze orb; look away from the gaze.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "41059": {
+                                "g": "Attack the boss matching your hero buff color or your damage will not count.",
+                                "d": "Swap to the matching villain marker.",
+                                "h": "",
+                                "t": ""
+                            }
+                        },
+                        "d": {}
+                    },
+                    "18051": {
+                        "a": {
+                            "41104": {
+                                "g": "Raid attack from the Ark Angels encounter. Mitigate and recover.",
+                                "d": "",
+                                "h": "Heal raid damage.",
+                                "t": ""
+                            },
+                            "41078": {
+                                "g": "Magical tankbuster AoEs on all tanks.",
+                                "d": "Stay away from tanks.",
+                                "h": "Keep tanks stable.",
+                                "t": "Spread from other tanks and mitigate."
+                            },
+                            "41067": {
+                                "g": "Rotating conal AoEs. Follow the safe space, then prepare for knockback.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "41072": {
+                                "g": "Sequential charge line AoEs ending in a large circle. Dodge the charge lanes in order.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "41075": {
+                                "g": "Sequential charge line AoEs ending in a large circle. Dodge the charge lanes in order.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "41076": {
+                                "g": "Sequential charge line AoEs ending in a large circle. Dodge the charge lanes in order.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "41068": {
+                                "g": "Radial knockback after Havoc Spiral. Position safely or use knockback immunity.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "41057": {
+                                "g": "Attack the boss matching your hero buff color or your damage will not count.",
+                                "d": "Swap to the matching villain marker.",
+                                "h": "",
+                                "t": ""
+                            }
+                        },
+                        "d": {}
+                    },
+                    "18052": {
+                        "a": {
+                            "41103": {
+                                "g": "Raid attack from the Ark Angels encounter. Mitigate and recover.",
+                                "d": "",
+                                "h": "Heal raid damage.",
+                                "t": ""
+                            },
+                            "41063": {
+                                "g": "Expanding AoE with rear safe. Stay behind TT and avoid the persistent hits.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "41098": {
+                                "g": "Interrupt this cast to prevent high damage.",
+                                "d": "Interrupt if available.",
+                                "h": "",
+                                "t": "Interrupt if available."
+                            },
+                            "41058": {
+                                "g": "Attack the boss matching your hero buff color or your damage will not count.",
+                                "d": "Swap to the matching villain marker.",
+                                "h": "",
+                                "t": ""
+                            }
+                        },
+                        "d": {}
+                    },
+                    "18050": {
+                        "a": {
+                            "41107": {
+                                "g": "Raid attack from the Ark Angels encounter. Mitigate and recover.",
+                                "d": "",
+                                "h": "Heal raid damage.",
+                                "t": ""
+                            },
+                            "41093": {
+                                "g": "Magical raid-wide damage and dangerous light pools. Avoid the pulsing ground AoEs.",
+                                "d": "",
+                                "h": "Heal the raid-wide damage.",
+                                "t": ""
+                            },
+                            "41097": {
+                                "g": "Magical raid-wide damage.",
+                                "d": "",
+                                "h": "Heal the raid-wide damage.",
+                                "t": ""
+                            },
+                            "42056": {
+                                "g": "EV shields HM. Destroy the Ark Shield so HM can be interrupted.",
+                                "d": "Focus the Ark Shield.",
+                                "h": "",
+                                "t": ""
+                            }
+                        },
+                        "d": {}
+                    },
+                    "18049": {
+                        "a": {
+                            "41091": {
+                                "g": "Two perpendicular narrow lines explode into large line AoEs. Move out of both lanes.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "41089": {
+                                "g": "HM and clones gain critical melee damage. Tethered players must avoid their clones.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "41100": {
+                                "g": "Mijin Gakure must be interrupted by making HM vulnerable first; failure wipes the raid.",
+                                "d": "Break shield and interrupt.",
+                                "h": "",
+                                "t": "Help interrupt if available."
+                            },
+                            "41088": {
+                                "g": "Clones tether players. If your clone catches you, it can deal lethal damage.",
+                                "d": "Kite your clone away.",
+                                "h": "",
+                                "t": ""
+                            }
+                        },
+                        "d": {}
+                    }
+                }
+            },
+            "951": {
+                "en": "Jeuno: The First Walk",
+                "g": "- Arena edge is dangerous. Later the arena changes into four platforms with unsafe space between.\n- For Giga Slash, read the sword sweep markers and move to the empty side each time.\n- For Shadow Lord sigils, inward/outward spikes decide whether circles, donuts, inside, or outside are safe.",
+                "d": "- For Binding Sigil, remember the disappearing AoE order and dodge into the center of a first-resolving circle.\n- For Shadow Spawn, resolve boss and clone cleaves/Implosions in sequence.",
+                "h": "- Flames of Hatred, Chthonic Fury, Echoes of Agony, and Doom Arc are heavy magical raid damage.\n- Echoes of Agony becomes a longer multi-hit stack later.",
+                "t": "- Unbridled Rage is a line AoE physical tankbuster on all 3 tanks.\n- Mitigate Tera Slash heavily in phase 2.",
+                "c": {
+                    "18007": {
+                        "a": {
+                            "40778": {
+                                "g": "Magical raid-wide damage and arena transition.",
+                                "d": "",
+                                "h": "Heal the raid-wide damage.",
+                                "t": ""
+                            },
+                            "40779": {
+                                "g": "Magical raid-wide damage and arena transition.",
+                                "d": "",
+                                "h": "Heal the raid-wide damage.",
+                                "t": ""
+                            },
+                            "40784": {
+                                "g": "Bidirectional knockback from the purple line. Position to be knocked safely or use knockback immunity.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "41899": {
+                                "g": "Multi-hit stack marker. Stay stacked until all hits resolve.",
+                                "d": "Stack with the party.",
+                                "h": "Heal repeated magical stack hits.",
+                                "t": ""
+                            },
+                            "40809": {
+                                "g": "Magical raid-wide damage.",
+                                "d": "",
+                                "h": "Heal the raid-wide damage.",
+                                "t": ""
+                            },
+                            "40767": {
+                                "g": "Sequential sweeping cleaves. Move to the empty side shown by the sword markers.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "42021": {
+                                "g": "Nightfall version adds a third cleave. Dodge east/west cleaves, then the north/south cleave.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "42023": {
+                                "g": "Nightfall version adds a third cleave. Dodge east/west cleaves, then the north/south cleave.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "40772": {
+                                "g": "One hand's half-room AoE expands. Watch the enlarged orb and dodge the expanded side.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "40773": {
+                                "g": "One hand's half-room AoE expands. Watch the enlarged orb and dodge the expanded side.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "41144": {
+                                "g": "Phase transition. Shadow Lord equips armor and prepares Tera Slash.",
+                                "d": "",
+                                "h": "Prepare mitigation and healing for the next heavy hit.",
+                                "t": "Prepare heavy mitigation for Tera Slash."
+                            },
+                            "40786": {
+                                "g": "Clones spawn. Watch boss and clone cleaves or Implosions in sequence.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "40795": {
+                                "g": "Line AoEs cascade outward from cardinal telegraphs. Move after the first lines resolve.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "40796": {
+                                "g": "Line AoEs cascade outward from cardinal telegraphs. Move after the first lines resolve.",
+                                "d": "",
+                                "h": "",
                                 "t": ""
                             }
                         },
