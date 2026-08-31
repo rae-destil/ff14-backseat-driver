@@ -12842,15 +12842,124 @@
         "maps": {
             "627": {
                 "en": "Matoya's Relict",
-                "d": "...",
-                "h": "...",
-                "t": "..."
+                "st": [
+                    {
+                        "en": "Mother Porxie",
+                        "g": "- Huff and Puff knocks you into the safe zone; stand close enough that the wind pushes you into it.\n- Meat Mallet is proximity damage, then Barbeque pulls you toward the death zone. Keep running away while dodging AoEs.\n- Hidden Huff and Puff hides the ground wind cue. Kill the wind sprite, memorize the wind direction, then position for the knockback.\n- Open Flame marks players with AoEs. Spread out.",
+                        "d": "- Kill the wind sprite quickly during Hidden Huff and Puff.",
+                        "h": "- Tender Loin is room-wide damage.\n- Be ready to heal after Meat Mallet and during movement mistakes in Barbeque.",
+                        "t": "- Minced Meat is a tankbuster."
+                    }
+                ],
+                "c": {
+                    "12299": {
+                        "a": {
+                            "22801": {
+                                "g": "Tankbuster.",
+                                "d": "",
+                                "h": "Top and cover the tank.",
+                                "t": "Mitigate the tankbuster."
+                            },
+                            "22803": {
+                                "g": "Room-wide damage.",
+                                "d": "",
+                                "h": "Heal room-wide damage.",
+                                "t": ""
+                            },
+                            "22806": {
+                                "g": "Proximity damage. Move to the far side and prepare to run from Barbeque.",
+                                "d": "",
+                                "h": "Heal proximity damage.",
+                                "t": ""
+                            },
+                            "22809": {
+                                "g": "Knockback into a donut safe zone. Stand so the wind pushes you into safety.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "22818": {
+                                "g": "Targeted AoEs. Spread out.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "22820": {
+                                "g": "Instant-death hit if you are pulled into the front danger zone.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "23331": {
+                                "g": "Wind pulls you toward the death zone. Hold away from the boss and dodge AoEs.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            }
+                        },
+                        "d": {}
+                    },
+                    "12370": {
+                        "a": {
+                            "20020": {
+                                "g": "Wind sprite explosion reveals the hidden wind direction for Hidden Huff and Puff.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            }
+                        },
+                        "d": {}
+                    }
+                }
             },
             "628": {
                 "en": "Matoya's Relict",
-                "d": "...",
-                "h": "...",
-                "t": "..."
+                "st": [
+                    {
+                        "en": "Mudman",
+                        "g": "- Petrified Peat drops mud balls, then Peat Pelt tethers players to them.\n- When tethered, line up so the mud ball shoots through you into an open corner drain.\n- Do not aim mud balls into drains blocked by little mud men.\n- Brittle Breccia hits in three frontal waves; stand near the first AoE, then step into it after it resolves.\n- Falling Rock is a stack marker. Group up.",
+                        "d": "",
+                        "h": "- Stone Age is room-wide damage.\n- Hard Rock is a tankbuster.",
+                        "t": "- Hard Rock is a tankbuster."
+                    }
+                ],
+                "c": {
+                    "12300": {
+                        "a": {
+                            "21631": {
+                                "g": "Tankbuster.",
+                                "d": "",
+                                "h": "Top and cover the tank.",
+                                "t": "Mitigate the tankbuster."
+                            },
+                            "21632": {
+                                "g": "Targeted AoEs that leave mud balls. Spread out.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "21634": {
+                                "g": "Mud ball tethers. Line up so your ball shoots through you into an open corner drain.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "21645": {
+                                "g": "Three-wave frontal attack. Stand near the first AoE, then step into it after it resolves.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "21649": {
+                                "g": "Room-wide damage.",
+                                "d": "",
+                                "h": "Heal room-wide damage.",
+                                "t": ""
+                            }
+                        },
+                        "d": {}
+                    }
+                }
             },
             "629": {
                 "en": "Matoya's Relict",
@@ -12860,9 +12969,45 @@
             },
             "630": {
                 "en": "Matoya's Relict",
-                "d": "...",
-                "h": "...",
-                "t": "..."
+                "st": [
+                    {
+                        "en": "Nixie",
+                        "g": "- Shower Power tethers Nixie to a wall and lights three pipes; stand in the lane with no glowing pipe.\n- During Singin' in the Rain, use a water spout near the cloud to launch up and kill the Unfinished Nixies.\n- Stay on the cloud for Sea Shanty; the lower platform is lethal after the adds die.\n- Spread for targeted AoEs and avoid water spouts during overlapping mechanics.",
+                        "d": "- Kill Unfinished Nixies before they finish casting, or Sea Shanty wipes the party.",
+                        "h": "- Watch the tank during Crash-smash.\n- Heal players clipped by pipe blasts or water spout overlaps.",
+                        "t": "- Crash-smash is a cleaving tankbuster with plus-shaped tethers. Keep it away from the party."
+                    }
+                ],
+                "c": {
+                    "12415": {
+                        "a": {
+                            "22927": {
+                                "g": "Cleaving tankbuster with plus-shaped tethers. Non-tanks stay away from the tethers.",
+                                "d": "",
+                                "h": "Top and cover the tank.",
+                                "t": "Mitigate and keep the cleave/tethers away from the party."
+                            },
+                            "22929": {
+                                "g": "Three wall pipes glow. Stand in the one lane without a glowing pipe.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            }
+                        },
+                        "d": {}
+                    },
+                    "12416": {
+                        "a": {
+                            "22921": {
+                                "g": "Adds are casting on the cloud. Use a water spout to launch up and kill them before Sea Shanty.",
+                                "d": "Burn the Unfinished Nixies before they finish casting.",
+                                "h": "",
+                                "t": ""
+                            }
+                        },
+                        "d": {}
+                    }
+                }
             },
             "639": {
                 "en": "Matoya's Relict",
@@ -13261,21 +13406,280 @@
         "maps": {
             "701": {
                 "en": "The Tower of Zot",
-                "d": "...",
-                "h": "...",
-                "t": "..."
+                "st": [
+                    {
+                        "en": "Minduruva",
+                        "g": "- Manusya Fire III is a donut; stand near the boss.\n- Manusya Blizzard III fires many narrow cones; stand between them.\n- Manusya Thunder III sends cross AoEs from the boss; stand diagonally or away.\n- Manusya Bio III leaves only the side between boss and nearest wall safe.\n- Transmute casts fire the spell from the marked orb location. Watch both boss and orb.",
+                        "d": "",
+                        "h": "- Dhrupad hits non-tanks with a damage-over-time effect.\n- Manusya Bio is a tankbuster with a poison DoT; cleanse quickly.",
+                        "t": "- Manusya Bio is a tankbuster with poison.\n- Singular Fire, Blizzard, Thunder, and Bio spells are heavy tank hits."
+                    }
+                ],
+                "c": {
+                    "13294": {
+                        "a": {
+                            "25233": {
+                                "g": "Large donut AoE. Stand near the boss.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "25234": {
+                                "g": "Many narrow cones from the boss. Stand between the marked AoEs.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "25235": {
+                                "g": "Cross-pattern AoEs move out from the boss. Stand diagonal to the hitbox or farther away.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "25236": {
+                                "g": "Room-wide attack with one safe side between the boss and nearest wall. Move to the unmarked side.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "25242": {
+                                "g": "Transmuted Fire III resolves from the orb location. Stand near the orb for the donut safe zone.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "25244": {
+                                "g": "Damage-over-time on non-tanks.",
+                                "d": "",
+                                "h": "Cleanse or heal the DoT on non-tanks.",
+                                "t": ""
+                            },
+                            "25245": {
+                                "g": "Heavy tank hit.",
+                                "d": "",
+                                "h": "Keep the tank stable.",
+                                "t": "Mitigate the heavy hit."
+                            },
+                            "25699": {
+                                "g": "Heavy tank hit.",
+                                "d": "",
+                                "h": "Keep the tank stable.",
+                                "t": "Mitigate the heavy hit."
+                            },
+                            "25246": {
+                                "g": "Heavy tank hit.",
+                                "d": "",
+                                "h": "Keep the tank stable.",
+                                "t": "Mitigate the heavy hit."
+                            },
+                            "25247": {
+                                "g": "Heavy tank hit.",
+                                "d": "",
+                                "h": "Keep the tank stable.",
+                                "t": "Mitigate the heavy hit."
+                            },
+                            "25248": {
+                                "g": "Tankbuster with poison damage-over-time.",
+                                "d": "",
+                                "h": "Cleanse poison and cover the tank.",
+                                "t": "Mitigate the tankbuster."
+                            },
+                            "25371": {
+                                "g": "Transmuted Blizzard III resolves from the orb location. Stand between the cones while also handling boss AoEs.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "25372": {
+                                "g": "Transmuted Thunder III resolves from the orb location. Avoid the cross-pattern AoEs from the orb.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            }
+                        },
+                        "d": {}
+                    }
+                }
             },
             "702": {
                 "en": "The Tower of Zot",
-                "d": "...",
-                "h": "...",
-                "t": "..."
+                "st": [
+                    {
+                        "en": "Sanduruva",
+                        "g": "- Manusya Berserk creates large orb explosions. Find the gap and stand at the wall behind it.\n- Prakamya Siddhi is a point-blank AoE. Move out.\n- Manusya Stop freezes players one by one; spread around the boss so Prapti Siddhi lines do not overlap.\n- Manusya Confuse hides the real boss among clones. Run to the wall behind the real one that is not emoting.",
+                        "d": "",
+                        "h": "- Heal each unavoidable Prapti Siddhi hit during Manusya Stop.\n- Watch players clipped by Berserk, because they can lose control and get hit again.",
+                        "t": "- Isitva Siddhi is a tankbuster."
+                    }
+                ],
+                "c": {
+                    "13295": {
+                        "a": {
+                            "25249": {
+                                "g": "Large orb explosions. Find the gap and stand at the wall behind it.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "25250": {
+                                "g": "Orb explosion. Stay in the safe gap to avoid Berserk.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "25251": {
+                                "g": "Point-blank AoE. Move away from the boss.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "25253": {
+                                "g": "Find the real boss that is not emoting, then stand at the wall behind it.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "25255": {
+                                "g": "Players freeze in sequence. Spread around the boss so the follow-up line hits do not overlap.",
+                                "d": "",
+                                "h": "Heal each stopped player through the unavoidable line hit.",
+                                "t": ""
+                            },
+                            "25256": {
+                                "g": "Line AoE at each player in sequence. Move out unless you are stopped.",
+                                "d": "",
+                                "h": "Heal stopped players hit by the line.",
+                                "t": ""
+                            },
+                            "25257": {
+                                "g": "Tankbuster.",
+                                "d": "",
+                                "h": "Top and cover the tank.",
+                                "t": "Mitigate the tankbuster."
+                            }
+                        },
+                        "d": {}
+                    }
+                }
             },
             "703": {
                 "en": "The Tower of Zot",
-                "d": "...",
-                "h": "...",
-                "t": "..."
+                "st": [
+                    {
+                        "en": "The Magus Sisters",
+                        "g": "- Samsara is raid-wide damage.\n- Delta Attack changes by callout: glacial means Blizzard cones, thunderous means Thunder crosses and stack, insatiable means Fire donuts then spreads.\n- Minduruva casts the spell, Sanduruva buffs it with Faith and line AoEs, and Cinduruva reflects it from all three sisters.\n- Defeat Cinduruva first; she can revive fallen sisters.",
+                        "d": "- Focus Cinduruva first to stop revives and Delta Attacks.",
+                        "h": "- Samsara and Delta Attack sequences are heavy party damage.\n- Cleanse or heal Minduruva's debuffs between Delta Attacks.",
+                        "t": "- Keep the sisters controlled while avoiding Sanduruva line AoEs."
+                    }
+                ],
+                "c": {
+                    "13297": {
+                        "a": {
+                            "25259": {
+                                "g": "Reflect makes Delta Attack fire from all three sisters. Resolve the announced spell from each hitbox.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "25273": {
+                                "g": "Raid-wide damage.",
+                                "d": "",
+                                "h": "Heal raid-wide damage.",
+                                "t": ""
+                            }
+                        },
+                        "d": {}
+                    },
+                    "13298": {
+                        "a": {
+                            "25258": {
+                                "g": "Faith buffs the Delta Attack and adds large line AoEs. Avoid lines while resolving the spell pattern.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "25275": {
+                                "g": "Line AoE. Move out of the marker.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "25280": {
+                                "g": "Tankbuster.",
+                                "d": "",
+                                "h": "Top and cover the tank.",
+                                "t": "Mitigate the tankbuster."
+                            }
+                        },
+                        "d": {}
+                    },
+                    "13299": {
+                        "a": {
+                            "25260": {
+                                "g": "Delta Attack. Glacial means dodge Blizzard cones and glaciers; thunderous means dodge crosses and stack; insatiable means Fire donuts then spread.",
+                                "d": "",
+                                "h": "Prepare healing for the Delta Attack sequence.",
+                                "t": ""
+                            },
+                            "25261": {
+                                "g": "Delta Attack. Glacial means dodge Blizzard cones and glaciers; thunderous means dodge crosses and stack; insatiable means Fire donuts then spread.",
+                                "d": "",
+                                "h": "Prepare healing for the Delta Attack sequence.",
+                                "t": ""
+                            },
+                            "25262": {
+                                "g": "Delta Attack. Glacial means dodge Blizzard cones and glaciers; thunderous means dodge crosses and stack; insatiable means Fire donuts then spread.",
+                                "d": "",
+                                "h": "Prepare healing for the Delta Attack sequence.",
+                                "t": ""
+                            },
+                            "25281": {
+                                "g": "Damage-over-time on non-tanks.",
+                                "d": "",
+                                "h": "Cleanse or heal the DoT on non-tanks.",
+                                "t": ""
+                            },
+                            "25282": {
+                                "g": "Heavy tank hit.",
+                                "d": "",
+                                "h": "Keep the tank stable.",
+                                "t": "Mitigate the heavy hit."
+                            },
+                            "25287": {
+                                "g": "Heavy tank hit.",
+                                "d": "",
+                                "h": "Keep the tank stable.",
+                                "t": "Mitigate the heavy hit."
+                            },
+                            "25283": {
+                                "g": "Heavy tank hit.",
+                                "d": "",
+                                "h": "Keep the tank stable.",
+                                "t": "Mitigate the heavy hit."
+                            },
+                            "25288": {
+                                "g": "Heavy tank hit.",
+                                "d": "",
+                                "h": "Keep the tank stable.",
+                                "t": "Mitigate the heavy hit."
+                            },
+                            "25284": {
+                                "g": "Heavy tank hit.",
+                                "d": "",
+                                "h": "Keep the tank stable.",
+                                "t": "Mitigate the heavy hit."
+                            },
+                            "25289": {
+                                "g": "Heavy tank hit.",
+                                "d": "",
+                                "h": "Keep the tank stable.",
+                                "t": "Mitigate the heavy hit."
+                            }
+                        },
+                        "d": {}
+                    }
+                }
             }
         }
     },
@@ -13418,27 +13822,604 @@
             },
             "660": {
                 "en": "The Tower at Paradigm's Breach",
-                "d": "...",
-                "h": "...",
-                "t": "..."
+                "st": [
+                    {
+                        "en": "Knave of Hearts",
+                        "g": "- Colossal Impact has two patterns: open hands/red mouth hits the middle, fists/yellow glow hits both sides.\n- Replicate and Stacking the Deck mark clone attack order with cubes; the real boss goes first.\n- Spheroids create orb pressure while other mechanics resolve. Avoid contact.\n- Light Leap drops proximity hits and boxes; Lunge follows, so line up to be knocked into a box.\n- Later Lunge can overlap with clone Colossal Impact. Choose a box that also dodges the follow-up lines.",
+                        "d": "",
+                        "h": "- Roar is raid-wide damage.\n- Magic Artillery Beta hits alliance tanks; watch all three tanks.",
+                        "t": "- Magic Artillery Beta targets each alliance tank.\n- Position for Lunge knockback into a box without being pushed off."
+                    },
+                    {
+                        "en": "Hansel and Gretel",
+                        "g": "- Keep the bosses apart or they tether and share both upgrades.\n- Attack the shielded boss from the front; rear and flank hits are reflected.\n- Bloody Sweep safe spot depends on weapon position: inside weapons means far from bosses, outside weapons means between them.\n- Passing Lance charges through fireballs; stand in the fireball gap.\n- Breakthrough combines center proximity with a side cleave from the raised weapons.",
+                        "d": "- Swap targets or position at the shielded boss's front to avoid reflected damage.",
+                        "h": "- Wail and Lamentation are alliance-wide damage.\n- Seed of Magic Alpha spreads while Riot of Magic stacks.",
+                        "t": "- Keep Hansel and Gretel separated.\n- Crippling Blow is a tankbuster."
+                    }
+                ],
+                "c": {
+                    "12728": {
+                        "a": {
+                            "23801": {
+                                "g": "Clone attack order is marked by cubes. Resolve the real boss first, then clones in order.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "24228": {
+                                "g": "Colossal Impact pattern. Check the boss tell: middle line or side lines.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "24231": {
+                                "g": "Colossal Impact pattern. Check the boss tell: middle line or side lines.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "24776": {
+                                "g": "Colossal Impact pattern. Check the boss tell: middle line or side lines.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "24232": {
+                                "g": "Spheroids spawn orb hazards. Avoid contact while handling other mechanics.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "24233": {
+                                "g": "Clone appears on the side. Watch it for upcoming Colossal Impact.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "24234": {
+                                "g": "Player AoEs. Spread out; later Spheroids lines may overlap.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "24238": {
+                                "g": "Two proximity jumps and box spawns. Move close to the boss, then prepare for Lunge.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "24241": {
+                                "g": "Knockback. Line up so you are pushed into a white box, not off the arena.",
+                                "d": "",
+                                "h": "",
+                                "t": "Aim the knockback into a box."
+                            },
+                            "24242": {
+                                "g": "Alliance tankbusters.",
+                                "d": "",
+                                "h": "Watch all alliance tanks.",
+                                "t": "Mitigate your tankbuster."
+                            },
+                            "24245": {
+                                "g": "Raid-wide damage.",
+                                "d": "",
+                                "h": "Heal raid-wide damage.",
+                                "t": ""
+                            }
+                        },
+                        "d": {}
+                    },
+                    "12708": {
+                        "a": {
+                            "23636": {
+                                "g": "Bloody Sweep. Read weapon positions to find the safe side.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "23638": {
+                                "g": "Bloody Sweep. Read weapon positions to find the safe side.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "23642": {
+                                "g": "Moving discs are active. Avoid them while preparing for the next attack.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "23656": {
+                                "g": "This boss gains damage up. Keep the pair separated from the shielded boss.",
+                                "d": "",
+                                "h": "",
+                                "t": "Keep the bosses separated."
+                            },
+                            "23657": {
+                                "g": "Shield protects rear and flanks. Attack from the front only.",
+                                "d": "Attack from the front to avoid reflected damage.",
+                                "h": "",
+                                "t": "Face the shielded boss so the party can hit its front."
+                            },
+                            "23665": {
+                                "g": "Wide cones from both bosses. Move out of their facing directions.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "23667": {
+                                "g": "High alliance-wide damage after one boss dies.",
+                                "d": "",
+                                "h": "Heal repeated high raid damage.",
+                                "t": ""
+                            },
+                            "23670": {
+                                "g": "Raid-wide damage.",
+                                "d": "",
+                                "h": "Heal raid-wide damage.",
+                                "t": ""
+                            },
+                            "23672": {
+                                "g": "Tankbuster.",
+                                "d": "",
+                                "h": "Top and cover the tank.",
+                                "t": "Mitigate the tankbuster."
+                            },
+                            "23674": {
+                                "g": "Spread markers on four players while another player stacks. Spread unless you have the stack marker.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "23676": {
+                                "g": "Ground AoEs under six players. Move out.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "25016": {
+                                "g": "Tandem Bloody Sweep setup. Watch if the bosses swap, then read weapon sides.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "25018": {
+                                "g": "Breakthrough setup. Move far from center and away from the weapon-side cleave.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "25020": {
+                                "g": "Passing Lance setup. Find the fireball gap for the charge.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            }
+                        },
+                        "d": {}
+                    },
+                    "12709": {
+                        "a": {
+                            "23637": {
+                                "g": "Bloody Sweep. Read weapon positions to find the safe side.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "23639": {
+                                "g": "Bloody Sweep. Read weapon positions to find the safe side.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "23643": {
+                                "g": "Moving discs are active. Avoid them while preparing for the next attack.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "23658": {
+                                "g": "This boss gains damage up. Keep the pair separated from the shielded boss.",
+                                "d": "",
+                                "h": "",
+                                "t": "Keep the bosses separated."
+                            },
+                            "23659": {
+                                "g": "Shield protects rear and flanks. Attack from the front only.",
+                                "d": "Attack from the front to avoid reflected damage.",
+                                "h": "",
+                                "t": "Face the shielded boss so the party can hit its front."
+                            },
+                            "23666": {
+                                "g": "Wide cones from both bosses. Move out of their facing directions.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "23671": {
+                                "g": "Raid-wide damage.",
+                                "d": "",
+                                "h": "Heal raid-wide damage.",
+                                "t": ""
+                            },
+                            "23673": {
+                                "g": "Tankbuster.",
+                                "d": "",
+                                "h": "Top and cover the tank.",
+                                "t": "Mitigate the tankbuster."
+                            },
+                            "23675": {
+                                "g": "Stack marker while four players spread. Stack if marked, otherwise keep spreads apart.",
+                                "d": "",
+                                "h": "Heal the stack and spread damage.",
+                                "t": ""
+                            },
+                            "23677": {
+                                "g": "Ground AoEs under six players. Move out.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "25017": {
+                                "g": "Tandem Bloody Sweep setup. Watch if the bosses swap, then read weapon sides.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "25019": {
+                                "g": "Breakthrough setup. Move far from center and away from the weapon-side cleave.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "25021": {
+                                "g": "Passing Lance setup. Find the fireball gap for the charge.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            }
+                        },
+                        "d": {}
+                    }
+                }
             },
             "661": {
                 "en": "The Tower at Paradigm's Breach",
-                "d": "...",
-                "h": "...",
-                "t": "..."
+                "st": [
+                    {
+                        "en": "Red Girl",
+                        "g": "- Shockwave marks players white or black; use opposite-color barriers to break them in phase 1, and avoid overlaps in phase 2.\n- Generate: Barrier with arrows means place the same-color barrier between you and the incoming arrow.\n- Recreate Meteor needs same-color barriers between you and each meteor.\n- Replicate creates rotating red girls; stand behind one and rotate with it.\n- Child's Play forces movement left, right, or inward. Plan where you will end after Forced March.",
+                        "d": "",
+                        "h": "- Cruelty and Sublime Transcendence are heavy raid-wide damage.\n- Heal quickly before the hacking intermission, because healing is blocked during it.",
+                        "t": "- Manipulate Energy targets all alliance tanks."
+                    }
+                ],
+                "c": {
+                    "12987": {
+                        "a": {
+                            "24580": {
+                                "g": "Barrier mechanic. Use opposite-color barriers for Shockwave or same-color barriers for arrows/meteors.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "24586": {
+                                "g": "Rotating red girls. Pick one, stand behind it, and rotate with it.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "24590": {
+                                "g": "Player AoEs. Phase 1: break opposite-color barriers. Phase 2: spread and avoid overlaps.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "24594": {
+                                "g": "Heavy raid-wide damage.",
+                                "d": "",
+                                "h": "Heal heavy raid-wide damage.",
+                                "t": ""
+                            },
+                            "24600": {
+                                "g": "Alliance tankbusters.",
+                                "d": "",
+                                "h": "Watch all alliance tanks.",
+                                "t": "Mitigate your tankbuster."
+                            },
+                            "24903": {
+                                "g": "Meteor mechanic. Put same-color barriers between you and the matching meteor.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "25098": {
+                                "g": "Heavy phase-change raid-wide damage. Prepare for hacking intermission.",
+                                "d": "",
+                                "h": "Top the party quickly before healing is disabled.",
+                                "t": ""
+                            }
+                        },
+                        "d": {}
+                    },
+                    "12989": {
+                        "a": {
+                            "24581": {
+                                "g": "Barrier mechanic with gaps and arrows. Keep a same-color barrier between you and each incoming arrow.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "24590": {
+                                "g": "Player AoEs. Spread and avoid overlaps during Forced March sequences.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "24595": {
+                                "g": "Heavy raid-wide damage.",
+                                "d": "",
+                                "h": "Heal heavy raid-wide damage.",
+                                "t": ""
+                            },
+                            "24612": {
+                                "g": "Forced March tethers. Plan to end in a safe spot after moving left, right, or inward.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "24613": {
+                                "g": "Forced March tethers. Plan to end in a safe spot after moving left, right, or inward.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "24903": {
+                                "g": "Two meteors. Find the spot protected by both matching-color barriers after barrier lines resolve.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            }
+                        },
+                        "d": {}
+                    }
+                }
             },
             "662": {
                 "en": "The Tower at Paradigm's Breach",
-                "d": "...",
-                "h": "...",
-                "t": "..."
+                "st": [
+                    {
+                        "en": "Xun-Zi and Meng-Zi",
+                        "g": "- Deploy Armaments follows Knave rules: red hits the middle, yellow hits both sides.\n- Xun-Zi and Meng-Zi resolve their armament attacks one after another.\n- Move for the first pattern, then immediately adjust for the second.",
+                        "d": "",
+                        "h": "",
+                        "t": ""
+                    }
+                ],
+                "c": {
+                    "12693": {
+                        "a": {
+                            "23552": {
+                                "g": "Armament tell. Red means middle line; yellow means side lines.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "23553": {
+                                "g": "Armament tell. Red means middle line; yellow means side lines.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "23555": {
+                                "g": "Armament tell. Red means middle line; yellow means side lines.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            }
+                        },
+                        "d": {}
+                    },
+                    "12694": {
+                        "a": {
+                            "23552": {
+                                "g": "Armament tell. Red means middle line; yellow means side lines.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "23553": {
+                                "g": "Armament tell. Red means middle line; yellow means side lines.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "23555": {
+                                "g": "Armament tell. Red means middle line; yellow means side lines.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            }
+                        },
+                        "d": {}
+                    }
+                }
             },
             "663": {
                 "en": "The Tower at Paradigm's Breach",
-                "d": "...",
-                "h": "...",
-                "t": "..."
+                "st": [
+                    {
+                        "en": "False Idol",
+                        "g": "- Made Magic shows the wheel turning left or right; move to the opposite side.\n- Lighter Note drops directional AoEs on players; avoid their arrow paths.\n- Rhythm Rings fire beams where purple bullets fall. Move out of those lanes.\n- Darker Note marks all alliance tanks.",
+                        "d": "",
+                        "h": "- Screaming Score and Eminence are raid-wide damage.",
+                        "t": "- Darker Note marks all alliance tanks."
+                    },
+                    {
+                        "en": "Her Inflorescence",
+                        "g": "- Recreate Structure shows buildings under the transparent floor with countdown circles. Dodge where they rise.\n- Mixed Signals: stand on red signals to avoid trains.\n- Heavy Arms: pillar arms means middle safe; hugging the pillar means sides safe.\n- Distortion and The Final Song require matching your half-color to the falling ring.\n- Pillar Impact knocks from the first pillar into the second; position for both or use knockback immunity.",
+                        "d": "",
+                        "h": "- Screaming Score is raid-wide damage.\n- Be ready for damage around Final Song, towers, and train overlaps.",
+                        "t": "- Darker Note marks all alliance tanks."
+                    }
+                ],
+                "c": {
+                    "12685": {
+                        "a": {
+                            "23508": {
+                                "g": "Purple bullets mark beam lanes. Move out of the falling bullets.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "23510": {
+                                "g": "Wheel turns to one side. Move to the opposite side.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "23511": {
+                                "g": "Wheel turns to one side. Move to the opposite side.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "23512": {
+                                "g": "Directional player AoEs. Drop them safely and avoid the arrow paths.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "23515": {
+                                "g": "Alliance tank markers.",
+                                "d": "",
+                                "h": "Watch alliance tanks.",
+                                "t": "Spread from other tanks."
+                            },
+                            "23517": {
+                                "g": "Raid-wide damage.",
+                                "d": "",
+                                "h": "Heal raid-wide damage.",
+                                "t": ""
+                            },
+                            "23518": {
+                                "g": "Small falling AoEs. Keep moving out of puddles.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "24021": {
+                                "g": "Raid-wide damage and phase transition.",
+                                "d": "",
+                                "h": "Heal raid-wide damage.",
+                                "t": ""
+                            }
+                        },
+                        "d": {}
+                    },
+                    "12688": {
+                        "a": {
+                            "23520": {
+                                "g": "The floor becomes transparent. Look below for the next structure pattern.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "23521": {
+                                "g": "Buildings rise from below after countdowns. Dodge the marked areas.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "23523": {
+                                "g": "Train track mechanic. Watch the signals or train path.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "23524": {
+                                "g": "Stand on red signals to avoid incoming trains.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "23529": {
+                                "g": "Half-black, half-white player circles. Match your half-color to the falling ring.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "24664": {
+                                "g": "Half-black, half-white player circles. Match your half-color to the falling ring.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "23530": {
+                                "g": "Match your half-color to the falling ring in the center.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "23533": {
+                                "g": "Heavy Arms tell. Pillar arms means middle safe; hugging the pillar means sides safe.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "23534": {
+                                "g": "Heavy Arms tell. Pillar arms means middle safe; hugging the pillar means sides safe.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "23536": {
+                                "g": "Knockback from pillars. Stand by the first pillar so it pushes you toward the second.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "23566": {
+                                "g": "Knockback from pillars. Stand by the first pillar so it pushes you toward the second.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "23539": {
+                                "g": "Towers fall. Move out of their path.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "23541": {
+                                "g": "Raid-wide damage.",
+                                "d": "",
+                                "h": "Heal raid-wide damage.",
+                                "t": ""
+                            },
+                            "23562": {
+                                "g": "Alliance tank markers.",
+                                "d": "",
+                                "h": "Watch alliance tanks.",
+                                "t": "Spread from other tanks."
+                            },
+                            "23563": {
+                                "g": "Purple bullets mark beam lanes. Move out of the falling bullets.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "23564": {
+                                "g": "Directional player AoEs. Drop them safely and avoid the arrow paths.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            }
+                        },
+                        "d": {}
+                    }
+                }
             },
             "664": {
                 "en": "The Tower at Paradigm's Breach",
@@ -13454,9 +14435,56 @@
             },
             "669": {
                 "en": "The Tower at Paradigm's Breach",
-                "d": "...",
-                "h": "...",
-                "t": "..."
+                "st": [
+                    {
+                        "en": "Hacking Intermission",
+                        "g": "- Change color to oppose barriers and pylons so you can damage them.\n- Match the pulsing ground AoE color to survive Wave: Black or Wave: White.\n- Destroy pylons before returning damage to Red Sphere.",
+                        "d": "- Destroy White and Black Pylons quickly, then attack Red Sphere.",
+                        "h": "",
+                        "t": ""
+                    }
+                ],
+                "c": {
+                    "13031": {
+                        "a": {
+                            "24615": {
+                                "g": "Pylon explosion. Destroy pylons quickly during the hacking phase.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            }
+                        },
+                        "d": {}
+                    },
+                    "13032": {
+                        "a": {
+                            "24615": {
+                                "g": "Pylon explosion. Destroy pylons quickly during the hacking phase.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            }
+                        },
+                        "d": {}
+                    },
+                    "13033": {
+                        "a": {
+                            "24973": {
+                                "g": "Wave: White. Match white to survive the pulsing ground AoE.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "24974": {
+                                "g": "Wave: Black. Match black to survive the pulsing ground AoE.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            }
+                        },
+                        "d": {}
+                    }
+                }
             }
         }
     },
@@ -14589,9 +15617,70 @@
         "maps": {
             "731": {
                 "en": "The Sanguine Limbo",
-                "d": "...",
-                "h": "...",
-                "t": "..."
+                "st": [
+                    {
+                        "en": "Hesperos",
+                        "g": "- Pinax resolves by active quadrant: lightning is center proximity, water is center knockback, poison is spreads, lava is stack.\n- Setting the Stage reveals which elemental quadrant will power the next Pinax.\n- Direction Shift with sword is a huge cone from the marker; cloak is knockback from the marker, so stand in front of it.\n- For Belone Coils and Belone Bursts, take only meteors or orbs marked against a different role.\n- Hell Skewer is a frontal line AoE. Move out of the front.",
+                        "d": "",
+                        "h": "- Decollation and Bloodrake are raid-wide damage.\n- Pinax can force stack, spread, knockback, or proximity movement; prepare healing around overlaps.",
+                        "t": "- Elegant Evisceration is a tankbuster.\n- Keep Hesperos faced away for Hell Skewer."
+                    }
+                ],
+                "c": {
+                    "13826": {
+                        "a": {
+                            "27083": {
+                                "g": "Curtains reveal the elemental quadrant for the next Pinax. Note the active well.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "27087": {
+                                "g": "Resolve by active well: lightning to corner, water knockback, poison spread, lava stack.",
+                                "d": "",
+                                "h": "Prepare healing for Pinax movement and overlap damage.",
+                                "t": ""
+                            },
+                            "27101": {
+                                "g": "Role-blocked meteors. Soak a meteor that is not marked against your role.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "27200": {
+                                "g": "Raid-wide damage, then Belone mechanics.",
+                                "d": "",
+                                "h": "Heal raid-wide damage and prepare for the Belone follow-up.",
+                                "t": ""
+                            },
+                            "27212": {
+                                "g": "Direction Shift. Sword means dodge the huge cone; cloak means stand in front of the marker for knockback.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "27215": {
+                                "g": "Frontal line AoE. Move out of the boss's front.",
+                                "d": "",
+                                "h": "",
+                                "t": "Keep the frontal line away from the party."
+                            },
+                            "27216": {
+                                "g": "Tankbuster.",
+                                "d": "",
+                                "h": "Top and cover the tank.",
+                                "t": "Mitigate the tankbuster."
+                            },
+                            "27217": {
+                                "g": "Heavy raid-wide damage.",
+                                "d": "",
+                                "h": "Heal heavy raid-wide damage.",
+                                "t": ""
+                            }
+                        },
+                        "d": {}
+                    }
+                }
             }
         }
     },
@@ -17422,9 +18511,112 @@
         "maps": {
             "830": {
                 "en": "The Voidcast Dais",
-                "d": "...",
-                "h": "...",
-                "t": "..."
+                "st": [
+                    {
+                        "en": "Golbez",
+                        "g": "- You can fall off the arena edge.\n- Crescent Blade and Shadow Crescent are frontal cleaves; move behind, then watch for Shadow Crescent's point-blank follow-up.\n- Arctic Assault leaves two opposite quadrants safe; stand behind the arrows.\n- Lingering Spark baits circles under players. Keep moving.\n- Gale Sphere clones fire line AoEs in spawn order; solve the first two lanes, then move for the last two.",
+                        "d": "",
+                        "h": "- Binding Cold, Black Fang, and other major casts are raid-wide damage.\n- During the meteor phase, one healer gets knocked back and tethered; point the follow-up line away from the raid.\n- Eventide Fall targets each healer for shared line damage; split into light parties.",
+                        "t": "- Void Meteor is a multi-hit AoE tankbuster on both tanks.\n- Mitigate both-tank tankbusters and stay ready during raidwide-heavy sequences."
+                    }
+                ],
+                "c": {
+                    "16212": {
+                        "a": {
+                            "33886": {
+                                "g": "Opposite quadrants are safe. Stand behind the arrows.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "33910": {
+                                "g": "Phase or blade power-up. Watch for the next empowered mechanic.",
+                                "d": "",
+                                "h": "Prepare for heavy raid damage during the transition.",
+                                "t": ""
+                            },
+                            "34558": {
+                                "g": "Phase or blade power-up. Watch for the next empowered mechanic.",
+                                "d": "",
+                                "h": "Prepare for heavy raid damage during the transition.",
+                                "t": ""
+                            },
+                            "33970": {
+                                "g": "Raid-wide damage plus Frostbite damage-over-time.",
+                                "d": "",
+                                "h": "Heal raid-wide damage and Frostbite ticks.",
+                                "t": ""
+                            },
+                            "33905": {
+                                "g": "Raid-wide damage.",
+                                "d": "",
+                                "h": "Heal raid-wide damage.",
+                                "t": ""
+                            },
+                            "33899": {
+                                "g": "Frontal 180-degree cleave toward a player. Move behind the boss.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "33972": {
+                                "g": "Two proximity meteors. Move to the opposite side to reduce damage.",
+                                "d": "",
+                                "h": "Heal the proximity damage.",
+                                "t": ""
+                            },
+                            "33922": {
+                                "g": "Healer line shares. Split into light parties to share each line.",
+                                "d": "",
+                                "h": "You are targeted for shared line damage. Split into light parties.",
+                                "t": ""
+                            },
+                            "33923": {
+                                "g": "Healer line shares. Split into light parties to share each line.",
+                                "d": "",
+                                "h": "You are targeted for shared line damage. Split into light parties.",
+                                "t": ""
+                            },
+                            "33869": {
+                                "g": "Clones fire line AoEs in spawn order. Find safe lanes for the first two, then move for the last two.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "33895": {
+                                "g": "Baited circle AoEs under players. Move away from each drop.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "33927": {
+                                "g": "Empowered frontal cleave. Move behind, then avoid the brief point-blank follow-up.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "33891": {
+                                "g": "A rock explodes in a corner. Move away from it.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "33964": {
+                                "g": "Multi-hit AoE tankbusters on both tanks.",
+                                "d": "",
+                                "h": "Keep both tanks covered through repeated hits.",
+                                "t": "Mitigate the multi-hit tankbuster."
+                            },
+                            "33955": {
+                                "g": "Opposite corner circles. Move down the platform edges, then return through the center.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            }
+                        },
+                        "d": {}
+                    }
+                }
             }
         }
     },
@@ -20994,9 +22186,106 @@
         "maps": {
             "924": {
                 "en": "The Thundering",
-                "d": "...",
-                "h": "...",
-                "t": "..."
+                "st": [
+                    {
+                        "en": "Wicked Thunder",
+                        "g": "- You can fall off the arena. Avoidable hits usually add Vulnerability Up or Sustained Damage.\n- Sidewise Spark is a half-room cleave from the boss or clone; the tail points toward the safe side.\n- For cannon phases, move to the one safe column, then dodge Threefold, Fourfold, or Fivefold Blast half-room cleaves from the cannon side markers.\n- Bewitching Flight leaves thin lightning lines. Let one explode, then move into where it was.\n- Witch Hunt spirals inward or outward; start mid/edge based on the pattern and dodge through the resolved layer.",
+                        "d": "",
+                        "h": "- Wrath of Zeus is raid-wide magical damage.\n- Wicked Bolt and Wicked Hypercannon need mitigation and sustained healing.\n- Watch for Thunderstorm spread overlaps after later cannon sequences.",
+                        "t": "- Wicked Jolt is a line AoE magical tankbuster.\n- Wicked Bolt is a five-hit stack; stay with the party unless assigned otherwise."
+                    }
+                ],
+                "c": {
+                    "16995": {
+                        "a": {
+                            "35334": {
+                                "g": "Cannon hits three columns, then destroys that ground. Move to the one safe column.",
+                                "d": "",
+                                "h": "Heal through the multi-hit cannon damage if players are clipped.",
+                                "t": ""
+                            },
+                            "36326": {
+                                "g": "Thin wing lines leave electricity that later expands. Wait for one line to explode, then move into it.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "37550": {
+                                "g": "Cannon phase. Identify the three threatened columns and move to the safe one.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "39852": {
+                                "g": "Cannon phase. Identify the three threatened columns and move to the safe one.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "37552": {
+                                "g": "Three sequential half-room cleaves from the cannon side markers. Dodge each side in order.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "39765": {
+                                "g": "Four sequential half-room cleaves from the cannon side markers. Dodge each side in order.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "37553": {
+                                "g": "Persistent split-damage line across the remaining platform. Stack, mitigate, and heal through.",
+                                "d": "",
+                                "h": "Heal sustained soft-enrage damage.",
+                                "t": "Mitigate and stay stacked for split damage."
+                            },
+                            "37554": {
+                                "g": "Persistent split-damage line across the remaining platform. Stack, mitigate, and heal through.",
+                                "d": "",
+                                "h": "Heal sustained soft-enrage damage.",
+                                "t": "Mitigate and stay stacked for split damage."
+                            },
+                            "37564": {
+                                "g": "Half-room cleave. Move to the safe side; the tail points toward safety.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "37566": {
+                                "g": "Half-room cleave. Move to the safe side; the tail points toward safety.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "37570": {
+                                "g": "Five-hit stack AoE. Stack with the party and mitigate.",
+                                "d": "",
+                                "h": "Heal repeated stack hits.",
+                                "t": "Stay stacked and mitigate repeated hits."
+                            },
+                            "37575": {
+                                "g": "Raid-wide magical damage.",
+                                "d": "",
+                                "h": "Heal raid-wide magical damage.",
+                                "t": ""
+                            },
+                            "37576": {
+                                "g": "Line AoE magical tankbuster.",
+                                "d": "",
+                                "h": "Top and cover the tank.",
+                                "t": "Mitigate the line tankbuster."
+                            },
+                            "39871": {
+                                "g": "Clone sequence. Watch each clone's Sidewise Spark and dodge the half-room cleaves in order.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            }
+                        },
+                        "d": {}
+                    }
+                }
             }
         }
     },
@@ -21600,6 +22889,182 @@
                                 "g": "Line AoEs cascade outward from cardinal telegraphs. Move after the first lines resolve.",
                                 "d": "",
                                 "h": "",
+                                "t": ""
+                            }
+                        },
+                        "d": {}
+                    }
+                }
+            }
+        }
+    },
+    "1242": {
+        "en": "Yuweyawata Field Station",
+        "maps": {
+            "943": {
+                "en": "Yuweyawata Field Station",
+                "st": [
+                    {
+                        "en": "Lindblum Zaghnal",
+                        "g": "- Caber Toss launches the charged crystal to a new spot; dodge the crystal lines, then move away from the landing AoE.\n- Lightning Storm marks every player with spread AoEs after the crystal line AoEs.\n- When Raw Electrope adds appear, kill the ones with fuller progress bars before Electrify finishes.\n- Gore can channel electricity through the crystal or the floor, setting up either line AoEs or repeated party damage.",
+                        "d": "- Prioritize Raw Electrope adds with higher progress bars.",
+                        "h": "- Electrical Overload and Sparking Fissure are party-wide magical damage.\n- Be ready if an Electrope finishes Electrify and applies Magic Vulnerability Up.",
+                        "t": ""
+                    }
+                ],
+                "c": {
+                    "17985": {
+                        "a": {
+                            "40624": {
+                                "g": "Crystal mechanic. Dodge the line AoEs from the crystal, then move away from where the boss throws it.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "40635": {
+                                "g": "Party-wide magical damage.",
+                                "d": "",
+                                "h": "Heal party-wide magical damage.",
+                                "t": ""
+                            },
+                            "40630": {
+                                "g": "Gore charges the next electrical sequence. Watch the crystal or floor for the follow-up pattern.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "41266": {
+                                "g": "Gore charges the next electrical sequence. Watch the crystal or floor for the follow-up pattern.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "40636": {
+                                "g": "Spread markers on all players. Spread out after the crystal line AoEs.",
+                                "d": "",
+                                "h": "Heal the spread damage.",
+                                "t": ""
+                            },
+                            "40632": {
+                                "g": "Party-wide magical damage during the Electrope sequence.",
+                                "d": "",
+                                "h": "Heal repeated party-wide magical damage.",
+                                "t": ""
+                            }
+                        },
+                        "d": {}
+                    }
+                }
+            },
+            "944": {
+                "en": "Yuweyawata Field Station",
+                "st": [
+                    {
+                        "en": "Overseer Kanilokka",
+                        "g": "- Free Spirits adds a dangerous edge AoE; stay out of the border.\n- Phantom Flood is a donut AoE that shrinks the arena into a small circle.\n- Dark II fires alternating cone sets; dodge into the first safe gaps, then move as the second set appears.\n- Lost Hope gives Temporary Misdirection; move carefully with the spinning hand.\n- For Necrohazard, use the curved paths to reach the wall and reduce proximity damage.",
+                        "d": "",
+                        "h": "- Free Spirits and Bloodburst are party-wide magical damage.\n- Heal quickly after players touch the edge during Necrohazard, because the bleed can make the proximity hit lethal.",
+                        "t": "- Dark Souls is a magical tankbuster."
+                    }
+                ],
+                "c": {
+                    "17994": {
+                        "a": {
+                            "40647": {
+                                "g": "Party-wide magical damage.",
+                                "d": "",
+                                "h": "Heal party-wide magical damage.",
+                                "t": ""
+                            },
+                            "40654": {
+                                "g": "Alternating cone AoEs. Stand in a gap, then move into the first resolved area.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "40655": {
+                                "g": "Alternating cone AoEs. Stand in a gap, then move into the first resolved area.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "40658": {
+                                "g": "Magical tankbuster.",
+                                "d": "",
+                                "h": "Top and cover the tank.",
+                                "t": "Mitigate the magical tankbuster."
+                            },
+                            "40639": {
+                                "g": "Party-wide magical damage and dangerous edge AoE. Stay inside the arena.",
+                                "d": "",
+                                "h": "Heal party-wide magical damage.",
+                                "t": ""
+                            },
+                            "40645": {
+                                "g": "Temporary Misdirection. Move carefully according to the spinning hand.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "40643": {
+                                "g": "Donut AoE that shrinks the arena. Move inside the safe ring and prepare for tight dodging.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            }
+                        },
+                        "d": {}
+                    }
+                }
+            },
+            "945": {
+                "en": "Yuweyawata Field Station",
+                "st": [
+                    {
+                        "en": "Lunipyati",
+                        "g": "- Raging Claw is a late multi-hit 180-degree cleave toward a player; get behind the boss.\n- For curved orange lines, dodge the spiraling Leaping Earth AoEs. On the long spiral, start near the wall and move inward.\n- For red arrow patterns, avoid the sandworm paths and the arrow ends, then spread for Jagged Edge.\n- After Crater Carve, the middle is gone. Avoid gap closers across the hole.\n- Beastly Roar is center proximity followed by rotating ring AoEs; move far, then dodge opposite the rotation.",
+                        "d": "",
+                        "h": "- Leporine Loaf and Sonic Howl are party-wide magical damage.\n- Heal the stack marker after the post-Crater Raging Claw spread markers.",
+                        "t": "- Slabber is a magical tankbuster."
+                    }
+                ],
+                "c": {
+                    "17996": {
+                        "a": {
+                            "40610": {
+                                "g": "Proximity AoE at the boss, then rotating ring AoEs. Move far away, then dodge opposite the rotation.",
+                                "d": "",
+                                "h": "Heal proximity damage and be ready for anyone hit by rotating AoEs.",
+                                "t": ""
+                            },
+                            "40604": {
+                                "g": "The middle of the arena will break. Move out and avoid gap closers across the hole afterward.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "40603": {
+                                "g": "Party-wide magical damage and dangerous edge AoE. Stay inside the reduced arena.",
+                                "d": "",
+                                "h": "Heal party-wide magical damage.",
+                                "t": ""
+                            },
+                            "40612": {
+                                "g": "Late multi-hit 180-degree cleave toward a player. Get behind the boss.",
+                                "d": "",
+                                "h": "",
+                                "t": ""
+                            },
+                            "40619": {
+                                "g": "Magical tankbuster.",
+                                "d": "",
+                                "h": "Top and cover the tank.",
+                                "t": "Mitigate the magical tankbuster."
+                            },
+                            "40618": {
+                                "g": "Party-wide magical damage.",
+                                "d": "",
+                                "h": "Heal party-wide magical damage.",
                                 "t": ""
                             }
                         },
