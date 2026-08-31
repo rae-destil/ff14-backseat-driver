@@ -1,0 +1,4 @@
+interface:
+  display_name: "Territory Log Entry Bootstrap"
+  short_description: "Extract maps and enemies for a territory"
+  default_prompt: "Extract deterministic map, enemy, and action evidence for a territory ID from the BackseatDriver log."
